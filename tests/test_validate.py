@@ -17,13 +17,13 @@ class ValidatorTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name) / 'repo'
         shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns('__pycache__', '.git'))
-        self.data = json.loads((self.root / 'data/experiments.json').read_text())
+        self.data = json.loads((self.root / 'data/experiments.json').read_text(encoding='utf-8'))
 
     def tearDown(self):
         self.tmp.cleanup()
 
     def write_data(self):
-        (self.root / 'data/experiments.json').write_text(json.dumps(self.data))
+        (self.root / 'data/experiments.json').write_text(json.dumps(self.data), encoding='utf-8')
 
     def rejected(self, fragment):
         self.assertTrue(any(fragment in error for error in v.validate(self.root)), fragment)
@@ -77,44 +77,44 @@ class ValidatorTests(unittest.TestCase):
 
     def test_missing_readme_entry(self):
         p = self.root / 'README.md'
-        p.write_text(p.read_text().replace(self.data[0]['file_path'], 'absent.md'))
+        p.write_text(p.read_text(encoding='utf-8').replace(self.data[0]['file_path'], 'absent.md'), encoding='utf-8')
         self.rejected('README category link')
 
     def test_missing_section(self):
         p = self.root / self.data[0]['file_path']
-        p.write_text(p.read_text().replace('## 1. The Scenario', '## Removed'))
+        p.write_text(p.read_text(encoding='utf-8').replace('## 1. The Scenario', '## Removed'), encoding='utf-8')
         self.rejected('missing section 1')
 
     def test_broken_local_link(self):
         p = self.root / 'README.md'
-        p.write_text(p.read_text() + '\n[Broken](no-such-file.md)\n')
+        p.write_text(p.read_text(encoding='utf-8') + '\n[Broken](no-such-file.md)\n', encoding='utf-8')
         self.rejected('broken local link')
 
     def test_broken_anchor(self):
         p = self.root / 'README.md'
-        p.write_text(p.read_text() + '\n[Broken](README.md#absent-heading)\n')
+        p.write_text(p.read_text(encoding='utf-8') + '\n[Broken](README.md#absent-heading)\n', encoding='utf-8')
         self.rejected('broken heading link')
 
     def test_invalid_json(self):
-        (self.root / 'data/experiments.json').write_text('{')
+        (self.root / 'data/experiments.json').write_text('{', encoding='utf-8')
         self.rejected('JSON read error')
 
     def test_article_metadata_mismatch(self):
         p = self.root / self.data[0]['file_path']
-        p.write_text(p.read_text().replace('**Difficulty:** ' + self.data[0]['difficulty'], '**Difficulty:** Unknown'))
+        p.write_text(p.read_text(encoding='utf-8').replace('**Difficulty:** ' + self.data[0]['difficulty'], '**Difficulty:** Unknown'), encoding='utf-8')
         self.rejected('article difficulty metadata mismatch')
 
     def test_empty_section(self):
         p = self.root / self.data[0]['file_path']
-        text = p.read_text()
+        text = p.read_text(encoding='utf-8')
         start = text.index('## 2. The Central Question')
         end = text.index('## 3. Why It Matters')
-        p.write_text(text[:start] + '## 2. The Central Question\n\n' + text[end:])
+        p.write_text(text[:start] + '## 2. The Central Question\n\n' + text[end:], encoding='utf-8')
         self.rejected('empty section 2')
 
     def test_unlisted_article(self):
         p = self.root / 'experiments/ethics/unlisted.md'
-        p.write_text('# Unlisted')
+        p.write_text('# Unlisted', encoding='utf-8')
         self.rejected('article/dataset mismatch')
 
 

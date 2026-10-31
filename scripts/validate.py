@@ -96,8 +96,8 @@ def validate(root=ROOT):
     root = Path(root).resolve()
     errors = []
     try:
-        data = json.loads((root / 'data/experiments.json').read_text())
-        schema = json.loads((root / 'data/schema.json').read_text())
+        data = json.loads((root / 'data/experiments.json').read_text(encoding='utf-8'))
+        schema = json.loads((root / 'data/schema.json').read_text(encoding='utf-8'))
     except (OSError, ValueError) as exc:
         return [f'JSON read error: {exc}']
     errors += schema_check(data, schema)
@@ -109,7 +109,7 @@ def validate(root=ROOT):
         values = [e[field] for e in data]
         if len(set(values)) != len(values):
             errors.append(f'duplicate {field}')
-    readme = (root / 'README.md').read_text() if (root / 'README.md').exists() else ''
+    readme = (root / 'README.md').read_text(encoding='utf-8') if (root / 'README.md').exists() else ''
     readme_links = [unquote(x.split('#')[0]) for x in LINK.findall(readme)]
     for e in data:
         name = e['id']
@@ -125,7 +125,7 @@ def validate(root=ROOT):
         if not p.is_file():
             errors.append(f'{name}: missing article')
             continue
-        body = p.read_text()
+        body = p.read_text(encoding='utf-8')
         if body.splitlines()[0].strip() != '# ' + e['title']:
             errors.append(f'{name}: title mismatch')
         for label, field in (('Category', 'category'), ('Difficulty', 'difficulty')):
@@ -162,7 +162,7 @@ def validate(root=ROOT):
     if listed != set(paths):
         errors.append('README/dataset article set mismatch')
     for p in root.rglob('*.md'):
-        content = p.read_text()
+        content = p.read_text(encoding='utf-8')
         for dest in LINK.findall(content):
             try:
                 u = urlsplit(dest)
@@ -176,7 +176,7 @@ def validate(root=ROOT):
             target = (p.parent / unquote(u.path)).resolve() if u.path else p
             if not target.is_relative_to(root) or not target.exists():
                 errors.append(f'{p.relative_to(root)}: broken local link {dest}')
-            elif u.fragment and target.suffix == '.md' and unquote(u.fragment) not in anchors(target.read_text()):
+            elif u.fragment and target.suffix == '.md' and unquote(u.fragment) not in anchors(target.read_text(encoding='utf-8')):
                 errors.append(f'{p.relative_to(root)}: broken heading link {dest}')
     return errors
 
@@ -186,5 +186,5 @@ if __name__ == '__main__':
     if problems:
         print('\n'.join('ERROR: ' + e for e in problems))
         sys.exit(1)
-    entries = json.loads((ROOT / 'data/experiments.json').read_text())
+    entries = json.loads((ROOT / 'data/experiments.json').read_text(encoding='utf-8'))
     print(f'PASS: {len(entries)} entries; JSON schema, article sections, metadata, references, README, and local links checked. External URLs checked for syntax only.')

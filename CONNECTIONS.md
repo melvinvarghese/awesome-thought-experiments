@@ -104,6 +104,126 @@ A maximizer scenario explores consequences of an objective under strong capabili
 
 Galileo’s argument pressures a claim about weight and falling speed; Darwin’s imagined examples test the intelligibility of gradual change. Physical contradiction, biological plausibility, and historical evidence are different forms of support.
 
+## Sense, reference, and the environment
+
+[Hesperus and Phosphorus](experiments/logic/hesperus-and-phosphorus.md) ↔ [Twin Earth](experiments/consciousness/twin-earth.md)
+
+Frege’s puzzle shows that a name carries more than its referent; Twin Earth shows that the referent may depend on facts outside the speaker’s head. A theory of meaning has to respect both, and the two puzzles can pull in different directions.
+
+## Meaning underdetermined by use
+
+[Quine’s Gavagai](experiments/logic/gavagai.md) ↔ [Kripke’s Quus](experiments/logic/quus-rule-following.md) ↔ [Beetle in a Box](experiments/consciousness/beetle-in-box.md)
+
+All three ask what fixes the meaning of a word when behaviour is finite. Quine concerns translation between speakers, Kripke the meaning that one speaker attaches to a rule, and Wittgenstein’s beetle a private object. Their conclusions differ, and treating them as one argument hides the differences.
+
+## Projecting a pattern
+
+[Goodman’s Grue](experiments/epistemology/grue.md) ↔ [Kripke’s Quus](experiments/logic/quus-rule-following.md)
+
+Both use a gerrymandered predicate that fits all past data and diverges later. Goodman asks which generalizations evidence supports; Kripke asks which rule a speaker has been following. The structure is shared, but the targets are induction in one case and meaning in the other.
+
+## What counts as evidence
+
+[Hempel’s Ravens](experiments/epistemology/ravens-paradox.md) ↔ [Goodman’s Grue](experiments/epistemology/grue.md)
+
+Hempel’s case challenges the idea that confirmation depends on logical form alone; Goodman’s shows that the choice of predicates matters. Together they suggest that evidence is always relative to background knowledge and a choice of vocabulary.
+
+## Self-reference and unknowability
+
+[The Grelling–Nelson Paradox](experiments/logic/grelling-nelson-paradox.md) ↔ [Russell’s Paradox](experiments/logic/russells-paradox.md) ↔ [Fitch’s Paradox of Knowability](experiments/logic/knowability-paradox.md)
+
+Grelling–Nelson is a predicate version of Russell’s set paradox. Fitch’s argument uses a different kind of self-application: a truth that no one knows. The first two call for restricting definitions; the third calls for rethinking a thesis about truth and knowledge.
+
+## Skeptical scenarios and the reply of common sense
+
+[The Simulation Argument](experiments/epistemology/simulation-argument.md) ↔ [Brain in a Vat](experiments/epistemology/brain-in-a-vat.md) ↔ [Moore’s “Here Is One Hand”](experiments/epistemology/moores-proof-of-an-external-world.md)
+
+The vat is a stipulated deception; the simulation argument adds probabilistic reasoning about the future. Moore replies to such scenarios by insisting that his everyday knowledge is more certain than the premises used against it. Whether that reply is satisfying is what separates the positions.
+
+## Closure and skepticism
+
+[The Cleverly Disguised Mule](experiments/epistemology/disguised-mule.md) ↔ [Fake-Barn Country](experiments/epistemology/fake-barn.md)
+
+Both place a true perceptual belief in an environment where an alternative cannot be excluded. Dretske’s mule is about whether knowledge is closed under known entailment; the fake barn is about whether safety against nearby error is required. The cases test different principles.
+
+## Infinity and completed tasks
+
+[Zeno’s Dichotomy](experiments/logic/zenos-dichotomy.md) ↔ [Thomson’s Lamp](experiments/mathematics/thomsons-lamp.md) ↔ [Galileo’s Paradox of the Infinite](experiments/mathematics/galileos-paradox.md)
+
+Zeno asks whether an infinite series of steps can be completed; Thomson asks what state results; Galileo asks whether an infinite collection can match a part of itself. The mathematics of limits and cardinality answers some versions and leaves the physical and philosophical questions open.
+
+## Motion and the frame of reference
+
+[Galileo’s Ship](experiments/physics/galileos-ship.md) ↔ [Newton’s Bucket](experiments/physics/newtons-bucket.md) ↔ [Einstein’s Train](experiments/physics/einsteins-train.md)
+
+Galileo shows that uniform motion is undetectable by local experiments. Newton argues that rotation, by contrast, is detectable and so requires something more than relative motion. Einstein shows that even simultaneity depends on the observer’s motion. Each rejects a different assumption about what is absolute.
+
+## Symmetry and determinism in physics
+
+[The Hole Argument](experiments/physics/hole-argument.md) ↔ [Loschmidt’s Reversibility Objection](experiments/physics/loschmidt-reversibility.md)
+
+The hole argument asks whether the symmetries of a theory leave the future undetermined. Loschmidt asks how time-symmetric laws can yield an arrow of time. In both, a formal property of the laws has consequences that are not obvious at first sight.
+
+## Fate and the open future
+
+[The Idle Argument](experiments/time-and-causality/idle-argument.md) ↔ [Aristotle’s Sea Battle](experiments/time-and-causality/sea-battle.md)
+
+The idle argument reasons from what will happen to what we should do; the sea battle reasons from what is true now to what must happen. Both resist fatalism by identifying a step that confuses truth with necessity or fate with independence from our actions.
+
+## Manipulation and responsibility
+
+[Pereboom’s Four-Case Argument](experiments/time-and-causality/four-case-argument.md) ↔ [Frankfurt Cases](experiments/time-and-causality/frankfurt-cases.md)
+
+Frankfurt’s cases test whether alternatives are needed for responsibility; Pereboom’s ask whether the history of an agent’s motives matters. A view can accept the first without accepting the conclusion of the second, so the two should be considered separately.
+
+## Luck, outcomes, and responsibility
+
+[Williams’s Lorry Driver](experiments/ethics/lorry-driver.md) ↔ [Frankfurt Cases](experiments/time-and-causality/frankfurt-cases.md)
+
+The driver’s case shows outcomes affecting how we assess a person; Frankfurt’s cases show the possibility of responsibility without alternatives. Both put pressure on the idea that responsibility tracks only what is in the agent’s control.
+
+## Integrity, doing, and allowing
+
+[Jim and the Captain](experiments/ethics/jim-and-the-captain.md) ↔ [Smith and Jones](experiments/ethics/smith-and-jones-bathtub.md) ↔ [The Terror Bomber and the Tactical Bomber](experiments/ethics/terror-and-tactical-bomber.md)
+
+Jim asks whether an agent’s own agency matters; Smith and Jones whether acting differs from allowing; the bombers whether intending differs from foreseeing. Each isolates a distinction that deontological views use and consequentialists question.
+
+## Coincidence and counting
+
+[Lumpl and Goliath](experiments/identity/statue-and-clay.md) ↔ [Dion and Theon](experiments/identity/dion-and-theon.md) ↔ [The Problem of the Many](experiments/identity/problem-of-the-many.md)
+
+These puzzles all concern when we have one object and when more. Lumpl and Goliath concern matter shared by two apparent things, Dion and Theon the removal of a part, and the problem of the many the fuzzy edge of a single thing. Solutions that work for one can fail for another.
+
+## Trust versus temptation
+
+[The Stag Hunt](experiments/economics/stag-hunt.md) ↔ [The Prisoner’s Dilemma](experiments/economics/prisoners-dilemma.md)
+
+In the dilemma, defection is tempting whatever the other does; in the stag hunt, cooperation is best if the other cooperates. The first calls for changing incentives, the second for building assurance, so the same word “cooperation” hides different problems.
+
+## Combining preferences
+
+[The Condorcet Paradox](experiments/society-and-justice/condorcet-paradox.md) ↔ [Arrow’s Impossibility Theorem](experiments/society-and-justice/arrows-impossibility-theorem.md) ↔ [Sen’s Paradox of the Paretian Liberal](experiments/society-and-justice/sens-liberal-paradox.md)
+
+Condorcet gives an example of a cycle, Arrow generalizes it to a theorem, and Sen shows a conflict between liberty and efficiency. They are three stages of the same theme: no procedure for aggregating preferences is free of cost.
+
+## Tiny probabilities and large stakes
+
+[Pascal’s Wager](experiments/economics/pascals-wager.md) ↔ [Pascal’s Mugging](experiments/economics/pascals-mugging.md) ↔ [The St. Petersburg Paradox](experiments/mathematics/st-petersburg-paradox.md)
+
+Each uses an unbounded or very large payoff to strain expected-value maximization. The wager invokes an infinite reward, the mugging an exploitable promise, and the St. Petersburg game an infinite expected value from a finite game. Responses such as bounded utility apply differently to each.
+
+## Behaviour, structure, and meaning in machines
+
+[Blockhead](experiments/artificial-intelligence/blockhead.md) ↔ [The Chinese Room](experiments/consciousness/chinese-room.md) ↔ [The Symbol Grounding Problem](experiments/artificial-intelligence/symbol-grounding.md)
+
+Blockhead says that behaviour alone does not show intelligence; Searle says that symbol manipulation alone does not show understanding; Harnad asks what could connect symbols to the world. Each identifies a different missing ingredient.
+
+## Design and explanation
+
+[Paley’s Watch](experiments/science-and-biology/paleys-watch.md) ↔ [Darwin’s Imagined Gradations of the Eye](experiments/science-and-biology/darwins-eye.md) ↔ [Leslie’s Firing Squad](experiments/science-and-biology/leslies-firing-squad.md)
+
+Paley infers design from adaptation, Darwin proposes a natural route to adaptation, and Leslie asks whether our existence removes the need to explain a rare cosmic condition. The second answers the first for biology and does not automatically answer the third.
+
 ## A compact conceptual map
 
 ```mermaid

@@ -1,32 +1,25 @@
-# Upload to GitHub
+# Getting started
 
-1. Extract `awesome-thought-experiments.zip` on your computer.
-2. Create a new **public** GitHub repository named `awesome-thought-experiments`. Leave the automatic README/license options off because these files are included.
-3. Upload the **contents inside** the extracted `awesome-thought-experiments` folder. `README.md`, `experiments`, `data`, and `.github` must be at the repository root, not inside another nested folder. Web uploads may need multiple batches; the command-line route below preserves all files, including `.github`.
-4. Commit the files. Open the repository homepage and follow several README links.
-5. Open **Actions** and look for the **Validate collection** workflow. If Actions is disabled for the repository, enable it in repository settings, then make a commit or run the workflow manually. Successful validation checks local structure, not the truth of every claim or the continued availability of external pages.
-6. Optionally enable Discussions under repository settings. Set a private reporting route in the code of conduct before growing a community.
+This guide covers working on the collection from a local clone. Small corrections can also be made in GitHub’s web editor; see [CONTRIBUTING.md](CONTRIBUTING.md) for the research and writing standards.
 
-## Optional command-line upload
+## Set up
 
-Run these commands **inside the extracted folder** after installing Git. Replace YOUR-USERNAME with your GitHub username. GitHub handles authentication; no connection to ChatGPT is needed.
+1. Clone the repository and open the folder in a terminal.
+2. Install Python 3.10 or later. On Windows, install it from [python.org](https://www.python.org/downloads/) or the Microsoft Store and confirm that `python` runs in a new terminal window. No third-party packages are needed.
 
-```bash
-git init
-git add .
-git commit -m "Add thought experiment collection"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/awesome-thought-experiments.git
-git push -u origin main
-```
+## Check your changes
 
-No GitHub Pages, backend, database, API key, or paid service is required. Once downloaded, original articles and learning paths can also be read offline; external further-reading links need internet access.
-
-## Local checks
+Run these from the repository root. On Windows, use `python` or `py` in place of `python3` if that is the command your installation provides.
 
 ```bash
 python3 scripts/validate.py
 python3 -m unittest discover -s tests
 ```
 
-Both commands use Python 3.10+ and its standard library. See [QUALITY_REPORT.md](QUALITY_REPORT.md) for actual production checks and limitations.
+The validator checks the dataset against its schema, the ten numbered article sections, article metadata, references, related-entry links, README entries and local links. It does not contact external websites and cannot judge whether an explanation is philosophically sound. Read a new article as a learner would before submitting it.
+
+The same checks run on every push and pull request through the **Validate collection** workflow under the repository’s **Actions** tab. Successful validation checks local structure, not the truth of every claim or the continued availability of external pages.
+
+## Add an entry
+
+Follow [CONTRIBUTING.md](CONTRIBUTING.md): write the article with all ten sections, add its record to `data/experiments.json`, add it to the category list in the README, link any related entries both in the dataset and in the article, and add a note on what you inspected to a file in `research/`. See [QUALITY_REPORT.md](QUALITY_REPORT.md) for the checks performed on the current collection and its limitations.

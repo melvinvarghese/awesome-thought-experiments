@@ -2640,5 +2640,1922 @@
       }
     ],
     "date_verified": "2026-10-30"
+  },
+  {
+    "id": "lorry-driver",
+    "slug": "lorry-driver",
+    "title": "Williams’s Lorry Driver and Moral Luck",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Bernard Williams",
+      "Thomas Nagel"
+    ],
+    "original_publication": "Williams and Nagel, “Moral Luck” (Proceedings of the Aristotelian Society, Supplementary Volume, 1976)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "moral luck",
+      "responsibility",
+      "agent-regret"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Moral Luck",
+        "url": "https://plato.stanford.edu/entries/moral-luck/",
+        "kind": "academic",
+        "support": "Williams’s lorry-driver example, the Williams–Nagel symposium, and the main responses to moral luck."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "trolley",
+      "frankfurt-cases"
+    ],
+    "file_path": "experiments/ethics/lorry-driver.md",
+    "summary": "Can what happens, partly by chance, change how an agent should be morally assessed or how the agent should feel about their own conduct?"
+  },
+  {
+    "id": "jim-and-the-captain",
+    "slug": "jim-and-the-captain",
+    "title": "Jim and the Captain (the Integrity Objection)",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Bernard Williams",
+      "J. J. C. Smart"
+    ],
+    "original_publication": "Smart and Williams, Utilitarianism: For and Against (1973), Williams’s part",
+    "difficulty": "Intermediate",
+    "themes": [
+      "integrity",
+      "consequentialism",
+      "responsibility"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Bernard Williams",
+        "url": "https://plato.stanford.edu/entries/williams-bernard/",
+        "kind": "academic",
+        "support": "Williams’s critique of utilitarianism, including the Jim case and the integrity objection."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Consequentialism",
+        "url": "https://plato.stanford.edu/entries/consequentialism/",
+        "kind": "academic",
+        "support": "Background on consequentialist theories and Williams’s objections to them."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "trolley",
+      "transplant",
+      "utility-monster"
+    ],
+    "file_path": "experiments/ethics/jim-and-the-captain.md",
+    "summary": "Do a person’s deepest commitments and sense of integrity count for something in deciding what to do, or must they be weighed like any other preference in an impartial calculation?"
+  },
+  {
+    "id": "euthyphro-dilemma",
+    "slug": "euthyphro-dilemma",
+    "title": "The Euthyphro Dilemma",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Plato (Socrates in the dialogue Euthyphro)"
+    ],
+    "original_publication": "Plato, Euthyphro (fourth century BCE)",
+    "difficulty": "Beginner",
+    "themes": [
+      "divine command",
+      "moral objectivity",
+      "grounds of obligation"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Religion and Morality",
+        "url": "https://plato.stanford.edu/entries/religion-morality/",
+        "kind": "academic",
+        "support": "The Euthyphro question as it bears on theological accounts of morality, with major replies."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "ring-of-gyges",
+      "veil-of-ignorance"
+    ],
+    "file_path": "experiments/ethics/euthyphro-dilemma.md",
+    "summary": "Does a moral standard depend on the will of a divine being, or does it hold independently of any will, including God’s?"
+  },
+  {
+    "id": "terror-and-tactical-bomber",
+    "slug": "terror-and-tactical-bomber",
+    "title": "The Terror Bomber and the Tactical Bomber",
+    "category": "ethics",
+    "associated_thinkers": [],
+    "original_publication": "Developed in twentieth-century discussion of the doctrine of double effect, which has medieval roots",
+    "difficulty": "Intermediate",
+    "themes": [
+      "intention",
+      "double effect",
+      "war"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Doctrine of Double Effect",
+        "url": "https://plato.stanford.edu/entries/double-effect/",
+        "kind": "academic",
+        "support": "The doctrine of double effect, its conditions, and the terror and tactical bomber contrast."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "trolley",
+      "transplant"
+    ],
+    "file_path": "experiments/ethics/terror-and-tactical-bomber.md",
+    "summary": "Does it matter morally whether harm is intended as a means or merely foreseen as a side effect, when the outcomes are otherwise the same?"
+  },
+  {
+    "id": "smith-and-jones-bathtub",
+    "slug": "smith-and-jones-bathtub",
+    "title": "Smith and Jones: Killing and Letting Die",
+    "category": "ethics",
+    "associated_thinkers": [
+      "James Rachels"
+    ],
+    "original_publication": "Rachels, “Active and Passive Euthanasia” (New England Journal of Medicine, 1975)",
+    "difficulty": "Beginner",
+    "themes": [
+      "killing and letting die",
+      "omissions",
+      "moral equivalence"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Doing vs. Allowing Harm",
+        "url": "https://plato.stanford.edu/entries/doing-allowing/",
+        "kind": "academic",
+        "support": "Rachels’s Smith and Jones cases and the debate over whether the killing–letting die distinction matters."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "drowning-child",
+      "trolley",
+      "transplant"
+    ],
+    "file_path": "experiments/ethics/smith-and-jones-bathtub.md",
+    "summary": "Is there a moral difference between doing harm and allowing harm when everything else is held equal?"
+  },
+  {
+    "id": "heraclitus-river",
+    "slug": "heraclitus-river",
+    "title": "Heraclitus’s River",
+    "category": "identity",
+    "associated_thinkers": [
+      "Heraclitus"
+    ],
+    "original_publication": "Fragments attributed to Heraclitus (about 500 BCE); wording and interpretation are disputed",
+    "difficulty": "Beginner",
+    "themes": [
+      "change",
+      "persistence",
+      "flux"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Heraclitus",
+        "url": "https://plato.stanford.edu/entries/heraclitus/",
+        "kind": "academic",
+        "support": "The river fragments, how ancient and modern interpreters read them, and the question of universal flux."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "ship-of-theseus",
+      "sorites",
+      "statue-and-clay"
+    ],
+    "file_path": "experiments/identity/heraclitus-river.md",
+    "summary": "Can something remain the same thing while its constituents are continually replaced?"
+  },
+  {
+    "id": "statue-and-clay",
+    "slug": "statue-and-clay",
+    "title": "Lumpl and Goliath: The Statue and the Clay",
+    "category": "identity",
+    "associated_thinkers": [
+      "Allan Gibbard"
+    ],
+    "original_publication": "Gibbard, “Contingent Identity” (Journal of Philosophical Logic, 1975), using the names Lumpl and Goliath",
+    "difficulty": "Intermediate",
+    "themes": [
+      "constitution",
+      "coincidence",
+      "modal properties"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Material Constitution",
+        "url": "https://plato.stanford.edu/entries/material-constitution/",
+        "kind": "academic",
+        "support": "The statue and clay puzzle, the Lumpl and Goliath version, and the main metaphysical responses."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "ship-of-theseus",
+      "dion-and-theon",
+      "problem-of-the-many"
+    ],
+    "file_path": "experiments/identity/statue-and-clay.md",
+    "summary": "Can two things be made of exactly the same matter at the same time, or must the statue and the clay be one and the same thing?"
+  },
+  {
+    "id": "dion-and-theon",
+    "slug": "dion-and-theon",
+    "title": "Dion and Theon",
+    "category": "identity",
+    "associated_thinkers": [
+      "Chrysippus (traditionally associated)"
+    ],
+    "original_publication": "Ancient Stoic discussion, known through later reports; attribution is traditional",
+    "difficulty": "Intermediate",
+    "themes": [
+      "coincidence",
+      "parts and wholes",
+      "ancient metaphysics"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Material Constitution",
+        "url": "https://plato.stanford.edu/entries/material-constitution/",
+        "kind": "academic",
+        "support": "The Dion and Theon puzzle among the standard puzzles of coincidence and constitution."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "statue-and-clay",
+      "ship-of-theseus",
+      "problem-of-the-many"
+    ],
+    "file_path": "experiments/identity/dion-and-theon.md",
+    "summary": "When a part is removed, does the original object survive, and what has become of the object that was the remainder?"
+  },
+  {
+    "id": "problem-of-the-many",
+    "slug": "problem-of-the-many",
+    "title": "The Problem of the Many (Tibbles the Cat)",
+    "category": "identity",
+    "associated_thinkers": [
+      "Peter Unger",
+      "Peter Geach"
+    ],
+    "original_publication": "Unger, “The Problem of the Many” (Midwest Studies in Philosophy, 1980); the cat example is associated with Geach and later discussion",
+    "difficulty": "Advanced",
+    "themes": [
+      "vagueness",
+      "boundaries",
+      "counting objects"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Problem of the Many",
+        "url": "https://plato.stanford.edu/entries/problem-of-many/",
+        "kind": "academic",
+        "support": "Statement of the problem, the Tibbles example, and the main solutions."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Identity Over Time",
+        "url": "https://plato.stanford.edu/entries/identity-time/",
+        "kind": "academic",
+        "support": "Related puzzles about persistence, parts and the cat Tibbles."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "sorites",
+      "statue-and-clay",
+      "ship-of-theseus"
+    ],
+    "file_path": "experiments/identity/problem-of-the-many.md",
+    "summary": "How can there be one cat when so many equally good candidate objects occupy nearly the same place?"
+  },
+  {
+    "id": "twin-earth",
+    "slug": "twin-earth",
+    "title": "Twin Earth",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Hilary Putnam"
+    ],
+    "original_publication": "Putnam, “The Meaning of ‘Meaning’” (1975)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "meaning",
+      "externalism",
+      "natural kinds"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Externalism About the Mind",
+        "url": "https://plato.stanford.edu/entries/content-externalism/",
+        "kind": "academic",
+        "support": "Twin Earth as the central argument for semantic and content externalism, with objections."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "swampman",
+      "beetle-in-box",
+      "brain-in-a-vat"
+    ],
+    "file_path": "experiments/consciousness/twin-earth.md",
+    "summary": "Are the meanings of our words, and the contents of our thoughts, fixed entirely by what is in our heads, or do they depend on our environment?"
+  },
+  {
+    "id": "mad-pain-martian-pain",
+    "slug": "mad-pain-martian-pain",
+    "title": "Mad Pain and Martian Pain",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "David Lewis"
+    ],
+    "original_publication": "Lewis, “Mad Pain and Martian Pain” (in Block, ed., Readings in Philosophy of Psychology, 1980)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "functionalism",
+      "identity theory",
+      "multiple realizability"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Functionalism",
+        "url": "https://plato.stanford.edu/entries/functionalism/",
+        "kind": "academic",
+        "support": "Functionalism, multiple realizability and the problems raised by cases such as Martian pain."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "inverted-spectrum",
+      "zombies",
+      "china-brain"
+    ],
+    "file_path": "experiments/consciousness/mad-pain-martian-pain.md",
+    "summary": "Can one theory of what pain is accommodate both a being whose pain plays an unusual causal role and a being whose pain has a different physical basis?"
+  },
+  {
+    "id": "problem-of-other-minds",
+    "slug": "problem-of-other-minds",
+    "title": "The Problem of Other Minds",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "John Stuart Mill (the classical argument from analogy)"
+    ],
+    "original_publication": "Argument from analogy in Mill, An Examination of Sir William Hamilton’s Philosophy (1865); older roots",
+    "difficulty": "Beginner",
+    "themes": [
+      "other minds",
+      "analogy",
+      "evidence"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Other Minds",
+        "url": "https://plato.stanford.edu/entries/other-minds/",
+        "kind": "academic",
+        "support": "The problem, the argument from analogy, and alternative accounts of our knowledge of other minds."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "zombies",
+      "bat",
+      "beetle-in-box",
+      "inverted-spectrum"
+    ],
+    "file_path": "experiments/consciousness/problem-of-other-minds.md",
+    "summary": "How can anyone know that other beings have minds, and what could count as evidence for it?"
+  },
+  {
+    "id": "brain-bisection",
+    "slug": "brain-bisection",
+    "title": "Split Brains and the Unity of Consciousness",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Thomas Nagel"
+    ],
+    "original_publication": "Nagel, “Brain Bisection and the Unity of Consciousness” (Synthese, 1971)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "unity of consciousness",
+      "split brain",
+      "number of minds"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Unity of Consciousness",
+        "url": "https://plato.stanford.edu/entries/consciousness-unity/",
+        "kind": "academic",
+        "support": "Split-brain cases, Nagel’s discussion of them, and theories of how experiences are unified."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "fission",
+      "bat",
+      "brain-transplant"
+    ],
+    "file_path": "experiments/consciousness/brain-bisection.md",
+    "summary": "How many minds, or streams of consciousness, are there in a patient whose brain has been divided?"
+  },
+  {
+    "id": "allegory-of-the-cave",
+    "slug": "allegory-of-the-cave",
+    "title": "Plato’s Allegory of the Cave",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Plato"
+    ],
+    "original_publication": "Plato, Republic, Book VII (about 375 BCE)",
+    "difficulty": "Beginner",
+    "themes": [
+      "appearance and reality",
+      "education",
+      "knowledge"
+    ],
+    "references": [
+      {
+        "title": "Plato, The Republic (Project Gutenberg edition)",
+        "url": "https://www.gutenberg.org/ebooks/1497",
+        "kind": "primary",
+        "support": "A public-domain English translation of the Republic, in which the cave passage appears in Book VII."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Plato’s Myths",
+        "url": "https://plato.stanford.edu/entries/plato-myths/",
+        "kind": "academic",
+        "support": "Context on Plato’s use of images and myths; the cave is mentioned only briefly."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "analogy",
+    "related_experiments": [
+      "brain-in-a-vat",
+      "evil-demon",
+      "dream-argument"
+    ],
+    "file_path": "experiments/epistemology/allegory-of-the-cave.md",
+    "summary": "How does the mind move from taking appearances for reality to grasping what is genuinely real, and what makes that movement hard?"
+  },
+  {
+    "id": "humes-missing-shade-of-blue",
+    "slug": "humes-missing-shade-of-blue",
+    "title": "Hume’s Missing Shade of Blue",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "David Hume"
+    ],
+    "original_publication": "Hume, A Treatise of Human Nature (1739–40) and An Enquiry concerning Human Understanding (1748)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "empiricism",
+      "ideas and impressions",
+      "imagination"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: David Hume",
+        "url": "https://plato.stanford.edu/entries/hume/",
+        "kind": "academic",
+        "support": "Hume’s copy principle and his treatment of the missing shade of blue."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "marys-room",
+      "molyneux-problem"
+    ],
+    "file_path": "experiments/epistemology/humes-missing-shade-of-blue.md",
+    "summary": "Can we form a genuinely new simple idea without a matching experience, and what would that show about empiricism?"
+  },
+  {
+    "id": "wax-argument",
+    "slug": "wax-argument",
+    "title": "Descartes’s Piece of Wax",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "René Descartes"
+    ],
+    "original_publication": "Descartes, Meditations on First Philosophy, Second Meditation (1641)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "perception",
+      "rationalism",
+      "knowledge of bodies"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Descartes’ Epistemology",
+        "url": "https://plato.stanford.edu/entries/descartes-epistemology/",
+        "kind": "academic",
+        "support": "The wax argument in the Second Meditation and its role in Descartes’s epistemology."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "evil-demon",
+      "brain-in-a-vat",
+      "ship-of-theseus"
+    ],
+    "file_path": "experiments/epistemology/wax-argument.md",
+    "summary": "If every sensible quality of the wax can change while it remains the same wax, what is it that we know when we know the wax?"
+  },
+  {
+    "id": "simulation-argument",
+    "slug": "simulation-argument",
+    "title": "The Simulation Argument",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Nick Bostrom"
+    ],
+    "original_publication": "Bostrom, “Are You Living in a Computer Simulation?” (Philosophical Quarterly, 2003)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "simulation",
+      "probability",
+      "skepticism"
+    ],
+    "references": [
+      {
+        "title": "Nick Bostrom, Are You Living in a Computer Simulation? (author’s PDF)",
+        "url": "https://simulation-argument.com/simulation.pdf",
+        "kind": "academic",
+        "support": "The original argument, stated as a trilemma."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "brain-in-a-vat",
+      "evil-demon",
+      "russells-five-minute-world"
+    ],
+    "file_path": "experiments/epistemology/simulation-argument.md",
+    "summary": "Given some assumptions about technology and consciousness, how likely is it that our experiences are those of simulated beings?"
+  },
+  {
+    "id": "moores-proof-of-an-external-world",
+    "slug": "moores-proof-of-an-external-world",
+    "title": "Moore’s “Here Is One Hand”",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "G. E. Moore"
+    ],
+    "original_publication": "Moore, “Proof of an External World” (Proceedings of the British Academy, 1939)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "common sense",
+      "skepticism",
+      "certainty"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: George Edward Moore",
+        "url": "https://plato.stanford.edu/entries/moore/",
+        "kind": "academic",
+        "support": "Moore’s defence of common sense and the proof of an external world."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "brain-in-a-vat",
+      "evil-demon",
+      "dream-argument"
+    ],
+    "file_path": "experiments/epistemology/moores-proof-of-an-external-world.md",
+    "summary": "Can a simple, obvious claim such as “here is a hand” be more certain than the philosophical premises used to doubt it?"
+  },
+  {
+    "id": "ravens-paradox",
+    "slug": "ravens-paradox",
+    "title": "Hempel’s Paradox of the Ravens",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Carl Hempel"
+    ],
+    "original_publication": "Hempel, “Studies in the Logic of Confirmation” (Mind, 1945)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "confirmation",
+      "induction",
+      "evidence"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Confirmation",
+        "url": "https://plato.stanford.edu/entries/confirmation/",
+        "kind": "academic",
+        "support": "The ravens paradox, the assumptions that generate it, and Bayesian and other responses."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "grue",
+      "monty-hall"
+    ],
+    "file_path": "experiments/epistemology/ravens-paradox.md",
+    "summary": "Why does it seem wrong that a white shoe confirms a claim about ravens, and which assumption should we revise?"
+  },
+  {
+    "id": "grue",
+    "slug": "grue",
+    "title": "Goodman’s New Riddle of Induction (Grue)",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Nelson Goodman"
+    ],
+    "original_publication": "Goodman, Fact, Fiction, and Forecast (1955)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "induction",
+      "projectibility",
+      "language"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Problem of Induction",
+        "url": "https://plato.stanford.edu/entries/induction-problem/",
+        "kind": "academic",
+        "support": "Goodman’s new riddle in the context of the problem of induction."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Nelson Goodman",
+        "url": "https://plato.stanford.edu/entries/goodman/",
+        "kind": "academic",
+        "support": "Goodman’s grue predicate and his proposed response through entrenchment."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "ravens-paradox",
+      "bertrands-paradox"
+    ],
+    "file_path": "experiments/epistemology/grue.md",
+    "summary": "What distinguishes generalizations that our evidence legitimately supports from ones that fit the same evidence but should not be projected?"
+  },
+  {
+    "id": "norman-the-clairvoyant",
+    "slug": "norman-the-clairvoyant",
+    "title": "Norman the Clairvoyant",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Laurence BonJour"
+    ],
+    "original_publication": "BonJour, “Externalist Theories of Empirical Knowledge” (Midwest Studies in Philosophy, 1980)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "reliabilism",
+      "justification",
+      "internalism and externalism"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Reliabilist Epistemology",
+        "url": "https://plato.stanford.edu/entries/reliabilism/",
+        "kind": "academic",
+        "support": "Norman the clairvoyant as an objection to reliabilism, with replies."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "gettier-cases",
+      "fake-barn",
+      "brain-in-a-vat"
+    ],
+    "file_path": "experiments/epistemology/norman-the-clairvoyant.md",
+    "summary": "Is a belief justified or known if it is produced by a reliable process the believer has no access to or reason to trust?"
+  },
+  {
+    "id": "disguised-mule",
+    "slug": "disguised-mule",
+    "title": "The Cleverly Disguised Mule",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Fred Dretske"
+    ],
+    "original_publication": "Dretske, “Epistemic Operators” (Journal of Philosophy, 1970)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "closure",
+      "skepticism",
+      "knowledge"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Epistemic Closure",
+        "url": "https://plato.stanford.edu/entries/closure-epistemic/",
+        "kind": "academic",
+        "support": "The zebra example and the closure principle that generates skeptical arguments."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "fake-barn",
+      "brain-in-a-vat",
+      "gettier-cases"
+    ],
+    "file_path": "experiments/epistemology/disguised-mule.md",
+    "summary": "If you know something, and you know that it implies something else, must you also know the implied claim?"
+  },
+  {
+    "id": "lottery-paradox",
+    "slug": "lottery-paradox",
+    "title": "The Lottery Paradox",
+    "category": "epistemology",
+    "associated_thinkers": [
+      "Henry Kyburg"
+    ],
+    "original_publication": "Kyburg, Probability and the Logic of Rational Belief (1961)",
+    "difficulty": "Advanced",
+    "themes": [
+      "rational belief",
+      "probability",
+      "knowledge"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Formal Representations of Belief",
+        "url": "https://plato.stanford.edu/entries/formal-belief/",
+        "kind": "academic",
+        "support": "The lottery paradox, its relation to the preface paradox, and approaches to belief and probability."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "gettier-cases",
+      "sleeping-beauty"
+    ],
+    "file_path": "experiments/epistemology/lottery-paradox.md",
+    "summary": "Can it be rational to believe each of a set of claims that you know cannot all be true, and what should we say about the relation between high probability and belief?"
+  },
+  {
+    "id": "zenos-dichotomy",
+    "slug": "zenos-dichotomy",
+    "title": "Zeno’s Dichotomy",
+    "category": "logic",
+    "associated_thinkers": [
+      "Zeno of Elea"
+    ],
+    "original_publication": "Ancient Greek, fifth century BCE; known through later reports",
+    "difficulty": "Beginner",
+    "themes": [
+      "infinity",
+      "motion",
+      "infinite series"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
+        "url": "https://plato.stanford.edu/entries/paradox-zeno/",
+        "kind": "academic",
+        "support": "The dichotomy paradox, its ancient reports, and mathematical and philosophical responses."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "achilles-and-tortoise",
+      "zenos-arrow",
+      "thomsons-lamp"
+    ],
+    "file_path": "experiments/logic/zenos-dichotomy.md",
+    "summary": "How can a journey be completed if it can always be divided into infinitely many smaller stages?"
+  },
+  {
+    "id": "zenos-arrow",
+    "slug": "zenos-arrow",
+    "title": "Zeno’s Arrow",
+    "category": "logic",
+    "associated_thinkers": [
+      "Zeno of Elea"
+    ],
+    "original_publication": "Ancient Greek, fifth century BCE; known through later reports",
+    "difficulty": "Intermediate",
+    "themes": [
+      "motion",
+      "instants",
+      "continuity"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
+        "url": "https://plato.stanford.edu/entries/paradox-zeno/",
+        "kind": "academic",
+        "support": "The arrow paradox in its ancient reports and the modern response through the at-at theory of motion."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "achilles-and-tortoise",
+      "zenos-dichotomy"
+    ],
+    "file_path": "experiments/logic/zenos-arrow.md",
+    "summary": "If a moving object is at rest at each instant, what makes it a moving object?"
+  },
+  {
+    "id": "hesperus-and-phosphorus",
+    "slug": "hesperus-and-phosphorus",
+    "title": "Hesperus and Phosphorus",
+    "category": "logic",
+    "associated_thinkers": [
+      "Gottlob Frege"
+    ],
+    "original_publication": "Frege, “On Sense and Reference” (1892)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "sense and reference",
+      "identity statements",
+      "names"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Gottlob Frege",
+        "url": "https://plato.stanford.edu/entries/frege/",
+        "kind": "academic",
+        "support": "Frege’s distinction between sense and reference and the Morning Star and Evening Star example."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Names",
+        "url": "https://plato.stanford.edu/entries/names/",
+        "kind": "academic",
+        "support": "Discussion of Hesperus and Phosphorus in the philosophy of names."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "twin-earth",
+      "beetle-in-box"
+    ],
+    "file_path": "experiments/logic/hesperus-and-phosphorus.md",
+    "summary": "If two names refer to the same object, why can an identity statement using them be informative while another is trivial?"
+  },
+  {
+    "id": "gavagai",
+    "slug": "gavagai",
+    "title": "Quine’s Gavagai",
+    "category": "logic",
+    "associated_thinkers": [
+      "W. V. O. Quine"
+    ],
+    "original_publication": "Quine, Word and Object (1960)",
+    "difficulty": "Advanced",
+    "themes": [
+      "radical translation",
+      "indeterminacy",
+      "reference"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Willard Van Orman Quine",
+        "url": "https://plato.stanford.edu/entries/quine/",
+        "kind": "academic",
+        "support": "Quine’s views on indeterminacy of translation and observation sentences, including the rabbit example."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "beetle-in-box",
+      "hesperus-and-phosphorus",
+      "quus-rule-following"
+    ],
+    "file_path": "experiments/logic/gavagai.md",
+    "summary": "Is there a fact of the matter about what a word refers to, beyond what is settled by how speakers behave?"
+  },
+  {
+    "id": "quus-rule-following",
+    "slug": "quus-rule-following",
+    "title": "Kripke’s Quus",
+    "category": "logic",
+    "associated_thinkers": [
+      "Saul Kripke",
+      "Ludwig Wittgenstein"
+    ],
+    "original_publication": "Kripke, Wittgenstein on Rules and Private Language (1982), reading Wittgenstein’s Philosophical Investigations",
+    "difficulty": "Advanced",
+    "themes": [
+      "rule-following",
+      "meaning",
+      "skepticism"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Rule-Following and Intentionality",
+        "url": "https://plato.stanford.edu/entries/rule-following/",
+        "kind": "academic",
+        "support": "Kripke’s skeptical argument about meaning, the quus function and the main responses."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "grue",
+      "beetle-in-box"
+    ],
+    "file_path": "experiments/logic/quus-rule-following.md",
+    "summary": "What fact about you, past or present, makes it the case that you meant plus and not quus?"
+  },
+  {
+    "id": "knowability-paradox",
+    "slug": "knowability-paradox",
+    "title": "Fitch’s Paradox of Knowability",
+    "category": "logic",
+    "associated_thinkers": [
+      "Frederic Fitch"
+    ],
+    "original_publication": "Fitch, “A Logical Analysis of Some Value Concepts” (Journal of Symbolic Logic, 1963)",
+    "difficulty": "Advanced",
+    "themes": [
+      "knowability",
+      "verificationism",
+      "modal logic"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Fitch’s Paradox of Knowability",
+        "url": "https://plato.stanford.edu/entries/fitch-paradox/",
+        "kind": "academic",
+        "support": "The proof, its history and the major responses."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "unexpected-hanging",
+      "liar"
+    ],
+    "file_path": "experiments/logic/knowability-paradox.md",
+    "summary": "Does the plausible thesis that all truths are knowable commit us to the implausible thesis that all truths are known?"
+  },
+  {
+    "id": "grelling-nelson-paradox",
+    "slug": "grelling-nelson-paradox",
+    "title": "The Grelling–Nelson Paradox (Heterological Words)",
+    "category": "logic",
+    "associated_thinkers": [
+      "Kurt Grelling",
+      "Leonard Nelson"
+    ],
+    "original_publication": "Grelling and Nelson (1908)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "self-reference",
+      "semantic paradox",
+      "predicates"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Paradoxes and Contemporary Logic",
+        "url": "https://plato.stanford.edu/entries/paradoxes-contemporary-logic/",
+        "kind": "academic",
+        "support": "Grelling’s paradox among the semantic paradoxes and the strategies for avoiding them."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "russells-paradox",
+      "liar"
+    ],
+    "file_path": "experiments/logic/grelling-nelson-paradox.md",
+    "summary": "How can a perfectly well-defined word lead to a contradiction, and what must be restricted to avoid it?"
+  },
+  {
+    "id": "sea-battle",
+    "slug": "sea-battle",
+    "title": "Aristotle’s Sea Battle",
+    "category": "time-and-causality",
+    "associated_thinkers": [
+      "Aristotle"
+    ],
+    "original_publication": "Aristotle, De Interpretatione, chapter 9 (fourth century BCE); its interpretation is disputed",
+    "difficulty": "Advanced",
+    "themes": [
+      "future contingents",
+      "fatalism",
+      "truth and time"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Future Contingents",
+        "url": "https://plato.stanford.edu/entries/future-contingents/",
+        "kind": "academic",
+        "support": "Aristotle’s sea battle, the argument for fatalism and the main logical and metaphysical responses."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "laplaces-demon",
+      "consequence-argument",
+      "idle-argument"
+    ],
+    "file_path": "experiments/time-and-causality/sea-battle.md",
+    "summary": "Can statements about contingent future events be true or false now without making the future fixed?"
+  },
+  {
+    "id": "idle-argument",
+    "slug": "idle-argument",
+    "title": "The Idle Argument",
+    "category": "time-and-causality",
+    "associated_thinkers": [
+      "Ancient Greek fatalist tradition (attribution traditional)"
+    ],
+    "original_publication": "Ancient discussions of fate; the argument is known from later reports",
+    "difficulty": "Beginner",
+    "themes": [
+      "fatalism",
+      "action",
+      "fate"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Fatalism",
+        "url": "https://plato.stanford.edu/entries/fatalism/",
+        "kind": "academic",
+        "support": "The idle argument, the ancient replies and its relation to determinism."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "sea-battle",
+      "consequence-argument"
+    ],
+    "file_path": "experiments/time-and-causality/idle-argument.md",
+    "summary": "If the future is already fixed, does it follow that nothing we do matters?"
+  },
+  {
+    "id": "four-case-argument",
+    "slug": "four-case-argument",
+    "title": "Pereboom’s Four-Case Argument",
+    "category": "time-and-causality",
+    "associated_thinkers": [
+      "Derk Pereboom"
+    ],
+    "original_publication": "Pereboom, Living Without Free Will (2001)",
+    "difficulty": "Advanced",
+    "themes": [
+      "manipulation",
+      "determinism",
+      "moral responsibility"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Arguments for Incompatibilism",
+        "url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
+        "kind": "academic",
+        "support": "Pereboom’s four-case argument and its place among manipulation arguments against compatibilism."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "frankfurt-cases",
+      "consequence-argument",
+      "laplaces-demon"
+    ],
+    "file_path": "experiments/time-and-causality/four-case-argument.md",
+    "summary": "If Plum is not responsible in Case 1, is there any relevant difference that would make him responsible in Case 4?"
+  },
+  {
+    "id": "eternal-recurrence",
+    "slug": "eternal-recurrence",
+    "title": "Nietzsche’s Eternal Recurrence",
+    "category": "time-and-causality",
+    "associated_thinkers": [
+      "Friedrich Nietzsche"
+    ],
+    "original_publication": "Nietzsche, The Gay Science, section 341 (1882); also Thus Spoke Zarathustra",
+    "difficulty": "Intermediate",
+    "themes": [
+      "affirmation",
+      "meaning",
+      "repetition"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Friedrich Nietzsche",
+        "url": "https://plato.stanford.edu/entries/nietzsche/",
+        "kind": "academic",
+        "support": "Nietzsche’s eternal recurrence and its interpretations."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Nietzsche’s Moral and Political Philosophy",
+        "url": "https://plato.stanford.edu/entries/nietzsche-moral-political/",
+        "kind": "academic",
+        "support": "Further context on recurrence and affirmation."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "experience-machine",
+      "laplaces-demon"
+    ],
+    "file_path": "experiments/time-and-causality/eternal-recurrence.md",
+    "summary": "How would you feel about your life if you had to live it again without change, and what does your answer show about how you value it?"
+  },
+  {
+    "id": "mctaggarts-paradox",
+    "slug": "mctaggarts-paradox",
+    "title": "McTaggart’s Paradox of Time",
+    "category": "time-and-causality",
+    "associated_thinkers": [
+      "J. M. E. McTaggart"
+    ],
+    "original_publication": "McTaggart, “The Unreality of Time” (Mind, 1908)",
+    "difficulty": "Advanced",
+    "themes": [
+      "A-series and B-series",
+      "change",
+      "tense"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: John M. E. McTaggart",
+        "url": "https://plato.stanford.edu/entries/mctaggart/",
+        "kind": "academic",
+        "support": "McTaggart’s argument, the A-series and B-series and the main responses."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Time",
+        "url": "https://plato.stanford.edu/entries/time/",
+        "kind": "academic",
+        "support": "Tensed and tenseless theories of time and the role of McTaggart’s argument."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "grandfather-paradox",
+      "twin-paradox"
+    ],
+    "file_path": "experiments/time-and-causality/mctaggarts-paradox.md",
+    "summary": "Is there a coherent notion of time that includes real change, and if not, is time real?"
+  },
+  {
+    "id": "newtons-bucket",
+    "slug": "newtons-bucket",
+    "title": "Newton’s Bucket",
+    "category": "physics",
+    "associated_thinkers": [
+      "Isaac Newton"
+    ],
+    "original_publication": "Newton, Philosophiae Naturalis Principia Mathematica (1687), Scholium on space, time and motion",
+    "difficulty": "Intermediate",
+    "themes": [
+      "absolute space",
+      "rotation",
+      "inertia"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Newton’s Views on Space, Time, and Motion",
+        "url": "https://plato.stanford.edu/entries/newton-stm/",
+        "kind": "academic",
+        "support": "Newton’s bucket argument, absolute space and the later relationist replies."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "einsteins-elevator",
+      "hole-argument",
+      "galileos-ship"
+    ],
+    "file_path": "experiments/physics/newtons-bucket.md",
+    "summary": "If the water’s concavity does not depend on motion relative to the bucket, what does it depend on?"
+  },
+  {
+    "id": "galileos-ship",
+    "slug": "galileos-ship",
+    "title": "Galileo’s Ship",
+    "category": "physics",
+    "associated_thinkers": [
+      "Galileo Galilei"
+    ],
+    "original_publication": "Galileo, Dialogue Concerning the Two Chief World Systems (1632)",
+    "difficulty": "Beginner",
+    "themes": [
+      "relativity of motion",
+      "inertial frames",
+      "Copernican debate"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Galileo Galilei",
+        "url": "https://plato.stanford.edu/entries/galileo/",
+        "kind": "academic",
+        "support": "Galileo’s ship argument and its role in the debate over the motion of the Earth."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "einsteins-elevator",
+      "newtons-bucket",
+      "einsteins-light-beam"
+    ],
+    "file_path": "experiments/physics/galileos-ship.md",
+    "summary": "If nothing that happens inside a smoothly moving cabin reveals the motion, what does it mean to say that the ship, or the Earth, is moving?"
+  },
+  {
+    "id": "hole-argument",
+    "slug": "hole-argument",
+    "title": "The Hole Argument",
+    "category": "physics",
+    "associated_thinkers": [
+      "Albert Einstein",
+      "John Earman",
+      "John Norton"
+    ],
+    "original_publication": "Einstein’s 1913–15 hole argument; revived by Earman and Norton (1987)",
+    "difficulty": "Advanced",
+    "themes": [
+      "spacetime",
+      "determinism",
+      "general covariance"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Hole Argument",
+        "url": "https://plato.stanford.edu/entries/spacetime-holearg/",
+        "kind": "academic",
+        "support": "The argument, its history and responses from substantivalism and relationalism."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "newtons-bucket",
+      "laplaces-demon",
+      "einsteins-elevator"
+    ],
+    "file_path": "experiments/physics/hole-argument.md",
+    "summary": "Does general relativity force us to say either that spacetime points lack an identity apart from the fields on them, or that the theory is indeterministic?"
+  },
+  {
+    "id": "loschmidt-reversibility",
+    "slug": "loschmidt-reversibility",
+    "title": "Loschmidt’s Reversibility Objection",
+    "category": "physics",
+    "associated_thinkers": [
+      "Josef Loschmidt",
+      "Ludwig Boltzmann"
+    ],
+    "original_publication": "Loschmidt’s objection (1870s) and Boltzmann’s replies",
+    "difficulty": "Advanced",
+    "themes": [
+      "entropy",
+      "time asymmetry",
+      "statistical mechanics"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Thermodynamic Asymmetry in Time",
+        "url": "https://plato.stanford.edu/entries/time-thermo/",
+        "kind": "academic",
+        "support": "The reversibility objection, the statistical reply and the role of low-entropy initial conditions."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "maxwells-demon",
+      "laplaces-demon"
+    ],
+    "file_path": "experiments/physics/loschmidt-reversibility.md",
+    "summary": "If the underlying laws do not distinguish past from future, why does entropy increase in one direction of time?"
+  },
+  {
+    "id": "heisenbergs-microscope",
+    "slug": "heisenbergs-microscope",
+    "title": "Heisenberg’s Microscope",
+    "category": "physics",
+    "associated_thinkers": [
+      "Werner Heisenberg"
+    ],
+    "original_publication": "Heisenberg, paper on the perceptual content of quantum kinematics and mechanics (1927)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "uncertainty",
+      "measurement",
+      "disturbance"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Uncertainty Principle",
+        "url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+        "kind": "academic",
+        "support": "Heisenberg’s microscope argument and the distinction between disturbance and preparation uncertainty."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "schrodingers-cat",
+      "epr",
+      "wigners-friend"
+    ],
+    "file_path": "experiments/physics/heisenbergs-microscope.md",
+    "summary": "Is the uncertainty principle a limit on what measurement can reveal, or a feature of quantum systems themselves?"
+  },
+  {
+    "id": "einsteins-train",
+    "slug": "einsteins-train",
+    "title": "Einstein’s Train and the Relativity of Simultaneity",
+    "category": "physics",
+    "associated_thinkers": [
+      "Albert Einstein"
+    ],
+    "original_publication": "Einstein, Relativity: The Special and General Theory (1916; English translation 1920)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "simultaneity",
+      "special relativity",
+      "reference frames"
+    ],
+    "references": [
+      {
+        "title": "Albert Einstein, Relativity: The Special and General Theory (Project Gutenberg)",
+        "url": "https://www.gutenberg.org/ebooks/5001",
+        "kind": "primary",
+        "support": "A public-domain English translation of Einstein’s popular book, in which the train example appears."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Conventionality of Simultaneity",
+        "url": "https://plato.stanford.edu/entries/spacetime-convensimul/",
+        "kind": "academic",
+        "support": "Philosophical discussion of simultaneity in special relativity."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "twin-paradox",
+      "einsteins-light-beam",
+      "mctaggarts-paradox"
+    ],
+    "file_path": "experiments/physics/einsteins-train.md",
+    "summary": "If both observers measure light as travelling at the same speed, can they agree on which events are simultaneous?"
+  },
+  {
+    "id": "thomsons-lamp",
+    "slug": "thomsons-lamp",
+    "title": "Thomson’s Lamp",
+    "category": "mathematics",
+    "associated_thinkers": [
+      "James F. Thomson"
+    ],
+    "original_publication": "Thomson, “Tasks and Super-Tasks” (Analysis, 1954)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "supertasks",
+      "infinity",
+      "limits"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Supertasks",
+        "url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+        "kind": "academic",
+        "support": "Thomson’s lamp, Benacerraf’s reply and the debate over supertasks."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "achilles-and-tortoise",
+      "zenos-dichotomy",
+      "hilberts-hotel"
+    ],
+    "file_path": "experiments/mathematics/thomsons-lamp.md",
+    "summary": "Is it possible to complete an infinite sequence of actions in a finite time, and if so, what determines the state at the end?"
+  },
+  {
+    "id": "simpsons-paradox",
+    "slug": "simpsons-paradox",
+    "title": "Simpson’s Paradox",
+    "category": "mathematics",
+    "associated_thinkers": [
+      "Edward H. Simpson"
+    ],
+    "original_publication": "Named for Simpson (1951); earlier observations of the phenomenon are recorded in the literature",
+    "difficulty": "Intermediate",
+    "themes": [
+      "confounding",
+      "causal inference",
+      "aggregation"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Simpson’s Paradox",
+        "url": "https://plato.stanford.edu/entries/paradox-simpson/",
+        "kind": "academic",
+        "support": "The statistical reversal, its causal interpretation and examples."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "monty-hall",
+      "sleeping-beauty"
+    ],
+    "file_path": "experiments/mathematics/simpsons-paradox.md",
+    "summary": "How can a treatment do better in every subgroup but worse overall, and which comparison should guide a decision?"
+  },
+  {
+    "id": "galileos-paradox",
+    "slug": "galileos-paradox",
+    "title": "Galileo’s Paradox of the Infinite",
+    "category": "mathematics",
+    "associated_thinkers": [
+      "Galileo Galilei"
+    ],
+    "original_publication": "Galileo, Discourses and Mathematical Demonstrations Concerning Two New Sciences (1638)",
+    "difficulty": "Beginner",
+    "themes": [
+      "infinity",
+      "cardinality",
+      "part and whole"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Infinity",
+        "url": "https://plato.stanford.edu/entries/infinity/",
+        "kind": "academic",
+        "support": "Galileo’s paradox in the history of thought about infinity."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "hilberts-hotel",
+      "thomsons-lamp"
+    ],
+    "file_path": "experiments/mathematics/galileos-paradox.md",
+    "summary": "Can an infinite collection have as many members as one of its own proper parts?"
+  },
+  {
+    "id": "pascals-wager",
+    "slug": "pascals-wager",
+    "title": "Pascal’s Wager",
+    "category": "economics",
+    "associated_thinkers": [
+      "Blaise Pascal"
+    ],
+    "original_publication": "Pascal, Pensées (published posthumously, 1670)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "decision under uncertainty",
+      "expected value",
+      "belief"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Pascal’s Wager",
+        "url": "https://plato.stanford.edu/entries/pascal-wager/",
+        "kind": "academic",
+        "support": "The wager argument, its decision-theoretic forms and the standard objections."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "st-petersburg-paradox",
+      "pascals-mugging"
+    ],
+    "file_path": "experiments/economics/pascals-wager.md",
+    "summary": "Can a calculation of expected benefit make it rational to commit to a belief or way of life?"
+  },
+  {
+    "id": "pascals-mugging",
+    "slug": "pascals-mugging",
+    "title": "Pascal’s Mugging",
+    "category": "economics",
+    "associated_thinkers": [
+      "Nick Bostrom"
+    ],
+    "original_publication": "Bostrom, “Pascal’s Mugging” (Analysis, 2009)",
+    "difficulty": "Advanced",
+    "themes": [
+      "expected utility",
+      "tiny probabilities",
+      "decision theory"
+    ],
+    "references": [
+      {
+        "title": "Nick Bostrom, Pascal’s Mugging (author’s PDF)",
+        "url": "https://nickbostrom.com/papers/pascal.pdf",
+        "kind": "academic",
+        "support": "The original short article presenting the puzzle."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "pascals-wager",
+      "st-petersburg-paradox"
+    ],
+    "file_path": "experiments/economics/pascals-mugging.md",
+    "summary": "Should a rational agent who maximizes expected value hand over the wallet, and if not, what must be changed in the theory?"
+  },
+  {
+    "id": "stag-hunt",
+    "slug": "stag-hunt",
+    "title": "The Stag Hunt",
+    "category": "economics",
+    "associated_thinkers": [
+      "Jean-Jacques Rousseau"
+    ],
+    "original_publication": "Rousseau, Discourse on the Origin and Foundations of Inequality (1755); later formalized in game theory",
+    "difficulty": "Intermediate",
+    "themes": [
+      "coordination",
+      "trust",
+      "risk"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Prisoner’s Dilemma",
+        "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+        "kind": "academic",
+        "support": "The stag hunt as a contrast case to the prisoner’s dilemma."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "model",
+    "related_experiments": [
+      "prisoners-dilemma",
+      "tragedy-of-the-commons",
+      "state-of-nature"
+    ],
+    "file_path": "experiments/economics/stag-hunt.md",
+    "summary": "When cooperation is best for everyone but risky, what lets people trust each other enough to coordinate?"
+  },
+  {
+    "id": "arrows-impossibility-theorem",
+    "slug": "arrows-impossibility-theorem",
+    "title": "Arrow’s Impossibility Theorem",
+    "category": "society-and-justice",
+    "associated_thinkers": [
+      "Kenneth Arrow"
+    ],
+    "original_publication": "Arrow, Social Choice and Individual Values (1951)",
+    "difficulty": "Advanced",
+    "themes": [
+      "voting",
+      "social choice",
+      "fairness"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Arrow’s Theorem",
+        "url": "https://plato.stanford.edu/entries/arrows-theorem/",
+        "kind": "academic",
+        "support": "The theorem, its conditions, proofs and interpretations."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "model",
+    "related_experiments": [
+      "condorcet-paradox",
+      "veil-of-ignorance"
+    ],
+    "file_path": "experiments/society-and-justice/arrows-impossibility-theorem.md",
+    "summary": "Is there any fair way to combine individual rankings into a collective ranking?"
+  },
+  {
+    "id": "condorcet-paradox",
+    "slug": "condorcet-paradox",
+    "title": "The Condorcet Paradox",
+    "category": "society-and-justice",
+    "associated_thinkers": [
+      "Marquis de Condorcet"
+    ],
+    "original_publication": "Condorcet, Essay on the Application of Analysis to the Probability of Majority Decisions (1785)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "majority rule",
+      "cycles",
+      "voting"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Social Choice Theory",
+        "url": "https://plato.stanford.edu/entries/social-choice/",
+        "kind": "academic",
+        "support": "The Condorcet cycle and its role in social choice theory."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "arrows-impossibility-theorem",
+      "sens-liberal-paradox"
+    ],
+    "file_path": "experiments/society-and-justice/condorcet-paradox.md",
+    "summary": "Can majority rule produce a collective preference that is circular, and what should a group do about it?"
+  },
+  {
+    "id": "sens-liberal-paradox",
+    "slug": "sens-liberal-paradox",
+    "title": "Sen’s Paradox of the Paretian Liberal",
+    "category": "society-and-justice",
+    "associated_thinkers": [
+      "Amartya Sen"
+    ],
+    "original_publication": "Sen, “The Impossibility of a Paretian Liberal” (Journal of Political Economy, 1970)",
+    "difficulty": "Advanced",
+    "themes": [
+      "liberty",
+      "Pareto efficiency",
+      "social choice"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Social Choice Theory",
+        "url": "https://plato.stanford.edu/entries/social-choice/",
+        "kind": "academic",
+        "support": "Sen’s liberal paradox as an impossibility result about liberty and Pareto efficiency."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "paradox",
+    "related_experiments": [
+      "condorcet-paradox",
+      "arrows-impossibility-theorem"
+    ],
+    "file_path": "experiments/society-and-justice/sens-liberal-paradox.md",
+    "summary": "Can a society respect both a minimal right to personal liberty and the principle that it should adopt what everyone prefers?"
+  },
+  {
+    "id": "blockhead",
+    "slug": "blockhead",
+    "title": "Blockhead",
+    "category": "artificial-intelligence",
+    "associated_thinkers": [
+      "Ned Block"
+    ],
+    "original_publication": "Block, “Psychologism and Behaviorism” (Philosophical Review, 1981)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "behaviourism",
+      "Turing test",
+      "intelligence"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Turing Test",
+        "url": "https://plato.stanford.edu/entries/turing-test/",
+        "kind": "academic",
+        "support": "Blockhead as an objection to the sufficiency of behavioural tests for intelligence."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "turing-test",
+      "chinese-room",
+      "china-brain"
+    ],
+    "file_path": "experiments/artificial-intelligence/blockhead.md",
+    "summary": "If a system’s behaviour is indistinguishable from an intelligent being’s, is that enough to say it is intelligent?"
+  },
+  {
+    "id": "frame-problem",
+    "slug": "frame-problem",
+    "title": "The Frame Problem",
+    "category": "artificial-intelligence",
+    "associated_thinkers": [
+      "John McCarthy",
+      "Patrick Hayes"
+    ],
+    "original_publication": "McCarthy and Hayes, “Some Philosophical Problems from the Standpoint of Artificial Intelligence” (1969)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "common sense",
+      "relevance",
+      "representation"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Frame Problem",
+        "url": "https://plato.stanford.edu/entries/frame-problem/",
+        "kind": "academic",
+        "support": "The original formal problem, its broader philosophical readings and proposed solutions."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "chinese-room",
+      "blockhead"
+    ],
+    "file_path": "experiments/artificial-intelligence/frame-problem.md",
+    "summary": "How can an agent with limited resources keep track of what is relevant to a change and ignore the rest?"
+  },
+  {
+    "id": "symbol-grounding",
+    "slug": "symbol-grounding",
+    "title": "The Symbol Grounding Problem",
+    "category": "artificial-intelligence",
+    "associated_thinkers": [
+      "Stevan Harnad"
+    ],
+    "original_publication": "Harnad, “The Symbol Grounding Problem” (Physica D, 1990)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "meaning",
+      "symbols",
+      "perception"
+    ],
+    "references": [
+      {
+        "title": "Stevan Harnad, The Symbol Grounding Problem (arXiv version)",
+        "url": "https://arxiv.org/abs/cs/9906002",
+        "kind": "academic",
+        "support": "The original statement of the problem and the proposed hybrid solution."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "puzzle",
+    "related_experiments": [
+      "chinese-room",
+      "blockhead",
+      "beetle-in-box"
+    ],
+    "file_path": "experiments/artificial-intelligence/symbol-grounding.md",
+    "summary": "How can the symbols of a system have meaning that does not depend on someone interpreting them?"
+  },
+  {
+    "id": "orthogonality-thesis",
+    "slug": "orthogonality-thesis",
+    "title": "The Orthogonality Thesis",
+    "category": "artificial-intelligence",
+    "associated_thinkers": [
+      "Nick Bostrom"
+    ],
+    "original_publication": "Bostrom, “The Superintelligent Will” (Minds and Machines, 2012)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "goals",
+      "intelligence",
+      "AI safety"
+    ],
+    "references": [
+      {
+        "title": "Nick Bostrom, The Superintelligent Will (author’s PDF)",
+        "url": "https://nickbostrom.com/superintelligentwill.pdf",
+        "kind": "academic",
+        "support": "The paper in which the orthogonality thesis and the instrumental convergence thesis are stated."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "paperclip-maximizer",
+      "ai-box"
+    ],
+    "file_path": "experiments/artificial-intelligence/orthogonality-thesis.md",
+    "summary": "Is there any necessary connection between how intelligent an agent is and what it ultimately wants?"
+  },
+  {
+    "id": "lucas-penrose-argument",
+    "slug": "lucas-penrose-argument",
+    "title": "The Lucas–Penrose Argument",
+    "category": "artificial-intelligence",
+    "associated_thinkers": [
+      "J. R. Lucas",
+      "Roger Penrose"
+    ],
+    "original_publication": "Lucas, “Minds, Machines and Gödel” (Philosophy, 1961); Penrose, The Emperor’s New Mind (1989)",
+    "difficulty": "Advanced",
+    "themes": [
+      "Gödel",
+      "mechanism",
+      "mathematical insight"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+        "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+        "kind": "academic",
+        "support": "The incompleteness theorems and the Lucas–Penrose arguments that rely on them."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Computational Theory of Mind",
+        "url": "https://plato.stanford.edu/entries/computational-mind/",
+        "kind": "academic",
+        "support": "Context on the argument and objections within the computational theory of mind."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "argument",
+    "related_experiments": [
+      "chinese-room",
+      "russells-paradox",
+      "liar"
+    ],
+    "file_path": "experiments/artificial-intelligence/lucas-penrose-argument.md",
+    "summary": "Does Gödel’s theorem show that human mathematical understanding cannot be captured by any formal system or computer program?"
+  },
+  {
+    "id": "paleys-watch",
+    "slug": "paleys-watch",
+    "title": "Paley’s Watch",
+    "category": "science-and-biology",
+    "associated_thinkers": [
+      "William Paley"
+    ],
+    "original_publication": "Paley, Natural Theology (1802)",
+    "difficulty": "Beginner",
+    "themes": [
+      "design",
+      "adaptation",
+      "explanation"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Teleological Arguments for God’s Existence",
+        "url": "https://plato.stanford.edu/entries/teleological-arguments/",
+        "kind": "academic",
+        "support": "Paley’s watchmaker analogy and the main objections to it."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "analogy",
+    "related_experiments": [
+      "darwins-eye",
+      "spandrels-of-san-marco"
+    ],
+    "file_path": "experiments/science-and-biology/paleys-watch.md",
+    "summary": "Does the appearance of design in living things support the conclusion that they were designed?"
+  },
+  {
+    "id": "leslies-firing-squad",
+    "slug": "leslies-firing-squad",
+    "title": "Leslie’s Firing Squad",
+    "category": "science-and-biology",
+    "associated_thinkers": [
+      "John Leslie"
+    ],
+    "original_publication": "Associated with Leslie’s work on fine-tuning, including Universes (1989)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "fine-tuning",
+      "observation selection",
+      "explanation"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Fine-Tuning",
+        "url": "https://plato.stanford.edu/entries/fine-tuning/",
+        "kind": "academic",
+        "support": "The firing squad analogy in the debate over whether cosmic fine-tuning needs explanation."
+      }
+    ],
+    "date_verified": "2026-10-31",
+    "kind": "analogy",
+    "related_experiments": [
+      "paleys-watch",
+      "sleeping-beauty"
+    ],
+    "file_path": "experiments/science-and-biology/leslies-firing-squad.md",
+    "summary": "When our existence depends on a rare condition, does the fact that we could only observe it in that case remove the need for an explanation?"
   }
 ]
