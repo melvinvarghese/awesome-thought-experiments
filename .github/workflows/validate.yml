@@ -1,0 +1,19 @@
+name: Validate collection
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Validate articles and data
+        run: python3 scripts/validate.py
+      - name: Test validator failure detection
+        run: python3 -m unittest discover -s tests

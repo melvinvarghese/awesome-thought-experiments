@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Thought experiment collection",
+  "description": "The root is an array. Dates record source consultation, not universal fact verification.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "ethics",
+          "identity",
+          "consciousness",
+          "epistemology",
+          "logic",
+          "time-and-causality",
+          "physics",
+          "mathematics",
+          "economics",
+          "artificial-intelligence",
+          "society-and-justice",
+          "science-and-biology"
+        ]
+      },
+      "difficulty": {
+        "type": "string",
+        "enum": [
+          "Beginner",
+          "Intermediate",
+          "Advanced"
+        ]
+      },
+      "associated_thinkers": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "original_publication": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "summary": {
+        "type": "string",
+        "minLength": 1
+      },
+      "themes": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "related_experiments": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "uniqueItems": true
+      },
+      "file_path": {
+        "type": "string",
+        "pattern": "^experiments/[a-z-]+/[a-z0-9-]+\\.md$"
+      },
+      "references": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "title",
+            "url",
+            "kind",
+            "support"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "kind": {
+              "type": "string",
+              "enum": [
+                "academic",
+                "primary",
+                "educational"
+              ]
+            },
+            "support": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "date_verified": {
+        "type": "string",
+        "format": "date"
+      },
+      "kind": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "slug",
+      "category",
+      "difficulty",
+      "associated_thinkers",
+      "original_publication",
+      "summary",
+      "themes",
+      "related_experiments",
+      "file_path",
+      "references",
+      "date_verified",
+      "kind"
+    ],
+    "additionalProperties": false
+  }
+}

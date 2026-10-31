@@ -1,0 +1,2644 @@
+[
+  {
+    "id": "trolley",
+    "slug": "trolley",
+    "title": "Trolley Problem",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Philippa Foot",
+      "Judith Jarvis Thomson"
+    ],
+    "original_publication": "Foot, The Problem of Abortion and the Doctrine of the Double Effect (1967); Thomson’s later developments",
+    "difficulty": "Beginner",
+    "themes": [
+      "killing",
+      "intention",
+      "consequences"
+    ],
+    "references": [
+      {
+        "title": "Tamar Gendler, The Trolley Problem, Open Yale Courses",
+        "url": "https://oyc.yale.edu/philosophy/phil-181/lecture-14",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Trolley Problem; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "transplant",
+      "violinist"
+    ],
+    "file_path": "experiments/ethics/trolley.md",
+    "summary": "When, if ever, may saving several lives justify foreseeably killing one?"
+  },
+  {
+    "id": "violinist",
+    "slug": "violinist",
+    "title": "The Violinist",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Judith Jarvis Thomson"
+    ],
+    "original_publication": "A Defense of Abortion (1971)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "bodily autonomy",
+      "rights",
+      "obligation"
+    ],
+    "references": [
+      {
+        "title": "Judith Jarvis Thomson, A Defense of Abortion (1971), university-hosted text",
+        "url": "https://spot.colorado.edu/~heathwoo/Phil160,Fall02/thomson.htm",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in The Violinist; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "drowning-child",
+      "transplant"
+    ],
+    "file_path": "experiments/ethics/violinist.md",
+    "summary": "Does a right to life automatically include a right to another person’s bodily support?"
+  },
+  {
+    "id": "experience-machine",
+    "slug": "experience-machine",
+    "title": "Experience Machine",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Robert Nozick"
+    ],
+    "original_publication": "Anarchy, State, and Utopia (1974); revised presentation in The Examined Life (1989)",
+    "difficulty": "Beginner",
+    "themes": [
+      "well-being",
+      "authenticity",
+      "pleasure"
+    ],
+    "references": [
+      {
+        "title": "Internet Encyclopedia of Philosophy, The Experience Machine",
+        "url": "https://iep.utm.edu/experience-machine/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Experience Machine; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "marys-room",
+      "violinist"
+    ],
+    "file_path": "experiments/ethics/experience-machine.md",
+    "summary": "Is the quality of experience all that makes a life good for its subject?"
+  },
+  {
+    "id": "utility-monster",
+    "slug": "utility-monster",
+    "title": "Utility Monster",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Robert Nozick"
+    ],
+    "original_publication": "Anarchy, State, and Utopia (1974)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "aggregation",
+      "fairness",
+      "welfare"
+    ],
+    "references": [
+      {
+        "title": "Utilitas, Negative Utility Monsters, abstract and bibliographic record",
+        "url": "https://www.cambridge.org/core/journals/utilitas/article/abs/negative-utility-monsters/03A3CD2DF0B295A4F1B1EDC69F77597C",
+        "kind": "academic",
+        "support": "Publisher abstract explicitly describes Nozick’s resource-efficient welfare recipient and negative variation; reference list identifies Anarchy, State, and Utopia (1974). Full article not accessed."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Consequentialism",
+        "url": "https://plato.stanford.edu/entries/consequentialism/",
+        "kind": "academic",
+        "support": "Directly retrieved scholarly treatment of maximizing, total, aggregative, and equal-consideration premises; supports interpretation of the welfare calculation, not independent attribution of the monster scenario."
+      },
+      {
+        "title": "Internet Encyclopedia of Philosophy, Robert Nozick",
+        "url": "https://iep.utm.edu/nozick/",
+        "kind": "academic",
+        "support": "Directly retrieved account of Nozick’s rights as side constraints and Anarchy, State, and Utopia (1974); contextual source, not a description of the monster."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "repugnant-conclusion",
+      "experience-machine"
+    ],
+    "file_path": "experiments/ethics/utility-monster.md",
+    "summary": "Can maximizing total well-being justify extreme concentration on a single beneficiary?"
+  },
+  {
+    "id": "transplant",
+    "slug": "transplant",
+    "title": "Transplant Problem",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Philippa Foot",
+      "Judith Jarvis Thomson"
+    ],
+    "original_publication": "Twentieth-century trolley and transplant debates; Foot (1967), Thomson’s later discussions",
+    "difficulty": "Beginner",
+    "themes": [
+      "rights",
+      "killing",
+      "medical ethics"
+    ],
+    "references": [
+      {
+        "title": "Tamar Gendler, The Trolley Problem, Open Yale Courses",
+        "url": "https://oyc.yale.edu/philosophy/phil-181/lecture-14",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Transplant Problem; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "trolley",
+      "organ-lottery"
+    ],
+    "file_path": "experiments/ethics/transplant.md",
+    "summary": "Why might killing one to save five be forbidden even when five lives would certainly be saved?"
+  },
+  {
+    "id": "repugnant-conclusion",
+    "slug": "repugnant-conclusion",
+    "title": "Repugnant Conclusion",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Derek Parfit",
+      "Henry Sidgwick (precursor)"
+    ],
+    "original_publication": "Reasons and Persons (1984); earlier aggregation concerns predate Parfit",
+    "difficulty": "Advanced",
+    "themes": [
+      "population ethics",
+      "aggregation",
+      "quality of life"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, The Repugnant Conclusion",
+        "url": "https://plato.stanford.edu/entries/repugnant-conclusion/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Repugnant Conclusion; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "argument",
+    "related_experiments": [
+      "nonidentity-problem",
+      "utility-monster"
+    ],
+    "file_path": "experiments/ethics/repugnant-conclusion.md",
+    "summary": "Can enough minimally good lives make a world better than one containing fewer excellent lives?"
+  },
+  {
+    "id": "drowning-child",
+    "slug": "drowning-child",
+    "title": "Drowning Child",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Peter Singer"
+    ],
+    "original_publication": "Famine, Affluence, and Morality (1972)",
+    "difficulty": "Beginner",
+    "themes": [
+      "beneficence",
+      "distance",
+      "demandingness"
+    ],
+    "references": [
+      {
+        "title": "Peter Singer, Famine, Affluence, and Morality (1972), university-hosted text, search-index evidence",
+        "url": "https://faculty.uca.edu/rnovy/Singer--FamineAffluence%26Morality.htm",
+        "kind": "academic",
+        "support": "University-hosted text was found in indexed search evidence; direct open timed out. Full-text verification used the separately listed Giving What We Can reproduction."
+      },
+      {
+        "title": "Peter Singer, Famine, Affluence, and Morality, full text reproduced by Giving What We Can",
+        "url": "https://www.givingwhatwecan.org/get-involved/videos-books-and-essays/famine-affluence-and-morality-peter-singer",
+        "kind": "academic",
+        "support": "Directly retrieved full text of the original philosophical essay; supports shallow-pond scenario, comparable-sacrifice principle, distance and bystander arguments. Host includes advocacy material distinct from Singer’s text."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "violinist",
+      "utility-monster"
+    ],
+    "file_path": "experiments/ethics/drowning-child.md",
+    "summary": "How far does an easy duty of rescue extend beyond people immediately in front of us?"
+  },
+  {
+    "id": "nonidentity-problem",
+    "slug": "nonidentity-problem",
+    "title": "Nonidentity Problem",
+    "category": "ethics",
+    "associated_thinkers": [
+      "Derek Parfit",
+      "Gregory Kavka"
+    ],
+    "original_publication": "Modern formulations in population-ethics work of the 1970s–1980s; Reasons and Persons (1984)",
+    "difficulty": "Advanced",
+    "themes": [
+      "future generations",
+      "harm",
+      "identity"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, The Nonidentity Problem",
+        "url": "https://plato.stanford.edu/entries/nonidentity-problem/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Nonidentity Problem; historical work is mediated unless an original text is explicitly identified."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, The Repugnant Conclusion",
+        "url": "https://plato.stanford.edu/entries/repugnant-conclusion/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Nonidentity Problem; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "repugnant-conclusion",
+      "fission"
+    ],
+    "file_path": "experiments/ethics/nonidentity-problem.md",
+    "summary": "Can a choice be wrong even if it makes no particular person worse off than that person otherwise would have been?"
+  },
+  {
+    "id": "organ-lottery",
+    "slug": "organ-lottery",
+    "title": "Survival Lottery",
+    "category": "ethics",
+    "associated_thinkers": [
+      "John Harris"
+    ],
+    "original_publication": "The Survival Lottery (1975)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "fairness",
+      "consent",
+      "risk"
+    ],
+    "references": [
+      {
+        "title": "Harvard ABLConnect, Thought Experiment of the Day, quoting John Harris",
+        "url": "https://ablconnect.harvard.edu/book/thought-experiment-day",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Survival Lottery; historical work is mediated unless an original text is explicitly identified."
+      },
+      {
+        "title": "Tamar Gendler, The Trolley Problem, Open Yale Courses",
+        "url": "https://oyc.yale.edu/philosophy/phil-181/lecture-14",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Survival Lottery; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "transplant",
+      "trolley"
+    ],
+    "file_path": "experiments/ethics/organ-lottery.md",
+    "summary": "Can an impartial procedure make compulsory lethal sacrifice morally acceptable?"
+  },
+  {
+    "id": "ship-of-theseus",
+    "slug": "ship-of-theseus",
+    "title": "Ship of Theseus",
+    "category": "identity",
+    "associated_thinkers": [
+      "Plutarch",
+      "Thomas Hobbes (reassembly variation)"
+    ],
+    "original_publication": "Plutarch, Life of Theseus §23, ancient account; Hobbes’s later addition",
+    "difficulty": "Beginner",
+    "themes": [
+      "persistence",
+      "parts",
+      "identity"
+    ],
+    "references": [
+      {
+        "title": "S. Marc Cohen, Identity, Persistence, and the Ship of Theseus, University of Washington",
+        "url": "https://staff.washington.edu/smcohen/320/theseus.html",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Ship of Theseus; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "teletransporter",
+      "lockes-prince-and-cobbler"
+    ],
+    "file_path": "experiments/identity/ship-of-theseus.md",
+    "summary": "What allows an object to remain the very same object while its parts change?"
+  },
+  {
+    "id": "teletransporter",
+    "slug": "teletransporter",
+    "title": "Teletransporter",
+    "category": "identity",
+    "associated_thinkers": [
+      "Derek Parfit"
+    ],
+    "original_publication": "Reasons and Persons (1984), modern influential presentation",
+    "difficulty": "Intermediate",
+    "themes": [
+      "survival",
+      "copying",
+      "continuity"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Personal Identity",
+        "url": "https://plato.stanford.edu/entries/identity-personal/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Teletransporter; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "fission",
+      "ship-of-theseus"
+    ],
+    "file_path": "experiments/identity/teletransporter.md",
+    "summary": "Does perfect psychological reconstruction preserve you, or merely produce someone much like you?"
+  },
+  {
+    "id": "fission",
+    "slug": "fission",
+    "title": "Fission and Personal Identity",
+    "category": "identity",
+    "associated_thinkers": [
+      "Derek Parfit",
+      "David Wiggins",
+      "Sydney Shoemaker"
+    ],
+    "original_publication": "Twentieth-century personal-identity debates; Parfit, Reasons and Persons (1984)",
+    "difficulty": "Advanced",
+    "themes": [
+      "identity",
+      "branching",
+      "survival"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Personal Identity",
+        "url": "https://plato.stanford.edu/entries/identity-personal/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Fission and Personal Identity; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "teletransporter",
+      "brain-transplant"
+    ],
+    "file_path": "experiments/identity/fission.md",
+    "summary": "Can one person survive as two people without being identical to both?"
+  },
+  {
+    "id": "swampman",
+    "slug": "swampman",
+    "title": "Swampman",
+    "category": "identity",
+    "associated_thinkers": [
+      "Donald Davidson"
+    ],
+    "original_publication": "Knowing One’s Own Mind (1987)",
+    "difficulty": "Advanced",
+    "themes": [
+      "mental content",
+      "history",
+      "externalism"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Donald Davidson",
+        "url": "https://plato.stanford.edu/entries/davidson/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Swampman; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "teletransporter",
+      "chinese-room"
+    ],
+    "file_path": "experiments/identity/swampman.md",
+    "summary": "Do a thinker’s meanings and thoughts depend partly on a history outside the thinker’s present physical state?"
+  },
+  {
+    "id": "lockes-prince-and-cobbler",
+    "slug": "lockes-prince-and-cobbler",
+    "title": "Locke’s Prince and Cobbler",
+    "category": "identity",
+    "associated_thinkers": [
+      "John Locke"
+    ],
+    "original_publication": "An Essay Concerning Human Understanding, II.xxvii (added in 1694)",
+    "difficulty": "Beginner",
+    "themes": [
+      "consciousness",
+      "responsibility",
+      "personhood"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Locke on Personal Identity",
+        "url": "https://plato.stanford.edu/entries/locke-personal-identity/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Locke’s Prince and Cobbler; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "brave-officer",
+      "brain-transplant"
+    ],
+    "file_path": "experiments/identity/lockes-prince-and-cobbler.md",
+    "summary": "Does the person follow bodily continuity or continuity of consciousness?"
+  },
+  {
+    "id": "brain-transplant",
+    "slug": "brain-transplant",
+    "title": "Brain Transplant: Brown and Robinson",
+    "category": "identity",
+    "associated_thinkers": [
+      "Sydney Shoemaker"
+    ],
+    "original_publication": "Self-Knowledge and Self-Identity (1963)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "embodiment",
+      "memory",
+      "survival"
+    ],
+    "references": [
+      {
+        "title": "Open University Digital Archive, Philosophy in the Open: Debates and Discussions",
+        "url": "https://www.open.ac.uk/library/digital-archive/exhibition/330/theme/1/page/14",
+        "kind": "academic",
+        "support": "Directly retrieved Open University archive essay by Amy Kind explicitly attributes Brown/Robinson to Shoemaker 1963 and discusses Brownson and fission."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Personal Identity",
+        "url": "https://plato.stanford.edu/entries/identity-personal/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Brain Transplant: Brown and Robinson; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "lockes-prince-and-cobbler",
+      "fission"
+    ],
+    "file_path": "experiments/identity/brain-transplant.md",
+    "summary": "Which person, if either, survives when brain and the rest of the body come apart?"
+  },
+  {
+    "id": "brave-officer",
+    "slug": "brave-officer",
+    "title": "Brave Officer",
+    "category": "identity",
+    "associated_thinkers": [
+      "Thomas Reid"
+    ],
+    "original_publication": "Essays on the Intellectual Powers of Man (1785), III.vi",
+    "difficulty": "Intermediate",
+    "themes": [
+      "memory",
+      "transitivity",
+      "identity"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Reid on Memory and Personal Identity",
+        "url": "https://plato.stanford.edu/entries/reid-memory-identity/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Brave Officer; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "lockes-prince-and-cobbler",
+      "fission"
+    ],
+    "file_path": "experiments/identity/brave-officer.md",
+    "summary": "Can a relation that fails transitivity constitute identity, which is transitive?"
+  },
+  {
+    "id": "marys-room",
+    "slug": "marys-room",
+    "title": "Mary’s Room: The Knowledge Argument",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Frank Jackson"
+    ],
+    "original_publication": "Epiphenomenal Qualia (1982); What Mary Didn’t Know (1986)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "knowledge",
+      "experience",
+      "physicalism"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Qualia: The Knowledge Argument",
+        "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Mary’s Room: The Knowledge Argument; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "zombies",
+      "inverted-spectrum"
+    ],
+    "file_path": "experiments/consciousness/marys-room.md",
+    "summary": "If Mary learns something upon seeing red, does that show that physical knowledge leaves out facts about consciousness?"
+  },
+  {
+    "id": "zombies",
+    "slug": "zombies",
+    "title": "Philosophical Zombies",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "David Chalmers",
+      "Robert Kirk and other twentieth-century contributors"
+    ],
+    "original_publication": "Modern zombie debates: Kirk (1974); Chalmers, The Conscious Mind (1996)",
+    "difficulty": "Advanced",
+    "themes": [
+      "consciousness",
+      "possibility",
+      "physicalism"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Zombies",
+        "url": "https://plato.stanford.edu/entries/zombies/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Philosophical Zombies; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "marys-room",
+      "china-brain"
+    ],
+    "file_path": "experiments/consciousness/zombies.md",
+    "summary": "Is a physically identical world without consciousness genuinely possible?"
+  },
+  {
+    "id": "chinese-room",
+    "slug": "chinese-room",
+    "title": "Chinese Room",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "John Searle"
+    ],
+    "original_publication": "Minds, Brains, and Programs (1980)",
+    "difficulty": "Beginner",
+    "themes": [
+      "understanding",
+      "computation",
+      "semantics"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, The Chinese Room Argument",
+        "url": "https://plato.stanford.edu/entries/chinese-room/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Chinese Room; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "china-brain",
+      "philosophical-mill"
+    ],
+    "file_path": "experiments/consciousness/chinese-room.md",
+    "summary": "Is executing a formally specified program sufficient for understanding?"
+  },
+  {
+    "id": "inverted-spectrum",
+    "slug": "inverted-spectrum",
+    "title": "Inverted Spectrum",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "John Locke",
+      "Sydney Shoemaker",
+      "Ned Block"
+    ],
+    "original_publication": "Locke, Essay II.xxxii.15; modern functionalist versions developed in the twentieth century",
+    "difficulty": "Intermediate",
+    "themes": [
+      "qualia",
+      "function",
+      "perception"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Inverted Qualia",
+        "url": "https://plato.stanford.edu/entries/qualia-inverted/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Inverted Spectrum; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "marys-room",
+      "zombies"
+    ],
+    "file_path": "experiments/consciousness/inverted-spectrum.md",
+    "summary": "Could experiences differ while every relevant functional role remains the same?"
+  },
+  {
+    "id": "bat",
+    "slug": "bat",
+    "title": "What Is It Like to Be a Bat?",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Thomas Nagel"
+    ],
+    "original_publication": "What Is It Like to Be a Bat? (1974)",
+    "difficulty": "Beginner",
+    "themes": [
+      "subjectivity",
+      "perspective",
+      "explanation"
+    ],
+    "references": [
+      {
+        "title": "Thomas Nagel, What Is It Like to Be a Bat? (1974), university-hosted original paper",
+        "url": "https://home.csulb.edu/~cwallis/382/readings/482/nagel.what.is.it.like.to.be.a.bat.1974.pdf",
+        "kind": "academic",
+        "support": "Original article directly retrieved as a 17-page PDF; supports echolocation case, subjective point of view, and limits of reductive explanation; bibliographic header confirms October 1974."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Qualia: The Knowledge Argument",
+        "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in What Is It Like to Be a Bat?; historical work is mediated unless an original text is explicitly identified."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Qualia",
+        "url": "https://plato.stanford.edu/entries/qualia/",
+        "kind": "academic",
+        "support": "Directly retrieved scholarly overview of phenomenal character, first-person knowledge, and physicalist alternatives."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "marys-room",
+      "zombies"
+    ],
+    "file_path": "experiments/consciousness/bat.md",
+    "summary": "Can an objective description fully capture an experience available only from a particular point of view?"
+  },
+  {
+    "id": "china-brain",
+    "slug": "china-brain",
+    "title": "China Brain",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Ned Block"
+    ],
+    "original_publication": "Troubles with Functionalism (1978; later reprint versions)",
+    "difficulty": "Advanced",
+    "themes": [
+      "functionalism",
+      "systems",
+      "qualia"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Qualia",
+        "url": "https://plato.stanford.edu/entries/qualia/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in China Brain; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "chinese-room",
+      "fading-and-dancing-qualia"
+    ],
+    "file_path": "experiments/consciousness/china-brain.md",
+    "summary": "Can the right functional organization produce consciousness in an extremely unfamiliar physical implementation?"
+  },
+  {
+    "id": "philosophical-mill",
+    "slug": "philosophical-mill",
+    "title": "Leibniz’s Mill",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Gottfried Wilhelm Leibniz"
+    ],
+    "original_publication": "Monadology §17 (1714)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "mechanism",
+      "perception",
+      "explanation"
+    ],
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Leibniz’s Philosophy of Mind",
+        "url": "https://plato.stanford.edu/entries/leibniz-mind/",
+        "kind": "academic",
+        "support": "Directly retrieved SEP section 1 reproduces and analyzes Monadology §17, explicitly dated 1714; original full Monadology was not separately inspected."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, The Chinese Room Argument",
+        "url": "https://plato.stanford.edu/entries/chinese-room/",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Leibniz’s Mill; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "chinese-room",
+      "china-brain"
+    ],
+    "file_path": "experiments/consciousness/philosophical-mill.md",
+    "summary": "Can the interactions of extended parts explain a unified perception?"
+  },
+  {
+    "id": "beetle-in-box",
+    "slug": "beetle-in-box",
+    "title": "Beetle in a Box",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "Ludwig Wittgenstein"
+    ],
+    "original_publication": "Philosophical Investigations §293 (published 1953)",
+    "difficulty": "Intermediate",
+    "themes": [
+      "private language",
+      "meaning",
+      "sensation"
+    ],
+    "references": [
+      {
+        "title": "Ludwig Wittgenstein, Philosophical Investigations §293, Stanford-hosted excerpt",
+        "url": "https://web.stanford.edu/~paulsko/Wittgenstein293.html",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Beetle in a Box; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "inverted-spectrum",
+      "bat"
+    ],
+    "file_path": "experiments/consciousness/beetle-in-box.md",
+    "summary": "Can a wholly private object determine the meaning of a publicly used sensation word?"
+  },
+  {
+    "id": "fading-and-dancing-qualia",
+    "slug": "fading-and-dancing-qualia",
+    "title": "Fading and Dancing Qualia",
+    "category": "consciousness",
+    "associated_thinkers": [
+      "David Chalmers"
+    ],
+    "original_publication": "Absent Qualia, Fading Qualia, Dancing Qualia (1995)",
+    "difficulty": "Advanced",
+    "themes": [
+      "organizational invariance",
+      "replacement",
+      "awareness"
+    ],
+    "references": [
+      {
+        "title": "David Chalmers, Absent Qualia, Fading Qualia, Dancing Qualia (1995), author’s text",
+        "url": "https://consc.net/papers/qualia.html",
+        "kind": "academic",
+        "support": "Academic discussion supporting the scenario and principal distinctions in Fading and Dancing Qualia; historical work is mediated unless an original text is explicitly identified."
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment",
+    "related_experiments": [
+      "china-brain",
+      "inverted-spectrum"
+    ],
+    "file_path": "experiments/consciousness/fading-and-dancing-qualia.md",
+    "summary": "Could experience change radically without any corresponding change in a system’s ability to notice?"
+  },
+  {
+    "id": "brain-in-a-vat",
+    "slug": "brain-in-a-vat",
+    "title": "Brain in a Vat",
+    "category": "epistemology",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Hilary Putnam"
+    ],
+    "original_publication": "Reason, Truth and History (1981), chapter 1; earlier skeptical precursors",
+    "summary": "Could an entirely simulated sensory life undermine knowledge of the external world?",
+    "themes": [
+      "skepticism",
+      "meaning",
+      "externalism"
+    ],
+    "related_experiments": [
+      "evil-demon",
+      "dream-argument"
+    ],
+    "file_path": "experiments/epistemology/brain-in-a-vat.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Content Externalism and Skepticism",
+        "url": "https://plato.stanford.edu/entries/skepticism-content-externalism/",
+        "kind": "academic",
+        "support": "Cartesian skeptical hypotheses and the scope of Putnam’s semantic response"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "evil-demon",
+    "slug": "evil-demon",
+    "title": "Descartes’s Evil Demon",
+    "category": "epistemology",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "René Descartes"
+    ],
+    "original_publication": "Meditations on First Philosophy (1641), Meditation I",
+    "summary": "A deliberately powerful deceiver tests which beliefs can survive radical doubt.",
+    "themes": [
+      "skepticism",
+      "certainty",
+      "methodological doubt"
+    ],
+    "related_experiments": [
+      "dream-argument",
+      "brain-in-a-vat"
+    ],
+    "file_path": "experiments/epistemology/evil-demon.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Content Externalism and Skepticism",
+        "url": "https://plato.stanford.edu/entries/skepticism-content-externalism/",
+        "kind": "academic",
+        "support": "Cartesian skeptical hypotheses and the scope of Putnam’s semantic response"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Dreams and Dreaming",
+        "url": "https://plato.stanford.edu/entries/dreams-dreaming/",
+        "kind": "academic",
+        "support": "Historical dream arguments and the distinction between dreaming and other skeptical scenarios"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "dream-argument",
+    "slug": "dream-argument",
+    "title": "The Dream Argument",
+    "category": "epistemology",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "René Descartes"
+    ],
+    "original_publication": "Meditations on First Philosophy (1641), Meditation I; ancient precursors",
+    "summary": "Dreams challenge the assumption that compelling present experience guarantees wakefulness.",
+    "themes": [
+      "dreaming",
+      "perception",
+      "skepticism"
+    ],
+    "related_experiments": [
+      "evil-demon",
+      "brain-in-a-vat"
+    ],
+    "file_path": "experiments/epistemology/dream-argument.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Dreams and Dreaming",
+        "url": "https://plato.stanford.edu/entries/dreams-dreaming/",
+        "kind": "academic",
+        "support": "Historical dream arguments and the distinction between dreaming and other skeptical scenarios"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Content Externalism and Skepticism",
+        "url": "https://plato.stanford.edu/entries/skepticism-content-externalism/",
+        "kind": "academic",
+        "support": "Cartesian skeptical hypotheses and the scope of Putnam’s semantic response"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "argument"
+  },
+  {
+    "id": "gettier-cases",
+    "slug": "gettier-cases",
+    "title": "Gettier Cases",
+    "category": "epistemology",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Edmund Gettier"
+    ],
+    "original_publication": "“Is Justified True Belief Knowledge?” (1963)",
+    "summary": "A belief can be justified and true while its truth appears to depend on the wrong kind of luck.",
+    "themes": [
+      "knowledge",
+      "justification",
+      "epistemic luck"
+    ],
+    "related_experiments": [
+      "fake-barn",
+      "russells-five-minute-world"
+    ],
+    "file_path": "experiments/epistemology/gettier-cases.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Analysis of Knowledge",
+        "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+        "kind": "academic",
+        "support": "Gettier cases, fake barns, historical attribution, and competing analyses of knowledge"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "fake-barn",
+    "slug": "fake-barn",
+    "title": "Fake-Barn Country",
+    "category": "epistemology",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Carl Ginet",
+      "Alvin Goldman"
+    ],
+    "original_publication": "Ginet’s example, published in Goldman’s “Discrimination and Perceptual Knowledge” (1976)",
+    "summary": "Accurate perception in a deceptive neighborhood tests whether a true belief is safe enough for knowledge.",
+    "themes": [
+      "knowledge",
+      "environmental luck",
+      "reliability"
+    ],
+    "related_experiments": [
+      "gettier-cases",
+      "brain-in-a-vat"
+    ],
+    "file_path": "experiments/epistemology/fake-barn.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Analysis of Knowledge",
+        "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+        "kind": "academic",
+        "support": "Gettier cases, fake barns, historical attribution, and competing analyses of knowledge"
+      },
+      {
+        "title": "Internet Encyclopedia of Philosophy: Gettier Problems",
+        "url": "https://iep.utm.edu/gettier/",
+        "kind": "academic",
+        "support": "Barn case and disagreement over its classification"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "molyneux-problem",
+    "slug": "molyneux-problem",
+    "title": "Molyneux’s Problem",
+    "category": "epistemology",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "William Molyneux",
+      "John Locke"
+    ],
+    "original_publication": "Letters to Locke (1688 and 1693); Locke’s Essay, second edition (1694)",
+    "summary": "Could someone newly able to see recognize by sight shapes previously known only through touch?",
+    "themes": [
+      "perception",
+      "cross-modal recognition",
+      "learning"
+    ],
+    "related_experiments": [
+      "dream-argument",
+      "gettier-cases"
+    ],
+    "file_path": "experiments/epistemology/molyneux-problem.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Molyneux’s Problem",
+        "url": "https://plato.stanford.edu/entries/molyneux-problem/",
+        "kind": "academic",
+        "support": "1688 and 1693 letters, 1694 publication, empiricism, and empirical follow-up"
+      },
+      {
+        "title": "Internet Encyclopedia of Philosophy: Molyneux’s Question",
+        "url": "https://iep.utm.edu/molyneux/",
+        "kind": "academic",
+        "support": "Philosophical framing of immediate visual recognition"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "russells-five-minute-world",
+    "slug": "russells-five-minute-world",
+    "title": "Russell’s Five-Minute World",
+    "category": "epistemology",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "Bertrand Russell"
+    ],
+    "original_publication": "The Analysis of Mind (1921), Lecture IX: Memory",
+    "summary": "A newly created world with apparent memories tests the difference between present evidence and the past it represents.",
+    "themes": [
+      "memory",
+      "past",
+      "skepticism"
+    ],
+    "related_experiments": [
+      "dream-argument",
+      "gettier-cases"
+    ],
+    "file_path": "experiments/epistemology/russells-five-minute-world.md",
+    "references": [
+      {
+        "title": "Bertrand Russell, The Analysis of Mind (1921), Lecture IX: Memory",
+        "url": "https://www.gutenberg.org/cache/epub/2529/pg2529-images.html",
+        "kind": "academic",
+        "support": "Original five-minute hypothesis and Russell’s explicit refusal to recommend it as a serious hypothesis"
+      },
+      {
+        "title": "Michael Tooley, Knowledge of the Past, university course chapter",
+        "url": "https://spot.colorado.edu/~tooley/Chapter7.html",
+        "kind": "academic",
+        "support": "Discussion of Russell’s hypothesis and the problem of historical knowledge"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "sorites",
+    "slug": "sorites",
+    "title": "Sorites: When Does a Heap Begin?",
+    "category": "logic",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "Eubulides of Miletus"
+    ],
+    "original_publication": "Ancient Greek tradition, fourth century BCE; attribution traditional",
+    "summary": "A sequence of individually tiny changes challenges the boundaries of vague concepts.",
+    "themes": [
+      "vagueness",
+      "logic",
+      "classification"
+    ],
+    "related_experiments": [
+      "liar",
+      "unexpected-hanging"
+    ],
+    "file_path": "experiments/logic/sorites.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Sorites Paradox",
+        "url": "https://plato.stanford.edu/entries/sorites-paradox/",
+        "kind": "academic",
+        "support": "Ancient attribution, tolerance premises, and major accounts of vagueness"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "liar",
+    "slug": "liar",
+    "title": "The Liar Paradox",
+    "category": "logic",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Ancient Megarian logicians",
+      "Alfred Tarski",
+      "Saul Kripke"
+    ],
+    "original_publication": "Ancient tradition; influential modern semantic treatments in the twentieth century",
+    "summary": "A sentence that denies its own truth exposes tension in familiar principles of truth and inference.",
+    "themes": [
+      "truth",
+      "self-reference",
+      "semantics"
+    ],
+    "related_experiments": [
+      "russells-paradox",
+      "unexpected-hanging"
+    ],
+    "file_path": "experiments/logic/liar.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Liar Paradox",
+        "url": "https://plato.stanford.edu/entries/liar-paradox/",
+        "kind": "academic",
+        "support": "Semantic structure, historical qualifications, and families of responses"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "russells-paradox",
+    "slug": "russells-paradox",
+    "title": "Russell’s Paradox",
+    "category": "logic",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Bertrand Russell",
+      "Gottlob Frege"
+    ],
+    "original_publication": "Discovery around 1901; letter to Frege (1902)",
+    "summary": "The set of all sets that are not members of themselves undermines unrestricted set formation.",
+    "themes": [
+      "sets",
+      "self-membership",
+      "foundations"
+    ],
+    "related_experiments": [
+      "liar",
+      "sorites"
+    ],
+    "file_path": "experiments/logic/russells-paradox.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Russell’s Paradox",
+        "url": "https://plato.stanford.edu/entries/russell-paradox/",
+        "kind": "academic",
+        "support": "Discovery around 1901, unrestricted comprehension, and responses in set theory"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "unexpected-hanging",
+    "slug": "unexpected-hanging",
+    "title": "The Unexpected Hanging / Surprise Test",
+    "category": "logic",
+    "difficulty": "Advanced",
+    "associated_thinkers": [
+      "Modern puzzle tradition",
+      "D. J. O’Connor"
+    ],
+    "original_publication": "Modern discussion from the mid-twentieth century; exact origin uncertain",
+    "summary": "An announcement about what cannot be known seems to undermine the reasoning used to predict it.",
+    "themes": [
+      "knowledge",
+      "prediction",
+      "self-reference"
+    ],
+    "related_experiments": [
+      "liar",
+      "newcomb"
+    ],
+    "file_path": "experiments/logic/unexpected-hanging.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Epistemic Paradoxes",
+        "url": "https://plato.stanford.edu/entries/epistemic-paradoxes/",
+        "kind": "academic",
+        "support": "Surprise-test formulation and self-referential knowledge difficulties"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "buridans-ass",
+    "slug": "buridans-ass",
+    "title": "Buridan’s Ass",
+    "category": "logic",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "John Buridan (traditional association)",
+      "Aristotle (earlier related example)"
+    ],
+    "original_publication": "Medieval and later tradition; donkey formulation not found in Buridan’s writings",
+    "summary": "Perfectly balanced alternatives test whether choosing requires a reason favoring one specific option.",
+    "themes": [
+      "choice",
+      "symmetry",
+      "reasons"
+    ],
+    "related_experiments": [
+      "newcomb",
+      "frankfurt-cases"
+    ],
+    "file_path": "experiments/logic/buridans-ass.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: John Buridan",
+        "url": "https://plato.stanford.edu/entries/buridan/",
+        "kind": "academic",
+        "support": "Section 7: ass example absent from Buridan’s writings; earlier Aristotelian parallels"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "achilles-and-tortoise",
+    "slug": "achilles-and-tortoise",
+    "title": "Achilles and the Tortoise",
+    "category": "logic",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "Zeno of Elea"
+    ],
+    "original_publication": "Fifth century BCE; preserved and discussed by Aristotle",
+    "summary": "An infinite sequence of catch-up stages seems to prevent a faster runner from overtaking a slower one.",
+    "themes": [
+      "infinity",
+      "motion",
+      "limits"
+    ],
+    "related_experiments": [
+      "sorites",
+      "bootstrap"
+    ],
+    "file_path": "experiments/logic/achilles-and-tortoise.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
+        "url": "https://plato.stanford.edu/entries/paradox-zeno/",
+        "kind": "academic",
+        "support": "Achilles argument, infinite series, and distinction between mathematical and physical issues"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "grandfather-paradox",
+    "slug": "grandfather-paradox",
+    "title": "The Grandfather Paradox",
+    "category": "time-and-causality",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "David Lewis (influential analysis)"
+    ],
+    "original_publication": "Older time-travel tradition; Lewis, “The Paradoxes of Time Travel” (1976)",
+    "summary": "A traveler’s attempt to prevent their own ancestry tests the consistency of a single history.",
+    "themes": [
+      "time travel",
+      "consistency",
+      "ability"
+    ],
+    "related_experiments": [
+      "bootstrap",
+      "consequence-argument"
+    ],
+    "file_path": "experiments/time-and-causality/grandfather-paradox.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Time Travel",
+        "url": "https://plato.stanford.edu/entries/time-travel/",
+        "kind": "academic",
+        "support": "Grandfather paradox, contextual ability, causal loops, and limits of philosophical possibility arguments"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "bootstrap",
+    "slug": "bootstrap",
+    "title": "The Bootstrap / Causal-Loop Paradox",
+    "category": "time-and-causality",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "David Lewis (influential analysis)"
+    ],
+    "original_publication": "Longstanding time-travel tradition; modern philosophical analysis in Lewis (1976)",
+    "summary": "A message circulating through time can seem to have no original author without being contradictory.",
+    "themes": [
+      "causation",
+      "explanation",
+      "time travel"
+    ],
+    "related_experiments": [
+      "grandfather-paradox",
+      "russells-five-minute-world"
+    ],
+    "file_path": "experiments/time-and-causality/bootstrap.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Time Travel",
+        "url": "https://plato.stanford.edu/entries/time-travel/",
+        "kind": "academic",
+        "support": "Grandfather paradox, contextual ability, causal loops, and limits of philosophical possibility arguments"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "paradox"
+  },
+  {
+    "id": "laplaces-demon",
+    "slug": "laplaces-demon",
+    "title": "Laplace’s Demon",
+    "category": "time-and-causality",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Pierre-Simon Laplace"
+    ],
+    "original_publication": "Essai philosophique sur les probabilités (1814; later editions)",
+    "summary": "An ideal intelligence makes vivid the claim that a complete state and laws fix a whole history.",
+    "themes": [
+      "determinism",
+      "prediction",
+      "laws of nature"
+    ],
+    "related_experiments": [
+      "consequence-argument",
+      "newcomb"
+    ],
+    "file_path": "experiments/time-and-causality/laplaces-demon.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Causal Determinism",
+        "url": "https://plato.stanford.edu/entries/determinism-causal/",
+        "kind": "academic",
+        "support": "Laplace’s intelligence and the distinction between determinism, prediction, and fatalism"
+      },
+      {
+        "title": "ETH-Bibliothek, digitized Laplace, Essai philosophique sur les probabilités, Paris 1814",
+        "url": "https://www.e-rara.ch/zut/content/pagetext/1090755",
+        "kind": "academic",
+        "support": "Cataloged 1814 edition for publication chronology"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "frankfurt-cases",
+    "slug": "frankfurt-cases",
+    "title": "Frankfurt Cases",
+    "category": "time-and-causality",
+    "difficulty": "Advanced",
+    "associated_thinkers": [
+      "Harry Frankfurt"
+    ],
+    "original_publication": "“Alternate Possibilities and Moral Responsibility” (1969)",
+    "summary": "A counterfactual intervener tests whether responsibility requires being able to act otherwise.",
+    "themes": [
+      "responsibility",
+      "alternative possibilities",
+      "agency"
+    ],
+    "related_experiments": [
+      "consequence-argument",
+      "buridans-ass"
+    ],
+    "file_path": "experiments/time-and-causality/frankfurt-cases.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Moral Responsibility and the Principle of Alternative Possibilities",
+        "url": "https://plato.stanford.edu/entries/alternative-possibilities/",
+        "kind": "academic",
+        "support": "Frankfurt case, flickers of freedom, and objections to the proposed counterexample"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Compatibilism",
+        "url": "https://plato.stanford.edu/entries/compatibilism/",
+        "kind": "academic",
+        "support": "Frankfurt’s Jones/Black case and contemporary responses to determinism"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "newcomb",
+    "slug": "newcomb",
+    "title": "Newcomb’s Problem",
+    "category": "time-and-causality",
+    "difficulty": "Advanced",
+    "associated_thinkers": [
+      "William Newcomb",
+      "Robert Nozick"
+    ],
+    "original_publication": "Formulated by Newcomb; published by Nozick in “Newcomb’s Problem and Two Principles of Choice” (1969)",
+    "summary": "A reliable prior prediction pits one-boxing against the apparent dominance of taking both boxes.",
+    "themes": [
+      "decision theory",
+      "prediction",
+      "causation"
+    ],
+    "related_experiments": [
+      "laplaces-demon",
+      "unexpected-hanging"
+    ],
+    "file_path": "experiments/time-and-causality/newcomb.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Causal Decision Theory",
+        "url": "https://plato.stanford.edu/entries/decision-causal/",
+        "kind": "academic",
+        "support": "Newcomb attribution, payoff structure, and causal/evidential recommendations"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "puzzle"
+  },
+  {
+    "id": "consequence-argument",
+    "slug": "consequence-argument",
+    "title": "The Consequence Argument",
+    "category": "time-and-causality",
+    "difficulty": "Advanced",
+    "associated_thinkers": [
+      "Peter van Inwagen",
+      "Carl Ginet"
+    ],
+    "original_publication": "Modern formulations in Ginet (1966) and van Inwagen (1975, 1983)",
+    "summary": "An argument about fixed pasts and laws tests whether determined agents can do otherwise.",
+    "themes": [
+      "free will",
+      "determinism",
+      "control"
+    ],
+    "related_experiments": [
+      "laplaces-demon",
+      "frankfurt-cases"
+    ],
+    "file_path": "experiments/time-and-causality/consequence-argument.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Arguments for Incompatibilism",
+        "url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
+        "kind": "academic",
+        "support": "Consequence argument, transfer principles, and counterfactual responses"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Compatibilism",
+        "url": "https://plato.stanford.edu/entries/compatibilism/",
+        "kind": "academic",
+        "support": "Frankfurt’s Jones/Black case and contemporary responses to determinism"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "argument"
+  },
+  {
+    "id": "veil-of-ignorance",
+    "slug": "veil-of-ignorance",
+    "title": "The Veil of Ignorance and Original Position",
+    "category": "society-and-justice",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "John Rawls"
+    ],
+    "original_publication": "A Theory of Justice (1971); later refinements",
+    "summary": "Choose principles of justice without knowing which social position you will occupy.",
+    "themes": [
+      "justice",
+      "impartiality",
+      "social contract"
+    ],
+    "related_experiments": [
+      "wilt-chamberlain",
+      "dworkins-auction",
+      "state-of-nature"
+    ],
+    "file_path": "experiments/society-and-justice/veil-of-ignorance.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Original Position",
+        "url": "https://plato.stanford.edu/entries/original-position/",
+        "kind": "academic",
+        "support": "Veil of ignorance, retained general knowledge, principles, and criticisms of decision rules"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "wilt-chamberlain",
+    "slug": "wilt-chamberlain",
+    "title": "Wilt Chamberlain’s Earnings",
+    "category": "society-and-justice",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Robert Nozick"
+    ],
+    "original_publication": "Anarchy, State, and Utopia (1974)",
+    "summary": "Voluntary payments to a popular player challenge the permanent maintenance of a distributive pattern.",
+    "themes": [
+      "liberty",
+      "property",
+      "distribution"
+    ],
+    "related_experiments": [
+      "veil-of-ignorance",
+      "dworkins-auction",
+      "leveling-down"
+    ],
+    "file_path": "experiments/society-and-justice/wilt-chamberlain.md",
+    "references": [
+      {
+        "title": "Ian Shapiro, Open Yale Courses, PLSC 118, Lecture 15: Compensation versus Redistribution",
+        "url": "https://oyc.yale.edu/political-science/plsc-118/lecture-15",
+        "kind": "academic",
+        "support": "Nozick’s Chamberlain example and critical discussion of voluntary transfers"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Original Position",
+        "url": "https://plato.stanford.edu/entries/original-position/",
+        "kind": "academic",
+        "support": "Veil of ignorance, retained general knowledge, principles, and criticisms of decision rules"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "state-of-nature",
+    "slug": "state-of-nature",
+    "title": "The State of Nature",
+    "category": "society-and-justice",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "Thomas Hobbes",
+      "John Locke",
+      "Jean-Jacques Rousseau"
+    ],
+    "original_publication": "Hobbes, Leviathan (1651); other authors construct importantly different versions",
+    "summary": "Imagine life without a common political authority to ask what can justify one.",
+    "themes": [
+      "authority",
+      "cooperation",
+      "security"
+    ],
+    "related_experiments": [
+      "veil-of-ignorance",
+      "ring-of-gyges"
+    ],
+    "file_path": "experiments/society-and-justice/state-of-nature.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Hobbes’s Moral and Political Philosophy",
+        "url": "https://plato.stanford.edu/entries/hobbes-moral/",
+        "kind": "academic",
+        "support": "State of nature, insecurity, laws of nature, and qualified historical claims"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Original Position",
+        "url": "https://plato.stanford.edu/entries/original-position/",
+        "kind": "academic",
+        "support": "Veil of ignorance, retained general knowledge, principles, and criticisms of decision rules"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "model"
+  },
+  {
+    "id": "ring-of-gyges",
+    "slug": "ring-of-gyges",
+    "title": "The Ring of Gyges",
+    "category": "society-and-justice",
+    "difficulty": "Beginner",
+    "associated_thinkers": [
+      "Plato",
+      "Glaucon (dialogue speaker)"
+    ],
+    "original_publication": "Republic, Book II, fourth century BCE",
+    "summary": "Invisibility removes ordinary accountability and asks whether justice remains worth choosing.",
+    "themes": [
+      "justice",
+      "motivation",
+      "impunity"
+    ],
+    "related_experiments": [
+      "state-of-nature",
+      "veil-of-ignorance"
+    ],
+    "file_path": "experiments/society-and-justice/ring-of-gyges.md",
+    "references": [
+      {
+        "title": "Plato, Republic, Book II (Jowett translation)",
+        "url": "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm",
+        "kind": "academic",
+        "support": "Primary narrative of the ring and Glaucon’s challenge"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Plato’s Ethics and Politics in The Republic",
+        "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+        "kind": "academic",
+        "support": "Glaucon’s challenge and the distinction between justice itself and its rewards"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "leveling-down",
+    "slug": "leveling-down",
+    "title": "The Leveling-Down Objection",
+    "category": "society-and-justice",
+    "difficulty": "Intermediate",
+    "associated_thinkers": [
+      "Derek Parfit",
+      "Larry Temkin (prominent debate)"
+    ],
+    "original_publication": "Contemporary equality debate; Parfit’s “Equality and Priority” (1997)",
+    "summary": "Making the better-off worse off without helping anyone tests whether equality is valuable in itself.",
+    "themes": [
+      "equality",
+      "priority",
+      "welfare"
+    ],
+    "related_experiments": [
+      "veil-of-ignorance",
+      "wilt-chamberlain",
+      "dworkins-auction"
+    ],
+    "file_path": "experiments/society-and-justice/leveling-down.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Egalitarianism",
+        "url": "https://plato.stanford.edu/entries/egalitarianism/",
+        "kind": "academic",
+        "support": "Leveling-down objection, prioritarianism, and pluralist or relational responses"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Equality",
+        "url": "https://plato.stanford.edu/entries/equality/",
+        "kind": "academic",
+        "support": "Dworkin’s equal-resource auction, envy test, and responsibility questions"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "dworkins-auction",
+    "slug": "dworkins-auction",
+    "title": "Dworkin’s Resource Auction",
+    "category": "society-and-justice",
+    "difficulty": "Advanced",
+    "associated_thinkers": [
+      "Ronald Dworkin"
+    ],
+    "original_publication": "“What Is Equality? Part 2: Equality of Resources” (1981)",
+    "summary": "An auction with equal purchasing power asks how equal concern can accommodate different ambitions.",
+    "themes": [
+      "resources",
+      "equality",
+      "responsibility"
+    ],
+    "related_experiments": [
+      "veil-of-ignorance",
+      "wilt-chamberlain",
+      "leveling-down"
+    ],
+    "file_path": "experiments/society-and-justice/dworkins-auction.md",
+    "references": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Equality",
+        "url": "https://plato.stanford.edu/entries/equality/",
+        "kind": "academic",
+        "support": "Dworkin’s equal-resource auction, envy test, and responsibility questions"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Egalitarianism",
+        "url": "https://plato.stanford.edu/entries/egalitarianism/",
+        "kind": "academic",
+        "support": "Leveling-down objection, prioritarianism, and pluralist or relational responses"
+      }
+    ],
+    "date_verified": "2026-10-30",
+    "kind": "thought experiment"
+  },
+  {
+    "id": "schrodingers-cat",
+    "slug": "schrodingers-cat",
+    "title": "Schrödinger’s Cat",
+    "category": "physics",
+    "difficulty": "Intermediate",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Erwin Schrödinger"
+    ],
+    "original_publication": "“Die gegenwärtige Situation in der Quantenmechanik” (1935)",
+    "summary": "A microscopic superposition is amplified into apparently incompatible descriptions of a cat.",
+    "themes": [
+      "measurement",
+      "superposition",
+      "interpretation"
+    ],
+    "related_experiments": [
+      "wigners-friend",
+      "epr"
+    ],
+    "file_path": "experiments/physics/schrodingers-cat.md",
+    "references": [
+      {
+        "title": "Philosophical Issues in Quantum Theory — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/qt-issues/",
+        "kind": "academic",
+        "support": "Measurement problem, Wigner scenario, competing theories; historical bibliography."
+      },
+      {
+        "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/qt-epr/",
+        "kind": "academic",
+        "support": "1935 authorship, original position/momentum argument, Bohm variation and Bell developments."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "einsteins-elevator",
+    "slug": "einsteins-elevator",
+    "title": "Einstein’s Elevator",
+    "category": "physics",
+    "difficulty": "Beginner",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Albert Einstein"
+    ],
+    "original_publication": "Equivalence-principle insight (1907); later elevator and rocket presentations",
+    "summary": "An enclosed cabin makes gravitational weight and acceleration locally difficult to distinguish.",
+    "themes": [
+      "gravity",
+      "reference frames",
+      "equivalence"
+    ],
+    "related_experiments": [
+      "twin-paradox",
+      "galileos-falling-bodies"
+    ],
+    "file_path": "experiments/physics/einsteins-elevator.md",
+    "references": [
+      {
+        "title": "Markus Pössel, The elevator, the rocket, and gravity — Einstein Online, Max Planck Institute for Gravitational Physics",
+        "url": "https://www.einstein-online.info/en/spotlight/equivalence_principle/",
+        "kind": "academic",
+        "support": "Local equivalence, free fall, limits imposed by tidal effects."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "einsteins-light-beam",
+    "slug": "einsteins-light-beam",
+    "title": "Einstein Chases a Light Beam",
+    "category": "physics",
+    "difficulty": "Intermediate",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Albert Einstein"
+    ],
+    "original_publication": "Youthful scenario recalled in Autobiographical Notes (1949; drafted 1946)",
+    "summary": "A hypothetical pursuit of light exposes tension between classical motion and electromagnetic waves.",
+    "themes": [
+      "electromagnetism",
+      "relativity",
+      "scientific discovery"
+    ],
+    "related_experiments": [
+      "einsteins-elevator",
+      "twin-paradox"
+    ],
+    "file_path": "experiments/physics/einsteins-light-beam.md",
+    "references": [
+      {
+        "title": "John D. Norton, Einstein’s Pathway to Special Relativity — University of Pittsburgh",
+        "url": "https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/origins_pathway/index.html",
+        "kind": "academic",
+        "support": "Einstein’s retrospective account and limits of historical reconstruction."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "maxwells-demon",
+    "slug": "maxwells-demon",
+    "title": "Maxwell’s Demon",
+    "category": "physics",
+    "difficulty": "Intermediate",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "James Clerk Maxwell"
+    ],
+    "original_publication": "Private proposal (1867); Theory of Heat (1871)",
+    "summary": "A selective gatekeeper tests the thermodynamic cost of controlling microscopic motion.",
+    "themes": [
+      "entropy",
+      "information",
+      "thermodynamics"
+    ],
+    "related_experiments": [
+      "schrodingers-cat",
+      "st-petersburg-paradox"
+    ],
+    "file_path": "experiments/physics/maxwells-demon.md",
+    "references": [
+      {
+        "title": "Philosophy of Statistical Mechanics — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/statphys-statmech/",
+        "kind": "academic",
+        "support": "Section 7.2: demon, information, erasure, unresolved foundational issues."
+      },
+      {
+        "title": "Information Processing and Thermodynamic Entropy — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/information-entropy/",
+        "kind": "academic",
+        "support": "Demon’s first mention in the 1867 letter to Tait and information/thermodynamics debate."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "galileos-falling-bodies",
+    "slug": "galileos-falling-bodies",
+    "title": "Galileo’s Tied Falling Bodies",
+    "category": "physics",
+    "difficulty": "Beginner",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Galileo Galilei"
+    ],
+    "original_publication": "Discourses and Mathematical Demonstrations Relating to Two New Sciences (1638)",
+    "summary": "Tying a heavy and a light body together challenges weight-proportional falling speeds.",
+    "themes": [
+      "idealization",
+      "motion",
+      "contradiction"
+    ],
+    "related_experiments": [
+      "einsteins-elevator",
+      "twin-paradox"
+    ],
+    "file_path": "experiments/physics/galileos-falling-bodies.md",
+    "references": [
+      {
+        "title": "Galileo Galilei — Stanford Encyclopedia of Philosophy, Summer 2021 archive",
+        "url": "https://plato.stanford.edu/archives/sum2021/entries/galileo/",
+        "kind": "academic",
+        "support": "Two New Sciences (1638) and the argument against weight-proportional fall."
+      },
+      {
+        "title": "Galileo, Discourses Concerning the Two New Sciences — University of Washington excerpt",
+        "url": "https://courses.washington.edu/phil360/Galileo.pdf",
+        "kind": "academic",
+        "support": "Original dialogue excerpt; PDF retrieved, though text extraction unavailable."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "twin-paradox",
+    "slug": "twin-paradox",
+    "title": "The Twin Paradox",
+    "category": "physics",
+    "difficulty": "Intermediate",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Albert Einstein",
+      "Paul Langevin"
+    ],
+    "original_publication": "Clock comparison in special relativity (1905); traveling-twin development (1911)",
+    "summary": "Twins following different spacetime paths can reunite with different elapsed ages.",
+    "themes": [
+      "proper time",
+      "relativity",
+      "reference frames"
+    ],
+    "related_experiments": [
+      "einsteins-elevator",
+      "einsteins-light-beam"
+    ],
+    "file_path": "experiments/physics/twin-paradox.md",
+    "references": [
+      {
+        "title": "Markus Pössel, The case of the travelling twins — Einstein Online",
+        "url": "https://www.einstein-online.info/en/spotlight/twins/",
+        "kind": "academic",
+        "support": "Proper-time difference, asymmetry of round trips and empirical context."
+      },
+      {
+        "title": "Langevin’s Twin Paradox paper revisited — author research preprint (2008)",
+        "url": "https://arxiv.org/abs/0811.3562",
+        "kind": "academic",
+        "support": "Analysis of Langevin’s 1911 article; historical metadata verified from abstract."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "epr",
+    "slug": "epr",
+    "title": "The Einstein–Podolsky–Rosen Argument",
+    "category": "physics",
+    "difficulty": "Advanced",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Albert Einstein",
+      "Boris Podolsky",
+      "Nathan Rosen"
+    ],
+    "original_publication": "“Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?” (1935)",
+    "summary": "Perfect correlations challenge the joint assumptions of locality and a complete wave-function description.",
+    "themes": [
+      "entanglement",
+      "locality",
+      "completeness"
+    ],
+    "related_experiments": [
+      "schrodingers-cat",
+      "wigners-friend"
+    ],
+    "file_path": "experiments/physics/epr.md",
+    "references": [
+      {
+        "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/qt-epr/",
+        "kind": "academic",
+        "support": "1935 authorship, original position/momentum argument, Bohm variation and Bell developments."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "wigners-friend",
+    "slug": "wigners-friend",
+    "title": "Wigner’s Friend",
+    "category": "physics",
+    "difficulty": "Advanced",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Eugene Wigner"
+    ],
+    "original_publication": "“Remarks on the Mind–Body Problem,” early 1960s (commonly cited 1961; edition dates vary)",
+    "summary": "One observer records a result while another treats the whole laboratory quantum mechanically.",
+    "themes": [
+      "observers",
+      "measurement",
+      "consistency"
+    ],
+    "related_experiments": [
+      "schrodingers-cat",
+      "epr"
+    ],
+    "file_path": "experiments/physics/wigners-friend.md",
+    "references": [
+      {
+        "title": "Philosophical Issues in Quantum Theory — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/qt-issues/",
+        "kind": "academic",
+        "support": "Measurement problem, Wigner scenario, competing theories; historical bibliography."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "hilberts-hotel",
+    "slug": "hilberts-hotel",
+    "title": "Hilbert’s Hotel",
+    "category": "mathematics",
+    "difficulty": "Beginner",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "David Hilbert",
+      "George Gamow"
+    ],
+    "original_publication": "Hilbert’s lectures (1924–25); popularized by Gamow (1947)",
+    "summary": "A fully occupied infinite hotel can accommodate more guests without evicting anyone.",
+    "themes": [
+      "infinity",
+      "cardinality",
+      "bijections"
+    ],
+    "related_experiments": [
+      "st-petersburg-paradox",
+      "bertrands-paradox"
+    ],
+    "file_path": "experiments/mathematics/hilberts-hotel.md",
+    "references": [
+      {
+        "title": "Ana Pires, Hospitality at the Hilbert Hotel — Institute for Advanced Study (2016)",
+        "url": "https://www.ias.edu/ideas/2016/pires-hilbert-hotel",
+        "kind": "academic",
+        "support": "Hilbert’s 1924–25 lectures, Gamow’s popularization, room reassignment proofs."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "monty-hall",
+    "slug": "monty-hall",
+    "title": "The Monty Hall Problem",
+    "category": "mathematics",
+    "difficulty": "Beginner",
+    "kind": "puzzle",
+    "associated_thinkers": [
+      "Steve Selvin",
+      "Marilyn vos Savant"
+    ],
+    "original_publication": "Modern three-door formulation associated with Selvin (1975); later popular discussion",
+    "summary": "Switching wins twice as often when an informed host always reveals an unchosen losing door.",
+    "themes": [
+      "conditioning",
+      "information",
+      "protocols"
+    ],
+    "related_experiments": [
+      "bertrands-paradox",
+      "two-envelopes"
+    ],
+    "file_path": "experiments/mathematics/monty-hall.md",
+    "references": [
+      {
+        "title": "Philip B. Stark, The Let’s Make a Deal (Monty Hall) Problem — UC Berkeley",
+        "url": "https://www.stat.berkeley.edu/pub/users/stark/SticiGui/Text/montyHall.htm",
+        "kind": "academic",
+        "support": "Explicit host protocol and conditional probability solution."
+      },
+      {
+        "title": "Monty hall problem — Encyclopedia of Mathematics",
+        "url": "https://encyclopediaofmath.org/wiki/Monty_hall_problem",
+        "kind": "academic",
+        "support": "Selvin’s 1975 letters and later popular discussion."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "sleeping-beauty",
+    "slug": "sleeping-beauty",
+    "title": "Sleeping Beauty",
+    "category": "mathematics",
+    "difficulty": "Advanced",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Adam Elga",
+      "Robert Stalnaker",
+      "Arnold Zuboff"
+    ],
+    "original_publication": "Canonical published discussion: Elga, “Self-locating belief and the Sleeping Beauty problem” (2000); earlier precursors",
+    "summary": "Memory loss separates uncertainty about a coin from uncertainty about which awakening is occurring.",
+    "themes": [
+      "self-location",
+      "credence",
+      "sampling"
+    ],
+    "related_experiments": [
+      "monty-hall",
+      "st-petersburg-paradox"
+    ],
+    "file_path": "experiments/mathematics/sleeping-beauty.md",
+    "references": [
+      {
+        "title": "Adam Elga, Self-locating belief and the Sleeping Beauty problem, Analysis 60 (2000)",
+        "url": "https://www.princeton.edu/~adame/papers/sleeping/sleeping.pdf",
+        "kind": "academic",
+        "support": "Original canonical formulation, earlier precursors, half/thirder positions."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "bertrands-paradox",
+    "slug": "bertrands-paradox",
+    "title": "Bertrand’s Random Chord Paradox",
+    "category": "mathematics",
+    "difficulty": "Intermediate",
+    "kind": "puzzle",
+    "associated_thinkers": [
+      "Joseph Bertrand"
+    ],
+    "original_publication": "Calcul des probabilités (1889)",
+    "summary": "Different precise procedures for choosing a “random chord” yield different probabilities.",
+    "themes": [
+      "randomness",
+      "measure",
+      "indifference"
+    ],
+    "related_experiments": [
+      "monty-hall",
+      "two-envelopes"
+    ],
+    "file_path": "experiments/mathematics/bertrands-paradox.md",
+    "references": [
+      {
+        "title": "Probability and Induction — Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/probability-and-induction/",
+        "kind": "academic",
+        "support": "Principle of indifference and Bertrand’s random chord example."
+      },
+      {
+        "title": "Interpretations of Probability — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/probability-interpret/",
+        "kind": "academic",
+        "support": "Interpretation of probabilities and nonunique indifference assignments."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "st-petersburg-paradox",
+    "slug": "st-petersburg-paradox",
+    "title": "The St. Petersburg Paradox",
+    "category": "mathematics",
+    "difficulty": "Intermediate",
+    "kind": "puzzle",
+    "associated_thinkers": [
+      "Nicolaus Bernoulli",
+      "Daniel Bernoulli"
+    ],
+    "original_publication": "Nicolaus Bernoulli’s correspondence (1713); Daniel Bernoulli’s published treatment (1738)",
+    "summary": "A finite payout on every completed play can nevertheless have infinite expected monetary value.",
+    "themes": [
+      "expectation",
+      "utility",
+      "infinity"
+    ],
+    "related_experiments": [
+      "two-envelopes",
+      "hilberts-hotel"
+    ],
+    "file_path": "experiments/mathematics/st-petersburg-paradox.md",
+    "references": [
+      {
+        "title": "The St. Petersburg Paradox — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/paradox-stpetersburg/",
+        "kind": "academic",
+        "support": "Nicolaus Bernoulli’s 1713 letter, Daniel Bernoulli’s 1738 treatment, infinite expectation."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "two-envelopes",
+    "slug": "two-envelopes",
+    "title": "The Two Envelopes Problem",
+    "category": "mathematics",
+    "difficulty": "Advanced",
+    "kind": "puzzle",
+    "associated_thinkers": [
+      "Multiple contributors",
+      "David Chalmers (infinite-expectation extension)"
+    ],
+    "original_publication": "Modern literature has several versions; Chalmers’s linked extension published 2002",
+    "summary": "A tempting switching calculation hides an unjustified conditional probability assignment.",
+    "themes": [
+      "conditioning",
+      "expectation",
+      "priors"
+    ],
+    "related_experiments": [
+      "st-petersburg-paradox",
+      "monty-hall"
+    ],
+    "file_path": "experiments/mathematics/two-envelopes.md",
+    "references": [
+      {
+        "title": "David J. Chalmers, The St. Petersburg Two-Envelope Paradox, Analysis 62 (2002)",
+        "url": "https://consc.net/papers/stpete.html",
+        "kind": "academic",
+        "support": "Ordinary and infinite expectation versions, conditioning and prior distributions."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "prisoners-dilemma",
+    "slug": "prisoners-dilemma",
+    "title": "The Prisoner’s Dilemma",
+    "category": "economics",
+    "difficulty": "Beginner",
+    "kind": "model",
+    "associated_thinkers": [
+      "Merrill Flood",
+      "Melvin Dresher",
+      "Albert W. Tucker"
+    ],
+    "original_publication": "Game developed around 1950; Flood’s RAND report (1952); Tucker’s explanatory story",
+    "summary": "Individually dominant choices can leave both players worse off than mutual cooperation.",
+    "themes": [
+      "cooperation",
+      "dominance",
+      "collective action"
+    ],
+    "related_experiments": [
+      "tragedy-of-the-commons",
+      "keynesian-beauty-contest"
+    ],
+    "file_path": "experiments/economics/prisoners-dilemma.md",
+    "references": [
+      {
+        "title": "Prisoner’s Dilemma — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+        "kind": "academic",
+        "support": "Flood/Dresher’s game, Tucker’s story, payoff conditions, repeated games."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "tragedy-of-the-commons",
+    "slug": "tragedy-of-the-commons",
+    "title": "The Tragedy of the Commons",
+    "category": "economics",
+    "difficulty": "Beginner",
+    "kind": "model",
+    "associated_thinkers": [
+      "Garrett Hardin",
+      "Elinor Ostrom (major empirical challenge to universalized conclusions)"
+    ],
+    "original_publication": "Hardin, “The Tragedy of the Commons” (1968); earlier commons discussions predate it",
+    "summary": "Private gains and widely shared costs can encourage overuse of an unmanaged resource.",
+    "themes": [
+      "externalities",
+      "resources",
+      "institutions"
+    ],
+    "related_experiments": [
+      "prisoners-dilemma",
+      "keynesian-beauty-contest"
+    ],
+    "file_path": "experiments/economics/tragedy-of-the-commons.md",
+    "references": [
+      {
+        "title": "Garrett Hardin, The Tragedy of the Commons (1968), excerpt — San Diego State University",
+        "url": "https://ponce.sdsu.edu/tragedyofthecommons2.html",
+        "kind": "academic",
+        "support": "Pasture scenario and private-benefit/shared-cost mechanism."
+      },
+      {
+        "title": "Garrett Hardin, The Tragedy of the Commons, Science 162 (1968), university-hosted scan",
+        "url": "https://faculty.lsu.edu/kharms/files/hardin_1968.pdf",
+        "kind": "academic",
+        "support": "Publication metadata; full paper scan retrieved."
+      },
+      {
+        "title": "Elinor Ostrom, The Challenge of Crafting Rules to Change Open Access Resources into Managed Resources (2007) — Indiana University repository",
+        "url": "https://dlc.dlib.indiana.edu/dlc/items/184600b1-5733-4590-92db-1b643f19c8ca",
+        "kind": "academic",
+        "support": "Author and abstract describing institutional alternatives and polycentric governance."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "allais-paradox",
+    "slug": "allais-paradox",
+    "title": "The Allais Paradox",
+    "category": "economics",
+    "difficulty": "Intermediate",
+    "kind": "puzzle",
+    "associated_thinkers": [
+      "Maurice Allais"
+    ],
+    "original_publication": "“Le comportement de l’homme rationnel devant le risque” (1953)",
+    "summary": "A preference for certainty can conflict with the independence axiom across paired lotteries.",
+    "themes": [
+      "risk",
+      "independence",
+      "expected utility"
+    ],
+    "related_experiments": [
+      "ellsberg-paradox",
+      "st-petersburg-paradox"
+    ],
+    "file_path": "experiments/economics/allais-paradox.md",
+    "references": [
+      {
+        "title": "Normative Theories of Rational Choice: Expected Utility — Stanford Encyclopedia of Philosophy, Spring 2020 archive",
+        "url": "https://plato.stanford.edu/archives/spr2020/entries/rationality-normative-utility/",
+        "kind": "academic",
+        "support": "Section 3.2.2: Allais (1953), Ellsberg (1961), numerical cases and alternative responses."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "ellsberg-paradox",
+    "slug": "ellsberg-paradox",
+    "title": "The Ellsberg Paradox",
+    "category": "economics",
+    "difficulty": "Intermediate",
+    "kind": "puzzle",
+    "associated_thinkers": [
+      "Daniel Ellsberg"
+    ],
+    "original_publication": "“Risk, Ambiguity, and the Savage Axioms” (1961)",
+    "summary": "Choices involving an unknown color mixture challenge a single precise probability representation.",
+    "themes": [
+      "ambiguity",
+      "subjective probability",
+      "sure-thing principle"
+    ],
+    "related_experiments": [
+      "allais-paradox",
+      "two-envelopes"
+    ],
+    "file_path": "experiments/economics/ellsberg-paradox.md",
+    "references": [
+      {
+        "title": "Normative Theories of Rational Choice: Expected Utility — Stanford Encyclopedia of Philosophy, Spring 2020 archive",
+        "url": "https://plato.stanford.edu/archives/spr2020/entries/rationality-normative-utility/",
+        "kind": "academic",
+        "support": "Section 3.2.2: Allais (1953), Ellsberg (1961), numerical cases and alternative responses."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "keynesian-beauty-contest",
+    "slug": "keynesian-beauty-contest",
+    "title": "Keynes’s Beauty Contest",
+    "category": "economics",
+    "difficulty": "Beginner",
+    "kind": "model",
+    "associated_thinkers": [
+      "John Maynard Keynes"
+    ],
+    "original_publication": "The General Theory of Employment, Interest and Money, Chapter 12 (1936)",
+    "summary": "Winning may depend on predicting others’ predictions rather than expressing your own judgment.",
+    "themes": [
+      "expectations",
+      "markets",
+      "strategic reasoning"
+    ],
+    "related_experiments": [
+      "prisoners-dilemma",
+      "allais-paradox"
+    ],
+    "file_path": "experiments/economics/keynesian-beauty-contest.md",
+    "references": [
+      {
+        "title": "John Maynard Keynes, The General Theory (1936), Chapter 12 — History of Economic Thought archive",
+        "url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap12.htm",
+        "kind": "academic",
+        "support": "Original newspaper contest analogy and speculation versus enterprise."
+      },
+      {
+        "title": "Richard H. Thaler, Keynes’s Beauty Contest — Chicago Booth Review (2015)",
+        "url": "https://www.chicagobooth.edu/review/keyness-beauty-contest",
+        "kind": "academic",
+        "support": "Modern number-guessing adaptation and recursive expectations."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "paperclip-maximizer",
+    "slug": "paperclip-maximizer",
+    "title": "The Paperclip Maximizer",
+    "category": "artificial-intelligence",
+    "difficulty": "Beginner",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Nick Bostrom"
+    ],
+    "original_publication": "“Ethical Issues in Advanced Artificial Intelligence” (2003)",
+    "summary": "A highly capable system pursues a simple objective without caring about what people value.",
+    "themes": [
+      "alignment",
+      "objectives",
+      "instrumental action"
+    ],
+    "related_experiments": [
+      "ai-box",
+      "turing-test"
+    ],
+    "file_path": "experiments/artificial-intelligence/paperclip-maximizer.md",
+    "references": [
+      {
+        "title": "Nick Bostrom, Ethical Issues in Advanced Artificial Intelligence (2003), author-hosted revised text",
+        "url": "https://nickbostrom.com/papers/ethical-issues-in-advanced-ai/",
+        "kind": "academic",
+        "support": "Paperclip goal illustration, distinction between capability and motivation."
+      },
+      {
+        "title": "Stuart Armstrong, Anders Sandberg and Nick Bostrom, Thinking Inside the Box: Controlling and Using an Oracle AI (2012 manuscript)",
+        "url": "https://zoo.cs.yale.edu/classes/cs671/12f/12f-papers/oracle.pdf",
+        "kind": "academic",
+        "support": "Oracle containment analysis and discussion of Yudkowsky’s AI-box roleplay."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "ai-box",
+    "slug": "ai-box",
+    "title": "The AI Box Scenario",
+    "category": "artificial-intelligence",
+    "difficulty": "Intermediate",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Eliezer Yudkowsky",
+      "Stuart Armstrong",
+      "Anders Sandberg",
+      "Nick Bostrom"
+    ],
+    "original_publication": "Early-2000s informal roleplay; scholarly containment analysis in a 2012 manuscript",
+    "summary": "A text-only channel may still let a confined system influence decisions outside its enclosure.",
+    "themes": [
+      "containment",
+      "persuasion",
+      "human oversight"
+    ],
+    "related_experiments": [
+      "paperclip-maximizer",
+      "turing-test"
+    ],
+    "file_path": "experiments/artificial-intelligence/ai-box.md",
+    "references": [
+      {
+        "title": "Stuart Armstrong, Anders Sandberg and Nick Bostrom, Thinking Inside the Box: Controlling and Using an Oracle AI (2012 manuscript)",
+        "url": "https://zoo.cs.yale.edu/classes/cs671/12f/12f-papers/oracle.pdf",
+        "kind": "academic",
+        "support": "Oracle containment analysis and discussion of Yudkowsky’s AI-box roleplay."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "turing-test",
+    "slug": "turing-test",
+    "title": "The Turing Test",
+    "category": "artificial-intelligence",
+    "difficulty": "Beginner",
+    "kind": "model",
+    "associated_thinkers": [
+      "Alan M. Turing"
+    ],
+    "original_publication": "“Computing Machinery and Intelligence” (1950)",
+    "summary": "A text-mediated imitation game makes one question about machine intelligence operational.",
+    "themes": [
+      "intelligence",
+      "behavior",
+      "evidence"
+    ],
+    "related_experiments": [
+      "paperclip-maximizer",
+      "ai-box"
+    ],
+    "file_path": "experiments/artificial-intelligence/turing-test.md",
+    "references": [
+      {
+        "title": "The Turing Test — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/turing-test/",
+        "kind": "academic",
+        "support": "1950 imitation game, interpretations, behavioral and evidential objections."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "darwins-eye",
+    "slug": "darwins-eye",
+    "title": "Darwin’s Imagined Gradations of the Eye",
+    "category": "science-and-biology",
+    "difficulty": "Intermediate",
+    "kind": "argument",
+    "associated_thinkers": [
+      "Charles Darwin"
+    ],
+    "original_publication": "On the Origin of Species, Chapter VI (1859); surviving draft dated 1858",
+    "summary": "A sequence of useful intermediate structures challenges an inference from complexity to impossibility.",
+    "themes": [
+      "evolution",
+      "gradualism",
+      "explanation"
+    ],
+    "related_experiments": [
+      "spandrels-of-san-marco",
+      "darwins-aquatic-bear"
+    ],
+    "file_path": "experiments/science-and-biology/darwins-eye.md",
+    "references": [
+      {
+        "title": "Charles Darwin, draft of Origin of Species, 1858, CUL-DAR185.137 — Darwin Online",
+        "url": "https://darwin-online.org.uk/converted/manuscripts/Darwin_C_R_CUL-DAR185.137.html",
+        "kind": "academic",
+        "support": "Primary manuscript of the eye argument and link to published Chapter VI."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "darwins-aquatic-bear",
+    "slug": "darwins-aquatic-bear",
+    "title": "Darwin’s Aquatic Bear Scenario",
+    "category": "science-and-biology",
+    "difficulty": "Intermediate",
+    "kind": "thought experiment",
+    "associated_thinkers": [
+      "Charles Darwin",
+      "Samuel Hearne (reported observation)"
+    ],
+    "original_publication": "On the Origin of Species, first edition, Chapter VI (1859); surviving draft dated 1858",
+    "summary": "A speculative transition from aquatic feeding to whale-like form illustrates both possibility and evidential limits.",
+    "themes": [
+      "historical inference",
+      "ecology",
+      "natural selection"
+    ],
+    "related_experiments": [
+      "darwins-eye",
+      "spandrels-of-san-marco"
+    ],
+    "file_path": "experiments/science-and-biology/darwins-aquatic-bear.md",
+    "references": [
+      {
+        "title": "Charles Darwin, draft of Origin of Species, 1858, CUL-DAR185.103 — Darwin Online",
+        "url": "https://darwin-online.org.uk/converted/manuscripts/Darwin_C_R_CUL-DAR185.103.html",
+        "kind": "academic",
+        "support": "Primary aquatic-bear scenario, environmental assumptions, editorial publication history."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  },
+  {
+    "id": "spandrels-of-san-marco",
+    "slug": "spandrels-of-san-marco",
+    "title": "The Spandrels of San Marco",
+    "category": "science-and-biology",
+    "difficulty": "Intermediate",
+    "kind": "argument",
+    "associated_thinkers": [
+      "Stephen Jay Gould",
+      "Richard C. Lewontin"
+    ],
+    "original_publication": "“The spandrels of San Marco and the Panglossian paradigm” (1979); Gould’s clarification (1997)",
+    "summary": "A useful architectural space illustrates why present function need not explain historical origin.",
+    "themes": [
+      "adaptation",
+      "byproducts",
+      "historical explanation"
+    ],
+    "related_experiments": [
+      "darwins-eye",
+      "darwins-aquatic-bear"
+    ],
+    "file_path": "experiments/science-and-biology/spandrels-of-san-marco.md",
+    "references": [
+      {
+        "title": "Stephen Jay Gould, The exaptive excellence of spandrels as a term and prototype, PNAS 94 (1997)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
+        "kind": "academic",
+        "support": "Author’s clarification of the 1979 analogy: origin versus current utility."
+      },
+      {
+        "title": "Gould and Lewontin, The spandrels of San Marco and the Panglossian paradigm (1979) — PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42062/",
+        "kind": "academic",
+        "support": "Original authorship and publication date; record, not full-text verification."
+      }
+    ],
+    "date_verified": "2026-10-30"
+  }
+]

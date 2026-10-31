@@ -1,0 +1,26 @@
+{
+  "name": "Report a factual error",
+  "description": "Report a factual error with supporting details",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "field-0",
+      "attributes": {
+        "label": "Article path and disputed passage"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field-1",
+      "attributes": {
+        "label": "Evidence and proposed correction"
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}

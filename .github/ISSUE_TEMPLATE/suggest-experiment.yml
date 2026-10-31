@@ -1,0 +1,36 @@
+{
+  "name": "Suggest an experiment",
+  "description": "Suggest an experiment with supporting details",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "field-0",
+      "attributes": {
+        "label": "Scenario and central question"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field-1",
+      "attributes": {
+        "label": "Academic sources"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field-2",
+      "attributes": {
+        "label": "How this differs from existing entries"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

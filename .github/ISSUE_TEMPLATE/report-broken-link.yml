@@ -1,0 +1,36 @@
+{
+  "name": "Report a broken link",
+  "description": "Report a broken link with supporting details",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "field-0",
+      "attributes": {
+        "label": "Article path and URL"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field-1",
+      "attributes": {
+        "label": "What happens when opened"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field-2",
+      "attributes": {
+        "label": "Suggested replacement and why it is equivalent"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

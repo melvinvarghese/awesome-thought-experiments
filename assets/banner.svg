@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">Awesome Thought Experiments</title><desc id="desc">Intersecting circles and open doorways suggest connected questions.</desc>
+<rect width="1280" height="320" fill="#102a36"/><g fill="none" stroke="#58bdac" stroke-width="2" opacity="0.65"><circle cx="1120" cy="158" r="112"/><circle cx="1025" cy="158" r="112"/><path d="M1025 46v224M913 158h319"/></g>
+<path d="M62 64h8v194h-8" fill="#e6b96a"/>
+<text x="100" y="139" fill="#f5f0e6" font-family="Georgia,serif" font-size="50">Awesome Thought Experiments</text>
+<text x="103" y="194" fill="#a9d7ce" font-family="Arial,sans-serif" font-size="23">Reality. Reason. Morality. Human understanding.</text>
+<text x="103" y="243" fill="#d8dfe2" font-family="Arial,sans-serif" font-size="17">A field guide to questions worth staying with</text></svg>
