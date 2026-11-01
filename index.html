@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore thought experiments, puzzles, paradoxes, and arguments through original explainers, source notes, and guided reading paths.">
+  <meta name="theme-color" content="#F4F0E6">
+  <title>Thought Experiments — A Field Atlas</title>
+  <link rel="stylesheet" href="assets/css/explorer.css">
+  <script type="module" src="assets/js/explorer.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to the collection</a>
+  <header class="site-header">
+    <div class="site-header__inner page-width">
+      <a class="wordmark" href="#top" aria-label="Thought Experiments home">
+        <span class="wordmark__mark" aria-hidden="true">∴</span>
+        <span>Thought Experiments</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#explore">Explore</a>
+        <a href="#paths">Learning paths</a>
+        <a href="README.md">Read the README</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <noscript>
+      <div class="noscript-note page-width">
+        <p>This collection explorer needs JavaScript. The full collection is still available in the README.</p>
+        <a class="button button--primary" href="README.md">Read the complete collection</a>
+      </div>
+    </noscript>
+
+    <section class="hero page-width" aria-labelledby="page-title">
+      <div class="hero__copy">
+        <p class="hero__kicker">A field guide to imagined cases</p>
+        <h1 id="page-title">Questions that make the familiar feel strange.</h1>
+        <p class="hero__intro">Step into a carefully described situation. Follow the assumptions, test the argument, and see where thoughtful readers disagree.</p>
+        <p class="hero__counts" aria-live="off">
+          <span id="entry-total">132</span> entries
+          <span class="count-divider" aria-hidden="true">/</span>
+          <span id="category-total">12</span> fields
+          <span class="count-divider" aria-hidden="true">/</span>
+          <span id="path-total">11</span> reading paths
+        </p>
+      </div>
+      <figure class="branch-figure">
+        <svg class="branch-figure__drawing" viewBox="0 0 420 240" role="img" aria-labelledby="branch-title branch-desc">
+          <title id="branch-title">One scenario, several lines of thought</title>
+          <desc id="branch-desc">A starting point branches toward three possible answers, each with a small question mark.</desc>
+          <path d="M42 120H142C185 120 184 48 231 48H364M142 120H364M142 120C185 120 184 192 231 192H364" fill="none" stroke="currentColor" stroke-width="2" />
+          <path d="M142 120H188" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 7" />
+          <circle cx="42" cy="120" r="9" fill="#214FBF" />
+          <circle cx="231" cy="48" r="7" fill="#9A5D12" />
+          <circle cx="231" cy="120" r="7" fill="#9A5D12" />
+          <circle cx="231" cy="192" r="7" fill="#9A5D12" />
+          <circle cx="364" cy="48" r="5" fill="#20282D" />
+          <circle cx="364" cy="120" r="5" fill="#20282D" />
+          <circle cx="364" cy="192" r="5" fill="#20282D" />
+          <text x="18" y="98" class="branch-label">SCENARIO</text>
+          <text x="247" y="31" class="branch-answer">Answer A</text>
+          <text x="247" y="103" class="branch-answer">Answer B</text>
+          <text x="247" y="175" class="branch-answer">Answer C</text>
+          <text x="350" y="54" class="branch-mark">?</text>
+          <text x="350" y="126" class="branch-mark">?</text>
+          <text x="350" y="198" class="branch-mark">?</text>
+        </svg>
+        <figcaption>One premise can open into several serious answers.</figcaption>
+      </figure>
+    </section>
+
+    <section id="explore" class="explorer page-width" aria-labelledby="explore-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">Explore the collection</p>
+          <h2 id="explore-title">Find a question worth following.</h2>
+        </div>
+        <p class="section-heading__note">Search by idea, person, or subject. Each entry leads to its full explanation and sources.</p>
+      </div>
+
+      <div id="status-message" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div id="load-error" class="load-error" hidden>
+        <div>
+          <h3>We couldn’t load the collection.</h3>
+          <p id="load-error-detail">Check your connection and try again, or read the complete collection in the README.</p>
+        </div>
+        <div class="load-error__actions">
+          <button id="retry-load" class="button button--primary" type="button">Try again</button>
+          <a href="README.md">Read the README</a>
+        </div>
+      </div>
+
+      <div class="explorer-app requires-js">
+        <form id="explorer-form" class="search-panel" action="." method="get">
+          <label class="search-label" for="search">Search the collection</label>
+          <div class="search-row">
+            <input id="search" name="q" type="search" autocomplete="off" placeholder="Try “identity”, “Mary”, or a question…" aria-describedby="search-hint">
+            <button class="button button--primary" id="apply-filters" type="submit">Search</button>
+          </div>
+          <p class="search-hint" id="search-hint">Titles, questions, themes, thinkers, and categories.</p>
+
+          <div class="explorer-layout">
+            <fieldset class="filter-rail">
+              <legend>Refine your search</legend>
+              <div class="filter-field">
+                <label for="category">Subject</label>
+                <select id="category" name="category"><option value="">All subjects</option></select>
+              </div>
+              <div class="filter-field">
+                <label for="kind">Entry type</label>
+                <select id="kind" name="kind"><option value="">All types</option></select>
+              </div>
+              <div class="filter-field">
+                <label for="difficulty">Difficulty</label>
+                <select id="difficulty" name="difficulty">
+                  <option value="">Any level</option>
+                  <option value="Beginner">Beginner</option>
+                  <option value="Intermediate">Intermediate</option>
+                  <option value="Advanced">Advanced</option>
+                </select>
+              </div>
+              <div class="filter-field">
+                <label for="source">Source review</label>
+                <select id="source" name="source">
+                  <option value="">Any review state</option>
+                  <option value="source_checked">Source checked</option>
+                  <option value="partially_source_checked">Partially source checked</option>
+                  <option value="needs_source_check">Needs source check</option>
+                </select>
+              </div>
+              <button class="button button--quiet" id="clear-all" type="button">Clear all</button>
+              <p class="review-note">“Source checked” describes the source passages reviewed; it does not mean a philosophical conclusion is settled.</p>
+            </fieldset>
+
+            <section class="results" id="results" aria-labelledby="results-heading" tabindex="-1">
+              <div class="results__header">
+                <h3 id="results-heading">Collection</h3>
+                <p id="results-count" aria-live="polite" aria-atomic="true">Loading entries…</p>
+              </div>
+              <ul id="results-list" class="results-list" aria-describedby="results-heading"></ul>
+              <div id="empty-state" class="empty-state" hidden>
+                <h4>No entries match that search.</h4>
+                <p>Try a broader word or clear the filters to start again.</p>
+                <button class="text-button" type="button" data-clear>Clear search and filters</button>
+              </div>
+            </section>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="paths" class="paths page-width" aria-labelledby="paths-title">
+      <div class="paths__art" aria-hidden="true">
+        <svg viewBox="0 0 300 154">
+          <path d="M24 78H101L153 28H270M101 78l52 50h117" fill="none" stroke="currentColor" stroke-width="2" />
+          <circle cx="24" cy="78" r="8" fill="#214FBF" />
+          <circle cx="101" cy="78" r="5" fill="#9A5D12" />
+          <circle cx="153" cy="28" r="5" fill="#9A5D12" />
+          <circle cx="153" cy="128" r="5" fill="#9A5D12" />
+          <circle cx="270" cy="28" r="4" fill="#20282D" />
+          <circle cx="270" cy="128" r="4" fill="#20282D" />
+        </svg>
+      </div>
+      <div class="paths__content">
+        <p class="section-heading__eyebrow">A route through the ideas</p>
+        <h2 id="paths-title">Paths through the collection.</h2>
+        <p class="paths__intro">Read in sequence, pause over a question, and follow the connections that change your view.</p>
+        <ul class="path-list">
+          <li><a href="learning-paths/start-here.html">Start Here: 10 Thought Experiments for Beginners</a></li>
+          <li><a href="learning-paths/consciousness-and-identity.html">Understanding Consciousness and Identity</a></li>
+          <li><a href="learning-paths/ethics-and-decisions.html">Ethics and Difficult Moral Decisions</a></li>
+          <li><a href="learning-paths/knowledge-and-skepticism.html">Reality, Knowledge, and Skepticism</a></li>
+          <li><a href="learning-paths/paradoxes-and-choice.html">Paradoxes, Probability, and Rational Choice</a></li>
+          <li><a href="learning-paths/universe-time-and-reality.html">The Universe, Time, and Physical Reality</a></li>
+          <li><a href="learning-paths/ai-and-intelligence.html">Artificial Intelligence and the Future of Intelligence</a></li>
+          <li><a href="learning-paths/language-meaning-and-self-reference.html">Language, Meaning, and Self-Reference</a></li>
+          <li><a href="learning-paths/science-evidence-and-explanation.html">Science, Evidence, and Explanation</a></li>
+          <li><a href="learning-paths/time-fate-and-freedom.html">Time, Fate, and Freedom</a></li>
+          <li><a href="learning-paths/cooperation-choice-and-collective-decisions.html">Cooperation, Choice, and Collective Decisions</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width site-footer__inner">
+      <p class="site-footer__credit">A collection for thinking carefully about the cases we imagine.</p>
+      <nav aria-label="More about this collection">
+        <a href="README.md">README</a>
+        <a href="CONNECTIONS.html">Connections</a>
+        <a href="SOURCES_AND_ATTRIBUTION.html">Sources and attribution</a>
+        <a href="QUALITY_REPORT.html">Quality report</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
