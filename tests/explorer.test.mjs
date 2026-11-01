@@ -1,8 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  createResultRow,
   filterExperiments,
   getReviewLabel,
+  installExplorer,
   loadExplorerData,
   parseExplorerState,
   serializeExplorerState,
@@ -74,6 +76,120 @@ function validPayloadFor(url) {
       { id: 'ship-of-theseus', status: 'source_checked' },
     ],
   };
+}
+
+class FakeElement {
+  constructor(tagName = 'div') {
+    this.tagName = tagName;
+    this.children = [];
+    this.events = new Map();
+    this.dataset = {};
+    this.classList = { remove() {} };
+    this.hidden = false;
+    this.value = '';
+    this._textContent = '';
+  }
+
+  set textContent(value) {
+    this._textContent = String(value);
+    this.children = [];
+  }
+
+  get textContent() {
+    return this._textContent + this.children.map((child) => child.textContent).join('');
+  }
+
+  append(...nodes) {
+    this.children.push(...nodes);
+  }
+
+  replaceChildren(...nodes) {
+    this._textContent = '';
+    this.children = [...nodes];
+  }
+
+  querySelector(selector) {
+    if (selector === 'option[value=""]') {
+      return this.children.find((child) => child.tagName === 'option' && child.value === '') ?? null;
+    }
+    return null;
+  }
+
+  addEventListener(type, listener) {
+    this.events.set(type, listener);
+  }
+
+  dispatch(type, event = {}) {
+    this.events.get(type)?.(event);
+  }
+}
+
+function makeFakeBrowser() {
+  const baseURI = 'https://example.test/awesome-thought-experiments/';
+  const elements = new Map();
+  const getElement = (id) => {
+    if (!elements.has(id)) elements.set(id, new FakeElement());
+    return elements.get(id);
+  };
+  const controls = Object.fromEntries(['q', 'category', 'kind', 'difficulty', 'source'].map((name) => [name, new FakeElement()]));
+  const form = getElement('explorer-form');
+  form.elements = { namedItem: (name) => controls[name] };
+  const document = {
+    baseURI,
+    documentElement: new FakeElement('html'),
+    createElement: (tagName) => new FakeElement(tagName),
+    getElementById: getElement,
+    querySelectorAll: () => [],
+  };
+
+  const listeners = new Map();
+  const location = { pathname: '/awesome-thought-experiments/', search: '', hash: '' };
+  const historyUrls = [`${location.pathname}`];
+  let historyIndex = 0;
+  const setLocation = (url) => {
+    const parsed = new URL(url, baseURI);
+    location.pathname = parsed.pathname;
+    location.search = parsed.search;
+    location.hash = parsed.hash;
+  };
+  const notifyPopState = () => listeners.get('popstate')?.({ type: 'popstate' });
+  const window = {
+    location,
+    addEventListener: (type, listener) => listeners.set(type, listener),
+    history: {
+      pushState(_state, _title, url) {
+        historyUrls.splice(historyIndex + 1);
+        historyUrls.push(String(url));
+        historyIndex += 1;
+        setLocation(url);
+      },
+      go(delta) {
+        historyIndex += delta;
+        setLocation(historyUrls[historyIndex]);
+        notifyPopState();
+      },
+    },
+  };
+  return { document, window, controls, elements };
+}
+
+function descendants(element) {
+  return element.children.flatMap((child) => [child, ...descendants(child)]);
+}
+
+function installFakeGlobals(t, browser) {
+  const previous = new Map(['document', 'window'].map((name) => [name, {
+    existed: Object.hasOwn(globalThis, name),
+    value: globalThis[name],
+  }]));
+  globalThis.document = browser.document;
+  globalThis.window = browser.window;
+  t.after(() => {
+    for (const [name, state] of previous) {
+      if (state.existed) globalThis[name] = state.value;
+      else delete globalThis[name];
+    }
+  });
 }
 
 test('search matches title, summary, themes, thinkers, and category', () => {
@@ -211,4 +327,57 @@ test('successful loading returns the collection and source ledger together', asy
   assert.equal(requested.length, 2);
   assert.ok(requested.some((path) => path.endsWith('/data/experiments.json')));
   assert.ok(requested.some((path) => path.endsWith('/research/source-review-consolidated-2026-11-01.json')));
+});
+
+test('result rows render markup-like data as inert text', (t) => {
+  const browser = makeFakeBrowser();
+  installFakeGlobals(t, browser);
+  const title = '<img src=x onerror="globalThis.compromised=true">';
+  const summary = '<script>globalThis.compromised=true</script>';
+  const row = createResultRow({ ...entries[0], title, summary }, reviews);
+  const nodes = descendants(row);
+
+  assert.ok(row.textContent.includes(title));
+  assert.ok(row.textContent.includes(summary));
+  assert.equal(nodes.some((node) => ['img', 'script'].includes(node.tagName)), false);
+  assert.equal(globalThis.compromised, undefined);
+});
+
+test('Back and Forward restore form controls and rendered results', (t) => {
+  const browser = makeFakeBrowser();
+  installFakeGlobals(t, browser);
+  installExplorer({ experiments: entries, reviewsById: reviews });
+  const form = browser.elements.get('explorer-form');
+  const results = browser.elements.get('results-list');
+  const submit = () => form.dispatch('submit', { preventDefault() {} });
+
+  browser.controls.category.value = 'ethics';
+  browser.controls.kind.value = 'thought experiment';
+  browser.controls.difficulty.value = 'Beginner';
+  submit();
+  assert.equal(browser.window.location.search, '?category=ethics&kind=thought+experiment&difficulty=Beginner');
+  assert.equal(results.children.length, 1);
+  assert.ok(results.children[0].textContent.includes('Trolley Problem'));
+
+  browser.controls.category.value = 'identity';
+  browser.controls.kind.value = '';
+  browser.controls.difficulty.value = '';
+  submit();
+  assert.equal(browser.window.location.search, '?category=identity');
+  assert.equal(results.children.length, 1);
+  assert.ok(results.textContent.includes('Ship of Theseus'));
+
+  browser.window.history.go(-1);
+  assert.equal(browser.controls.category.value, 'ethics');
+  assert.equal(browser.controls.kind.value, 'thought experiment');
+  assert.equal(browser.controls.difficulty.value, 'Beginner');
+  assert.equal(results.children.length, 1);
+  assert.ok(results.textContent.includes('Trolley Problem'));
+
+  browser.window.history.go(1);
+  assert.equal(browser.controls.category.value, 'identity');
+  assert.equal(browser.controls.kind.value, '');
+  assert.equal(browser.controls.difficulty.value, '');
+  assert.equal(results.children.length, 1);
+  assert.ok(results.textContent.includes('Ship of Theseus'));
 });

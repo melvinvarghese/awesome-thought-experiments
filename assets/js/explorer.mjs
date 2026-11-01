@@ -262,7 +262,7 @@ function makeMetaSpan(text, className = '') {
   return span;
 }
 
-function createResultRow(entry, reviewsById) {
+export function createResultRow(entry, reviewsById) {
   const item = document.createElement('li');
   item.className = 'result-row';
 
@@ -337,7 +337,7 @@ function renderResults(entries, reviewsById, state) {
   empty.hidden = results.length !== 0;
 }
 
-function installExplorer(data) {
+export function installExplorer(data) {
   const { experiments, reviewsById } = data;
   const form = document.getElementById('explorer-form');
   const facets = makeFacets(experiments);
