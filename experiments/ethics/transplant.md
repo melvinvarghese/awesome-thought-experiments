@@ -53,3 +53,5 @@ Harris’s Survival Lottery replaces an isolated surgeon’s decision with an im
 ## 10. Sources and Attribution
 
 Historical association: Twentieth-century trolley and transplant debates; Foot (1967), Thomson’s later discussions. The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

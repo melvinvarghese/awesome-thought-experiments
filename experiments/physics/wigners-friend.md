@@ -54,3 +54,5 @@ Extended Wigner’s-friend scenarios use several observers to derive no-go resul
 The quantum overview supports the original scenario and careful treatment of extensions. Its discussion uses 1961 while its bibliography lists a 1962 edition; the metadata therefore preserves the dating uncertainty instead of imposing a false precision.
 
 Verified on 2026-10-30. Source coverage: [1] Measurement problem, Wigner scenario, competing theories; historical bibliography. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

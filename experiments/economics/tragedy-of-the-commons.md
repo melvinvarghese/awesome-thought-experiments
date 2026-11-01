@@ -56,3 +56,5 @@ Fisheries, groundwater, and atmospheric pollution have related incentive problem
 Hardin’s retrieved excerpt directly supports the pasture mechanism, and the scan verifies publication metadata. Ostrom’s author record and abstract were independently retrieved from Indiana University; they support the institutional alternative. Her Nobel lecture was not accessible in this session.
 
 Verified on 2026-10-30. Source coverage: [1] Pasture scenario and private-benefit/shared-cost mechanism. [2] Publication metadata; full paper scan retrieved. [3] Author and abstract describing institutional alternatives and polycentric governance. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

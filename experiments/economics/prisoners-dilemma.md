@@ -54,3 +54,5 @@ Iterated games introduce history-dependent strategies. Public-goods and commons 
 The scholarly entry distinguishes the Flood–Dresher game from Tucker’s prison narrative and notes uncertainty about the earliest printed label. The table-free payoff example above is original and designed to make the dominance argument easy to verify.
 
 Verified on 2026-10-30. Source coverage: [1] Flood/Dresher’s game, Tucker’s story, payoff conditions, repeated games. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

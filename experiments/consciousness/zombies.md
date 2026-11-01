@@ -53,3 +53,5 @@ Behavioral and functional zombies hold different features fixed. Absent-qualia a
 ## 10. Sources and Attribution
 
 Historical association: Modern zombie debates: Kirk (1974); Chalmers, The Conscious Mind (1996). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

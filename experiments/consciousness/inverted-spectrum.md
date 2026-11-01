@@ -53,3 +53,5 @@ Intrapersonal inversion asks whether one person’s experience could change whil
 ## 10. Sources and Attribution
 
 Historical association: Locke, Essay II.xxxii.15; modern functionalist versions developed in the twentieth century. The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

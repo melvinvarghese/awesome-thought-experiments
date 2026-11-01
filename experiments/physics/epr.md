@@ -54,3 +54,5 @@ Bohm’s spin formulation makes the structure easier to describe with discrete o
 The scholarly historical entry supports original authorship, date, argument, and later variations. No claim is made that EPR performed the proposed experiment or that one experiment has selected every aspect of a quantum interpretation.
 
 Verified on 2026-10-30. Source coverage: [1] 1935 authorship, original position/momentum argument, Bohm variation and Bell developments. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

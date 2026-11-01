@@ -54,3 +54,5 @@ Chalmers’s St. Petersburg variant independently fills the envelopes using an u
 The author-hosted 2002 paper explicitly distinguishes ordinary prior-based reasoning from infinite-expectation extensions. No single inventor is assigned to the many historical envelope formulations.
 
 Verified on 2026-10-30. Source coverage: [1] Ordinary and infinite expectation versions, conditioning and prior distributions. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

@@ -55,3 +55,5 @@ Wigner’s friend replaces the cat with an observer. Laboratory “cat states”
 Schrödinger’s 1935 publication introduced the cat as a challenge concerning quantum description. The linked EPR history supports that context; the quantum overview supports the interpretive distinctions. The account is a schematic reconstruction, not a quotation.
 
 Verified on 2026-10-30. Source coverage: [1] Measurement problem, Wigner scenario, competing theories; historical bibliography. [2] 1935 authorship, original position/momentum argument, Bohm variation and Bell developments. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

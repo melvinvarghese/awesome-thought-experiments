@@ -54,3 +54,5 @@ An accelerating-cabin light-beam example motivates gravitational light deflectio
 The source is a Max Planck Institute educational treatment. The historical insight dates to 1907; the familiar cabin story is a later pedagogical presentation, rather than an exact transcript of a single original scene.
 
 Verified on 2026-10-30. Source coverage: [1] Local equivalence, free fall, limits imposed by tidal effects. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

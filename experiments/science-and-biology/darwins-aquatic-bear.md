@@ -54,3 +54,5 @@ Darwin Online’s editorial note records that most of this passage was removed a
 The primary draft, editorial publication note, and transcribed Hearne passage were retrieved. They support the historical scenario and its revision history. No modern phylogenetic claim about the origin of whales is inferred from this nineteenth-century illustration.
 
 Verified on 2026-10-30. Source coverage: [1] Primary aquatic-bear scenario, environmental assumptions, editorial publication history. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

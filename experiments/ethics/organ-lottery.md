@@ -56,3 +56,5 @@ Compare a one-off selection with a permanent institution. Introducing opt-outs, 
 Historical association: The Survival Lottery (1975). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
 
 Access scope: Harvard’s teaching page directly supports the lottery setup and attribution to Harris. The original 1975 article was not retrieved in full; the response analysis and questions are editorial exposition rather than a claim to reconstruct every stage of Harris’s argument.
+
+[Return to collection](../../index.html)

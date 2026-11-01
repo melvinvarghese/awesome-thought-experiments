@@ -60,3 +60,5 @@ Oracle-AI proposals consider systems designed only to answer questions. The scho
 Yudkowsky devised and performed the role-play. Armstrong, Sandberg, and Bostrom later discussed it in their peer-reviewed 2012 article on Oracle-AI control; they were not participants in the 2002 trials. The currently accessible Yudkowsky page is retrospective, and the contemporary mailing-list messages record the arrangements and reported outcomes. The private chat transcripts were not consulted. Yudkowsky himself characterizes the results as anecdotal; no inference about the capabilities of actual AI systems is claimed.
 
 Verified on 2026-11-01. Source coverage: the retrospective account and contemporary records support the role-play history; the 2012 article supports its characterization as a topic in Oracle-AI containment analysis. Reflection questions and general safety implications are editorial framing.
+
+[Return to collection](../../index.html)

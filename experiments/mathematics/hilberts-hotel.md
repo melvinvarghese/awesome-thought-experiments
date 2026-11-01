@@ -54,3 +54,5 @@ Countably many buses can be handled by enumerating pairs of positive integers. C
 The IAS article documents Hilbert’s lectures and Gamow’s later popularization. The algebraic maps are original explanatory calculations. No claim about the physical impossibility or actuality of infinite populations is inferred from the hotel alone.
 
 Verified on 2026-10-30. Source coverage: [1] Hilbert’s 1924–25 lectures, Gamow’s popularization, room reassignment proofs. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

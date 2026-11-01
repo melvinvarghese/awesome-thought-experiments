@@ -57,3 +57,5 @@ Gould and Vrba introduced the term *exaptation* in 1982 for a useful character c
 The full 1979 paper was read in a publicly hosted scan; its Royal Society record supplies the publication details and abstract. Gould’s 1997 paper clarifies the intended architectural analogy and responds to terminology and structural-utility objections. Gould and Vrba’s 1982 paper supports the later term “exaptation.” This entry is an analogy and methodological argument, not a strict hypothetical experiment.
 
 Verified on 2026-11-01. Relevant passages in the full 1979 paper, Gould’s 1997 clarification, and Gould and Vrba’s 1982 definition were read. The public 1979 scan is a third-party reproduction; the Royal Society’s full text is paywalled and its online text is OCR-derived. Reflection questions and illustrative examples are original editorial material.
+
+[Return to collection](../../index.html)

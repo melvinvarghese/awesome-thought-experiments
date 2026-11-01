@@ -58,3 +58,5 @@ Richard Yetter Chappell’s later “negative utility monster” discussion star
 Nozick’s primary passage is in chapter 3, “Moral Constraints and the State,” p. 41. It supports the hypothetical and his qualified claim that utilitarian theory “seems to require” sacrificing everyone to increase total utility. The Cambridge article was accessed at abstract and bibliographic-record level only. The Stanford Encyclopedia and Internet Encyclopedia are contextual secondary sources: they support distinctions among consequentialist theories and Nozick’s rights-based political philosophy, not the original monster’s wording. The numerical illustration, teaching prompts, and explanatory framing are original editorial material.
 
 Access scope: a selected passage in Nozick’s book was read in a university-hosted PDF reproduction; the complete book was not reviewed. No claim is made that the hypothetical is empirically realized, that the argument succeeds, or that all consequentialists accept its assumptions.
+
+[Return to collection](../../index.html)

@@ -54,3 +54,5 @@ Changing environmental conditions can alter which intermediate features are bene
 The surviving primary manuscript and its editorial link to the published chapter support the attribution and conditional structure. The scenario is a modern paraphrase. This entry does not claim to supply a modern genetic reconstruction of the evolution of all eyes.
 
 Verified on 2026-10-30. Source coverage: [1] Primary manuscript of the eye argument and link to published Chapter VI. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

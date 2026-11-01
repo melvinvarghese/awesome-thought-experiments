@@ -55,3 +55,5 @@ With many doors and an informed host removing all but one unchosen loser, the ad
 The Berkeley treatment verifies the protocol and solution. The 1975 attribution identifies the familiar modern version rather than claiming no earlier related puzzles existed; the main mathematical argument is supplied here explicitly.
 
 Verified on 2026-10-30. Source coverage: [1] Explicit host protocol and conditional probability solution. [2] Selvin’s 1975 letters and later popular discussion. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

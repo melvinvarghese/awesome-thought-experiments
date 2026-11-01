@@ -54,3 +54,5 @@ Common-consequence and common-ratio effects explore related deviations. Ellsberg
 The retrieved expected-utility entry supplies the 1953 attribution and paired-lottery structure. The monetary scale is simplified here without changing probabilities or the algebraic conflict. This is a decision-theoretic counterexample, not a formal logical paradox.
 
 Verified on 2026-10-30. Source coverage: [1] Section 3.2.2: Allais (1953), Ellsberg (1961), numerical cases and alternative responses. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

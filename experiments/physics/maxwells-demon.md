@@ -55,3 +55,5 @@ Szilard’s one-molecule engine isolates the role of measurement and feedback. M
 The linked statistical-mechanics entry documents the historical demon literature and explains competing information-based and critical treatments. This article avoids presenting a disputed philosophical “exorcism” as the only settled explanation.
 
 Verified on 2026-10-30. Source coverage: [1] Section 7.2: demon, information, erasure, unresolved foundational issues. [2] Demon’s first mention in the 1867 letter to Tait and information/thermodynamics debate. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

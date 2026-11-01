@@ -54,3 +54,5 @@ Two-urn versions contrast a known mixture with an unknown one. Allais’s exampl
 The retrieved scholarly entry supports the 1961 origin, urn structure, and normative debate. Color names and win/lose presentation are simplified consistently. No empirical frequency of a preference is asserted without a specific study.
 
 Verified on 2026-10-30. Source coverage: [1] Section 3.2.2: Allais (1953), Ellsberg (1961), numerical cases and alternative responses. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

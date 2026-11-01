@@ -53,3 +53,5 @@ Brain-transplant scenarios replace a transfer of consciousness with a physical o
 ## 10. Sources and Attribution
 
 Historical association: An Essay Concerning Human Understanding, II.xxvii (added in 1694). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

@@ -55,3 +55,5 @@ Clock transport and particle-lifetime measurements test related relativistic pre
 The Max Planck educational treatment supports the physical resolution and empirical context. Historical names mark developments rather than a claim that one person invented every modern twin formulation.
 
 Verified on 2026-10-30. Source coverage: [1] Proper-time difference, asymmetry of round trips and empirical context. [2] Analysis of Langevin’s 1911 article; historical metadata verified from abstract. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

@@ -54,3 +54,5 @@ Parfit’s depletion cases and Kavka’s slave-child case place the problem in d
 ## 10. Sources and Attribution
 
 Historical association: Modern formulations in population-ethics work of the 1970s–1980s; Reasons and Persons (1984). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

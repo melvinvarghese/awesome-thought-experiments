@@ -53,3 +53,5 @@ Twin Earth cases vary the external environment while holding internal features f
 ## 10. Sources and Attribution
 
 Historical association: Knowing One’s Own Mind (1987). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

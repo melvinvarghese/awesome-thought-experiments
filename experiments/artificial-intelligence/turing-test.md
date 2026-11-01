@@ -54,3 +54,5 @@ Embodied or “total” variants add perception and action. The Chinese room cha
 The scholarly Turing-test entry verifies the 1950 attribution and distinguishes multiple readings and variations. This article presents the familiar machine–human comparison while flagging the original formulation’s interpretive complexity. It makes no claims about current systems passing a benchmark.
 
 Verified on 2026-10-30. Source coverage: [1] 1950 imitation game, interpretations, behavioral and evidential objections. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

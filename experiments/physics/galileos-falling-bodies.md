@@ -55,3 +55,5 @@ Vacuum drop demonstrations remove much of the influence of air. Einstein’s ele
 The SEP historical entry supports the 1638 attribution and argument. The university-hosted original excerpt was retrieved as a scan; its text was not successfully extracted. The explanation is an original reconstruction, with the limits of the reductio made explicit.
 
 Verified on 2026-10-30. Source coverage: [1] Two New Sciences (1638) and the argument against weight-proportional fall. [2] Original dialogue excerpt; PDF retrieved, though text extraction unavailable. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

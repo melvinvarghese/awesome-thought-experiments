@@ -55,3 +55,5 @@ Number-guessing games make recursive reasoning explicit. For numbers in a fixed 
 The original Chapter 12 text supports the historical analogy, while Thaler’s university article supports the modern number-game comparison. The two forms are cross-explained rather than treated as identical historical experiments.
 
 Verified on 2026-10-30. Source coverage: [1] Original newspaper contest analogy and speculation versus enterprise. [2] Modern number-guessing adaptation and recursive expectations. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

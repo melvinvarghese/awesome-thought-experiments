@@ -54,3 +54,5 @@ Compare Einstein’s magnet-and-conductor example, described in the same univers
 Norton’s historical analysis quotes and contextualizes Einstein’s later recollection and explicitly notes gaps in the documentary record. No exact day or independently established youthful discovery date is asserted here.
 
 Verified on 2026-10-30. Source coverage: [1] Einstein’s retrospective account and limits of historical reconstruction. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

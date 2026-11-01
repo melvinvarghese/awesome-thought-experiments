@@ -53,3 +53,5 @@ Reassembly creates a rival claimant, while ordinary gradual repair does not. Com
 ## 10. Sources and Attribution
 
 Historical association: Plutarch, Life of Theseus §23, ancient account; Hobbes’s later addition. The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)

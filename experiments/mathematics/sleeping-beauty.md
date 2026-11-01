@@ -54,3 +54,5 @@ Variants change the coin bias, number of awakenings, or whether Beauty is told t
 Elga’s paper supplies the scenario, the two principal answers, and acknowledgement of precursors. This entry presents the disagreement without advertising the author’s own thirder conclusion as an uncontested theorem.
 
 Verified on 2026-10-30. Source coverage: [1] Original canonical formulation, earlier precursors, half/thirder positions. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

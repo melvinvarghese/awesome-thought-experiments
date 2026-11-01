@@ -55,3 +55,5 @@ Related puzzles arise when ignorance is treated as a unique uniform prior. Monty
 The retrieved probability references support Bertrand’s example and the difficulty for unrestricted indifference. The geometric midpoint calculation is shown explicitly. Different measures are kept separate rather than treated as competing solutions to one fixed experiment.
 
 Verified on 2026-10-30. Source coverage: [1] Principle of indifference and Bertrand’s random chord example. [2] Interpretation of probabilities and nonunique indifference assignments. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

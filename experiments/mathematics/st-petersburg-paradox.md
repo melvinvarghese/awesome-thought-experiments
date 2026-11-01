@@ -54,3 +54,5 @@ Generalized games alter the growth of payoffs. Two-envelope variants mix infinit
 The scholarly history distinguishes Nicolaus’s initial proposal from Daniel’s later publication. The standard fair-coin game is a simplified later formulation; it is not identified as a verbatim copy of the earliest letter.
 
 Verified on 2026-10-30. Source coverage: [1] Nicolaus Bernoulli’s 1713 letter, Daniel Bernoulli’s 1738 treatment, infinite expectation. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

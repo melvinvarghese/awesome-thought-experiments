@@ -55,3 +55,5 @@ Oracle containment restricts the action channel rather than relying only on moti
 Bostrom’s author-hosted 2003 text explicitly uses the paperclip objective. Its far-reaching claims about possible superintelligence are treated here as premises to scrutinize, not as empirical facts established by the illustration.
 
 Verified on 2026-10-30. Source coverage: [1] Paperclip goal illustration, distinction between capability and motivation. [2] Oracle containment analysis and discussion of Yudkowsky’s AI-box roleplay. Reflection questions and illustrative numerical examples are original editorial material.
+
+[Return to collection](../../index.html)

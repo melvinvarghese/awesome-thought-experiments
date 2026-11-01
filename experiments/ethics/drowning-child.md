@@ -57,3 +57,5 @@ Cases with several bystanders test whether responsibility is diluted. Iterated r
 Historical association: Famine, Affluence, and Morality (1972). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
 
 Access scope: the university-hosted Singer page timed out when directly opened. The original essay’s text was subsequently retrieved from the explicitly listed Giving What We Can reproduction; its surrounding advocacy commentary is not treated as neutral scholarly adjudication.
+
+[Return to collection](../../index.html)

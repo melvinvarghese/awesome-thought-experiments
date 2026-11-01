@@ -53,3 +53,5 @@ Reversed experience-machine cases begin with the reader already connected. Exper
 ## 10. Sources and Attribution
 
 Historical association: Anarchy, State, and Utopia (1974); revised presentation in The Examined Life (1989). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+
+[Return to collection](../../index.html)
