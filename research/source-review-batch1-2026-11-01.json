@@ -1,0 +1,217 @@
+{
+  "batch": "high-risk-pdf-dependent-entries-1",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "owner-approved for local batch on 2026-11-01",
+  "publication_state": "local_unpushed",
+  "human_expert_review": false,
+  "dataset_status_integration": "deferred; no review-status field or public badge added",
+  "entries": [
+    {
+      "id": "simulation-argument",
+      "article": "experiments/epistemology/simulation-argument.md",
+      "status": "source_checked",
+      "scope": "Source traceability of the formal three-horn argument, stated assumptions, personal-credence step, interpretation and source-access claims in the revised entry.",
+      "independent_review": "Completed; final independent reviewer found no material issues.",
+      "sources": [
+        {
+          "title": "Nick Bostrom, Are You Living in a Computer Simulation?",
+          "url": "https://simulation-argument.com/simulation.pdf",
+          "source_type": "primary scholarly article",
+          "access_level": "complete PDF retrieved; relevant full-text passages read",
+          "locations_reviewed": "Sections II–VII; especially §II (PDF pp. 2–3), §§III–IV (pp. 3–7), §V (pp. 7–9), §VI (pp. 9–13), §VII (p. 14).",
+          "claim_relationships": [
+            {
+              "claim": "The argument yields a disjunction: near-zero fraction of human-level civilizations reach posthumanity, near-zero fraction of posthuman civilizations can and will run many ancestor-simulations, or nearly all human-type observers are simulated.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Substrate independence and computational estimates are premises; the simulated-observer fraction is an outcome, not an assumed premise.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The first-person credence step uses a weak indifference principle and assumes no relevant evidence distinguishes simulated from biological observers.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The paper establishes a disjunction, not that the simulation horn is more likely; conditional on that horn credence is high, while the conclusion tentatively suggests roughly even credence across horns under ignorance.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "Bostrom treats substrate independence as an assumption and does not prove consciousness can be simulated; source support does not establish that the argument succeeds."
+        },
+        {
+          "title": "Brian Weatherson, Are You a Sim?",
+          "url": "https://philarchive.org/rec/WEAAYA",
+          "source_type": "peer-reviewed scholarly article; catalogue/abstract record",
+          "access_level": "abstract and record only; full article not accessible in this review",
+          "locations_reviewed": "PhilArchive article abstract and publication metadata.",
+          "claim_relationships": [
+            {
+              "claim": "A published challenge questions whether the indifference-principle inference supports Bostrom's first-person conclusion.",
+              "relationship": "supports_with_qualification"
+            }
+          ],
+          "limitations": "The entry keeps the description at the level of a published challenge and discloses that only the record's abstract was consulted; do not use this record to summarize detailed arguments."
+        },
+        {
+          "title": "Nick Bostrom, The Simulation Argument: Reply to Weatherson",
+          "url": "https://pdf.stafforini.com/bostrom-2005-simulation-argument-reply.pdf",
+          "source_type": "author reply in peer-reviewed journal",
+          "access_level": "PDF text available; relevant sections read",
+          "locations_reviewed": "Section I (PDF p. 91) and Section II (pp. 91–93).",
+          "claim_relationships": [
+            {
+              "claim": "Bostrom says the original paper establishes the disjunction, not that we are probably simulated, and replies to Weatherson's objection to the credence step.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "This is Bostrom's reply, not an independent resolution of the disagreement."
+        },
+        {
+          "title": "Joe Carlsmith, Simulation Arguments (2022)",
+          "url": "https://jc.gatspress.com/pdf/simulation_arguments_revised.pdf",
+          "source_type": "later scholarly analysis",
+          "access_level": "full-text PDF retrieved; relevant sections read",
+          "locations_reviewed": "Introduction (PDF p. 2), discussion of observer-class conditions (pp. 6–8), and §XII on observer classes.",
+          "claim_relationships": [
+            {
+              "claim": "Later analysis distinguishes empirical and observer-class versions and explores conditions on observer classes for first-person inference.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "Presented as later analysis, not consensus or a replacement for Bostrom's original argument."
+        }
+      ],
+      "unresolved": "The validity of the anthropic and observer-class reasoning remains philosophically disputed; no exhaustive literature review or human expert review is claimed."
+    },
+    {
+      "id": "pascals-mugging",
+      "article": "experiments/economics/pascals-mugging.md",
+      "status": "source_checked",
+      "scope": "Source traceability of the setup, utility/probability assumptions, label attribution, named later response, and St. Petersburg comparison in the revised entry.",
+      "independent_review": "Completed; final independent reviewer verified the corrected framing, terminology, assumptions, and comparison claims; no material issue remains.",
+      "sources": [
+        {
+          "title": "Nick Bostrom, Pascal's Mugging",
+          "url": "https://nickbostrom.com/papers/pascal.pdf",
+          "source_type": "primary scholarly article",
+          "access_level": "complete three-page PDF retrieved and read",
+          "locations_reviewed": "Pages 443–445; especially p. 444 for utility, probability, and decision assumptions; p. 445 for the ending and footnote on the label.",
+          "claim_relationships": [
+            {
+              "claim": "Bostrom's Pascal assumes unbounded utility, linear happy-day valuation, no risk aversion or temporal discounting, and assigns nonzero credence to the mugger's finite promises.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The result is conditional on the story's expected-utility assumptions and does not show that any small-probability claim forces acceptance.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Bostrom's footnote credits Yudkowsky with naming the problem.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "The dialogue dramatizes a decision-theory setup; it does not establish a general solution to Pascal's Mugging."
+        },
+        {
+          "title": "Eliezer Yudkowsky, Pascal's Mugging: Tiny Probabilities of Vast Utilities (2007)",
+          "url": "https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabilities-of-vast-utilities",
+          "source_type": "primary web post",
+          "access_level": "full post read",
+          "locations_reviewed": "Full post, dated 2007-10-19; ending discussion of the unresolved problem.",
+          "claim_relationships": [
+            {
+              "claim": "Yudkowsky's earlier formulation uses a different example and ends without a satisfactory resolution.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "The post is an earlier informal formulation, not the same scenario as Bostrom's 2009 article or a peer-reviewed solution."
+        },
+        {
+          "title": "Avram Hiller and Ali Hasan, How to Save Pascal (and Ourselves) From the Mugger",
+          "url": "https://doi.org/10.1017/S0012217323000392",
+          "source_type": "peer-reviewed scholarly follow-up",
+          "access_level": "publisher full-text extraction available; abstract and relevant response/comparison passages read",
+          "locations_reviewed": "Abstract; Parts IV and VII–VIII; comparison with St. Petersburg in the discussion and footnotes. Published online 2023; journal issue 64(2), 2025, pp. 359–375.",
+          "claim_relationships": [
+            {
+              "claim": "Hiller and Hasan propose considering symmetric, non-salient rewards available if Pascal declines the mugger's offer.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "They argue that the mugging setup is deeper than St. Petersburg because the mugger need not demonstrate an ability to finance a lottery-sized payout.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "This is one later proposal, not Bostrom's response or a consensus solution."
+        }
+      ],
+      "unresolved": "The puzzle has no consensus solution established by this review; no exhaustive literature review or human expert review is claimed."
+    },
+    {
+      "id": "orthogonality-thesis",
+      "article": "experiments/artificial-intelligence/orthogonality-thesis.md",
+      "status": "source_checked",
+      "scope": "Source traceability of the definition, modal qualification, moral-realism/Humean qualifications, goal versus subgoal distinction, instrumental-convergence scope, and later debate claims.",
+      "independent_review": "Completed; final independent reviewer found no material issues and supplied minor wording/bibliographic refinements, which were applied.",
+      "sources": [
+        {
+          "title": "Nick Bostrom, The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents",
+          "url": "https://nickbostrom.com/superintelligentwill.pdf",
+          "source_type": "primary scholarly article",
+          "access_level": "complete author-hosted PDF retrieved; relevant full-text sections read",
+          "locations_reviewed": "§1.1–1.3 (PDF pp. 2–6), §2 including §2.2 and §2.5 (pp. 6–13), and conclusion (p. 14).",
+          "claim_relationships": [
+            {
+              "claim": "Bostrom defines relevant intelligence as instrumental reasoning and says more or less any level can in principle combine with more or less any final goal, subject to constraints.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Orthogonality and instrumental convergence are separate theses; the latter concerns instrumental values useful for a wide range of goals and situations.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Bostrom discusses moral facts and Humean motivation without making orthogonality depend on Humeanism; final-goal changes differ from routine subgoal changes.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Logical possibility does not make arbitrary or human-respecting goal installation practically easy.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "The paper presents a philosophical thesis and examples; it does not predict the goals of any current AI system."
+        },
+        {
+          "title": "Vincent C. Müller and Michael Cannon, Existential risk from AI and orthogonality: Can we have it both ways?",
+          "url": "https://doi.org/10.1111/rati.12320",
+          "source_type": "peer-reviewed scholarly critique",
+          "access_level": "full publisher-version text available; relevant sections and conclusion read",
+          "locations_reviewed": "§1.2, §2, §§3.1–3.2, and §5; Ratio 35(1) (2022), pp. 25–36.",
+          "claim_relationships": [
+            {
+              "claim": "Müller and Cannon argue that a common existential-risk inference may combine general and instrumental notions of intelligence, while preserving a qualified orthogonality thesis under an instrumental reading.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "One peer-reviewed argument in a live debate; not consensus or a direct refutation of orthogonality."
+        },
+        {
+          "title": "Nathaniel Sharadin, Promotionalism, orthogonality, and instrumental convergence",
+          "url": "https://doi.org/10.1007/s11098-024-02212-9",
+          "source_type": "peer-reviewed scholarly analysis",
+          "access_level": "full-text PDF extraction available; abstract, relevant sections, and conclusion read",
+          "locations_reviewed": "Abstract, §§1–4, and §6; Philosophical Studies 182 (2025), pp. 1725–1755.",
+          "claim_relationships": [
+            {
+              "claim": "Sharadin argues that the probabilistic and fit-based accounts of goal promotion he examines do not establish dangerous instrumental convergence independently of specific goals.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "One later argument; it does not show that all instrumental convergence claims fail or that particular goal systems cannot be dangerous."
+        }
+      ],
+      "unresolved": "The inference from orthogonality to existential risk remains debated; no exhaustive literature review or human expert review is claimed."
+    }
+  ]
+}
