@@ -1,0 +1,164 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit reviews; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "brain-bisection",
+  "title": "Split Brains and the Unity of Consciousness",
+  "article_path": "experiments/consciousness/brain-bisection.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and expansion entry. Focus: classic split-brain methods and task-specific findings; limits of inference from everyday behavior; Nagel’s argument about unity and subject-count; current interpretive models; and Pinto et al.’s 2017 detection/localization and cross-hemifield comparison results. This status records source traceability, not settled neuroscience, the truth of a theory of consciousness, expert review, or exhaustive literature coverage.",
+  "summary": "The classic primary reports support task- and response-dependent dissociations, with patient and testing limits preserved. Nagel’s full 1971 paper supports the philosophical question and his indeterminate-count conclusion, which the article distinguishes from an empirical result. Current SEP and the 2020 review represent the unity debate as open. Pinto et al. support the precise distinction now stated: both patients detected and localized stimuli across the field, while the separate cross-hemifield comparison was tested on Patient DDC alone and was not significantly above chance. The final independent reviewer confirmed that scope; the article and evidence record now specify the exact Pinto sections consulted. No expert review is claimed.",
+  "sources": [
+    {
+      "title": "Some Functional Effects of Sectioning the Cerebral Commissures in Man",
+      "author": "Michael S. Gazzaniga, Joseph E. Bogen, and Roger W. Sperry",
+      "publication": "Proceedings of the National Academy of Sciences 48(10) (1962): 1765–1769; DOI 10.1073/pnas.48.10.1765",
+      "stable_url": "https://www.pnas.org/doi/10.1073/pnas.48.10.1765",
+      "source_type": "Primary peer-reviewed experimental report",
+      "access_level": "Publisher-hosted full article text was accessed; relevant patient, test, results, and discussion passages were read.",
+      "exact_locations_read": "Printed pp. 1765–1769, including the patient and surgical history, visual and visuomotor test results, and discussion of response-dependent performance and case limitations.",
+      "limitations": "A small historical clinical case series cannot establish a single consciousness model or generalize identically to every patient. The report notes the case’s history and pre-existing brain injury; it is used for the specific test dissociations it reports."
+    },
+    {
+      "title": "Hemisphere Deconnection and Unity in Conscious Awareness",
+      "author": "Roger W. Sperry",
+      "publication": "American Psychologist 23(10) (1968): 723–733",
+      "stable_url": "https://people.uncw.edu/puente/sperry/sperrypapers/60s/135-1968.pdf",
+      "source_type": "Primary peer-reviewed research synthesis",
+      "access_level": "Relevant passages in the full article were read, not only the abstract or metadata.",
+      "exact_locations_read": "Printed pp. 723–727 on clinical context, lateralized tachistoscopic tests, separate verbal reports, and hand-selection responses despite inability to verbalize the stimulus.",
+      "limitations": "A classic synthesis and selected test reports do not establish that all split-brain patients or all everyday activities show the same pattern."
+    },
+    {
+      "title": "Brain Bisection and the Unity of Consciousness",
+      "author": "Thomas Nagel",
+      "publication": "Synthese 22 (1971): 396–413; DOI 10.1007/BF00413435",
+      "stable_url": "https://www.mcgill.ca/science/files/science/channels/attach/brainbisection.pdf",
+      "source_type": "Primary philosophical paper",
+      "access_level": "Full paper text was accessed; relevant argument passages were read.",
+      "exact_locations_read": "Printed pp. 401–402 on ordinary behavior and the experimental setting; pp. 406–409 on the tension between ordinary integration and experimental dissociation and the difficulty of assigning a determinate whole-number count of minds.",
+      "limitations": "Nagel’s conclusion is a philosophical argument about concepts of mind and person, not a settled neuroscientific finding."
+    },
+    {
+      "title": "Brain Bisection and the Unity of Consciousness — bibliographic record",
+      "author": "Thomas Nagel",
+      "publication": "Synthese 22 (1971): 396–413; publisher DOI record",
+      "stable_url": "https://doi.org/10.1007/BF00413435",
+      "source_type": "Publisher bibliographic record",
+      "access_level": "Metadata only; the full argument was read in the McGill-hosted paper above.",
+      "exact_locations_read": "DOI record for author, title, journal, volume, pages, and publication metadata.",
+      "limitations": "This record establishes bibliographic details only, not Nagel’s argument."
+    },
+    {
+      "title": "The Unity of Consciousness",
+      "author": "Farid Masrour, Andrew Brook, and Paul Raymont",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 27 March 2001; substantive revision 21 April 2025",
+      "stable_url": "https://plato.stanford.edu/entries/consciousness-unity/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections of the current full entry were read; not every note or linked source is claimed as consulted.",
+      "exact_locations_read": "§§3.1, 3.1.1, and 3.1.3 on the split-brain evidence, models of unified or divided streams, everyday-behavior evidence, and the limits of inference from behavior to subject-count.",
+      "limitations": "A reference-work synthesis maps competing positions; it does not settle which model is correct or substitute for the primary experiments."
+    },
+    {
+      "title": "Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness",
+      "author": "Edward H. F. de Haan, Paul M. Corballis, Steven A. Hillyard, Carlo A. Marzi, Anil Seth, Victor A. F. Lamme, Lukas Volz, Mara Fabri, Elizabeth Schechter, Tim Bayne, Michael Corballis, and Yair Pinto",
+      "publication": "Neuropsychological Review 30(2) (2020): 224–233; DOI 10.1007/s11065-020-09439-3",
+      "stable_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7305066/",
+      "source_type": "Open-access peer-reviewed review",
+      "access_level": "Relevant full-text passages in the abstract, introduction, common-ground discussion, and conclusions were read.",
+      "exact_locations_read": "Abstract and Conclusions on the insufficiency of evidence to decide unity versus split consciousness; discussion of everyday/social behavior as largely anecdotal, variable residual integration, and competing explanations.",
+      "limitations": "The authors synthesize a contested field and explicitly describe insufficient evidence for a definitive yes/no answer; their review is not itself a new experiment."
+    },
+    {
+      "title": "Split brain: divided perception but undivided consciousness",
+      "author": "Yair Pinto, David A. Neville, Marte Otten, Paul M. Corballis, Victor A. F. Lamme, Edward H. F. de Haan, Nicoletta Foschi, and Mara Fabri",
+      "publication": "Brain 140(5) (2017): 1231–1237; DOI 10.1093/brain/aww358",
+      "stable_url": "https://academic.oup.com/brain/article/140/5/1231/2951052",
+      "source_type": "Primary peer-reviewed experimental report",
+      "access_level": "Relevant full-text HTML sections were accessed and read; the subscription-only PDF was not required for the cited claims.",
+      "exact_locations_read": "Patients and methods—Subjects/Procedure; Results, Experiments 1–2; Discussion. Experiment 1 reports detection and localization across the visual field for both DDC and DDV across response types. Experiment 2 reports cross-hemifield comparisons for Patient DDC only; mean performance was 55.4%, not significantly above chance (all stimulus categories P > 0.25).",
+      "limitations": "Only two patients were studied; the cross-hemifield comparison result was from DDC, not both patients. The authors’ unified-consciousness interpretation is a contested interpretation, not a settled refutation of earlier dissociation findings."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Classic split-brain tests can reveal response- and task-dependent dissociations after commissurotomy, including differences between verbal naming and hand selection for lateralized stimuli.",
+      "source_title": "Some Functional Effects of Sectioning the Cerebral Commissures in Man",
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.48.10.1765",
+      "exact_location": "Printed pp. 1765–1769, especially visual and visuomotor test results and discussion; corroborated by Sperry (1968), pp. 723–727, on lateralized testing and separate verbal/hand responses.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary reports support the article’s description of controlled tests and response-dependent dissociations. The revised article specifies that results vary with patient, extent of disconnection, task, and response.",
+      "limitation": "These tests do not establish that every patient has two subjects or that every everyday function is divided. The 1962 report concerns specific patients and procedures.",
+      "required_edit": "Made: qualified the empirical summary by patient, surgery, task, and response; avoided inferring separate persons from the classic tests."
+    },
+    {
+      "material_claim": "Ordinary social behavior cannot by itself settle whether split-brain experience is unified or divided.",
+      "source_title": "Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7305066/",
+      "exact_location": "Review abstract and Conclusions on insufficient evidence; SEP §§3.1 and 3.1.1 on the evidential limits of everyday behavior; Nagel, pp. 401–402 and 406–409, for the contrast between ordinary life and experimental dissociation.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article does not describe everyday behavior as fully normal or as resolving the unity question; it presents ordinary integration and controlled dissociation as evidence that require interpretation.",
+      "limitation": "The review reports that some functional integration may remain and that the mechanisms and subjective implications remain disputed.",
+      "required_edit": "Made: removed a categorical implication that everyday behavior proves normal integration or a single subject."
+    },
+    {
+      "material_claim": "Nagel argues that the ordinary concepts of mind and person do not yield a determinate one-or-two answer for split-brain cases.",
+      "source_title": "Brain Bisection and the Unity of Consciousness",
+      "source_url": "https://www.mcgill.ca/science/files/science/channels/attach/brainbisection.pdf",
+      "exact_location": "Printed pp. 406–409, especially the concluding discussion of experimental evidence, ordinary integration, and the difficulty of assigning a whole-number count of minds; SEP discussion of Nagel in §3.1 provides context.",
+      "relationship": "supports",
+      "finding": "The article attributes this as Nagel’s philosophical conclusion, distinct from the underlying clinical results and from a settled neuroscience claim.",
+      "limitation": "This establishes what Nagel argued, not that his conceptual conclusion is uniquely correct.",
+      "required_edit": "Made: separated Nagel’s argument from empirical findings and framed it as his view."
+    },
+    {
+      "material_claim": "Current accounts include two-stream, single-stream, partial-stream, and hybrid models, and the model chosen does not by itself settle identity over time.",
+      "source_title": "The Unity of Consciousness",
+      "source_url": "https://plato.stanford.edu/entries/consciousness-unity/",
+      "exact_location": "SEP §§3.1, 3.1.1, and 3.1.3, on split-brain theories, differences between experimental and everyday contexts, and the structure of consciousness.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article presents the taxonomy as competing proposals and does not identify a single model as consensus.",
+      "limitation": "The classification is a concise summary; individual theories and hybrids have additional distinctions.",
+      "required_edit": "Made: listed proposals as competing models and stated that they do not independently settle personal identity."
+    },
+    {
+      "material_claim": "In Pinto et al.’s 2017 study, both patients detected and localized stimuli across the visual field, while the cross-hemifield comparison result was tested on Patient DDC alone and was not significantly above chance.",
+      "source_title": "Split brain: divided perception but undivided consciousness",
+      "source_url": "https://academic.oup.com/brain/article/140/5/1231/2951052",
+      "exact_location": "Patients and methods—Subjects/Procedure; Results, Experiment 1 (both patients’ detection/localization); Results, Experiment 2 (cross-hemifield comparison in DDC only, mean 55.4%, not significantly above chance); Discussion.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article now distinguishes the two-patient detection/localization result from DDC’s separate comparison task. The paper’s claim that its broader results support undivided consciousness is identified as the authors’ contested interpretation.",
+      "limitation": "Two patients cannot establish universal outcomes; the comparison result applies to DDC only and does not erase earlier task-specific dissociations.",
+      "required_edit": "Made: specified Patient DDC for the comparison task, stated that performance was not significantly above chance, and added exact consulted sections to the source-attribution note."
+    },
+    {
+      "material_claim": "Philosophical extensions and thought prompts about reconnecting a divided brain or identity over time are not presented as clinical evidence.",
+      "source_title": "The Unity of Consciousness",
+      "source_url": "https://plato.stanford.edu/entries/consciousness-unity/",
+      "exact_location": "SEP §§3.1 and 3.1.3, which distinguish theories of unity and implications for the subject from experimental findings.",
+      "relationship": "context_only",
+      "finding": "The article labels hypothetical reconnection as a philosophical extension and separates identity questions from direct clinical findings.",
+      "limitation": "The extension is an editorial teaching prompt rather than a claim established by the cited experiments.",
+      "required_edit": "Made: labelled the reconnection scenario as a philosophical extension, not clinical evidence."
+    }
+  ],
+  "edits_made": [
+    "Qualified classic empirical findings by patient, disconnection, task, and response; identified the 1962 primary study and cited Sperry’s 1968 synthesis.",
+    "Distinguished Nagel’s 1971 philosophical conclusion from empirical neuroscience and from claims about personal identity over time.",
+    "Presented current consciousness models as competing interpretations and described the broader evidence as unresolved.",
+    "Corrected the Pinto result to distinguish both patients’ detection/localization from the cross-hemifield comparison tested on Patient DDC only.",
+    "Recorded the exact Pinto Methods, Results, and Discussion sections consulted in the article and this ledger; aligned dataset references and review date."
+  ],
+  "unresolved": [
+    "Whether split-brain experience is unified, divided, or context-dependent remains disputed; the source review does not adjudicate that interpretation.",
+    "The article is a concise educational account, not an exhaustive review of the split-brain literature or every clinical variation.",
+    "No named human subject-matter expert reviewed the entry; it is not expert_reviewed."
+  ],
+  "dataset_alignment": "The brain-bisection data record’s Further Reading URLs match the article’s seven Further Reading URLs in the same order, including the PNAS publisher full text and Nagel DOI metadata record. Both article research-check date and data date_verified are 2026-11-01. No public source-review status field was added.",
+  "further_reading_matches": "All seven article Further Reading URLs match the dataset record in the same order.",
+  "ledger_path": "research/source-review-batch7-item-brain-bisection.json",
+  "selection_rank": 1,
+  "risk_reason": "The entry combines clinical neuroscience, controlled-task results, a philosophical argument, and a live consciousness debate; the main risk was conflating task-specific response dissociations with two subjects or misattributing a one-patient comparison result to both study participants.",
+  "audit_focus": "Trace classic claims to primary clinical reports; separate Nagel’s conclusion from empirical results; check recent Pinto findings and current competing models; preserve the limits of everyday-behavior evidence and the access level of each source.",
+  "independent_review": "An initial independent read-only review recommended partial status until the Pinto comparison result was explicitly limited to Patient DDC. The article was corrected; a targeted final reviewer confirmed both-patient detection/localization, DDC-only cross-hemifield comparison (55.4%, not significantly above chance), and the Discussion’s contested interpretation. The final reviewer requested exact passage locations; those are now included in the article note and claim ledger. Source_checked is justified for the declared claim-traceability scope. No expert review."
+}

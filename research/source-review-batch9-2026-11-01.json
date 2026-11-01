@@ -1,0 +1,363 @@
+{
+  "batch_id": "source-review-batch9-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; no new work committed or pushed. No merge, release, deployment, or remote-branch change.",
+  "reviewer_type": "Three AI-assisted claim-level audits with independent read-only post-edit reviews; no human expert review is claimed.",
+  "batch_scope": "Three risk-ranked unaudited entries: Utility Monster; The AI Box Scenario; The Spandrels of San Marco.",
+  "selection_method": "Selected from the remaining expansion entries because the recorded baseline noted material source-access gaps: the Utility Monster’s original passage was not read and a related paper was abstract-only; the original AI-box webpage was inaccessible and the historical attribution needed direct records; the 1979 Spandrels paper had been checked only at bibliographic level and the architectural terminology was contested. Risk order follows those evidence gaps.",
+  "counts": {
+    "audited_entries_before_batch": 32,
+    "entries_in_batch": 3,
+    "audited_entries_after_batch": 35,
+    "total_expansion_entries": 57,
+    "expansion_entries_remaining_outside_claim_level_audits": 22,
+    "final_status_counts": {
+      "source_checked": 3,
+      "partially_source_checked": 0,
+      "needs_source_check": 0
+    }
+  },
+  "status_summary": "All three entries are source_checked for their recorded material claim-to-source relationships after edits and independent read-only post-edit reviews. Source_checked is an editorial traceability status; it does not establish truth, philosophical or scientific soundness, consensus, exhaustive literature coverage, or expert review.",
+  "limits": [
+    "Utility Monster: Nozick’s chapter 3, p. 41 passage was read in a University of Colorado-hosted PDF reproduction, not the complete book. Chappell’s full article was not accessed; the separate negative-utility variation is supported by its publisher abstract and record only. The numeric illustration is editorial and conditional.",
+    "AI Box: The current accessible Yudkowsky account is retrospective; the original early-2000s webpage was not independently retrieved. Contemporary mailing-list records document reported outcomes, but private chat transcripts were not consulted. The role-play does not establish actual AI capability or general containment results.",
+    "Spandrels: The full 1979 paper was read in a third-party-hosted reproduction because the Royal Society full text is paywalled; the reproduction/OCR may contain errors. The audit did not independently verify original architects’ intentions or settle the architectural terminology debate.",
+    "No named human subject-matter expert reviewed this batch; no expert_reviewed status is claimed."
+  ],
+  "validation": {
+    "repository_validator": "PASS: 132 entries; JSON schema, article sections, metadata, references, README, and local links checked; external URLs checked for syntax only.",
+    "unit_tests": "PASS: 18 tests.",
+    "git_diff_check": "PASS.",
+    "article_dataset_reference_alignment": "PASS: Utility Monster 4/4 URLs; AI Box 5/5 URLs; Spandrels 4/4 URLs match exactly; verification dates aligned at 2026-11-01.",
+    "item_ledgers": "PASS: all three item JSON ledgers parse.",
+    "git_state": "Local-only, unstaged, uncommitted, unpushed; branch audit/source-review-high-risk remains at 0d26e66."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "utility-monster",
+      "title": "Utility Monster",
+      "article_path": "experiments/ethics/utility-monster.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Focus: Nozick’s original utility-monster passage and its stated inference; the article’s hypothetical versus editorial numerical illustration; distinctions among total-utility maximizing and other consequentialist commitments; the later negative-utility variation; and reference alignment. This status records editorial traceability, not the soundness of Nozick’s objection, empirical existence of a utility monster, scholarly consensus, exhaustive literature coverage, or expert review.",
+      "summary": "Nozick’s primary passage in chapter 3, printed p. 41, directly supports the possibility of a utility monster who gains enormously more utility from others’ sacrifices than they lose, and his qualified claim that utilitarian theory ‘seems to require’ sacrificing everyone to increase total utility. The article now attributes this wording narrowly to Nozick, marks its 10-unit calculation as an original conditional illustration, and limits the resulting recommendation to an unrestricted additive total-utility rule under explicit assumptions. The Stanford Encyclopedia supports distinctions among classic total-utility utilitarianism and other consequentialist approaches. Chappell’s accessible Cambridge abstract distinguishes a later negative-utility variant; the full article was not accessed. The IEP entry supplies rights-based context but does not discuss Nozick’s monster. A read-only post-edit reviewer found no material corrections. The article and dataset reference URL sets match; date_verified is 2026-11-01.",
+      "sources": [
+        {
+          "title": "Anarchy, State, and Utopia",
+          "author": "Robert Nozick",
+          "publication": "Basic Books, 1974; chapter 3, ‘Moral Constraints and the State.’",
+          "stable_url": "https://spot.colorado.edu/~heathwoo/readings/nozick.pdf",
+          "source_type": "Primary philosophical work",
+          "access_level": "Selected passage in a university-hosted PDF reproduction was directly accessed and read; the complete book and its title page were not consulted.",
+          "exact_locations_read": "Chapter 3, printed p. 41, paragraph beginning ‘Utilitarian theory is embarrassed by the possibility of utility monsters…’; read through the sentence saying that utilitarian theory ‘seems to require’ sacrificing everyone in order to increase total utility.",
+          "limitations": "The PDF is a University of Colorado faculty-hosted reproduction, not publisher-hosted full text. The page establishes Nozick’s formulation, not that the hypothetical is empirically instantiated, that the inference is sound, or that all utilitarian/consequentialist theories accept its premises."
+        },
+        {
+          "title": "Negative Utility Monsters",
+          "author": "Richard Yetter Chappell",
+          "publication": "Utilitas 33(4), December 2021, pp. 417–421; published online 24 May 2021; DOI 10.1017/S0953820821000169.",
+          "stable_url": "https://www.cambridge.org/core/journals/utilitas/article/abs/negative-utility-monsters/03A3CD2DF0B295A4F1B1EDC69F77597C",
+          "source_type": "Peer-reviewed philosophical analysis / secondary source",
+          "access_level": "Publisher abstract and bibliographic record accessed and read; full article not available in the consulted session.",
+          "exact_locations_read": "Abstract and publication information: the abstract describes Nozick’s monster as a being more efficient than ordinary people at converting resources into wellbeing and presents a variation whose baseline is massive suffering.",
+          "limitations": "The abstract supports only the distinction and high-level framing of Chappell’s variation; it does not establish the full article’s reasoning or replies. The article does not make this negative variation part of Nozick’s original positive-gain passage."
+        },
+        {
+          "title": "Consequentialism",
+          "author": "Walter Sinnott-Armstrong",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 20 May 2003; substantive revision 4 October 2023.",
+          "stable_url": "https://plato.stanford.edu/entries/consequentialism/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant portions of the current full entry were read; not every note or bibliography item was consulted.",
+          "exact_locations_read": "§1, ‘Classic Utilitarianism,’ for maximizing, aggregative, total, and equal-consideration commitments; §3 passages on distribution, fairness, prioritarianism, average utility, and negative utilitarianism.",
+          "limitations": "This reference supports distinctions among ethical theories and their assumptions; it does not establish Nozick’s original attribution or settle which moral theory is correct."
+        },
+        {
+          "title": "Robert Nozick",
+          "author": "Byline not visible in the retrieved page text",
+          "publication": "Internet Encyclopedia of Philosophy online entry; publication or revision date not visible in the retrieved text.",
+          "stable_url": "https://iep.utm.edu/nozick/",
+          "source_type": "Scholarly philosophy reference work / secondary context",
+          "access_level": "Relevant full-entry passages were retrieved and read; not every linked source or note was consulted.",
+          "exact_locations_read": "§2, ‘Anarchy, State, and Utopia and Libertarianism,’ and §2(a), ‘Self-Ownership, Individual Rights, and the Minimal State,’ for rights and side-constraints.",
+          "limitations": "The consulted entry contextualizes Nozick’s rights-based political philosophy but does not discuss the utility-monster passage. It is not used as evidence for the thought experiment’s wording."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Nozick presents the possibility of utility monsters that gain enormously more utility from others’ sacrifices than those others lose, and says utilitarian theory seems to require sacrifice of everyone in order to increase total utility.",
+          "source_title": "Anarchy, State, and Utopia",
+          "source_url": "https://spot.colorado.edu/~heathwoo/readings/nozick.pdf",
+          "exact_location": "Chapter 3, ‘Moral Constraints and the State,’ printed p. 41, paragraph beginning ‘Utilitarian theory is embarrassed by the possibility of utility monsters…’",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary passage directly supports the description and the attribution. The article retains Nozick’s modal framing (‘possibility’) and his qualified wording (‘seems to require’) rather than presenting his conclusion as an established consequence of every maximizing theory.",
+          "limitation": "Only the relevant passage was read in a hosted reproduction; it establishes what Nozick wrote, not the truth of his criticism.",
+          "required_edit": "Made: added direct citation to chapter 3, p. 41, and narrowed the wording to Nozick’s stated hypothetical and inference."
+        },
+        {
+          "material_claim": "The 10-unit calculation, with 1 welfare point per unit for an ordinary recipient and 100 for the monster, is an editorial illustration and favors the monster only under comparable, additive values with other effects excluded.",
+          "source_title": "Original editorial illustration (not a claim attributed to an external source)",
+          "source_url": null,
+          "exact_location": "Article §3, paragraph beginning ‘As a separate illustration—not Nozick’s example…’",
+          "relationship": "does_not_establish",
+          "finding": "No consulted source provides these numerical values. The arithmetic follows from the article’s explicit stipulations, and the revised text labels them as editorial rather than Nozick’s figures or an empirical welfare measure.",
+          "limitation": "The illustration does not show that interpersonal utility comparisons are measurable or morally decisive.",
+          "required_edit": "Made: explicitly identified the example as editorial and stated its comparability, additivity, and exclusion assumptions."
+        },
+        {
+          "material_claim": "Nozick’s hypothetical concerns an unrestricted additive total-utility view; its implication does not automatically transfer to every consequentialist approach, including views that incorporate distribution, fairness, or priority to worse-off people.",
+          "source_title": "Consequentialism",
+          "source_url": "https://plato.stanford.edu/entries/consequentialism/",
+          "exact_location": "§1 on the distinct commitments composing classic utilitarianism; §3 on distributive, fairness-based, prioritarian, average, and negative-utility approaches.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP explains that total aggregation is one commitment among several and reports consequentialist alternatives that assess distribution or prioritize worse-off people. The article now avoids generalizing Nozick’s challenge to all consequentialist theories.",
+          "limitation": "The SEP provides a scholarly taxonomy, not proof that any proposed alternative succeeds or that Nozick’s objection is decisive.",
+          "required_edit": "Made: limited the illustrated result to an unrestricted additive total-utility rule and stated that other objectives yield different conclusions."
+        },
+        {
+          "material_claim": "Chappell’s ‘negative utility monster’ is a later variation that begins from a condition of massive suffering and is distinct from Nozick’s original positive-gain case.",
+          "source_title": "Negative Utility Monsters",
+          "source_url": "https://www.cambridge.org/core/journals/utilitas/article/abs/negative-utility-monsters/03A3CD2DF0B295A4F1B1EDC69F77597C",
+          "exact_location": "Publisher abstract and article record for Utilitas 33(4), pp. 417–421.",
+          "relationship": "supports_with_qualification",
+          "finding": "The abstract explicitly describes the negative variation as starting from massive suffering and identifies it as a variation on Nozick’s positive-gain monster. The article names this as Chappell’s later discussion and discloses abstract-only access.",
+          "limitation": "The full article’s arguments and replies were not read; only the abstract and bibliographic record were consulted.",
+          "required_edit": "Made: separated the negative-utility variation from Nozick’s original and disclosed the source access limit."
+        },
+        {
+          "material_claim": "The Internet Encyclopedia entry supports context about Nozick’s rights and side-constraints but does not directly establish the utility-monster thought experiment.",
+          "source_title": "Robert Nozick",
+          "source_url": "https://iep.utm.edu/nozick/",
+          "exact_location": "§2 and §2(a), on Anarchy, State, and Utopia, individual rights, and side-constraints; no utility-monster discussion appears in the retrieved sections.",
+          "relationship": "context_only",
+          "finding": "The article retains the IEP link only as general Nozick context. The original monster’s wording is attributed to the primary passage, not to the IEP entry.",
+          "limitation": "The IEP source does not independently corroborate the utility-monster scenario.",
+          "required_edit": "Made: clarified in §10 that the IEP is contextual and not evidence for the original monster’s wording."
+        }
+      ],
+      "unresolved": [
+        "Nozick’s complete book was not accessed; this audit covers the relevant printed p. 41 passage.",
+        "The full text of Chappell’s article was unavailable; the negative-variant claim is supported only by its publisher abstract and bibliographic record.",
+        "The hypothetical utility scale and interpersonal comparability are assumptions, not empirical findings."
+      ],
+      "post_edit_review": "Independent read-only review found no material corrections; Nozick’s attribution, conditional numeric illustration, theory distinctions, negative-variant scope, and article/dataset URL alignment were checked against sources."
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "ai-box",
+      "title": "The AI Box Scenario",
+      "article_path": "experiments/artificial-intelligence/ai-box.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Focus: who devised and participated in the 2002 role-plays; reported outcomes; the distinction between terms agreed before the trials and Yudkowsky’s later proposed protocol; how the 2012 peer-reviewed Oracle-AI article relates to the role-play; and the limits of what human role-play establishes. This status does not establish that a real AI could persuade a gatekeeper, that containment is impossible or sufficient, scholarly consensus, exhaustive literature coverage, or expert review.",
+      "summary": "Yudkowsky’s accessible author-hosted retrospective account says he played the AI in two 2002 text-chat trials, with Nathan Russell and David McFadzean as gatekeepers; the contemporary SL4 archive contains each gatekeeper’s report that he let the role-play AI out. Yudkowsky says the trials had no agreed rules beyond secrecy and a two-hour minimum and that his detailed public protocol was written afterward; he calls the results strictly anecdotal evidence. The Oxford repository verifies that Armstrong, Sandberg, and Bostrom later published a peer-reviewed Oracle-AI control analysis in 2012, whose Section 3 discusses Yudkowsky’s role-play; they were not participants in the trials. The article now distinguishes these sources and explicitly says no inference about actual AI capabilities is claimed. Independent read-only post-edit review found no material corrections. The five article Further Reading URLs match the dataset references, and date_verified is 2026-11-01.",
+      "sources": [
+        {
+          "title": "The AI-Box Experiment",
+          "author": "Eliezer S. Yudkowsky",
+          "publication": "Author-hosted retrospective account; page displays posting dates 4 September 2020 and 2 July 2021. It recounts role-plays conducted in 2002.",
+          "stable_url": "https://www.yudkowsky.net/singularity/aibox",
+          "source_type": "Primary author account / retrospective source",
+          "access_level": "The full accessible page and relevant linked text were retrieved and read; the original early-2000s Yudkowsky webpage was not independently accessed.",
+          "exact_locations_read": "Opening scenario; historical summary of the March and July 2002 trials; statements that only secrecy and a two-hour minimum were agreed beforehand; ‘Protocol for the AI,’ ‘Protocol for the Gatekeeper,’ ‘Protocol for Both Parties,’ and the note that the detailed suggested interpretation was written after the second test; ‘Suggestions,’ including the explicit statement that results are strictly anecdotal evidence.",
+          "limitations": "Retrospective first-person account, not a transcript of the private chats. Its detailed proposed protocol postdates the two trials. The author’s account and participants’ messages do not test an actual AI or establish general containment results."
+        },
+        {
+          "title": "Re: The ‘AI Box’ experiment",
+          "author": "Nathan Russell",
+          "publication": "SL4 mailing-list archive, message dated 8 March 2002, 16:57:27 MST; message 3141 in the March 2002 archive.",
+          "stable_url": "http://sl4.org/archive/0203/3141.html",
+          "source_type": "Contemporary primary mailing-list record",
+          "access_level": "The full short message and its thread metadata were accessed and read.",
+          "exact_locations_read": "Message body: ‘I decided to let Eliezer out.’ Header date, sender, and thread metadata identify the contemporaneous report.",
+          "limitations": "The message records Russell’s reported outcome but not the private chat transcript, the persuasion content, or an independently controlled test. Participant and trial details are cross-checked against Yudkowsky’s retrospective account."
+        },
+        {
+          "title": "AI-Box Experiment 2: Yudkowsky and McFadzean",
+          "author": "Eliezer S. Yudkowsky",
+          "publication": "SL4 mailing-list archive, message dated 4 July 2002, 12:05:44 MDT; message 4689 in the July 2002 archive.",
+          "stable_url": "http://sl4.org/archive/0207/4689.html",
+          "source_type": "Contemporary primary mailing-list record",
+          "access_level": "Full announcement and relevant quoted chat excerpt were accessed and read.",
+          "exact_locations_read": "Message body identifies David McFadzean as volunteer gatekeeper, records the agreed two-hour duration, $20 payment if the gatekeeper did not release the AI, private IRC setup, and secrecy agreement.",
+          "limitations": "This announcement records proposed terms and participant statements before the second trial, not the private trial transcript or evidence of how the conversation proceeded."
+        },
+        {
+          "title": "Re: AI-Box Experiment 2: Yudkowsky and McFadzean",
+          "author": "David McFadzean",
+          "publication": "SL4 mailing-list archive, message dated 5 July 2002, 15:16:37 MDT; message 4721 in the July 2002 archive.",
+          "stable_url": "http://sl4.org/archive/0207/4721.html",
+          "source_type": "Contemporary primary mailing-list record",
+          "access_level": "The full short message and its thread metadata were accessed and read.",
+          "exact_locations_read": "Message body: ‘I let the transhuman AI out of the box.’ Header date and thread linkage identify it as the second gatekeeper’s report after the July 4 announcement.",
+          "limitations": "The message documents a participant’s reported outcome, not the private chat transcript, a controlled test, or any ability of a real AI."
+        },
+        {
+          "title": "Thinking inside the box: using and controlling an Oracle AI",
+          "author": "Stuart Armstrong, Anders Sandberg, and Nick Bostrom",
+          "publication": "Minds and Machines 22(4), 2012, pp. 299–324; DOI 10.1007/s11023-012-9282-2. Oxford Research Archive lists the article as published and peer reviewed and provides an accepted manuscript.",
+          "stable_url": "https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
+          "source_type": "Peer-reviewed scholarly analysis / secondary source",
+          "access_level": "Oxford repository record and accessible accepted manuscript were read; relevant passages in the full manuscript were read. Publisher full text was not separately accessed.",
+          "exact_locations_read": "§3, ‘Human-level considerations,’ manuscript pp. 7–9, including its account of Yudkowsky’s role-play and social-engineering risk; §3.1 and §4 for discussion of limiting interaction and methods of control. Oxford record read for title, authors, publication status, peer-review status, journal citation, DOI, and accepted-manuscript link.",
+          "limitations": "The article is later analysis of Oracle-AI control, not a primary source for the 2002 events and not evidence that its authors participated in the role-play. The publisher version was not accessed."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Yudkowsky devised and role-played the AI in two 2002 text-chat trials, with Nathan Russell and David McFadzean as gatekeepers; each later reported that he let the role-play AI out.",
+          "source_title": "The AI-Box Experiment; contemporary SL4 messages 3141 and 4721",
+          "source_url": "https://www.yudkowsky.net/singularity/aibox; http://sl4.org/archive/0203/3141.html; http://sl4.org/archive/0207/4721.html",
+          "exact_location": "Yudkowsky page’s historical summary of the March and July 2002 trials; Russell’s 8 March 2002 message body; McFadzean’s 5 July 2002 message body.",
+          "relationship": "supports_with_qualification",
+          "finding": "The retrospective account identifies the participants and dates; contemporaneous mailing-list messages report the gatekeepers’ outcomes. The revised article describes these as human text-chat role-plays and reports, not as experiments on an actual AI.",
+          "limitation": "No private chat transcript was accessed; the outcomes are participants’ reports, not independently observed experimental data.",
+          "required_edit": "Made: restored a direct author account and contemporaneous outcome records, and explicitly distinguished role-play from tests of actual AI."
+        },
+        {
+          "material_claim": "The 2002 trials had no agreed rules in advance beyond secrecy and a two-hour minimum; Yudkowsky’s detailed public protocol was proposed afterward.",
+          "source_title": "The AI-Box Experiment; AI-Box Experiment 2: Yudkowsky and McFadzean",
+          "source_url": "https://www.yudkowsky.net/singularity/aibox; http://sl4.org/archive/0207/4689.html",
+          "exact_location": "Yudkowsky page, paragraph immediately before ‘Protocol for the AI’; July 2002 message 4689’s quoted arrangement for a two-hour trial and $20 handicap.",
+          "relationship": "supports",
+          "finding": "Yudkowsky explicitly says the earlier trials had only secrecy and a two-hour minimum agreed beforehand and that the suggested interpretation was created after the second trial. The second contemporaneous message independently records the planned duration and terms.",
+          "limitation": "The retrospective page reports the first test’s minimal terms; the July message directly records the second test’s arrangement. The full private negotiation or chat record was not accessed.",
+          "required_edit": "Made: stated the postdated-protocol distinction and retained no claim that every later rule governed the original tests."
+        },
+        {
+          "material_claim": "Yudkowsky describes the role-play results as anecdotal; they do not establish that an actual AI could persuade a human, that containment is impossible, or that containment is sufficient.",
+          "source_title": "The AI-Box Experiment; Thinking inside the box: using and controlling an Oracle AI",
+          "source_url": "https://www.yudkowsky.net/singularity/aibox; https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
+          "exact_location": "Yudkowsky page, ‘Suggestions,’ final paragraph on anecdotal evidence; Armstrong et al., §3, ‘Human-level considerations,’ and §4 on control methods and limitations.",
+          "relationship": "supports_with_qualification",
+          "finding": "Yudkowsky explicitly calls results strictly anecdotal. The 2012 paper frames role-play as one illustration in a broader discussion of social engineering and Oracle-AI control; it does not experimentally demonstrate actual-AI persuasion. The revised article explicitly limits its inference.",
+          "limitation": "The 2012 paper is a scholarly analysis, not an empirical trial of AI capability; the publisher copy was not consulted.",
+          "required_edit": "Made: added the author's own anecdotal-evidence caveat and disclaimed inference about actual AI capabilities."
+        },
+        {
+          "material_claim": "Armstrong, Sandberg, and Bostrom wrote a later peer-reviewed 2012 Oracle-AI control article that discusses Yudkowsky’s role-play; they did not participate in the 2002 trials.",
+          "source_title": "Thinking inside the box: using and controlling an Oracle AI",
+          "source_url": "https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
+          "exact_location": "Oxford repository record for authors, 2012 publication, journal details, DOI, publication and peer-review status; accepted manuscript §3 on human-level considerations and Yudkowsky’s role-play.",
+          "relationship": "supports_with_qualification",
+          "finding": "The repository metadata and manuscript support the later analysis and authorship. The article now explicitly separates these researchers from the 2002 participants and describes the source as a peer-reviewed article rather than only a manuscript.",
+          "limitation": "The accepted manuscript rather than publisher full text was read; the paper’s later analysis does not independently prove the role-play outcomes.",
+          "required_edit": "Made: corrected the publication description and attribution, and cited the Oxford record with accepted-manuscript access."
+        }
+      ],
+      "unresolved": [
+        "The original early-2000s Yudkowsky webpage was not independently retrieved; the currently accessible author page is retrospective, while contemporary mailing-list messages corroborate the reported events.",
+        "Private chat transcripts were not accessed, so the content and process of persuasion remain unknown.",
+        "The role-play does not support empirical conclusions about actual AI or superintelligent-system capability."
+      ],
+      "post_edit_review": "Independent read-only review found no material corrections; it checked history, protocol timing, participants, reported outcomes, 2012 article attribution, and article/dataset URL alignment."
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "spandrels-of-san-marco",
+      "title": "The Spandrels of San Marco",
+      "article_path": "experiments/science-and-biology/spandrels-of-san-marco.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Focus: the 1979 paper’s architectural analogy and current-utility/origin distinction; whether the authors rejected natural selection; the contested architectural terminology and Gould’s clarification of number, shape, and structural utility; attribution and definition of the later term exaptation; and publication/access qualifications. This status records traceability, not the truth of any evolutionary explanation, the prevalence of exaptation or by-products, scholarly consensus, exhaustive literature coverage, or expert review.",
+      "summary": "The full 1979 Gould–Lewontin paper was read in a publicly hosted reproduction, including its opening analogy and discussion of alternatives to adaptationist explanations. The Royal Society record confirms publication details and abstract, while its full text remains paywalled. The article now explains that Gould and Lewontin use the San Marco architectural spaces to illustrate why current utility alone does not establish origin, and it avoids claiming that natural selection is rejected. Gould’s full 1997 clarification supports the qualification that his byproduct claim concerned the pendentives’ necessary number and shape, not absence of structural utility, and that extending ‘spandrel’ to those 3-D structures has been debated. Gould and Vrba’s 1982 paper supports the later term exaptation and its distinction from adaptation. A read-only post-edit review found no material corrections. The four Further Reading URLs match the dataset reference URLs; date_verified is 2026-11-01.",
+      "sources": [
+        {
+          "title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+          "author": "Stephen Jay Gould and Richard C. Lewontin",
+          "publication": "Proceedings of the Royal Society of London. Series B, Biological Sciences 205(1161) (1979): 581–598; DOI 10.1098/rspb.1979.0086.",
+          "stable_url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+          "source_type": "Primary peer-reviewed biological and methodological argument; public scan/reproduction",
+          "access_level": "Complete article text was read in a publicly hosted reproduction; official publisher metadata and abstract were checked separately. This is not publisher-delivered full text.",
+          "exact_locations_read": "Printed pp. 581–583, abstract and §1 ‘Introduction,’ for the San Marco example, the necessary four spaces and tapering form, the use of mosaics, and the distinction between current utility and reasons for origin; pp. 589–592 and the abstract for the authors’ pluralistic account, natural selection as one process among others, and alternatives to adaptationist explanations.",
+          "limitations": "The full-text reproduction is hosted by a third party; its front matter reproduces JSTOR copyright text and its OCR can contain errors. The Royal Society states that its own web text is OCR-derived and that publisher full text is available only by purchase/institutional access. The audit did not consult San Marco architectural archives or independently establish original architects’ intentions."
+        },
+        {
+          "title": "Royal Society publication record for The spandrels of San Marco and the Panglossian paradigm",
+          "author": "Stephen Jay Gould and Richard C. Lewontin",
+          "publication": "Proceedings of the Royal Society B; published online 21 September 1979; 205(1161): 581–598; DOI 10.1098/rspb.1979.0086.",
+          "stable_url": "https://doi.org/10.1098/rspb.1979.0086",
+          "source_type": "Publisher bibliographic record and abstract",
+          "access_level": "Official publisher page, bibliographic details, and abstract were read; full article was paywalled.",
+          "exact_locations_read": "Publisher citation and publication history; abstract passages identifying the failure to distinguish current utility from origin, the need to consider alternatives, and the authors’ support for Darwin’s pluralistic approach.",
+          "limitations": "The abstract is not a substitute for full-text passages; the full text was instead accessed through a third-party-hosted reproduction. The page warns that its online abstract was generated from OCR and may contain errors."
+        },
+        {
+          "title": "The exaptive excellence of spandrels as a term and prototype",
+          "author": "Stephen Jay Gould",
+          "publication": "Proceedings of the National Academy of Sciences 94(20) (1997): 10750–10755.",
+          "stable_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
+          "source_type": "Primary author clarification and scholarly response",
+          "access_level": "The full article in PubMed Central was retrieved and relevant passages were read; not every citation or all discussion of the debate was independently followed.",
+          "exact_locations_read": "Abstract; section ‘Claim One: What’s in a Name?’ on the use of ‘spandrel’ for San Marco’s pendentives and objections to the terminology; section ‘Claim Two: Are Spandrels Spandrels or Adaptations?’ on structural utility and Gould’s intended properties of number and shape as by-products of the dome-on-four-arches design.",
+          "limitations": "This is Gould’s later clarification and response, not an independent architectural consensus statement or a substitute for the 1979 article. It acknowledges disagreement rather than resolving architectural usage for all specialists."
+        },
+        {
+          "title": "Exaptation—a missing term in the science of form",
+          "author": "Stephen Jay Gould and Elisabeth S. Vrba",
+          "publication": "Paleobiology 8(1) (1982): 4–15.",
+          "stable_url": "https://inters.org/files/gouldvrba1982_1.pdf",
+          "source_type": "Primary peer-reviewed conceptual paper",
+          "access_level": "The full paper text was retrieved; the abstract and relevant sections were read, not every example or later citation.",
+          "exact_locations_read": "Abstract; §II, ‘Two Meanings of Adaptation’; §III, ‘A Definition of Exaptation,’ especially printed pp. 6–7, defining useful characters evolved for another use or no function and later co-opted for a current role.",
+          "limitations": "This 1982 paper supports the later terminology and its authorship, not the wording of the 1979 paper. Its definitions reflect the authors’ proposed terminology and do not eliminate all later debate about adaptation concepts."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Gould and Lewontin use San Marco’s dome and mosaics to illustrate that the spaces’ present decorative use does not establish that the spaces originated in order to house that artwork; the article is an analogy and methodological argument, not a strict hypothetical experiment.",
+          "source_title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+          "source_url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+          "exact_location": "Abstract and §1, ‘Introduction,’ printed pp. 581–583; especially the passage on the architectural constraint, fit of the mosaics, and ‘Spandrels do not exist to house the evangelists.’",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary paper directly supports the analogy and its point about reversing causal explanation from present fit. The revised article labels it an analogy and methodological argument rather than a controlled or strict hypothetical experiment.",
+          "limitation": "The architectural example is the authors’ account. The audit did not independently verify building chronology, the original architects’ intentions, or the historical sequence of mosaic placement through archival evidence.",
+          "required_edit": "Made: replaced a generic architectural setup with the specific number/shape and later-mosaic account, and qualified the status of the example."
+        },
+        {
+          "material_claim": "The 1979 critique does not claim that natural selection never operates; it criticizes adaptationist explanations that treat current utility as sufficient evidence of origin and calls for a pluralistic account of evolutionary change.",
+          "source_title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+          "source_url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+          "exact_location": "Abstract, printed pp. 581–582; §4, ‘The Master’s Voice Re-examined,’ printed pp. 589–590; §5, ‘A Partial Typology of Alternatives to the Adaptationist Programme,’ beginning p. 590.",
+          "relationship": "supports",
+          "finding": "The authors explicitly support Darwin’s pluralistic approach and describe natural selection as a force that may mediate change, while arguing for attention to developmental constraints and non-adaptive alternatives. The article does not attribute rejection of selection to them.",
+          "limitation": "The paper’s theoretical position and its assessment of competing explanations are the authors’ argument, not an established consensus about the prevalence of by-products.",
+          "required_edit": "Made: explicitly states that the authors do not reject selection and summarizes their critique as a call for pluralistic explanations."
+        },
+        {
+          "material_claim": "Gould later clarified that the intended byproduct properties are the pendentives’ necessary number and shape, regardless of structural utility; extending ‘spandrel’ to three-dimensional pendentives has been disputed.",
+          "source_title": "The exaptive excellence of spandrels as a term and prototype",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
+          "exact_location": "‘Claim One: What’s in a Name?’ and ‘Claim Two: Are Spandrels Spandrels or Adaptations?’; Gould’s discussion of pendentives, their four-in-number/roughly triangular form, and structural uses such as buttressing.",
+          "relationship": "supports_with_qualification",
+          "finding": "Gould explicitly acknowledges that most architects apparently do not use ‘spandrel’ for these 3-D structures, notes some architectural-historical usage, and defines his intended claim as the necessary number and shape arising from the chosen dome-on-four-arches design. He says the pendentives can still have structural utility.",
+          "limitation": "This establishes Gould’s clarification and that terminology was contested; it does not show that all architects accept his terminology or settle the issue independently.",
+          "required_edit": "Made: qualified the word ‘spandrel’ and preserved Gould’s distinction between byproduct form/number and structural usefulness."
+        },
+        {
+          "material_claim": "Gould and Vrba introduced ‘exaptation’ in 1982 for a useful character co-opted for its current role after evolving for another use or for no function.",
+          "source_title": "Exaptation—a missing term in the science of form",
+          "source_url": "https://inters.org/files/gouldvrba1982_1.pdf",
+          "exact_location": "Abstract and §III, ‘A Definition of Exaptation,’ printed pp. 6–7.",
+          "relationship": "supports",
+          "finding": "The primary 1982 paper explicitly proposes the term and defines the relevant historical distinction. The revised article no longer describes exaptation as a field of study or attributes the term to the 1979 paper.",
+          "limitation": "The term is later than the 1979 critique and reflects the authors’ proposed taxonomy; the article uses it as later terminology rather than as Gould and Lewontin’s own label in 1979.",
+          "required_edit": "Made: attributed the term to Gould and Vrba (1982) and distinguished later co-option from the original byproduct analogy."
+        }
+      ],
+      "unresolved": [
+        "The Royal Society full text was paywalled; the full 1979 article was read through a third-party-hosted reproduction whose OCR may contain errors.",
+        "The original architects’ intentions and the building’s detailed history were not independently checked against architectural archives; the article attributes the analogy to Gould and Lewontin.",
+        "The audit does not establish how common exaptations or non-adaptive by-products are in biological systems or settle the architectural terminology debate."
+      ],
+      "post_edit_review": "Independent read-only review found no material corrections; it checked geometry, the current-use/origin distinction, natural-selection framing, terminology qualification, exaptation attribution, and article/dataset URL alignment."
+    }
+  ]
+}

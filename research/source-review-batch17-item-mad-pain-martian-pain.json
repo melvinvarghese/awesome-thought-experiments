@@ -1,0 +1,134 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "mad-pain-martian-pain",
+  "title": "Mad Pain and Martian Pain",
+  "article_path": "experiments/consciousness/mad-pain-martian-pain.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching data object. Checked the cases' author and publication framing; madman and Martian setup; Lewis's contrast between simple type-identity and role-only theories; his population-relative hybrid account and criteria; its relation to multiple realization; what the cases do and do not establish about possibility, pain, and phenomenal character; Alward's later objection concerning mad Martian pain; and whether modern comparisons are clearly labeled as editorial framing. This status records traceability, not the truth of Lewis's view, consensus, exhaustive scholarship, or expert review.",
+  "summary": "The revised article attributes the cases and proposal to David Lewis (Block edited the anthology), distinguishes Lewis's simple-theory contrast from his population-relative hybrid account, and explains the Martian case as illustrating a possibility of multiple realization rather than proving it. It records Lewis's explicit caution that he cannot prove the cases possible and his own argument that phenomenal feel is not being ignored. It also reports Peter Alward's published objection to the account's treatment of a mad Martian without presenting that objection as settled. The SEP entry and the relevant passages of Lewis's complete essay and Alward's full article were consulted; modern extensions are explicitly editorial.",
+  "sources": [
+    {
+      "title": "Mad Pain and Martian Pain",
+      "author": "David Lewis",
+      "publication": "In Ned Block (ed.), Readings in the Philosophy of Psychology, vol. I, 1980, pp. 216–222; the essay states it was presented at a Rice University conference in April 1978. Text reproduction hosted by Andrew M. Bailey.",
+      "stable_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "source_type": "Primary philosophical essay (reprint reproduction)",
+      "access_level": "Full text of the seven-page essay was read in the text extraction; relevant passages were checked against printed pages 216–222.",
+      "exact_locations_read": "Printed pp. 216–217, sections I–II: madman and Martian scenarios, Lewis's statement that he cannot prove their possibility, and the twofold test. Printed pp. 217–219, sections II–IV: simple identity and functionalist theories, Lewis's mixed proposal, causal-role account, and nonrigidity. Printed pp. 219–221, sections IV–VII: pain-for-a-population, madman/Martian/mad-Martian cases, four appropriate-population considerations, ambiguity and the unique mad/alien case. Printed pp. 221–222, final discussion: Lewis's claim that pain is a feeling and that his account addresses phenomenal character.",
+      "limitations": "Primary evidence for what Lewis argues, not proof that the thought cases are possible or that his account succeeds. The consulted file is a text reproduction rather than the publisher's volume; publication details are cross-checked against Alward's bibliographic citation."
+    },
+    {
+      "title": "Functionalism",
+      "author": "Janet Levin",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published August 24, 2004, substantive revision April 4, 2023.",
+      "stable_url": "https://plato.stanford.edu/entries/functionalism/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full entry were read; the entire entry was not read cover-to-cover.",
+      "exact_locations_read": "§1, 'What is Functionalism?': definition of causal-role functionalism, hypothetical Martian realizers, multiple realization, and the contrast with type-identity theory, including the qualification that identity theory may be more inclusive than assumed. §3.5, 'Role-functionalism and Realizer-functionalism,' on role/realizer distinctions. §5.5, 'Functionalism and the Problem of Qualia,' and §5.5.1, 'Inverted and Absent Qualia,' on the objection that causal descriptions may not capture phenomenal character and responses to absent-qualia cases. §6, 'The Future of Functionalism,' on arguments that type-identity theory may be more inclusive and qualifications to functionalism's comparative universality.",
+      "limitations": "Secondary synthesis of a broad debate. The entry supports the conceptual context, not Lewis's specific population-relative solution or the truth of either thought case. It treats hypothetical Martian realizers and Block's separate absent-qualia/Chinese-nation objection; those are not the same as Lewis's mad-pain and Martian-pain scenarios."
+    },
+    {
+      "title": "Mad, Martian, but not Mad Martian Pain",
+      "author": "Peter Alward",
+      "publication": "SORITES, issue 15 (December 2004), pp. 73–75.",
+      "stable_url": "http://lorenzopena.es/Sorites/Issue_15/alward.htm",
+      "source_type": "Scholarly secondary analysis / published criticism",
+      "access_level": "Full article and its footnotes and references were read.",
+      "exact_locations_read": "The opening discussion summarizes Lewis's hybrid view and cites Lewis 1980, pp. 113–114 in the Problems in Mind reprint pagination. The discussion of Lewis's four population criteria and the mad-Martian case (pp. 74–75) argues that the criteria do not clearly distinguish the human, Martian, and mad-Martian populations; the conclusion raises further difficulties for revisions of the weighting scheme.",
+      "limitations": "A specific published objection, not a consensus finding or final refutation. Its argument is conditional on Alward's interpretation of Lewis's population-selection criteria."
+    },
+    {
+      "title": "Matching Mad Pain and Martian Pain data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id mad-pain-martian-pain; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching data object was inspected before and reconciled after the article revision.",
+      "exact_locations_read": "The id/title, original_publication, date_verified, summary, and the sole reference URL were compared with the revised article's Further Reading entries. The user-directed data patch records the revised date and the three Further Reading references; the data file itself was not modified.",
+      "limitations": "Metadata alignment only; it does not establish philosophical or historical claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The madman and hydraulic Martian are scenarios in David Lewis's essay; Block is the anthology editor, and Lewis dates the paper's presentation to 1978.",
+      "source_title": "Mad Pain and Martian Pain; Mad, Martian, but not Mad Martian Pain",
+      "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "exact_location": "Lewis, pp. 216–217 and opening conference note; Alward, pp. 73–75, bibliographic reference to Lewis's 1980 anthology printing, pp. 216–222.",
+      "relationship": "supports_with_qualification",
+      "finding": "Lewis's essay itself names him as author, sets out both scenarios, and says the paper was presented at Rice in April 1978. Alward identifies the 1980 Block-edited anthology printing. The article now explicitly distinguishes Lewis's authorship from Block's editorial role.",
+      "limitation": "The reproduction is not the publisher's volume; publication details were cross-checked against Alward's published citation."
+    },
+    {
+      "material_claim": "A simple human type-identity account handles mad pain but excludes the physically different Martian; a simple role-only functionalism handles Martian pain but excludes the madman.",
+      "source_title": "Mad Pain and Martian Pain",
+      "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "exact_location": "Lewis, pp. 217–218, section II: 'A simple identity theory' and 'A simple behaviorism or functionalism' fail opposite sides of the twofold test.",
+      "relationship": "supports_with_qualification",
+      "finding": "Lewis expressly contrasts the simple theories and immediately says they are too simple; the revised article limits the contrast to simple type-identity and role-only versions rather than generalizing it to all identity theories or functionalisms.",
+      "limitation": "Lewis's two cases challenge these simple formulations; they do not establish that all versions of either family fail."
+    },
+    {
+      "material_claim": "Lewis's account makes pain-for-a-population depend on a causal role while allowing exceptional members and different physical realizers across populations.",
+      "source_title": "Mad Pain and Martian Pain",
+      "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "exact_location": "Lewis, pp. 218–220, sections III–VI: state occupying a role for a population; Martian realization; madman as an exception; and the appropriate-population criteria.",
+      "relationship": "supports",
+      "finding": "The primary text supports the account stated in the revised article: human neural states and Martian hydraulic states can occupy the pain role for their respective populations, while the madman can be an exception within humanity.",
+      "limitation": "This reconstructs Lewis's proposal, not an endorsement of its success. Lewis acknowledges that some population choices remain ambiguous."
+    },
+    {
+      "material_claim": "The Martian case is relevant to multiple realization, but does not demonstrate actual Martians, actual nonhuman realizers, or the possibility of the stipulated cases.",
+      "source_title": "Mad Pain and Martian Pain; Functionalism",
+      "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "exact_location": "Lewis, pp. 216–217 on the stipulated Martian and the inability to prove possibility; SEP §1 on hypothetical Martian realizers and multiple realization.",
+      "relationship": "supports_with_qualification",
+      "finding": "The texts support presenting the Martian scenario as illustrating how different physical states might realize a pain role across populations. Lewis also allows that different population choices may yield different senses of 'pain'; he explicitly says he does not know how to prove the cases possible. The article treats this as a qualified conceptual connection, not empirical evidence or proof.",
+      "limitation": "The SEP's generic hypothetical-Mars example is conceptual context, not independent evidence for Lewis's specific hydraulic case; Lewis's population-relative ambiguity complicates any simple claim of one univocal multiply realized pain kind."
+    },
+    {
+      "material_claim": "The cases do not settle whether causal-role and physical-realizer accounts capture pain's phenomenal character; Lewis argues that his account does address how pain feels, while functionalist qualia objections remain in the literature.",
+      "source_title": "Mad Pain and Martian Pain; Functionalism",
+      "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "exact_location": "Lewis, pp. 221–222, final section on pain as a feeling and phenomenal character; SEP §§5.5 and 5.5.1 on the qualitative-character objection and responses.",
+      "relationship": "supports_with_qualification",
+      "finding": "Lewis explicitly rejects the charge that he ignored phenomenal character and argues that a theory of pain must address how it feels. Levin records the broader objection that causal-role accounts may not capture qualitative character and notes responses and continuing debate. The article now attributes Lewis's position and marks the broader issue as disputed.",
+      "limitation": "The sources do not settle the philosophical dispute; the thought cases themselves do not provide independent evidence that the stipulated states have the asserted feel."
+    },
+    {
+      "material_claim": "Lewis allows the mad-Martian case under his account, while Alward argues that Lewis's criteria do not clearly select the appropriate population in that case.",
+      "source_title": "Mad Pain and Martian Pain; Mad, Martian, but not Mad Martian Pain",
+      "source_url": "http://lorenzopena.es/Sorites/Issue_15/alward.htm",
+      "exact_location": "Lewis, pp. 220–221 on mad Martian pain and appropriate-population criteria; Alward, pp. 74–75 on competing populations and his critique.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary essay says Lewis is inclined to count a mad Martian as in pain under his criteria. Alward's full article argues that the criteria do not yield that result unambiguously. The revised entry names this as Alward's objection, not a settled conclusion.",
+      "limitation": "One published critique was consulted; this audit does not survey all subsequent responses or decide whether Alward's objection succeeds."
+    },
+    {
+      "material_claim": "Robot applications and comparisons with China Brain or fading qualia are teaching extensions, not scenarios or historical claims attributed to Lewis.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§6–7; Sources and Attribution.",
+      "relationship": "context_only",
+      "finding": "The revised article explicitly labels these as editorial teaching prompts and says they are not additional Lewis cases or conclusions of his argument.",
+      "limitation": "Editorial framing rather than a historical or philosophical claim established by the sources."
+    },
+    {
+      "material_claim": "The revised article's title and Further Reading references correspond to the matching project record; the data patch specifies the revised verification date and ordered references without changing data/experiments.json.",
+      "source_title": "Matching Mad Pain and Martian Pain data record",
+      "source_url": null,
+      "exact_location": "Local matching object in data/experiments.json and revised article §9; user-directed patch at research/source-review-batch17-item-mad-pain-martian-pain-data-patch.json.",
+      "relationship": "supports",
+      "finding": "The existing data record's id/title match. The patch references match all three revised Further Reading URLs and titles in order, and the dataset file was left unchanged.",
+      "limitation": "Project metadata reconciliation only; it is not independent philosophical evidence."
+    }
+  ],
+  "unresolved_limits": [
+    "The thought experiments are stipulated possibilities, not empirically established cases; Lewis explicitly says he cannot prove their possibility.",
+    "Lewis's criteria for the appropriate population can conflict. Alward's mad-Martian objection is recorded, but the audit does not resolve it or survey every later response.",
+    "The broader debate about whether causal-role theories capture phenomenal character remains open; the sources establish Lewis's position and the existence of objections, not a final answer.",
+    "The SEP entry supplies conceptual background and separate discussion of Block's Chinese-nation/qualia arguments; it is not evidence for Lewis's specific cases.",
+    "A text reproduction of the primary essay and one published secondary critique were consulted; no exhaustive literature review, publisher's physical edition, or human subject-matter expert review was undertaken."
+  ]
+}

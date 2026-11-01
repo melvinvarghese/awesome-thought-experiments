@@ -1,0 +1,203 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "norman-the-clairvoyant",
+  "title": "Norman the Clairvoyant",
+  "article_path": "experiments/epistemology/norman-the-clairvoyant.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked BonJour attribution and publication metadata; the Norman Case IV setup; BonJour's argument and its framing as an objection to simple process reliabilism and broader externalist accounts; the distinction between simple process reliabilism and several later responses; qualifications about internalism, externalism, knowledge and justification; the Gettier comparison; the Mr. Truetemp relationship; explicitly editorial teaching framing; and article/dataset metadata reconciliation. This status records traceability of the revised article, not the truth or success of BonJour's argument, a consensus view, an exhaustive survey of reliabilist theories, or expert review.",
+  "summary": "The revised article preserves BonJour's stipulated Norman scenario and his perspective-based objection, but no longer presents the case as automatically decisive against every reliabilist or externalist theory. It distinguishes the challenge to the sufficiency of simple process reliability from different published replies, qualifies the internalism/externalism framing, and identifies Mr. Truetemp and the thermometer comparison as related-but-distinct case and editorial analogy. Relevant passages in BonJour's primary text, two SEP entries, the IEP reliabilism entry, and the SEP knowledge-analysis entry were read. The publisher's record verifies the article's publication details. The proposed data patch's five reference URLs and their order match the revised Further Reading section exactly; the dataset date is updated to 2026-11-01.",
+  "sources": [
+    {
+      "title": "Externalist Theories of Empirical Knowledge",
+      "author": "Laurence BonJour",
+      "publication": "Midwest Studies in Philosophy 5 (1980), 53–74; university-hosted PDF reproduction of the article.",
+      "stable_url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+      "source_type": "Primary philosophical article",
+      "access_level": "Selected passages in a university-hosted PDF text extraction; relevant passages on pp. 53–56 and 62–67 were read, not the full article.",
+      "exact_locations_read": "Opening framing and account of externalism, printed pp. 53–57; Case IV, printed p. 62; Norman's further specification and BonJour's argument from Norman's perspective, printed pp. 62–64; broader response and possible narrowing of externalist theories, printed pp. 65–67.",
+      "limitations": "The PDF is a hosted reproduction accessed through text extraction, which contains OCR artifacts; relevant argument passages were readable and bibliographic details were cross-checked against Wiley. The entire paper was not read. This primary text establishes BonJour's argument and attribution, not that his argument succeeds."
+    },
+    {
+      "title": "Externalist Theories of Empirical Knowledge (publisher record)",
+      "author": "Laurence BonJour",
+      "publication": "Wiley Online Library, Midwest Studies in Philosophy 5, issue 1, pp. 53–74; first published September 1980; DOI 10.1111/j.1475-4975.1980.tb00396.x.",
+      "stable_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1475-4975.1980.tb00396.x",
+      "source_type": "Publisher bibliographic record",
+      "access_level": "URL/metadata only; publisher full text was not accessed.",
+      "exact_locations_read": "Publisher page header, volume/issue and pages, first-publication date, DOI, and citation block.",
+      "limitations": "Metadata only; not used to establish the article's argument."
+    },
+    {
+      "title": "Reliabilist Epistemology",
+      "author": "Alvin Goldman and Bob Beddor",
+      "publication": "The Stanford Encyclopedia of Philosophy; entry first published 2008, substantive revision 2021; §§1.2, 2.1 and 4.2.",
+      "stable_url": "https://plato.stanford.edu/entries/reliabilism/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full online entry were read; the entire entry was not read.",
+      "exact_locations_read": "§1.2 on process reliabilism and intuitive justification; §2.1, “The Clairvoyance Problem,” on Norman and replies including approved-list reliabilism and primal systems; §4.2 on evidentialist–reliabilist hybrid approaches.",
+      "limitations": "Secondary synthesis. It surveys selected replies and does not establish that every reliabilist theory gives the same verdict or that there is a consensus."
+    },
+    {
+      "title": "Internalist vs. Externalist Conceptions of Epistemic Justification",
+      "author": "Clayton Littlejohn",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published December 4, 2025; §§1 and 2.1.",
+      "stable_url": "https://plato.stanford.edu/entries/justep-intext/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full online entry were read; the entire entry was not read.",
+      "exact_locations_read": "§1 on the distinct debates about knowledge and justification and characterizations of internal/external; §2.1, “Clairvoyance and Unusual Faculties,” on BonJour's Norman argument, externalist responses, mixed conditions, and the qualification that the intuition challenges pure externalism rather than a wide range of possible externalist views.",
+      "limitations": "Secondary synthesis; its discussion reports arguments and disagreement rather than adjudicating the Norman case."
+    },
+    {
+      "title": "Reliabilism",
+      "author": "Kelly Becker",
+      "publication": "Internet Encyclopedia of Philosophy; current online entry, consulted 2026-11-01; §3(a), “Reliably Formed True Belief Is Insufficient for Justification,” and relevant references.",
+      "stable_url": "https://iep.utm.edu/reliabilism/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full online entry were read; the entire entry was not read.",
+      "exact_locations_read": "§3(a) on the clairvoyance objection, Goldman's response and other reliabilist approaches, and Mr. Truetemp as a similar but separate example; §7 reference entry for BonJour (1980).",
+      "limitations": "Secondary overview; its summaries do not substitute for the primary works or establish that all reliabilists accept the same account."
+    },
+    {
+      "title": "The Analysis of Knowledge",
+      "author": "The Stanford Encyclopedia of Philosophy entry authors; the relevant source passage was consulted without relying on author-name metadata.",
+      "publication": "The Stanford Encyclopedia of Philosophy; §3, “Counterexamples to the Tripartite Analysis.”",
+      "stable_url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passage in the full online entry was read; the entire entry was not read.",
+      "exact_locations_read": "§3 on Gettier cases as justified true belief cases that appear not to constitute knowledge, the role of epistemic luck, and the insufficiency of the tripartite analysis.",
+      "limitations": "Used only to contextualize the article's brief teaching contrast; does not establish that Norman's case is a Gettier case."
+    },
+    {
+      "title": "Matching Norman the Clairvoyant data record",
+      "author": "Project data record; no external author.",
+      "publication": "Local read-only data/experiments.json object, id norman-the-clairvoyant; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was inspected directly after the article revision.",
+      "exact_locations_read": "Object fields id, title, associated_thinkers, original_publication, references, date_verified, related_experiments, file_path and summary were compared with the revised article and proposed data patch. The existing date_verified was 2026-10-31; the patch sets it to 2026-11-01. All five article Further Reading URLs and their order match the proposed references array.",
+      "limitations": "Metadata reconciliation only; it does not establish historical or philosophical claims. The source dataset was not edited."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Norman has, under normally obtaining conditions, a completely reliable clairvoyant faculty for certain subject matters; he has no reasons or evidence for or against the power or his possession of it; he forms a true belief that the President is in New York City through that faculty.",
+      "source_title": "Externalist Theories of Empirical Knowledge",
+      "source_url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+      "exact_location": "Case IV, printed p. 62; corroborated by Stanford Encyclopedia of Philosophy, “Reliabilist Epistemology,” §2.1.",
+      "relationship": "supports",
+      "finding": "The revised scenario closely tracks BonJour's stipulated Case IV and does not treat clairvoyance as an actual-world claim.",
+      "limitation": "This is a hypothetical stipulation in a philosophical argument, not testimony that clairvoyance exists.",
+      "required_edit": "Made: retained the case's key assumptions, and clarified that the scenario is stipulated rather than asserted as fact."
+    },
+    {
+      "material_claim": "BonJour argues that Norman's belief is epistemically irrational or unjustified from Norman's own perspective, despite the stipulated truth and reliability.",
+      "source_title": "Externalist Theories of Empirical Knowledge",
+      "source_url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+      "exact_location": "Printed pp. 62–64, especially BonJour's argument that Norman lacks a reason to treat the belief as having a reliable source and is epistemically irresponsible; see also pp. 65–67 for the broader argumentative framing and possible replies.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text supports the attribution to BonJour. The revised article marks this as BonJour's argument and uses perspective-based framing, rather than reporting it as a settled verdict.",
+      "limitation": "A primary philosophical argument establishes what BonJour argues, not that his conclusion is correct. The scanned PDF text has OCR artifacts.",
+      "required_edit": "Made: attributed the irrationality/irresponsibility judgment to BonJour and identified the conclusion as his argument."
+    },
+    {
+      "material_claim": "Norman is used to challenge the sufficiency of simple process reliability for justification, but the case does not automatically refute every theory that gives reliability a role.",
+      "source_title": "Reliabilist Epistemology; Internalist vs. Externalist Conceptions of Epistemic Justification",
+      "source_url": "https://plato.stanford.edu/entries/reliabilism/",
+      "exact_location": "Reliabilist Epistemology §2.1 frames Norman as the clairvoyance problem for process reliabilism and presents different responses; Internalist vs. Externalist Conceptions §§1 and 2.1 distinguishes justification and knowledge debates and states that BonJour's intuitions challenge pure externalism, not a wide range of possible externalist views.",
+      "relationship": "supports_with_qualification",
+      "finding": "The two reference works support distinguishing the standard process-reliabilist challenge from a blanket conclusion about all reliabilist or externalist theories. BonJour's own paper frames his conclusion more broadly as a challenge to externalist justification; the revised article notes this broader original framing separately.",
+      "limitation": "These are secondary syntheses and do not resolve whether a particular reliabilist variant succeeds.",
+      "required_edit": "Made: narrowed the article's claim about the case's reach and retained a sentence describing BonJour's broader original challenge."
+    },
+    {
+      "material_claim": "The article defines the simple process-reliabilist target as the claim that a belief is justified when produced by a sufficiently reliable process.",
+      "source_title": "Reliabilist Epistemology",
+      "source_url": "https://plato.stanford.edu/entries/reliabilism/",
+      "exact_location": "§1.2 on process reliability and justification, and §2.1 on the clairvoyance problem.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP discussion supports the simplified characterization as pedagogical shorthand for the simple process-reliabilist claim at issue.",
+      "limitation": "The article presents a concise teaching formulation, not a complete formal definition of every process-reliabilist theory.",
+      "required_edit": "Made: expressly labels the account 'simple process reliabilism' and avoids generalizing it to every reliabilist view."
+    },
+    {
+      "material_claim": "Published responses to Norman differ: some defend an externalist verdict, some deny that their theory entails justification in the case, and some introduce additional conditions; examples include approved-list, primal-system, and evidentialist–reliabilist approaches.",
+      "source_title": "Reliabilist Epistemology; Internalist vs. Externalist Conceptions of Epistemic Justification; Reliabilism",
+      "source_url": "https://plato.stanford.edu/entries/reliabilism/",
+      "exact_location": "Reliabilist Epistemology §2.1 (approved-list reliabilism and primal systems), §4.2 (evidentialist–reliabilist hybrids); Internalist vs. Externalist Conceptions §2.1 (defend Norman's justification, deny entailment, or combine internal/external conditions); IEP Reliabilism §3(a) (Goldman's and other approaches).",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support presenting the replies as distinct strategies rather than as a single reliabilist answer. The revised article uses illustrative categories and does not claim the list is exhaustive.",
+      "limitation": "The SEP and IEP sections survey selected responses; no exhaustive review of the literature or adjudication of each proposal was undertaken.",
+      "required_edit": "Made: replaced the compressed 'reliabilists reply' account with a non-exhaustive, differentiated summary."
+    },
+    {
+      "material_claim": "Internalism/externalism is a broad framing, with differing conceptions of accessibility and external dependence; some views combine internal and external conditions, and philosophers disagree about whether justification/rationality is required for knowledge.",
+      "source_title": "Internalist vs. Externalist Conceptions of Epistemic Justification",
+      "source_url": "https://plato.stanford.edu/entries/justep-intext/",
+      "exact_location": "§1 on internal/external and justification/knowledge distinctions; §2.1 on mixed internal and external conditions and lack of consensus about knowledge requiring rational belief or justification.",
+      "relationship": "supports",
+      "finding": "The SEP passage directly supports the qualifications added to the article's binary framing.",
+      "limitation": "The entry is a scholarly overview; the article's one-paragraph summary cannot represent the full range of positions.",
+      "required_edit": "Made: identified accessibilism specifically, acknowledged mixed theories, and stated that the justification/knowledge relationship is disputed."
+    },
+    {
+      "material_claim": "The Norman case differs from standard Gettier cases: Gettier cases are commonly presented as justified true beliefs that still appear not to be knowledge due to epistemic luck, whereas Norman challenges whether his belief is justified given lack of reason to trust its source.",
+      "source_title": "The Analysis of Knowledge; Externalist Theories of Empirical Knowledge",
+      "source_url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+      "exact_location": "SEP The Analysis of Knowledge §3 on Gettier cases, justified true belief and epistemic luck; BonJour, Case IV, pp. 62–64, on the Norman justification objection.",
+      "relationship": "supports_with_qualification",
+      "finding": "The comparison is supported as a contrast between the standard focus of Gettier cases and BonJour's stated Norman objection. The revised article expressly presents it as a teaching contrast and allows that related questions about knowledge may arise.",
+      "limitation": "The contrast is a simplification for readers; the article does not claim that all Gettier cases share one precise diagnosis or that the problems are unrelated.",
+      "required_edit": "Made: qualified the contrast and labeled it as teaching framing."
+    },
+    {
+      "material_claim": "Lehrer's Mr. Truetemp is a related but distinct example in which reliable temperature beliefs arise from an implanted thermometer-like device without the subject's knowledge of that source.",
+      "source_title": "Reliabilism",
+      "source_url": "https://iep.utm.edu/reliabilism/",
+      "exact_location": "IEP §3(a), account of Mr. Truetemp and the tempucomp, alongside the Norman discussion; the entry attributes the example to Keith Lehrer (1990).",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry describes the distinct device-and-temperature setup and explicitly calls it a similar case. The article now preserves that relationship without equating the cases.",
+      "limitation": "Lehrer's original book was not accessed; the attribution and scenario detail are supported here by a scholarly reference-work account.",
+      "required_edit": "Made: described Truetemp as related but distinct and noted that the original case differs in its details."
+    },
+    {
+      "material_claim": "BonJour's article was published in 1980 in Midwest Studies in Philosophy, volume 5, pages 53–74; the primary text is his original contribution rather than a later paraphrase.",
+      "source_title": "Externalist Theories of Empirical Knowledge (publisher record)",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1475-4975.1980.tb00396.x",
+      "exact_location": "Wiley volume/issue/page metadata, first-published date and DOI citation; compare the primary PDF title page and printed pagination.",
+      "relationship": "supports",
+      "finding": "The publisher record verifies author, title, journal, year, volume and page span. The article's bibliographic metadata is now explicit and consistent with the publisher record.",
+      "limitation": "The publisher record was used for metadata only; its full text was not accessed. The university-hosted PDF reproduction was used to read the primary passages.",
+      "required_edit": "Made: standardized the title, journal, volume, year and page range in the article."
+    },
+    {
+      "material_claim": "The thermometer question is an editorial teaching analogy, not a historical example attributed to BonJour; later reference treatments discuss the actual Mr. Truetemp case separately.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §6, question 3, explicitly introduced as a teaching comparison; §7 distinguishes Truetemp from Norman.",
+      "relationship": "context_only",
+      "finding": "The revised article labels the thermometer prompt as a teaching comparison and separates it from the sourced Truetemp scenario.",
+      "limitation": "Editorial framing, not a historical or philosophical claim attributed to a source.",
+      "required_edit": "Made: explicitly labeled the thermometer prompt as a teaching comparison and Truetemp as distinct."
+    },
+    {
+      "material_claim": "The article title and stable ID match the dataset record, associated thinker and related experiments are preserved, the review date is advanced, and the proposed reference metadata exactly follows the revised Further Reading links in order.",
+      "source_title": "Matching Norman the Clairvoyant data record",
+      "source_url": null,
+      "exact_location": "Read-only data/experiments.json object id norman-the-clairvoyant and revised article §9; proposed data patch references array.",
+      "relationship": "supports",
+      "finding": "The id and title match; the associated thinker is Laurence BonJour; the same three related experiments remain; date_verified is proposed as 2026-11-01. The five Further Reading URLs and order match the proposed references array exactly. Reference types are primary for BonJour's article and academic for scholarly reference works.",
+      "limitation": "Metadata reconciliation only. data/experiments.json remains unchanged; the patch is a separate local proposal.",
+      "required_edit": "Made: created a local data patch with the revised article's five reference links in identical order; did not modify the dataset."
+    }
+  ],
+  "unresolved_limits": [
+    "The audit checks attribution and traceability; it does not decide whether BonJour's argument succeeds or which theory gives the correct verdict on Norman.",
+    "Relevant passages were read, not every cited work in full; in particular, the entire BonJour paper, SEP entries and IEP entry were not read.",
+    "The university-hosted primary PDF was consulted through text extraction that contains OCR artifacts; no publisher full text or physical edition was accessed, though the bibliographic details were checked against Wiley.",
+    "The reply categories are representative, not exhaustive, and no comprehensive literature review was undertaken.",
+    "Lehrer's original Theory of Knowledge was not consulted; Mr. Truetemp details rely on the IEP secondary account.",
+    "No human subject-matter expert reviewed the article; no expert-review claim is made."
+  ]
+}

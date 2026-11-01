@@ -1,0 +1,18 @@
+{
+  "id": "problem-of-the-many",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Brian Weatherson, “The Problem of the Many,” Stanford Encyclopedia of Philosophy (Winter 2023 archive)",
+      "url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "kind": "academic",
+      "support": "Secondary philosophical reference: §§1–7 and 9 explain the cloud setup, Geach’s Tibbles reasoning, composition and identity alternatives, semantic vagueness, and the distinct tail/parthood case. It surveys contested responses rather than establishing consensus or replacing primary texts."
+    },
+    {
+      "title": "Andre Gallois and Irem Kurtsal, “Identity Over Time,” Stanford Encyclopedia of Philosophy (Spring 2026 archive)",
+      "url": "https://plato.stanford.edu/archives/spr2026/entries/identity-time/",
+      "kind": "academic",
+      "support": "Secondary reference: §§1 and 4 provide broad context for persistence, diachronic identity, and part-change puzzles. Consulted as context only; it is not the source for Geach’s Tibbles many-candidates argument or Weatherson’s separate Tibbles-and-tail story."
+    }
+  ]
+}

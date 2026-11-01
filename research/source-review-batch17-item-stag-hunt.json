@@ -1,0 +1,182 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "stag-hunt",
+  "title": "The Stag Hunt",
+  "article_path": "experiments/economics/stag-hunt.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the Rousseau attribution, 1755 publication date and deer/hare passage; the distinction between that verbal narrative and the later formal two-player game; the illustrative payoff table and assumptions; best responses, pure Nash equilibria, payoff-dominance and the risk-dominance condition; the contrast with the Prisoner's Dilemma; evolutionary and many-player extensions; and whether present-day applications and social-contract readings are identified as interpretive framing. The status records source traceability, not a judgment that a specific application is apt, a general prediction about institutions, an exhaustive literature review, or expert review.",
+  "summary": "The revised article distinguishes Rousseau's qualitative hunting narrative from the later formal game and explicitly identifies the payoff table as illustrative. It explains the two equilibria and why the stag outcome is payoff-dominant while the hare outcome is risk-dominant for these particular payoffs under the equal-likelihood criterion. It clarifies the strategic difference from the Prisoner's Dilemma, qualifies evolutionary and many-player extensions, and labels modern applications and social-contract readings as interpretations rather than implications of the matrix. The primary translated passage, relevant sections of the SEP entry, and relevant passages of Skyrms were read; a Britannica work entry was consulted for the publication date. Dataset metadata and the three revised Further Reading references were reconciled; the dataset itself was not edited.",
+  "sources": [
+    {
+      "title": "Discourse on the Origin and the Foundations of Inequality Among Men (Second Discourse)",
+      "author": "Jean-Jacques Rousseau; translated by Ian Johnston",
+      "publication": "Part II; Ian Johnston, Vancouver Island University online translation, revised and corrected 2013 version.",
+      "stable_url": "https://web.viu.ca/johnstoi/rousseau/seconddiscourse.htm",
+      "source_type": "Primary philosophical work in translation",
+      "access_level": "Selected passage in the translated primary text was read directly; the entire work was not read.",
+      "exact_locations_read": "Part II, passage beginning ‘If it was a matter of catching a deer’: the hunters understand that they must keep their positions to catch the deer, but one may pursue a passing hare and thereby frustrate the companions' hunt. Translator's note identifies Johnston as translator and the version as revised/corrected in 2013; it says Rousseau prepared the work for the Dijon competition in 1754.",
+      "limitations": "A modern English translation, not Rousseau's original-language text. The cited passage gives a qualitative example, not cardinal payoffs, an explicit strategic-form matrix, or Nash-equilibrium analysis. The translation note describes the competition year, not the publication year; the 1755 publication date was checked separately against Britannica."
+    },
+    {
+      "title": "Prisoner's Dilemma",
+      "author": "Steven Kuhn",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published September 4, 1997; substantive revision October 24, 2025; §§1 and 8.",
+      "stable_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections of the current entry were read; the entire entry was not read.",
+      "exact_locations_read": "§1, ‘Symmetric 2×2 PD With Ordinal Payoffs,’ including the PD payoff matrix and T>R>P>S condition; §8, ‘The Stag Hunt and the PD,’ including the stag-hunt condition R>{T,P}>S, the typical matrix (4,4)/(0,3)/(3,0)/(3,3), the two equilibria and their ranking, the risk-dominance condition T+P>R+S and its equal-likelihood interpretation, the assurance/trust characterization, and the contrast with the PD; the concluding §8 discussion of many-player generalization and full-cooperation examples. Entry author and revision metadata were consulted.",
+      "limitations": "Secondary synthesis. The payoff matrix is explicitly presented in the entry as typical, not as a unique canonical numerical representation. The risk-dominance discussion is tied to a specified model and belief/selection criterion; it does not make every stag-hunt payoff table risk-dominant for hare. It does not establish that a particular real-world application fits the model."
+    },
+    {
+      "title": "The Stag Hunt",
+      "author": "Brian Skyrms",
+      "publication": "Presidential Address, Pacific Division of the American Philosophical Association, March 2001; author-hosted full-text PDF.",
+      "stable_url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+      "source_type": "Scholarly philosophical analysis",
+      "access_level": "Relevant passages of the full paper were read in PDF text extraction; the entire paper was not read.",
+      "exact_locations_read": "Printed pp. 1–4: Rousseau's brief story, questions left open by it, the abstract two-person game, payoff-independent hare success assumption in Skyrms's model, both equilibria, the risk/mutual-benefit tension, and trust; printed pp. 10–15: population dynamics, local interaction, strategy revision and interaction-structure examples showing that evolutionary outcomes depend on model dynamics and interaction structure; printed p. 19, notes 2–3 and 7: risk-dominance label, Assurance Game nomenclature, and a repeated-game qualification.",
+      "limitations": "A scholarly analysis, not a neutral universal definition of all stag-hunt variants. Its evolutionary conclusions are conditional on the population and update dynamics it specifies. Rousseau's original French text is not reproduced in full; only the relevant translated passage was independently checked here."
+    },
+    {
+      "title": "A Discourse Upon the Origin and Foundation of the Inequality Among Mankind",
+      "author": "Encyclopaedia Britannica editorial reference entry",
+      "publication": "Encyclopaedia Britannica, work entry; updated June 25, 2026.",
+      "stable_url": "https://www.britannica.com/topic/A-Discourse-Upon-the-Origin-and-Foundation-of-the-Inequality-Among-Mankind",
+      "source_type": "Reference work / bibliographic context",
+      "access_level": "Relevant work-entry summary and curated source item were read; no primary edition record was inspected there.",
+      "exact_locations_read": "Quick Summary identifies Rousseau's work as (1755); curated source item 1, ‘Jean-Jacques Rousseau - Major works of political philosophy of Jean-Jacques Rousseau,’ identifies the original title and the 1755 publication year.",
+      "limitations": "The entry includes an AI-generated summary and a curated excerpt; used only to check the publication date, not to establish the stag-hunt passage or interpret Rousseau's argument. The primary translated text consulted here reports the 1754 competition but does not itself give the 1755 publication date."
+    },
+    {
+      "title": "Matching The Stag Hunt data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id stag-hunt; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was inspected read-only after the article revision.",
+      "exact_locations_read": "The record's id, title, existing date_verified value, file_path, and references were inspected. The revised article's three Further Reading URLs and order were reconciled against the proposed patch; the patch sets date_verified to 2026-11-01. The data file was not changed.",
+      "limitations": "Metadata reconciliation only; it does not establish philosophical or game-theoretic claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The deer-and-hare hunting story is in Rousseau's Discourse on Inequality, and the relevant passage describes hunters abandoning the collective deer hunt to pursue a passing hare.",
+      "source_title": "Discourse on the Origin and the Foundations of Inequality Among Men (Second Discourse)",
+      "source_url": "https://web.viu.ca/johnstoi/rousseau/seconddiscourse.htm",
+      "exact_location": "Part II, passage beginning ‘If it was a matter of catching a deer.’",
+      "relationship": "supports_with_qualification",
+      "finding": "The translated primary passage directly supports the narrative attribution and the contrast between staying at one's post for the deer and pursuing a passing hare. The article describes the familiar stag/hare model without treating Rousseau's wording as a formal game-theory statement.",
+      "limitation": "Modern English translation; this passage does not supply the matrix, cardinal utilities, or equilibrium concepts.",
+      "required_edit": "Made: identified Rousseau's passage as a verbal scenario and distinguished it from the formal model."
+    },
+    {
+      "material_claim": "The work's publication year is 1755.",
+      "source_title": "A Discourse Upon the Origin and Foundation of the Inequality Among Mankind",
+      "source_url": "https://www.britannica.com/topic/A-Discourse-Upon-the-Origin-and-Foundation-of-the-Inequality-Among-Mankind",
+      "exact_location": "Britannica work entry, Quick Summary and curated source item 1 on Rousseau's major works.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry identifies the work as published in 1755. The 1754 date in Johnston's translator's note is the competition/preparation context, not the publication year.",
+      "limitation": "Britannica page includes AI-generated summary and curated source excerpts; used narrowly for the publication date, not for the philosophical account.",
+      "required_edit": "No date correction needed; the revised attribution notes which source was used to check the publication year."
+    },
+    {
+      "material_claim": "The 2×2 payoff table is an illustrative formalization, rather than a payoff table supplied by Rousseau.",
+      "source_title": "Prisoner's Dilemma; The Stag Hunt; Discourse on the Origin and the Foundations of Inequality Among Men",
+      "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "exact_location": "SEP §8, which calls its (4,4)/(0,3)/(3,0)/(3,3) matrix a typical payoff matrix; Skyrms, printed pp. 1–2, says Rousseau's story leaves payoff values and success assumptions open before defining an abstract game; Rousseau, Part II, deer/hare passage.",
+      "relationship": "supports_with_qualification",
+      "finding": "The two game-theory sources treat payoffs and game structure as modeling choices; Rousseau's passage is narrative. The article now makes the illustrative status explicit.",
+      "limitation": "The consulted sources present a common formal version; variants can have different payoffs and assumptions.",
+      "required_edit": "Made: expressly labeled the table illustrative and separated Rousseau's story from the formal matrix."
+    },
+    {
+      "material_claim": "For the stated matrix, stag is a best response to stag, hare is a best response to hare, and both stag/stag and hare/hare are Nash equilibria; stag/stag gives both players a higher payoff.",
+      "source_title": "Prisoner's Dilemma; The Stag Hunt",
+      "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "exact_location": "SEP §8, ‘The Stag Hunt and the PD,’ typical payoff table and passage stating there are two equilibria, one unanimously preferred to the other; Skyrms, printed pp. 3–4, on each action being best when the other player chooses it and the mutual-benefit equilibrium.",
+      "relationship": "supports",
+      "finding": "The payoffs in the article match the typical table printed in SEP §8. Best-response comparison gives both listed pure equilibria, and (4,4) is strictly better for each player than (3,3). The article says there is no dominant strategy because each player's preferred action changes with the other player's choice.",
+      "limitation": "This is the equilibrium analysis for the stated two-player matrix, not a claim about mixed equilibria or every generalized stag-hunt game.",
+      "required_edit": "Made: stated the best-response reasoning and distinguished payoff-dominance from risk-dominance."
+    },
+    {
+      "material_claim": "Hare/hare is risk-dominant for the article's payoff table under the stated equal-likelihood criterion, while risk-dominance is payoff-dependent rather than universal to every stag hunt.",
+      "source_title": "Prisoner's Dilemma; The Stag Hunt",
+      "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "exact_location": "SEP §8, condition SHD, T+P>R+S, and discussion of equal-likelihood/indifference; the canonical table there is (4,4)/(0,3)/(3,0)/(3,3). Skyrms, printed pp. 3–4 and note 2, discusses the risk of stag and labels hare hunting risk-dominant in the example.",
+      "relationship": "supports_with_qualification",
+      "finding": "For the displayed matrix, (T,P,R,S)=(3,3,4,0), so the SEP condition is satisfied (3+3>4+0). With a 50–50 estimate of the other hunter's action, the expected stag payoff is 2 and hare yields 3. The article confines the claim to these payoffs and criterion.",
+      "limitation": "Risk-dominance is an equilibrium-selection concept with model and criterion assumptions; it does not alone predict actual choices or resolve coordination in all settings.",
+      "required_edit": "Made: specified the payoff table and equal-likelihood criterion instead of stating generally that the hare equilibrium is safer under uncertainty."
+    },
+    {
+      "material_claim": "The Stag Hunt differs from the Prisoner's Dilemma because its best response depends on the other player's action and mutual cooperation is an equilibrium; in a PD, defection is dominant and mutual cooperation is not a Nash equilibrium.",
+      "source_title": "Prisoner's Dilemma",
+      "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "exact_location": "SEP §1, PD1 conditions and dominant-strategy/Nash-equilibrium analysis; §8, comparison with the Stag Hunt and change from the PD payoff condition to the stag-hunt condition.",
+      "relationship": "supports",
+      "finding": "The SEP's formal comparison directly supports the distinction. The article frames the stag hunt's challenge as coordination under risk, not the PD's dominant incentive to defect.",
+      "limitation": "This contrast concerns the standard two-player strategic-form games, not every social situation informally labeled a dilemma.",
+      "required_edit": "Made: made the strategic distinction explicit and avoided describing the stag-hunt result as guaranteed cooperation."
+    },
+    {
+      "material_claim": "Evolutionary or population-level outcomes depend on additional assumptions and do not follow from the two-player payoff matrix alone.",
+      "source_title": "The Stag Hunt",
+      "source_url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+      "exact_location": "Skyrms, printed pp. 10–15, on random versus local interaction, chance variation, strategy revision and co-evolution of interaction structure; compare the article's §4.",
+      "relationship": "supports_with_qualification",
+      "finding": "Skyrms analyzes differing population and interaction dynamics and reports different conditional outcomes. The revised article accordingly says these approaches add assumptions and that the base matrix alone does not select an evolutionary outcome.",
+      "limitation": "One paper's models do not establish all evolutionary results or a universal population prediction.",
+      "required_edit": "Made: replaced the generic claim about which equilibrium populations settle into with a conditional statement about added dynamics and structure."
+    },
+    {
+      "material_claim": "Treating the Stag Hunt as a model for social-contract questions is an interpretation associated with Skyrms, not a theorem or implication of the payoff matrix.",
+      "source_title": "The Stag Hunt",
+      "source_url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+      "exact_location": "Skyrms, printed pp. 1 and 4, introduction of the game as a prototype/model of social contract and discussion of trust and mutual benefit; conclusion, printed p. 15, on social contracts and interaction structure.",
+      "relationship": "supports_with_qualification",
+      "finding": "Skyrms explicitly develops the social-contract interpretation. The revised article attributes it to him and marks it as a broader interpretation rather than a consequence of the matrix itself.",
+      "limitation": "This source establishes Skyrms's interpretive project, not that it is the sole or definitive political reading of Rousseau or the game.",
+      "required_edit": "Made: attributed the interpretation and separated it from the standard model result."
+    },
+    {
+      "material_claim": "Modern situations such as protests, standard adoption, and joint investment are teaching analogies, not predictions established by the two-player model; possible institutional or communicative effects are context-dependent.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§3–4 and §6.",
+      "relationship": "context_only",
+      "finding": "The revised prose explicitly identifies the contemporary examples as analogies and states that the matrix does not predict their outcomes or guarantee that institutional measures solve coordination.",
+      "limitation": "These are editorial teaching applications and are not empirically evaluated in this review.",
+      "required_edit": "Made: labeled the examples as teaching analogies and qualified possible real-world mechanisms."
+    },
+    {
+      "material_claim": "Many-player extensions can preserve a coordination problem while requiring full cooperation or a threshold level, and may differ from the two-player model.",
+      "source_title": "Prisoner's Dilemma",
+      "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "exact_location": "SEP §8, paragraph on generalizing the stag hunt to many players and activities requiring full cooperation; SEP §5 discussion of lumpy benefits and threshold cooperation; compare Figure 5c and the many-player stag-hunt description.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP discusses full-cooperation and many-player versions, and distinguishes many-player payoff structures. The revised article treats threshold/full cooperation as extensions, not as properties of the two-person game.",
+      "limitation": "The source's examples do not establish that all threshold public-goods or collective-action problems are Stag Hunts; model classification depends on payoffs and strategic structure.",
+      "required_edit": "Made: narrowed the generalization and clarified that larger-group dynamics can differ."
+    },
+    {
+      "material_claim": "The revised article's Further Reading entries and order align with the matching dataset references; the proposed local patch records the 2026-11-01 verification date without changing the dataset or adding public review status.",
+      "source_title": "Matching The Stag Hunt data record",
+      "source_url": null,
+      "exact_location": "Read-only id stag-hunt object in data/experiments.json; revised article §9; research/source-review-batch17-item-stag-hunt-data-patch.json.",
+      "relationship": "supports",
+      "finding": "The data record was inspected and the patch references array was created in exactly the revised article's Further Reading order. No data file change or public status field was made.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: created a separate patch JSON; data/experiments.json remains unchanged."
+    }
+  ],
+  "unresolved_limits": [
+    "The original-language Rousseau text and a critical scholarly edition were not consulted; the relevant primary passage was read in Ian Johnston's English translation.",
+    "Britannica's entry includes an AI-generated summary and curated excerpt; it was used narrowly for the 1755 publication date, while the primary translated passage and other sources were used for substantive claims.",
+    "Only relevant portions of the SEP entry and Skyrms paper were read; this was not an exhaustive survey of game-theory or Rousseau scholarship.",
+    "The formal payoff table is illustrative. Alternative payoff structures can change risk-dominance and equilibrium selection; the audit does not decide which model best fits any real protest, institution, standard-adoption, investment, or social-contract case.",
+    "No named, qualified human subject-matter expert reviewed this entry."
+  ]
+}

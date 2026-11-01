@@ -3,45 +3,61 @@
 **Category:** society-and-justice  
 **Type:** paradox  
 **Associated thinker(s):** Marquis de Condorcet  
-**Original publication or approximate period:** Condorcet, Essay on the Application of Analysis to the Probability of Majority Decisions (1785)  
+**Original publication or approximate period:** Condorcet, *Essay on the Application of Analysis to the Probability of Majority Decisions* (1785)
 **Difficulty:** Intermediate  
 **Themes:** majority rule, cycles, voting  
 **Related experiments:** [Arrow’s Impossibility Theorem](arrows-impossibility-theorem.md); [Sen’s Paradox of the Paretian Liberal](sens-liberal-paradox.md)
 
 ## 1. The Scenario
 
-Three voters rank three options, A, B and C. The first voter ranks A over B over C. The second ranks B over C over A. The third ranks C over A over B.
+Assume each voter has a strict, transitive ranking of the three options, and compare each pair by simple majority. The profile is:
 
-Take the options two at a time. A beats B by two votes to one. B beats C by two votes to one. C beats A by two votes to one. The majority prefers A to B, B to C, and C to A, which is a cycle.
+| Voter | First | Second | Third |
+| --- | --- | --- | --- |
+| 1 | A | B | C |
+| 2 | B | C | A |
+| 3 | C | A | B |
+
+A beats B by two votes to one; B beats C by two to one; and C beats A by two to one. Thus, the pairwise majority relation is A over B, B over C, and C over A: a cycle. The arithmetic follows directly from the stated profile; this pattern is discussed in modern social-choice reference accounts [2–4].
 
 ## 2. The Central Question
 
-Can majority rule produce a collective preference that is circular, and what should a group do about it?
+Can individually transitive rankings produce an intransitive pairwise-majority relation, and what should a group do when no option defeats every other option in a pairwise vote?
 
 ## 3. Why It Matters
 
-Each individual’s ranking is consistent, but the group’s majority preference is not. This means there may be no option that beats all others, so “the will of the majority” can be undefined. The result shows that the outcome can depend on the order in which pairs are voted on.
+Each voter's ranking is transitive, but the majority relation need not be. In this profile, no option beats every other option, so there is no Condorcet winner. This is a mathematical result about aggregating pairwise comparisons; it does not by itself establish that majority rule is always incoherent or settle what counts as a legitimate collective choice [2, 4].
 
-The paradox motivated the study of voting systems and led to Arrow’s theorem.
+The cycle also does not, by itself, make the pairwise comparisons depend on voting order: each comparison is fixed by the profile. If a group instead uses a sequence of pairwise votes, the agenda—the order in which options are brought forward—can affect the final surviving option when preferences cycle [5].
+
+Condorcet's analysis is an important historical precursor to modern social-choice theory. Arrow later studied a broader class of preference-aggregation rules under explicit conditions; his theorem is related to, but not simply derived from, this three-option example [2, 4].
 
 ## 4. Major Interpretations
 
-**Condorcet methods** choose an option that beats all others if one exists, and use a tie-breaking rule otherwise. **Scoring rules** avoid cycles by using more information from rankings. **Domain restrictions** show that if preferences are sufficiently similar, cycles cannot occur. **Skeptical views** say the cycle shows that majority will can be an artefact of the procedure.
+**Choosing a winner.** A Condorcet-consistent rule elects a Condorcet winner when one exists. In a cycle such as this one there is no such candidate, so the procedure needs an additional rule for resolving or reporting the cycle. Other methods, including scoring rules, can produce an outcome, but that does not make the pairwise-majority relation transitive or guarantee that the selected option would beat each rival head-to-head [3].
+
+**Restricting the preference domain.** Some restrictions on admissible rankings prevent cycles. For example, if preferences are single-peaked along a common ordering of the options, majority preferences are transitive and, with an odd number of voters, the median voter's peak is a Condorcet winner. This is a conditional mathematical result, not a claim that real electorates always satisfy the restriction [2].
+
+**Interpreting the result.** The example establishes that a pairwise-majority ranking can cycle; it does not decide whether that is a defect in majority rule, a reason to adopt another procedure, or a feature that a particular decision process can tolerate. Those are normative questions, and arguments about the implications of social-choice results differ [4].
 
 ## 5. Common Misunderstandings
 
-A cycle does not occur in every election, and the paradox does not show that majority rule is always incoherent. It shows that majority preference need not be transitive. The numbers are the smallest example, and real cases are more complex.
+A cycle is possible, not inevitable: it occurs for some preference profiles and not others. The result concerns the collective pairwise-majority relation even though each individual ranking is transitive [2, 3].
+
+A cycle means no Condorcet winner exists for that profile. It does not mean that a group cannot select an option; a voting rule can specify a tie-break or another way to choose, with its own properties [3].
+
+Agenda effects concern sequential procedures for turning pairwise votes into one final outcome. They should not be confused with the cycle itself, which describes the set of pairwise-majority comparisons [5].
 
 ## 6. Think for Yourself
 
-1. If this were an election, who should win?
-2. How might the order of voting affect the outcome?
-3. Is a cycle a sign of a flawed procedure or of a divided group?
-4. How common do you think such cycles are in practice?
+1. If this were an election, what rule should apply when every option loses a pairwise comparison?
+2. If the group votes on pairs sequentially, how could changing the agenda affect the final option?
+3. Is a cycle a reason to reject a procedure, or does its significance depend on what the procedure is meant to achieve?
+4. What evidence would be needed to estimate how often such cycles occur in actual elections?
 
 ## 7. Variations and Extensions
 
-With more voters and options, cycles can involve many alternatives. Related results show that cycles become more likely as options increase, under certain assumptions.
+With more voters and alternatives, cycles can involve more options. Claims about how often cycles occur require assumptions about how preference profiles are distributed. Under the commonly studied impartial-culture model, all strict rankings are treated as equally likely; other preference distributions can yield different probabilities. Empirical work has disagreed about how much the theoretical risk appears in real elections, in part because data often do not record voters' rankings of every pair of alternatives [2, 3, 6].
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +66,17 @@ With more voters and options, cycles can involve many alternatives. Related resu
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Social Choice Theory](https://plato.stanford.edu/entries/social-choice/) — The Condorcet cycle and its role in social choice theory.
+- [Condorcet, *Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix* (1785), digitized French text](https://archive.org/details/essaisurlapplica00cond) — The original French work; the cited passage discusses an election among three candidates and majority judgments.
+- [Christian List, “Social Choice Theory,” Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/social-choice/) — The historical account, formal framework, majority cycles, and domain restrictions.
+- [Eric Pacuit, “Voting Methods,” Stanford Encyclopedia of Philosophy (Fall 2017 archive)](https://plato.stanford.edu/archives/fall2017/entries/voting-methods/) — Condorcet cycles, Condorcet-consistent methods, and the assumptions behind probability estimates.
+- [Michael Morreau, “Arrow’s Theorem,” Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/arrows-theorem/) — The paradox of voting and its relation to Arrow’s broader theorem and normative debate.
+- [Nicholas R. Miller, “Complexities of Majority Voting” (revised 2018)](https://userpages.umbc.edu/~nmiller/RESEARCH/MAJVOTING.REV2018.NRM.pdf) — Condorcet cycles and sequential pairwise voting under different agendas.
+- [Michel Regenwetter et al., “Behavioural social choice: a status report” (2009)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2689718/) — A scholarly account of assumptions and disagreement about the empirical prevalence of majority cycles.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on social choice theory was consulted. Condorcet’s work was not retrieved, and the year given is that commonly cited for the Essay. The claim about the likelihood of cycles is from general knowledge of the literature and is not detailed here.
+Condorcet's 1785 French essay was consulted at the passage in the *Discours préliminaire* discussing an election among three candidates and the aggregation of majority judgments. The original text considers how judgments about which candidate is preferable combine and notes that some combinations produce contradictory conclusions. The example in §1 is a modern teaching presentation, with its pairwise results calculated directly from the stated rankings; it is not presented as a verbatim translation of Condorcet's exact profile. Modern reference works supply the English-language historical framing and formal context [2, 4].
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+The philosophical questions about fairness and legitimacy are prompts for discussion, not conclusions established by the mathematical result. Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary text or a comprehensive review of the social-choice literature. Sources were checked at the relevant passages listed in the local evidence ledger; the cited sources differ in type and scope.
 
 [Return to collection](../../README.md)

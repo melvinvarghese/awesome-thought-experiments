@@ -2,7 +2,7 @@
 
 **Category:** science-and-biology  
 **Associated thinker(s):** Stephen Jay Gould; Richard C. Lewontin  
-**Original publication or approximate period:** “The spandrels of San Marco and the Panglossian paradigm” (1979); Gould’s clarification (1997)  
+**Original publication or approximate period:** “The spandrels of San Marco and the Panglossian paradigm” (Gould and Lewontin, 1979); Gould’s clarification (1997)
 **Difficulty:** Intermediate  
 **Type:** argument  
 **Themes:** adaptation; byproducts; historical explanation  
@@ -10,7 +10,7 @@
 
 ## 1. The Scenario
 
-Imagine looking at richly decorated spaces created where a dome is supported by arches. Because the spaces accommodate meaningful pictures so well, an observer might explain their shape by saying they were built to hold those pictures. Gould and Lewontin instead use the architectural relationship to illustrate a byproduct: some spaces follow from other structural decisions and can be decorated afterward.
+Gould and Lewontin use the mosaics in San Marco’s dome to illustrate how a present use can follow from a structure’s origin. They argue that mounting a dome on four rounded arches produces four tapering, roughly triangular spaces; the mosaics fit those spaces, but that fit does not show the spaces were created for the mosaics. Gould later clarified that the byproduct claim concerns the spaces’ number and shape, not an absence of structural utility. The use of “spandrel” for these three-dimensional pendentives has been debated.
 
 Their biological analogy asks whether a feature’s present usefulness establishes that selection originally produced it for that use. This is an analogy and methodological argument, not a strict hypothetical experiment or a demonstration about the ancestry of any particular organism.
 
@@ -24,7 +24,7 @@ The example encourages rival historical explanations. A structure may be selecte
 
 ## 4. Major Interpretations
 
-**The critique of adaptationist storytelling** warns against treating every trait as an independent optimum crafted for its current role. **A selection-centered response** can accept byproducts while asking how commonly selection later modifies or preserves them. **Historical testing** compares these proposals using developmental, comparative, and other evidence. The analogy cannot determine the prevalence of byproducts simply by being memorable.
+Gould and Lewontin criticize treating a feature’s present utility as proof that it originated through selection for that use. They do not reject natural selection: the 1979 article describes it as one important process among others and argues for a pluralistic account that also considers developmental constraints and alternative histories. Those alternatives must be assessed with biological evidence; the architectural analogy alone cannot establish how common by-products are.
 
 ## 5. Common Misunderstandings
 
@@ -38,7 +38,7 @@ Gould and Lewontin were not claiming that natural selection never operates. A fe
 
 ## 7. Variations and Extensions
 
-Exaptation is the broader study of features recruited for uses different from the reasons they arose. Darwin’s eye argument addresses possible adaptive sequences, while the aquatic-bear scenario highlights the gap between a possible sequence and an established history.
+Gould and Vrba introduced the term *exaptation* in 1982 for a useful character co-opted for its current role after evolving for another use or for no function. A feature may first arise as a by-product and later acquire a new use; “adaptation” and “exaptation” describe different kinds of evolutionary history. Darwin’s eye argument addresses possible adaptive sequences, while the aquatic-bear scenario highlights the gap between a possible sequence and an established history.
 
 ## 8. Related Thought Experiments
 
@@ -47,11 +47,13 @@ Exaptation is the broader study of features recruited for uses different from th
 
 ## 9. Further Reading
 
-- [Stephen Jay Gould, The exaptive excellence of spandrels as a term and prototype, PNAS 94 (1997)](https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/)
-- [Gould and Lewontin, The spandrels of San Marco and the Panglossian paradigm (1979) — PubMed record](https://pubmed.ncbi.nlm.nih.gov/42062/)
+- [Gould and Lewontin, “The spandrels of San Marco and the Panglossian paradigm” (1979), full text in a public scan](https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf)
+- [Royal Society publication record and DOI for the 1979 paper](https://doi.org/10.1098/rspb.1979.0086)
+- [Stephen Jay Gould, “The exaptive excellence of spandrels as a term and prototype” (1997), full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/)
+- [Stephen Jay Gould and Elisabeth S. Vrba, “Exaptation—a missing term in the science of form” (1982), full text](https://inters.org/files/gouldvrba1982_1.pdf)
 
 ## 10. Sources and Attribution
 
-The 1979 publication record establishes authorship and date; Gould’s retrieved 1997 paper provides the author’s explicit retrospective account. This article labels the entry an analogy/argument to avoid inflating the count with a falsely named strict thought experiment.
+The full 1979 paper was read in a publicly hosted scan; its Royal Society record supplies the publication details and abstract. Gould’s 1997 paper clarifies the intended architectural analogy and responds to terminology and structural-utility objections. Gould and Vrba’s 1982 paper supports the later term “exaptation.” This entry is an analogy and methodological argument, not a strict hypothetical experiment.
 
-Verified on 2026-10-30. Source coverage: [1] Author’s clarification of the 1979 analogy: origin versus current utility. [2] Original authorship and publication date; record, not full-text verification. Reflection questions and illustrative numerical examples are original editorial material.
+Verified on 2026-11-01. Relevant passages in the full 1979 paper, Gould’s 1997 clarification, and Gould and Vrba’s 1982 definition were read. The public 1979 scan is a third-party reproduction; the Royal Society’s full text is paywalled and its online text is OCR-derived. Reflection questions and illustrative examples are original editorial material.

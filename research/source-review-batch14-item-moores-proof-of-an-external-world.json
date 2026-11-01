@@ -1,0 +1,233 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "moores-proof-of-an-external-world",
+  "title": "Moore’s “Here Is One Hand”",
+  "article_path": "experiments/epistemology/moores-proof-of-an-external-world.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the work’s publication metadata; the two-hand demonstration, inference and Moore’s three stated conditions for a rigorous proof; what the argument establishes and what Moore says he did not prove; Baldwin’s interpretation and Raff’s alternative reading of Moore’s announced aim; the question-begging, transmission-failure and dialectical-effectiveness debate; the contextualist description; the later Neo-Moorean/closure comparison; and whether teaching questions are clearly editorial. This status records traceability within that scope, not the soundness of Moore’s argument, whether it answers skepticism, a settled interpretation, exhaustive scholarship, or expert review.",
+  "summary": "The article now presents the demonstrative hand-premises and Moore’s three stated proof conditions, while distinguishing his proof of the existence of external objects from a proof that he knows the skeptic’s denial false. It records Moore’s own admission that he did not prove the hand-premises or provide a proof that he was not dreaming. It attributes Baldwin’s interpretation and Raff’s competing reading rather than treating the lecture’s intended force as settled, and frames transmission failure and contextualism as later debates or distinct approaches. The revised Further Reading list and proposed data patch were checked for matching titles, URLs, and order; the proposed verification date is 2026-11-01.",
+  "sources": [
+    {
+      "title": "Proof of an External World",
+      "author": "G. E. Moore",
+      "publication": "Originally published in Proceedings of the British Academy 25 (1939), pp. 273–300; consulted in the reprint in G. E. Moore: Selected Writings, edited by Thomas Baldwin (1993), pp. 147–170.",
+      "stable_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+      "source_type": "Primary philosophical work (reprint of the 1939 lecture)",
+      "access_level": "Relevant passages read in a text-extracted PDF reprint; the complete reprint and the complete original publication were not read.",
+      "exact_locations_read": "Reprint p. 147 for the lecture’s opening question and bibliographic note; pp. 164–166 for Moore’s account of external objects, the hand demonstration, the conclusion and his three conditions for a rigorous proof; pp. 168–170 for his explanation of dissatisfaction, the unproved premises, the dream objection and his reply to the charge that unproved premises mean he does not know them.",
+      "limitations": "The linked PDF is a third-party-hosted reprint, not the original British Academy issue. The text was accessed through extraction rather than by inspecting the full original print edition. Moore’s testimony establishes what he argued, not that his argument succeeds against a skeptic."
+    },
+    {
+      "title": "George Edward Moore",
+      "author": "Tom Baldwin",
+      "publication": "The Stanford Encyclopedia of Philosophy, Summer 2010 archived edition, §6, “Common Sense and Certainty.”",
+      "stable_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in §6 of the archived entry were read; the entire entry was not read.",
+      "exact_locations_read": "§6 paragraphs beginning with Moore’s common-sense position and his ‘Proof of an External World’; the quotation of the two gestures and the three proof conditions; the quotation from ‘A Reply to my Critics’ distinguishing ‘there are no material things’ from ‘Nobody knows for certain that there are any material things’; and the discussion of what the proof does and does not establish about externality and skepticism.",
+      "limitations": "This is Baldwin’s secondary interpretation. Raff (2019) challenges the standard interpretation of Moore’s announced aim, so Baldwin’s account is reported as an attributed reading rather than consensus."
+    },
+    {
+      "title": "The Point of Moore’s Proof",
+      "author": "Charles Raff",
+      "publication": "International Journal for the Study of Skepticism (2019), pp. 1–27; DOI 10.1163/22105700-20191355.",
+      "stable_url": "https://philarchive.org/archive/RAFTPO-7",
+      "source_type": "Scholarly secondary analysis",
+      "access_level": "Selected relevant passages of the article’s text-extracted full text were read.",
+      "exact_locations_read": "pp. 1–3 on the received interpretations, Moore’s announced aim, and the claim that his performance counterexamples a presupposition of Kant’s problem; pp. 25–26, conclusion, restating Raff’s reading and its implications.",
+      "limitations": "Raff advances a specific, revisionary interpretation and explicitly disputes the standard reading; the audit did not adjudicate this debate or conduct an exhaustive survey of Moore scholarship."
+    },
+    {
+      "title": "Transmission and Transmission Failure in Epistemology",
+      "author": "Chris Tucker",
+      "publication": "Internet Encyclopedia of Philosophy, entry of that title; no publication date was displayed in the consulted page.",
+      "stable_url": "https://iep.utm.edu/transmis/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant Moore-proof and transmission sections were read; the entire entry was not read.",
+      "exact_locations_read": "The section introducing Moore’s Proof; subsection ‘Transmission vs. Resolving Doubt’; the passage on Moore’s proof and dialectical effectiveness for skeptical audiences; and the references discussing James Pryor’s defense against the transmission-failure charge.",
+      "limitations": "This is a secondary overview of a technical and contested literature. It reports multiple positions and does not itself establish which diagnosis is correct; the underlying papers by Wright, Pryor and others were not read for this audit."
+    },
+    {
+      "title": "Epistemic Contextualism",
+      "author": "Patrick Rysiew",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2026 archived edition, especially §§3.1–3.2.",
+      "stable_url": "https://plato.stanford.edu/archives/fall2026/entries/contextualism-epistemology/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in §§3.1–3.2 of the archived entry were read; the entire entry was not read.",
+      "exact_locations_read": "§3.1, ‘A Skeptical Puzzle,’ on a skeptical argument from a skeptical hypothesis and closure; §3.2, ‘The General Form of the Contextualist Solution,’ on context-sensitive standards for knowledge attributions and the contextualist response.",
+      "limitations": "This is a broad account of epistemic contextualism, a contested theory. It supports the article’s separate description of contextualism, not an attribution of contextualism to Moore or a claim that contextualism is a consensus response."
+    },
+    {
+      "title": "Epistemic Closure",
+      "author": "Steven Luper",
+      "publication": "The Stanford Encyclopedia of Philosophy, Summer 2020 archived edition, §5.1, ‘Skepticism and Antiskepticism.’",
+      "stable_url": "https://plato.stanford.edu/archives/sum2020/entries/closure-epistemic/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in §5.1 were read; the entire entry was not read.",
+      "exact_locations_read": "§5.1 presents a closure-based skeptical argument, its reversal using an ordinary-world premise, and the passage identifying Moore-style anti-skeptical reasoning; it notes this treatment is roughly Moore’s later (1959) strategy and distinguishes it from the skeptic’s argument.",
+      "limitations": "This passage concerns a later Moore-style anti-skeptical strategy and is used only to distinguish that development from the exact hand proof in the 1939 lecture. It does not establish every contemporary use of the label ‘Neo-Moorean.’"
+    },
+    {
+      "title": "Proof of an external world",
+      "author": "George Edward Moore",
+      "publication": "PhilPapers bibliographic record for Proceedings of the British Academy 25(5): 273–300 (1939).",
+      "stable_url": "https://philpapers.org/rec/MOOPOA",
+      "source_type": "Bibliographic catalogue record",
+      "access_level": "Bibliographic metadata only; the record was opened and read, not used as evidence for the argument’s contents.",
+      "exact_locations_read": "Record title, author, journal, volume/issue, pages and year.",
+      "limitations": "A catalogue record supports publication metadata only; the primary passage was consulted separately in the reprint."
+    },
+    {
+      "title": "Matching Moore’s ‘Here Is One Hand’ data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id moores-proof-of-an-external-world; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching dataset object was inspected read-only; the article’s Further Reading list and proposed patch were compared after revision.",
+      "exact_locations_read": "Matching id/title and the record’s date_verified and references fields; the proposed patch’s six reference titles and URLs were compared in article order against §9 of the revised article.",
+      "limitations": "This is metadata reconciliation only and does not establish historical or philosophical claims. The patch is proposed evidence for the parent process; data/experiments.json was not edited."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Moore’s ‘Proof of an External World’ was published in 1939 in Proceedings of the British Academy, volume 25, pages 273–300.",
+      "source_title": "Proof of an External World; Proof of an external world",
+      "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+      "exact_location": "The reprint’s bibliographic note on p. 147 states the original publication venue, volume, year and pages; the PhilPapers record gives Proceedings of the British Academy 25(5): 273–300 (1939).",
+      "relationship": "supports",
+      "finding": "The original-publication year and venue are supported by the note in the primary reprint; the bibliographic catalogue supplies the issue detail. The article now records the volume and page range rather than only a year.",
+      "limitation": "PhilPapers is metadata only; the original 1939 issue was not independently retrieved.",
+      "required_edit": "Made: expanded the article’s publication metadata to include volume and page range."
+    },
+    {
+      "material_claim": "Moore’s hand proof uses two gestures and two ‘here is a hand’ claims to conclude that two hands exist at that moment, which Moore treats as establishing external objects.",
+      "source_title": "Proof of an External World",
+      "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+      "exact_location": "Reprint pp. 164–166, especially p. 165 for the two gestures, utterances and conclusion; compare Baldwin, SEP §6, for Moore’s technical account of external objects.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text describes indicating one hand and another with gestures, then concludes that two human hands exist now and that external things exist. The revised article explicitly attributes the inference and the external-object step to Moore.",
+      "limitation": "Moore’s assertion that hands count as external objects is part of his argument; it does not independently settle the metaphysical analysis of externality.",
+      "required_edit": "Made: replaced a compressed summary with the demonstrative premise, temporal conclusion and attributed external-object inference."
+    },
+    {
+      "material_claim": "Moore says a rigorous proof requires a premise different from the conclusion, a premise known by the speaker, and an entailment from premise to conclusion, and he claims the hand proof satisfies these requirements.",
+      "source_title": "Proof of an External World",
+      "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+      "exact_location": "Reprint pp. 165–166; the three conditions and Moore’s application of each are on p. 166.",
+      "relationship": "supports_with_qualification",
+      "finding": "Moore explicitly states the three conditions and claims his demonstration meets each. The revised article attributes both the criteria and their satisfaction to Moore, and distinguishes that claim from the question of whether a skeptic accepts the premises.",
+      "limitation": "The primary passage establishes Moore’s stated criteria and claim, not that they are exhaustive criteria for every proof or that Moore’s knowledge claim is correct.",
+      "required_edit": "Made: stated all three conditions and attributed their satisfaction to Moore rather than presenting his premise as independently verified."
+    },
+    {
+      "material_claim": "Moore’s hand demonstration establishes the existence of external objects but does not by itself establish that he knows them to exist or refute the claim that nobody knows material things exist.",
+      "source_title": "George Edward Moore; Proof of an External World",
+      "source_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+      "exact_location": "Baldwin, SEP §6, passage distinguishing ‘there are no material things’ from ‘Nobody knows for certain that there are any material things,’ including the quotation from Moore’s ‘A Reply to my Critics’; primary lecture reprint pp. 168–170 on objections and the status of the hand premises.",
+      "relationship": "supports_with_qualification",
+      "finding": "Baldwin’s account quotes Moore as distinguishing the existential claim from the knowledge-skeptical claim. The primary lecture itself argues that Moore knows his premises but acknowledges that he has not proved them and cannot supply a proof that he is not dreaming. The article preserves this distinction.",
+      "limitation": "Baldwin’s treatment of the lecture’s overall aim is challenged by Raff; the article limits this claim to the distinction between existence and knowledge and reports interpretations separately.",
+      "required_edit": "Made: removed the unqualified claim that the 1939 hand proof simply turns the skeptical argument upside down and stated what it does not prove."
+    },
+    {
+      "material_claim": "Moore acknowledges that he has not proved the hand premises and says that proving he is not dreaming would be needed for a further proof of those premises, though he says he has conclusive evidence of being awake.",
+      "source_title": "Proof of an External World",
+      "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+      "exact_location": "Reprint pp. 168–170, especially pp. 168–169 on the demand for a proof of the hand propositions and the dreaming objection; p. 170 on Moore’s response to the claim that premises he cannot prove are not known.",
+      "relationship": "supports_with_qualification",
+      "finding": "The lecture explicitly says Moore has not attempted to prove the premise propositions and that he does not believe he can prove he is not dreaming, while distinguishing having evidence from proving it. The article accurately states this limitation and does not infer that Moore concedes ignorance of the hand premises.",
+      "limitation": "This records Moore’s stated position; it does not adjudicate whether his evidence or knowledge claim succeeds.",
+      "required_edit": "Made: added Moore’s own qualification about the premises and dreaming to prevent readers from mistaking the deduction for a proof against every skeptical hypothesis."
+    },
+    {
+      "material_claim": "Baldwin interprets Moore’s stated aim as proving the existence of external objects, not proving that Moore knows they exist; Baldwin also holds that the proof does not settle whether hands are independent of experience or thought.",
+      "source_title": "George Edward Moore",
+      "source_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+      "exact_location": "§6, paragraphs on the ‘Proof of an External World,’ the distinction between existence and knowledge, and the metaphysical significance of Moore’s proof and externality.",
+      "relationship": "supports_with_qualification",
+      "finding": "The archived SEP entry advances this reading and the article names Baldwin and attributes both interpretive claims to him.",
+      "limitation": "Raff (2019) contests received interpretations of Moore’s announced aim; Baldwin’s reading must not be presented as consensus.",
+      "required_edit": "Made: stated Baldwin’s interpretation as an attributed view and preserved his metaphysical qualification."
+    },
+    {
+      "material_claim": "Raff interprets Moore’s announced purpose as counterexample to a presupposition in Kant’s problem of the external world, rather than a straightforward solution of that problem or refutation of skepticism.",
+      "source_title": "The Point of Moore’s Proof",
+      "source_url": "https://philarchive.org/archive/RAFTPO-7",
+      "exact_location": "Raff, pp. 1–3 on the announced aim and alternative to received readings; pp. 25–26, conclusion.",
+      "relationship": "supports_with_qualification",
+      "finding": "Raff’s article advances this reading from Moore’s lecture and explicitly challenges the standard interpretation. The revised article identifies it as Raff’s interpretation and says it is not settled consensus.",
+      "limitation": "This audit read selected passages, not the full scholarly debate, and makes no judgment that Raff’s account is preferable to Baldwin’s.",
+      "required_edit": "Made: added the alternative reading and expressly marked it as a disputed scholarly interpretation."
+    },
+    {
+      "material_claim": "Question-begging, transmission of justification, and the inability to settle a skeptical audience’s doubt are distinct and contested diagnoses of Moore’s proof; Pryor is identified as defending it against the transmission-failure charge.",
+      "source_title": "Transmission and Transmission Failure in Epistemology",
+      "source_url": "https://iep.utm.edu/transmis/",
+      "exact_location": "The entry’s Moore’s Proof discussion, ‘Transmission vs. Resolving Doubt,’ the passage on dialectical effectiveness for skeptical audiences, and the bibliography entry for Pryor (2004).",
+      "relationship": "supports_with_qualification",
+      "finding": "Tucker describes question-begging intuitions, distinguishes transmission failure from failure to resolve doubt, and reports that Pryor defends Moore’s proof. The revised article presents these as a live debate rather than a settled diagnosis.",
+      "limitation": "The IEP entry is a secondary overview; the cited Wright and Pryor papers were not read in this audit, so their detailed arguments are not independently assessed.",
+      "required_edit": "Made: replaced the one-sided claim that transmission views diagnose a failure with a qualified summary of the debate."
+    },
+    {
+      "material_claim": "Epistemic contextualism is a distinct, contested family of approaches that explains apparent conflicts between ordinary and skeptical knowledge claims through context-sensitive standards for knowledge attributions.",
+      "source_title": "Epistemic Contextualism",
+      "source_url": "https://plato.stanford.edu/archives/fall2026/entries/contextualism-epistemology/",
+      "exact_location": "Rysiew, SEP §§3.1–3.2, especially §3.2 on variable standards and the contextualist response to skeptical arguments.",
+      "relationship": "supports_with_qualification",
+      "finding": "The archived SEP entry supports the article’s separate description of contextualism and characterizes the view as contested. The article explicitly says it is not Moore’s own conclusion.",
+      "limitation": "This is a brief overview, not a complete account of contextualism or evidence that all contextualists respond identically.",
+      "required_edit": "Made: recast contextualism as a distinct later approach rather than grouping it together with Neo-Moorean revisions of Moore’s proof."
+    },
+    {
+      "material_claim": "Later Moore-style anti-skeptical arguments use ordinary knowledge claims with epistemic closure against Cartesian skeptical hypotheses and should not be conflated with the exact 1939 hand proof.",
+      "source_title": "Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/archives/sum2020/entries/closure-epistemic/",
+      "exact_location": "Luper, SEP §5.1, ‘Skepticism and Antiskepticism,’ which describes a closure-based skeptical argument and its reversal as roughly Moore’s later strategy.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the distinction between a later Moore-style closure response and a skeptical argument; the article expressly separates contemporary Neo-Moorean reasoning from the precise hand proof.",
+      "limitation": "The source describes Moore’s later strategy and does not define all uses of ‘Neo-Moorean’ in contemporary literature.",
+      "required_edit": "Made: separated the closure-based extension and the distinct contextualist approach instead of presenting them as one Neo-Moorean project."
+    },
+    {
+      "material_claim": "Moore’s ‘A Defence of Common Sense’ (1925) lists propositions he claims to know with certainty.",
+      "source_title": "George Edward Moore",
+      "source_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+      "exact_location": "Baldwin, SEP §6, opening paragraphs on ‘A Defence of Common Sense’ and Moore’s list of truisms.",
+      "relationship": "supports",
+      "finding": "The source directly reports Moore’s 1925 essay and his certainty claims; the revised article retains the detail with a year and title.",
+      "limitation": "The 1925 primary essay was not separately read for this audit; this is a secondary report.",
+      "required_edit": "None; retained with the date and work title made explicit."
+    },
+    {
+      "material_claim": "The discussion questions and framing prompts are editorial teaching material rather than claims attributed to Moore.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§2, 6, and 8; Sources and Attribution, §10.",
+      "relationship": "context_only",
+      "finding": "The questions are presented as prompts, and §10 expressly labels them editorial rather than historical claims about Moore.",
+      "limitation": "These prompts are not claims requiring primary-source corroboration.",
+      "required_edit": "Made: explicitly marked the questions and examples as editorial teaching prompts."
+    },
+    {
+      "material_claim": "The revised article’s Further Reading list and proposed dataset patch match by title, URL and order; the matching dataset entry has the same id/title and its verification date is proposed to change from 2026-10-31 to 2026-11-01.",
+      "source_title": "Matching Moore’s ‘Here Is One Hand’ data record; revised article; proposed data patch",
+      "source_url": null,
+      "exact_location": "Current data/experiments.json object id moores-proof-of-an-external-world; revised article §9; proposed patch references array and date_verified field.",
+      "relationship": "supports",
+      "finding": "The original matching dataset entry was inspected read-only. After revision, the six Further Reading titles and URLs were programmatically compared with the six patch reference objects in order and matched exactly. The patch retains the matching id, uses date_verified 2026-11-01, and proposes no public review-status field.",
+      "limitation": "This verifies local metadata alignment only; data/experiments.json was not edited, and the patch is not yet applied to it.",
+      "required_edit": "Made: created the separately authorized data patch with the revised article’s exact reference list and current review date."
+    }
+  ],
+  "unresolved_limits": [
+    "The original 1939 British Academy issue was not retrieved; relevant passages were read in the 1993 Selected Writings reprint hosted as a text-extracted PDF.",
+    "Whether Moore’s argument is sound, whether he knows its premises, and whether the proof answers a radical skeptic remain philosophical questions; source checking does not decide them.",
+    "Baldwin’s and Raff’s interpretations of the proof’s intended force differ. The article records both without resolving the disagreement or claiming consensus.",
+    "The transmission-failure debate is represented through Chris Tucker’s reference overview; the underlying Wright, Pryor and related papers were not read, so their detailed arguments were not adjudicated.",
+    "The entries on contextualism and closure were consulted only in the relevant sections; no exhaustive review of contemporary epistemology or of all Neo-Moorean approaches was undertaken.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

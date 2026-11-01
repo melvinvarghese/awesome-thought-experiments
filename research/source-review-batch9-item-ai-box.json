@@ -1,0 +1,111 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "ai-box",
+  "title": "The AI Box Scenario",
+  "article_path": "experiments/artificial-intelligence/ai-box.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset record. Focus: who devised and participated in the 2002 role-plays; reported outcomes; the distinction between terms agreed before the trials and Yudkowsky’s later proposed protocol; how the 2012 peer-reviewed Oracle-AI article relates to the role-play; and the limits of what human role-play establishes. This status does not establish that a real AI could persuade a gatekeeper, that containment is impossible or sufficient, scholarly consensus, exhaustive literature coverage, or expert review.",
+  "summary": "Yudkowsky’s accessible author-hosted retrospective account says he played the AI in two 2002 text-chat trials, with Nathan Russell and David McFadzean as gatekeepers; the contemporary SL4 archive contains each gatekeeper’s report that he let the role-play AI out. Yudkowsky says the trials had no agreed rules beyond secrecy and a two-hour minimum and that his detailed public protocol was written afterward; he calls the results strictly anecdotal evidence. The Oxford repository verifies that Armstrong, Sandberg, and Bostrom later published a peer-reviewed Oracle-AI control analysis in 2012, whose Section 3 discusses Yudkowsky’s role-play; they were not participants in the trials. The article now distinguishes these sources and explicitly says no inference about actual AI capabilities is claimed. Independent read-only post-edit review found no material corrections. The five article Further Reading URLs match the dataset references, and date_verified is 2026-11-01.",
+  "sources": [
+    {
+      "title": "The AI-Box Experiment",
+      "author": "Eliezer S. Yudkowsky",
+      "publication": "Author-hosted retrospective account; page displays posting dates 4 September 2020 and 2 July 2021. It recounts role-plays conducted in 2002.",
+      "stable_url": "https://www.yudkowsky.net/singularity/aibox",
+      "source_type": "Primary author account / retrospective source",
+      "access_level": "The full accessible page and relevant linked text were retrieved and read; the original early-2000s Yudkowsky webpage was not independently accessed.",
+      "exact_locations_read": "Opening scenario; historical summary of the March and July 2002 trials; statements that only secrecy and a two-hour minimum were agreed beforehand; ‘Protocol for the AI,’ ‘Protocol for the Gatekeeper,’ ‘Protocol for Both Parties,’ and the note that the detailed suggested interpretation was written after the second test; ‘Suggestions,’ including the explicit statement that results are strictly anecdotal evidence.",
+      "limitations": "Retrospective first-person account, not a transcript of the private chats. Its detailed proposed protocol postdates the two trials. The author’s account and participants’ messages do not test an actual AI or establish general containment results."
+    },
+    {
+      "title": "Re: The ‘AI Box’ experiment",
+      "author": "Nathan Russell",
+      "publication": "SL4 mailing-list archive, message dated 8 March 2002, 16:57:27 MST; message 3141 in the March 2002 archive.",
+      "stable_url": "http://sl4.org/archive/0203/3141.html",
+      "source_type": "Contemporary primary mailing-list record",
+      "access_level": "The full short message and its thread metadata were accessed and read.",
+      "exact_locations_read": "Message body: ‘I decided to let Eliezer out.’ Header date, sender, and thread metadata identify the contemporaneous report.",
+      "limitations": "The message records Russell’s reported outcome but not the private chat transcript, the persuasion content, or an independently controlled test. Participant and trial details are cross-checked against Yudkowsky’s retrospective account."
+    },
+    {
+      "title": "AI-Box Experiment 2: Yudkowsky and McFadzean",
+      "author": "Eliezer S. Yudkowsky",
+      "publication": "SL4 mailing-list archive, message dated 4 July 2002, 12:05:44 MDT; message 4689 in the July 2002 archive.",
+      "stable_url": "http://sl4.org/archive/0207/4689.html",
+      "source_type": "Contemporary primary mailing-list record",
+      "access_level": "Full announcement and relevant quoted chat excerpt were accessed and read.",
+      "exact_locations_read": "Message body identifies David McFadzean as volunteer gatekeeper, records the agreed two-hour duration, $20 payment if the gatekeeper did not release the AI, private IRC setup, and secrecy agreement.",
+      "limitations": "This announcement records proposed terms and participant statements before the second trial, not the private trial transcript or evidence of how the conversation proceeded."
+    },
+    {
+      "title": "Re: AI-Box Experiment 2: Yudkowsky and McFadzean",
+      "author": "David McFadzean",
+      "publication": "SL4 mailing-list archive, message dated 5 July 2002, 15:16:37 MDT; message 4721 in the July 2002 archive.",
+      "stable_url": "http://sl4.org/archive/0207/4721.html",
+      "source_type": "Contemporary primary mailing-list record",
+      "access_level": "The full short message and its thread metadata were accessed and read.",
+      "exact_locations_read": "Message body: ‘I let the transhuman AI out of the box.’ Header date and thread linkage identify it as the second gatekeeper’s report after the July 4 announcement.",
+      "limitations": "The message documents a participant’s reported outcome, not the private chat transcript, a controlled test, or any ability of a real AI."
+    },
+    {
+      "title": "Thinking inside the box: using and controlling an Oracle AI",
+      "author": "Stuart Armstrong, Anders Sandberg, and Nick Bostrom",
+      "publication": "Minds and Machines 22(4), 2012, pp. 299–324; DOI 10.1007/s11023-012-9282-2. Oxford Research Archive lists the article as published and peer reviewed and provides an accepted manuscript.",
+      "stable_url": "https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
+      "source_type": "Peer-reviewed scholarly analysis / secondary source",
+      "access_level": "Oxford repository record and accessible accepted manuscript were read; relevant passages in the full manuscript were read. Publisher full text was not separately accessed.",
+      "exact_locations_read": "§3, ‘Human-level considerations,’ manuscript pp. 7–9, including its account of Yudkowsky’s role-play and social-engineering risk; §3.1 and §4 for discussion of limiting interaction and methods of control. Oxford record read for title, authors, publication status, peer-review status, journal citation, DOI, and accepted-manuscript link.",
+      "limitations": "The article is later analysis of Oracle-AI control, not a primary source for the 2002 events and not evidence that its authors participated in the role-play. The publisher version was not accessed."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Yudkowsky devised and role-played the AI in two 2002 text-chat trials, with Nathan Russell and David McFadzean as gatekeepers; each later reported that he let the role-play AI out.",
+      "source_title": "The AI-Box Experiment; contemporary SL4 messages 3141 and 4721",
+      "source_url": "https://www.yudkowsky.net/singularity/aibox; http://sl4.org/archive/0203/3141.html; http://sl4.org/archive/0207/4721.html",
+      "exact_location": "Yudkowsky page’s historical summary of the March and July 2002 trials; Russell’s 8 March 2002 message body; McFadzean’s 5 July 2002 message body.",
+      "relationship": "supports_with_qualification",
+      "finding": "The retrospective account identifies the participants and dates; contemporaneous mailing-list messages report the gatekeepers’ outcomes. The revised article describes these as human text-chat role-plays and reports, not as experiments on an actual AI.",
+      "limitation": "No private chat transcript was accessed; the outcomes are participants’ reports, not independently observed experimental data.",
+      "required_edit": "Made: restored a direct author account and contemporaneous outcome records, and explicitly distinguished role-play from tests of actual AI."
+    },
+    {
+      "material_claim": "The 2002 trials had no agreed rules in advance beyond secrecy and a two-hour minimum; Yudkowsky’s detailed public protocol was proposed afterward.",
+      "source_title": "The AI-Box Experiment; AI-Box Experiment 2: Yudkowsky and McFadzean",
+      "source_url": "https://www.yudkowsky.net/singularity/aibox; http://sl4.org/archive/0207/4689.html",
+      "exact_location": "Yudkowsky page, paragraph immediately before ‘Protocol for the AI’; July 2002 message 4689’s quoted arrangement for a two-hour trial and $20 handicap.",
+      "relationship": "supports",
+      "finding": "Yudkowsky explicitly says the earlier trials had only secrecy and a two-hour minimum agreed beforehand and that the suggested interpretation was created after the second trial. The second contemporaneous message independently records the planned duration and terms.",
+      "limitation": "The retrospective page reports the first test’s minimal terms; the July message directly records the second test’s arrangement. The full private negotiation or chat record was not accessed.",
+      "required_edit": "Made: stated the postdated-protocol distinction and retained no claim that every later rule governed the original tests."
+    },
+    {
+      "material_claim": "Yudkowsky describes the role-play results as anecdotal; they do not establish that an actual AI could persuade a human, that containment is impossible, or that containment is sufficient.",
+      "source_title": "The AI-Box Experiment; Thinking inside the box: using and controlling an Oracle AI",
+      "source_url": "https://www.yudkowsky.net/singularity/aibox; https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
+      "exact_location": "Yudkowsky page, ‘Suggestions,’ final paragraph on anecdotal evidence; Armstrong et al., §3, ‘Human-level considerations,’ and §4 on control methods and limitations.",
+      "relationship": "supports_with_qualification",
+      "finding": "Yudkowsky explicitly calls results strictly anecdotal. The 2012 paper frames role-play as one illustration in a broader discussion of social engineering and Oracle-AI control; it does not experimentally demonstrate actual-AI persuasion. The revised article explicitly limits its inference.",
+      "limitation": "The 2012 paper is a scholarly analysis, not an empirical trial of AI capability; the publisher copy was not consulted.",
+      "required_edit": "Made: added the author's own anecdotal-evidence caveat and disclaimed inference about actual AI capabilities."
+    },
+    {
+      "material_claim": "Armstrong, Sandberg, and Bostrom wrote a later peer-reviewed 2012 Oracle-AI control article that discusses Yudkowsky’s role-play; they did not participate in the 2002 trials.",
+      "source_title": "Thinking inside the box: using and controlling an Oracle AI",
+      "source_url": "https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
+      "exact_location": "Oxford repository record for authors, 2012 publication, journal details, DOI, publication and peer-review status; accepted manuscript §3 on human-level considerations and Yudkowsky’s role-play.",
+      "relationship": "supports_with_qualification",
+      "finding": "The repository metadata and manuscript support the later analysis and authorship. The article now explicitly separates these researchers from the 2002 participants and describes the source as a peer-reviewed article rather than only a manuscript.",
+      "limitation": "The accepted manuscript rather than publisher full text was read; the paper’s later analysis does not independently prove the role-play outcomes.",
+      "required_edit": "Made: corrected the publication description and attribution, and cited the Oxford record with accepted-manuscript access."
+    }
+  ],
+  "unresolved": [
+    "The original early-2000s Yudkowsky webpage was not independently retrieved; the currently accessible author page is retrospective, while contemporary mailing-list messages corroborate the reported events.",
+    "Private chat transcripts were not accessed, so the content and process of persuasion remain unknown.",
+    "The role-play does not support empirical conclusions about actual AI or superintelligent-system capability."
+  ],
+  "post_edit_review": "Independent read-only review found no material corrections; it checked history, protocol timing, participants, reported outcomes, 2012 article attribution, and article/dataset URL alignment."
+}

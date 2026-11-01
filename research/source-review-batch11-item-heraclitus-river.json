@@ -1,0 +1,141 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "heraclitus-river",
+  "title": "Heraclitus’s River",
+  "article_path": "experiments/identity/heraclitus-river.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the date/attribution framing; B12 and the familiar cannot-step-twice report; their ancient transmission through Plato, Eusebius/Cleanthes, Aristotle/Cratylus and Plutarch; the competing scholarly readings of B12 and B91; and whether the modern comparisons are clearly marked as educational framing. The status records traceability, not a settled reconstruction of Heraclitus’s view, exhaustive fragment scholarship, or expert review.",
+  "summary": "The article now distinguishes the transmitted B12 wording from Plato’s Cratylus report and does not present the famous cannot-step-twice sentence as a secure verbatim translation of B12. It identifies the disagreement between Daniel W. Graham’s SEP account, which treats B12 as the likely genuine river fragment and B91 as a paraphrase, and Leonardo Taran’s argument that B91 may preserve a separate saying. Ancient witnesses and the two secondary readings were consulted; the article leaves authenticity and interpretation disputed rather than deciding them. Modern analogies are explicitly labeled as teaching comparisons.",
+  "sources": [
+    {
+      "title": "Heraclitus",
+      "author": "Daniel W. Graham",
+      "publication": "The Stanford Encyclopedia of Philosophy, Winter 2023 archive; §3.1, “Flux,” and note 2.",
+      "stable_url": "https://plato.stanford.edu/archives/win2023/entries/heraclitus/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections and note were read in the fixed archived entry; the entire article was not read.",
+      "exact_locations_read": "§3.1 compares Plato’s Cratylus 402a report (A6) with the alleged river fragments B12, B49a and B91[a], gives the B12 transmission, discusses the grammar and authenticity arguments, and contrasts the strong flux reading with the same-rivers/different-waters interpretation. Note 2 addresses a proposed continuation of B12 and its attribution.",
+      "limitations": "Secondary synthesis. Graham’s preferred reading is not treated as settled; Taran’s contrary analysis was also read. The ancient fragments are preserved through later witnesses, not an extant Heraclitus manuscript."
+    },
+    {
+      "title": "Cratylus",
+      "author": "Plato",
+      "publication": "Cratylus 402a; Fowler translation in the Perseus Digital Library.",
+      "stable_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+      "source_type": "Primary ancient testimony",
+      "access_level": "Selected passage at 402a was read directly in translation.",
+      "exact_locations_read": "402a: Socrates reports that Heraclitus says all things move and nothing remains, comparing things to a river and saying one cannot step twice into the same stream.",
+      "limitations": "Plato’s report is ancient testimony about Heraclitus, not a surviving manuscript or a secure verbatim text of B12."
+    },
+    {
+      "title": "Metaphysics",
+      "author": "Aristotle",
+      "publication": "Metaphysics IV.5, 1010a12–15; MIT Classics translation.",
+      "stable_url": "https://classics.mit.edu/Aristotle/metaphysics.4.iv.html",
+      "source_type": "Primary ancient testimony",
+      "access_level": "Selected passage was read directly in translation.",
+      "exact_locations_read": "IV.5, 1010a12–15: Aristotle discusses Cratylus’s criticism of the saying that one cannot enter the same river twice and Cratylus’s more radical claim that it cannot be done even once.",
+      "limitations": "Aristotle reports Cratylus and Heraclitean views; this does not establish that the radical formulation is Heraclitus’s own wording."
+    },
+    {
+      "title": "Praeparatio Evangelica",
+      "author": "Eusebius of Caesarea, preserving a report of Cleanthes through Arius Didymus",
+      "publication": "Book XV, chapter 20; Gifford translation.",
+      "stable_url": "https://www.tertullian.org/fathers/eusebius_pe_15_book15.htm",
+      "source_type": "Primary ancient testimony / later transmission of a Presocratic fragment",
+      "access_level": "The passage preserving the river wording was read directly in translation.",
+      "exact_locations_read": "Book XV.20: Cleanthes’s report includes the wording that different waters flow for those stepping into the same rivers, in a discussion transmitted by Eusebius.",
+      "limitations": "The quotation reaches us through later authors; the transmission context is part of the evidence and does not provide access to Heraclitus’s lost book."
+    },
+    {
+      "title": "On the E at Delphi",
+      "author": "Plutarch",
+      "publication": "392B–C, §18; University of Chicago Loeb-derived English translation.",
+      "stable_url": "http://penelope.uchicago.edu/misctracts/plutarche.html",
+      "source_type": "Primary ancient testimony",
+      "access_level": "Selected passage and corresponding Greek text were consulted; the English translation was used for the claim.",
+      "exact_locations_read": "392B–C, §18: Plutarch attributes a cannot-step-twice formulation to Heraclitus and uses it in an argument about change and persistence.",
+      "limitations": "A later report that requires interpretation alongside the other testimonia; it does not settle whether B91 preserves a distinct fragment."
+    },
+    {
+      "title": "Heraclitus: The River Fragments",
+      "author": "Leonardo Taran",
+      "publication": "Society for Ancient Greek Philosophy Newsletter (1989), especially pp. 5–7 and 12–19; Open Repository at Binghamton University.",
+      "stable_url": "https://orb.binghamton.edu/cgi/viewcontent.cgi?article=1252&context=sagp",
+      "source_type": "Scholarly secondary analysis",
+      "access_level": "Relevant passages of the article were read in the repository’s PDF text extraction.",
+      "exact_locations_read": "The article presents and compares B12, B49a and B91, discusses ancient transmission, argues that B91 may be distinct from B12, and surveys differing editorial judgments in its concluding notes.",
+      "limitations": "A contrasting scholarly interpretation, not a final determination of authenticity. The article does not replace a critical edition of the fragments."
+    },
+    {
+      "title": "Matching Heraclitus’s River data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id heraclitus-river; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "The date_verified value and all six Further Reading URLs and source descriptions were reconciled against the revised article.",
+      "limitations": "This record documents metadata alignment and does not establish historical or philosophical claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The familiar cannot-step-twice formulation is reported by Plato, while B12 is transmitted in a different same-rivers/different-waters form.",
+      "source_title": "Cratylus; Heraclitus; Praeparatio Evangelica",
+      "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+      "exact_location": "Plato, Cratylus 402a; compare SEP Heraclitus §3.1 and Eusebius, Praeparatio Evangelica XV.20.",
+      "relationship": "supports_with_qualification",
+      "finding": "The ancient sources support the distinction. The revised article identifies Plato’s formulation as a report and distinguishes it from the B12 wording preserved through later transmission.",
+      "limitation": "No extant Heraclitus manuscript survives; translation and attribution are mediated by later authors.",
+      "required_edit": "Made: separated the familiar report from B12 and avoided presenting it as a secure verbatim translation."
+    },
+    {
+      "material_claim": "The authenticity and interpretation of the river sayings are disputed; Graham’s SEP account and Taran differ over B91.",
+      "source_title": "Heraclitus; Heraclitus: The River Fragments",
+      "source_url": "https://plato.stanford.edu/archives/win2023/entries/heraclitus/",
+      "exact_location": "SEP §3.1 on B12/B49a/B91[a] and its authenticity; Taran, pp. 5–7 and 12–19, on the possibility that B91 is distinct and on divergent editorial decisions.",
+      "relationship": "supports_with_qualification",
+      "finding": "The two sources document a real disagreement. The revised article names the competing positions and leaves the question open rather than presenting one as consensus.",
+      "limitation": "The audit does not decide which fragments are authentic or provide an exhaustive history of scholarship.",
+      "required_edit": "Made: named the disagreement and represented both readings."
+    },
+    {
+      "material_claim": "Plato presents a strong flux reading, and Aristotle reports Cratylus’s more radical ‘not even once’ position.",
+      "source_title": "Cratylus; Metaphysics",
+      "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+      "exact_location": "Plato, Cratylus 402a; Aristotle, Metaphysics IV.5, 1010a12–15; SEP Heraclitus §3.1.",
+      "relationship": "supports_with_qualification",
+      "finding": "The ancient passages support the attribution as reports by Plato and Aristotle. The article marks these as readings and reports, not as certain statements from Heraclitus’s own book.",
+      "limitation": "Ancient testimony is not equivalent to direct access to the lost original text.",
+      "required_edit": "Made: explicitly attributed the interpretations to Plato and Aristotle/Cratylus."
+    },
+    {
+      "material_claim": "The river, flame, body, nation, and later identity distinctions are educational comparisons, not examples or doctrines attributed to Heraclitus.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§3–4 and §7.",
+      "relationship": "context_only",
+      "finding": "The revised article labels these as modern or later teaching comparisons and does not attribute them to Heraclitus.",
+      "limitation": "These are editorial prompts rather than historical claims requiring source corroboration.",
+      "required_edit": "Made: labeled comparisons as teaching framing."
+    },
+    {
+      "material_claim": "The dataset record and article have matching review date and reference URLs.",
+      "source_title": "Matching Heraclitus’s River data record",
+      "source_url": null,
+      "exact_location": "data/experiments.json record heraclitus-river and article §9.",
+      "relationship": "supports",
+      "finding": "All six Further Reading URLs appear in the matching dataset record, in the same order; date_verified is 2026-11-01.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: updated dataset references and date."
+    }
+  ],
+  "unresolved_limits": [
+    "Heraclitus’s original book is lost; the audit uses ancient witnesses and modern scholarship.",
+    "A critical edition of all Heraclitean fragments and an exhaustive literature review were not consulted.",
+    "Graham and Taran disagree over B91; the revised article reports this disagreement without resolving it.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

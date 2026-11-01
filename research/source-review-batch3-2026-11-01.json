@@ -10,7 +10,7 @@
     {
       "id": "lorry-driver",
       "title": "Williams’s Lorry Driver and Moral Luck",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/lorry-driver.md",
+      "article_path": "experiments/ethics/lorry-driver.md",
       "review_date": "2026-11-01",
       "status_before": "not_recorded: neither the article nor dataset provides a source-review status; the expansion record describes only URL/topic checks, not passage reading",
       "status": "source_checked",
@@ -84,7 +84,7 @@
           "role": "Compared the article’s attribution and citations with the dataset; the dataset repeats the joint 1976 publication wording and lists only the SEP entry as a reference.",
           "source_type": "Project dataset record (not philosophical evidence)",
           "title": "Williams’s Lorry Driver and Moral Luck (lorry-driver) dataset record",
-          "url": "file:///workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json"
+          "url": "data/experiments.json"
         }
       ],
       "claim_evidence": [
@@ -185,7 +185,7 @@
           "location": "Article §§9–10, lines 53–59; dataset JSON record id lorry-driver fields references/date_verified/original_publication; expansion.md §§Method and limits and References checked, lines 5–9 and 56",
           "relationship": "supports_with_qualification",
           "source_title": "Supplied article, dataset record, and expansion record",
-          "source_url": "file:///workspace/awesome-thought-experiments/.worktrees/source-audit/research/expansion.md"
+          "source_url": "research/expansion.md"
         }
       ],
       "issues": [
@@ -234,7 +234,7 @@
       ],
       "post_edit_review": {
         "first_read_only_review": {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/lorry-driver.md",
+          "article_path": "experiments/ethics/lorry-driver.md",
           "claim_scope_assessment": "The prior material publication, scenario-framing, unsupported domain-application, broad-traditions, and non-exhaustive-taxonomy issues are corrected or appropriately qualified. No new unsupported material claim was introduced in the revised article: the added comparison is marked editorial, and the article now excludes broader medical and engineering applications. Direct source passages support the remaining substantive claims. However, because the explicit no-fault agent-regret versus resultant moral-luck qualification remains unstated, not every material qualification in declared scope is yet represented clearly enough for source_checked.",
           "confidence": "High for the publication correction, reference alignment, and source passage findings; moderate overall because the explicit Nagel qualification remains absent and the primary-text access has disclosed limitations.",
           "edits_resolved": [
@@ -276,7 +276,7 @@
     {
       "id": "euthyphro-dilemma",
       "title": "The Euthyphro Dilemma",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/euthyphro-dilemma.md",
+      "article_path": "experiments/ethics/euthyphro-dilemma.md",
       "review_date": "2026-11-01",
       "status_before": "Not recorded in the article or matching dataset record; the article records a research check dated 2026-10-31.",
       "status": "source_checked",
@@ -427,7 +427,7 @@
           "location": "Matching record for ID euthyphro-dilemma; references array and date_verified field. Article §§9–10 for its further reading and attribution note.",
           "relationship": "supports",
           "source_title": "Euthyphro Dilemma matching dataset record",
-          "source_url": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json"
+          "source_url": "data/experiments.json"
         }
       ],
       "issues": [
@@ -493,7 +493,7 @@
       ],
       "post_edit_review": {
         "first_read_only_review": {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/euthyphro-dilemma.md",
+          "article_path": "experiments/ethics/euthyphro-dilemma.md",
           "claim_scope_assessment": "The key setup, attribution to the Platonic dialogue, question at 9e–11b, modern formulation, conditional objections, selected Adams and Alston replies, qualifications, analogies, and approximate dating are traceable to relevant passages or explicitly identified as editorial framing. The revised text does not introduce a new material claim found unsupported in the consulted sources, apart from the remaining generalized attribution about secular critics. MIT hosts the complete Jowett text, and the opening plus relevant 9e–11b passage were directly read; the complete dialogue was not read in full. Relevant passages in both cited SEP entries and the IEP entry were also directly read. The SEP discussion records differing interpretations of the dialogue, but the article makes no claim about the final aporia or scholarly consensus on it. This is an editorial traceability review, not an assessment of the argument’s soundness or human expert review.",
           "confidence": "High on the resolution of the ledger’s enumerated overgeneralizations, primary-text support for the question, and URL alignment; high that the residual secular-critics attribution is not directly traced in the passages consulted. No human expert review is claimed.",
           "edits_resolved": [
@@ -508,10 +508,10 @@
             "The four Further Reading URLs match the four references in the euthyphro-dilemma dataset record exactly; titles and source roles are consistent."
           ],
           "evidence_basis": [
-            "Article: /workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/euthyphro-dilemma.md, especially §§1–5, 7, and 9–10.",
-            "Dataset: /workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json, matching id euthyphro-dilemma; its four references were compared with article Further Reading URLs.",
-            "Approved source-review standard: /workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-standard.md, especially conservative status criteria and requirements for direct passage reading, qualifications, and disclosed limits.",
-            "Third-batch ledger: /workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch3-2026-11-01.json, entry euthyphro-dilemma; all listed recommendations and issues were checked against the revision.",
+            "Article: experiments/ethics/euthyphro-dilemma.md, especially §§1–5, 7, and 9–10.",
+            "Dataset: data/experiments.json, matching id euthyphro-dilemma; its four references were compared with article Further Reading URLs.",
+            "Approved source-review standard: research/source-review-standard.md, especially conservative status criteria and requirements for direct passage reading, qualifications, and disclosed limits.",
+            "Third-batch ledger: research/source-review-batch3-2026-11-01.json, entry euthyphro-dilemma; all listed recommendations and issues were checked against the revision.",
             "Directly read Plato, Euthyphro, Jowett translation, MIT Internet Classics Archive: https://classics.mit.edu/Plato/euthyfro.html; opening scene and passage corresponding to 9e–11b. The page itself does not print Stephanus numbers; the location is corroborated by SEP.",
             "Directly read relevant passages from SEP, Religion and Morality in Western Philosophy (Winter 2024): https://plato.stanford.edu/archives/win2024/entries/religion-morality/; dialogue context, qualification about Socrates’ conclusion, Adams, and differing positions.",
             "Directly read SEP, Plato’s Shorter Ethical Works (Fall 2024), §13 ‘Euthyphro’: https://plato.stanford.edu/archives/fall2024/entries/plato-ethics-shorter/; context, 10a–11b interpretation, aporia, and differing scholarly interpretations.",
@@ -541,7 +541,7 @@
     {
       "id": "terror-and-tactical-bomber",
       "title": "The Terror Bomber and the Tactical Bomber",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/terror-and-tactical-bomber.md",
+      "article_path": "experiments/ethics/terror-and-tactical-bomber.md",
       "review_date": "2026-11-01",
       "status_before": "Not recorded in the supplied article or target dataset record; the expansion record reports only page/topic checks.",
       "status": "source_checked",
@@ -685,7 +685,7 @@
       ],
       "post_edit_review": {
         "first_read_only_review": {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/terror-and-tactical-bomber.md",
+          "article_path": "experiments/ethics/terror-and-tactical-bomber.md",
           "claim_scope_assessment": "Most revised material claims are traceable to the cited secondary source or explicitly presented as editorial framing. I reopened the SEP entry and read the relevant passages on the doctrine’s formulations and harm-minimization, the bomber contrast and equal-casualty stipulation, limitations on permissibility, the selected criticisms and Quinn, the McCarthy/Scanlon qualification, and wartime precautions. Those passages support the revised claims and qualifications. The entry is an appropriate complete scholarly reference source for the article’s mediated account; no primary philosophical text is cited or independently consulted here. The article appropriately says the cited entry does not establish the bomber pair’s origin or first publication. The residual ambiguity about ‘outcomes otherwise the same’ prevents a fully source-checked recommendation under the conservative standard. No human expert review is claimed.",
           "confidence": "High on the resolution of the recorded prior issues and reference alignment; moderate-high on the remaining-status judgment, which turns on the breadth of ‘outcomes otherwise the same.’",
           "edits_resolved": [
@@ -696,10 +696,10 @@
             "The article’s variation prompts are identified as teaching prompts, not source-derived claims. Dataset and article use the same SEP URL and substantially aligned title, source scope, attribution limits, and verification date."
           ],
           "evidence_basis": [
-            "Read the complete local article at /workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/terror-and-tactical-bomber.md and compared revised wording against all target-specific issue and claim-evidence records in the batch-3 ledger.",
-            "Read the target record in /workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json; the article and dataset agree on the SEP URL, origin limitation, and scope of support.",
+            "Read the complete local article at experiments/ethics/terror-and-tactical-bomber.md and compared revised wording against all target-specific issue and claim-evidence records in the batch-3 ledger.",
+            "Read the target record in data/experiments.json; the article and dataset agree on the SEP URL, origin limitation, and scope of support.",
             "Directly reopened the cited SEP entry at https://plato.stanford.edu/entries/double-effect/ and read its relevant sections, including §§1–4, §4.7, and §6 passages returned by the source extraction; the source explicitly stipulates equal certainty of the same civilian death toll, not equal strategic success.",
-            "Applied the approved source-review standard at /workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-standard.md: unresolved material scope ambiguity warrants a partial status; source checking is not expert review.",
+            "Applied the approved source-review standard at research/source-review-standard.md: unresolved material scope ambiguity warrants a partial status; source checking is not expert review.",
             "The SEP is a complete scholarly reference entry, but this review did not consult primary works by the philosophers discussed in it; the article’s claims are framed as McIntyre’s account rather than direct claims about those primary texts."
           ],
           "id": "terror-and-tactical-bomber",
@@ -725,7 +725,7 @@
     {
       "id": "smith-and-jones-bathtub",
       "title": "Smith and Jones: Killing and Letting Die",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/smith-and-jones-bathtub.md",
+      "article_path": "experiments/ethics/smith-and-jones-bathtub.md",
       "review_date": "2026-11-01",
       "status_before": "No source-review status is recorded in the supplied article or dataset entry; the dataset records date_verified=2026-10-31.",
       "status": "source_checked",
@@ -947,7 +947,7 @@
       ],
       "post_edit_review": {
         "first_read_only_review": {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/smith-and-jones-bathtub.md",
+          "article_path": "experiments/ethics/smith-and-jones-bathtub.md",
           "claim_scope_assessment": "Within the declared scope, the revised setup, Rachels attribution and inference, qualifications, publication details, and summary of disagreement are traceable to appropriate sources or explicitly framed as editorial questions/teaching comparisons. The complete primary article was directly read in its reprint; relevant passages of the complete SEP entry and Brassington article were directly read. Known disagreements are represented as distinct positions, not consensus. This supports source_checked as an editorial traceability status only; no human expert review is claimed, and the NEJM publisher’s full text remains inaccessible without subscription, a gap disclosed in the article.",
           "confidence": "High",
           "edits_resolved": [
@@ -986,7 +986,7 @@
     {
       "id": "jim-and-the-captain",
       "title": "Jim and the Captain (the Integrity Objection)",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/jim-and-the-captain.md",
+      "article_path": "experiments/ethics/jim-and-the-captain.md",
       "review_date": "2026-11-01",
       "status_before": "Not recorded; the 31 October expansion record documents topic/page checks only, not source-check status.",
       "status": "source_checked",
@@ -1186,7 +1186,7 @@
       ],
       "post_edit_review": {
         "first_read_only_review": {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/jim-and-the-captain.md",
+          "article_path": "experiments/ethics/jim-and-the-captain.md",
           "claim_scope_assessment": "The prior substantive issues are resolved. Direct reading of Williams's §3 Jim passage and ensuing discussion supports the conditional offer, utilitarian recommendation, failed-force stipulation, agency/integrity framing, and his qualification that Jim is not simply shown to be wrong to shoot. The SEP Williams entry explicitly cautions against reading the case as a straightforward wrong-answer counterexample; the Consequentialism entry supports the revised distinctions among direct, indirect, and agent-relative approaches and the possibility of constraints or options. Moseley limits his reconstruction to act utilitarianism, and Venkatesh describes multiple interpretations while advancing his own. The revised article represents these as possibilities, not consensus. No new unsupported material philosophical claim was identified. The remaining limitation is the inaccurate source-access disclosure, not an access gap in the primary work; no human expert review is claimed.",
           "confidence": "High for the scenario, attribution, central qualification, and resolution of the recorded interpretive issues; moderate-high overall because the source-access statement remains too strong relative to the detailed ledger record.",
           "edits_resolved": [
@@ -1259,7 +1259,7 @@
       "failures": [],
       "items": [
         {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/lorry-driver.md",
+          "article_path": "experiments/ethics/lorry-driver.md",
           "claim_scope_assessment": "The prior material publication, scenario-framing, unsupported domain-application, broad-traditions, and non-exhaustive-taxonomy issues are corrected or appropriately qualified. No new unsupported material claim was introduced in the revised article: the added comparison is marked editorial, and the article now excludes broader medical and engineering applications. Direct source passages support the remaining substantive claims. However, because the explicit no-fault agent-regret versus resultant moral-luck qualification remains unstated, not every material qualification in declared scope is yet represented clearly enough for source_checked.",
           "confidence": "High for the publication correction, reference alignment, and source passage findings; moderate overall because the explicit Nagel qualification remains absent and the primary-text access has disclosed limitations.",
           "edits_resolved": [
@@ -1287,7 +1287,7 @@
           "title": "Williams’s Lorry Driver and Moral Luck"
         },
         {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/euthyphro-dilemma.md",
+          "article_path": "experiments/ethics/euthyphro-dilemma.md",
           "claim_scope_assessment": "The key setup, attribution to the Platonic dialogue, question at 9e–11b, modern formulation, conditional objections, selected Adams and Alston replies, qualifications, analogies, and approximate dating are traceable to relevant passages or explicitly identified as editorial framing. The revised text does not introduce a new material claim found unsupported in the consulted sources, apart from the remaining generalized attribution about secular critics. MIT hosts the complete Jowett text, and the opening plus relevant 9e–11b passage were directly read; the complete dialogue was not read in full. Relevant passages in both cited SEP entries and the IEP entry were also directly read. The SEP discussion records differing interpretations of the dialogue, but the article makes no claim about the final aporia or scholarly consensus on it. This is an editorial traceability review, not an assessment of the argument’s soundness or human expert review.",
           "confidence": "High on the resolution of the ledger’s enumerated overgeneralizations, primary-text support for the question, and URL alignment; high that the residual secular-critics attribution is not directly traced in the passages consulted. No human expert review is claimed.",
           "edits_resolved": [
@@ -1302,10 +1302,10 @@
             "The four Further Reading URLs match the four references in the euthyphro-dilemma dataset record exactly; titles and source roles are consistent."
           ],
           "evidence_basis": [
-            "Article: /workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/euthyphro-dilemma.md, especially §§1–5, 7, and 9–10.",
-            "Dataset: /workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json, matching id euthyphro-dilemma; its four references were compared with article Further Reading URLs.",
-            "Approved source-review standard: /workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-standard.md, especially conservative status criteria and requirements for direct passage reading, qualifications, and disclosed limits.",
-            "Third-batch ledger: /workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch3-2026-11-01.json, entry euthyphro-dilemma; all listed recommendations and issues were checked against the revision.",
+            "Article: experiments/ethics/euthyphro-dilemma.md, especially §§1–5, 7, and 9–10.",
+            "Dataset: data/experiments.json, matching id euthyphro-dilemma; its four references were compared with article Further Reading URLs.",
+            "Approved source-review standard: research/source-review-standard.md, especially conservative status criteria and requirements for direct passage reading, qualifications, and disclosed limits.",
+            "Third-batch ledger: research/source-review-batch3-2026-11-01.json, entry euthyphro-dilemma; all listed recommendations and issues were checked against the revision.",
             "Directly read Plato, Euthyphro, Jowett translation, MIT Internet Classics Archive: https://classics.mit.edu/Plato/euthyfro.html; opening scene and passage corresponding to 9e–11b. The page itself does not print Stephanus numbers; the location is corroborated by SEP.",
             "Directly read relevant passages from SEP, Religion and Morality in Western Philosophy (Winter 2024): https://plato.stanford.edu/archives/win2024/entries/religion-morality/; dialogue context, qualification about Socrates’ conclusion, Adams, and differing positions.",
             "Directly read SEP, Plato’s Shorter Ethical Works (Fall 2024), §13 ‘Euthyphro’: https://plato.stanford.edu/archives/fall2024/entries/plato-ethics-shorter/; context, 10a–11b interpretation, aporia, and differing scholarly interpretations.",
@@ -1321,7 +1321,7 @@
           "title": "The Euthyphro Dilemma"
         },
         {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/terror-and-tactical-bomber.md",
+          "article_path": "experiments/ethics/terror-and-tactical-bomber.md",
           "claim_scope_assessment": "Most revised material claims are traceable to the cited secondary source or explicitly presented as editorial framing. I reopened the SEP entry and read the relevant passages on the doctrine’s formulations and harm-minimization, the bomber contrast and equal-casualty stipulation, limitations on permissibility, the selected criticisms and Quinn, the McCarthy/Scanlon qualification, and wartime precautions. Those passages support the revised claims and qualifications. The entry is an appropriate complete scholarly reference source for the article’s mediated account; no primary philosophical text is cited or independently consulted here. The article appropriately says the cited entry does not establish the bomber pair’s origin or first publication. The residual ambiguity about ‘outcomes otherwise the same’ prevents a fully source-checked recommendation under the conservative standard. No human expert review is claimed.",
           "confidence": "High on the resolution of the recorded prior issues and reference alignment; moderate-high on the remaining-status judgment, which turns on the breadth of ‘outcomes otherwise the same.’",
           "edits_resolved": [
@@ -1332,10 +1332,10 @@
             "The article’s variation prompts are identified as teaching prompts, not source-derived claims. Dataset and article use the same SEP URL and substantially aligned title, source scope, attribution limits, and verification date."
           ],
           "evidence_basis": [
-            "Read the complete local article at /workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/terror-and-tactical-bomber.md and compared revised wording against all target-specific issue and claim-evidence records in the batch-3 ledger.",
-            "Read the target record in /workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json; the article and dataset agree on the SEP URL, origin limitation, and scope of support.",
+            "Read the complete local article at experiments/ethics/terror-and-tactical-bomber.md and compared revised wording against all target-specific issue and claim-evidence records in the batch-3 ledger.",
+            "Read the target record in data/experiments.json; the article and dataset agree on the SEP URL, origin limitation, and scope of support.",
             "Directly reopened the cited SEP entry at https://plato.stanford.edu/entries/double-effect/ and read its relevant sections, including §§1–4, §4.7, and §6 passages returned by the source extraction; the source explicitly stipulates equal certainty of the same civilian death toll, not equal strategic success.",
-            "Applied the approved source-review standard at /workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-standard.md: unresolved material scope ambiguity warrants a partial status; source checking is not expert review.",
+            "Applied the approved source-review standard at research/source-review-standard.md: unresolved material scope ambiguity warrants a partial status; source checking is not expert review.",
             "The SEP is a complete scholarly reference entry, but this review did not consult primary works by the philosophers discussed in it; the article’s claims are framed as McIntyre’s account rather than direct claims about those primary texts."
           ],
           "id": "terror-and-tactical-bomber",
@@ -1347,7 +1347,7 @@
           "title": "The Terror Bomber and the Tactical Bomber"
         },
         {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/smith-and-jones-bathtub.md",
+          "article_path": "experiments/ethics/smith-and-jones-bathtub.md",
           "claim_scope_assessment": "Within the declared scope, the revised setup, Rachels attribution and inference, qualifications, publication details, and summary of disagreement are traceable to appropriate sources or explicitly framed as editorial questions/teaching comparisons. The complete primary article was directly read in its reprint; relevant passages of the complete SEP entry and Brassington article were directly read. Known disagreements are represented as distinct positions, not consensus. This supports source_checked as an editorial traceability status only; no human expert review is claimed, and the NEJM publisher’s full text remains inaccessible without subscription, a gap disclosed in the article.",
           "confidence": "High",
           "edits_resolved": [
@@ -1372,7 +1372,7 @@
           "title": "Smith and Jones: Killing and Letting Die"
         },
         {
-          "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/ethics/jim-and-the-captain.md",
+          "article_path": "experiments/ethics/jim-and-the-captain.md",
           "claim_scope_assessment": "The prior substantive issues are resolved. Direct reading of Williams's §3 Jim passage and ensuing discussion supports the conditional offer, utilitarian recommendation, failed-force stipulation, agency/integrity framing, and his qualification that Jim is not simply shown to be wrong to shoot. The SEP Williams entry explicitly cautions against reading the case as a straightforward wrong-answer counterexample; the Consequentialism entry supports the revised distinctions among direct, indirect, and agent-relative approaches and the possibility of constraints or options. Moseley limits his reconstruction to act utilitarianism, and Venkatesh describes multiple interpretations while advancing his own. The revised article represents these as possibilities, not consensus. No new unsupported material philosophical claim was identified. The remaining limitation is the inaccurate source-access disclosure, not an access gap in the primary work; no human expert review is claimed.",
           "confidence": "High for the scenario, attribution, central qualification, and resolution of the recorded interpretive issues; moderate-high overall because the source-access statement remains too strong relative to the detailed ledger record.",
           "edits_resolved": [

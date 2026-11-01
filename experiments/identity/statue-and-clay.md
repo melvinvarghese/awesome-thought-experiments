@@ -10,38 +10,38 @@
 
 ## 1. The Scenario
 
-A sculptor takes a lump of clay, which we will call Lumpl, and shapes it into a statue of a giant, Goliath. At the end of the day she squashes the statue flat. Lumpl and Goliath come into being at the same moment, if we count the shaping as Goliath’s beginning, and go out of existence at the same moment, if we count the squashing as Goliath’s end. At every time between, they are made of the same matter and have the same shape.
+A sculptor makes a clay statue of the infant Goliath in two pieces, one above the waist and one below. When she joins the two halves, a new piece of clay comes into existence at the same time as a statue. Gibbard names the statue Goliath and the piece of clay Lumpl. A day later, the sculptor smashes the statue, ending both. During their shared existence, they have the same matter, shape, location, and history.
 
-Yet they seem to differ. Lumpl could have survived being squashed into a ball. Goliath could not have survived that, since it would no longer be a statue.
+Now consider a different possibility: before the clay dries, the sculptor squeezes it into a ball. By the persistence criteria Gibbard stipulates, the statue would cease to exist, while the piece of clay would survive in a different shape. Gibbard argues that this gives a case in which Lumpl and Goliath are identical in the actual story but would have been nonidentical, though both existed, in that counterfactual. Whether his account of identity and possibility succeeds is disputed.
 
 ## 2. The Central Question
 
-Can two things be made of exactly the same matter at the same time, or must the statue and the clay be one and the same thing?
+Can two things occupy the same place and consist of the same matter at the same time, or must the statue and the clay be one and the same thing?
 
 ## 3. Why It Matters
 
-If Lumpl and Goliath are identical, then they have all the same properties, including what they could survive. But they seem to differ in modal properties. If they are two things, the world contains more coinciding objects than we usually think, and it becomes hard to say why there are two and not three or a hundred.
+If Lumpl and Goliath are strictly identical, they cannot literally differ in their properties. Gibbard argues that they are identical in the actual story while a counterfactual change could have separated their fates. Other philosophers reject contingent identity and may instead treat them as distinct, coinciding objects. The case therefore tests how we understand identity, modal claims, and the persistence conditions associated with kinds of objects; it does not by itself settle which account is right.
 
-The puzzle presses on how to understand ordinary objects: Is a thing just its matter? Do artefacts and organisms have principles of identity that go beyond matter?
+If the statue and clay are distinct, a further question is what explains their difference when they share their matter and history. If they are one object, an account is needed of why the statue and clay seem to have different persistence conditions. These are live metaphysical questions, not settled consequences of the example.
 
 ## 4. Major Interpretations
 
-**Pluralists** accept two coinciding objects, distinguished by their kinds, persistence conditions or histories. **Monists** say there is only one object; the statue and the clay are the same thing described in different ways. **Deniers of such objects** say strictly speaking there are only particles arranged statue-wise. **Contingent-identity views** allow Lumpl and Goliath to be identical now though they might not have been. Each view faces costs elsewhere in metaphysics.
+**Constitution views** commonly hold that the statue and lump are distinct objects occupying the same place, with the lump constituting the statue; they must explain how such coinciding objects differ and what grounds the difference. **Identity views** identify constitution with identity, but must address the apparent differences in kind and persistence. **Revisionary or eliminativist views** reject one or more ordinary statue-and-lump objects, or revise how we describe what exists. **Gibbard’s contingent-identity proposal** says that the statue and lump can be identical in the actual case yet not necessarily identical; this depends on his account of names, persistence, and modal predication. These are broad families of responses, not an exhaustive or mutually agreed taxonomy, and the debate remains open.
 
 ## 5. Common Misunderstandings
 
-The puzzle does not require that the sculptor perform any mysterious action, and it is not a problem about artworks alone. The same structure arises for a person and a body, or a ship and its timber. It is also not settled by observing that we use two words: the question is whether there are one or two things the words refer to.
+The puzzle does not require the sculptor to perform a mysterious action, and it is not a problem about artworks alone. Comparisons with a person and a body, or a ship and its timber, can help introduce related questions, but they are teaching analogies rather than claims that those cases have exactly the same structure. The puzzle is not settled just by noting that two names are used: the issue is what the names refer to and how identity and possibility should be understood.
 
 ## 6. Think for Yourself
 
 1. Would you say you own one object or two when you own a statue made of clay?
-2. What do you say Lumpl would survive that Goliath would not, and what makes that so?
-3. If the two are distinct, what stops there being a third, such as the lump-of-clay-shaped-like-a-giant?
+2. On which account, if any, could Lumpl survive a change that Goliath would not?
+3. If the two are distinct, what explains why there are two rather than also a third, such as the lump-of-clay-shaped-like-a-giant?
 4. Does your answer depend on a theory of how we use names, or on how objects exist?
 
 ## 7. Variations and Extensions
 
-Gibbard’s version uses invented names so as to focus on identity itself. The same structure appears with a person and the body that composes them, and it contrasts with ship-of-Theseus cases, where parts are replaced over time.
+Gibbard’s example uses invented names to focus on identity and modal claims. Cases involving a person and a body raise related questions, though they are not simply the same example. Ship-of-Theseus cases also concern persistence and identity, but typically focus on replacement or rearrangement of parts over time.
 
 ## 8. Related Thought Experiments
 
@@ -51,12 +51,15 @@ Gibbard’s version uses invented names so as to focus on identity itself. The s
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Material Constitution](https://plato.stanford.edu/entries/material-constitution/) — The statue and clay puzzle, the Lumpl and Goliath version, and the main metaphysical responses.
+- [Allan Gibbard, “Contingent Identity” (1975), full text](https://home.sandiego.edu/~baber/metaphysics/readings/Gibbard.ContingentIdentity.pdf) — The original formulation, including Gibbard’s persistence criteria, the Goliath and Lumpl story, and his contingent-identity argument.
+- [Stanford Encyclopedia of Philosophy: Material Constitution](https://plato.stanford.edu/archives/spr2024/entries/material-constitution/) — An overview of the statue-and-clay puzzle and prominent responses, including coincident-object, eliminativist, and other approaches.
+- [Stanford Encyclopedia of Philosophy: Identity](https://plato.stanford.edu/entries/identity/) — A discussion of Gibbard’s example, contingent identity, and continuing controversy about modal claims.
+- [Wolfgang Schwarz, “Contingent Identity” (2013)](https://doi.org/10.1111/phc3.12028) — A scholarly survey of arguments for and against contingent identity and ways of analyzing modal claims.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on material constitution was consulted for the puzzle and the Lumpl and Goliath version. Gibbard’s original article was not retrieved and the publication details come from standard citation of the literature as reported in the sources consulted. The responses are described in general terms.
+Gibbard’s original article was consulted for the scenario and argument (especially pp. 188–192); his persistence criteria are presented as part of his proposal, not as an uncontested account of ordinary usage. Publication details were checked against the publisher’s record. Ryan Wasserman’s Stanford Encyclopedia of Philosophy entry on material constitution and Harold Noonan and Ben Curtis’s entry on identity were read at the relevant sections for the competing responses and the status of the contingent-identity debate. Wolfgang Schwarz’s “Contingent Identity” was consulted in its full-text repository copy, especially §§2–4; it surveys arguments on both sides rather than establishing a consensus. This article is an educational explanation, not a resolution of the metaphysical dispute. Comparisons with person/body and ship/timber cases are teaching analogies, not additional claims attributed to Gibbard.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. The sources above were checked at relevant passages; the full Gibbard article and scholarly entries were not read cover to cover. This source check is not expert review.
 
 [Return to collection](../../README.md)

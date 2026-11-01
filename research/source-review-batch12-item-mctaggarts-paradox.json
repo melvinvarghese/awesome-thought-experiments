@@ -1,0 +1,121 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "mctaggarts-paradox",
+  "title": "McTaggart’s Paradox of Time",
+  "article_path": "experiments/time-and-causality/mctaggarts-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the A-series/B-series distinction; the move from change to the A-series; the incompatibility and successive-predication argument; McTaggart’s tensed reply and regress; the article’s reconstruction caveat; the broad A-/B-theory descriptions; the qualified relativity connection; publication metadata; and ordered source alignment. This is not a judgment that McTaggart’s argument succeeds or that one theory of time is correct.",
+  "summary": "The revised article now summarizes the A/B distinction and McTaggart’s two-stage argument with the primary text’s relevant pages read in a full-text scan reproduction. It avoids saying the A-properties apply simultaneously, explains the successive-predication reply and regress, and marks the three-premise reconstruction as one standard form because the SEP notes reconstruction disputes. Modern A-/B-theory and relativity statements are qualified to match the SEP discussions. An independent reviewer found no essential correction; the primary scan metadata, article references, and dataset URLs align.",
+  "sources": [
+    {
+      "title": "I.—The Unreality of Time",
+      "author": "J. Ellis McTaggart",
+      "publication": "Mind XVII, issue 4 (1908), 457–474; scan reproduction hosted by PhilPapers.",
+      "stable_url": "https://philpapers.org/archive/MCTTUO.pdf",
+      "source_type": "Primary philosophical work (scan reproduction)",
+      "access_level": "Relevant passages were read in a full-text scan reproduction; the whole article was not read systematically.",
+      "exact_locations_read": "pp. 458–465: A-series/B-series distinction, change, and why McTaggart thinks the B-series is insufficient; pp. 468–470: A-series contradiction, successive-predication reply, regress, and conclusion.",
+      "limitations": "The accessible file is a scan reproduction, not the publisher-hosted text. The publisher’s article PDF was gated. The paper establishes what McTaggart argued, not that his reasoning is sound."
+    },
+    {
+      "title": "Publisher metadata for I.—The Unreality of Time",
+      "author": "J. Ellis McTaggart",
+      "publication": "Oxford Academic, Mind XVII, issue 4 (1908), 457–474; published 1 January 1908; DOI 10.1093/mind/XVII.4.457.",
+      "stable_url": "https://doi.org/10.1093/mind/XVII.4.457",
+      "source_type": "Publisher bibliographic record, not an accessible copy of the full primary text",
+      "access_level": "Article metadata read; publisher states that the PDF requires subscription access.",
+      "exact_locations_read": "Article title/byline, journal volume and issue, date, page range, DOI, and access notice on the publisher page.",
+      "limitations": "Metadata only; argument evidence comes from the scan reproduction and the cited scholarly entries."
+    },
+    {
+      "title": "John M. E. McTaggart",
+      "author": "Kris McDaniel",
+      "publication": "The Stanford Encyclopedia of Philosophy, Summer 2020 archive; first published 2009, revised 12 May 2020.",
+      "stable_url": "https://plato.stanford.edu/archives/sum2020/entries/mctaggart/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Section 3 was read in the fixed archived entry; the whole entry was not audited systematically.",
+      "exact_locations_read": "§3 presents a three-premise reconstruction, discusses the change and A-series premises, and states that the best reconstruction of McTaggart’s contradiction argument is contentious.",
+      "limitations": "Secondary reconstruction. It documents a standard way of presenting the argument, not an uncontested formalization."
+    },
+    {
+      "title": "Time",
+      "author": "Nina Emery, Ned Markosian, and Meghan Sullivan",
+      "publication": "The Stanford Encyclopedia of Philosophy, Winter 2025 archive; first published 2002, revised 4 December 2025.",
+      "stable_url": "https://plato.stanford.edu/archives/win2025/entries/time/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections 4–6 were read in the fixed archived entry; the whole entry was not audited systematically.",
+      "exact_locations_read": "§4 covers the A-/B-series argument and reconstructions; §5 distinguishes A- and B-theory and the diversity of views; §6 discusses the relativity of simultaneity, presentism, and the growing-block view.",
+      "limitations": "Secondary synthesis. Relativity is a challenge to some A-theories, not evidence by itself that McTaggart’s argument is valid or that A-theory is false."
+    },
+    {
+      "title": "Matching McTaggart data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id mctaggarts-paradox; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "Checked `date_verified`, `file_path`, the original-publication string, and all three references against the revised article’s Further Reading section.",
+      "limitations": "Metadata alignment only; does not establish the argument’s validity."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The A-series orders times as future, present, and past, while the B-series orders them through earlier/later relations; McTaggart says genuine change requires the A-series because B-series relations do not change.",
+      "source_title": "I.—The Unreality of Time; John M. E. McTaggart",
+      "source_url": "https://philpapers.org/archive/MCTTUO.pdf",
+      "exact_location": "McTaggart pp. 458–465; corroborated by SEP McDaniel §3 and SEP Time §4.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text supports the distinction and the change argument; the SEP entries corroborate the standard reconstruction. The article attributes the claims to McTaggart rather than presenting them as established facts.",
+      "limitation": "The scan is a reproduction and the reconstruction’s details are discussed by later commentators.",
+      "required_edit": "Made: clarified the sequence of premises and stated that McTaggart argues B-series relations alone are fixed."
+    },
+    {
+      "material_claim": "McTaggart argues that incompatible past/present/future determinations apply to each event successively, and that the reply using ‘was future, is present, will be past’ presupposes time and generates a regress.",
+      "source_title": "I.—The Unreality of Time; John M. E. McTaggart",
+      "source_url": "https://philpapers.org/archive/MCTTUO.pdf",
+      "exact_location": "McTaggart pp. 468–470; SEP McDaniel §3 on the contradiction argument and its contested reconstruction.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text supports the successive-predication and regress summary. The revised article does not say that the three properties apply simultaneously and notes that later A-theorists need not treat McTaggart’s objection as decisive.",
+      "limitation": "This is a simplified educational summary; it does not establish that the regress is sound or the conclusion follows.",
+      "required_edit": "Made: corrected the common simultaneous-predication gloss and explained the tensed reply."
+    },
+    {
+      "material_claim": "B-theory and A-theory are broad families with multiple positions; presentism and growing block are distinct A-theoretic views, while relativity of simultaneity challenges but does not by itself refute A-theory.",
+      "source_title": "Time",
+      "source_url": "https://plato.stanford.edu/archives/win2025/entries/time/",
+      "exact_location": "§§5–6, discussion of A-/B-theory, presentism, growing block, and relativity of simultaneity.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP supports the range-of-views framing and treats relativity as a challenge whose implications depend on additional assumptions. The article explicitly avoids treating physics as a decisive verdict on the metaphysical debate.",
+      "limitation": "The article does not survey all A- and B-theories or resolve the metaphysical/physical assumptions.",
+      "required_edit": "Made: qualified the relativity connection and separated presentism from growing block."
+    },
+    {
+      "material_claim": "The original article’s bibliographic identity is Mind XVII, issue 4 (1908), pages 457–474, and the publisher PDF is subscription-gated.",
+      "source_title": "Publisher metadata for I.—The Unreality of Time",
+      "source_url": "https://doi.org/10.1093/mind/XVII.4.457",
+      "exact_location": "Oxford Academic article metadata and access notice; scan reproduction title page and original pagination.",
+      "relationship": "supports",
+      "finding": "The publisher record verifies the byline, journal, issue, year, pages, DOI, and access notice; the cited scan reproduces the text and pagination.",
+      "limitation": "The publisher page provides metadata, not the full text accessed for argument claims.",
+      "required_edit": "Made: added the primary scan to Further Reading and recorded publisher access limits."
+    },
+    {
+      "material_claim": "The article’s source list and dataset references match in order, and the verification date is 2026-11-01.",
+      "source_title": "Matching McTaggart data record",
+      "source_url": null,
+      "exact_location": "data/experiments.json record `mctaggarts-paradox` and article §9.",
+      "relationship": "supports",
+      "finding": "The three article Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: updated the dataset references, source support descriptions, and verification date."
+    }
+  ],
+  "unresolved_limits": [
+    "McTaggart’s publisher-hosted full text was gated; argument passages were checked in a scan reproduction.",
+    "The best formal reconstruction of the A-series contradiction is contested; the article presents one standard summary.",
+    "No exhaustive survey of contemporary theories of time, relativity, or objections was undertaken.",
+    "No named human subject-matter expert reviewed the entry."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "grue",
+  "title": "Goodman’s New Riddle of Induction (Grue)",
+  "article_path": "experiments/epistemology/grue.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and expansion entry. Focus: Goodman’s definition of grue and its time cutoff; the conflicting future projections; the distinction between instance-confirmation and the projectibility problem; entrenchment; cited naturalness and Bayesian approaches; and the article’s own teaching analogies. This status records source traceability, not that Goodman’s argument succeeds or that one solution is accepted by consensus.",
+  "summary": "Goodman’s full-text scan supports the grue definition, incompatible post-cutoff predictions, and the entrenchment discussion. The SEP Goodman and Problem of Induction entries contextualize the new riddle and positionality reply. Fitelson’s paper supports a qualified statement that Bayesian analyses depend on measures and assumptions, while the article explicitly marks its priors/model-class takeaway as an editorial inference. Scholz’s 2024 open-access paper supports identifying conceptual spaces as a particular similarity/naturalness proposal and attributing the normative critique to Scholz, not to consensus. The independent final review found no material issue in the declared scope.",
+  "sources": [
+    {
+      "title": "Fact, Fiction, and Forecast",
+      "author": "Nelson Goodman",
+      "publication": "4th edition (1983; first published 1955), Chapter III §4, pp. 73–81; Chapter IV §3, p. 94",
+      "stable_url": "http://fitelson.org/probability/goodman_fact_fiction_and_forecast.pdf",
+      "source_type": "Primary philosophical monograph",
+      "access_level": "Full-text scan accessed; relevant definition, prediction, and entrenchment passages were read.",
+      "exact_locations_read": "Chapter III §4, especially pp. 73–75 and continuing discussion through p. 81, for grue/bleen and projection; Chapter IV §3, p. 94, for entrenchment and predicate projection history.",
+      "limitations": "The scan is the fourth edition; the article distinguishes the 1955 first publication from the 1983 edition consulted. Goodman’s proposal is presented as an account, not as a settled solution to the normative problem."
+    },
+    {
+      "title": "Nelson Goodman",
+      "author": "Daniel Cohnitz and Marcus Rossberg",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 21 November 2014; substantive revision 8 February 2024",
+      "stable_url": "https://plato.stanford.edu/entries/goodman/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full-entry sections were read; not every bibliography item or linked note is claimed as consulted.",
+      "exact_locations_read": "§§5.1–5.4, especially §5.3 on Goodman’s new riddle and grue/bleen, and §5.4 on entrenchment and the limits of Goodman’s account.",
+      "limitations": "This entry provides a scholarly overview and interpretation; it is not a substitute for Goodman’s primary text."
+    },
+    {
+      "title": "The Problem of Induction",
+      "author": "Leah Henderson",
+      "publication": "Stanford Encyclopedia of Philosophy, Winter 2024 edition; first published 21 March 2018; substantive revision 22 November 2022; current-version citation archived in Winter 2024",
+      "stable_url": "https://plato.stanford.edu/archives/win2024/entries/induction-problem/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full-entry sections were read.",
+      "exact_locations_read": "§4.2, “No Rules,” for Goodman’s new riddle and the projectibility problem; relevant Bayesian framework discussion for how background assumptions enter inductive reasoning.",
+      "limitations": "The SEP entry treats induction broadly; it is used for context and not as primary evidence for Goodman’s exact definition."
+    },
+    {
+      "title": "Goodman’s “New Riddle”",
+      "author": "Branden Fitelson",
+      "publication": "Journal of Philosophical Logic 37(6) (2008): 613–643",
+      "stable_url": "http://fitelson.org/grue.pdf",
+      "source_type": "Peer-reviewed philosophical analysis; author-hosted manuscript of the published article",
+      "access_level": "Full relevant manuscript text was read, including sections on confirmation measures, bridge assumptions, and total evidence.",
+      "exact_locations_read": "§§3–4 and §6, especially manuscript pp. 15–16 on measure sensitivity and the conclusion on pp. 21ff.",
+      "limitations": "The final publisher page did not load in the extraction attempt; publication venue/year were cross-checked against indexed bibliographic records. The article’s claims are qualified and do not depend on treating the manuscript as an unpublished draft."
+    },
+    {
+      "title": "Conceptual Spaces: A Solution to Goodman’s New Riddle of Induction?",
+      "author": "Sebastian Scholz",
+      "publication": "Philosophia 52 (2024): 915–934; DOI 10.1007/s11406-024-00744-2",
+      "stable_url": "https://doi.org/10.1007/s11406-024-00744-2",
+      "source_type": "Open-access peer-reviewed philosophical article",
+      "access_level": "Full open-access article was accessed; abstract, introduction, and conclusion were read.",
+      "exact_locations_read": "Abstract and §1 on Gärdenfors’s conceptual-spaces/similarity proposal; §5 conclusion, pp. 932–934, on the proposal’s current limits as a normative justification.",
+      "limitations": "Scholz critiques one specific proposal and its current cognitive form; this is not treated as a survey verdict or consensus about every naturalness-based answer."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Goodman defines grue using a fixed future cutoff: an object examined before t is grue if green, while an object not examined before t is grue if blue; the observed emeralds therefore fit both green and grue descriptions before t.",
+      "source_title": "Fact, Fiction, and Forecast",
+      "source_url": "http://fitelson.org/probability/goodman_fact_fiction_and_forecast.pdf",
+      "exact_location": "Chapter III §4, pp. 73–75, definition of grue and the emerald illustration; SEP Goodman §5.3 corroborates the new-riddle presentation.",
+      "relationship": "supports",
+      "finding": "The article now defines the cutoff explicitly and distinguishes examined-before-t from not-examined-before-t cases.",
+      "limitation": "This is a simplified teaching formulation; the book’s fuller formulation is tied to a specified time and examination condition.",
+      "required_edit": "Made: stated the cutoff and examination condition explicitly."
+    },
+    {
+      "material_claim": "Simple instance-confirmation can leave green and grue with the same observed support while implying incompatible predictions after t; this is Goodman’s projectibility problem, not merely the older Humean question of justifying induction in general.",
+      "source_title": "Fact, Fiction, and Forecast",
+      "source_url": "http://fitelson.org/probability/goodman_fact_fiction_and_forecast.pdf",
+      "exact_location": "Chapter III §4, pp. 73–81; SEP Goodman §§5.1–5.3 and SEP Problem of Induction §4.2 for the distinction between the new riddle and induction’s broader justification problem.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article explains the prediction conflict under a simple confirmation setup and identifies projectibility as the further problem.",
+      "limitation": "The confirmation setup is an explanatory simplification, not a claim that every theory of confirmation assigns identical support in all formulations.",
+      "required_edit": "Made: clarified the simple-confirmation assumption and separated Goodman’s riddle from the broader problem of induction."
+    },
+    {
+      "material_claim": "Goodman uses entrenchment—how successfully predicates have been projected in past practice—to explain why familiar predicates such as green are favored over grue, while leaving open whether this gives an ultimate normative justification.",
+      "source_title": "Fact, Fiction, and Forecast",
+      "source_url": "http://fitelson.org/probability/goodman_fact_fiction_and_forecast.pdf",
+      "exact_location": "Chapter IV §3, printed p. 94; SEP Goodman §5.4 on entrenchment and the distinction between describing actual projection practice and ultimate justification.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article attributes entrenchment to Goodman and describes its explanatory role without claiming it ends the normative debate.",
+      "limitation": "Entrenchment’s adequacy as a justification remains a philosophical question; the article does not claim otherwise.",
+      "required_edit": "Made: narrowed the description of entrenchment and its explanatory scope."
+    },
+    {
+      "material_claim": "Conceptual spaces and similarity provide one contemporary naturalness-based approach; Scholz argues that the proposal in its current cognitive form does not supply the needed normative justification.",
+      "source_title": "Conceptual Spaces: A Solution to Goodman’s New Riddle of Induction?",
+      "source_url": "https://doi.org/10.1007/s11406-024-00744-2",
+      "exact_location": "Abstract, §1, and §5 conclusion, pp. 932–934; SEP Goodman §5.3 provides background on competing responses.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article identifies a specific proposal and attributes its critique to Scholz rather than presenting it as a settled literature-wide verdict.",
+      "limitation": "The claim concerns Scholz’s assessment of a particular version of Gärdenfors’s account; it does not rule out all naturalness or similarity theories.",
+      "required_edit": "Made: narrowed the naturalness discussion to the proposal Scholz reviews and stated the critique as his conclusion."
+    },
+    {
+      "material_claim": "The positionality objection notes that grue/bleen appear dependent on green/blue in a language where green/blue are basic; Goodman’s symmetry response reverses that dependence in a grue/bleen-basic language.",
+      "source_title": "Nelson Goodman",
+      "source_url": "https://plato.stanford.edu/entries/goodman/",
+      "exact_location": "SEP §5.3, discussion of positionality and Goodman’s symmetry response.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article presents positionality as an objection and Goodman’s response, then identifies language-invariant naturalness as the remaining issue rather than declaring a winner.",
+      "limitation": "The short entry does not exhaust every response to Goodman’s symmetry argument.",
+      "required_edit": "Made: attributed the positionality objection and Goodman’s reply, and limited the article’s conclusion to that exchange."
+    },
+    {
+      "material_claim": "Bayesian accounts can assign different comparative confirmation results depending on confirmation measures, prior/model classes, bridge assumptions, and background evidence; the article’s model-class takeaway is an editorial inference rather than a direct result attributed to Fitelson.",
+      "source_title": "Goodman’s “New Riddle”",
+      "source_url": "http://fitelson.org/grue.pdf",
+      "exact_location": "Fitelson §§3–4 and §6; manuscript pp. 15–16 on measure sensitivity and later discussion/conclusion pp. 21ff on assumptions and total evidence.",
+      "relationship": "supports_with_qualification",
+      "finding": "Fitelson’s analysis supports the qualified sensitivity claim. The article labels its broader priors/model-class moral as its own editorial inference.",
+      "limitation": "The article is not presented as a survey of every Bayesian analysis; the manuscript text, rather than the publisher-hosted version, was consulted.",
+      "required_edit": "Made: retained the qualification and marked the model-class takeaway as editorial inference."
+    },
+    {
+      "material_claim": "The machine-learning comparison and place-dependent predicates are teaching analogies/extensions, not historical claims about Goodman’s own examples or a sourced resolution of the riddle.",
+      "source_title": "Fact, Fiction, and Forecast",
+      "source_url": "http://fitelson.org/probability/goodman_fact_fiction_and_forecast.pdf",
+      "exact_location": "The article’s explicit framing in §§5 and 7 was compared with Goodman, Chapter III §4; the analogy and place-dependent extension do not appear as claims about Goodman in the consulted primary passage.",
+      "relationship": "context_only",
+      "finding": "The article labels these as an analogy and an extension rather than as Goodman’s own historical variants.",
+      "limitation": "These are editorial illustrations and are not independently evaluated here as technical AI claims.",
+      "required_edit": "Made: explicitly labelled both as teaching analogies/extensions."
+    }
+  ],
+  "edits_made": [
+    "Made the future cutoff and examination condition in the grue definition explicit.",
+    "Separated Goodman’s projectibility problem from the broader justification problem for induction and identified the simplifying confirmation assumption.",
+    "Narrowed the entrenchment account and labeled the machine-learning and place-dependent constructions as editorial extensions.",
+    "Limited the naturalness discussion to Scholz’s specific proposal and labeled the Bayesian priors/model-class takeaway as an editorial inference.",
+    "Aligned the article’s five Further Reading URLs with the dataset record and matched the verification date."
+  ],
+  "unresolved": [
+    "Whether any response fully resolves Goodman’s new riddle remains an active philosophical issue; the article summarizes a limited selection rather than a comprehensive survey.",
+    "The publisher endpoint for Fitelson’s final article was not extractable; the manuscript text and indexed bibliographic metadata were consulted instead.",
+    "The place-dependent and machine-learning examples are teaching extensions, not claims established by the cited sources."
+  ],
+  "dataset_alignment": "The grue data record’s five Further Reading URLs match the article’s five URLs in the same order, and date_verified matches the article research-check date 2026-11-01. No public source-review status field was added.",
+  "further_reading_matches": "All five article Further Reading URLs match the dataset record in the same order.",
+  "ledger_path": "research/source-review-batch7-item-grue.json",
+  "selection_rank": 3,
+  "risk_reason": "The entry combines a technical definition, competing confirmation predictions, a subtle distinction between descriptive and normative accounts, and modern Bayesian/naturalness responses; the main risks were oversimplifying the cutoff or overstating a single contemporary proposal as a consensus solution.",
+  "audit_focus": "Check Goodman’s primary definition and entrenchment passages, distinguish Goodman’s problem from Hume’s broader question, verify each modern response against its source, and label unsourced extensions as editorial framing.",
+  "independent_review": "Final independent read-only review recommended source_checked for the declared material-claim scope. It confirmed the definition, entrenchment, positionality, specific naturalness critique, Bayesian qualifications, article/data URL order, and dates. The review found no material correction outstanding. No expert review."
+}

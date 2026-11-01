@@ -2,17 +2,17 @@
 
 **Category:** consciousness  
 **Type:** argument  
-**Associated thinker(s):** John Stuart Mill (the classical argument from analogy)  
-**Original publication or approximate period:** Argument from analogy in Mill, An Examination of Sir William Hamilton’s Philosophy (1865); older roots  
+**Associated thinker(s):** John Stuart Mill (an influential formulation of the argument from analogy)<br>
+**Original publication or approximate period:** Mill, *An Examination of Sir William Hamilton’s Philosophy* (1865); earlier antecedents<br>
 **Difficulty:** Beginner  
 **Themes:** other minds, analogy, evidence  
 **Related experiments:** [Philosophical Zombies](zombies.md); [What Is It Like to Be a Bat?](bat.md); [Beetle in a Box](beetle-in-box.md); [Inverted Spectrum](inverted-spectrum.md)
 
 ## 1. The Scenario
 
-You are directly aware of your own thoughts and feelings, but only ever see other people’s bodies and behaviour. When a friend winces after stubbing a toe, you take her to feel pain. What entitles you to that conclusion?
+You are directly aware of your own thoughts and feelings, but the thoughts and feelings of others are not available to you in the same way. When a friend winces after stubbing a toe, you take her to feel pain. What entitles you to that conclusion?
 
-The classical reply is an argument from analogy. In my own case, I know that certain states of mind are linked with certain outward behaviours. Others behave in similar ways and are similar in body, so it is reasonable to infer that they have similar inner states.
+A classical reply is an argument from analogy. In Mill’s formulation, I know in my own case that bodily conditions and outward signs are connected with feelings; when others have similar bodies and display similar signs, this supports an inference that they have similar feelings. The SEP entry presents Mill’s statement as an influential formulation, not the first version of the idea.
 
 ## 2. The Central Question
 
@@ -20,28 +20,38 @@ How can anyone know that other beings have minds, and what could count as eviden
 
 ## 3. Why It Matters
 
-The problem shows how much of daily life rests on an inference we rarely examine. It becomes pressing for animals, infants, patients who cannot communicate, and artificial systems. It also frames many other thought experiments: zombies and inverted spectra ask what behaviour and physical similarity do or do not guarantee.
+On the traditional epistemological framing, belief in other minds raises a question about evidence that ordinary social life rarely makes explicit. Questions about how we understand minds also arise in work on infants and non-human animals. This article’s extensions to people who cannot communicate and to artificial systems are teaching applications, not claims that the SEP entry settles those cases.
 
-If the argument from analogy is weak, because it generalizes from a sample of one, we should know what better grounds are available.
+The analogy argument has been criticized for relying on one’s own case, but defenders dispute that this is a decisive weakness: they point to repeated correlations between mental states and behavior, or defend the relevance of similarities in bodily causes. The force of the argument therefore depends on which version and defense are being considered.
 
 ## 4. Major Interpretations
 
-**The analogy argument** treats the inference as inductive. **Inference to the best explanation** says that attributing minds is the best explanation of complex behaviour. **Wittgensteinian approaches** question the picture of mind as an inner object known only to its owner. **Direct-perception views** hold that we sometimes see others’ emotions in their expressions. **Skeptical views** accept that certainty is unavailable and ask how much it matters. These differ in their picture of what the problem is.
+The **argument from analogy** uses similarities between one’s own case and other people’s bodies and behavior as support for inferring similar mental states. Critics question whether the inference can be checked and whether it generalizes from one case; defenders offer different replies, so the objection is not a settled refutation.
+
+**Inference to the best explanation** treats other people’s mental states as an explanation of their behavior. The SEP describes this as a prominent alternative, while also recording objections to treating it as a complete account.
+
+**Criteria-based and Wittgensteinian approaches** challenge the picture of mental states as private inner objects that we first identify in ourselves and then infer in others. They ask how mental concepts are learned and applied, and how behavior can function as a criterion for applying them. Philosophers disagree about what this approach establishes and whether it removes the epistemological problem.
+
+**Perceptual accounts** argue that in at least some cases—such as seeing pain in a person’s expression—we can perceive another’s state rather than infer it from behavior. The view is contested, and its proponents do not claim that every mental state is directly perceptible or that such perception is infallible.
+
+**Testimony-based accounts** treat what another person says as a possible basic source of knowledge about their mental states. These approaches address the source of our knowledge differently; none is presented here as settling every version of the problem.
 
 ## 5. Common Misunderstandings
 
-The problem is not a reason to doubt that other people have minds in daily life, and few philosophers have accepted solipsism. It concerns the epistemic basis of the belief and the meaning of mental words. It also should not be confused with the hard problem of consciousness, which asks why physical processes give rise to experience at all.
+A question about whether, or how, we know that others have minds is not the same as a claim that they do not have minds. Radical skeptical scenarios—including the possibility that others are mindless despite behaving like us—pose a philosophical challenge; they do not by themselves establish solipsism. The SEP distinguishes epistemological questions about knowledge from conceptual questions about how we think and speak about minds, and notes that these may also connect with metaphysical questions about what minds are.
+
+This problem should also not be confused with the hard problem of consciousness, which asks why physical processes give rise to experience at all.
 
 ## 6. Think for Yourself
 
 1. What evidence do you rely on to think your friend feels pain?
-2. Does a sample of one undermine the analogy argument?
-3. Would your confidence be different for a dog, an octopus, or a chatbot?
-4. Could behaviour ever be strong enough evidence to settle the question?
+2. Does the argument from analogy depend on only one case, or on many observed correlations?
+3. Would your confidence be different for a dog, an octopus, or a chatbot? What kind of evidence matters in each case?
+4. Could behavior ever be strong enough evidence to settle the question, or does that depend on what “settle” means?
 
 ## 7. Variations and Extensions
 
-Variants ask about animals or machines, where the analogy is weaker. Conversely, a case of a human with no behavioural signs of consciousness raises the issue in the other direction.
+Comparing humans with animals or unfamiliar beings tests how much an analogy depends on shared bodies and behavior; other approaches may appeal to explanation, perception, or testimony instead. Extending the question to machines is a teaching prompt, not a historical variation attributed to Mill or a conclusion established by the sources. A case in which a human shows no familiar behavioral signs of consciousness is another teaching prompt about the limits of behavioral evidence.
 
 ## 8. Related Thought Experiments
 
@@ -52,12 +62,12 @@ Variants ask about animals or machines, where the analogy is weaker. Conversely,
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Other Minds](https://plato.stanford.edu/entries/other-minds/) — The problem, the argument from analogy, and alternative accounts of our knowledge of other minds.
+- [Stanford Encyclopedia of Philosophy: Other Minds](https://plato.stanford.edu/entries/other-minds/) — Anita Avramides’s overview of the epistemological problem, Mill’s formulation of the argument from analogy, and competing approaches including best explanation, criteria, perception, and testimony.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on other minds was consulted for the structure of the problem and the main responses. Mill’s text was not retrieved; the attribution to Mill reflects the standard presentation of the argument from analogy and not a claim that he was its first author.
+The SEP entry was consulted in its sections on the epistemological problem, the argument from analogy, best explanation, criteria, perceptual knowledge, and the history from Descartes to Mill. It quotes Mill’s formulation and cites the 1865 work; this review did not verify that passage against a complete reading of Mill’s primary text. The historical note therefore identifies Mill as an influential formulation, not the originator of the argument. The examples and extensions identified above as teaching prompts are editorial framing.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary texts or an exhaustive account of the debate.
 
 [Return to collection](../../README.md)

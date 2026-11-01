@@ -1,0 +1,111 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "grelling-nelson-paradox",
+  "title": "The Grelling–Nelson Paradox (Heterological Words)",
+  "article_path": "experiments/logic/grelling-nelson-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the standard autological/heterological setup and self-application contradiction; the qualified formal analogy with Russell’s set paradox; Ramsey’s meaning-relation response and the Tarski connection; the paper’s authorship and 1907/1908 publication metadata; and the article-to-dataset reference alignment. This does not establish that any proposed solution is definitive or that the original paper has been fully examined.",
+  "summary": "The article now states the self-application assumptions needed for the contradiction, distinguishes the semantic paradox from Russell’s set paradox, and limits its historical solution discussion to Ramsey’s meaning-relation approach as summarized by the SEP. The publication line records both the catalogue’s 1907 entry and its 1908 reprint rather than collapsing the discrepancy. The original paper and its publication volumes were not directly inspected. An independent read-only reviewer found no essential factual correction; it verified the definition, structural analogy, Ramsey/Tarski summary, and exact URL order.",
+  "sources": [
+    {
+      "title": "Paradoxes and Contemporary Logic",
+      "author": "Andrea Cantini and Riccardo Bruni",
+      "publication": "The Stanford Encyclopedia of Philosophy, Summer 2025 archive; first published 2007, revised 19 May 2025.",
+      "stable_url": "https://plato.stanford.edu/archives/sum2025/entries/paradoxes-contemporary-logic/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Section 3.3.2 and the relevant bibliographic discussion were read in the fixed archived entry; the entire entry was not audited systematically.",
+      "exact_locations_read": "§3.3.2 provides a translated formulation, discusses Grelling’s paradox and Ramsey’s treatment through distinct meaning relations, and states that these ideas foreshadow Tarski. The entry’s cited bibliography associates the paper with 1908.",
+      "limitations": "Secondary account, not direct access to either publication volume. It supports the standard presentation and response, not the ultimate success of the response."
+    },
+    {
+      "title": "Self-Reference and Paradox",
+      "author": "Thomas Bolander",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 archive; first published 2008, revised 23 July 2024.",
+      "stable_url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Sections 1.1 and 1.4 were read in the fixed archived entry; the entire entry was not audited systematically.",
+      "exact_locations_read": "§1.1 defines heterological self-application and presents the contradiction; §1.4 formalizes the structure and compares it with Russell’s set paradox.",
+      "limitations": "Secondary account. The comparison supports a structural analogy, not identity between a semantic paradox and a set-theoretic paradox."
+    },
+    {
+      "title": "Bemerkungen zu den Paradoxien von Russell und Burali-Forti",
+      "author": "K. Grelling and L. Nelson",
+      "publication": "PhilPapers catalogue lists Abhandlungen der Fries’schen Schule (Neue Serie) 2 (1907), 300–334, and a 1908 reprint at 2, 301–334.",
+      "stable_url": "https://philpapers.org/rec/GREBZD-2",
+      "source_type": "Bibliographic catalogue record, not the primary work",
+      "access_level": "Catalogue metadata and reprint information only; neither original volume was accessed.",
+      "exact_locations_read": "The record’s citation and “Reprint years” / “Other Versions” fields list 1907 and a separate 1908 reprint with different pagination.",
+      "limitations": "Metadata only; does not establish the wording or argument of the primary text. The discrepancy is retained, not resolved."
+    },
+    {
+      "title": "Matching Grelling–Nelson data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id grelling-nelson-paradox; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "Checked `date_verified`, `original_publication`, `file_path`, and all three reference URLs and support descriptions against article §§9–10.",
+      "limitations": "Metadata alignment only; does not establish the paradox’s history or solution."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "A predicate is autological if it applies to itself and heterological if it does not; applying the heterological definition to itself produces a yes/no contradiction under the stated assumptions.",
+      "source_title": "Self-Reference and Paradox",
+      "source_url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+      "exact_location": "§1.1; compare §3.3.2 in Paradoxes and Contemporary Logic for a translated formulation.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the standard setup and self-application contradiction. The revised article makes explicit that the result depends on applying the definition to itself and requiring a yes/no classification.",
+      "limitation": "The original paper was not read; the article explains the standard reconstruction rather than reproducing the primary argument verbatim.",
+      "required_edit": "Made: clarified the assumptions under which the contradiction follows and kept examples explicitly illustrative."
+    },
+    {
+      "material_claim": "The Grelling–Nelson paradox is structurally analogous to Russell’s set paradox, but concerns semantic predicates rather than sets.",
+      "source_title": "Self-Reference and Paradox",
+      "source_url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+      "exact_location": "§1.4, formal comparison of the paradox’s structure with Russell’s set paradox.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source explicitly makes the formal comparison. The article describes it as structural and states that the paradoxes concern different kinds of things.",
+      "limitation": "The analogy does not imply that semantic predicates and sets are the same kind of entity or that their solutions are interchangeable.",
+      "required_edit": "Made: qualified the analogy and removed broader unsupported claims about type theory and definability."
+    },
+    {
+      "material_claim": "Ramsey’s response distinguishes the meaning relation used in the definition from the relation needed to express the meaning of the adjective, blocking the unrestricted self-application; the SEP connects this with later Tarski-style semantic hierarchies.",
+      "source_title": "Paradoxes and Contemporary Logic",
+      "source_url": "https://plato.stanford.edu/archives/sum2025/entries/paradoxes-contemporary-logic/",
+      "exact_location": "§3.3.2, Ramsey’s treatment of Grelling’s paradox and the subsequent note about Tarski.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the distinct-meaning-relations explanation and says these ideas foreshadow Tarski. The article presents this as one historically discussed response, not a definitive solution.",
+      "limitation": "The article does not claim Ramsey formulated Tarski’s later theory in full or that all versions of the paradox are solved by one move.",
+      "required_edit": "Made: replaced an unsupported list of non-classical and contextual views with the source-supported Ramsey response and an explicit scope limitation."
+    },
+    {
+      "material_claim": "The source record documents a 1907 publication and a 1908 reprint; the SEP cites 1908, so the article should preserve rather than erase the discrepancy.",
+      "source_title": "Paradoxes and Contemporary Logic; Bemerkungen zu den Paradoxien von Russell und Burali-Forti catalogue record",
+      "source_url": "https://philpapers.org/rec/GREBZD-2",
+      "exact_location": "SEP §3.3.2 and its bibliographic citation; PhilPapers record’s main citation and “Other Versions” fields.",
+      "relationship": "supports_with_qualification",
+      "finding": "The opened sources report 1908 in the SEP and a 1907 edition plus 1908 reprint in the catalogue. The revised article states both and says the primary publication volumes were not inspected.",
+      "limitation": "Bibliographic records are not primary copies; exact print chronology remains unresolved.",
+      "required_edit": "Made: changed the publication line and section 10 to record the discrepancy explicitly; added the catalogue reference."
+    },
+    {
+      "material_claim": "The article’s source list and dataset references match in order, and the verification date is current to the review.",
+      "source_title": "Matching Grelling–Nelson data record",
+      "source_url": null,
+      "exact_location": "data/experiments.json record `grelling-nelson-paradox` and article §9.",
+      "relationship": "supports",
+      "finding": "The three article Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: aligned publication date caveat and references across the article and dataset."
+    }
+  ],
+  "unresolved_limits": [
+    "The original 1907 volume and 1908 reprint were not accessed; the chronology follows two conflicting secondary/bibliographic records and remains unresolved.",
+    "The article is a standard educational reconstruction, not a primary-text transcription or a formal proof within a specified logic.",
+    "The Ramsey response is presented as a historical approach, not as an agreed or exhaustive solution.",
+    "No named human subject-matter expert reviewed the entry."
+  ]
+}

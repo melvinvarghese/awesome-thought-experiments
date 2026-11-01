@@ -1,0 +1,110 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "galileos-ship",
+  "title": "Galileo’s Ship",
+  "article_path": "experiments/physics/galileos-ship.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset record. Checked the 1632 attribution; cabin scene and uniform-motion condition; relation to the tower-stone objection and Copernican debate; the limits of the listed cabin experiments; the retrospective label ‘Galilean relativity’; and the distinction from later broad inertial-frame formulations. The status records source traceability, not proof that Earth moves or exhaustive Galileo scholarship.",
+  "summary": "The article now distinguishes the ship-cabin passage (Day Two, pp. 186–187 in Stillman Drake’s translation) from the tower-stone objection (pp. 139–140). It limits the conclusion to the listed local experiments under uniform motion, identifies ‘Galilean relativity’ as retrospective scholarly terminology, and removes the unsupported claim that the passage is an ancestor of Einstein’s elevator or establishes a universal law covering electromagnetism. The source note records the full accessible translation and the selected passages read.",
+  "sources": [
+    {
+      "title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican",
+      "author": "Galileo Galilei; translated by Stillman Drake",
+      "publication": "Second revised edition, University of California Press, 1967; original work published in 1632.",
+      "stable_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+      "source_type": "Primary philosophical/scientific work (English translation)",
+      "access_level": "Full translated work was accessible; the relevant passages were read, not the entire work systematically.",
+      "exact_locations_read": "Day Two, pp. 186–187: Salviati’s ship-cabin scenario, uniform motion, and the listed experiences; Day Two, pp. 139–140: the tower-stone objection and its relation to Earth’s motion. The title page confirms the Drake translation and edition.",
+      "limitations": "Original Italian was not collated. The work is a dialogue; Salviati is a fictional interlocutor. The checked passages support the argument as presented, not its ultimate success."
+    },
+    {
+      "title": "Galileo Galilei",
+      "author": "David Marshall Miller",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2005, substantive revision 17 December 2025.",
+      "stable_url": "https://plato.stanford.edu/entries/galileo/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections of the entry were read, including the first-two-Days discussion and the cited ship/tower passages.",
+      "exact_locations_read": "Sections discussing the Dialogue’s negative arguments in Days One and Two, shared motion and the inertial principle, the tower stone, the ship analogy, and the separate positive arguments in Days Three and Four.",
+      "limitations": "Secondary context. The SEP’s retrospective use of ‘principle of Galilean Relativity’ does not make the ship passage a modern formal statement of all physical laws."
+    },
+    {
+      "title": "Thought Experiments and Inertial Motion: A Golden Thread in the Development of Mechanics",
+      "author": "Mark Shumelda and James Robert Brown",
+      "publication": "Rivista di estetica 42 (2009): 71–96; DOI 10.4000/estetica.1838.",
+      "stable_url": "https://doi.org/10.4000/estetica.1838",
+      "source_type": "Scholarly secondary analysis",
+      "access_level": "Accessible article text was read for the ship passage and its historical interpretation.",
+      "exact_locations_read": "The discussion quotes Galileo’s cabin passage, cites Dialogue p. 186, and cross-references the tower argument at pp. 139–140.",
+      "limitations": "A secondary historical interpretation used as corroboration, not as Galileo’s own formulation."
+    },
+    {
+      "title": "Matching Galileo’s Ship data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id galileos-ship; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "The date_verified value and all three Further Reading URLs and support descriptions were reconciled against the revised article.",
+      "limitations": "This record documents metadata alignment and does not establish Galileo’s claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Salviati’s cabin includes flies/butterflies, fish, dripping water, and tossing an object; when the ship moves uniformly, the listed effects do not reveal whether it is moving or at rest.",
+      "source_title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican",
+      "source_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+      "exact_location": "Day Two, pp. 186–187, especially Salviati’s cabin scenario and the condition that motion be uniform and not fluctuate back and forth.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary passage supports the described setup and its stated result. The revised article limits the result to the listed familiar cabin experiments and retains uniform motion as a necessary condition.",
+      "limitation": "The passage is a thought experiment in dialogue, not a report of a recorded experiment.",
+      "required_edit": "Made: tied the scene to Salviati, specified uniform motion, and limited the claim to listed cabin experiments."
+    },
+    {
+      "material_claim": "The ship argument is related to, but distinct from, the tower-stone objection; it challenges certain objections to Earth’s motion but does not prove that Earth moves.",
+      "source_title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican; Galileo Galilei",
+      "source_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+      "exact_location": "Dialogue, Day Two, pp. 139–140 for the tower-stone objection and pp. 186–187 for the ship cabin; SEP sections describing Days One and Two as negative arguments against objections to Earth’s motion.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary and secondary sources distinguish the arguments and place them in a broader negative defense. The revised article says they challenge objections, not that the ship scene establishes Copernicanism.",
+      "limitation": "Galileo’s later tidal argument is a separate, putative proof and is not audited as a claim in this article.",
+      "required_edit": "Made: separated the tower and ship arguments and narrowed the conclusion."
+    },
+    {
+      "material_claim": "‘Galilean relativity’ is a retrospective label for an early argument about shared uniform motion, not a modern derivation of a universal law for every physical process.",
+      "source_title": "Galileo Galilei; Thought Experiments and Inertial Motion: A Golden Thread in the Development of Mechanics",
+      "source_url": "https://plato.stanford.edu/entries/galileo/",
+      "exact_location": "SEP discussion of shared motion and the principle of Galilean Relativity; primary passage, Day Two pp. 186–187; Shumelda and Brown’s historical interpretation.",
+      "relationship": "supports_with_qualification",
+      "finding": "The secondary sources use the retrospective principle label, while the primary passage covers the listed mechanical observations. The revised text explicitly distinguishes that scholarly characterization from modern universal formulations.",
+      "limitation": "The audit does not trace a direct historical lineage to Einstein’s elevator or review the complete mathematical development of inertial-frame theory.",
+      "required_edit": "Made: removed the unsupported ‘ancestor of Einstein’s elevator’ and electromagnetism claims and labeled the principle name as retrospective."
+    },
+    {
+      "material_claim": "Acceleration and rotation are outside the ship-cabin scenario, which stipulates uniform motion without fluctuation.",
+      "source_title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican",
+      "source_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+      "exact_location": "Day Two, pp. 186–187, ship’s motion explicitly uniform and not fluctuating back and forth.",
+      "relationship": "supports_with_qualification",
+      "finding": "The text supports the uniform-motion condition. The revised article treats acceleration and rotation as outside the scenario, not as results established by it.",
+      "limitation": "No separate Newton’s-bucket claim remains in the revised article.",
+      "required_edit": "Made: removed the unsourced bucket assertion and restricted the scope to the stated motion condition."
+    },
+    {
+      "material_claim": "The matching dataset references and review date correspond to the revised article.",
+      "source_title": "Matching Galileo’s Ship data record",
+      "source_url": null,
+      "exact_location": "data/experiments.json record galileos-ship and article §9.",
+      "relationship": "supports",
+      "finding": "All three Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: updated dataset references and date."
+    }
+  ],
+  "unresolved_limits": [
+    "Original Italian text was not collated; the relevant passages were checked in Stillman Drake’s English translation.",
+    "No exhaustive history of the principle of relativity or direct intellectual lineage to Einstein was undertaken.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

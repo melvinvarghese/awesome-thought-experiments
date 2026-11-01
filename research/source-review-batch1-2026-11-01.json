@@ -9,6 +9,7 @@
   "entries": [
     {
       "id": "simulation-argument",
+      "article_path": "experiments/epistemology/simulation-argument.md",
       "article": "experiments/epistemology/simulation-argument.md",
       "status": "source_checked",
       "scope": "Source traceability of the formal three-horn argument, stated assumptions, personal-credence step, interpretation and source-access claims in the revised entry.",
@@ -87,6 +88,7 @@
     },
     {
       "id": "pascals-mugging",
+      "article_path": "experiments/economics/pascals-mugging.md",
       "article": "experiments/economics/pascals-mugging.md",
       "status": "source_checked",
       "scope": "Source traceability of the setup, utility/probability assumptions, label attribution, named later response, and St. Petersburg comparison in the revised entry.",
@@ -151,6 +153,7 @@
     },
     {
       "id": "orthogonality-thesis",
+      "article_path": "experiments/artificial-intelligence/orthogonality-thesis.md",
       "article": "experiments/artificial-intelligence/orthogonality-thesis.md",
       "status": "source_checked",
       "scope": "Source traceability of the definition, modal qualification, moral-realism/Humean qualifications, goal versus subgoal distinction, instrumental-convergence scope, and later debate claims.",

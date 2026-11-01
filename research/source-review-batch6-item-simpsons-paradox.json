@@ -4,7 +4,7 @@
   "protocol": "research/source-review-standard.md",
   "id": "simpsons-paradox",
   "title": "Simpson’s Paradox",
-  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/mathematics/simpsons-paradox.md",
+  "article_path": "experiments/mathematics/simpsons-paradox.md",
   "status": "source_checked",
   "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: history/name attribution; the kidney-stone example’s provenance, category definitions, numerators, denominators, and arithmetic; differences in case mix; the distinction between observed association and causal treatment effect; and the scope of the article’s claims about applications. This status concerns source traceability, not clinical advice, causal identification, expert approval, or settled interpretation.",
   "summary": "The figures in the article are not generic teaching numbers: Charig et al.’s primary 1986 BMJ paper gives the open-surgery and percutaneous-nephrolithotomy counts in Table II, with group definitions and case mix in Table I. The percentages recompute correctly. The study describes consecutive treatment series across different periods, so the article now presents the rates as observed comparisons, not proof of which treatment causes better outcomes. The SEP and a peer-reviewed clinical editorial support the qualified causal discussion and wider examples. Independent post-edit review is pending.",

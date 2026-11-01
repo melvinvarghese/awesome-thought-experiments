@@ -1,0 +1,173 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "idle-argument",
+  "title": "The Idle Argument",
+  "article_path": "experiments/time-and-causality/idle-argument.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the argument's illness/doctor setup and conclusion; Aristotle's related discussion of deliberation; the transmission and attribution in Cicero; the reported Chrysippus reply and co-fated outcomes; the version framed through eternal truth; the distinction between logical fatalism and causal determinism; the article's characterization of action's efficacy; and the editorial status of the crop/exam comparisons. This status records traceability for this declared scope, not the truth of fatalism, a complete reconstruction of lost ancient views, exhaustive scholarship, or expert review.",
+  "summary": "The article now presents the doctor example as a reported argument rather than an established truth, distinguishes Aristotle's related passage from the later named Idle Argument, and identifies Cicero's account as later testimony. It attributes the co-fated response to Chrysippus as Cicero does, notes Cicero's eternal-truth version, and does not imply that the Stoic reply settles every generalized formulation. The article clarifies that causal determinism need not make actions causally ineffective, removes the unsupported claim about strong fatalists, and labels contemporary examples as teaching prompts. Relevant passages in the SEP, Cicero, and Aristotle were read; the dataset reference list is proposed to match the revised article exactly.",
+  "sources": [
+    {
+      "title": "Fatalism",
+      "author": "Hugh Rice",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2002, substantive revision 2023; especially §7, ‘The Idle Argument.’",
+      "stable_url": "https://plato.stanford.edu/entries/fatalism/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections in the online entry were read; the full entry was not read.",
+      "exact_locations_read": "The opening account of the philosophical use of ‘fatalism’ and §7: Aristotle's related deliberation passage, the argument's illness/doctor form, Chrysippus's reported reply, versions omitting explicit fate, the purpose attributed to the original argument, and the stated uncertainty about the generalized version.",
+      "limitations": "Secondary synthesis. The entry refers to Bobzien (1998) and Bledin (2020); those works were not independently consulted in this audit. It does not establish that the reported argument is sound or that the co-fated answer resolves every version."
+    },
+    {
+      "title": "Ancient Theories of Freedom and Determinism",
+      "author": "Tim O’Keefe",
+      "publication": "The Stanford Encyclopedia of Philosophy, Spring 2021 archive; first published 2020; especially §§1 and 1.4.",
+      "stable_url": "https://plato.stanford.edu/archives/spr2021/entries/freedom-ancient/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections in the archived online entry were read; the full entry was not read.",
+      "exact_locations_read": "§1 distinguishes arguments from ‘logical determinism’ (fixed truth values of future statements) from causal determinism and notes that ancient discussions also relate them; §1.4 explains the Stoic position that causal determination and fate can coexist with causally effective, co-fated action, citing Cicero, De Fato 30.",
+      "limitations": "Secondary interpretation and synthesis. Ancient terminology and modern categories should not be treated as interchangeable; the article uses the distinction as a concise teaching contrast, not a complete history of ancient theories."
+    },
+    {
+      "title": "De Fato (On Fate)",
+      "author": "Cicero",
+      "publication": "Loeb Classical Library 349, 1942, pp. 224–225; §§28–30; Harvard University Press / Loeb Classical Library online text. The accessible page did not identify the translator in the consulted display.",
+      "stable_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+      "source_type": "Primary ancient testimony in later translation",
+      "access_level": "Selected passages of the translated text were read directly on the Loeb page; the work was not read in full.",
+      "exact_locations_read": "§§28–29: Cicero calls the argument the Argos Logos / ‘idle argument,’ gives the doctor-and-recovery reasoning, and gives a version framed as a statement true or false from eternity. §30 begins Cicero's report that Chrysippus criticizes the argument by distinguishing simple from complex/condestinate facts and includes his counterexample; the accessible page excerpt cuts off partway through §30. The fuller passage was cross-checked against the text reproduced at https://www.informationphilosopher.com/solutions/philosophers/cicero/de_fato_english.html, especially §§28–30.",
+      "limitations": "Cicero is a primary ancient witness for what he reports, but his account is later testimony about Chrysippus and does not provide a surviving Chrysippus text or identify the original author of the named argument. The Loeb excerpt is incomplete within §30; the auxiliary online reproduction is not the Loeb edition and its translation/editorial provenance was not fully established."
+    },
+    {
+      "title": "On Interpretation",
+      "author": "Aristotle",
+      "publication": "Chapter 9, 18b31–36; MIT Classics online English translation (translator attribution not displayed on the consulted page).",
+      "stable_url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+      "source_type": "Primary ancient work in later translation",
+      "access_level": "The relevant translated passage in chapter 9 was read directly; the full work was not read.",
+      "exact_locations_read": "Chapter 9, 18b31–36: Aristotle describes the apparent consequence that deliberation or taking trouble would be unnecessary if future outcomes were necessary; the surrounding passage then says deliberation and action are causative with respect to the future.",
+      "limitations": "This is a primary text for Aristotle's discussion, but not a direct attribution of the later-named Idle Argument to Aristotle. Translation is mediated, and only the relevant passage was consulted."
+    },
+    {
+      "title": "The Greek Philosophical Sources in Cicero’s De Fato",
+      "author": "Pedro José Grande Sánchez",
+      "publication": "Religions, 16(7), article 824 (2025), DOI 10.3390/rel16070824; §2, ‘Historical and Philosophical Context of the Treatise De Fato.’",
+      "stable_url": "https://www.mdpi.com/2077-1444/16/7/824",
+      "source_type": "Scholarly secondary analysis",
+      "access_level": "The relevant portion of the open-access article was read; the full article was not read.",
+      "exact_locations_read": "§2 identifies Cicero's dates and states that De Fato was composed around June 44 BCE, shortly after Caesar's assassination.",
+      "limitations": "Used only to verify the approximate composition date; it is a secondary account and does not establish the argument's original authorship."
+    },
+    {
+      "title": "Matching Idle Argument data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id idle-argument; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "The id and current date_verified field were checked, and the existing reference list was compared with the revised article's Further Reading links and order to prepare the proposed patch.",
+      "limitations": "Metadata reconciliation only; it does not establish historical or philosophical claims. The dataset file itself was not modified."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The Idle Argument's doctor example says that, whether recovery or non-recovery is fated, consulting a doctor makes no difference, and generalizes the result to inaction.",
+      "source_title": "De Fato; Fatalism",
+      "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+      "exact_location": "Cicero, De Fato §§28–29, pp. 224–225; SEP Fatalism §7.",
+      "relationship": "supports_with_qualification",
+      "finding": "Cicero directly reports this illness/doctor reasoning and its idle conclusion. The article now presents it as the argument's reasoning, not as an endorsed claim that treatment has no effect.",
+      "limitation": "Cicero is a later witness and does not name the argument's inventor in this passage. The article's wording is an educational paraphrase, not a quotation.",
+      "required_edit": "Made: retained the core scenario and conclusion while making its status as an argument clear in context."
+    },
+    {
+      "material_claim": "Aristotle discusses the apparent futility of deliberation as a consequence of a fatalist conclusion, but this does not establish that he originated or named the Idle Argument.",
+      "source_title": "On Interpretation; Fatalism",
+      "source_url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+      "exact_location": "Aristotle, On Interpretation 9, 18b31–36; SEP Fatalism §7.",
+      "relationship": "supports_with_qualification",
+      "finding": "Aristotle's passage connects necessity with the apparent lack of need to deliberate, and the SEP identifies this as a related corollary. The text supports a relation, not attribution of the later named argument.",
+      "limitation": "Only the relevant chapter passage was read; the later history of the argument is not exhausted by this comparison.",
+      "required_edit": "Made: explicitly described Aristotle's text as related background, not as evidence that he named or originated the Idle Argument."
+    },
+    {
+      "material_claim": "Cicero attributes to Chrysippus a reply that certain outcomes are complex or co-fated with the actions necessary to bring them about.",
+      "source_title": "De Fato; Ancient Theories of Freedom and Determinism",
+      "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+      "exact_location": "Cicero, De Fato §30, pp. 225–226 (the accessible Loeb page begins §30 and truncates before its full continuation); SEP Ancient Theories of Freedom and Determinism §1.4, citing Fat. 30.",
+      "relationship": "supports_with_qualification",
+      "finding": "Cicero explicitly says Chrysippus criticizes the argument and distinguishes simple from complex/condestinate facts. O’Keefe's SEP discussion interprets the relevant case as a fated recovery conjoined with seeking treatment, so the action remains causally efficacious.",
+      "limitation": "This is Cicero's later report of Chrysippus, not a surviving Chrysippus text. The phrase ‘co-fated’ summarizes the account and should not imply that all versions of the argument are answered.",
+      "required_edit": "Made: attributed the reply to Chrysippus through Cicero and qualified its reach."
+    },
+    {
+      "material_claim": "Cicero reports a version that replaces explicit fate language with a claim about a future-statement being eternally true or false.",
+      "source_title": "De Fato; Fatalism",
+      "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+      "exact_location": "Cicero, De Fato §29, pp. 224–225; SEP Fatalism §7 on variants omitting ‘it is fated that’ and the generalized version.",
+      "relationship": "supports_with_qualification",
+      "finding": "Cicero explicitly presents an eternal-truth version after the fate-framed version. The SEP notes that the generalized version raises a further unresolved question about where it fails.",
+      "limitation": "The audit did not independently read the cited Bledin (2020) paper; no claims about its detailed argument are made. The article reports the SEP's stated qualification only.",
+      "required_edit": "Made: included the eternal-truth variant and avoided suggesting the co-fated reply settles all generalized forms."
+    },
+    {
+      "material_claim": "Fatalism in this argument must be distinguished from causal determinism; causal determination does not by itself make actions ineffective.",
+      "source_title": "Ancient Theories of Freedom and Determinism; Fatalism",
+      "source_url": "https://plato.stanford.edu/archives/spr2021/entries/freedom-ancient/",
+      "exact_location": "O’Keefe, Ancient Theories of Freedom and Determinism §1 (logical fatalism vs causal determinism) and §1.4 (Stoic action as causally determined and efficacious); SEP Fatalism opening paragraphs distinguish fatalist arguments by logical, theological, and causal routes.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP sources distinguish a logical/future-truth fatalist argument from causal determinism and explain the Stoic position that causally determined action may still be effective. The article's distinction is framed as the relevant contrast, not as a claim that every historical use of ‘fatalism’ is uniform.",
+      "limitation": "The entries give a scholarly synthesis, not a single universally accepted definition for every context. The article simplifies a complex ancient debate for beginners.",
+      "required_edit": "Made: refined the fatalism/determinism contrast and stated that determinism does not by itself entail ineffective action."
+    },
+    {
+      "material_claim": "The reviewed passages do not establish a secure original author for the named Idle Argument.",
+      "source_title": "De Fato; Fatalism",
+      "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+      "exact_location": "Cicero, De Fato §§28–30, pp. 224–225; SEP Fatalism §7, which refers to the argument as known and cites Bobzien 1998 §5 without naming an originator in the discussion read.",
+      "relationship": "does_not_establish",
+      "finding": "The consulted text names the argument and attributes the reply to Chrysippus, but does not name the argument's original author. The article therefore retains uncertainty rather than assigning the argument to Aristotle, Chrysippus, or another specific thinker.",
+      "limitation": "This finding is limited to the passages consulted; it is not an exhaustive survey of ancient testimonia or scholarship on attribution.",
+      "required_edit": "Made: marked the original author's identity uncertain and described Cicero's evidence as later testimony."
+    },
+    {
+      "material_claim": "The crops and exams examples are modern explanatory comparisons, not historical variations attributed to ancient authors.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §7, Variations and Extensions, and §10, Sources and Attribution.",
+      "relationship": "context_only",
+      "finding": "These examples are marked as teaching prompts, and the article does not attribute them to ancient sources.",
+      "limitation": "Editorial framing rather than a historical claim requiring external corroboration.",
+      "required_edit": "Made: retained the examples and labeled them as teaching prompts, not established ancient variations."
+    },
+    {
+      "material_claim": "Cicero's De Fato, which transmits the Idle Argument, was composed around 44 BCE.",
+      "source_title": "The Greek Philosophical Sources in Cicero’s De Fato",
+      "source_url": "https://www.mdpi.com/2077-1444/16/7/824",
+      "exact_location": "Grande Sánchez, §2, ‘Historical and Philosophical Context of the Treatise De Fato’: states that the treatise was composed around June 44 BCE.",
+      "relationship": "supports_with_qualification",
+      "finding": "The scholarly article supports the article's approximate date for Cicero's report. The date refers to Cicero's treatise, not to the origin of the Idle Argument.",
+      "limitation": "Single secondary source consulted for this approximate date; the audit did not independently reconstruct the work's chronology from Cicero's correspondence.",
+      "required_edit": "Made: specified c. 44 BCE for Cicero's De Fato and added the supporting scholarly source to Further Reading."
+    },
+    {
+      "material_claim": "The dataset metadata should use the revised article's exact Further Reading reference links in the same order, and date_verified should be 2026-11-01.",
+      "source_title": "Matching Idle Argument data record",
+      "source_url": null,
+      "exact_location": "Matching id idle-argument in data/experiments.json compared with revised article §9; proposed patch sets date_verified to 2026-11-01.",
+      "relationship": "supports",
+      "finding": "The revised Further Reading section has five URLs in the order: SEP Fatalism; archived SEP Ancient Theories of Freedom and Determinism; Cicero's Loeb text; Aristotle at MIT Classics; Grande Sánchez's article. The proposed patch mirrors them exactly and updates the verification date.",
+      "limitation": "Metadata reconciliation only. The dataset is read-only in this task; the patch file is a proposal and has not been applied.",
+      "required_edit": "Prepared, not applied: wrote the matching local data patch without editing data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "No surviving text by the named argument's original author or by Chrysippus was consulted; the audit relies on later testimony, especially Cicero.",
+    "The consulted passages do not identify the original author of the named Idle Argument; attribution remains uncertain, and the audit is not an exhaustive search of ancient reports.",
+    "The generalized version replacing fate-language with eternal truth remains a substantive interpretive issue; the SEP says the exact point of failure is unclear. Bledin (2020), cited there for a detailed discussion, was not independently accessed.",
+    "Only relevant passages of the primary works and secondary entries were read; no complete work, critical edition, or exhaustive scholarly literature review was consulted.",
+    "The Loeb page excerpt cuts off partway through Cicero's §30; the conclusion about the reply was triangulated with the SEP entry and a full-text online reproduction whose translation provenance was not fully established.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

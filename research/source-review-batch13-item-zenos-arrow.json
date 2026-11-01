@@ -1,0 +1,153 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "zenos-arrow",
+  "title": "Zeno’s Arrow",
+  "article_path": "experiments/logic/zenos-arrow.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset entry. Checked the fifth-century BCE period framing; whether Zeno’s original text survives; the ancient attribution and reported assumptions in Aristotle, Physics VI.9; the distinction between Aristotle’s rejection of indivisible nows and the modern at-at/calculus response; the separate Stadium reference; and the article’s explicitly editorial discussion prompt. The previous assertion about contemporary physics and time at very small scales was removed rather than retained without suitable evidence. This status records traceability of the revised declared scope, not a verdict on the paradox’s soundness, a consensus about the metaphysics of motion, exhaustive scholarship, or expert review.",
+  "summary": "The article now labels the familiar step-by-step Arrow scenario as a reconstruction from Aristotle’s surviving report, gives the Bekker locations for Aristotle’s report and response, and distinguishes that response from a modern at-at account and the calculus definition of instantaneous velocity. It retains the fifth-century BCE period only as an approximate date, supported by scholarly reference sources. The Stadium is identified as a separate argument concerning relative motion. An unsupported statement about contemporary physics and time at very small scales was removed. Four Further Reading references and the verification date are set out in a separate proposed data patch; the dataset itself remains unchanged.",
+  "sources": [
+    {
+      "title": "Zeno’s Paradoxes",
+      "author": "Nick Huggett",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2002, substantive revision 2024; §§3.3 (‘The Arrow’) and 3.4 (‘The Stadium’).",
+      "stable_url": "https://plato.stanford.edu/entries/paradox-zeno/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections and passages were read in the full web entry; the entire entry was not read.",
+      "exact_locations_read": "§3.3 quotes Aristotle, Physics 239b30, summarizes the argument’s assumption that time is composed only of moments, explains why the inference from no distance in a zero-duration instant to rest is challenged, and describes the at-at account and its counterintuitive implication. §3.4 reports the Stadium and discusses its relative-motion reconstruction.",
+      "limitations": "Secondary analysis, not a primary text or exhaustive survey of scholarship. It presents one modern response and does not establish that it is the only possible account of motion or a settled metaphysical conclusion."
+    },
+    {
+      "title": "Physics",
+      "author": "Aristotle; translated by R. P. Hardie and R. K. Gaye",
+      "publication": "Book VI, chapter 9, especially 239b5–9 and 239b30–33; English translation hosted by the Logos Virtual Library. The consulted page does not identify the translation edition or its date.",
+      "stable_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "source_type": "Primary ancient philosophical text and testimony about Zeno",
+      "access_level": "The chapter was available in translation and the relevant passage and adjacent discussion were read directly; no Greek critical edition was consulted.",
+      "exact_locations_read": "VI.9, 239b5–9: Aristotle reports Zeno’s Arrow reasoning and says time is not composed of indivisible moments. VI.9, 239b30–33: Aristotle repeats the Arrow as the third argument and identifies its dependence on the assumption that time is composed of moments. The chapter’s subsequent discussion of the moving rows was also read.",
+      "limitations": "Aristotle is a later reporter and critic, not Zeno’s surviving text. The online translation is mediated, and its host page gives no edition details. The passage establishes what Aristotle reports and argues, not that the argument is sound or that it reproduces Zeno verbatim."
+    },
+    {
+      "title": "Zeno of Elea",
+      "author": "John Palmer",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2008, substantive revision 2025; §1 (‘Life and Writings’) and §2.2.3 (‘The Arrow’).",
+      "stable_url": "https://plato.stanford.edu/entries/zeno-elea/",
+      "source_type": "Scholarly reference work / historical analysis",
+      "access_level": "Relevant sections and passages were read in the full web entry; the entire entry was not read.",
+      "exact_locations_read": "§1 identifies Zeno as a fifth-century BCE thinker and discusses the evidence for an approximate birth date. §2.2.3 reviews Aristotle’s report at Physics 239b5–9 and 239b30–33, the indirect nature of evidence for the Arrow, the lost original book, and the constraints on reconstruction.",
+      "limitations": "Modern historical synthesis based on surviving ancient testimony; it cannot recover Zeno’s exact wording. The broad fifth-century BCE period in the article is more secure than a precise biographical date."
+    },
+    {
+      "title": "University Physics Volume 1, §3.2: Instantaneous Velocity and Speed",
+      "author": "OpenStax (Rice University; individual section author not specified on the consulted page)",
+      "publication": "OpenStax, University Physics Volume 1, §3.2, ‘Instantaneous Velocity and Speed’.",
+      "stable_url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+      "source_type": "Open educational physics textbook",
+      "access_level": "The complete relevant web section was read; the rest of the textbook was not read.",
+      "exact_locations_read": "§3.2, subsection ‘Instantaneous Velocity’: defines instantaneous velocity as the limit of average velocity as elapsed time approaches zero, and relates it to the derivative of position with respect to time.",
+      "limitations": "Supports the calculus definition only; it does not interpret Zeno or adjudicate the philosophical meaning of motion at an instant."
+    },
+    {
+      "title": "Zeno’s Paradoxes",
+      "author": "Bradley Dowden",
+      "publication": "Internet Encyclopedia of Philosophy; page publication or revision date not displayed in the consulted page; sections ‘The Arrow’, ‘Aristotle’s Treatment of the Paradoxes’, and introductory historical material.",
+      "stable_url": "https://iep.utm.edu/zenos-paradoxes/",
+      "source_type": "Secondary philosophy encyclopedia article",
+      "access_level": "Selected relevant sections and author metadata were read in the web entry; the entire article was not read.",
+      "exact_locations_read": "The Arrow section discusses the standard calculus/at-at response; the Aristotle section compares Aristotle’s rejection of indivisible moments with the modern response; the introduction discusses the loss and indirect transmission of Zeno’s book.",
+      "limitations": "The article makes broad claims about which response is accepted by most scholars and includes a chapter-location discrepancy for Aristotle’s Arrow passage (it labels the source Physics VI.5, while the primary text and the SEP entries locate it at VI.9). Those claims were not adopted as article claims or used to establish consensus."
+    },
+    {
+      "title": "Matching Zeno’s Arrow data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id zenos-arrow; inspected 2026-11-01, read-only.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was inspected; a separate proposed patch was prepared but not applied to the dataset.",
+      "exact_locations_read": "Matching entry fields id, date_verified, and references were inspected and compared with the revised article’s §9 Further Reading links and order.",
+      "limitations": "Metadata reconciliation only. The current dataset still contains its prior date and one reference; the proposed patch is a separate local artifact and does not modify data/experiments.json."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Aristotle reports Zeno’s Arrow reasoning using the assumptions that what occupies a space equal to itself is at rest and that what moves is always in a now; the familiar step-by-step account is a reconstruction rather than Zeno’s preserved wording.",
+      "source_title": "Physics; Zeno’s Paradoxes; Zeno of Elea",
+      "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "exact_location": "Aristotle, Physics VI.9, 239b5–9 and 239b30–33; Huggett, SEP §3.3; Palmer, SEP §2.2.3.",
+      "relationship": "supports_with_qualification",
+      "finding": "Aristotle explicitly attributes the conclusion that the flying arrow is motionless to Zeno’s reasoning, then says the assumption that time is composed of indivisible moments is false. Palmer and Huggett explain that the original book is lost and the Arrow is known through later reports. The revised article attributes the report to Aristotle and marks the fuller scenario as a familiar reconstruction.",
+      "limitation": "The report is mediated through Aristotle; the exact wording and every step of Zeno’s own argument cannot be established from the surviving passage.",
+      "required_edit": "Made: attributed the argument to Aristotle’s report, supplied Bekker references, and qualified the step-by-step scenario as reconstruction."
+    },
+    {
+      "material_claim": "Aristotle rejects the Arrow argument’s premise that time is composed of indivisible moments; this is distinct from the modern at-at response.",
+      "source_title": "Physics; Zeno’s Paradoxes",
+      "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "exact_location": "Aristotle, Physics VI.9, 239b8–9 and 239b30–33; Huggett, SEP §3.3, explanation of the Arrow and the modern response.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary passage directly states Aristotle’s rejection of time as composed of indivisible moments. Huggett’s account distinguishes this ancient response from a modern response that allows instants and challenges the inference from no displacement during a zero-duration instant to rest.",
+      "limitation": "The modern account is one response to the paradox; the sources do not establish a single metaphysically mandatory theory of motion.",
+      "required_edit": "Made: separated Aristotle’s objection from the modern account and removed unsupported claims about broader families of motion theories."
+    },
+    {
+      "material_claim": "Calculus defines instantaneous velocity as a limit of average velocity over shrinking time intervals, and an at-at account characterizes motion through different positions at different times.",
+      "source_title": "University Physics Volume 1, §3.2: Instantaneous Velocity and Speed; Zeno’s Paradoxes",
+      "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+      "exact_location": "OpenStax §3.2, subsection ‘Instantaneous Velocity’; Huggett, SEP §3.3, response to the inference from zero distance in a zero-duration instant and discussion of successive positions at successive times.",
+      "relationship": "supports_with_qualification",
+      "finding": "OpenStax directly defines instantaneous velocity as the limit of average velocity as elapsed time approaches zero. Huggett explains that the at-at conception describes an object as occupying different positions at different times and that motion need not be distance traversed within any one instant. The revised article presents these as a mathematical account and a philosophical response, not as a proof that all philosophical questions are settled.",
+      "limitation": "OpenStax establishes the mathematical definition, not its metaphysical interpretation; Huggett’s at-at discussion is a secondary philosophical account.",
+      "required_edit": "Made: retained the calculus/at-at discussion with distinct sourcing and framed the remaining question as editorial discussion."
+    },
+    {
+      "material_claim": "The Stadium is a separate argument involving rows of bodies moving in opposite directions and relative motion.",
+      "source_title": "Physics; Zeno’s Paradoxes",
+      "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "exact_location": "Aristotle, Physics VI.9, from 239b33 through the discussion of the moving rows; Huggett, SEP §3.4 (‘The Stadium’).",
+      "relationship": "supports_with_qualification",
+      "finding": "Aristotle distinguishes the fourth moving-rows argument from the third Arrow argument. Huggett’s reconstruction describes the relative-motion issue and notes that interpretations of the Stadium differ. The article now calls it a separate argument, not another version of the Arrow.",
+      "limitation": "The interpretation of the Stadium is not required to settle the Arrow; only its distinctness and basic relative-motion characterization are retained.",
+      "required_edit": "Made: replaced the unsupported contemporary-physics aside with a sourced distinction of the Stadium."
+    },
+    {
+      "material_claim": "Zeno belongs approximately to the fifth century BCE, and the Arrow is known through later testimony rather than a surviving original text.",
+      "source_title": "Zeno of Elea; Zeno’s Paradoxes",
+      "source_url": "https://plato.stanford.edu/entries/zeno-elea/",
+      "exact_location": "Palmer, SEP §1 (‘Life and Writings’) and §2.2.3 (‘The Arrow’); Huggett, SEP introductory historical account and §3.3.",
+      "relationship": "supports_with_qualification",
+      "finding": "Palmer identifies Zeno as a fifth-century BCE thinker and explains the inferential nature of biographical dating. Both SEP accounts describe the loss of Zeno’s book and the second-hand nature of the Arrow report. The article keeps the broad period and explicitly says the account is mediated.",
+      "limitation": "A precise year for the Arrow’s composition or Zeno’s birth is not established; the article does not state one.",
+      "required_edit": "Made: retained only the approximate fifth-century BCE metadata and clarified the mediated status of the ancient testimony."
+    },
+    {
+      "material_claim": "The question about what makes an object moving and the prompts about film frames and instantaneous velocity are educational framing, not claims attributed to Zeno.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§2, 3, and 6; §10 identifies the prompts as teaching and discussion framing.",
+      "relationship": "context_only",
+      "finding": "The article identifies the relevant prompts as editorial framing and does not attribute them to Zeno or Aristotle.",
+      "limitation": "These are discussion prompts and do not require external historical verification.",
+      "required_edit": "Made: explicitly labeled the question and prompts as teaching framing."
+    },
+    {
+      "material_claim": "The article’s Further Reading list and proposed dataset patch have matching reference URLs in the same order, with date_verified set to 2026-11-01.",
+      "source_title": "Revised Zeno’s Arrow article and proposed matching data patch",
+      "source_url": null,
+      "exact_location": "Article §9 and research/source-review-batch13-item-zenos-arrow-data-patch.json; matching read-only data/experiments.json entry id zenos-arrow.",
+      "relationship": "supports",
+      "finding": "The revised Further Reading links are, in order, the SEP Zeno’s Paradoxes entry, Aristotle Physics VI.9 translation, SEP Zeno of Elea entry, and OpenStax §3.2. The proposed patch uses those exact URLs and order and sets date_verified to 2026-11-01. The current dataset object was read but not edited.",
+      "limitation": "The patch is a local proposal only; the read-only dataset retains the prior single-reference list and prior verification date.",
+      "required_edit": "Made: prepared the separate data patch; did not edit data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "Zeno’s original book does not survive; the Arrow’s exact wording and complete original argument cannot be recovered from Aristotle’s report.",
+    "The audit consulted relevant passages rather than reading every cited reference or an exhaustive critical edition and scholarly literature on Zeno.",
+    "The audit records competing kinds of response but does not decide whether the at-at account or another theory best explains motion.",
+    "The consulted IEP article makes broad claims about scholarly acceptance that were not independently verified and were excluded from the revised article.",
+    "The article’s former statement about whether contemporary physics leaves time’s continuity at very small scales unsettled was removed; that scientific question was outside the revised scope and was not audited.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

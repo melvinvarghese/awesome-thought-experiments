@@ -16,6 +16,7 @@
         "Identify the Mary’s Room and phenomenal-concept remarks as interpretive teaching comparisons unless direct scholarly evidence is added."
       ],
       "id": "humes-missing-shade-of-blue",
+      "article_path": "experiments/epistemology/humes-missing-shade-of-blue.md",
       "issues": [
         {
           "article_claim": "Article line 6 and the dataset record’s original_publication attribute the missing-shade thought experiment to both A Treatise of Human Nature (1739–40) and An Enquiry concerning Human Understanding (1748).",
@@ -191,6 +192,7 @@
         "In section 1, use ‘just taken from the honeycomb’ rather than ‘fresh from the hive’; consider including the omitted coldness and size details for closer fidelity to the primary passage."
       ],
       "id": "wax-argument",
+      "article_path": "experiments/epistemology/wax-argument.md",
       "issues": [
         {
           "article_claim": "‘Empiricist critics argue that the sameness of the wax can be understood through continuity of change and does not require a special faculty.’ (line 29)",
@@ -353,6 +355,7 @@
         "Replace the absolute chemistry wording with Putnam’s exact 1750 qualification and label the chemical-possibility statement as the article’s own gloss."
       ],
       "id": "twin-earth",
+      "article_path": "experiments/consciousness/twin-earth.md",
       "issues": [
         {
           "article_claim": "Section 1 says Twin Earth is an ‘exact duplicate of Earth’ with one difference, and the inhabitants include an exact twin of the reader (lines 13–15).",
@@ -581,6 +584,7 @@
         "Consider a brief line in §3 noting that Frege’s original essay addresses both identity statements and belief/attitude contexts, while this entry focuses on the identity puzzle."
       ],
       "id": "hesperus-and-phosphorus",
+      "article_path": "experiments/logic/hesperus-and-phosphorus.md",
       "issues": [
         {
           "article_claim": "‘Ancient astronomers named a bright body seen in the evening Hesperus and one seen in the morning Phosphorus. They later discovered that these are the same object, the planet Venus.’ (article §1, para. 1)",
@@ -789,6 +793,7 @@
         "Qualify claims about escaping the theorem through intensity/cardinal information: these approaches alter the information model and assumptions; they do not show that any rule using ratings automatically avoids all relevant impossibilities."
       ],
       "id": "arrows-impossibility-theorem",
+      "article_path": "experiments/society-and-justice/arrows-impossibility-theorem.md",
       "issues": [
         {
           "article_claim": "‘Arrow lists conditions’ followed by four conditions, then says no rule satisfies ‘all of these conditions.’",

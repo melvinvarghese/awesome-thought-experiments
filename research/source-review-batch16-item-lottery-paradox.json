@@ -1,0 +1,171 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "lottery-paradox",
+  "title": "The Lottery Paradox",
+  "article_path": "experiments/epistemology/lottery-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and proposed matching data patch. Checked the finite-lottery setup and high-probability inference; the role of threshold-based acceptance, conjunction (agglomeration) closure, and consistency; the distinction between a contradiction believed and jointly inconsistent beliefs; Kyburg's attributed response and other approaches without treating any as a consensus solution; the relation to knowledge; the preface paradox and its Makinson/Wilder attribution; the 1961 bibliographic claim and Wheeler's qualification about an earlier conference formulation and 1963 publication; editorial teaching prompts; and reconciliation of Further Reading URLs and order with the proposed patch. This status records traceability, not the truth or soundness of any philosophical position, an exhaustive literature review, or expert review.",
+  "summary": "The revised article conditions the lottery inference on a threshold below certainty and conjunction closure, and describes the resulting beliefs as jointly inconsistent rather than automatically saying the agent believes a contradiction. It replaces the unsupported threshold-to-certainty and credence-first/knowledge-first taxonomy with qualified, non-exhaustive response families, and treats the knowledge question as related rather than settled by the paradox. The preface-paradox attribution is tied to Sorensen's SEP discussion of Makinson and Wilder. Wheeler's review supports the 1961 published-account attribution while noting an earlier conference formulation and 1963 publication. The primary book's argument text was not accessible; relevant passages in two SEP entries and Wheeler's scholarly review were read. The article's four Further Reading URLs match the proposed local patch in order; the dataset itself was not modified.",
+  "sources": [
+    {
+      "title": "Formal Representations of Belief",
+      "author": "Konstantin Genin and Franz Huber",
+      "publication": "The Stanford Encyclopedia of Philosophy, Winter 2020 archive; §4.2.2, “The Lockean Threshold,” including the discussion of the Lottery paradox.",
+      "stable_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections and passages were read in the fixed archived entry; the entire entry was not read.",
+      "exact_locations_read": "§4.2.2 defines strong and weak Lockean thresholds; the paragraph beginning “The strong Lockean thesis gives rise to the well-known Lottery paradox” sets out a fair N-ticket lottery, the threshold-dependent inference to each ticket's loss, conjunction closure, and the conflict with the belief that some ticket wins. The following paragraphs describe Kyburg's response, authors who reject the strong Lockean thesis, and proposals that add defeating conditions. A later passage on odds-threshold acceptance explains one alternative formal strategy.",
+      "limitations": "Secondary synthesis, not the primary Kyburg text. It presents a number of formal approaches but does not settle the philosophical dispute or establish that its treatment is exhaustive. The article's use of an illustrative, very large lottery is not asserted as Kyburg's exact original ticket count."
+    },
+    {
+      "title": "Epistemic Paradoxes",
+      "author": "Roy Sorensen",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 archive; §§3, “Lotteries and the Lottery Paradox,” and 4, “Preface Paradox.”",
+      "stable_url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections and passages were read in the fixed archived entry; the entire entry was not read.",
+      "exact_locations_read": "§3 states the agglomeration principle, works through a 100-ticket threshold example, explains the route to contradiction, and distinguishes rejecting agglomeration from rejecting sub-certain acceptance rules; it explicitly characterizes Kyburg's response as permitting joint inconsistency without belief in a necessarily false proposition. §4 recounts Wilder's preface, attributes the paradox formulation to D. C. Makinson (1965), states that the preface paradox does not rely on a probabilistic acceptance rule, and discusses its relation to Kyburg's response. The bibliography entry gives Makinson's 1965 publication details.",
+      "limitations": "A later scholarly account, not direct consultation of Makinson's or Wilder's original texts. The summary's interpretation of the relation between the paradoxes is attributed to Sorensen rather than presented as the only analysis."
+    },
+    {
+      "title": "A Review of the Lottery Paradox",
+      "author": "Gregory Wheeler",
+      "publication": "In William Harper and Gregory Wheeler (eds.), Probability and Inference: Essays in Honour of Henry E. Kyburg, Jr., College Publications, 2007; accessed as the author's penultimate-draft PDF.",
+      "stable_url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+      "source_type": "Scholarly secondary analysis / book chapter; peer-review status not independently verified",
+      "access_level": "Selected passages in the PDF text extraction were read; the chapter was not read in full.",
+      "exact_locations_read": "Printed pp. 1–2: opening fair 1,000-ticket setup; three principles said to be jointly inconsistent; footnote 1 on the 1961 book as first published statement, earlier 1959/60 conference formulation, and 1963 publication; §1, “Rational Acceptance,” on disagreement over the diagnosis and differences from the preface paradox. Printed p. 19, §3.1, “Statistical evidence and rational belief,” on distinguishing statistical grounds for rational belief from statistical grounds for knowledge and on Dana Nelkin's contrary view.",
+      "limitations": "A single scholarly review with its own arguments; not evidence of consensus or an exhaustive account of the literature. The accessed PDF labels itself a penultimate draft."
+    },
+    {
+      "title": "A Review of the Lottery Paradox (bibliographic record)",
+      "author": "PhilPapers record; no independent author claim",
+      "publication": "PhilPapers bibliographic entry for Gregory Wheeler's chapter in William Harper and Gregory Wheeler (eds.), Probability and Inference: Essays in Honour of Henry E. Kyburg, Jr., College Publications, 2007.",
+      "stable_url": "https://philpapers.org/rec/WHEARO",
+      "source_type": "Philosophy bibliography / secondary publication metadata",
+      "access_level": "Bibliographic record and abstract were read; the full chapter was accessed separately via Wheeler's PDF.",
+      "exact_locations_read": "The record title and author; the line identifying the edited volume, editors, publisher, and 2007 date; and the displayed abstract summarizing the lottery setup.",
+      "limitations": "Bibliographic metadata and abstract only; the argument passages were checked in Wheeler's PDF, not established by this record."
+    },
+    {
+      "title": "Probability and the Logic of Rational Belief",
+      "author": "Henry E. Kyburg, Jr.",
+      "publication": "Middletown, Connecticut: Wesleyan University Press, 1961; Internet Archive item record for a restricted library scan.",
+      "stable_url": "https://archive.org/details/probabilitylogic0000unse",
+      "source_type": "Primary philosophical work (bibliographic/item record consulted; primary argument not accessed)",
+      "access_level": "URL/item metadata only; the record states that the scan is access-restricted. No text passage was available to read.",
+      "exact_locations_read": "The Internet Archive item page's title, publication-date entry (1961), collection/access metadata, and notice that access is restricted. No pages of the book were read. Kyburg's authorship and publisher were cross-checked against the Penn Online Books catalog record.",
+      "limitations": "Does not establish the wording or argument on the cited pages of Kyburg's book. The article therefore identifies the 1961 book as the commonly cited published presentation based on Wheeler and bibliographic sources, and does not quote the original."
+    },
+    {
+      "title": "Probability and the Logic of Rational Belief (catalog record)",
+      "author": "Penn Online Books Page; catalog record edited by John Mark Ockerbloom",
+      "publication": "The Online Books Page, University of Pennsylvania Libraries; bibliographic record inspected 2026-11-01.",
+      "stable_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp99549",
+      "source_type": "Library/curated bibliographic catalog, not the primary work",
+      "access_level": "Bibliographic record only.",
+      "exact_locations_read": "Record fields Title, Author (Henry Ely Kyburg), publication note (Middletown, CT: Wesleyan University Press, c1961), and link to HathiTrust page images.",
+      "limitations": "Catalog metadata only; it does not establish the content or argument of the book."
+    },
+    {
+      "title": "Matching Lottery Paradox data record and proposed patch",
+      "author": "Project data record and local review patch; no external author",
+      "publication": "Local data/experiments.json object with id lottery-paradox and proposed source-review-batch16-item-lottery-paradox-data-patch.json; inspected after article revision on 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record and proposed local patch, not an external source",
+      "access_level": "The matching dataset object was inspected read-only; the proposed patch and revised article were inspected locally.",
+      "exact_locations_read": "The current dataset record's id, date_verified, and existing reference; revised article §9's four Further Reading URLs; proposed patch's id, date_verified, and four reference URLs. Their URL order and spelling were compared programmatically.",
+      "limitations": "Metadata reconciliation only. The proposed patch is not applied to data/experiments.json and does not establish any philosophical claim."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "In a fair finite lottery with exactly one winner, each individual ticket-loss proposition can be assigned a probability above any fixed threshold below certainty by making the number of tickets large enough; under a simple Lockean rule, each such proposition then qualifies for full belief.",
+      "source_title": "Formal Representations of Belief; Epistemic Paradoxes; A Review of the Lottery Paradox",
+      "source_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+      "exact_location": "Genin and Huber, §4.2.2, paragraph beginning “The strong Lockean thesis gives rise to the well-known Lottery paradox”; Sorensen, §3, 100-ticket and .99 example; Wheeler, printed p. 1, fair 1,000-ticket and .99 example.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support the standard threshold setup. The revised article states the generalized finite-N form rather than implying that every merely high probability warrants belief in every theory.",
+      "limitation": "The probability inference presupposes a fair lottery with exactly one winner and a specified full-belief threshold rule; the ticket count is illustrative, not asserted to reproduce Kyburg's exact wording.",
+      "required_edit": "Made: replaced the unqualified claim that it simply seems rational to believe each ticket will lose with an explicit conditional on a fixed sub-certain probability threshold."
+    },
+    {
+      "material_claim": "Combining threshold-licensed beliefs in every ticket's loss with conjunction closure and belief that exactly one ticket wins generates a conflict; rational beliefs may be jointly inconsistent without the agent thereby believing an explicit contradiction, depending on which principles are retained.",
+      "source_title": "Epistemic Paradoxes; Formal Representations of Belief; A Review of the Lottery Paradox",
+      "source_url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+      "exact_location": "Sorensen, §3, numbered agglomeration derivation and paragraph distinguishing belief in a contradiction from joint inconsistency; Genin and Huber, §4.2.2, threshold/conjunction paragraph; Wheeler, printed pp. 1–2, setup and §1.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources establish the tension and show that the exact conclusion depends on the principles being combined. The article now says the beliefs are jointly inconsistent and avoids saying that the agent automatically believes a contradiction.",
+      "limitation": "The argument is a formal/philosophical pressure on a package of norms, not a proof that one particular norm must be rejected in all accounts of belief.",
+      "required_edit": "Made: explicitly named probability, conjunction closure, and consistency as the tension; corrected “led to believe a contradiction” to “beliefs are jointly inconsistent.”"
+    },
+    {
+      "material_claim": "Kyburg is associated with rejecting conjunction closure, while other approaches reject or qualify a simple high-probability-to-full-belief rule; the article should not present one response or taxonomy as standard or settled.",
+      "source_title": "Formal Representations of Belief; Epistemic Paradoxes; A Review of the Lottery Paradox",
+      "source_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+      "exact_location": "Genin and Huber, §4.2.2, paragraphs on Kyburg's response, those who find the strong Lockean thesis untenable, and proposals adding defeating conditions; Sorensen, §3, dilemma and characterization of Kyburg; Wheeler, printed pp. 1–2, §1, discussion of disagreement about rational acceptance and competing diagnoses.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources document distinct responses and continuing disagreement. The revised article gives examples as non-exhaustive families and does not call any one solution standard.",
+      "limitation": "The sources reviewed are not an exhaustive survey of every contemporary response; the article's “no single agreed resolution” is limited to the fact that the consulted accounts describe distinct positions and diagnoses.",
+      "required_edit": "Made: removed the unsupported threshold-to-certainty/credence-first/knowledge-first list and replaced it with a cautious, non-exhaustive summary grounded in the SEP and Wheeler."
+    },
+    {
+      "material_claim": "The lottery paradox raises a related question about whether statistical evidence can support knowledge, but the argument itself does not settle that question or establish that probabilistic reasoning generally is unreliable.",
+      "source_title": "A Review of the Lottery Paradox; Epistemic Paradoxes",
+      "source_url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+      "exact_location": "Wheeler, printed p. 19, §3.1, discussion distinguishing statistical evidence as a basis for rational belief from its sufficiency for knowledge and presenting Dana Nelkin's contrary view; Sorensen, §3, explanation of the lottery argument and its assumptions.",
+      "relationship": "supports_with_qualification",
+      "finding": "Wheeler explicitly distinguishes the knowledge question from rational belief and presents disagreement about statistical evidence. The article now marks knowledge as a related debate rather than an inference established by the paradox.",
+      "limitation": "Wheeler's account is one analysis of a contested issue; no psychological survey supports a claim about what “most people feel,” so that claim was removed.",
+      "required_edit": "Made: removed the generalization about what most people feel and the inference that the scenario by itself shows knowledge requires more than high probability."
+    },
+    {
+      "material_claim": "The preface paradox is associated with D. C. Makinson (1965), drawing on Raymond Wilder's preface; it parallels conjunction pressure but does not rely on a lottery or probabilistic acceptance rule.",
+      "source_title": "Epistemic Paradoxes; A Review of the Lottery Paradox",
+      "source_url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+      "exact_location": "Sorensen, §4, opening paragraphs on Wilder's preface and Makinson (1965), and the paragraph stating that the preface paradox does not rely on a probabilistic acceptance rule; bibliography entry for Makinson 1965. Wheeler, printed p. 2, footnote 2, on the relation and differences between lottery and preface paradoxes.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP source directly supports the attribution and the distinction. The article describes the preface case as related but distinct rather than as a lottery variation.",
+      "limitation": "Makinson's and Wilder's original texts were not directly consulted; this is a secondary-source attribution.",
+      "required_edit": "Made: retained the attribution but made its evidential basis explicit and described the preface case as distinct from the lottery argument."
+    },
+    {
+      "material_claim": "Kyburg's book is bibliographically dated 1961 as the commonly cited first published statement, with an earlier conference formulation and a 1963 publication reported by Wheeler; the article does not claim direct verification of the primary passage.",
+      "source_title": "Probability and the Logic of Rational Belief; A Review of the Lottery Paradox; Formal Representations of Belief; Penn Online Books catalog record",
+      "source_url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+      "exact_location": "Wheeler, printed p. 1, footnote 1, on the 1961 book, earlier 1959/60 conference formulation, and 1963 publication; Genin and Huber, §4.2.2, attribution to Kyburg (1961); archive item metadata; Penn Online Books record Title, Author, and publication note.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support the 1961 bibliographic identification while Wheeler's note adds a relevant earlier formulation/publication qualification. The primary book scan is access-restricted, so the article does not quote its argument pages or claim direct primary-text verification.",
+      "limitation": "The actual book passage was not accessed; the exact original wording and full publication history were not independently checked in the primary materials.",
+      "required_edit": "Made: the attribution section records the restricted primary access and Wheeler's qualification; added a clearly labeled access-restricted catalog link rather than presenting it as text consulted."
+    },
+    {
+      "material_claim": "Ticket-count scaling preserves the threshold tension for any fixed threshold below certainty if the other assumptions are retained; modern questions and comparisons are editorial framing, not attributed historical claims.",
+      "source_title": "Formal Representations of Belief; Revised article framing",
+      "source_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+      "exact_location": "Genin and Huber, §4.2.2, construction of N large enough that 1−1/N meets a sub-certain threshold; article §§6–7 for teaching questions and scaling statement.",
+      "relationship": "context_only",
+      "finding": "The scaling statement follows directly from the described finite-lottery construction and is explicitly conditional on a fixed threshold below certainty and the other premises. The prompts are editorial, not claims about what historical authors said.",
+      "limitation": "The prompts are not separately validated as empirical claims about ordinary people's judgments; the article asks questions rather than asserting those judgments as fact.",
+      "required_edit": "Made: qualified the ticket-count statement with the fixed sub-certain threshold and retained the questions as editorial prompts."
+    },
+    {
+      "material_claim": "The matching article and proposed data patch carry the same four Further Reading URLs in the same order, and the patch sets date_verified to 2026-11-01; no change to the dataset file is part of this audit.",
+      "source_title": "Matching Lottery Paradox data record and proposed patch",
+      "source_url": null,
+      "exact_location": "Revised article §9; local research/source-review-batch16-item-lottery-paradox-data-patch.json; current data/experiments.json object with id lottery-paradox inspected read-only.",
+      "relationship": "supports",
+      "finding": "The four URLs were compared programmatically and match in order. The current dataset record had date_verified 2026-10-31 and one SEP reference; the proposed local patch sets the date to 2026-11-01 and contains the revised article's four references. The data file was not edited.",
+      "limitation": "This verifies only local metadata consistency. The patch is proposed and must be applied separately if approved.",
+      "required_edit": "Made: created the permitted patch file; did not edit data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "The primary book's argument pages were not read because the Internet Archive item is access-restricted; the exact original wording and primary-text presentation remain unchecked.",
+    "The review consulted selected passages from two scholarly reference entries and one scholarly chapter, not an exhaustive literature review; competing theories and interpretations remain open.",
+    "Makinson's and Wilder's original texts were not consulted; their attribution and relation are reported from Sorensen's secondary account.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

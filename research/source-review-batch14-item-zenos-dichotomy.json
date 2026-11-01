@@ -1,0 +1,162 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "zenos-dichotomy",
+  "title": "Zeno’s Dichotomy",
+  "article_path": "experiments/logic/zenos-dichotomy.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset metadata. Checked the ancient setup and its mediation through Aristotle; the article’s modern reconstruction and treatment of its subdivisions; the distinction between convergence of a geometric series, Aristotle’s potential-infinity account, and the separate supertask question; the stated regressive and Thomson’s-lamp parallels; the physical-discreteness qualification; and date/reference metadata. The status records traceability to consulted passages, not a settled interpretation of Zeno or Aristotle, exhaustive history of scholarship, proof that the mathematical continuum describes physical reality, or expert review.",
+  "summary": "The revised entry explicitly labels the familiar stage-by-stage scenario as a teaching reconstruction rather than Zeno’s surviving wording, and identifies Aristotle’s report as later testimony. It distinguishes the modern geometric-series calculation from Aristotle’s ancient treatment of potential infinity and from the separate question of whether supertasks can be completed. Aristotle’s response is described through Huggett’s modern reconstruction with its limitations stated; the lamp and regressive variants are identified as later, related discussions rather than interchangeable versions of Zeno’s text. Further Reading now includes the relevant SEP entries and primary Aristotle passages, and the proposed patch aligns to those links.",
+  "sources": [
+    {
+      "title": "Zeno’s Paradoxes",
+      "author": "Nick Huggett",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2002, substantive revision 2024; §§1.1–1.2, 3.1, and 5.",
+      "stable_url": "https://plato.stanford.edu/entries/paradox-zeno/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections of the current full online entry were read; the entire entry was not read.",
+      "exact_locations_read": "Entry introduction on the lost Zeno book and second-hand/paraphrased transmission. §3.1, ‘The Dichotomy’: Aristotle’s half-way report at Physics 239b11; modern reconstruction of the successive halves; continuous-run versus actual/discontinuous subdivisions; Aristotle’s response and its interpretive difficulties. §1.2 on received mathematical resolutions and their application to physical space and time. §5, ‘Applying the Mathematical Continuum to Physical Space and Time,’ on the contingent physical application of the continuum and alternatives.",
+      "limitations": "A scholarly secondary account, not Zeno’s text. Huggett presents an interpretation of Aristotle and flags difficulties in it; that reading is not treated as the only possible interpretation. Its overview does not constitute an exhaustive review of mathematical or ancient scholarship."
+    },
+    {
+      "title": "Physics, Book VI, Chapter 9",
+      "author": "Aristotle",
+      "publication": "Physics VI.9; English translation by R. P. Hardie and R. K. Gaye, Logos Virtual Library transcription.",
+      "stable_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "source_type": "Primary ancient text / later testimony about Zeno",
+      "access_level": "The selected chapter passage was read directly in the online translation; the complete Physics was not read.",
+      "exact_locations_read": "Book VI, Chapter 9: Aristotle’s statement that the first argument asserts non-existence of motion because the mover must arrive at the halfway stage before the goal; the following passage identifies this as one of Zeno’s arguments about motion and distinguishes it from Achilles.",
+      "limitations": "Aristotle is an ancient witness and respondent, not Zeno’s own surviving text. The argument is transmitted in report/paraphrase. Only this chapter passage was read."
+    },
+    {
+      "title": "Physics, Book VI",
+      "author": "Aristotle",
+      "publication": "Physics VI.9; English translation by R. P. Hardie and R. K. Gaye, MIT Internet Classics Archive. The consulted page gives ‘Written 350 B.C.E.’ and does not state a separate translation publication date.",
+      "stable_url": "https://classics.mit.edu/Aristotle/physics.6.vi.html",
+      "source_type": "Primary ancient text / later testimony about Zeno",
+      "access_level": "Selected passages in the online English translation were read; the complete Physics was not read.",
+      "exact_locations_read": "Book VI.9: Aristotle’s report that the first argument denies motion because the moving body must reach the halfway stage before the goal (Bekker 239b11, as cited in Huggett); and the passage beginning ‘Hence Zeno’s argument makes a false assumption’ concerning passing infinitely divisible magnitudes in an infinitely divisible time. The chapter’s distinction between infinite divisibility and quantitative infinity was read in the MIT translation.",
+      "limitations": "Aristotle is an ancient witness and respondent, not Zeno’s own surviving text. The argument is transmitted in report/paraphrase. The translation is Hardie and Gaye’s; only the relevant online passages were consulted."
+    },
+    {
+      "title": "Physics, Book III",
+      "author": "Aristotle",
+      "publication": "Physics III.6; English translation by R. P. Hardie and R. K. Gaye, MIT Internet Classics Archive. The consulted page gives ‘Written 350 B.C.E.’ and does not state a separate translation publication date.",
+      "stable_url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+      "source_type": "Primary ancient philosophical text",
+      "access_level": "Selected passage in the online English translation was read; the complete Physics was not read.",
+      "exact_locations_read": "Book III.6, discussion of magnitude as infinite by division and the infinite as having potential rather than an independent actual existence; the passage says there will not be an actual infinite and describes the infinite as one finite part being taken after another.",
+      "limitations": "This establishes Aristotle’s account of infinity, not by itself how he applies it to each detail of the Dichotomy. The article’s linkage to the Dichotomy is also checked against Physics VI.9 and Huggett §3.1. Only the relevant passage was consulted."
+    },
+    {
+      "title": "Supertasks",
+      "author": "J. B. Manchak and Bryan W. Roberts",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2016, substantive revision 2022; §§1.1–1.2.",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections of the current full online entry were read; the entire entry was not read.",
+      "exact_locations_read": "§1.1, ‘Missing final and initial steps: The Zeno walk’: forward and regressive Dichotomy formulations, geometric-series convergence in the standard real topology, and the distinction between meanings of ‘complete.’ §1.2, Thomson’s lamp discussion: infinitely many discrete switchings, possible completions, and the regressive lamp variation.",
+      "limitations": "A secondary reference synthesis of a disputed philosophical topic. It documents competing accounts and does not establish that every supertask is physically possible or that Thomson’s lamp is the same argument as Zeno’s Dichotomy."
+    },
+    {
+      "title": "Matching Zeno’s Dichotomy dataset record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id zenos-dichotomy; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object inspected; proposed patch compared with revised article after edits.",
+      "exact_locations_read": "Matching id, date_verified value, and references array compared with the revised article’s §9 Further Reading URLs and their order.",
+      "limitations": "Metadata reconciliation only; it does not establish historical or mathematical claims. The dataset itself remains unchanged."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The Dichotomy is known through later testimony, and its familiar halfway/quarter sequence is a reconstruction rather than Zeno’s surviving wording.",
+      "source_title": "Physics, Book VI, Chapter 9; Zeno’s Paradoxes",
+      "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "exact_location": "Aristotle, Physics VI.9, passage reporting that the first argument says the mover must reach halfway before the goal; compare Huggett §3.1, which cites 239b11 and supplies the successive-halves reconstruction. Huggett’s entry introduction notes that Zeno’s book is lost and that the arguments are known second-hand, often in paraphrase.",
+      "relationship": "supports_with_qualification",
+      "finding": "Aristotle’s report supports the half-way attribution. The SEP supplies the successive subdivisions as a modern explanatory reconstruction. The revised article labels it accordingly and does not quote it as Zeno’s words.",
+      "limitation": "The primary passage is Aristotle’s report and answer, not direct access to Zeno’s lost book; details of the familiar step-by-step reconstruction are mediated by scholarship.",
+      "required_edit": "Made: label the scenario as a teaching reconstruction and attribute the surviving half-way report to Aristotle."
+    },
+    {
+      "material_claim": "Under constant-speed assumptions, the successive time intervals form a convergent geometric series with a finite total, but this arithmetic fact does not alone settle the physical or metaphysical possibility of infinite tasks.",
+      "source_title": "Zeno’s Paradoxes; Supertasks",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "exact_location": "Manchak and Roberts, §1.1: the sum 1/2 + 1/4 + 1/8 + … converges to 1 in the standard real topology and discussion of ‘complete’; Huggett, §3.1, discussion of finite times for fractional distances and the remaining issue of infinite actions; Huggett §5, application of mathematical continuum to physical space and time.",
+      "relationship": "supports_with_qualification",
+      "finding": "The series reply is valid in the stated mathematical model. The sources distinguish its mathematical result from whether the series accurately represents physical motion and from whether an infinite sequence of actions is completed.",
+      "limitation": "The article gives the constant-speed model and convergence result at a teaching level; it is not a full proof of convergence or an exhaustive survey of physical theories.",
+      "required_edit": "Made: state the constant-speed assumption and separate finite-sum arithmetic from supertask and physical-model questions."
+    },
+    {
+      "material_claim": "Aristotle’s potential-infinity account and response in Physics VI.9 are distinct from the modern convergent-series response, and a modern reconstruction of his reply is not uncontested or necessarily complete.",
+      "source_title": "Physics, Book III; Physics, Book VI; Zeno’s Paradoxes",
+      "source_url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+      "exact_location": "Physics III.6, passage on the infinite by division and potential existence; Physics VI.9, passage beginning ‘Hence Zeno’s argument makes a false assumption’; Huggett, §3.1, section on Aristotle’s response, continuous versus actually segmented runs, and stated interpretive difficulties.",
+      "relationship": "supports_with_qualification",
+      "finding": "The ancient text supports the potential-infinity characterization and Aristotle’s appeal to time’s divisibility. Huggett presents the distinction between a continuous potentially divisible run and actual discontinuous half-runs as a modern reconstruction, while noting concerns about whether it fully answers the puzzle. The article preserves that qualification and does not attribute modern series summation to Aristotle.",
+      "limitation": "The source evidence does not settle the interpretation of Aristotle’s reply; the modern scholarly reconstruction is explicitly attributed to Huggett rather than presented as consensus.",
+      "required_edit": "Made: distinguish Aristotle’s account from modern convergence and explicitly mark Huggett’s reconstruction and its limits."
+    },
+    {
+      "material_claim": "Supertask discussions ask whether infinitely many acts can be completed, and Thomson’s lamp is a related but distinct later case involving discrete switches.",
+      "source_title": "Supertasks; Zeno’s Paradoxes",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "exact_location": "Manchak and Roberts, §§1.1–1.2: the Zeno walk, alternative senses of completion, Thomson’s lamp as infinitely many switchings, and the regressive lamp; Huggett, §3.1, supertask question following Aristotle’s response.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP treatment connects the cases while distinguishing continuous Zeno motion from discrete switching tasks. The article calls the lamp related but distinct and does not imply its answer resolves the Dichotomy.",
+      "limitation": "The possibility and interpretation of supertasks remain disputed; this audit does not adjudicate that debate or claim Thomson’s example was an ancient variation.",
+      "required_edit": "Made: clarify the lamp is a later related thought experiment and the regressive version is a later formulation."
+    },
+    {
+      "material_claim": "A discrete-spacetime proposal changes the physical infinite-divisibility premise and is not implied by the convergent-series calculation.",
+      "source_title": "Zeno’s Paradoxes",
+      "source_url": "https://plato.stanford.edu/entries/paradox-zeno/",
+      "exact_location": "Huggett, §5, ‘Applying the Mathematical Continuum to Physical Space and Time’: the distinction between pure mathematical resolution and its contingent application to physical reality, with discussion of non-continuum possibilities.",
+      "relationship": "context_only",
+      "finding": "The source contextualizes the difference between a mathematical model and claims about physical space/time. The article frames discreteness as a separate physical hypothesis rather than a mathematical consequence.",
+      "limitation": "This is context about physical modeling, not evidence that actual spacetime is discrete or that discreteness solves all versions of the Dichotomy.",
+      "required_edit": "Made: qualify the discrete-space/time option as a separate physical-model hypothesis."
+    },
+    {
+      "material_claim": "The regressive version has no initial step in the backwards sequence; its relationship to Thomson’s lamp is a later supertask comparison, not an attribution to Zeno.",
+      "source_title": "Supertasks",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "exact_location": "Manchak and Roberts, §1.1 on the regressive Zeno walk and §1.2 on the regressive Thomson lamp and infinite switchings.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source directly discusses the regressive formulation and lamp comparison. The revised wording describes them as later related formulations and distinguishes the continuous walk from discrete switching.",
+      "limitation": "The consulted reference does not establish the regressive formulation as Zeno’s original wording.",
+      "required_edit": "Made: identify the backward formulation as a later variation and the lamp as related but distinct."
+    },
+    {
+      "material_claim": "The revised article’s bibliography references and verification date are reconciled with the proposed local patch and matching dataset entry.",
+      "source_title": "Matching Zeno’s Dichotomy dataset record",
+      "source_url": null,
+      "exact_location": "The existing data/experiments.json object for id zenos-dichotomy was inspected; its id and prior date_verified were reconciled with the proposed patch. The patch’s references array was compared with the revised article’s §9 Further Reading URLs and their order.",
+      "relationship": "supports",
+      "finding": "The existing record has the matching id and a prior verification date of 2026-10-31. The proposed patch updates date_verified to 2026-11-01; its four reference URLs match the revised Further Reading URLs exactly and in the same order. The dataset itself was not edited.",
+      "limitation": "Metadata reconciliation only; the patch is a local proposal, not a change to data/experiments.json.",
+      "required_edit": "Made: provide a patch containing the aligned date and references while leaving the dataset unchanged."
+    },
+    {
+      "material_claim": "The walking-room scenario and associated prompts are editorial teaching framing rather than historical details attributed to Zeno.",
+      "source_title": "Revised article framing; Zeno’s Paradoxes",
+      "source_url": null,
+      "exact_location": "Revised article §§1, 6, 7, and 10; compare Huggett §3.1’s distinct Atalanta reconstruction.",
+      "relationship": "context_only",
+      "finding": "The revised article explicitly labels its walking scenario as a teaching reconstruction and the lamp as a later related question. These are editorial explanations, not assertions about Zeno’s exact wording.",
+      "limitation": "Editorial framing does not require historical corroboration; the underlying historical report is separately sourced.",
+      "required_edit": "Made: explicitly label the reconstruction and educational comparisons."
+    }
+  ],
+  "unresolved_limits": [
+    "Zeno’s own book is lost; the ancient evidence is mediated through Aristotle and later witnesses, and the familiar scenario remains a reconstruction.",
+    "Huggett’s interpretation of Aristotle’s potential/actual distinction is one scholarly reconstruction; the audit does not resolve its adequacy or provide an exhaustive history of interpretations.",
+    "The convergent-series calculation establishes a finite total within standard real analysis and its stated assumptions, not that this model fully describes physical space and time.",
+    "Whether an infinite sequence of discrete acts can be completed, and how to interpret Thomson’s lamp, remain open philosophical questions; no expert review is claimed.",
+    "The local data patch is proposed only; data/experiments.json remains unchanged."
+  ]
+}

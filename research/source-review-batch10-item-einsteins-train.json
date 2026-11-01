@@ -1,0 +1,170 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved local source-review protocol, 2026-11-01)",
+  "id": "einsteins-train",
+  "title": "Einstein’s Train and the Relativity of Simultaneity",
+  "article_path": "experiments/physics/einsteins-train.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and its matching data/experiments.json record. Focus: historical attribution and publication of Einstein’s railway/flash exposition; the embankment midpoint’s equal-arrival criterion; the train observer’s earlier receipt of the B flash; the distinction between received-light arrival and frame-assigned emission time using synchronized clocks; the standard light-speed and inertial-frame assumptions; which event orderings may change between frames and which causal orderings are invariant; the connection to other special-relativistic effects; and the article’s summaries of conventionalist, Lorentzian, and metaphysical interpretations. The sources were consulted for the stated claims, not to establish that Einstein’s argument proves every philosophical conclusion, that one interpretation is consensus, or that the literature review is exhaustive.",
+  "summary": "The relevant full-text passages in Einstein’s 1920 Lawson English translation of Relativity, §§VIII–IX, were accessed and read, including the midpoint light-arrival setup and the train-frame conclusion. Einstein’s 1905 paper was also read in the accessible Perrett–Jeffery English translation, §§1–2, for the definition of distant simultaneity by synchronized clocks and its frame dependence. OpenStax §5.5 and Einstein Online clarify why arrival-time observations must be distinguished from frame-based emission-time assignments and why only spacelike-separated event order may vary while causal order is invariant. The consulted SEP entries support a careful description of the continuing conventionality debate, Lorentzian interpretations, and philosophical disagreement about an objective present. The article now distinguishes received signals from coordinate assignments, qualifies the relationship to time dilation and the twin paradox, and records its source passage access. The matching dataset record was synchronized after the audit: date_verified is 2026-11-01 and its six references now match the article’s Further Reading URLs.",
+  "sources": [
+    {
+      "title": "Relativity: The Special and General Theory",
+      "author": "Albert Einstein; translated by Robert W. Lawson",
+      "publication": "English edition published by Methuen & Co Ltd in 1920; German original published in 1916. Project Gutenberg ebook 5001 metadata identifies the translator and English publication details.",
+      "stable_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm",
+      "source_type": "Primary author exposition; English translation of a popular scientific work",
+      "access_level": "Relevant passages in the accessible full text were retrieved and read; the entire book was not read cover to cover.",
+      "exact_locations_read": "Part I, §VIII, ‘On the Idea of Time in Physics’: the proposed observer at midpoint M and the claim that equal-time reception can define simultaneous lightning events in this setup. Part I, §IX, ‘The Relativity of Simultaneity’: description of the embankment and train frames; the train midpoint M′ coincident with M when the strikes occur; receipt of the B signal before the A signal; Einstein’s conclusion that the strikes are not simultaneous relative to the train; and the statement that each reference body has its own time. Gutenberg ebook metadata page https://www.gutenberg.org/ebooks/5001 was read for the translator and 1920 English publication record.",
+      "limitations": "The consulted text is Lawson’s 1920 English translation, not the 1916 German edition. The relevant sections, not the whole book, were read. Einstein’s popular exposition establishes what he argued, not that every philosophical inference follows from it."
+    },
+    {
+      "title": "On the Electrodynamics of Moving Bodies",
+      "author": "Albert Einstein",
+      "publication": "Original paper, ‘Zur Elektrodynamik bewegter Körper,’ Annalen der Physik 17 (1905): 891–921; consulted in an electronic version based on W. Perrett and G. B. Jeffery’s 1923 English translation, with editorial notes and corrections by John Walker.",
+      "stable_url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+      "source_type": "Primary scientific paper in English translation / edited electronic transcription",
+      "access_level": "Selected relevant sections of the complete accessible text were read; not the entire paper’s mathematical derivations.",
+      "exact_locations_read": "§1, ‘Definition of Simultaneity’: Einstein’s explanation that a local clock cannot alone compare distant event times, his light-signal synchronization rule for clocks at A and B, and his definition of an event’s time by the local synchronized clock. §2, ‘On the Relativity of Lengths and Times’: the two postulates and the conclusion that events simultaneous in one coordinate system need not be simultaneous in a relatively moving system. Edition notes and ‘About this Edition’ were read for translation basis and editorial caveats.",
+      "limitations": "The consulted English text is not a facsimile of Einstein’s German manuscript or the original 1905 printing; the site identifies it as based on the 1923 Perrett–Jeffery translation and notes editorial corrections. It supports the primary argument and terminology, not a claim that all later philosophical interpretations are settled."
+    },
+    {
+      "title": "Conventionality of Simultaneity",
+      "author": "Allen Janis",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2018 edition; first published 1998, last modified 18 September 2018; Edward N. Zalta, editor.",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-convensimul/",
+      "source_type": "Scholarly reference work / secondary philosophical analysis",
+      "access_level": "Relevant passages in the accessible entry were retrieved and read; not every note and bibliography item was consulted. Official author-and-citation metadata was checked.",
+      "exact_locations_read": "§1, ‘The Conventionality Thesis,’ especially the standard light-synchrony definition, Reichenbach’s epsilon alternatives, and the positions of Reichenbach and Grünbaum; §2, ‘Phenomenological Counterarguments,’ including Salmon, Janis, and Norton; §3, ‘Malament’s Theorem,’ including Malament’s stated conditions and the disagreements of Grünbaum, Redhead, and others; and §4, ‘Other Considerations,’ for the bounded causal-speed context. Official SEP citation information confirms Janis’s authorship and the Fall 2018 edition.",
+      "limitations": "This reference summarizes an ongoing philosophical debate; it is not evidence that one side is consensus. The article’s wording is deliberately qualified and does not equate conventionality of clock synchronization within a frame with the standard relativity-of-simultaneity comparison between inertial frames."
+    },
+    {
+      "title": "The Lorentz Transformation",
+      "author": "OpenStax; University Physics Volume 3 authors",
+      "publication": "University Physics Volume 3, §5.5, OpenStax, first published 2016.",
+      "stable_url": "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+      "source_type": "Open university physics textbook / secondary technical exposition",
+      "access_level": "Relevant passages in the full accessible section were retrieved and read.",
+      "exact_locations_read": "§5.5 subsections ‘Space-time’ and ‘Simultaneity’: the textbook explicitly distinguishes the time interval between lamp-emission events from the passenger’s signal-arrival times; revisits the train example in ground and train frames; and explains that spacelike-separated events can change temporal order between frames while timelike event order is invariant. The twin-paradox discussion in the same section distinguishes the worldlines and proper times of the twins.",
+      "limitations": "Educational textbook treatment, not a primary historical source or specialist philosophical analysis. It is used for the standard technical distinctions and does not establish a philosophical interpretation of time."
+    },
+    {
+      "title": "The definition of ‘now’",
+      "author": "Markus Pössel",
+      "publication": "Einstein Online, provided by the Max Planck Institute for Gravitational Physics (Albert Einstein Institute); online educational article, publication date not stated on the accessed page.",
+      "stable_url": "https://www.einstein-online.info/en/spotlight/Now/",
+      "source_type": "Institutional physics education resource / secondary technical explanation",
+      "access_level": "The complete relevant page text was retrieved and read.",
+      "exact_locations_read": "Sections ‘Using light to synchronize clocks’ and ‘Simultaneity: A matter of definition’: explains that apparent simultaneous clock displays in an image may reflect unequal signal travel times; explains the midpoint-camera argument and the need to define one-way synchronization; and states that standard simultaneity depends on the chosen frame. Author and hosting institution are identified in the page colophon.",
+      "limitations": "An accessible educational explanation, not Einstein’s source text. Its discussion supports the distinction between optical appearance and frame-defined simultaneity but is not treated as an exhaustive account of synchronization conventions."
+    },
+    {
+      "title": "Space and Time: Inertial Frames",
+      "author": "Robert DiSalle",
+      "publication": "The Stanford Encyclopedia of Philosophy, Winter 2020 edition; first published 2002, last modified 10 November 2020; Edward N. Zalta, editor.",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-iframes/",
+      "source_type": "Scholarly reference work / secondary history and philosophy of physics analysis",
+      "access_level": "Relevant passages in the accessible entry were retrieved and read; official author-and-citation metadata was checked.",
+      "exact_locations_read": "§2.4, ‘Simultaneity and reference-frames’: discussion of Lorentzian and Einsteinian accounts, a posited privileged frame, and the empirical indistinguishability of the frames described. Relevant discussion of Minkowski spacetime and frame-dependent simultaneity was also read. Official SEP citation information confirms author and edition.",
+      "limitations": "The entry presents interpretive alternatives and methodological discussion; it does not establish that a preferred frame exists. The article therefore describes Lorentzian interpretations as an available interpretation, not as a measured physical frame."
+    },
+    {
+      "title": "Being and Becoming in Modern Physics",
+      "author": "Steven Savitt, Natalja Deng, and Oliver Pooley",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 edition; first published 2001, last modified 20 September 2024; Edward N. Zalta and Uri Nodelman, editors.",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-bebecome/",
+      "source_type": "Scholarly reference work / secondary philosophical analysis",
+      "access_level": "Relevant passages in the accessible entry were retrieved and read; official author-and-citation metadata was checked.",
+      "exact_locations_read": "§3, ‘The Special Theory of Relativity’: frame-dependent simultaneity and its bearing on presentism/possibilism; discussion of Rietdijk, Putnam, Penrose, and the Andromeda example; and the alternative treatment associated with Stein. Official SEP citation information confirms listed authors and the Fall 2024 version.",
+      "limitations": "The entry presents several philosophical responses rather than a settled consensus. The article confines its claim to the existence of disagreement and does not claim that relativity alone resolves the metaphysics of the present."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Einstein’s popular railway-and-lightning explanation appears in his book originally published in German in 1916 and translated into English by Robert W. Lawson for the 1920 Methuen edition; the train passage is his exposition rather than a report of a performed experiment.",
+      "source_title": "Relativity: The Special and General Theory; Project Gutenberg catalog record",
+      "source_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm; https://www.gutenberg.org/ebooks/5001",
+      "exact_location": "Book §§VIII–IX; Gutenberg ebook metadata for translator and 1920 English publication, with its book summary identifying the German work as published in 1916.",
+      "relationship": "supports_with_qualification",
+      "finding": "The text itself presents the embankment and train cases as explanatory constructions; Gutenberg metadata identifies Lawson and the 1920 English edition. The German 1916 date is noted in the catalog summary. The article accurately marks the thought experiment as not a record of an experiment performed.",
+      "limitation": "The German first-edition title page was not separately consulted; the 1916 date was checked in the Gutenberg catalog summary rather than a facsimile of the German edition.",
+      "required_edit": "Made: retained the historical period and identified the accessed English translation and exact sections in the article’s source-access note."
+    },
+    {
+      "material_claim": "In Einstein’s exposition, equal arrival at the embankment midpoint is used as the operational criterion for simultaneous strikes in the embankment frame, under the stated equal-distance and light-synchronization assumptions; this observation is not by itself a frame-neutral determination of remote event times.",
+      "source_title": "Relativity: The Special and General Theory; On the Electrodynamics of Moving Bodies; The definition of ‘now’",
+      "source_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm; https://www.fourmilab.ch/etexts/einstein/specrel/www/; https://www.einstein-online.info/en/spotlight/Now/",
+      "exact_location": "Einstein 1920, §VIII; Einstein 1905, §1, synchronization rule; Pössel, ‘Using light to synchronize clocks’ and ‘Simultaneity: A matter of definition.’",
+      "relationship": "supports_with_qualification",
+      "finding": "Einstein’s §VIII proposes midpoint arrival as the criterion in that setup; his 1905 §1 formalizes distant-time comparison through a specified synchronized-clock procedure. Pössel clarifies that equality of observed arrival alone is insufficient without the frame’s distance and light-propagation assumptions. The revised article makes these assumptions explicit.",
+      "limitation": "Einstein’s popular presentation initially frames the criterion operationally; the 1905 source and modern source clarify the synchronization structure. This review does not assert that every possible one-way synchronization convention is empirically distinguishable.",
+      "required_edit": "Made: changed the unqualified ‘sees both and concludes’ wording to identify the frame, midpoint, standard synchronization, and limits of raw arrival evidence."
+    },
+    {
+      "material_claim": "The train observer, level with the embankment midpoint at the strikes, receives the B signal before A; with clocks synchronized in the train frame using Einstein’s standard procedure, the B strike receives an earlier train-frame time assignment.",
+      "source_title": "Relativity: The Special and General Theory; On the Electrodynamics of Moving Bodies; The Lorentz Transformation",
+      "source_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm; https://www.fourmilab.ch/etexts/einstein/specrel/www/; https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+      "exact_location": "Einstein 1920, §IX; Einstein 1905, §§1–2; OpenStax §5.5, ‘Simultaneity,’ including its explicit distinction between emission-event intervals and passenger arrival times.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary popular account states that the train observer encounters B’s signal first and concludes that B’s strike occurred earlier relative to the train. Einstein’s 1905 clock procedure and OpenStax show why this is a frame-specific time assignment and not an inference from uncorrected arrival times alone. The article now states both pieces separately.",
+      "limitation": "The result uses standard Einstein synchronization in inertial frames and the special-relativistic light-speed postulate. The clocks and signals in this pedagogical setup are idealized.",
+      "required_edit": "Made: explicitly distinguished the order of signal receipt from the train-frame assignment of emission-event times."
+    },
+    {
+      "material_claim": "Relativity of simultaneity is a frame-dependent coordinate result in special relativity; time dilation and length contraction are related consequences of the Lorentz transformations, while the twin paradox compares elapsed proper time along different worldlines and is not caused by simultaneity alone.",
+      "source_title": "On the Electrodynamics of Moving Bodies; The Lorentz Transformation",
+      "source_url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/; https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+      "exact_location": "Einstein 1905, §2; OpenStax §5.5 subsections ‘Space-time,’ ‘Simultaneity,’ and ‘The twin paradox seen in space-time.’",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support treating these as interconnected special-relativistic results, while OpenStax’s proper-time/worldline treatment shows why it is misleading to say that relativity of simultaneity alone ‘leads to’ the twin paradox. The revised article describes the relationship more precisely.",
+      "limitation": "This is a conceptual summary, not a derivation of the Lorentz transformation or a full analysis of the twin paradox.",
+      "required_edit": "Made: replaced the simple causal phrasing ‘leads to’ with a distinction among consequences of the same postulates and the separate proper-time comparison."
+    },
+    {
+      "material_claim": "In special relativity, event order can vary between inertial frames for spacelike-separated events, while all inertial frames preserve the order of events connected by a possible light-speed-or-slower causal influence.",
+      "source_title": "The Lorentz Transformation; Special relativity / Elementary Tour part 5: Spacetime; Being and Becoming in Modern Physics",
+      "source_url": "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation; https://www.einstein-online.info/en/spacetime/; https://plato.stanford.edu/entries/spacetime-bebecome/",
+      "exact_location": "OpenStax §5.5, light-cone discussion of timelike and spacelike separation; Einstein Online, paragraphs defining future/past light cones and causally separated events; Savitt et al., §3 discussion of frame changes for spacelike-separated events.",
+      "relationship": "supports",
+      "finding": "The sources explicitly distinguish invariant causal structure from frame-dependent time ordering outside the light cone. The article now specifies that the lightning events are spacelike-separated and qualifies ‘causally connected’ with the light-speed-or-slower condition.",
+      "limitation": "The article does not calculate the interval of the idealized strikes; the train/embankment geometry and standard relativity assumptions make them spacelike-separated in the described case.",
+      "required_edit": "Made: defined the relevant causal condition and identified why the lightning-strike order may differ between frames."
+    },
+    {
+      "material_claim": "The conventionality of distant clock synchronization is a debated philosophical thesis; Lorentzian interpretations can posit a preferred frame while remaining empirically indistinguishable from the standard special-relativistic account; philosophers disagree about what relativity of simultaneity entails for an objective present.",
+      "source_title": "Conventionality of Simultaneity; Space and Time: Inertial Frames; Being and Becoming in Modern Physics",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-convensimul/; https://plato.stanford.edu/entries/spacetime-iframes/; https://plato.stanford.edu/entries/spacetime-bebecome/",
+      "exact_location": "Janis, §§1–3 on standard synchrony and competing arguments; DiSalle, §2.4 on Lorentzian/Einsteinian accounts and empirical indistinguishability; Savitt, Deng, and Pooley, §3 on presentist, possibilist, and other responses to relativity of simultaneity.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support the article’s summary only when it is framed as a debate among interpretations, not a settled consensus. The article now says conventionality remains debated, describes a preferred frame as a Lorentzian interpretation rather than a result of special relativity, and states that the objective-present question is not settled by the kinematics alone.",
+      "limitation": "These are selective reference-work treatments of a broader philosophical literature. No claim of exhaustive survey or consensus is made.",
+      "required_edit": "Made: added qualifications about the scope of the conventionality thesis, the empirical status of a preferred-frame interpretation, and the unsettled metaphysical implications."
+    }
+  ],
+  "article_further_reading": [
+    "https://www.gutenberg.org/ebooks/5001",
+    "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+    "https://plato.stanford.edu/entries/spacetime-convensimul/",
+    "https://plato.stanford.edu/entries/spacetime-iframes/",
+    "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+    "https://plato.stanford.edu/entries/spacetime-bebecome/"
+  ],
+  "dataset_alignment": "The matching data record was updated after the audit to use date_verified 2026-11-01 and the same six Further Reading URLs as the article, with support descriptions aligned to each source. The audit agents did not make this shared-file edit; it was applied by the parent after review.",
+  "unresolved": [
+    "The original German 1916 title page was not independently consulted; the date was checked through the Project Gutenberg catalog summary, while the English Methuen 1920 translation and Robert W. Lawson attribution were checked in the catalog metadata.",
+    "The 1905 source was consulted in an electronic English translation based on Perrett and Jeffery’s 1923 translation, with editorial corrections; the original German printed paper was not separately accessed.",
+    "The philosophical literature on conventionality, Lorentzian interpretation, and the objective present is much larger than the selected SEP entries; the article gives a limited map, not a consensus report or exhaustive review.",
+    "The German 1916 title page was not independently consulted; the date was checked through the Project Gutenberg catalog summary."
+  ],
+  "required_edits": [
+    "Made: clarified the assumptions behind the embankment midpoint arrival criterion and that it is a frame-specific definition of distant simultaneity.",
+    "Made: distinguished the train observer’s first receipt of the B flash from the train-frame time assigned to the lightning emission events using synchronized clocks.",
+    "Made: qualified the relationship between relativity of simultaneity, time dilation, length contraction, and the twin paradox.",
+    "Made: specified that causal order is preserved for light-speed-or-slower connected events and that the train’s separated strike events are spacelike-separated.",
+    "Made: qualified conventionalist, Lorentzian, and objective-present summaries to reflect continuing interpretive disagreement and the limits of what the argument establishes.",
+    "Parent reconciliation: synchronized the corresponding data/experiments.json record to the article’s six Further Reading URLs and review date 2026-11-01.",
+    "Audit agents left data/experiments.json unchanged; parent reconciliation later synchronized the dataset record."
+  ],
+  "post_edit_review": "Independent read-only reviewer compared the revised article with Einstein, Relativity §§VIII–IX; Einstein’s 1905 paper §§1–2; OpenStax University Physics Vol. 3 §5.5; and the cited SEP discussions of conventionality, inertial frames, and being/becoming. The sources support the article’s distinctions between observed signal-arrival order and synchronized-clock time assignments, the frame-relative result, and the causal-order qualification; no substantive discrepancy was found. All six Further Reading URLs match the dataset references in the same order, and the record uses date_verified 2026-11-01. The 1916 German edition date rests on the Gutenberg summary, not a separately checked first-edition facsimile; the philosophical discussion is selective, not a consensus survey or expert review."
+}

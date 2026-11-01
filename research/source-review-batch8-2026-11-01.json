@@ -1,0 +1,625 @@
+{
+  "batch_id": "source-review-batch8-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; no new work committed or pushed. No merge or release.",
+  "reviewer_type": "Three AI-assisted claim-level audits with independent read-only post-edit reviews; no human expert review is claimed.",
+  "batch_scope": "Three risk-ranked unaudited entries: Pascal’s Wager; Kripke’s Quus; Newton’s Bucket.",
+  "selection_method": "Ranked by decision-theoretic and publication-history risk; contested attribution and interpretation risk in rule-following; and technical physics plus historical attribution risk in Newton’s bucket argument. Selection reasons and audit foci are recorded per item.",
+  "counts": {
+    "audited_entries_before_batch": 29,
+    "entries_in_batch": 3,
+    "audited_entries_after_batch": 32,
+    "total_expansion_entries": 57,
+    "expansion_entries_remaining_outside_claim_level_audits": 25,
+    "final_status_counts": {
+      "source_checked": 3,
+      "partially_source_checked": 0,
+      "needs_source_check": 0
+    }
+  },
+  "status_summary": "All three entries are source_checked for the material claim-to-source relationships in their declared scopes after edits and independent read-only post-edit reviews. The Quus reviewer’s initial material attribution finding was corrected, and the follow-up review passed. Source_checked records editorial traceability, not truth, philosophical or scientific soundness, consensus, exhaustive literature coverage, or expert review.",
+  "limits": [
+    "Pascal’s primary text was read in an English translation/reproduction; the French manuscript and a critical French edition were not consulted. Named objections and replies were checked through the SEP and IEP rather than by reading every underlying paper.",
+    "Kripke’s complete 1982 monograph was not accessed; a selected excerpt was read and triangulated against the SEP. Whether Kripke’s reconstruction captures Wittgenstein’s own position remains disputed.",
+    "Newton’s primary text was consulted in Motte’s English translation, not the 1687 Latin edition. Mach’s 1883 bucket passage was not directly retrieved; Newton’s connected-globes paragraph was not independently read, and whether Newton performed the described experiment remains unresolved.",
+    "No named human subject-matter expert reviewed this batch; no expert_reviewed status is claimed."
+  ],
+  "validation": {
+    "repository_validator": "PASS: 132 entries; dataset schema, article sections, metadata, references, README and local links checked.",
+    "unit_tests": "PASS: 18 tests.",
+    "git_diff_check": "PASS.",
+    "article_dataset_reference_alignment": "PASS: all Further Reading URL sets match the corresponding dataset records.",
+    "git_state": "Local-only, unstaged, uncommitted, unpushed; branch audit/source-review-high-risk remains at 0d26e66."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit review; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "pascals-wager",
+      "title": "Pascal’s Wager",
+      "article_path": "experiments/economics/pascals-wager.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the complete article, its matching dataset record, and the prior expansion/access note. Focus: the wager's exact payoff and forced-choice formulation in Pensées; the expected-utility inference and its assumptions; distinctions among belief, conduct, and inquiry; objections involving infinite utility, multiple religions, and doxastic control; named critics and replies; publication-history wording; and teaching framings. Source_checked records traceability of the revised article's material claims, not the truth or soundness of Pascal's argument, consensus, exhaustive literature coverage, or expert review.",
+      "summary": "The consulted Pensées translation directly supports the forced-choice language, the ‘gain all/lose nothing’ formulation, the finite stake versus eternal-life payoff claim, and Pascal's practical advice to act as if one believed and lessen passions; a nearby fragment separately urges searching for truth. The SEP sections read distinguish Pascal's prudential wager from proof, explain the positive-probability/infinite-utility inference and its conditions, and map objections and named replies concerning infinite expectations, mixed strategies, and rival religious hypotheses. The IEP provides an independently read overview of belief/practice and the many-gods and infinite-value objections. The University of Dayton Libraries exhibit supports the 1670 posthumous first-edition wording and notes a preliminary 1669 printing. Article edits now qualify the inference, distinguish belief from conduct and inquiry, name the objections and replies without presenting them as settled, and disclose that the primary text was read in translation. The article and dataset now share all four Further Reading URLs; date_verified is 2026-11-01, and the publication record notes both the preliminary printing and posthumous first edition.",
+      "sources": [
+        {
+          "title": "Pascal’s Pensées",
+          "author": "Blaise Pascal",
+          "publication": "English text in the Project Gutenberg reproduction, EBook #18269 (released 2006); the reproduced edition is identified on its title page as a 1958 E. P. Dutton paperback with an introduction by T. S. Eliot. The exact translator metadata is not displayed in the consulted Gutenberg title block. The SEP separately identifies its own quotations as from the 1910 W. F. Trotter translation.",
+          "stable_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+          "source_type": "Primary philosophical work in English translation/reproduction",
+          "access_level": "Selected relevant passages in the full text were directly accessed and read; this is not access to the complete work as an argument or to a critical French edition.",
+          "exact_locations_read": "Printed pp. 66–69, Section III, ‘Of the Necessity of the Wager,’ fragment 233: the interlocutor's inability to believe, forced choice, ‘gain all/lose nothing,’ eternal life and happiness, finite stake, and conduct/means-of-belief advice; printed p. 70, fragment 236, urging the reader to search for truth; printed pp. 70–71, fragments 239–241, on hope, renouncing pleasure, and fear of error. The source begins Section IV, ‘Of the Means of Belief,’ fragment 242, on printed p. 71.",
+          "limitations": "The passage was read in English, not in the French manuscript or a critical edition; the Gutenberg page's visible title block does not identify the translator. The SEP identifies Trotter as the translator of its 1910 quotation, but that does not by itself establish the Gutenberg transcription's edition metadata. A primary passage establishes what the text says, not whether the argument succeeds or whether its theological payoff table is true."
+        },
+        {
+          "title": "Pascal’s Wager",
+          "author": "Alan Hájek",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 2 May 1998; substantive revision 11 September 2022 (current entry consulted).",
+          "stable_url": "https://plato.stanford.edu/entries/pascal-wager/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the current full entry were read; not every note, linked paper, or bibliography item was consulted.",
+          "exact_locations_read": "§1, Background, for prudential versus evidential aims, the decision-theory framing, the unfinished manuscript context, and the text's exegetical issues; §§2–4 for the superdominance and expectation arguments and the positive-probability/infinite-reward reconstruction; §5.1 for the decision table, infinite-utility, additional-infinities, and many-gods objections and proposed replies; §§5.2–5.4 for zero/undefined probability, expected-utility and mixed-strategy objections and responses; §5.5 for moral objections and Franklin's action-oriented reading; §7 for the distinction between believing and taking steps to cultivate belief, including Pascal's practice advice.",
+          "limitations": "This is a sophisticated reference-work interpretation, not a substitute for the primary passage or for the cited individual articles. Named critics and responses were verified as accurately reported by this entry; the underlying papers by Diderot, Mackie, Cargile, Jordan, Schlesinger, Hájek, Duff, Monton, Bartha, and Jackson and Rogers were not independently read. The entry itself notes exegetical and decision-theoretic disputes."
+        },
+        {
+          "title": "Pascal’s Wager about God",
+          "author": "Paul Saka",
+          "publication": "Internet Encyclopedia of Philosophy online entry; author information lists the University of Texas, Rio Grande; a publication or revision date was not visible in the retrieved entry text.",
+          "stable_url": "https://iep.utm.edu/pasc-wag/",
+          "source_type": "Scholarly philosophy reference work / secondary analysis",
+          "access_level": "Relevant full-entry sections were retrieved and read, not only the introductory summary; not every linked source was consulted.",
+          "exact_locations_read": "§1, ‘A Reason for Believing in God,’ subsections a–c on super-dominance, expectation, and dominating expectations; §2, ‘The Intellectualist Objection: Is Belief a Matter of Choice?’; §3, ‘The Many-Gods Objection: Do Rival Religious Options Undermine Each Other?,’ including genuine-option and run-off-decision replies; §4, ‘The Evidentialist Objection’; §5.2, ‘The St. Petersburg Paradox.’",
+          "limitations": "The entry is a secondary overview and its presentation sometimes simplifies technical disputes; it is used as a cross-check for the existence and framing of objections, not as proof that every objection or reply succeeds. Its named sources were not independently read."
+        },
+        {
+          "title": "Pascal: Pensées",
+          "author": "Fred W. Jenkins",
+          "publication": "University of Dayton Libraries Rose Book Collection exhibit; the page credits Jenkins as Professor and Associate Dean for Collections and Operations. No publication date was displayed on the page consulted.",
+          "stable_url": "https://exhibits.udayton.edu/s/rosebook/page/pascal",
+          "source_type": "Institutional library exhibit / publication-history note",
+          "access_level": "The full short exhibit page and its attached bibliography were accessed and read.",
+          "exact_locations_read": "Main exhibit paragraph beginning ‘The work remained incomplete at the time of his death’: it states that the first edition appeared in 1670, eight years after Pascal's death, edited by Abbé Périer, and that there was a preliminary printing in 1669 while the 1670 printing is recognized as the true first edition. The bibliography lists the Brunschvicg and Sellier editions.",
+          "limitations": "This exhibit supports concise publication-history wording and is not a critical bibliography or an account of the wager's argument. The article retains the accurate 1670 posthumous first-edition date and notes the 1669 preliminary printing; it does not imply that Pascal personally published the unfinished Pensées."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Pascal frames the choice as unavoidable and contrasts the possible gain of ‘all’ with losing ‘nothing,’ then describes eternal life and happiness as the possible gain against a finite stake.",
+          "source_title": "Pascal’s Pensées",
+          "source_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+          "exact_location": "Section III, fragment 233, printed pp. 66–68; especially ‘Yes; but you must wager. It is not optional,’ ‘If you gain, you gain all; if you lose, you lose nothing,’ and the subsequent ‘eternity of life and happiness’ / ‘what you stake is finite’ passage.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text supports the article's basic payoff and forced-choice description. The text itself juxtaposes ‘lose nothing’ with a finite stake and describes a theological payoff; the article now states that this is Pascal's setup, not an independently established table of what God rewards.",
+          "limitation": "The wager fragment is a draft within an unfinished work and the consulted English translation is not a critical French edition. ‘Lose nothing’ is Pascal's claim in the argument, not a neutral description accepted by all interpreters.",
+          "required_edit": "Made: replaced the simplified ‘small loss: some pleasures and effort’ with the primary passage's language and marked the payoff table as Pascal's theological setup."
+        },
+        {
+          "material_claim": "On the standard expected-utility reconstruction, a positive, finite, non-infinitesimal probability of God’s existence paired with an infinite reward yields infinite expected utility for wagering for God, assuming the other relevant outcomes are finite; this is conditional, not an uncontested consequence of any tiny probability and any infinity.",
+          "source_title": "Pascal’s Wager",
+          "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+          "exact_location": "§4, ‘The Argument From Generalized Expectations,’ especially the text at lines around the expectation formula and explicit premises; §5.1 on other infinite outcomes; §§5.2–5.4 on zero probability, expected-utility norms, and mixed strategies.",
+          "relationship": "supports_with_qualification",
+          "finding": "Hájek explicitly formalizes the inference using positive finite probability, an infinite payoff, and finite alternative payoffs, while also discussing cases in which probability is zero/undefined, other entries are infinite, or mixed strategies produce a tie. The article now states the conditions and acknowledges the contested status of infinite-utility comparisons.",
+          "limitation": "This is a decision-theoretic reconstruction of Pascal, not an assertion that Pascal used modern Bayesian notation. The mathematical handling of infinities and the normative expected-utility premise remain disputed.",
+          "required_edit": "Made: replaced the unqualified ‘however small its probability’ conclusion with the standard model's stated conditions and explicit objections."
+        },
+        {
+          "material_claim": "The many-gods objection says that a decision table restricted to Pascal's preferred God may leave rival religious hypotheses unrepresented; responses such as genuine-option restrictions and probability tie-breakers have been proposed but are not settled.",
+          "source_title": "Pascal’s Wager",
+          "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+          "exact_location": "§5.1, subsection ‘The decision table,’ item 5, including the Diderot, Mackie, and Cargile formulations and the reply discussion of Schlesinger, Jordan, Franklin, Saka, and Lycan and Schlesinger; cross-checked with Saka, ‘Pascal’s Wager about God,’ §3 and subsections a–b.",
+          "relationship": "supports_with_qualification",
+          "finding": "Both consulted reference works directly discuss the objection and competing response strategies. The revised article presents it as an objection and replies as proposals, not as a settled resolution or as the sole problem with the wager.",
+          "limitation": "Diderot's original text and the cited later authors' papers were not separately read; the claimed historical attribution and named replies are verified through these secondary accounts only.",
+          "required_edit": "Made: named Diderot, Mackie, Saka, Schlesinger, and Jordan in the article and qualified the status of their arguments."
+        },
+        {
+          "material_claim": "Infinite-utility objections include concerns about coherent or usable infinite utilities, multiple or opposing infinities, and mixed strategies that may prevent an outright wager from being uniquely required; responses and reformulations are contested.",
+          "source_title": "Pascal’s Wager",
+          "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+          "exact_location": "§5.1, items 2–3, on infinite utility and additional infinities; §5.3 on limits of maximizing expected utility; §5.4 on the mixed-strategy objection (Duff and Hájek) and responses by Monton, Robertson, Easwaran and Monton, Bartha, and Jackson and Rogers.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP supports the specific classes of objection and reports named counterarguments/reformulations. The article no longer says broadly that expected utility is simply ‘not well-defined’; it states more carefully that comparisons may be unable to distinguish choices or may become undefined under some infinite-value specifications.",
+          "limitation": "The entry reports an active technical dispute; the underlying papers were not individually consulted. The article summarizes only representative issues and does not claim an exhaustive objection taxonomy.",
+          "required_edit": "Made: narrowed the infinite-utility objection and named representative critics and replies without suggesting that any one position resolves it."
+        },
+        {
+          "material_claim": "Pascal's text distinguishes the inability to believe directly from practical steps toward faith, and a nearby fragment separately urges the reader to search for truth.",
+          "source_title": "Pascal’s Pensées",
+          "source_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+          "exact_location": "Fragment 233, printed pp. 68–69: the interlocutor says he cannot believe; Pascal advises not increasing proofs but lessening passions, and recommends acting as if one believed, taking holy water, and having masses said; fragment 236, printed p. 70, says to search for truth. Cross-check: Hájek, SEP §7, ‘What Does It Mean to “Wager for God”?’",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary passage supports the distinction between direct belief, conduct intended to cultivate belief, and inquiry. Pascal says the practices may lead to belief; the article presents this as his counsel, not as a guaranteed causal mechanism, and avoids identifying the wager solely with the cost of inquiry.",
+          "limitation": "Pascal's causal/psychological claim about practice and belief is what the text asserts; it is not independently validated. The consulted passage does not establish that action will reliably produce belief for every reader.",
+          "required_edit": "Made: distinguished belief, conduct, and inquiry; replaced the ungrounded ‘cost of inquiry’ gloss with Pascal's actual practice advice and nearby search-for-truth fragment."
+        },
+        {
+          "material_claim": "The wager is prudential rather than a proof that God exists; this does not entail that the unfinished Pensées contains no other reasoning or evidence-oriented material.",
+          "source_title": "Pascal’s Wager",
+          "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+          "exact_location": "§1, Background, which states that Pascal's project in the wager is to show that one ought to believe rather than that God exists, and to give prudential rather than evidential reasons; primary-text context at Pensées fragment 233, printed pp. 66–69, including ‘Reason can decide nothing here’ and ‘not by increase of proofs’ in the advice to the unbeliever.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP directly supports describing the wager as prudential rather than an existence proof. Pascal's primary passage supports that the wager begins where reason cannot decide and turns to practical advice, but neither source justifies a blanket claim that Pascal offered no other arguments in the Pensées. The revised wording preserves this distinction.",
+          "limitation": "The article addresses the wager, not the full apologetic project of the unfinished Pensées. The SEP itself notes that Pascal left notes and that the text poses exegetical problems.",
+          "required_edit": "Made: changed ‘Pascal did not offer it as such’ to distinguish the wager's aim from the broader contents of Pascal's unfinished work."
+        },
+        {
+          "material_claim": "The Pensées remained unfinished at Pascal's death; its recognized first edition appeared posthumously in 1670, with a preliminary printing in 1669.",
+          "source_title": "Pascal: Pensées",
+          "source_url": "https://exhibits.udayton.edu/s/rosebook/page/pascal",
+          "exact_location": "University of Dayton Libraries exhibit paragraph beginning ‘The work remained incomplete at the time of his death’; read in full.",
+          "relationship": "supports",
+          "finding": "The institutional exhibit says the first edition appeared in 1670, eight years after Pascal's death, edited by Abbé Périer, while a preliminary printing occurred in 1669 and the 1670 printing is recognized as the true first edition. The article's metadata continues to state the correct posthumous 1670 publication and adds the preliminary-printing nuance in its source note.",
+          "limitation": "This is a brief institutional exhibit, not a critical publication-history study. It supports the date wording only, not claims about the argument.",
+          "required_edit": "Made: preserved the 1670 posthumous first-edition claim and added that a preliminary printing appeared in 1669."
+        },
+        {
+          "material_claim": "The wager is commonly described as an early decision-theoretic argument, while the precise historical-priority claim should not be overstated.",
+          "source_title": "Pascal’s Wager",
+          "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+          "exact_location": "§1, Background: SEP calls Pascal's formulation distinctive for its explicit decision-theoretic form and attributes ‘the first well-understood contribution to decision theory’ to Hacking (1975).",
+          "relationship": "supports_with_qualification",
+          "finding": "The revised wording ‘often treated as an early explicit decision-theoretic argument’ is proportionate to the SEP's account and avoids claiming an unqualified absolute priority for Pascal.",
+          "limitation": "The underlying historical-priority assertion belongs to Hacking as reported by Hájek; Hacking's book and possible precursors were not independently examined in this item review.",
+          "required_edit": "Made: qualified the article's historical-priority statement."
+        },
+        {
+          "material_claim": "Finite-but-large payoff versions and alternative divine payoffs are teaching variations that alter the decision problem, not established historical variants attributed to Pascal.",
+          "source_title": "Pascal’s Wager about God",
+          "source_url": "https://iep.utm.edu/pasc-wag/",
+          "exact_location": "§5.2, ‘The St. Petersburg Paradox,’ on arbitrarily high finite payoffs; §3 on alternative religious payoff matrices. Cross-check: Hájek, SEP §5.1, items 1–5, on different reward tables and other infinite payoffs.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support the conceptual possibility of finite high-payoff and altered-reward variants, while the revised article labels such cases as versions/teaching variations rather than as Pascal's historical wording.",
+          "limitation": "The sources do not establish that a particular classroom version is a canonical historical formulation. The article does not claim that they are.",
+          "required_edit": "Made: explicitly labeled the payoff setup and modernization as teaching framing rather than a historical version."
+        }
+      ],
+      "edits_made": [
+        "Replaced the simplified payoff scenario with Pascal's own forced-choice, gain-all/lose-nothing, eternal-life, and finite-stake wording, while identifying the payoff table as Pascal's theological setup.",
+        "Qualified the expected-utility inference by stating the positive, finite, non-infinitesimal probability and finite-alternative assumptions and noting objections to infinite-utility reasoning.",
+        "Distinguished direct belief, practices intended to cultivate belief, and inquiry; added the nearby fragment's advice to search for truth and removed the unsupported cost-of-inquiry gloss.",
+        "Named representative many-gods, infinite-utility, and mixed-strategy critics and replies, while marking these positions as disputed rather than settled.",
+        "Qualified the claim that the wager is not a proof, so it does not imply that Pascal's unfinished Pensées contains no other arguments.",
+        "Qualified the early-decision-theory historical wording; preserved the posthumous 1670 first-edition date and noted the preliminary 1669 printing.",
+        "Added direct primary-text, IEP, and publication-history references; updated the article research-check date and disclosed translation and metadata limits."
+      ],
+      "unresolved": [
+        "The underlying primary texts and papers by Diderot, Mackie, Cargile, Jordan, Schlesinger, Hájek, Duff, Monton, Bartha, Jackson and Rogers, and Saka were not individually read; named arguments were checked through the directly read SEP and IEP discussions only.",
+        "The Pascal text was consulted only in English translation/reproduction. The French manuscript and a critical French edition were not consulted; the exact translator metadata for the Gutenberg transcription was not displayed in its retrieved title block.",
+        "The philosophical soundness of Pascal's payoff assumptions, the proper treatment of infinite utilities, and the success of proposed replies remain disputed and were not adjudicated."
+      ],
+      "dataset_alignment": "The matching dataset record retains the same id, title, article path, category/type, associated thinker, related entries, and compatible summary. The summary question is conceptually aligned with, but not verbatim from, the article’s central question. Dataset references now match all four Further Reading URLs, date_verified is 2026-11-01, and original_publication records the posthumous 1670 first edition and preliminary 1669 printing.",
+      "further_reading_matches": "Yes: all four Further Reading URLs match the dataset references; date_verified matches the 2026-11-01 article research check.",
+      "ledger_path": "research/source-review-batch8-item-pascals-wager.json",
+      "selection_rank": 1,
+      "risk_reason": "The article uses an infinite-reward setup to claim that belief is rational even at a small probability, asserts that Pascal did not offer the wager as proof, and previously disclosed that Pensées was not retrieved while the SEP was only topic-checked. These conditions created attribution, payoff-table, infinity, access, and overstatement risk.",
+      "audit_focus": "Trace the exact payoff/choice formulation to Pensées passages if accessible; distinguish belief, conduct, and inquiry; check inference under infinite utility and multiple-religion objections; verify publication-history wording and named responses.",
+      "independent_review": {
+        "review_date": "2026-11-01",
+        "reviewer_type": "AI-assisted independent read-only post-edit reviewer",
+        "verdict": "pass_with_minor_changes",
+        "status": "complete",
+        "summary": "No material source-traceability issue was found. The review noted that the article and dataset summary questions are conceptually aligned rather than verbatim; the ledger now says so. Dataset references and date have been synchronized. This is not human or expert review.",
+        "human_expert_review": false
+      }
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit reviews; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "quus-rule-following",
+      "title": "Kripke’s Quus",
+      "article_path": "experiments/logic/quus-rule-following.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the complete assigned article, its existing dataset record, and the expansion-log entry. Focus: the quus construction and 68 + 57 example; the basic versus radical skeptical conclusion; the skeptical solution and its community/response condition; the distinction between Kripke’s reading and Wittgenstein’s own text; dispositionalist, non-reductionist/primitivist, and critical responses; and the scope of generalization and teaching comparisons. This is an editorial traceability status, not a finding that the argument succeeds, a consensus claim, an exhaustive literature review, or expert review.",
+      "summary": "The selected primary excerpt and Miller’s full SEP treatment support the quus definition, the 68 + 57 = 5 result under that stipulated function, and the skeptical challenge about what fixes prior meaning. The article now separates the basic conclusion (no fact of the demanded kind constitutes meaning) from the radical conclusion that nobody means anything, which Kripke rejects. Kripke’s skeptical solution is described as a shift to assertibility conditions, community response patterns, and practical role—not as community agreement becoming a new truth-making fact. Wittgenstein’s own PI §§201–202 and §§241–242 were read directly; McDowell’s published critique documents a live disagreement about whether Kripke’s skeptical paradox captures Wittgenstein’s position. Dispositionalism, non-reductionism, and primitivism are now presented as distinct and contested approaches. Kripke’s complete book was not accessed; relevant primary passages were read in a selected reprint excerpt and triangulated against the detailed SEP account. The article’s five Further Reading URLs now match the dataset references, and both research dates are 2026-11-01. An initial independent review found a duplicated paragraph with an incorrect author name; the erroneous paragraph was removed, and a focused follow-up confirmed the single remaining attribution to Hannah Ginsborg against the SEP §4 account.",
+      "sources": [
+        {
+          "title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+          "author": "Saul A. Kripke",
+          "publication": "Selected excerpt/reprint PDF; the scan header reads ‘The Nature of Language’ and ‘On Rules and Private Language’ and credits reprinting by permission of the author and Basil Blackwell. The excerpt does not include a complete title/citation page; original book: Wittgenstein on Rules and Private Language: An Elementary Exposition, Cambridge, MA: Harvard University Press, 1982.",
+          "stable_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+          "source_type": "Primary philosophical work, read in selected reprint excerpt",
+          "access_level": "Selected excerpt accessed and text-extracted; not the complete 1982 monograph.",
+          "exact_locations_read": "In the hosted eight-page PDF, read the opening discussion of ‘68 + 57’ and the quus definition, including reprint pp. 628–629 (the displayed quus definition is on PDF physical page 2); read the later summary of the skeptical solution, including the community-acceptance/response passage on PDF physical page 5. Cross-identified the original-book quus passage as Kripke 1982, pp. 8–9 and the community condition as pp. 88–93 through the directly read SEP account and its page-specific citations. The excerpt’s pagination is not the original book pagination.",
+          "limitations": "A selected reprint excerpt, not the full book, was available and read. The host’s scan does not supply full publication metadata for the reprint. Its argument is primary evidence for what Kripke says in the excerpt, not evidence that his reconstruction accurately states Wittgenstein’s position or that his argument succeeds."
+        },
+        {
+          "title": "Wittgenstein on Rules and Private Language: An Elementary Exposition",
+          "author": "Saul A. Kripke",
+          "publication": "Cambridge, MA: Harvard University Press, 1982; x, 150 pages, as listed in the Internet Archive catalogue.",
+          "stable_url": "https://archive.org/details/wittgensteinonru0000krip",
+          "source_type": "Library/catalog record for a primary philosophical monograph; metadata only",
+          "access_level": "Catalogue metadata and access notice read; full book not accessed. The record says access is restricted.",
+          "exact_locations_read": "Internet Archive item description: title, author, publication date, publisher, pagination, and access-restricted notice.",
+          "limitations": "Used for bibliographic metadata only; no argument passage from this catalogue record was treated as read."
+        },
+        {
+          "title": "Philosophical Investigations",
+          "author": "Ludwig Wittgenstein; translated by G. E. M. Anscombe, P. M. S. Hacker, and Joachim Schulte; revised fourth-edition text",
+          "publication": "Fourth edition, revised by P. M. S. Hacker and Joachim Schulte, Wiley-Blackwell, 2009.",
+          "stable_url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+          "source_type": "Primary philosophical work",
+          "access_level": "Full fourth-edition PDF accessed; only task-relevant remarks and surrounding text were read.",
+          "exact_locations_read": "Part I §§185 (printed p. 81), 201–202 (printed p. 88), and 241–242 (printed p. 95). §201 calls the paradox a misunderstanding and describes a non-interpretive way of grasping a rule; §202 says following a rule is a practice; §§241–242 discuss agreement in language and judgments.",
+          "limitations": "These remarks are read as Wittgenstein’s text, not as proof that a single interpretation of them is correct. They do not themselves present Kripke’s plus/quus example or his chapter-three skeptical solution."
+        },
+        {
+          "title": "Rule-Following and Intentionality",
+          "author": "Alexander Miller and Olivia Sultanescu",
+          "publication": "Stanford Encyclopedia of Philosophy; first published April 12, 2022; current online entry consulted November 1, 2026.",
+          "stable_url": "https://plato.stanford.edu/entries/rule-following/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant full-entry sections read; the entry’s argument exposition, references, and cited page locations were consulted, not every bibliographic source it discusses.",
+          "exact_locations_read": "§2, ‘The Sceptical Argument’ (quus, candidate facts, and the distinction between basic and radical conclusions); §§3.1–3.3 (skeptical solution, interpretive options, and Wilson’s alternative factualist reading); §4 (dispositionalism, including finitude, error, normativity, Horwich and Ginsborg); §5 (non-reductionism and primitive-state proposal).",
+          "limitations": "Scholarly overview and interpretation, not primary evidence for Wittgenstein’s or Kripke’s text and not an exhaustive account of all responses. The entry explicitly records live disagreement and does not establish consensus."
+        },
+        {
+          "title": "Wittgenstein on Following a Rule",
+          "author": "John McDowell",
+          "publication": "Synthese 58, no. 3 (1984): 325–363.",
+          "stable_url": "https://sites.pitt.edu/~rbrandom/Courses/2023%20Sellars/Sellars%20texts/McDowell-Wittgenstein%20on%20followingRule-1984.pdf",
+          "source_type": "Scholarly philosophical article (published article text)",
+          "access_level": "Full article PDF accessed; the directly relevant argument passages were read.",
+          "exact_locations_read": "Printed pp. 329–333: Kripke’s skeptical paradox/solution and McDowell’s objection that PI §201 treats the paradox as a misunderstanding to correct; printed pp. 356–357: McDowell’s contrast between his reading and Wright’s account of publicity/community.",
+          "limitations": "Establishes McDowell’s published interpretation and criticism, not a settled verdict about Wittgenstein or a representative consensus."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "For the example, assume prior addition examples involved pairs whose two operands were each below 57; Kripke defines quus to agree with addition when both operands are below 57 and to return 5 otherwise, so 68 quus 57 yields 5 while the ordinary sum remains 125.",
+          "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+          "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+          "exact_location": "Reprint PDF physical page 2, two-column passage defining quus and discussing ‘68 + 57’; Kripke 1982, pp. 8–9 as cross-referenced in Miller, SEP §2. SEP §2 reproduces the operation and arithmetic example.",
+          "relationship": "supports",
+          "finding": "The primary passage gives the strict condition x,y < 57 and the alternative result 5. The revised article states both operands must be below 57 and avoids the ambiguous claim that the function simply changes ‘for larger numbers.’",
+          "limitation": "The direct Kripke source is a selected excerpt/reprint rather than the complete monograph; the mathematical result follows directly from the stipulated definition.",
+          "required_edit": "Made: specified the operands’ threshold precisely and distinguished the stipulated quus result from ordinary addition."
+        },
+        {
+          "material_claim": "The challenge concerns which function the speaker previously meant and what fixes future application, not whether the ordinary arithmetic sum of 68 and 57 is 125.",
+          "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+          "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+          "exact_location": "Reprint PDF physical page 2, immediately following the quus definition; Miller, SEP §2, which quotes and explains the original setup and the metalinguistic nature of the challenge.",
+          "relationship": "supports_with_qualification",
+          "finding": "Kripke explicitly distinguishes the arithmetic computation from the question of what the symbol was meant to denote. The article retains the arithmetic example while identifying the challenge as metalinguistic and normative.",
+          "limitation": "The skeptic’s result is conditional on the stipulated quus interpretation; it is not ordinary arithmetic.",
+          "required_edit": "Made: replaced the loose ‘not about arithmetic’ wording with the distinction between the usual sum and the skeptical question about meaning."
+        },
+        {
+          "material_claim": "Kripke argues that candidate facts such as finite past use, instructions, mental states, and individual dispositions do not establish the intended function in the way demanded by the skeptic.",
+          "source_title": "Rule-Following and Intentionality",
+          "source_url": "https://plato.stanford.edu/entries/rule-following/",
+          "exact_location": "§2, ‘The Sceptical Argument,’ discussion of finite examples, reinterpretation of instructions, and candidate meaning-fixing facts; pp. 22–54 of Kripke (1982) are cited there for the candidate accounts.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry supports the article’s summary that Kripke’s skeptic rejects multiple candidates, and clarifies that the argument is about the failure to find a fact meeting the skeptic’s stated demands, not an independent proof that each candidate account is philosophically impossible.",
+          "limitation": "This is Miller and Sultanescu’s secondary reconstruction of Kripke; the full corresponding book pages were not accessed.",
+          "required_edit": "Made: described the result as Kripke’s argument about facts of the demanded kind, rather than asserting an unqualified metaphysical result."
+        },
+        {
+          "material_claim": "The basic skeptical conclusion that no fact of the demanded kind constitutes meaning must be distinguished from the radical conclusion that nobody means anything; Kripke rejects the latter and offers a skeptical solution.",
+          "source_title": "Rule-Following and Intentionality",
+          "source_url": "https://plato.stanford.edu/entries/rule-following/",
+          "exact_location": "§2, paragraph distinguishing Wilson’s basic and radical skeptical conclusions and citing Kripke 1982: 22, 60, 71; §§3.1–3.3 on attempts to preserve meaning-attribution.",
+          "relationship": "supports",
+          "finding": "The article’s original wording blurred the skeptic’s basic conclusion with the radical ‘no meaning’ result. The SEP explicitly distinguishes them and says Kripke rejects the radical result.",
+          "limitation": "This terminological distinction is attributed to George Wilson and adopted in the SEP’s analysis; not all commentators use precisely the same labels.",
+          "required_edit": "Made: separated the basic conclusion from the radical consequence and stated that Kripke rejects the latter."
+        },
+        {
+          "material_claim": "Kripke’s skeptical solution shifts to conditions for appropriately asserting meaning-ascriptions and their role/utility in practice; community response agreement is not offered as a new truth-making fact that settles meaning.",
+          "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+          "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+          "exact_location": "Reprint PDF physical page 5, summary of the skeptical solution: inspect categorical and conditional assertions, the circumstances and utility of their use, community acceptance after sufficient tests, and agreement in responses; corroborated by Miller, SEP §§3.1–3.3 and Kripke 1982: 73, 88, 92 as cited there.",
+          "relationship": "supports_with_qualification",
+          "finding": "Kripke says the community practice explains how meaning-ascriptions are introduced into language, but ‘does not give conditions for these statements to be true.’ The article now presents community patterns as part of the assertibility/practice account and explicitly denies that this straightforwardly supplies truth-conditions.",
+          "limitation": "The nature of Kripke’s solution is disputed; the selected excerpt is not the full chapter, and the scholarly entry discusses several competing interpretations.",
+          "required_edit": "Made: replaced the reductive ‘community agreement, not facts about individuals’ description with a qualified assertibility/practice account and flagged disagreement."
+        },
+        {
+          "material_claim": "Wittgenstein’s own PI §§201–202 discuss a rule-following paradox, a way of grasping rules not reducible to interpretation, and rule-following as practice; these passages do not themselves state Kripke’s exact quus case or his skeptical solution.",
+          "source_title": "Philosophical Investigations",
+          "source_url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+          "exact_location": "Part I §§201–202, printed p. 88; also §§185 (printed p. 81), 241–242 (printed p. 95) for series-following and agreement in language/judgment.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text itself calls the paradox a misunderstanding and says following a rule is a practice. The article now attributes the plus/quus reconstruction and chapter-three solution to Kripke, while distinguishing that from Wittgenstein’s own remarks.",
+          "limitation": "The text does not by itself determine the correct interpretation of Wittgenstein’s remarks; McDowell and other scholars disagree about what the passages imply.",
+          "required_edit": "Made: clarified the difference between the primary text and Kripke’s interpretation and added precise PI sections."
+        },
+        {
+          "material_claim": "McDowell argues that PI §201 treats the paradox as a misunderstanding to correct, thereby challenging Kripke’s attribution of acceptance of the skeptical paradox to Wittgenstein.",
+          "source_title": "Wittgenstein on Following a Rule",
+          "source_url": "https://sites.pitt.edu/~rbrandom/Courses/2023%20Sellars/Sellars%20texts/McDowell-Wittgenstein%20on%20followingRule-1984.pdf",
+          "exact_location": "Printed pp. 331–333, section 4; pp. 356–357 on McDowell’s contrast with Wright’s account of publicity/community.",
+          "relationship": "supports",
+          "finding": "McDowell directly argues that Kripke’s reading fails to accommodate the second paragraph of PI §201 and that the paradox should be dissolved by correcting a misunderstanding. The article names this as McDowell’s interpretation, not as a settled verdict.",
+          "limitation": "One scholar’s published criticism establishes a live objection, not that Kripke is definitively wrong or that the literature agrees.",
+          "required_edit": "Made: replaced the generic rejection label with a specific, attributed example of disagreement and qualified its status."
+        },
+        {
+          "material_claim": "Hannah Ginsborg’s proposal treats relevant dispositions as involving a primitive notion of appropriateness.",
+          "source_title": "Rule-Following and Intentionality",
+          "source_url": "https://plato.stanford.edu/entries/rule-following/",
+          "exact_location": "§4, “Reductive Dispositionalism,” discussion of Hannah Ginsborg’s proposal.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP identifies the philosopher as Hannah Ginsborg and describes her proposal in terms of primitive normativity/appropriateness. The earlier article wording incorrectly combined her name with Pamela Hieronymi; the article now names Hannah Ginsborg.",
+          "limitation": "The concise article summary is based on the SEP account; Ginsborg’s underlying paper was not independently read. This verifies the attribution and reported characterization, not the adequacy of the view.",
+          "required_edit": "Made: removed the obsolete duplicated paragraph that named “Pamela Hieronymi Ginsborg”; the remaining paragraph names Hannah Ginsborg, confirmed in focused independent follow-up against SEP §4."
+        },
+        {
+          "material_claim": "Primitivism is a specific response within a broader range of non-reductionist views, not a synonym for every view that treats meaning as irreducible.",
+          "source_title": "Rule-Following and Intentionality",
+          "source_url": "https://plato.stanford.edu/entries/rule-following/",
+          "exact_location": "§5, ‘Non-Reductionism,’ including Kripke’s discussion of a primitive/sui generis meaning state at 1982: 51–53 and cited responses to it.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source distinguishes broad non-reductionism from Kripke’s particular primitive-state candidate and notes published objections to his treatment. The revised article preserves that distinction.",
+          "limitation": "The short article summary does not cover all non-reductionist positions.",
+          "required_edit": "Made: narrowed ‘primitivists say meaning facts are basic’ to distinguish the broader family from the specific primitive-state proposal."
+        },
+        {
+          "material_claim": "Kripke generalizes the skeptical challenge beyond the addition example, while the grue and Quine comparisons are the article’s teaching prompts rather than historical variants in Wittgenstein’s text.",
+          "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+          "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+          "exact_location": "Reprint PDF physical page 1, where Kripke says the relevant skeptical problem applies to all meaningful uses of language; article §§7–8 compared with PI §§201–202.",
+          "relationship": "supports_with_qualification",
+          "finding": "Kripke explicitly generalizes the problem beyond the arithmetic example. The article now labels cross-puzzle comparisons as its own teaching prompt, not Wittgenstein’s historical variations or proof that the puzzles are identical.",
+          "limitation": "The claim reports Kripke’s scope, not a separate verification of the skeptical argument’s success for every word or the technical equivalence of the compared problems.",
+          "required_edit": "Made: attributed the generalization to Kripke and identified the comparisons as editorial teaching prompts."
+        },
+        {
+          "material_claim": "The article’s discussion questions and comparisons are educational framing rather than claims that these formulations occur in the primary sources.",
+          "source_title": "Philosophical Investigations",
+          "source_url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+          "exact_location": "Compared the article’s §§6–7 with PI §§185, 201–202, and 241–242 and Kripke’s selected excerpt; the prompts and grue/Quine comparison are not represented as quotations or historical variations from those passages.",
+          "relationship": "context_only",
+          "finding": "The educational questions and cross-puzzle comparison are explicitly presented as prompts/extensions, not attributed to Wittgenstein or Kripke as their own examples.",
+          "limitation": "The prompts are not independently assessed as philosophical arguments.",
+          "required_edit": "Made: labelled the cross-puzzle comparison as a teaching prompt and distinguished it from historical variants."
+        }
+      ],
+      "edits_made": [
+        "Specified the quus condition precisely: both operands must be below 57 for the result to match addition; otherwise it returns 5.",
+        "Separated the ordinary arithmetic result from the metalinguistic challenge about what the speaker meant.",
+        "Distinguished the basic skeptical conclusion from the radical ‘no meaning’ consequence and stated that Kripke rejects the latter.",
+        "Replaced the oversimplified community-agreement description with a qualified account of assertibility conditions and social practice; stated that this is not simply a new truth-making fact.",
+        "Distinguished Kripke’s reconstruction from Wittgenstein’s own PI remarks and cited McDowell’s specific, contested objection.",
+        "Separated reductive dispositionalism, community-use accounts, normatively characterized dispositions, and non-reductionist/primitivist responses without implying consensus.",
+        "Qualified the generalization beyond arithmetic, labelled cross-puzzle comparisons as teaching prompts, added directly relevant readings, and updated the article research date."
+      ],
+      "unresolved": [
+        "Kripke’s complete 1982 monograph was not accessed; the relevant primary text was read in a selected reprint excerpt, with the detailed argument and original page references corroborated through the SEP entry. The new article discloses this access limitation.",
+        "Whether Kripke’s reconstruction accurately captures Wittgenstein’s own position remains disputed. McDowell’s reading is one documented criticism, not a literature-wide verdict; this audit does not adjudicate the exegesis.",
+        "The skeptical solution’s exact meta-semantic interpretation and the adequacy of individualist, community-based, dispositionalist, and non-reductionist responses remain disputed; the article now presents examples rather than an exhaustive taxonomy or consensus claim.",
+        "The challenge’s generalization to all meaningful language is attributed to Kripke; no separate proof of its success for every expression was attempted."
+      ],
+      "dataset_alignment": "The matching dataset record includes all five Further Reading URLs and date_verified 2026-11-01. Its title, id, article path, and original-publication summary remain aligned. The initial independent review found an author-name error; the duplicate paragraph was removed, the article and claim-evidence record now consistently name Hannah Ginsborg, and the focused follow-up confirmed the correction.",
+      "further_reading_matches": "Yes: all five Further Reading URLs match the dataset references; date_verified matches the 2026-11-01 article research check.",
+      "ledger_path": "research/source-review-batch8-item-quus-rule-following.json",
+      "selection_rank": 2,
+      "risk_reason": "The article compresses contested interpretations about Kripke’s skeptical solution, community agreement, dispositions, and Wittgenstein’s own position; Kripke’s book was not retrieved and the expansion log only records topical coverage.",
+      "audit_focus": "Verify the quus construction and arithmetic example against Kripke; distinguish Kripke’s reading of Wittgenstein from Wittgenstein’s own claims; trace the skeptical conclusion and solution; qualify community, dispositionalist, and critical responses.",
+      "independent_review": {
+        "review_date": "2026-11-01",
+        "reviewer_type": "AI-assisted independent read-only post-edit reviewers",
+        "status": "complete",
+        "initial_verdict": "revise",
+        "initial_finding": "The first reviewer found that “Pamela Hieronymi Ginsborg” conflated Hannah Ginsborg with Pamela Hieronymi and recommended correction.",
+        "followup_verdict": "pass",
+        "followup_finding": "The focused follow-up confirmed the erroneous string is absent, exactly one Dispositionalist responses section remains, the sole attribution names Hannah Ginsborg and is supported by SEP §4, the ledger claim evidence matches, and all five article URLs match dataset references.",
+        "human_expert_review": false
+      }
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit review; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "newtons-bucket",
+      "title": "Newton’s Bucket",
+      "article_path": "experiments/physics/newtons-bucket.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the complete article and its matching data/experiments.json record. Focus: the full bucket sequence in the Principia; Newton’s inference from surface concavity and centrifugal effects; the distinction between rotation relative to the vessel, relative to surrounding bodies, and true circular motion in Newton’s account; the status of the bucket as an argument for absolute space; the distinct relationist, Machian, and relativistic responses and their attribution; Newton’s report that he experienced the effect; the separate connected-globes example; publication metadata; and article/dataset reference alignment. This status records traceability, not that Newton’s argument succeeds, that one later view is correct or consensus, independent expert review, or exhaustive coverage of the literature.",
+      "summary": "The relevant primary Scholium passage in Andrew Motte’s translation confirms the bucket sequence, its endpoint contrast, Newton’s reported experience, and his inference that centrifugal endeavour does not depend on translation relative to ambient bodies. The article now distinguishes Newton’s actual sequence from the familiar stop-the-bucket continuation and states his reasoning without treating the experiment as proof that space is a substance. Rynasiewicz’s scholarly analysis and the SEP entries support qualifications on what the argument establishes, Leibniz’s distinct account, Mach’s mass-relative proposal, and the non-equivalence between general relativity and a fully Machian theory. The Mach passage from the 1883 edition, p. 284, was not directly retrieved; its wording and attribution were checked through the SEP’s quotation and discussion, while Mach’s later additions were read directly. This limitation is explicit. The article’s eight Further Reading URLs now match the dataset references, including the 1915 Mach supplementary volume and Richard Staley’s historical account; date_verified is 2026-11-01. A trailing duplicate source note found during review was removed, leaving one source note in the correct section.",
+      "sources": [
+        {
+          "title": "The Mathematical Principles of Natural Philosophy",
+          "author": "Isaac Newton; translated by Andrew Motte",
+          "publication": "New York: Daniel Adee, 1846 reprint of Motte’s English translation (first published 1729); Book I, Scholium following the Definitions",
+          "stable_url": "https://archive.org/details/newtonspmathema00newtrich",
+          "source_type": "Primary philosophical and scientific work; translated edition",
+          "access_level": "Relevant passage in a digitized scan/full-text transcription of the work accessed and read; not the complete work and not the 1687 Latin edition.",
+          "exact_locations_read": "Book I, Scholium following the Definitions, paragraph XII: the rotating-vessel sequence from the twisted cord and vessel/water at rest, through initial flat surface and communicated rotation, to the concave surface at relative rest; Newton’s ‘as I have experienced’ parenthetical; and his inference about centrifugal endeavour, ambient bodies, and true circular motion. The OCR full-text passage at https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt was opened and read. Archive scan title-page metadata was checked for the consulted edition.",
+          "limitations": "This is Motte’s translation in an 1846 reprint, not Newton’s original 1687 Latin edition; the 1846 edition establishes the consulted reprint’s metadata, not the original publication date. The report ‘as I have experienced’ establishes Newton’s own statement, not independent historical verification that the experiment was performed exactly as described."
+        },
+        {
+          "title": "Newton’s Scholium on Time, Space, Place and Motion",
+          "author": "Robert Rynasiewicz",
+          "publication": "‘By Their Properties, Causes, and Effects: Newton’s Scholium on Time, Space, Place, and Motion—I. The Text,’ Studies in History and Philosophy of Science 26 (1995): 133–153",
+          "stable_url": "https://pages.jh.edu/rrynasi1/spacetime/eprints/scholium_1.pdf",
+          "source_type": "Peer-reviewed scholarly historical/philosophical analysis",
+          "access_level": "Full relevant article passages were extracted from the author-hosted article PDF and read; the complete article’s full text was available, but this review relies on the specified pages.",
+          "exact_locations_read": "Printed pp. 133–135 on how the Scholium’s sequence of arguments is commonly misread and what the arguments seek to establish; pp. 147–149 on the bucket passage, the role of the water’s ascent as an assumed indicator, the initial/final contrast, and Newton’s conclusion about relative translation.",
+          "limitations": "Rynasiewicz offers a scholarly interpretation of Newton’s argument and distinguishes the argument’s text from later reconstructions; this is not a claim that all historians agree or that the inference is sound."
+        },
+        {
+          "title": "Newton’s Views on Space, Time, and Motion",
+          "author": "Robert Rynasiewicz",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 12 August 2004; version metadata checked via the official author-and-citation record (Spring 2022 edition)",
+          "stable_url": "https://plato.stanford.edu/entries/newton-stm/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant full-entry sections and the separately linked Scholium text were read; not every note or bibliography item is claimed as consulted.",
+          "exact_locations_read": "§5.3, ‘The Arguments from Properties, Causes, and Effects,’ especially the ‘Argument from Effects’ and bucket stages; §5.4 for distinguishing the arguments from properties/causes/effects from the later practical inference of absolute motion; Scholium §XII for the full transcribed primary passage. Official author-and-citation information was read for Rynasiewicz’s authorship and stable edition metadata.",
+          "limitations": "Scholarly interpretation rather than primary evidence for Newton’s words; the translated primary paragraph is separately cited above. The SEP’s account is not treated as proof that Newton’s argument succeeds."
+        },
+        {
+          "title": "Absolute and Relational Space and Motion: Classical Theories",
+          "author": "Carl Hoefer, Nick Huggett, and James Read",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 19 July 2021; version metadata checked via the official author-and-citation record (Summer 2026 edition)",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+          "source_type": "Scholarly reference work / secondary historical and philosophical analysis",
+          "access_level": "Relevant full-entry sections were read; not every note or bibliography item is claimed as consulted.",
+          "exact_locations_read": "§4.1 on the bucket, the initial and co-rotating comparisons, the distinction from Cartesian ‘proper motion,’ and the possible lacuna concerning the water’s motion relative to air; §6.5 on Leibniz’s response; §§7.1–7.3 on common misreadings and the distinction between Newton’s argument and later best-explanation arguments about globes/absolute structure. Official author-and-citation metadata was also read.",
+          "limitations": "A contemporary scholarly synthesis; its specific historiographical and philosophical analysis is attributed to its authors, not presented as Newton’s or Leibniz’s own words."
+        },
+        {
+          "title": "Absolute and Relational Space and Motion: Post-Newtonian Theories",
+          "author": "Nick Huggett, Carl Hoefer, and James Read",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 11 August 2006; version metadata checked via the official author-and-citation record (Fall 2024 edition)",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-theories/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant full-entry sections were read; not every note or bibliography item is claimed as consulted.",
+          "exact_locations_read": "§1.1 on Mach-lite and Mach-heavy readings, including Mach’s response concerning relative rotation and cosmic matter; §1.2 on the lack of a complete Mach-heavy replacement theory; §2.4 and the conclusion on general relativity’s metric/inertial structure, partial versus full matter determination, frame-dragging, and the claim that general relativity does not satisfy Mach’s principle in all solutions. Official author-and-citation metadata was also read.",
+          "limitations": "The authors explicitly distinguish competing readings of Mach and discuss continuing interpretive debates. Their synthesis is not treated as a literature-wide consensus or as a substitute for Mach’s text."
+        },
+        {
+          "title": "The Science of Mechanics: A Critical and Historical Account of its Development (supplementary volume)",
+          "author": "Ernst Mach; translated and annotated by Philip E. B. Jourdain",
+          "publication": "Chicago: Open Court Publishing Company, 1915; supplement to the third English edition, containing Mach’s additions to the seventh German edition",
+          "stable_url": "https://archive.org/details/scienceofmechani00machrich",
+          "source_type": "Primary philosophical and scientific work; author’s later additions to his own work",
+          "access_level": "Selected relevant primary passages in the full scanned supplementary volume’s OCR text were accessed and read; not the complete volume.",
+          "exact_locations_read": "Mach’s additions XVII–XIX, printed pp. 32–35, especially the addition to p. 229 on all masses/velocities being relative, the rotating bucket, and the fixed stars; full-text scan at https://archive.org/stream/scienceofmechani00machrich/scienceofmechani00machrich_djvu.txt.",
+          "limitations": "These are later additions, not Mach’s 1883 bucket passage. They support his general criticism of absolute motion and his reference to the fixed stars but do not independently establish the specific thick-walled-bucket statement attributed to the 1883 text."
+        },
+        {
+          "title": "Ernst Mach on Bodies and Buckets",
+          "author": "Richard Staley",
+          "publication": "Physics Today, 1 December 2013; DOI 10.1063/PT.3.2214",
+          "stable_url": "https://physicstoday.aip.org/features/ernst-mach-on-bodies-and-buckets",
+          "source_type": "Scholarly historical article / secondary source",
+          "access_level": "Full relevant article passages were read, including the account of Mach’s quoted 1883 objection, the Earth/stars discussion, and the distinction between Newton and Mach.",
+          "exact_locations_read": "Article paragraphs beginning ‘In 1883 Mach wrote…’ for his claim that water’s rotation relative to the vessel walls did not produce noticeable centrifugal forces and that the relevant relation was to Earth/celestial bodies; adjacent account of the thick-wall passage and Mach’s wider view of inertia.",
+          "limitations": "Secondary historical treatment; used to cross-check attribution and context for Mach’s 1883 passage, not as evidence that Mach’s proposal is a complete theory or that it is correct."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Newton’s described sequence starts with the twisted-cord vessel and water held at rest together; the vessel is then made to turn as the cord unwinds. The water first remains flat while the bucket moves relative to it, then gradually rotates and rises into a concave surface until it co-rotates with the bucket and is at relative rest. Newton’s passage does not include stopping the bucket after that endpoint.",
+          "source_title": "The Mathematical Principles of Natural Philosophy",
+          "source_url": "https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt",
+          "exact_location": "Book I, Scholium following the Definitions, paragraph XII; passage beginning ‘If a vessel, hung by a long cord…’ and continuing through the vessel/water relative-rest endpoint.",
+          "relationship": "supports_with_qualification",
+          "finding": "The original article compressed the setup into a release-and-spin sequence and included the water’s continuation after the bucket is stopped as if it were Newton’s own sequence. The revised article now states Newton’s sequence and explicitly marks the stop-the-bucket episode as a later variation.",
+          "limitation": "The primary text consulted is Motte’s English translation in an 1846 reprint, not the Latin 1687 edition. The physical stop-stage may be a valid teaching variation, but is not in this cited paragraph.",
+          "required_edit": "Made: corrected the sequence and distinguished the common later variation from Newton’s account."
+        },
+        {
+          "material_claim": "Newton treats the water’s ascent as indicating centrifugal endeavour and as a measure of true circular motion. He contrasts maximal water/bucket relative motion with a flat surface against maximal ascent when water and bucket are at relative rest; he concludes that the effect does not depend on translation relative to ambient bodies and that true circular motion cannot be defined by such translation.",
+          "source_title": "The Mathematical Principles of Natural Philosophy",
+          "source_url": "https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt",
+          "exact_location": "Book I, Scholium following the Definitions, paragraph XII; checked against the SEP transcription, Scholium §XII, and Rynasiewicz (1995), pp. 147–149.",
+          "relationship": "supports",
+          "finding": "Newton’s stated reasoning supports the revised attribution. The article distinguishes water/bucket relative motion from Newton’s broader phrase ‘translation … in respect of the ambient bodies’ and does not turn the inference into a modern claim that space is a causal substance.",
+          "limitation": "Newton’s inference rests on treating the surface rise as an indicator of centrifugal endeavour and on the relationship he posits between that effect and true circular motion. Verifying the argument’s text does not establish its philosophical success.",
+          "required_edit": "Made: replaced the compressed ‘space itself produces inertial effects’ formulation with Newton’s stated effect, comparison, and inference, plus a qualification on what the experiment establishes."
+        },
+        {
+          "material_claim": "The bucket passage is part of Newton’s argument that true motion is not definable solely in terms of motion relative to nearby bodies; it is not, by itself, a demonstration that space is a substance or an uncontested proof of Newtonian absolute space.",
+          "source_title": "Newton’s Scholium on Time, Space, Place and Motion; Newton’s Views on Space, Time, and Motion",
+          "source_url": "https://pages.jh.edu/rrynasi1/spacetime/eprints/scholium_1.pdf; https://plato.stanford.edu/entries/newton-stm/",
+          "exact_location": "Rynasiewicz (1995), pp. 133–135 and 147–149; SEP Newton §5.3, ‘The Arguments from Properties, Causes, and Effects,’ and §5.4.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources distinguish Newton’s effort to show that an adequate analysis of true motion must invoke absolute space from later reconstructions that treat the bucket as standalone empirical proof of absolute space. The revised article states Newton’s own inference and leaves its success open.",
+          "limitation": "Rynasiewicz’s reading is a scholarly interpretation; the article preserves the distinction between the primary argument and that interpretation. The question of whether Newton’s argument succeeds is beyond a source-traceability audit.",
+          "required_edit": "Made: explicitly limited the argument’s conclusion and stated that it does not itself prove space is a substance."
+        },
+        {
+          "material_claim": "Leibniz’s rejection of Newtonian absolute space should not be collapsed into the Machian claim that inertia is determined by the distribution of distant matter; Leibniz offered a different analysis of true motion.",
+          "source_title": "Absolute and Relational Space and Motion: Classical Theories",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+          "exact_location": "§6.5 on Leibniz’s response to Newton’s Scholium; §§7.1–7.3 on common misattributions and the difference between Leibnizian relationalism and Mach’s proposal.",
+          "relationship": "supports",
+          "finding": "The entry explains that Leibniz grants a distinction between true and relative motion while grounding true motion differently from Newton; it explicitly warns against conflating him with the later Machian approach. The revised article now describes the views separately.",
+          "limitation": "This is the SEP authors’ historical analysis, not a direct quotation from Leibniz’s correspondence; the article does not claim an exhaustive account of Leibniz’s metaphysics.",
+          "required_edit": "Made: qualified the blanket ‘relationalists’ summary and identified Leibniz’s response as distinct from Mach’s."
+        },
+        {
+          "material_claim": "Mach’s response emphasizes inertial effects in relation to Earth and the celestial masses and imagines that sufficiently massive bucket walls might affect the water; Mach’s position is not a single complete replacement mechanics or a settled explanation.",
+          "source_title": "Absolute and Relational Space and Motion: Post-Newtonian Theories; The Science of Mechanics (supplement); Ernst Mach on Bodies and Buckets",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-theories/; https://archive.org/details/scienceofmechani00machrich; https://physicstoday.aip.org/features/ernst-mach-on-bodies-and-buckets",
+          "exact_location": "SEP §1.1, ‘Two Interpretations of Mach on Inertia,’ including its quotation of Mach (1883), p. 284, and discussion of the ‘Mach-lite’/‘Mach-heavy’ distinction; Mach’s 1915 supplementary additions XVII–XIX, pp. 32–35; Staley (2013), paragraphs on Mach’s 1883 bucket response and thick-walled-bucket proposal.",
+          "relationship": "supports_with_qualification",
+          "finding": "Mach’s own later additions directly criticize Newtonian absolute motion and refer to the bucket and fixed stars. The SEP and Staley quote and contextualize the 1883 claim about relative rotation with Earth/celestial masses and very thick bucket walls. The revised article labels these as Mach’s proposal and avoids simplifying all relationalism to it.",
+          "limitation": "The 1883 primary passage at p. 284 was not directly retrieved; its quoted content was read in two secondary sources that identify the original location. Mach’s 1915 additions are primary but later and do not substitute for that passage. Mach’s precise position is interpreted differently, as the SEP explains; he did not provide a complete Mach-heavy replacement mechanics in this discussion.",
+          "required_edit": "Made: separated Mach from Leibniz and generic relationism; distinguished the mass-relative suggestion from a complete theory and made the primary-text access gap explicit."
+        },
+        {
+          "material_claim": "General relativity uses dynamical spacetime geometry whose metric encodes local inertial structure and is partly shaped by matter/energy, but the theory does not make inertia fully dependent on matter distribution in all solutions; some models exhibit Machian effects such as frame-dragging.",
+          "source_title": "Absolute and Relational Space and Motion: Post-Newtonian Theories",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-theories/",
+          "exact_location": "§2.4 on general relativity and relativity of motion; concluding discussion of whether general relativity satisfies Mach’s principle; §1.1 for frame-dragging examples and the distinction between strong Mach-heavy requirements and particular models.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry states that the metric field encodes gravity and inertia and is partly shaped by matter/energy, but also discusses vacuum solutions and other cases in which the matter distribution does not fully determine inertial structure. It identifies frame-dragging and selected models as Machian features without claiming that GTR fully satisfies Mach’s principle.",
+          "limitation": "The article is a philosophical reference synthesis, and the status/meaning of ‘Mach’s principle’ and background structure remain debated. The revised article says some models exhibit Machian effects but that GTR does not in all solutions make inertia fully matter-dependent.",
+          "required_edit": "Made: replaced the too-general statement that relativistic views simply replace absolute space with spacetime structure with a qualified account of GTR."
+        },
+        {
+          "material_claim": "Newton wrote that the concave surface was ‘as I have experienced’; this supports attributing that report to Newton, but not asserting independent proof that the experiment was performed exactly as stated.",
+          "source_title": "The Mathematical Principles of Natural Philosophy",
+          "source_url": "https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt",
+          "exact_location": "Book I, Scholium following the Definitions, paragraph XII, parenthetical ‘(as I have experienced)’ in the bucket description.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary passage directly contains Newton’s report. The article now reports what Newton wrote and explicitly states that it is not independent historical confirmation.",
+          "limitation": "A separate scholarly paper titled ‘Newton’s Bucket Experiment: Fictional or Real?’ was not accessible through its repository page during this review, which returned a CAPTCHA. The historical question whether the described experiment was actually performed remains unresolved here.",
+          "required_edit": "Made: narrowed ‘Newton himself reported actual experiments’ to his own textual report and stated the limitation."
+        },
+        {
+          "material_claim": "Newton’s connected-globes example is a separate passage using cord tension to discuss inference of circular motion; it is not identical to the bucket argument, and later arguments that infer absolute structure from globes may not be Newton’s own argument.",
+          "source_title": "Absolute and Relational Space and Motion: Classical Theories",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+          "exact_location": "SEP classical theories §§7.1–7.3.1, especially §7.3.1 on Newton’s connected globes example and the distinction between his example and later best-explanation arguments about rigid globes in an otherwise empty universe.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP distinguishes Newton’s original example from later reconstructions involving rigid globes in an otherwise empty universe. The revised article describes the connected globes as a separate example and does not assign the later argument to Newton.",
+          "limitation": "Newton’s paragraph XIV was not independently read in this review; the claim is supported by the SEP’s account rather than a direct reading of that primary passage. It is peripheral to the bucket sequence and retained only as a concise related variation.",
+          "required_edit": "Made: replaced the unspecific ‘second argument makes a similar point’ with a separate example and avoided attributing later empty-universe reconstructions to Newton."
+        },
+        {
+          "material_claim": "The *Principia* was first published in 1687, while the primary-text translation used in this review was Andrew Motte’s English translation, consulted in an 1846 reprint.",
+          "source_title": "Newton’s Views on Space, Time, and Motion; The Mathematical Principles of Natural Philosophy",
+          "source_url": "https://plato.stanford.edu/entries/newton-stm/; https://archive.org/details/newtonspmathema00newtrich",
+          "exact_location": "SEP Newton entry, introductory discussion of Newton’s 1687 *Mathematical Principles of Natural Philosophy*; Archive scan title page and publication metadata identifying the Motte translation and 1846 New York reprint.",
+          "relationship": "supports_with_qualification",
+          "finding": "The article’s 1687 original-publication metadata is consistent with the SEP’s historical account. The consulted scan is correctly identified in the Sources and Attribution note as a later reprint/translation rather than the original edition.",
+          "limitation": "The 1846 edition is not evidence for the original publication date by itself; the 1687 date is contextualized by the SEP source.",
+          "required_edit": "Made: identified the exact English translation/reprint used in the article’s source note."
+        }
+      ],
+      "edits_made": [
+        "Corrected the bucket scenario to match Newton’s sequence in Scholium §XII and marked the stopped-bucket continuation as a later variation.",
+        "Rewrote the central inference to distinguish relative motion between water and vessel from Newton’s claim about translation relative to ambient bodies and true circular motion.",
+        "Added the qualification that the bucket argument does not itself prove space is a substance or settle whether Newton’s inference succeeds.",
+        "Separated Leibniz’s response from Mach’s mass-relative proposal and qualified the summary of Mach’s view.",
+        "Replaced the compressed relativistic summary with a qualified account of general relativity’s dynamical metric, matter dependence, and Machian effects.",
+        "Changed the claim that Newton performed actual experiments to the precise textual claim that he wrote ‘as I have experienced,’ noting that performance is not independently verified here.",
+        "Distinguished Newton’s connected-globes example from later reconstructions and added passage-level source notes, limitations, and further reading."
+      ],
+      "unresolved": [
+        "The original 1883 Mach bucket passage at p. 284 was not directly retrieved. Its content was read through the SEP’s explicit quotation and Staley’s contextualized historical treatment; Mach’s 1915 supplementary additions were separately consulted as primary text.",
+        "Whether Newton actually performed the bucket experiment as described remains unresolved in this audit. The primary passage records his statement ‘as I have experienced’; the paper ‘Newton’s Bucket Experiment: Fictional or Real?’ could not be opened because the repository page returned a CAPTCHA.",
+        "Newton’s paragraph XIV on connected globes was not independently read; the article’s short variation statement is supported by the classical-spacetime SEP analysis, and the limitation is recorded above.",
+        "The philosophical success of Newton’s inference and the correct interpretation of Mach’s principle remain disputed questions, not claims settled by this traceability review."
+      ],
+      "dataset_alignment": "The matching data record has the same id, title, and article path. The dataset now includes all eight Further Reading URLs, including the directly consulted 1915 Mach supplementary volume and Richard Staley’s historical article; date_verified is 2026-11-01. The 1883 Mach passage remains identified as not directly retrieved.",
+      "further_reading_matches": "Yes: all eight Further Reading URLs match the dataset references; date_verified matches the 2026-11-01 article research check.",
+      "ledger_path": "research/source-review-batch8-item-newtons-bucket.json",
+      "selection_rank": 3,
+      "risk_reason": "The article moves from the water’s surface to Newton’s case for absolute space and then summarizes relationist, Machian, and relativistic views; it says Principia was not retrieved and the Mach summary is simplified.",
+      "audit_focus": "Check the full bucket sequence and Newton’s inference against Principia; distinguish rotation/inertial effects from motion relative to the bucket; check relationist, Machian, and relativistic responses and attribution.",
+      "independent_review": {
+        "review_date": "2026-11-01",
+        "reviewer_type": "AI-assisted independent read-only post-edit reviewers",
+        "status": "complete",
+        "initial_verdict": "pass_with_minor_changes",
+        "initial_summary": "No material claim-traceability issue was found; the reviewer requested a reader-facing link to the consulted 1915 Mach supplementary volume and clarification of the 1883 source path. Those corrections and dataset alignment were made.",
+        "followup_findings": "A follow-up confirmed all eight Further Reading URLs match the dataset and line 6 differs from HEAD only by removed trailing whitespace. It also found an accidentally duplicated source note after the return link; that paragraph was removed and the corrected note remains once in Sources and Attribution.",
+        "final_verdict": "pass",
+        "final_summary": "The final read-only review confirmed the line-6 whitespace-only difference, one correctly placed Sources and Attribution note, no content after the final return link, correct source links, current dataset alignment, and the stated source_checked scope.",
+        "human_expert_review": false
+      }
+    }
+  ]
+}

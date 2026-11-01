@@ -1,0 +1,592 @@
+{
+  "batch_id": "source-review-batch14-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No commit, push, merge, release, or remote-branch change.",
+  "reviewer_type": "AI-assisted claim-level audits with item-level self-check after edits; no human expert review is claimed.",
+  "batch_scope": "3 remaining expansion entries: zenos-dichotomy, galileos-paradox, moores-proof-of-an-external-world.",
+  "selection_method": "Prioritized arguments frequently retrofitted with later mathematical terminology or compressed into a modern reconstruction; checked the relevant primary or translated passages and scholarly qualifications.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 47,
+    "expansion_inventory_entries_with_audit_records_before_batch": 44,
+    "entries_in_batch": 3,
+    "audit_records_after_batch_all_repository": 50,
+    "expansion_inventory_entries_with_audit_records_after_batch": 47,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 10,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "source_checked": 3
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 48,
+      "partially_source_checked": 2,
+      "needs_source_check": 0,
+      "expert_reviewed": 0
+    }
+  },
+  "status_summary": "This batch has 3 source_checked and 0 partially_source_checked entries for their declared claim-traceability scopes. These labels do not state philosophical truth, consensus, exhaustive review, or human expertise.",
+  "limits": [
+    {
+      "id": "zenos-dichotomy",
+      "limitations": [
+        "Zeno’s own book is lost; the ancient evidence is mediated through Aristotle and later witnesses, and the familiar scenario remains a reconstruction.",
+        "Huggett’s interpretation of Aristotle’s potential/actual distinction is one scholarly reconstruction; the audit does not resolve its adequacy or provide an exhaustive history of interpretations.",
+        "The convergent-series calculation establishes a finite total within standard real analysis and its stated assumptions, not that this model fully describes physical space and time.",
+        "Whether an infinite sequence of discrete acts can be completed, and how to interpret Thomson’s lamp, remain open philosophical questions; no expert review is claimed.",
+        "The local data patch is proposed only; data/experiments.json remains unchanged."
+      ]
+    },
+    {
+      "id": "galileos-paradox",
+      "limitations": [
+        "The review consulted relevant passages, not the complete text of Two New Sciences, the complete SEP entry, or Parker’s complete chapter.",
+        "The primary source was read in the 1914 Crew and de Salvio English translation; no Italian original or critical edition was consulted.",
+        "The report presents Parker’s interpretation as one scholarly position and does not undertake an exhaustive review of Galileo scholarship or establish a consensus interpretation.",
+        "The technical details and merits of numerosity theories are not assessed; they are mentioned only to qualify the article’s former broad account of alternatives.",
+        "No named human subject-matter expert reviewed the article."
+      ]
+    },
+    {
+      "id": "moores-proof-of-an-external-world",
+      "limitations": [
+        "The original 1939 British Academy issue was not retrieved; relevant passages were read in the 1993 Selected Writings reprint hosted as a text-extracted PDF.",
+        "Whether Moore’s argument is sound, whether he knows its premises, and whether the proof answers a radical skeptic remain philosophical questions; source checking does not decide them.",
+        "Baldwin’s and Raff’s interpretations of the proof’s intended force differ. The article records both without resolving the disagreement or claiming consensus.",
+        "The transmission-failure debate is represented through Chris Tucker’s reference overview; the underlying Wright, Pryor and related papers were not read, so their detailed arguments were not adjudicated.",
+        "The entries on contextualism and closure were consulted only in the relevant sections; no exhaustive review of contemporary epistemology or of all Neo-Moorean approaches was undertaken.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    }
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; JSON schema, article sections, metadata, references, README, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests -v — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors.",
+    "article_dataset_reference_alignment": "PASS: all 3 Further Reading URL lists match the matching data references in order; all date_verified values are 2026-11-01.",
+    "item_ledgers": "PASS: item evidence ledgers and data patches parse as JSON; required claim/source fields and allowed relationships checked.",
+    "inventory_reconciliation": "PASS: 50 audit records; 47 of 57 expansion IDs covered; 10 remain; 3 records outside the inventory.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk at HEAD 0d26e66; no staged paths; all work remains local, unstaged, uncommitted, and unpushed."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "zenos-dichotomy",
+      "title": "Zeno’s Dichotomy",
+      "article_path": "experiments/logic/zenos-dichotomy.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset metadata. Checked the ancient setup and its mediation through Aristotle; the article’s modern reconstruction and treatment of its subdivisions; the distinction between convergence of a geometric series, Aristotle’s potential-infinity account, and the separate supertask question; the stated regressive and Thomson’s-lamp parallels; the physical-discreteness qualification; and date/reference metadata. The status records traceability to consulted passages, not a settled interpretation of Zeno or Aristotle, exhaustive history of scholarship, proof that the mathematical continuum describes physical reality, or expert review.",
+      "summary": "The revised entry explicitly labels the familiar stage-by-stage scenario as a teaching reconstruction rather than Zeno’s surviving wording, and identifies Aristotle’s report as later testimony. It distinguishes the modern geometric-series calculation from Aristotle’s ancient treatment of potential infinity and from the separate question of whether supertasks can be completed. Aristotle’s response is described through Huggett’s modern reconstruction with its limitations stated; the lamp and regressive variants are identified as later, related discussions rather than interchangeable versions of Zeno’s text. Further Reading now includes the relevant SEP entries and primary Aristotle passages, and the proposed patch aligns to those links.",
+      "sources": [
+        {
+          "title": "Zeno’s Paradoxes",
+          "author": "Nick Huggett",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2002, substantive revision 2024; §§1.1–1.2, 3.1, and 5.",
+          "stable_url": "https://plato.stanford.edu/entries/paradox-zeno/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections of the current full online entry were read; the entire entry was not read.",
+          "exact_locations_read": "Entry introduction on the lost Zeno book and second-hand/paraphrased transmission. §3.1, ‘The Dichotomy’: Aristotle’s half-way report at Physics 239b11; modern reconstruction of the successive halves; continuous-run versus actual/discontinuous subdivisions; Aristotle’s response and its interpretive difficulties. §1.2 on received mathematical resolutions and their application to physical space and time. §5, ‘Applying the Mathematical Continuum to Physical Space and Time,’ on the contingent physical application of the continuum and alternatives.",
+          "limitations": "A scholarly secondary account, not Zeno’s text. Huggett presents an interpretation of Aristotle and flags difficulties in it; that reading is not treated as the only possible interpretation. Its overview does not constitute an exhaustive review of mathematical or ancient scholarship."
+        },
+        {
+          "title": "Physics, Book VI, Chapter 9",
+          "author": "Aristotle",
+          "publication": "Physics VI.9; English translation by R. P. Hardie and R. K. Gaye, Logos Virtual Library transcription.",
+          "stable_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+          "source_type": "Primary ancient text / later testimony about Zeno",
+          "access_level": "The selected chapter passage was read directly in the online translation; the complete Physics was not read.",
+          "exact_locations_read": "Book VI, Chapter 9: Aristotle’s statement that the first argument asserts non-existence of motion because the mover must arrive at the halfway stage before the goal; the following passage identifies this as one of Zeno’s arguments about motion and distinguishes it from Achilles.",
+          "limitations": "Aristotle is an ancient witness and respondent, not Zeno’s own surviving text. The argument is transmitted in report/paraphrase. Only this chapter passage was read."
+        },
+        {
+          "title": "Physics, Book VI",
+          "author": "Aristotle",
+          "publication": "Physics VI.9; English translation by R. P. Hardie and R. K. Gaye, MIT Internet Classics Archive. The consulted page gives ‘Written 350 B.C.E.’ and does not state a separate translation publication date.",
+          "stable_url": "https://classics.mit.edu/Aristotle/physics.6.vi.html",
+          "source_type": "Primary ancient text / later testimony about Zeno",
+          "access_level": "Selected passages in the online English translation were read; the complete Physics was not read.",
+          "exact_locations_read": "Book VI.9: Aristotle’s report that the first argument denies motion because the moving body must reach the halfway stage before the goal (Bekker 239b11, as cited in Huggett); and the passage beginning ‘Hence Zeno’s argument makes a false assumption’ concerning passing infinitely divisible magnitudes in an infinitely divisible time. The chapter’s distinction between infinite divisibility and quantitative infinity was read in the MIT translation.",
+          "limitations": "Aristotle is an ancient witness and respondent, not Zeno’s own surviving text. The argument is transmitted in report/paraphrase. The translation is Hardie and Gaye’s; only the relevant online passages were consulted."
+        },
+        {
+          "title": "Physics, Book III",
+          "author": "Aristotle",
+          "publication": "Physics III.6; English translation by R. P. Hardie and R. K. Gaye, MIT Internet Classics Archive. The consulted page gives ‘Written 350 B.C.E.’ and does not state a separate translation publication date.",
+          "stable_url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+          "source_type": "Primary ancient philosophical text",
+          "access_level": "Selected passage in the online English translation was read; the complete Physics was not read.",
+          "exact_locations_read": "Book III.6, discussion of magnitude as infinite by division and the infinite as having potential rather than an independent actual existence; the passage says there will not be an actual infinite and describes the infinite as one finite part being taken after another.",
+          "limitations": "This establishes Aristotle’s account of infinity, not by itself how he applies it to each detail of the Dichotomy. The article’s linkage to the Dichotomy is also checked against Physics VI.9 and Huggett §3.1. Only the relevant passage was consulted."
+        },
+        {
+          "title": "Supertasks",
+          "author": "J. B. Manchak and Bryan W. Roberts",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2016, substantive revision 2022; §§1.1–1.2.",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections of the current full online entry were read; the entire entry was not read.",
+          "exact_locations_read": "§1.1, ‘Missing final and initial steps: The Zeno walk’: forward and regressive Dichotomy formulations, geometric-series convergence in the standard real topology, and the distinction between meanings of ‘complete.’ §1.2, Thomson’s lamp discussion: infinitely many discrete switchings, possible completions, and the regressive lamp variation.",
+          "limitations": "A secondary reference synthesis of a disputed philosophical topic. It documents competing accounts and does not establish that every supertask is physically possible or that Thomson’s lamp is the same argument as Zeno’s Dichotomy."
+        },
+        {
+          "title": "Matching Zeno’s Dichotomy dataset record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id zenos-dichotomy; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object inspected; proposed patch compared with revised article after edits.",
+          "exact_locations_read": "Matching id, date_verified value, and references array compared with the revised article’s §9 Further Reading URLs and their order.",
+          "limitations": "Metadata reconciliation only; it does not establish historical or mathematical claims. The dataset itself remains unchanged."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The Dichotomy is known through later testimony, and its familiar halfway/quarter sequence is a reconstruction rather than Zeno’s surviving wording.",
+          "source_title": "Physics, Book VI, Chapter 9; Zeno’s Paradoxes",
+          "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+          "exact_location": "Aristotle, Physics VI.9, passage reporting that the first argument says the mover must reach halfway before the goal; compare Huggett §3.1, which cites 239b11 and supplies the successive-halves reconstruction. Huggett’s entry introduction notes that Zeno’s book is lost and that the arguments are known second-hand, often in paraphrase.",
+          "relationship": "supports_with_qualification",
+          "finding": "Aristotle’s report supports the half-way attribution. The SEP supplies the successive subdivisions as a modern explanatory reconstruction. The revised article labels it accordingly and does not quote it as Zeno’s words.",
+          "limitation": "The primary passage is Aristotle’s report and answer, not direct access to Zeno’s lost book; details of the familiar step-by-step reconstruction are mediated by scholarship.",
+          "required_edit": "Made: label the scenario as a teaching reconstruction and attribute the surviving half-way report to Aristotle."
+        },
+        {
+          "material_claim": "Under constant-speed assumptions, the successive time intervals form a convergent geometric series with a finite total, but this arithmetic fact does not alone settle the physical or metaphysical possibility of infinite tasks.",
+          "source_title": "Zeno’s Paradoxes; Supertasks",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "exact_location": "Manchak and Roberts, §1.1: the sum 1/2 + 1/4 + 1/8 + … converges to 1 in the standard real topology and discussion of ‘complete’; Huggett, §3.1, discussion of finite times for fractional distances and the remaining issue of infinite actions; Huggett §5, application of mathematical continuum to physical space and time.",
+          "relationship": "supports_with_qualification",
+          "finding": "The series reply is valid in the stated mathematical model. The sources distinguish its mathematical result from whether the series accurately represents physical motion and from whether an infinite sequence of actions is completed.",
+          "limitation": "The article gives the constant-speed model and convergence result at a teaching level; it is not a full proof of convergence or an exhaustive survey of physical theories.",
+          "required_edit": "Made: state the constant-speed assumption and separate finite-sum arithmetic from supertask and physical-model questions."
+        },
+        {
+          "material_claim": "Aristotle’s potential-infinity account and response in Physics VI.9 are distinct from the modern convergent-series response, and a modern reconstruction of his reply is not uncontested or necessarily complete.",
+          "source_title": "Physics, Book III; Physics, Book VI; Zeno’s Paradoxes",
+          "source_url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+          "exact_location": "Physics III.6, passage on the infinite by division and potential existence; Physics VI.9, passage beginning ‘Hence Zeno’s argument makes a false assumption’; Huggett, §3.1, section on Aristotle’s response, continuous versus actually segmented runs, and stated interpretive difficulties.",
+          "relationship": "supports_with_qualification",
+          "finding": "The ancient text supports the potential-infinity characterization and Aristotle’s appeal to time’s divisibility. Huggett presents the distinction between a continuous potentially divisible run and actual discontinuous half-runs as a modern reconstruction, while noting concerns about whether it fully answers the puzzle. The article preserves that qualification and does not attribute modern series summation to Aristotle.",
+          "limitation": "The source evidence does not settle the interpretation of Aristotle’s reply; the modern scholarly reconstruction is explicitly attributed to Huggett rather than presented as consensus.",
+          "required_edit": "Made: distinguish Aristotle’s account from modern convergence and explicitly mark Huggett’s reconstruction and its limits."
+        },
+        {
+          "material_claim": "Supertask discussions ask whether infinitely many acts can be completed, and Thomson’s lamp is a related but distinct later case involving discrete switches.",
+          "source_title": "Supertasks; Zeno’s Paradoxes",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "exact_location": "Manchak and Roberts, §§1.1–1.2: the Zeno walk, alternative senses of completion, Thomson’s lamp as infinitely many switchings, and the regressive lamp; Huggett, §3.1, supertask question following Aristotle’s response.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP treatment connects the cases while distinguishing continuous Zeno motion from discrete switching tasks. The article calls the lamp related but distinct and does not imply its answer resolves the Dichotomy.",
+          "limitation": "The possibility and interpretation of supertasks remain disputed; this audit does not adjudicate that debate or claim Thomson’s example was an ancient variation.",
+          "required_edit": "Made: clarify the lamp is a later related thought experiment and the regressive version is a later formulation."
+        },
+        {
+          "material_claim": "A discrete-spacetime proposal changes the physical infinite-divisibility premise and is not implied by the convergent-series calculation.",
+          "source_title": "Zeno’s Paradoxes",
+          "source_url": "https://plato.stanford.edu/entries/paradox-zeno/",
+          "exact_location": "Huggett, §5, ‘Applying the Mathematical Continuum to Physical Space and Time’: the distinction between pure mathematical resolution and its contingent application to physical reality, with discussion of non-continuum possibilities.",
+          "relationship": "context_only",
+          "finding": "The source contextualizes the difference between a mathematical model and claims about physical space/time. The article frames discreteness as a separate physical hypothesis rather than a mathematical consequence.",
+          "limitation": "This is context about physical modeling, not evidence that actual spacetime is discrete or that discreteness solves all versions of the Dichotomy.",
+          "required_edit": "Made: qualify the discrete-space/time option as a separate physical-model hypothesis."
+        },
+        {
+          "material_claim": "The regressive version has no initial step in the backwards sequence; its relationship to Thomson’s lamp is a later supertask comparison, not an attribution to Zeno.",
+          "source_title": "Supertasks",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "exact_location": "Manchak and Roberts, §1.1 on the regressive Zeno walk and §1.2 on the regressive Thomson lamp and infinite switchings.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source directly discusses the regressive formulation and lamp comparison. The revised wording describes them as later related formulations and distinguishes the continuous walk from discrete switching.",
+          "limitation": "The consulted reference does not establish the regressive formulation as Zeno’s original wording.",
+          "required_edit": "Made: identify the backward formulation as a later variation and the lamp as related but distinct."
+        },
+        {
+          "material_claim": "The revised article’s bibliography references and verification date are reconciled with the proposed local patch and matching dataset entry.",
+          "source_title": "Matching Zeno’s Dichotomy dataset record",
+          "source_url": null,
+          "exact_location": "The existing data/experiments.json object for id zenos-dichotomy was inspected; its id and prior date_verified were reconciled with the proposed patch. The patch’s references array was compared with the revised article’s §9 Further Reading URLs and their order.",
+          "relationship": "supports",
+          "finding": "The existing record has the matching id and a prior verification date of 2026-10-31. The proposed patch updates date_verified to 2026-11-01; its four reference URLs match the revised Further Reading URLs exactly and in the same order. The dataset itself was not edited.",
+          "limitation": "Metadata reconciliation only; the patch is a local proposal, not a change to data/experiments.json.",
+          "required_edit": "Made: provide a patch containing the aligned date and references while leaving the dataset unchanged."
+        },
+        {
+          "material_claim": "The walking-room scenario and associated prompts are editorial teaching framing rather than historical details attributed to Zeno.",
+          "source_title": "Revised article framing; Zeno’s Paradoxes",
+          "source_url": null,
+          "exact_location": "Revised article §§1, 6, 7, and 10; compare Huggett §3.1’s distinct Atalanta reconstruction.",
+          "relationship": "context_only",
+          "finding": "The revised article explicitly labels its walking scenario as a teaching reconstruction and the lamp as a later related question. These are editorial explanations, not assertions about Zeno’s exact wording.",
+          "limitation": "Editorial framing does not require historical corroboration; the underlying historical report is separately sourced.",
+          "required_edit": "Made: explicitly label the reconstruction and educational comparisons."
+        }
+      ],
+      "unresolved_limits": [
+        "Zeno’s own book is lost; the ancient evidence is mediated through Aristotle and later witnesses, and the familiar scenario remains a reconstruction.",
+        "Huggett’s interpretation of Aristotle’s potential/actual distinction is one scholarly reconstruction; the audit does not resolve its adequacy or provide an exhaustive history of interpretations.",
+        "The convergent-series calculation establishes a finite total within standard real analysis and its stated assumptions, not that this model fully describes physical space and time.",
+        "Whether an infinite sequence of discrete acts can be completed, and how to interpret Thomson’s lamp, remain open philosophical questions; no expert review is claimed.",
+        "The local data patch is proposed only; data/experiments.json remains unchanged."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "galileos-paradox",
+      "title": "Galileo’s Paradox of the Infinite",
+      "article_path": "experiments/mathematics/galileos-paradox.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the 1638 work/date attribution; Galileo’s positive whole-number and square-number example, finite-range proportions, root pairing, and stated limitation on applying equality/greater-than/less-than to infinite quantities; the distinction between Galileo’s text and later one-to-one correspondence/cardinality terminology; Cantorian cardinality and the comparison with the real numbers; alternative numerosity theories; Matthew W. Parker’s interpretation; and the article’s explicitly labeled modern teaching comparisons. The status records traceability of this declared scope, not a determination that one philosophical interpretation is correct, consensus, exhaustive scholarship, or expert review.",
+      "summary": "The revised article grounds the paradox and Galileo’s stated conclusion in the First Day of Two New Sciences, while identifying one-to-one correspondence and cardinality as modern terminology. It distinguishes the Cantorian response from Galileo’s historical formulation, notes that Parker offers a different philosophical interpretation without presenting it as consensus, and describes numerosity theories as later alternatives. Unsupported broad claims about density as a general size measure and finitism were removed. The primary text, the relevant sections of the SEP entry, and relevant passages from Parker’s chapter were consulted. The revised Further Reading links and order are reconciled with the proposed data patch.",
+      "sources": [
+        {
+          "title": "Dialogues Concerning Two New Sciences",
+          "author": "Galileo Galilei; translated by Henry Crew and Alfonso de Salvio",
+          "publication": "English translation with introduction by Antonio Favaro (New York: Macmillan, 1914), First Day; Online Library of Liberty text-based ebook/PDF reproduction.",
+          "stable_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/753/Galileo_0416_EBk_v6.0.pdf",
+          "source_type": "Primary work in later English translation",
+          "access_level": "Relevant passages in the searchable text-based PDF were retrieved and read; the full work was not read.",
+          "exact_locations_read": "First Day, OLL ebook/PDF pagination 39–41 (pagination displayed in the searchable ebook, not asserted as the printed 1914 page numbers). Page 39 introduces Salviati’s limitation on comparing infinite quantities; page 40 contains the root pairing and finite-range proportions (10 squares up to 100 and 100 up to 10,000); page 41 states that equality, greater, and less apply to finite, not infinite, quantities. The OLL title record identifies the 1914 translation and translators.",
+          "limitations": "This is Galileo’s dialogue in a 1914 English translation, not the Italian original. The relevant passages were read, not the entire work. The reported conclusion is spoken by Salviati within the dialogue; using it as Galileo’s position follows the consulted SEP historical account and is presented as attribution rather than a claim that Galileo used later terminology."
+        },
+        {
+          "title": "Infinity",
+          "author": "Kenny Easwaran, Alan Hájek, Paolo Mancosu, and Graham Oppy",
+          "publication": "The Stanford Encyclopedia of Philosophy, Spring 2022 archive; §§2.4, “Counting infinite collections,” and 3.3.1, “Preliminaries,” with related discussion of cardinality and numerosity.",
+          "stable_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+          "source_type": "Scholarly reference work / secondary historical and philosophical analysis",
+          "access_level": "Relevant sections of the fixed archived entry were read; the entire entry was not read.",
+          "exact_locations_read": "§2.4 describes the square/whole-number paradox, Galileo’s conclusion, and its antecedents in Oresme and Albert of Saxony; the discussion of Bolzano and Cantor distinguishes the part–whole and bijection intuitions and locates Cantor’s later use of bijection in cardinality. §3.3.1 explains cardinality, the equal cardinality of squares and natural numbers, and theories of numerosities that preserve part–whole comparisons. The later cardinal discussion states that positive reals have greater cardinality than positive integers. Author/citation information was also consulted.",
+          "limitations": "A secondary synthesis, not a primary text. Its compact historical account does not settle the interpretation of Galileo’s argument; Parker’s contrasting philosophical analysis was also consulted. The article’s modern explanatory language is not attributed to Galileo."
+        },
+        {
+          "title": "Philosophical Method and Galileo’s Paradox of Infinity",
+          "author": "Matthew W. Parker",
+          "publication": "Chapter in Bart Van Kerkhove (ed.), New Perspectives on Mathematical Practices: Essays in Philosophy and History of Mathematics (World Scientific, 2009); PhilArchive record and author manuscript.",
+          "stable_url": "https://philarchive.org/rec/PARPMA-2",
+          "source_type": "Scholarly secondary philosophical analysis (chapter in an edited volume)",
+          "access_level": "Relevant passages from the chapter’s PDF text extraction were read; the chapter was not read in full.",
+          "exact_locations_read": "The passage beginning “Galileo points out in his last dialogue” through Parker’s claim that Salviati was right and Cantor wrong; the subsequent discussion of Euclid’s Principle and Hume’s Principle; and concluding passages under the Method of Conceptual Articulation concerning Cantorian power as useful but not the only possible concept of numerosity. The extraction did not establish page numbers, so none are assigned here.",
+          "limitations": "One author’s philosophical interpretation, not a consensus statement. Parker expressly characterizes his reading as an argument about how concepts of number and size are articulated; the article reports it as a published interpretation, not as settled history."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Galileo’s 1638 Two New Sciences presents the positive whole numbers and their square numbers as apparently fewer in finite ranges yet matchable by assigning each number its square root relation; the passage gives the 100/10 and 10,000/100 examples.",
+          "source_title": "Dialogues Concerning Two New Sciences",
+          "source_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/753/Galileo_0416_EBk_v6.0.pdf",
+          "exact_location": "First Day, OLL ebook/PDF pp. 40–41; especially the passage beginning “But if I inquire how many roots there are.”",
+          "relationship": "supports",
+          "finding": "The primary dialogue directly states that every number is a root of some square, infers as many squares as numbers, contrasts this with the many non-squares, and gives the stated finite-range ratios. The article now attributes the pairing to the dialogue and labels “one-to-one correspondence” as current mathematical language.",
+          "limitation": "Crew and de Salvio’s 1914 English translation; relevant passages only. The displayed ebook page numbers are not asserted as print pagination.",
+          "required_edit": "Made: tied the setup and finite-range proportions to the primary passage and explicitly separated the modern correspondence terminology from Galileo’s terminology."
+        },
+        {
+          "material_claim": "In the dialogue, Salviati says that equality, greater-than, and less-than comparisons apply to finite rather than infinite quantities.",
+          "source_title": "Dialogues Concerning Two New Sciences; Infinity",
+          "source_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/753/Galileo_0416_EBk_v6.0.pdf",
+          "exact_location": "Primary: First Day, OLL ebook/PDF pp. 39–41. Secondary: SEP §2.4, “Counting infinite collections.”",
+          "relationship": "supports_with_qualification",
+          "finding": "Salviati states that the attributes “equal,” “greater,” and “less” apply to finite, not infinite, quantities. SEP characterizes this as Galileo’s conclusion. The article carefully attributes the line to Salviati in Galileo’s dialogue, rather than claiming direct access to Galileo’s private intent.",
+          "limitation": "Dialogue speech is primary textual evidence of what the character says; historical attribution to Galileo is mediated by the SEP’s account. The article does not claim this is Galileo’s only view of infinity.",
+          "required_edit": "Made: revised the wording to quote the dialogue’s position and avoid presenting a modern formal solution as Galileo’s own."
+        },
+        {
+          "material_claim": "One-to-one correspondence and cardinality are later mathematical descriptions; Cantorian cardinality counts the positive whole numbers and their squares as equal in size, and distinguishes the real numbers as larger.",
+          "source_title": "Infinity",
+          "source_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+          "exact_location": "SEP §2.4 on Cantor’s later use of one-to-one correspondence to define cardinal numbers; §3.3.1 on the squares as a proper subset with the same cardinality; later cardinal discussion on positive reals and positive integers.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP explicitly distinguishes Galileo’s paradox from the later Cantorian framework and states both the equal cardinality of squares and natural numbers and the greater cardinality of the positive reals. The revised article presents these as later results, not Galileo’s vocabulary or achievement.",
+          "limitation": "The SEP is a secondary reference account; the claim is restricted to the contemporary set-theoretic definition it describes. It does not prove that cardinality is the sole legitimate notion of infinite size.",
+          "required_edit": "Made: added explicit chronology and removed language suggesting that the later set-theoretic criterion was Galileo’s own."
+        },
+        {
+          "material_claim": "Parker interprets the resolution as articulation of distinct concepts of number/size and treats Cantorian cardinality as useful but not uniquely correct, rather than a discovery of the one true meaning of number.",
+          "source_title": "Philosophical Method and Galileo’s Paradox of Infinity",
+          "source_url": "https://philarchive.org/rec/PARPMA-2",
+          "exact_location": "Relevant extracted chapter passages: opening discussion of Galileo’s paradox; discussion of Euclid’s Principle and Hume’s Principle; conclusion on the Method of Conceptual Articulation and the usefulness and non-uniqueness of Cantorian power.",
+          "relationship": "supports",
+          "finding": "Parker’s chapter advances the interpretation summarized in the revised article. The text identifies it as Parker’s argument and explicitly avoids treating it as consensus.",
+          "limitation": "One scholarly interpretation; relevant passages only and no page numbers established from the extraction. It does not replace primary-text evidence or establish a consensus reading.",
+          "required_edit": "Made: added Parker’s contrasting interpretation and marked it as a published, non-consensus position."
+        },
+        {
+          "material_claim": "Some later theories of numerosities can preserve a part–whole comparison for infinite sets, while describing how often squares appear in finite ranges is not itself a general alternative definition of infinite size.",
+          "source_title": "Infinity; Dialogues Concerning Two New Sciences",
+          "source_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+          "exact_location": "SEP §3.3.1 on numerosity theories and their treatment of the square numbers; primary First Day, OLL ebook/PDF p. 40 on the decreasing proportion of squares in finite ranges.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP describes numerosity approaches that diverge from Cantorian cardinality and preserve a part–whole intuition for infinite sets. Galileo’s own finite-range examples support the descriptive use of proportion, but do not establish density as a general size measure. The revised article distinguishes these claims and calls numerosity approaches later theories.",
+          "limitation": "The review does not assess the technical merits of numerosity frameworks. The density sentence is a bounded methodological inference from the cited scope of Galileo’s finite examples, not a claim attributed to Galileo or an exhaustive statement about density measures.",
+          "required_edit": "Made: removed the unqualified claim that alternative approaches simply use density and replaced it with a sourced account of later numerosity theories plus a scope qualification."
+        },
+        {
+          "material_claim": "The even positive integers can be paired one-to-one with all positive integers as an illustrative modern example; the pairing is an educational extension, not a historical variation attributed to Galileo.",
+          "source_title": "Infinity; revised article framing",
+          "source_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+          "exact_location": "SEP §3.3.1 on one-to-one correspondence and cardinality; revised article §§6–7 explicitly label the even-number comparison a modern illustration.",
+          "relationship": "context_only",
+          "finding": "The pairing is a straightforward modern example of the Cantorian criterion; the article marks it as an extension and not part of Galileo’s text.",
+          "limitation": "This is educational framing, not a claim about Galileo or a sourced historical variation.",
+          "required_edit": "Made: labeled the extension as modern set theory and not a variation attributed to Galileo."
+        },
+        {
+          "material_claim": "The revised article’s Further Reading references and order match the proposed data patch, and the dataset verification date is updated to 2026-11-01.",
+          "source_title": "Matching Galileo’s Paradox data record",
+          "source_url": null,
+          "exact_location": "Matching object id galileos-paradox in data/experiments.json and revised article §9 Further Reading; compared against the proposed data patch.",
+          "relationship": "supports",
+          "finding": "The article’s three Further Reading URLs are present in the proposed references in the same order: the OLL Galileo text, archived SEP entry, and Parker chapter record. The patch sets date_verified to 2026-11-01 and does not add a public review-status field. The dataset itself remains unchanged.",
+          "limitation": "Metadata reconciliation only; it does not establish historical or mathematical claims.",
+          "required_edit": "Made: created the requested local data patch; did not edit data/experiments.json."
+        }
+      ],
+      "unresolved_limits": [
+        "The review consulted relevant passages, not the complete text of Two New Sciences, the complete SEP entry, or Parker’s complete chapter.",
+        "The primary source was read in the 1914 Crew and de Salvio English translation; no Italian original or critical edition was consulted.",
+        "The report presents Parker’s interpretation as one scholarly position and does not undertake an exhaustive review of Galileo scholarship or establish a consensus interpretation.",
+        "The technical details and merits of numerosity theories are not assessed; they are mentioned only to qualify the article’s former broad account of alternatives.",
+        "No named human subject-matter expert reviewed the article."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "moores-proof-of-an-external-world",
+      "title": "Moore’s “Here Is One Hand”",
+      "article_path": "experiments/epistemology/moores-proof-of-an-external-world.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the work’s publication metadata; the two-hand demonstration, inference and Moore’s three stated conditions for a rigorous proof; what the argument establishes and what Moore says he did not prove; Baldwin’s interpretation and Raff’s alternative reading of Moore’s announced aim; the question-begging, transmission-failure and dialectical-effectiveness debate; the contextualist description; the later Neo-Moorean/closure comparison; and whether teaching questions are clearly editorial. This status records traceability within that scope, not the soundness of Moore’s argument, whether it answers skepticism, a settled interpretation, exhaustive scholarship, or expert review.",
+      "summary": "The article now presents the demonstrative hand-premises and Moore’s three stated proof conditions, while distinguishing his proof of the existence of external objects from a proof that he knows the skeptic’s denial false. It records Moore’s own admission that he did not prove the hand-premises or provide a proof that he was not dreaming. It attributes Baldwin’s interpretation and Raff’s competing reading rather than treating the lecture’s intended force as settled, and frames transmission failure and contextualism as later debates or distinct approaches. The revised Further Reading list and proposed data patch were checked for matching titles, URLs, and order; the proposed verification date is 2026-11-01.",
+      "sources": [
+        {
+          "title": "Proof of an External World",
+          "author": "G. E. Moore",
+          "publication": "Originally published in Proceedings of the British Academy 25 (1939), pp. 273–300; consulted in the reprint in G. E. Moore: Selected Writings, edited by Thomas Baldwin (1993), pp. 147–170.",
+          "stable_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+          "source_type": "Primary philosophical work (reprint of the 1939 lecture)",
+          "access_level": "Relevant passages read in a text-extracted PDF reprint; the complete reprint and the complete original publication were not read.",
+          "exact_locations_read": "Reprint p. 147 for the lecture’s opening question and bibliographic note; pp. 164–166 for Moore’s account of external objects, the hand demonstration, the conclusion and his three conditions for a rigorous proof; pp. 168–170 for his explanation of dissatisfaction, the unproved premises, the dream objection and his reply to the charge that unproved premises mean he does not know them.",
+          "limitations": "The linked PDF is a third-party-hosted reprint, not the original British Academy issue. The text was accessed through extraction rather than by inspecting the full original print edition. Moore’s testimony establishes what he argued, not that his argument succeeds against a skeptic."
+        },
+        {
+          "title": "George Edward Moore",
+          "author": "Tom Baldwin",
+          "publication": "The Stanford Encyclopedia of Philosophy, Summer 2010 archived edition, §6, “Common Sense and Certainty.”",
+          "stable_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in §6 of the archived entry were read; the entire entry was not read.",
+          "exact_locations_read": "§6 paragraphs beginning with Moore’s common-sense position and his ‘Proof of an External World’; the quotation of the two gestures and the three proof conditions; the quotation from ‘A Reply to my Critics’ distinguishing ‘there are no material things’ from ‘Nobody knows for certain that there are any material things’; and the discussion of what the proof does and does not establish about externality and skepticism.",
+          "limitations": "This is Baldwin’s secondary interpretation. Raff (2019) challenges the standard interpretation of Moore’s announced aim, so Baldwin’s account is reported as an attributed reading rather than consensus."
+        },
+        {
+          "title": "The Point of Moore’s Proof",
+          "author": "Charles Raff",
+          "publication": "International Journal for the Study of Skepticism (2019), pp. 1–27; DOI 10.1163/22105700-20191355.",
+          "stable_url": "https://philarchive.org/archive/RAFTPO-7",
+          "source_type": "Scholarly secondary analysis",
+          "access_level": "Selected relevant passages of the article’s text-extracted full text were read.",
+          "exact_locations_read": "pp. 1–3 on the received interpretations, Moore’s announced aim, and the claim that his performance counterexamples a presupposition of Kant’s problem; pp. 25–26, conclusion, restating Raff’s reading and its implications.",
+          "limitations": "Raff advances a specific, revisionary interpretation and explicitly disputes the standard reading; the audit did not adjudicate this debate or conduct an exhaustive survey of Moore scholarship."
+        },
+        {
+          "title": "Transmission and Transmission Failure in Epistemology",
+          "author": "Chris Tucker",
+          "publication": "Internet Encyclopedia of Philosophy, entry of that title; no publication date was displayed in the consulted page.",
+          "stable_url": "https://iep.utm.edu/transmis/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant Moore-proof and transmission sections were read; the entire entry was not read.",
+          "exact_locations_read": "The section introducing Moore’s Proof; subsection ‘Transmission vs. Resolving Doubt’; the passage on Moore’s proof and dialectical effectiveness for skeptical audiences; and the references discussing James Pryor’s defense against the transmission-failure charge.",
+          "limitations": "This is a secondary overview of a technical and contested literature. It reports multiple positions and does not itself establish which diagnosis is correct; the underlying papers by Wright, Pryor and others were not read for this audit."
+        },
+        {
+          "title": "Epistemic Contextualism",
+          "author": "Patrick Rysiew",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2026 archived edition, especially §§3.1–3.2.",
+          "stable_url": "https://plato.stanford.edu/archives/fall2026/entries/contextualism-epistemology/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in §§3.1–3.2 of the archived entry were read; the entire entry was not read.",
+          "exact_locations_read": "§3.1, ‘A Skeptical Puzzle,’ on a skeptical argument from a skeptical hypothesis and closure; §3.2, ‘The General Form of the Contextualist Solution,’ on context-sensitive standards for knowledge attributions and the contextualist response.",
+          "limitations": "This is a broad account of epistemic contextualism, a contested theory. It supports the article’s separate description of contextualism, not an attribution of contextualism to Moore or a claim that contextualism is a consensus response."
+        },
+        {
+          "title": "Epistemic Closure",
+          "author": "Steven Luper",
+          "publication": "The Stanford Encyclopedia of Philosophy, Summer 2020 archived edition, §5.1, ‘Skepticism and Antiskepticism.’",
+          "stable_url": "https://plato.stanford.edu/archives/sum2020/entries/closure-epistemic/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in §5.1 were read; the entire entry was not read.",
+          "exact_locations_read": "§5.1 presents a closure-based skeptical argument, its reversal using an ordinary-world premise, and the passage identifying Moore-style anti-skeptical reasoning; it notes this treatment is roughly Moore’s later (1959) strategy and distinguishes it from the skeptic’s argument.",
+          "limitations": "This passage concerns a later Moore-style anti-skeptical strategy and is used only to distinguish that development from the exact hand proof in the 1939 lecture. It does not establish every contemporary use of the label ‘Neo-Moorean.’"
+        },
+        {
+          "title": "Proof of an external world",
+          "author": "George Edward Moore",
+          "publication": "PhilPapers bibliographic record for Proceedings of the British Academy 25(5): 273–300 (1939).",
+          "stable_url": "https://philpapers.org/rec/MOOPOA",
+          "source_type": "Bibliographic catalogue record",
+          "access_level": "Bibliographic metadata only; the record was opened and read, not used as evidence for the argument’s contents.",
+          "exact_locations_read": "Record title, author, journal, volume/issue, pages and year.",
+          "limitations": "A catalogue record supports publication metadata only; the primary passage was consulted separately in the reprint."
+        },
+        {
+          "title": "Matching Moore’s ‘Here Is One Hand’ data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id moores-proof-of-an-external-world; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected read-only; the article’s Further Reading list and proposed patch were compared after revision.",
+          "exact_locations_read": "Matching id/title and the record’s date_verified and references fields; the proposed patch’s six reference titles and URLs were compared in article order against §9 of the revised article.",
+          "limitations": "This is metadata reconciliation only and does not establish historical or philosophical claims. The patch is proposed evidence for the parent process; data/experiments.json was not edited."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Moore’s ‘Proof of an External World’ was published in 1939 in Proceedings of the British Academy, volume 25, pages 273–300.",
+          "source_title": "Proof of an External World; Proof of an external world",
+          "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+          "exact_location": "The reprint’s bibliographic note on p. 147 states the original publication venue, volume, year and pages; the PhilPapers record gives Proceedings of the British Academy 25(5): 273–300 (1939).",
+          "relationship": "supports",
+          "finding": "The original-publication year and venue are supported by the note in the primary reprint; the bibliographic catalogue supplies the issue detail. The article now records the volume and page range rather than only a year.",
+          "limitation": "PhilPapers is metadata only; the original 1939 issue was not independently retrieved.",
+          "required_edit": "Made: expanded the article’s publication metadata to include volume and page range."
+        },
+        {
+          "material_claim": "Moore’s hand proof uses two gestures and two ‘here is a hand’ claims to conclude that two hands exist at that moment, which Moore treats as establishing external objects.",
+          "source_title": "Proof of an External World",
+          "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+          "exact_location": "Reprint pp. 164–166, especially p. 165 for the two gestures, utterances and conclusion; compare Baldwin, SEP §6, for Moore’s technical account of external objects.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text describes indicating one hand and another with gestures, then concludes that two human hands exist now and that external things exist. The revised article explicitly attributes the inference and the external-object step to Moore.",
+          "limitation": "Moore’s assertion that hands count as external objects is part of his argument; it does not independently settle the metaphysical analysis of externality.",
+          "required_edit": "Made: replaced a compressed summary with the demonstrative premise, temporal conclusion and attributed external-object inference."
+        },
+        {
+          "material_claim": "Moore says a rigorous proof requires a premise different from the conclusion, a premise known by the speaker, and an entailment from premise to conclusion, and he claims the hand proof satisfies these requirements.",
+          "source_title": "Proof of an External World",
+          "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+          "exact_location": "Reprint pp. 165–166; the three conditions and Moore’s application of each are on p. 166.",
+          "relationship": "supports_with_qualification",
+          "finding": "Moore explicitly states the three conditions and claims his demonstration meets each. The revised article attributes both the criteria and their satisfaction to Moore, and distinguishes that claim from the question of whether a skeptic accepts the premises.",
+          "limitation": "The primary passage establishes Moore’s stated criteria and claim, not that they are exhaustive criteria for every proof or that Moore’s knowledge claim is correct.",
+          "required_edit": "Made: stated all three conditions and attributed their satisfaction to Moore rather than presenting his premise as independently verified."
+        },
+        {
+          "material_claim": "Moore’s hand demonstration establishes the existence of external objects but does not by itself establish that he knows them to exist or refute the claim that nobody knows material things exist.",
+          "source_title": "George Edward Moore; Proof of an External World",
+          "source_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+          "exact_location": "Baldwin, SEP §6, passage distinguishing ‘there are no material things’ from ‘Nobody knows for certain that there are any material things,’ including the quotation from Moore’s ‘A Reply to my Critics’; primary lecture reprint pp. 168–170 on objections and the status of the hand premises.",
+          "relationship": "supports_with_qualification",
+          "finding": "Baldwin’s account quotes Moore as distinguishing the existential claim from the knowledge-skeptical claim. The primary lecture itself argues that Moore knows his premises but acknowledges that he has not proved them and cannot supply a proof that he is not dreaming. The article preserves this distinction.",
+          "limitation": "Baldwin’s treatment of the lecture’s overall aim is challenged by Raff; the article limits this claim to the distinction between existence and knowledge and reports interpretations separately.",
+          "required_edit": "Made: removed the unqualified claim that the 1939 hand proof simply turns the skeptical argument upside down and stated what it does not prove."
+        },
+        {
+          "material_claim": "Moore acknowledges that he has not proved the hand premises and says that proving he is not dreaming would be needed for a further proof of those premises, though he says he has conclusive evidence of being awake.",
+          "source_title": "Proof of an External World",
+          "source_url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+          "exact_location": "Reprint pp. 168–170, especially pp. 168–169 on the demand for a proof of the hand propositions and the dreaming objection; p. 170 on Moore’s response to the claim that premises he cannot prove are not known.",
+          "relationship": "supports_with_qualification",
+          "finding": "The lecture explicitly says Moore has not attempted to prove the premise propositions and that he does not believe he can prove he is not dreaming, while distinguishing having evidence from proving it. The article accurately states this limitation and does not infer that Moore concedes ignorance of the hand premises.",
+          "limitation": "This records Moore’s stated position; it does not adjudicate whether his evidence or knowledge claim succeeds.",
+          "required_edit": "Made: added Moore’s own qualification about the premises and dreaming to prevent readers from mistaking the deduction for a proof against every skeptical hypothesis."
+        },
+        {
+          "material_claim": "Baldwin interprets Moore’s stated aim as proving the existence of external objects, not proving that Moore knows they exist; Baldwin also holds that the proof does not settle whether hands are independent of experience or thought.",
+          "source_title": "George Edward Moore",
+          "source_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+          "exact_location": "§6, paragraphs on the ‘Proof of an External World,’ the distinction between existence and knowledge, and the metaphysical significance of Moore’s proof and externality.",
+          "relationship": "supports_with_qualification",
+          "finding": "The archived SEP entry advances this reading and the article names Baldwin and attributes both interpretive claims to him.",
+          "limitation": "Raff (2019) contests received interpretations of Moore’s announced aim; Baldwin’s reading must not be presented as consensus.",
+          "required_edit": "Made: stated Baldwin’s interpretation as an attributed view and preserved his metaphysical qualification."
+        },
+        {
+          "material_claim": "Raff interprets Moore’s announced purpose as counterexample to a presupposition in Kant’s problem of the external world, rather than a straightforward solution of that problem or refutation of skepticism.",
+          "source_title": "The Point of Moore’s Proof",
+          "source_url": "https://philarchive.org/archive/RAFTPO-7",
+          "exact_location": "Raff, pp. 1–3 on the announced aim and alternative to received readings; pp. 25–26, conclusion.",
+          "relationship": "supports_with_qualification",
+          "finding": "Raff’s article advances this reading from Moore’s lecture and explicitly challenges the standard interpretation. The revised article identifies it as Raff’s interpretation and says it is not settled consensus.",
+          "limitation": "This audit read selected passages, not the full scholarly debate, and makes no judgment that Raff’s account is preferable to Baldwin’s.",
+          "required_edit": "Made: added the alternative reading and expressly marked it as a disputed scholarly interpretation."
+        },
+        {
+          "material_claim": "Question-begging, transmission of justification, and the inability to settle a skeptical audience’s doubt are distinct and contested diagnoses of Moore’s proof; Pryor is identified as defending it against the transmission-failure charge.",
+          "source_title": "Transmission and Transmission Failure in Epistemology",
+          "source_url": "https://iep.utm.edu/transmis/",
+          "exact_location": "The entry’s Moore’s Proof discussion, ‘Transmission vs. Resolving Doubt,’ the passage on dialectical effectiveness for skeptical audiences, and the bibliography entry for Pryor (2004).",
+          "relationship": "supports_with_qualification",
+          "finding": "Tucker describes question-begging intuitions, distinguishes transmission failure from failure to resolve doubt, and reports that Pryor defends Moore’s proof. The revised article presents these as a live debate rather than a settled diagnosis.",
+          "limitation": "The IEP entry is a secondary overview; the cited Wright and Pryor papers were not read in this audit, so their detailed arguments are not independently assessed.",
+          "required_edit": "Made: replaced the one-sided claim that transmission views diagnose a failure with a qualified summary of the debate."
+        },
+        {
+          "material_claim": "Epistemic contextualism is a distinct, contested family of approaches that explains apparent conflicts between ordinary and skeptical knowledge claims through context-sensitive standards for knowledge attributions.",
+          "source_title": "Epistemic Contextualism",
+          "source_url": "https://plato.stanford.edu/archives/fall2026/entries/contextualism-epistemology/",
+          "exact_location": "Rysiew, SEP §§3.1–3.2, especially §3.2 on variable standards and the contextualist response to skeptical arguments.",
+          "relationship": "supports_with_qualification",
+          "finding": "The archived SEP entry supports the article’s separate description of contextualism and characterizes the view as contested. The article explicitly says it is not Moore’s own conclusion.",
+          "limitation": "This is a brief overview, not a complete account of contextualism or evidence that all contextualists respond identically.",
+          "required_edit": "Made: recast contextualism as a distinct later approach rather than grouping it together with Neo-Moorean revisions of Moore’s proof."
+        },
+        {
+          "material_claim": "Later Moore-style anti-skeptical arguments use ordinary knowledge claims with epistemic closure against Cartesian skeptical hypotheses and should not be conflated with the exact 1939 hand proof.",
+          "source_title": "Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/archives/sum2020/entries/closure-epistemic/",
+          "exact_location": "Luper, SEP §5.1, ‘Skepticism and Antiskepticism,’ which describes a closure-based skeptical argument and its reversal as roughly Moore’s later strategy.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the distinction between a later Moore-style closure response and a skeptical argument; the article expressly separates contemporary Neo-Moorean reasoning from the precise hand proof.",
+          "limitation": "The source describes Moore’s later strategy and does not define all uses of ‘Neo-Moorean’ in contemporary literature.",
+          "required_edit": "Made: separated the closure-based extension and the distinct contextualist approach instead of presenting them as one Neo-Moorean project."
+        },
+        {
+          "material_claim": "Moore’s ‘A Defence of Common Sense’ (1925) lists propositions he claims to know with certainty.",
+          "source_title": "George Edward Moore",
+          "source_url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
+          "exact_location": "Baldwin, SEP §6, opening paragraphs on ‘A Defence of Common Sense’ and Moore’s list of truisms.",
+          "relationship": "supports",
+          "finding": "The source directly reports Moore’s 1925 essay and his certainty claims; the revised article retains the detail with a year and title.",
+          "limitation": "The 1925 primary essay was not separately read for this audit; this is a secondary report.",
+          "required_edit": "None; retained with the date and work title made explicit."
+        },
+        {
+          "material_claim": "The discussion questions and framing prompts are editorial teaching material rather than claims attributed to Moore.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§2, 6, and 8; Sources and Attribution, §10.",
+          "relationship": "context_only",
+          "finding": "The questions are presented as prompts, and §10 expressly labels them editorial rather than historical claims about Moore.",
+          "limitation": "These prompts are not claims requiring primary-source corroboration.",
+          "required_edit": "Made: explicitly marked the questions and examples as editorial teaching prompts."
+        },
+        {
+          "material_claim": "The revised article’s Further Reading list and proposed dataset patch match by title, URL and order; the matching dataset entry has the same id/title and its verification date is proposed to change from 2026-10-31 to 2026-11-01.",
+          "source_title": "Matching Moore’s ‘Here Is One Hand’ data record; revised article; proposed data patch",
+          "source_url": null,
+          "exact_location": "Current data/experiments.json object id moores-proof-of-an-external-world; revised article §9; proposed patch references array and date_verified field.",
+          "relationship": "supports",
+          "finding": "The original matching dataset entry was inspected read-only. After revision, the six Further Reading titles and URLs were programmatically compared with the six patch reference objects in order and matched exactly. The patch retains the matching id, uses date_verified 2026-11-01, and proposes no public review-status field.",
+          "limitation": "This verifies local metadata alignment only; data/experiments.json was not edited, and the patch is not yet applied to it.",
+          "required_edit": "Made: created the separately authorized data patch with the revised article’s exact reference list and current review date."
+        }
+      ],
+      "unresolved_limits": [
+        "The original 1939 British Academy issue was not retrieved; relevant passages were read in the 1993 Selected Writings reprint hosted as a text-extracted PDF.",
+        "Whether Moore’s argument is sound, whether he knows its premises, and whether the proof answers a radical skeptic remain philosophical questions; source checking does not decide them.",
+        "Baldwin’s and Raff’s interpretations of the proof’s intended force differ. The article records both without resolving the disagreement or claiming consensus.",
+        "The transmission-failure debate is represented through Chris Tucker’s reference overview; the underlying Wright, Pryor and related papers were not read, so their detailed arguments were not adjudicated.",
+        "The entries on contextualism and closure were consulted only in the relevant sections; no exhaustive review of contemporary epistemology or of all Neo-Moorean approaches was undertaken.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    }
+  ]
+}

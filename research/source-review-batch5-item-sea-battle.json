@@ -1,7 +1,7 @@
 {
   "id": "sea-battle",
   "title": "Aristotle’s Sea Battle",
-  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/time-and-causality/sea-battle.md",
+  "article_path": "experiments/time-and-causality/sea-battle.md",
   "status": "source_checked",
   "review_date": "2026-11-01",
   "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
@@ -195,7 +195,7 @@
   ],
   "dataset_alignment": "After the audit, the matching dataset record’s identity, approximate publication date, verification date (2026-11-01), and all three references match the article. The article lists the SEP, Aristotle’s primary chapter in translation, and Istvan’s scholarly analysis; the dataset URLs are identical.",
   "further_reading_matches": true,
-  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-sea-battle.json",
+  "ledger_path": "research/source-review-batch5-item-sea-battle.json",
   "protocol": "research/source-review-standard.md",
   "selection_rank": 5,
   "risk_reason": "The entry combines Aristotle’s formal fatalist argument with contested later semantic frameworks, while the primary chapter had not initially been retrieved and the expansion keyword count for “sea battle” was one.",

@@ -1,0 +1,206 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit reviews; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "quus-rule-following",
+  "title": "Kripke’s Quus",
+  "article_path": "experiments/logic/quus-rule-following.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete assigned article, its existing dataset record, and the expansion-log entry. Focus: the quus construction and 68 + 57 example; the basic versus radical skeptical conclusion; the skeptical solution and its community/response condition; the distinction between Kripke’s reading and Wittgenstein’s own text; dispositionalist, non-reductionist/primitivist, and critical responses; and the scope of generalization and teaching comparisons. This is an editorial traceability status, not a finding that the argument succeeds, a consensus claim, an exhaustive literature review, or expert review.",
+  "summary": "The selected primary excerpt and Miller’s full SEP treatment support the quus definition, the 68 + 57 = 5 result under that stipulated function, and the skeptical challenge about what fixes prior meaning. The article now separates the basic conclusion (no fact of the demanded kind constitutes meaning) from the radical conclusion that nobody means anything, which Kripke rejects. Kripke’s skeptical solution is described as a shift to assertibility conditions, community response patterns, and practical role—not as community agreement becoming a new truth-making fact. Wittgenstein’s own PI §§201–202 and §§241–242 were read directly; McDowell’s published critique documents a live disagreement about whether Kripke’s skeptical paradox captures Wittgenstein’s position. Dispositionalism, non-reductionism, and primitivism are now presented as distinct and contested approaches. Kripke’s complete book was not accessed; relevant primary passages were read in a selected reprint excerpt and triangulated against the detailed SEP account. The article’s five Further Reading URLs now match the dataset references, and both research dates are 2026-11-01. An initial independent review found a duplicated paragraph with an incorrect author name; the erroneous paragraph was removed, and a focused follow-up confirmed the single remaining attribution to Hannah Ginsborg against the SEP §4 account.",
+  "sources": [
+    {
+      "title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+      "author": "Saul A. Kripke",
+      "publication": "Selected excerpt/reprint PDF; the scan header reads ‘The Nature of Language’ and ‘On Rules and Private Language’ and credits reprinting by permission of the author and Basil Blackwell. The excerpt does not include a complete title/citation page; original book: Wittgenstein on Rules and Private Language: An Elementary Exposition, Cambridge, MA: Harvard University Press, 1982.",
+      "stable_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+      "source_type": "Primary philosophical work, read in selected reprint excerpt",
+      "access_level": "Selected excerpt accessed and text-extracted; not the complete 1982 monograph.",
+      "exact_locations_read": "In the hosted eight-page PDF, read the opening discussion of ‘68 + 57’ and the quus definition, including reprint pp. 628–629 (the displayed quus definition is on PDF physical page 2); read the later summary of the skeptical solution, including the community-acceptance/response passage on PDF physical page 5. Cross-identified the original-book quus passage as Kripke 1982, pp. 8–9 and the community condition as pp. 88–93 through the directly read SEP account and its page-specific citations. The excerpt’s pagination is not the original book pagination.",
+      "limitations": "A selected reprint excerpt, not the full book, was available and read. The host’s scan does not supply full publication metadata for the reprint. Its argument is primary evidence for what Kripke says in the excerpt, not evidence that his reconstruction accurately states Wittgenstein’s position or that his argument succeeds."
+    },
+    {
+      "title": "Wittgenstein on Rules and Private Language: An Elementary Exposition",
+      "author": "Saul A. Kripke",
+      "publication": "Cambridge, MA: Harvard University Press, 1982; x, 150 pages, as listed in the Internet Archive catalogue.",
+      "stable_url": "https://archive.org/details/wittgensteinonru0000krip",
+      "source_type": "Library/catalog record for a primary philosophical monograph; metadata only",
+      "access_level": "Catalogue metadata and access notice read; full book not accessed. The record says access is restricted.",
+      "exact_locations_read": "Internet Archive item description: title, author, publication date, publisher, pagination, and access-restricted notice.",
+      "limitations": "Used for bibliographic metadata only; no argument passage from this catalogue record was treated as read."
+    },
+    {
+      "title": "Philosophical Investigations",
+      "author": "Ludwig Wittgenstein; translated by G. E. M. Anscombe, P. M. S. Hacker, and Joachim Schulte; revised fourth-edition text",
+      "publication": "Fourth edition, revised by P. M. S. Hacker and Joachim Schulte, Wiley-Blackwell, 2009.",
+      "stable_url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+      "source_type": "Primary philosophical work",
+      "access_level": "Full fourth-edition PDF accessed; only task-relevant remarks and surrounding text were read.",
+      "exact_locations_read": "Part I §§185 (printed p. 81), 201–202 (printed p. 88), and 241–242 (printed p. 95). §201 calls the paradox a misunderstanding and describes a non-interpretive way of grasping a rule; §202 says following a rule is a practice; §§241–242 discuss agreement in language and judgments.",
+      "limitations": "These remarks are read as Wittgenstein’s text, not as proof that a single interpretation of them is correct. They do not themselves present Kripke’s plus/quus example or his chapter-three skeptical solution."
+    },
+    {
+      "title": "Rule-Following and Intentionality",
+      "author": "Alexander Miller and Olivia Sultanescu",
+      "publication": "Stanford Encyclopedia of Philosophy; first published April 12, 2022; current online entry consulted November 1, 2026.",
+      "stable_url": "https://plato.stanford.edu/entries/rule-following/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full-entry sections read; the entry’s argument exposition, references, and cited page locations were consulted, not every bibliographic source it discusses.",
+      "exact_locations_read": "§2, ‘The Sceptical Argument’ (quus, candidate facts, and the distinction between basic and radical conclusions); §§3.1–3.3 (skeptical solution, interpretive options, and Wilson’s alternative factualist reading); §4 (dispositionalism, including finitude, error, normativity, Horwich and Ginsborg); §5 (non-reductionism and primitive-state proposal).",
+      "limitations": "Scholarly overview and interpretation, not primary evidence for Wittgenstein’s or Kripke’s text and not an exhaustive account of all responses. The entry explicitly records live disagreement and does not establish consensus."
+    },
+    {
+      "title": "Wittgenstein on Following a Rule",
+      "author": "John McDowell",
+      "publication": "Synthese 58, no. 3 (1984): 325–363.",
+      "stable_url": "https://sites.pitt.edu/~rbrandom/Courses/2023%20Sellars/Sellars%20texts/McDowell-Wittgenstein%20on%20followingRule-1984.pdf",
+      "source_type": "Scholarly philosophical article (published article text)",
+      "access_level": "Full article PDF accessed; the directly relevant argument passages were read.",
+      "exact_locations_read": "Printed pp. 329–333: Kripke’s skeptical paradox/solution and McDowell’s objection that PI §201 treats the paradox as a misunderstanding to correct; printed pp. 356–357: McDowell’s contrast between his reading and Wright’s account of publicity/community.",
+      "limitations": "Establishes McDowell’s published interpretation and criticism, not a settled verdict about Wittgenstein or a representative consensus."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "For the example, assume prior addition examples involved pairs whose two operands were each below 57; Kripke defines quus to agree with addition when both operands are below 57 and to return 5 otherwise, so 68 quus 57 yields 5 while the ordinary sum remains 125.",
+      "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+      "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+      "exact_location": "Reprint PDF physical page 2, two-column passage defining quus and discussing ‘68 + 57’; Kripke 1982, pp. 8–9 as cross-referenced in Miller, SEP §2. SEP §2 reproduces the operation and arithmetic example.",
+      "relationship": "supports",
+      "finding": "The primary passage gives the strict condition x,y < 57 and the alternative result 5. The revised article states both operands must be below 57 and avoids the ambiguous claim that the function simply changes ‘for larger numbers.’",
+      "limitation": "The direct Kripke source is a selected excerpt/reprint rather than the complete monograph; the mathematical result follows directly from the stipulated definition.",
+      "required_edit": "Made: specified the operands’ threshold precisely and distinguished the stipulated quus result from ordinary addition."
+    },
+    {
+      "material_claim": "The challenge concerns which function the speaker previously meant and what fixes future application, not whether the ordinary arithmetic sum of 68 and 57 is 125.",
+      "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+      "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+      "exact_location": "Reprint PDF physical page 2, immediately following the quus definition; Miller, SEP §2, which quotes and explains the original setup and the metalinguistic nature of the challenge.",
+      "relationship": "supports_with_qualification",
+      "finding": "Kripke explicitly distinguishes the arithmetic computation from the question of what the symbol was meant to denote. The article retains the arithmetic example while identifying the challenge as metalinguistic and normative.",
+      "limitation": "The skeptic’s result is conditional on the stipulated quus interpretation; it is not ordinary arithmetic.",
+      "required_edit": "Made: replaced the loose ‘not about arithmetic’ wording with the distinction between the usual sum and the skeptical question about meaning."
+    },
+    {
+      "material_claim": "Kripke argues that candidate facts such as finite past use, instructions, mental states, and individual dispositions do not establish the intended function in the way demanded by the skeptic.",
+      "source_title": "Rule-Following and Intentionality",
+      "source_url": "https://plato.stanford.edu/entries/rule-following/",
+      "exact_location": "§2, ‘The Sceptical Argument,’ discussion of finite examples, reinterpretation of instructions, and candidate meaning-fixing facts; pp. 22–54 of Kripke (1982) are cited there for the candidate accounts.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry supports the article’s summary that Kripke’s skeptic rejects multiple candidates, and clarifies that the argument is about the failure to find a fact meeting the skeptic’s stated demands, not an independent proof that each candidate account is philosophically impossible.",
+      "limitation": "This is Miller and Sultanescu’s secondary reconstruction of Kripke; the full corresponding book pages were not accessed.",
+      "required_edit": "Made: described the result as Kripke’s argument about facts of the demanded kind, rather than asserting an unqualified metaphysical result."
+    },
+    {
+      "material_claim": "The basic skeptical conclusion that no fact of the demanded kind constitutes meaning must be distinguished from the radical conclusion that nobody means anything; Kripke rejects the latter and offers a skeptical solution.",
+      "source_title": "Rule-Following and Intentionality",
+      "source_url": "https://plato.stanford.edu/entries/rule-following/",
+      "exact_location": "§2, paragraph distinguishing Wilson’s basic and radical skeptical conclusions and citing Kripke 1982: 22, 60, 71; §§3.1–3.3 on attempts to preserve meaning-attribution.",
+      "relationship": "supports",
+      "finding": "The article’s original wording blurred the skeptic’s basic conclusion with the radical ‘no meaning’ result. The SEP explicitly distinguishes them and says Kripke rejects the radical result.",
+      "limitation": "This terminological distinction is attributed to George Wilson and adopted in the SEP’s analysis; not all commentators use precisely the same labels.",
+      "required_edit": "Made: separated the basic conclusion from the radical consequence and stated that Kripke rejects the latter."
+    },
+    {
+      "material_claim": "Kripke’s skeptical solution shifts to conditions for appropriately asserting meaning-ascriptions and their role/utility in practice; community response agreement is not offered as a new truth-making fact that settles meaning.",
+      "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+      "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+      "exact_location": "Reprint PDF physical page 5, summary of the skeptical solution: inspect categorical and conditional assertions, the circumstances and utility of their use, community acceptance after sufficient tests, and agreement in responses; corroborated by Miller, SEP §§3.1–3.3 and Kripke 1982: 73, 88, 92 as cited there.",
+      "relationship": "supports_with_qualification",
+      "finding": "Kripke says the community practice explains how meaning-ascriptions are introduced into language, but ‘does not give conditions for these statements to be true.’ The article now presents community patterns as part of the assertibility/practice account and explicitly denies that this straightforwardly supplies truth-conditions.",
+      "limitation": "The nature of Kripke’s solution is disputed; the selected excerpt is not the full chapter, and the scholarly entry discusses several competing interpretations.",
+      "required_edit": "Made: replaced the reductive ‘community agreement, not facts about individuals’ description with a qualified assertibility/practice account and flagged disagreement."
+    },
+    {
+      "material_claim": "Wittgenstein’s own PI §§201–202 discuss a rule-following paradox, a way of grasping rules not reducible to interpretation, and rule-following as practice; these passages do not themselves state Kripke’s exact quus case or his skeptical solution.",
+      "source_title": "Philosophical Investigations",
+      "source_url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+      "exact_location": "Part I §§201–202, printed p. 88; also §§185 (printed p. 81), 241–242 (printed p. 95) for series-following and agreement in language/judgment.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text itself calls the paradox a misunderstanding and says following a rule is a practice. The article now attributes the plus/quus reconstruction and chapter-three solution to Kripke, while distinguishing that from Wittgenstein’s own remarks.",
+      "limitation": "The text does not by itself determine the correct interpretation of Wittgenstein’s remarks; McDowell and other scholars disagree about what the passages imply.",
+      "required_edit": "Made: clarified the difference between the primary text and Kripke’s interpretation and added precise PI sections."
+    },
+    {
+      "material_claim": "McDowell argues that PI §201 treats the paradox as a misunderstanding to correct, thereby challenging Kripke’s attribution of acceptance of the skeptical paradox to Wittgenstein.",
+      "source_title": "Wittgenstein on Following a Rule",
+      "source_url": "https://sites.pitt.edu/~rbrandom/Courses/2023%20Sellars/Sellars%20texts/McDowell-Wittgenstein%20on%20followingRule-1984.pdf",
+      "exact_location": "Printed pp. 331–333, section 4; pp. 356–357 on McDowell’s contrast with Wright’s account of publicity/community.",
+      "relationship": "supports",
+      "finding": "McDowell directly argues that Kripke’s reading fails to accommodate the second paragraph of PI §201 and that the paradox should be dissolved by correcting a misunderstanding. The article names this as McDowell’s interpretation, not as a settled verdict.",
+      "limitation": "One scholar’s published criticism establishes a live objection, not that Kripke is definitively wrong or that the literature agrees.",
+      "required_edit": "Made: replaced the generic rejection label with a specific, attributed example of disagreement and qualified its status."
+    },
+    {
+      "material_claim": "Hannah Ginsborg’s proposal treats relevant dispositions as involving a primitive notion of appropriateness.",
+      "source_title": "Rule-Following and Intentionality",
+      "source_url": "https://plato.stanford.edu/entries/rule-following/",
+      "exact_location": "§4, “Reductive Dispositionalism,” discussion of Hannah Ginsborg’s proposal.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP identifies the philosopher as Hannah Ginsborg and describes her proposal in terms of primitive normativity/appropriateness. The earlier article wording incorrectly combined her name with Pamela Hieronymi; the article now names Hannah Ginsborg.",
+      "limitation": "The concise article summary is based on the SEP account; Ginsborg’s underlying paper was not independently read. This verifies the attribution and reported characterization, not the adequacy of the view.",
+      "required_edit": "Made: removed the obsolete duplicated paragraph that named “Pamela Hieronymi Ginsborg”; the remaining paragraph names Hannah Ginsborg, confirmed in focused independent follow-up against SEP §4."
+    },
+    {
+      "material_claim": "Primitivism is a specific response within a broader range of non-reductionist views, not a synonym for every view that treats meaning as irreducible.",
+      "source_title": "Rule-Following and Intentionality",
+      "source_url": "https://plato.stanford.edu/entries/rule-following/",
+      "exact_location": "§5, ‘Non-Reductionism,’ including Kripke’s discussion of a primitive/sui generis meaning state at 1982: 51–53 and cited responses to it.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source distinguishes broad non-reductionism from Kripke’s particular primitive-state candidate and notes published objections to his treatment. The revised article preserves that distinction.",
+      "limitation": "The short article summary does not cover all non-reductionist positions.",
+      "required_edit": "Made: narrowed ‘primitivists say meaning facts are basic’ to distinguish the broader family from the specific primitive-state proposal."
+    },
+    {
+      "material_claim": "Kripke generalizes the skeptical challenge beyond the addition example, while the grue and Quine comparisons are the article’s teaching prompts rather than historical variants in Wittgenstein’s text.",
+      "source_title": "On Rules and Private Language (selected reprint excerpt from Wittgenstein on Rules and Private Language)",
+      "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+      "exact_location": "Reprint PDF physical page 1, where Kripke says the relevant skeptical problem applies to all meaningful uses of language; article §§7–8 compared with PI §§201–202.",
+      "relationship": "supports_with_qualification",
+      "finding": "Kripke explicitly generalizes the problem beyond the arithmetic example. The article now labels cross-puzzle comparisons as its own teaching prompt, not Wittgenstein’s historical variations or proof that the puzzles are identical.",
+      "limitation": "The claim reports Kripke’s scope, not a separate verification of the skeptical argument’s success for every word or the technical equivalence of the compared problems.",
+      "required_edit": "Made: attributed the generalization to Kripke and identified the comparisons as editorial teaching prompts."
+    },
+    {
+      "material_claim": "The article’s discussion questions and comparisons are educational framing rather than claims that these formulations occur in the primary sources.",
+      "source_title": "Philosophical Investigations",
+      "source_url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+      "exact_location": "Compared the article’s §§6–7 with PI §§185, 201–202, and 241–242 and Kripke’s selected excerpt; the prompts and grue/Quine comparison are not represented as quotations or historical variations from those passages.",
+      "relationship": "context_only",
+      "finding": "The educational questions and cross-puzzle comparison are explicitly presented as prompts/extensions, not attributed to Wittgenstein or Kripke as their own examples.",
+      "limitation": "The prompts are not independently assessed as philosophical arguments.",
+      "required_edit": "Made: labelled the cross-puzzle comparison as a teaching prompt and distinguished it from historical variants."
+    }
+  ],
+  "edits_made": [
+    "Specified the quus condition precisely: both operands must be below 57 for the result to match addition; otherwise it returns 5.",
+    "Separated the ordinary arithmetic result from the metalinguistic challenge about what the speaker meant.",
+    "Distinguished the basic skeptical conclusion from the radical ‘no meaning’ consequence and stated that Kripke rejects the latter.",
+    "Replaced the oversimplified community-agreement description with a qualified account of assertibility conditions and social practice; stated that this is not simply a new truth-making fact.",
+    "Distinguished Kripke’s reconstruction from Wittgenstein’s own PI remarks and cited McDowell’s specific, contested objection.",
+    "Separated reductive dispositionalism, community-use accounts, normatively characterized dispositions, and non-reductionist/primitivist responses without implying consensus.",
+    "Qualified the generalization beyond arithmetic, labelled cross-puzzle comparisons as teaching prompts, added directly relevant readings, and updated the article research date."
+  ],
+  "unresolved": [
+    "Kripke’s complete 1982 monograph was not accessed; the relevant primary text was read in a selected reprint excerpt, with the detailed argument and original page references corroborated through the SEP entry. The new article discloses this access limitation.",
+    "Whether Kripke’s reconstruction accurately captures Wittgenstein’s own position remains disputed. McDowell’s reading is one documented criticism, not a literature-wide verdict; this audit does not adjudicate the exegesis.",
+    "The skeptical solution’s exact meta-semantic interpretation and the adequacy of individualist, community-based, dispositionalist, and non-reductionist responses remain disputed; the article now presents examples rather than an exhaustive taxonomy or consensus claim.",
+    "The challenge’s generalization to all meaningful language is attributed to Kripke; no separate proof of its success for every expression was attempted."
+  ],
+  "dataset_alignment": "The matching dataset record includes all five Further Reading URLs and date_verified 2026-11-01. Its title, id, article path, and original-publication summary remain aligned. The initial independent review found an author-name error; the duplicate paragraph was removed, the article and claim-evidence record now consistently name Hannah Ginsborg, and the focused follow-up confirmed the correction.",
+  "further_reading_matches": "Yes: all five Further Reading URLs match the dataset references; date_verified matches the 2026-11-01 article research check.",
+  "ledger_path": "research/source-review-batch8-item-quus-rule-following.json",
+  "selection_rank": 2,
+  "risk_reason": "The article compresses contested interpretations about Kripke’s skeptical solution, community agreement, dispositions, and Wittgenstein’s own position; Kripke’s book was not retrieved and the expansion log only records topical coverage.",
+  "audit_focus": "Verify the quus construction and arithmetic example against Kripke; distinguish Kripke’s reading of Wittgenstein from Wittgenstein’s own claims; trace the skeptical conclusion and solution; qualify community, dispositionalist, and critical responses.",
+  "independent_review": {
+    "review_date": "2026-11-01",
+    "reviewer_type": "AI-assisted independent read-only post-edit reviewers",
+    "status": "complete",
+    "initial_verdict": "revise",
+    "initial_finding": "The first reviewer found that “Pamela Hieronymi Ginsborg” conflated Hannah Ginsborg with Pamela Hieronymi and recommended correction.",
+    "followup_verdict": "pass",
+    "followup_finding": "The focused follow-up confirmed the erroneous string is absent, exactly one Dispositionalist responses section remains, the sole attribution names Hannah Ginsborg and is supported by SEP §4, the ledger claim evidence matches, and all five article URLs match dataset references.",
+    "human_expert_review": false
+  }
+}

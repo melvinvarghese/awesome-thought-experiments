@@ -1,7 +1,7 @@
 {
   "id": "sens-liberal-paradox",
   "title": "Sen’s Paradox of the Paretian Liberal",
-  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/society-and-justice/sens-liberal-paradox.md",
+  "article_path": "experiments/society-and-justice/sens-liberal-paradox.md",
   "status": "source_checked",
   "scope": "Claim-level source audit of the setup, all preference rankings, the decisiveness/liberty and weak-Pareto conditions, each social comparison and the resulting cycle, the formal theorem and its assumptions, Sen's conclusion and qualifications, scholarly interpretations and objections, the generalization beyond the example, the related Gibbard attribution, publication details, and further-reading matches. Review date: 2026-11-01. Reviewer type: AI source audit; no expert review is claimed. Protocol: approved source-review-standard.md (approved 2026-11-01).",
   "summary": "Sen’s complete six-page 1970 article was read at the conditions, proof, example, and conclusion. The rankings and resulting cycle are correct under the stated pairwise decisiveness and weak-Pareto assumptions. The article now specifies the general theorem’s conditions, narrows its conclusion, distinguishes later rights formulations, and removes an unsupported Gibbard attribution. Independent review found no remaining material claim issue; dataset references now match all Further Reading URLs.",
@@ -223,7 +223,7 @@
   ],
   "dataset_alignment": "After the audit, the matching dataset record’s identity, original publication, verification date (2026-11-01), and all three references match the article. The article’s Further Reading contains the SEP, Sen 1970 primary article, and Sen 1996 rejoinder; the URL sets are identical. The DASH PDF remains a metadata-only access point; full primary-text reading used the NCSU-hosted copy.",
   "further_reading_matches": true,
-  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-sens-liberal-paradox.json",
+  "ledger_path": "research/source-review-batch5-item-sens-liberal-paradox.json",
   "review_date": "2026-11-01",
   "protocol": "research/source-review-standard.md",
   "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",

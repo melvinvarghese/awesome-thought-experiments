@@ -1,0 +1,111 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "dion-and-theon",
+  "title": "Dion and Theon",
+  "article_path": "experiments/identity/dion-and-theon.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the modern SEP formulation of the whole-limbed Dion and Theon as the remainder excluding the right foot; the apparent survival/coincidence problem; the later report in Philo and the answer attributed to Chrysippus; Philo’s objection; the van Inwagen response; and the article’s brief mention of other material-constitution positions. This status records source traceability for those claims, not a settled ancient interpretation, philosophical truth, consensus, or expert review.",
+  "summary": "The article now distinguishes the SEP’s modern right-foot formulation from the testimony preserved in Philo, attributes the Dion-survives/Theon-perishes answer to Chrysippus as reported by Philo, and identifies Philo as the critic. The van Inwagen passage has been corrected to track the SEP’s account of the simples constituting part of Dion’s life before the operation and composing Dion afterward. Modern material-constitution positions are labeled as later options rather than readings of Chrysippus. An independent reviewer checked the revised article and dataset; the source location and paraphrase issues it flagged were corrected before status assignment.",
+  "sources": [
+    {
+      "title": "Material Constitution",
+      "author": "Ryan Wasserman",
+      "publication": "The Stanford Encyclopedia of Philosophy, Spring 2026 archive; first published 2009, revised 14 January 2026.",
+      "stable_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "The relevant portions of the fixed archived entry were read; the whole entry was not audited systematically.",
+      "exact_locations_read": "§1 presents the Dion and Theon puzzle, identifies Theon as the part of Dion excluding the right foot, and states the apparent problem. §2 explains van Inwagen’s response: the simples initially constitute part of Dion’s life and, after the operation, compose Dion. The entry’s overview and treatment of coincident objects support the carefully limited note that other later material-constitution positions differ.",
+      "limitations": "Secondary reference, not Chrysippus’s own text. The right-foot setup is attributed to the SEP’s modern presentation, not projected onto Philo’s wording. The brief overview of other views is not an exhaustive survey of solutions to Dion and Theon."
+    },
+    {
+      "title": "On the Eternity of the World",
+      "author": "Philo of Alexandria; translated by C. D. Yonge",
+      "publication": "Sections 48–49; English translation hosted by Early Jewish Writings.",
+      "stable_url": "https://www.earlyjewishwritings.com/text/philo/book35.html",
+      "source_type": "Primary ancient testimony / later report of a Stoic argument",
+      "access_level": "The English text of the relevant sections was read; the complete work was not read systematically.",
+      "exact_locations_read": "§48 introduces Chrysippus’s puzzle, states the principle that two specifically qualified individuals cannot jointly occupy the same substance, and poses which person has been spoiled. §49 records Philo’s objection and the explanatory reply attributed to Chrysippus that Dion survives while Theon perishes.",
+      "limitations": "Philo is a later witness and critic, not Chrysippus. His report is brief and interpretively disputed; no extant Chrysippus text was consulted."
+    },
+    {
+      "title": "Chrysippus’ Puzzle about Identity",
+      "author": "John Bowin",
+      "publication": "Oxford Studies in Ancient Philosophy 24 (2003), 239–251; author-hosted scan reproduction.",
+      "stable_url": "https://people.ucsc.edu/~jbowin/BOWCPA.1.pdf",
+      "source_type": "Scholarly secondary analysis",
+      "access_level": "The paper’s opening account and relevant interpretive discussion were read in a full-text scan; the whole article was not audited line by line.",
+      "exact_locations_read": "Opening, pp. 239–240, quotes Philo’s report and notes that it is notoriously cryptic; the paper discusses Sedley’s reading and Bowin’s alternative interpretation across pp. 239–251. Bibliographic details were cross-checked against the PhilPapers record https://philpapers.org/rec/BOWCPA.",
+      "limitations": "A secondary interpretation, not a resolution of the ancient passage. The present educational article does not adopt Bowin’s interpretation as settled."
+    },
+    {
+      "title": "Matching Dion and Theon data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id dion-and-theon; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "Checked the `date_verified`, `file_path`, reference order, and support descriptions against the revised article’s Further Reading and Sources and Attribution sections.",
+      "limitations": "Metadata alignment only; does not establish historical or philosophical claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "In the SEP formulation, Theon is the part of Dion excluding the right foot; after the foot is removed, Theon’s parts seem unchanged, which creates a survival and coincidence problem if Dion survives too.",
+      "source_title": "Material Constitution",
+      "source_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+      "exact_location": "§1, opening discussion of the Dion and Theon puzzle.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports this as its modern formulation. The revised article explicitly attributes the right-foot version to the SEP rather than treating it as the exact wording of Philo’s report.",
+      "limitation": "The scenario is a later exposition of the ancient testimony; no original text by Chrysippus survives in the consulted sources.",
+      "required_edit": "Made: separated the SEP’s specified right-foot version from the broader ancient report."
+    },
+    {
+      "material_claim": "Philo reports a Chrysippean answer that Dion survives and Theon perishes because two specifically qualified individuals cannot occupy one substance, then objects that Theon lost no part while Dion lost a foot.",
+      "source_title": "On the Eternity of the World; Chrysippus’ Puzzle about Identity",
+      "source_url": "https://www.earlyjewishwritings.com/text/philo/book35.html",
+      "exact_location": "Philo §§48–49: §48 gives the setup and question; §49 gives Philo’s objection and Chrysippus’s explanation. Bowin, opening pp. 239–240, quotes and conventionally cites the report as De aeternitate mundi 48 (SVF ii.397).",
+      "relationship": "supports_with_qualification",
+      "finding": "The translated testimony and Bowin’s scholarly reproduction support the attribution and the objection. The article consistently says this is Philo’s later report of Chrysippus, not Chrysippus’s own surviving text.",
+      "limitation": "The report is brief and cryptic; the precise force and original dialectical purpose are disputed.",
+      "required_edit": "Made: identified Philo as the transmitter and critic and qualified Chrysippus’s attribution."
+    },
+    {
+      "material_claim": "Van Inwagen’s response denies that Theon exists as an object before the operation; the relevant simples initially constitute only part of Dion’s life, and after the foot is removed they constitute a life and compose Dion.",
+      "source_title": "Material Constitution",
+      "source_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+      "exact_location": "§2, discussion of van Inwagen’s eliminativist view and its application to Dion and Theon.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP supports this modern response. The article’s paraphrase was corrected to track the distinction between the simples constituting part of Dion’s life before the operation and composing Dion afterward.",
+      "limitation": "This is van Inwagen’s modern position as summarized by the SEP, not an ancient solution attributed to Chrysippus.",
+      "required_edit": "Made: corrected the paraphrase and cited SEP §2 rather than §1 for this response."
+    },
+    {
+      "material_claim": "Modern material-constitution views differ over coincident objects, identity, persistence, and which objects exist; they are later options rather than a settled interpretation of Chrysippus.",
+      "source_title": "Material Constitution",
+      "source_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+      "exact_location": "The entry’s overview of replies and §§2–6 on coincident objects and alternative approaches to material-constitution puzzles.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry documents distinct modern positions. The article describes these only as a brief map of the broader debate and explicitly disclaims a consensus reading of the ancient argument.",
+      "limitation": "The source’s main focus is material constitution generally; the article does not claim each view was developed specifically as a direct answer to Dion and Theon.",
+      "required_edit": "Made: removed the unsupported four-dimensionalist and sortal-specific solution list; retained only a qualified overview tied to material-constitution debates."
+    },
+    {
+      "material_claim": "The article’s cited sources, verification date, and dataset references match.",
+      "source_title": "Matching Dion and Theon data record",
+      "source_url": null,
+      "exact_location": "data/experiments.json record `dion-and-theon` and article §9.",
+      "relationship": "supports",
+      "finding": "The article Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: updated the dataset references and date."
+    }
+  ],
+  "unresolved_limits": [
+    "Chrysippus’s original work is not extant in the consulted sources; Philo’s testimony is later, brief, and interpretively disputed.",
+    "The modern foot-side formulation is from the SEP and differs in specificity from the surviving Philo report.",
+    "Modern material-constitution views are sampled, not exhaustively reviewed or presented as consensus.",
+    "No named human subject-matter expert reviewed the entry."
+  ]
+}

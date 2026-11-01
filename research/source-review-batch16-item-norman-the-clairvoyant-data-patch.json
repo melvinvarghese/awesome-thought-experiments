@@ -1,0 +1,36 @@
+{
+  "id": "norman-the-clairvoyant",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Laurence BonJour, Externalist Theories of Empirical Knowledge (1980), university-hosted PDF text",
+      "url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+      "kind": "primary",
+      "support": "BonJour's Case IV (pp. 62–67) gives Norman's stipulated reliable clairvoyance, lack of evidence, and BonJour's objection from Norman's own epistemic perspective. Relevant passages were read in the PDF text extraction; the whole article was not read."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy, Reliabilist Epistemology",
+      "url": "https://plato.stanford.edu/entries/reliabilism/",
+      "kind": "academic",
+      "support": "Sections 2.1 and 4.2 discuss the clairvoyance challenge, distinct reliabilist responses, and evidentialist–reliabilist hybrids. Scholarly reference context; it does not establish that every reliabilist theory has the same verdict."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy, Internalist vs. Externalist Conceptions of Epistemic Justification",
+      "url": "https://plato.stanford.edu/entries/justep-intext/",
+      "kind": "academic",
+      "support": "Sections 1 and 2.1 distinguish debates about justification and knowledge, present BonJour's argument, and explain why the case does not by itself undermine every externalist view. Scholarly reference context, not a claim of consensus."
+    },
+    {
+      "title": "Internet Encyclopedia of Philosophy, Reliabilism",
+      "url": "https://iep.utm.edu/reliabilism/",
+      "kind": "academic",
+      "support": "Section 3(a) reviews the objection that reliable true belief may be insufficient for justification, several replies, and Mr. Truetemp as a related but distinct case. Relevant passages were read; this is a reference-work synthesis, not primary testimony."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy, The Analysis of Knowledge",
+      "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+      "kind": "academic",
+      "support": "Section 3 explains the standard characterization of Gettier cases as justified true beliefs that nevertheless appear not to be knowledge because of epistemic luck; context for the article's qualified contrast with Norman."
+    }
+  ]
+}

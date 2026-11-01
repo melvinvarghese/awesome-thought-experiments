@@ -1,0 +1,622 @@
+{
+  "batch_id": "source-review-batch10-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No push, merge, release, or remote-branch change.",
+  "reviewer_type": "Three AI-assisted claim-level audits with independent read-only post-edit reviews; no human expert review is claimed.",
+  "batch_scope": "Three expansion-listed entries: Quine’s Gavagai, Einstein’s Train and the Relativity of Simultaneity, and Nietzsche’s Eternal Recurrence.",
+  "selection_method": "The three candidates specified for batch ten in the ongoing source-audit task; each ID was checked against the recorded 57-entry expansion inventory.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 35,
+    "expansion_inventory_entries_with_audit_records_before_batch": 32,
+    "entries_in_batch": 3,
+    "audit_records_after_batch_all_repository": 38,
+    "expansion_inventory_entries_with_audit_records_after_batch": 35,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 22,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "source_checked": 2,
+      "partially_source_checked": 1,
+      "needs_source_check": 0
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 37,
+      "partially_source_checked": 1,
+      "needs_source_check": 0
+    }
+  },
+  "status_summary": "Gavagai and Einstein’s Train are source_checked for their declared traceability scopes. Eternal Recurrence remains partially_source_checked because the cited unpublished notebook fragment was not directly accessed. The batch-nine total of 35 included three records outside the expansion inventory; it did not mean 35 of 57. Batch ten adds three expansion-listed records, bringing inventory coverage to 35 of 57.",
+  "limits": [
+    "Gavagai: the complete Word and Object book was not read. Relevant passages from Quine’s 1970 paper were read in a third-party course-hosted reprint scan. The DOI resolves to a Philosophy Documentation Center metadata page that gates the full text; the article and ledger distinguish these sources.",
+    "Einstein’s Train: relevant sections were read in Lawson’s 1920 English translation; the 1916 German first-edition title page was not separately consulted. The interpretive survey is selective, not exhaustive.",
+    "Eternal Recurrence: the unpublished notebook fragment KSA 11:38[12] / The Will to Power §1066 was not directly accessed. Its role is reported through secondary scholarship, so the entry remains partially source-checked.",
+    "No named human subject-matter expert reviewed this batch; no expert_reviewed status is claimed."
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; JSON schema, article sections, metadata, references, README consistency, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors.",
+    "article_dataset_reference_alignment": "PASS: for all three batch-ten entries, the article Further Reading URLs match the data/experiments.json references exactly and in order; all three date_verified fields are 2026-11-01.",
+    "item_ledgers": "PASS: all three item records and the consolidated ledger parse as JSON; each item includes an independent post-edit review note and its intended status.",
+    "inventory_reconciliation": "PASS: 38 unique audit records; 35 of 57 expansion IDs have records (34 source_checked, 1 partially_source_checked), 22 expansion IDs have no audit record, and 3 audited IDs are outside the inventory.",
+    "gavagai_access_metadata": "PASS: the DOI landing page is separately recorded as the PDC metadata/gated-text page, while text_access_url identifies the course-hosted scan used for passage access.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk, HEAD 0d26e66, no staged diff. Existing repository changes remain local and unstaged; no commit, push, merge, or remote-branch change was made."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "gavagai",
+      "title": "Quine’s Gavagai",
+      "article_path": "experiments/logic/gavagai.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability audit of the Gavagai article and its matching data/experiments.json record. Checked the original radical-translation setup; publication/name/date attribution; the Gavagai/Rabbit stimulus-meaning example and alternatives for term reference; the distinction between inscrutability of reference and broader indeterminacy of translation; communication/translation qualifications; the named scholarly objection/reply; article framing; and reference alignment after parent-side dataset reconciliation. The status records source traceability, not that Quine’s argument succeeds, that an interpretation is consensus, or that the work received expert review.",
+      "summary": "The article was revised against directly read passages in Quine’s Word and Object, Chapter 2, §§7, 12, and 15–16, and relevant passages in Quine’s 1970 paper, especially pp. 181–82. These sources support the setup, tentative “Rabbit” translation, term-reference alternatives, analytical-hypothesis qualifications, and Quine’s later clarification that Gavagai is at best an example of inscrutability of terms—not by itself the indeterminacy of sentence translation. The Fall 2025 SEP Quine entry supports broader context, communication qualifications, and a named objection/reply; the archived SEP Reference entry directly discusses Gavagai and rabbit-part/stage alternatives. The article and dataset were reconciled: the record now links the primary passages and the archived Reference entry, and the SEP Quine citation is no longer described as containing the exact Gavagai example. Relevant Chapter 2 passages were read in a hosted reproduction; the complete book and title page were not consulted.",
+      "sources": [
+        {
+          "title": "Word and Object",
+          "author": "W. V. O. Quine",
+          "publication": "Cambridge, MA: The MIT Press, 1960; Chapter 2, “Translation and Meaning.” Bibliographic year and title corroborated by Hylton and Kemp, SEP Quine §1; the book’s title page was not consulted.",
+          "stable_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+          "source_type": "Primary philosophical work (selected chapter reproduction)",
+          "access_level": "Selected relevant passages in a university philosophy-department-hosted PDF reproduction were text-extracted and read; the complete book was not retrieved or read. This is passage-level access, not full-book access.",
+          "exact_locations_read": "Chapter 2, §7, printed pp. 29–31: radical translation setup, rabbit scurrying past, native utterance “Gavagai,” and linguist’s tentative “Rabbit”/“Lo, a rabbit” translation and further testing. §12, printed pp. 51–53: stimulus synonymy of occasion sentences; non-entailment of coextension of the terms; rabbit stages, undetached rabbit parts, fusion, and rabbithood alternatives; dependence on analytical choices about grammatical constructions such as identity. §§15–16, printed pp. 72–74: rival systems of analytical hypotheses, compatible speech dispositions, and incompatible translation of sentences not independently controlled by observation.",
+          "limitations": "The reproduction is hosted on a university department site, not the publisher’s site; the complete book and title page were not available in the consulted passage extraction. The primary passages establish what Quine argued, not that his philosophical conclusion is true or that an actual language community uses these concepts."
+        },
+        {
+          "title": "On the Reasons for Indeterminacy of Translation",
+          "author": "W. V. O. Quine",
+          "publication": "The Journal of Philosophy 67, no. 6 (March 1970): 178–183. DOI: 10.2307/2023887.",
+          "stable_url": "https://doi.org/10.2307/2023887",
+          "text_access_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Quine%20-%20On%20the%20Reasons%20for%20Indeterminacy%20of%20Translation.pdf",
+          "source_type": "Primary philosophical article",
+          "access_level": "Task-relevant passages on printed journal pp. 181–182 were extracted and read in a six-page reprint scan hosted on a course-reading site; the entire article was not read systematically. The DOI landing page at the Philosophy Documentation Center was separately read for metadata and gates the full text.",
+          "exact_locations_read": "Printed pp. 181–82: Quine distinguishes the Gavagai term-reference issue from sentence-level indeterminacy of translation; p. 182 states that Gavagai “was at best an example only of the inscrutability of terms, not of the indeterminacy of translation of sentences.” Printed p. 182 also explains that the issue is term reference after grammatical/analytical choices, and that once these are settled, interrogation can settle the issue relative to those choices. The scanned reprint’s internal pagination differs from the original journal pagination; citations here use the journal’s printed pp. 178–183.",
+          "limitations": "The text was read only in a third-party course-hosted reprint scan, not through the publisher platform; its reprint pagination differs from the original journal pagination, so citations use the journal’s printed pages. The relevant text clarifies Quine’s own position; it does not establish that his distinction or argument is philosophically successful."
+        },
+        {
+          "title": "Willard Van Orman Quine",
+          "author": "Peter Hylton and Gary Kemp",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2025 archive; first published 9 April 2010; substantive revision 6 July 2023; archive entry URL dated Fall 2025. Editors Edward N. Zalta and Uri Nodelman.",
+          "stable_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections in the archived entry were read in full in the returned extraction; the complete entry’s relevant subsection and cited references were consulted, but the primary texts cited by the SEP were not all separately read.",
+          "exact_locations_read": "§1 for Quine’s publication of Word and Object in 1960; §6.2, “Indeterminacy of Translation,” for the broad thesis, distinction between indeterminacy of reference and translation, communication qualification, and the Gavagai examples; §6.2’s paragraphs on Searle (1987) and Føllesdal (1990) for the named objection and reply. Exact online sections cited rather than page numbers.",
+          "limitations": "This is a secondary reference work. It establishes that the cited interpretations and debate are presented by the authors, not that these interpretations are exhaustive or agreed by all scholars. Searle’s and Føllesdal’s own papers were not read for this limited audit."
+        },
+        {
+          "title": "Reference",
+          "author": "Marga Reimer and Eliot Michaelson",
+          "publication": "The Stanford Encyclopedia of Philosophy, Spring 2018 archive; first published 20 January 2003; substantive revision 26 September 2014; editors Edward N. Zalta and Uri Nodelman.",
+          "stable_url": "https://plato.stanford.edu/archives/spr2018/entries/reference/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "The complete relevant §6 passage was read in the archived entry; the entire entry was not read.",
+          "exact_locations_read": "§6, “Negative Views of Reference,” Quine paragraph: Quine’s inscrutability thesis; the Gavagai/rabbit, undetached-rabbit-part, and rabbit-time-slice examples; and the article’s summary that competing reference theories fit the empirical evidence. Author, publication, and revision metadata were confirmed from the SEP’s archive citation-information page.",
+          "limitations": "This fixed Spring 2018 version is older than the later Reference entry and is used because it contains the specific Gavagai examples. It is a concise secondary summary, not primary evidence; its presentation should not be treated as a full account of all scholarly debate."
+        },
+        {
+          "title": "Matching Gavagai data record in data/experiments.json",
+          "author": "Project data record; no external author",
+          "publication": "Local project JSON dataset; record ID gavagai; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching JSON object was read and updated after the article audit; its title, URL, kind, and support fields now correspond to the article’s four Further Reading sources.",
+          "exact_locations_read": "Object with id “gavagai”; its four references now include the selected primary chapter, Quine’s 1970 clarification, the Fall 2025 SEP Quine overview, and the Spring 2018 SEP Reference passage that explicitly discusses Gavagai and rabbit alternatives. The SEP Quine source is described as general context, not as containing the exact example.",
+          "limitations": "This project record documents reference metadata and source-support descriptions; it does not establish philosophical claims or the success of Quine’s argument."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Quine’s radical-translation setup has a linguist without an interpreter encountering an unfamiliar language; a rabbit passes, a native says “Gavagai,” and the linguist tentatively records “Rabbit” or “Lo, a rabbit” for further testing.",
+          "source_title": "Word and Object",
+          "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+          "exact_location": "Chapter 2, §7, printed pp. 29–31; the rabbit sentence and tentative translation are on p. 29, followed by the discussion of further testing on pp. 29–31.",
+          "relationship": "supports_with_qualification",
+          "finding": "The passage directly supports the setup and tentative translation. The revised article now says this is Quine’s constructed example rather than a documented field event and does not call “Rabbit” the uniquely best translation.",
+          "limitation": "Only the relevant Chapter 2 passages were read in a university-hosted reproduction; this is not evidence of an actual historical encounter.",
+          "required_edit": "Made: changed “guesses”/“best hypothesis given the evidence” to Quine’s tentative translation subject to testing and explicitly labels the situation constructed rather than ethnographic."
+        },
+        {
+          "material_claim": "Equal stimulus meaning for the occasion sentences “Gavagai” and “Rabbit” does not by itself establish that the terms gavagai and rabbit are coextensive; Quine gives rabbit stages and undetached rabbit parts as alternatives and discusses additional analyses.",
+          "source_title": "Word and Object",
+          "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+          "exact_location": "Chapter 2, §12, printed pp. 51–53; the non-entailment and rabbit-stage/part examples appear on pp. 51–52; fusion, rabbithood, and the distinction between occasion-sentence and term translation appear on pp. 52–53.",
+          "relationship": "supports",
+          "finding": "The primary text directly supports the term-reference alternatives. The revised article distinguishes the capitalized occasion sentence “Gavagai” from lowercase term gavagai and does not imply that the term alternatives are equivalent whole-sentence translations.",
+          "limitation": "Quine’s alternatives illustrate an analytical point; they are not an empirical report about actual speakers. The conclusion remains an argument by Quine, not an independently verified fact about meaning.",
+          "required_edit": "Made: narrowed the setup to the evidence supplied by stimulus equivalence and clarified that the alternatives concern term reference."
+        },
+        {
+          "material_claim": "Quine’s Gavagai case illustrates inscrutability/indeterminacy of reference; it is not by itself the argument for broader indeterminacy of sentence translation.",
+          "source_title": "On the Reasons for Indeterminacy of Translation",
+          "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Quine%20-%20On%20the%20Reasons%20for%20Indeterminacy%20of%20Translation.pdf",
+          "exact_location": "Quine, printed p. 182: “The gavagai example was at best an example only of the inscrutability of terms, not of the indeterminacy of translation of sentences.” Related context on pp. 181–82.",
+          "relationship": "supports",
+          "finding": "Quine’s direct clarification establishes the attribution. The revised article separates the narrower Gavagai term-reference point from Quine’s wider translation-manual thesis.",
+          "limitation": "Full article text was consulted in a non-publisher-hosted scan. The passage establishes Quine’s later statement, not the truth of his philosophical position.",
+          "required_edit": "Made: corrected the former conflation of the rabbit example with the whole translation-manual thesis and supplied the direct citation."
+        },
+        {
+          "material_claim": "Quine’s broader indeterminacy thesis concerns incompatible systems of analytical hypotheses/translation that can fit speech dispositions; this broader claim is distinct from the Gavagai term-reference example.",
+          "source_title": "Word and Object",
+          "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+          "exact_location": "Chapter 2, §§15–16, printed pp. 72–74; in particular, §15, pp. 72–73, on compensatory analytical hypotheses and incompatible sentence translations, and §16, pp. 73–74, on the indeterminacy thesis.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text supports the broader claim. The revised article states this as a separate argument and avoids inferring it from the Gavagai example alone.",
+          "limitation": "These passages establish what Quine argued, not that the alternative systems are philosophically equivalent in every respect or that his argument succeeds.",
+          "required_edit": "Made: revised §3 to distinguish the term-reference example from the broader thesis and cite the latter’s separate passages."
+        },
+        {
+          "material_claim": "Quine’s thesis does not imply that ordinary communication or practical translation is impossible; more than one translation can be successful by Quine’s practical criterion.",
+          "source_title": "Willard Van Orman Quine",
+          "source_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
+          "exact_location": "§6.2, paragraphs beginning “Some philosophers hold that the idea of indeterminacy is absurd” and “Such views, however, take for granted a view of communication,” including the cited Quine passage on judging communication by fluent interaction.",
+          "relationship": "supports_with_qualification",
+          "finding": "Hylton and Kemp explicitly distinguish indeterminacy from impossibility of successful communication/translation and describe Quine’s criterion. The article’s qualified summary tracks that account.",
+          "limitation": "Secondary exposition of Quine; it does not settle every philosophical account of communication or translation.",
+          "required_edit": "Made: retained the caution that Quine is not saying communication or practical translation fails, but added that more than one translation may fit."
+        },
+        {
+          "material_claim": "A scholarly objection and reply exist concerning whether indeterminacy makes communication or correct translation absurd/impossible; the revised text names Searle’s objection and Føllesdal’s reply without presenting either as consensus.",
+          "source_title": "Willard Van Orman Quine",
+          "source_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
+          "exact_location": "§6.2, paragraph beginning “Some philosophers hold that the idea of indeterminacy is absurd,” which cites Searle (1987) and Føllesdal (1990) as reply.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP directly documents this named objection/reply relation and thereby supports describing a debate, but not making broad claims about “critics,” consensus, or the total literature. The revised article removes the former unsupported generalizations about causal/externalist views and psychological constraints.",
+          "limitation": "The underlying Searle and Føllesdal texts were not accessed; the SEP overview was read. This record does not assess the strength or reception of either argument.",
+          "required_edit": "Made: replaced sweeping descriptions of critics, externalists, and pragmatic interpretations with a bounded statement of the named debate and an explicit non-consensus qualification."
+        },
+        {
+          "material_claim": "“Undetached rabbit part” is a theoretical alternative about term analysis, not an empirical claim about an actual speech community; follow-up inquiry may settle reference relative to adopted analytical hypotheses, but the initial stimulus evidence alone does not select those hypotheses.",
+          "source_title": "Word and Object; On the Reasons for Indeterminacy of Translation",
+          "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf; http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Quine%20-%20On%20the%20Reasons%20for%20Indeterminacy%20of%20Translation.pdf",
+          "exact_location": "Word and Object, ch. 2, §12, pp. 51–53; Quine 1970, printed pp. 181–82, including his discussion of screens, analytical hypotheses, and interrogation after choices are settled.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary texts support the theoretical status and qualification. The revised article removes the overstatement that no amount of pointing or further observation can ever rule out the alternatives; it explains that inquiry can resolve the issue relative to grammatical/analytical commitments.",
+          "limitation": "The passage concerns Quine’s account of translation and does not imply that all possible linguistic or psychological evidence is irrelevant under every theory.",
+          "required_edit": "Made: replaced the absolute “no amount of pointing or further observation” assertion with the more qualified distinction between inquiry and the background hypotheses used to interpret it."
+        },
+        {
+          "material_claim": "Quine’s book publication year is 1960; the Gavagai example belongs to that primary work, Chapter 2.",
+          "source_title": "Willard Van Orman Quine; Word and Object",
+          "source_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/; https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+          "exact_location": "Hylton and Kemp, SEP Quine §1, chronology entry for 1960; Quine, Word and Object, Chapter 2, §7, printed pp. 29–31, for the Gavagai passage.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP chronology directly verifies the year and book title; the chapter reproduction verifies the Gavagai passage within that work. The book’s full publication page was not consulted.",
+          "limitation": "The entry’s year/title are corroborated by a scholarly chronology rather than the original title page in this session.",
+          "required_edit": "Made: retained the 1960 attribution and added exact chapter/section/page citations."
+        },
+        {
+          "material_claim": "The archived SEP Reference entry is appropriate further reading for Gavagai specifically, and the SEP Quine entry supplies broader Quine context rather than the exact term “Gavagai.”",
+          "source_title": "Reference; Willard Van Orman Quine",
+          "source_url": "https://plato.stanford.edu/archives/spr2018/entries/reference/; https://plato.stanford.edu/archives/fall2025/entries/quine/",
+          "exact_location": "SEP Reference, Spring 2018 archive, §6 Quine paragraph; SEP Quine, Fall 2025 archive, §6.2. The pre-audit cited live SEP Quine entry was read and its relevant extracted text did not contain “Gavagai”; its §6.2 discusses translation and reference generally.",
+          "relationship": "supports_with_qualification",
+          "finding": "The archived Reference entry directly discusses Gavagai and the rabbit alternatives; the SEP Quine entry provides broader doctrine and debate context. The article and dataset now distinguish these roles, and the inaccurate statement that the Quine entry includes the rabbit example has been removed.",
+          "limitation": "The SEP Reference source is a fixed Spring 2018 version used for its explicit example. The sources support traceability and context, not the truth of Quine’s thesis.",
+          "required_edit": "Made: synchronized the data record with the four article sources and corrected the support text for the SEP Quine reference."
+        },
+        {
+          "material_claim": "The article’s questions for reflection and comparisons to other philosophical topics are teaching prompts, not historical claims about Quine’s sources or established variations of Gavagai.",
+          "source_title": "Original editorial framing",
+          "source_url": null,
+          "exact_location": "Article §§6–8, especially the questions in §6 and the comparative note in §7.",
+          "relationship": "does_not_establish",
+          "finding": "The prompts are explicitly editorial and make no claim that these variations occur in Quine’s text. They are outside factual source verification except for confirming the text’s attribution and framing.",
+          "limitation": "The prompts raise open questions rather than assert answers. The comparative works are not surveyed in this audit.",
+          "required_edit": "Made: labeled the example as constructed teaching framing and described adjacent debates as separate comparisons, not parts of Quine’s original argument."
+        }
+      ],
+      "unresolved": [
+        "The complete Word and Object book was not retrieved or read. The relevant Chapter 2 passages at §§7, 12, and 15–16 were directly read in a hosted chapter reproduction; this limitation is disclosed in the article and source metadata.",
+        "The full text of Searle’s cited objection and Føllesdal’s reply was not read; the revised article reports only the existence and direction of the exchange as summarized in the Fall 2025 SEP Quine entry and does not claim consensus.",
+        "The revised article’s reflection questions and brief comparison to other debates are teaching framing, not a comprehensive survey of child language acquisition, rule-following, Davidsonian interpretation, causal theories, or externalism.",
+        "The article’s public citation uses the DOI, which resolves to a PDC landing page that gates the full text. The passage was read in a separate third-party course-hosted reprint scan (URL recorded as text_access_url); this scan is not publisher-hosted and its pagination differs from the original journal pagination."
+      ],
+      "required_edits": [
+        {
+          "target": "experiments/logic/gavagai.md",
+          "status": "made",
+          "edit": "Corrected the scenario to call “Rabbit” a tentative translation; separated occasion-sentence stimulus meaning from term reference; distinguished Gavagai’s term inscrutability from the broader translation-manual thesis; added exact Quine primary locations and Quine’s 1970 clarification; qualified follow-up evidence, communication, and the named scholarly debate; removed broad unsupported interpretive generalizations; added appropriate source links and disclosed access limits."
+        },
+        {
+          "target": "data/experiments.json, record id gavagai",
+          "status": "made",
+          "edit": "Parent reconciliation added the article’s four exact Further Reading URLs, updated date_verified, and corrected the former claim that the SEP Quine entry itself includes the rabbit example."
+        }
+      ],
+      "post_edit_review": "An independent read-only reviewer checked the revised article, matching dataset record, Quine, Word and Object ch. 2 §§7, 12, 15–16 in the university-hosted chapter reproduction, Quine’s 1970 paper pp. 181–82 in a course-hosted reprint scan, and the Fall 2025 SEP Quine §6.2 and Spring 2018 SEP Reference §6. No substantive philosophical-claim mismatch was found; all four Further Reading URLs match the dataset references. The reviewer found that the previous article/ledger note mislabeled the DOI landing page as JSTOR. The DOI resolves to a Philosophy Documentation Center (PDC) metadata page with gated full text; the article and this record now distinguish it from the course-hosted scan actually read. Only relevant passages were checked; no human expert review is claimed."
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved local source-review protocol, 2026-11-01)",
+      "id": "einsteins-train",
+      "title": "Einstein’s Train and the Relativity of Simultaneity",
+      "article_path": "experiments/physics/einsteins-train.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and its matching data/experiments.json record. Focus: historical attribution and publication of Einstein’s railway/flash exposition; the embankment midpoint’s equal-arrival criterion; the train observer’s earlier receipt of the B flash; the distinction between received-light arrival and frame-assigned emission time using synchronized clocks; the standard light-speed and inertial-frame assumptions; which event orderings may change between frames and which causal orderings are invariant; the connection to other special-relativistic effects; and the article’s summaries of conventionalist, Lorentzian, and metaphysical interpretations. The sources were consulted for the stated claims, not to establish that Einstein’s argument proves every philosophical conclusion, that one interpretation is consensus, or that the literature review is exhaustive.",
+      "summary": "The relevant full-text passages in Einstein’s 1920 Lawson English translation of Relativity, §§VIII–IX, were accessed and read, including the midpoint light-arrival setup and the train-frame conclusion. Einstein’s 1905 paper was also read in the accessible Perrett–Jeffery English translation, §§1–2, for the definition of distant simultaneity by synchronized clocks and its frame dependence. OpenStax §5.5 and Einstein Online clarify why arrival-time observations must be distinguished from frame-based emission-time assignments and why only spacelike-separated event order may vary while causal order is invariant. The consulted SEP entries support a careful description of the continuing conventionality debate, Lorentzian interpretations, and philosophical disagreement about an objective present. The article now distinguishes received signals from coordinate assignments, qualifies the relationship to time dilation and the twin paradox, and records its source passage access. The matching dataset record was synchronized after the audit: date_verified is 2026-11-01 and its six references now match the article’s Further Reading URLs.",
+      "sources": [
+        {
+          "title": "Relativity: The Special and General Theory",
+          "author": "Albert Einstein; translated by Robert W. Lawson",
+          "publication": "English edition published by Methuen & Co Ltd in 1920; German original published in 1916. Project Gutenberg ebook 5001 metadata identifies the translator and English publication details.",
+          "stable_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm",
+          "source_type": "Primary author exposition; English translation of a popular scientific work",
+          "access_level": "Relevant passages in the accessible full text were retrieved and read; the entire book was not read cover to cover.",
+          "exact_locations_read": "Part I, §VIII, ‘On the Idea of Time in Physics’: the proposed observer at midpoint M and the claim that equal-time reception can define simultaneous lightning events in this setup. Part I, §IX, ‘The Relativity of Simultaneity’: description of the embankment and train frames; the train midpoint M′ coincident with M when the strikes occur; receipt of the B signal before the A signal; Einstein’s conclusion that the strikes are not simultaneous relative to the train; and the statement that each reference body has its own time. Gutenberg ebook metadata page https://www.gutenberg.org/ebooks/5001 was read for the translator and 1920 English publication record.",
+          "limitations": "The consulted text is Lawson’s 1920 English translation, not the 1916 German edition. The relevant sections, not the whole book, were read. Einstein’s popular exposition establishes what he argued, not that every philosophical inference follows from it."
+        },
+        {
+          "title": "On the Electrodynamics of Moving Bodies",
+          "author": "Albert Einstein",
+          "publication": "Original paper, ‘Zur Elektrodynamik bewegter Körper,’ Annalen der Physik 17 (1905): 891–921; consulted in an electronic version based on W. Perrett and G. B. Jeffery’s 1923 English translation, with editorial notes and corrections by John Walker.",
+          "stable_url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+          "source_type": "Primary scientific paper in English translation / edited electronic transcription",
+          "access_level": "Selected relevant sections of the complete accessible text were read; not the entire paper’s mathematical derivations.",
+          "exact_locations_read": "§1, ‘Definition of Simultaneity’: Einstein’s explanation that a local clock cannot alone compare distant event times, his light-signal synchronization rule for clocks at A and B, and his definition of an event’s time by the local synchronized clock. §2, ‘On the Relativity of Lengths and Times’: the two postulates and the conclusion that events simultaneous in one coordinate system need not be simultaneous in a relatively moving system. Edition notes and ‘About this Edition’ were read for translation basis and editorial caveats.",
+          "limitations": "The consulted English text is not a facsimile of Einstein’s German manuscript or the original 1905 printing; the site identifies it as based on the 1923 Perrett–Jeffery translation and notes editorial corrections. It supports the primary argument and terminology, not a claim that all later philosophical interpretations are settled."
+        },
+        {
+          "title": "Conventionality of Simultaneity",
+          "author": "Allen Janis",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2018 edition; first published 1998, last modified 18 September 2018; Edward N. Zalta, editor.",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-convensimul/",
+          "source_type": "Scholarly reference work / secondary philosophical analysis",
+          "access_level": "Relevant passages in the accessible entry were retrieved and read; not every note and bibliography item was consulted. Official author-and-citation metadata was checked.",
+          "exact_locations_read": "§1, ‘The Conventionality Thesis,’ especially the standard light-synchrony definition, Reichenbach’s epsilon alternatives, and the positions of Reichenbach and Grünbaum; §2, ‘Phenomenological Counterarguments,’ including Salmon, Janis, and Norton; §3, ‘Malament’s Theorem,’ including Malament’s stated conditions and the disagreements of Grünbaum, Redhead, and others; and §4, ‘Other Considerations,’ for the bounded causal-speed context. Official SEP citation information confirms Janis’s authorship and the Fall 2018 edition.",
+          "limitations": "This reference summarizes an ongoing philosophical debate; it is not evidence that one side is consensus. The article’s wording is deliberately qualified and does not equate conventionality of clock synchronization within a frame with the standard relativity-of-simultaneity comparison between inertial frames."
+        },
+        {
+          "title": "The Lorentz Transformation",
+          "author": "OpenStax; University Physics Volume 3 authors",
+          "publication": "University Physics Volume 3, §5.5, OpenStax, first published 2016.",
+          "stable_url": "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+          "source_type": "Open university physics textbook / secondary technical exposition",
+          "access_level": "Relevant passages in the full accessible section were retrieved and read.",
+          "exact_locations_read": "§5.5 subsections ‘Space-time’ and ‘Simultaneity’: the textbook explicitly distinguishes the time interval between lamp-emission events from the passenger’s signal-arrival times; revisits the train example in ground and train frames; and explains that spacelike-separated events can change temporal order between frames while timelike event order is invariant. The twin-paradox discussion in the same section distinguishes the worldlines and proper times of the twins.",
+          "limitations": "Educational textbook treatment, not a primary historical source or specialist philosophical analysis. It is used for the standard technical distinctions and does not establish a philosophical interpretation of time."
+        },
+        {
+          "title": "The definition of ‘now’",
+          "author": "Markus Pössel",
+          "publication": "Einstein Online, provided by the Max Planck Institute for Gravitational Physics (Albert Einstein Institute); online educational article, publication date not stated on the accessed page.",
+          "stable_url": "https://www.einstein-online.info/en/spotlight/Now/",
+          "source_type": "Institutional physics education resource / secondary technical explanation",
+          "access_level": "The complete relevant page text was retrieved and read.",
+          "exact_locations_read": "Sections ‘Using light to synchronize clocks’ and ‘Simultaneity: A matter of definition’: explains that apparent simultaneous clock displays in an image may reflect unequal signal travel times; explains the midpoint-camera argument and the need to define one-way synchronization; and states that standard simultaneity depends on the chosen frame. Author and hosting institution are identified in the page colophon.",
+          "limitations": "An accessible educational explanation, not Einstein’s source text. Its discussion supports the distinction between optical appearance and frame-defined simultaneity but is not treated as an exhaustive account of synchronization conventions."
+        },
+        {
+          "title": "Space and Time: Inertial Frames",
+          "author": "Robert DiSalle",
+          "publication": "The Stanford Encyclopedia of Philosophy, Winter 2020 edition; first published 2002, last modified 10 November 2020; Edward N. Zalta, editor.",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-iframes/",
+          "source_type": "Scholarly reference work / secondary history and philosophy of physics analysis",
+          "access_level": "Relevant passages in the accessible entry were retrieved and read; official author-and-citation metadata was checked.",
+          "exact_locations_read": "§2.4, ‘Simultaneity and reference-frames’: discussion of Lorentzian and Einsteinian accounts, a posited privileged frame, and the empirical indistinguishability of the frames described. Relevant discussion of Minkowski spacetime and frame-dependent simultaneity was also read. Official SEP citation information confirms author and edition.",
+          "limitations": "The entry presents interpretive alternatives and methodological discussion; it does not establish that a preferred frame exists. The article therefore describes Lorentzian interpretations as an available interpretation, not as a measured physical frame."
+        },
+        {
+          "title": "Being and Becoming in Modern Physics",
+          "author": "Steven Savitt, Natalja Deng, and Oliver Pooley",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 edition; first published 2001, last modified 20 September 2024; Edward N. Zalta and Uri Nodelman, editors.",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-bebecome/",
+          "source_type": "Scholarly reference work / secondary philosophical analysis",
+          "access_level": "Relevant passages in the accessible entry were retrieved and read; official author-and-citation metadata was checked.",
+          "exact_locations_read": "§3, ‘The Special Theory of Relativity’: frame-dependent simultaneity and its bearing on presentism/possibilism; discussion of Rietdijk, Putnam, Penrose, and the Andromeda example; and the alternative treatment associated with Stein. Official SEP citation information confirms listed authors and the Fall 2024 version.",
+          "limitations": "The entry presents several philosophical responses rather than a settled consensus. The article confines its claim to the existence of disagreement and does not claim that relativity alone resolves the metaphysics of the present."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Einstein’s popular railway-and-lightning explanation appears in his book originally published in German in 1916 and translated into English by Robert W. Lawson for the 1920 Methuen edition; the train passage is his exposition rather than a report of a performed experiment.",
+          "source_title": "Relativity: The Special and General Theory; Project Gutenberg catalog record",
+          "source_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm; https://www.gutenberg.org/ebooks/5001",
+          "exact_location": "Book §§VIII–IX; Gutenberg ebook metadata for translator and 1920 English publication, with its book summary identifying the German work as published in 1916.",
+          "relationship": "supports_with_qualification",
+          "finding": "The text itself presents the embankment and train cases as explanatory constructions; Gutenberg metadata identifies Lawson and the 1920 English edition. The German 1916 date is noted in the catalog summary. The article accurately marks the thought experiment as not a record of an experiment performed.",
+          "limitation": "The German first-edition title page was not separately consulted; the 1916 date was checked in the Gutenberg catalog summary rather than a facsimile of the German edition.",
+          "required_edit": "Made: retained the historical period and identified the accessed English translation and exact sections in the article’s source-access note."
+        },
+        {
+          "material_claim": "In Einstein’s exposition, equal arrival at the embankment midpoint is used as the operational criterion for simultaneous strikes in the embankment frame, under the stated equal-distance and light-synchronization assumptions; this observation is not by itself a frame-neutral determination of remote event times.",
+          "source_title": "Relativity: The Special and General Theory; On the Electrodynamics of Moving Bodies; The definition of ‘now’",
+          "source_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm; https://www.fourmilab.ch/etexts/einstein/specrel/www/; https://www.einstein-online.info/en/spotlight/Now/",
+          "exact_location": "Einstein 1920, §VIII; Einstein 1905, §1, synchronization rule; Pössel, ‘Using light to synchronize clocks’ and ‘Simultaneity: A matter of definition.’",
+          "relationship": "supports_with_qualification",
+          "finding": "Einstein’s §VIII proposes midpoint arrival as the criterion in that setup; his 1905 §1 formalizes distant-time comparison through a specified synchronized-clock procedure. Pössel clarifies that equality of observed arrival alone is insufficient without the frame’s distance and light-propagation assumptions. The revised article makes these assumptions explicit.",
+          "limitation": "Einstein’s popular presentation initially frames the criterion operationally; the 1905 source and modern source clarify the synchronization structure. This review does not assert that every possible one-way synchronization convention is empirically distinguishable.",
+          "required_edit": "Made: changed the unqualified ‘sees both and concludes’ wording to identify the frame, midpoint, standard synchronization, and limits of raw arrival evidence."
+        },
+        {
+          "material_claim": "The train observer, level with the embankment midpoint at the strikes, receives the B signal before A; with clocks synchronized in the train frame using Einstein’s standard procedure, the B strike receives an earlier train-frame time assignment.",
+          "source_title": "Relativity: The Special and General Theory; On the Electrodynamics of Moving Bodies; The Lorentz Transformation",
+          "source_url": "https://www.gutenberg.org/files/5001/5001-h/5001-h.htm; https://www.fourmilab.ch/etexts/einstein/specrel/www/; https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+          "exact_location": "Einstein 1920, §IX; Einstein 1905, §§1–2; OpenStax §5.5, ‘Simultaneity,’ including its explicit distinction between emission-event intervals and passenger arrival times.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary popular account states that the train observer encounters B’s signal first and concludes that B’s strike occurred earlier relative to the train. Einstein’s 1905 clock procedure and OpenStax show why this is a frame-specific time assignment and not an inference from uncorrected arrival times alone. The article now states both pieces separately.",
+          "limitation": "The result uses standard Einstein synchronization in inertial frames and the special-relativistic light-speed postulate. The clocks and signals in this pedagogical setup are idealized.",
+          "required_edit": "Made: explicitly distinguished the order of signal receipt from the train-frame assignment of emission-event times."
+        },
+        {
+          "material_claim": "Relativity of simultaneity is a frame-dependent coordinate result in special relativity; time dilation and length contraction are related consequences of the Lorentz transformations, while the twin paradox compares elapsed proper time along different worldlines and is not caused by simultaneity alone.",
+          "source_title": "On the Electrodynamics of Moving Bodies; The Lorentz Transformation",
+          "source_url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/; https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+          "exact_location": "Einstein 1905, §2; OpenStax §5.5 subsections ‘Space-time,’ ‘Simultaneity,’ and ‘The twin paradox seen in space-time.’",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support treating these as interconnected special-relativistic results, while OpenStax’s proper-time/worldline treatment shows why it is misleading to say that relativity of simultaneity alone ‘leads to’ the twin paradox. The revised article describes the relationship more precisely.",
+          "limitation": "This is a conceptual summary, not a derivation of the Lorentz transformation or a full analysis of the twin paradox.",
+          "required_edit": "Made: replaced the simple causal phrasing ‘leads to’ with a distinction among consequences of the same postulates and the separate proper-time comparison."
+        },
+        {
+          "material_claim": "In special relativity, event order can vary between inertial frames for spacelike-separated events, while all inertial frames preserve the order of events connected by a possible light-speed-or-slower causal influence.",
+          "source_title": "The Lorentz Transformation; Special relativity / Elementary Tour part 5: Spacetime; Being and Becoming in Modern Physics",
+          "source_url": "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation; https://www.einstein-online.info/en/spacetime/; https://plato.stanford.edu/entries/spacetime-bebecome/",
+          "exact_location": "OpenStax §5.5, light-cone discussion of timelike and spacelike separation; Einstein Online, paragraphs defining future/past light cones and causally separated events; Savitt et al., §3 discussion of frame changes for spacelike-separated events.",
+          "relationship": "supports",
+          "finding": "The sources explicitly distinguish invariant causal structure from frame-dependent time ordering outside the light cone. The article now specifies that the lightning events are spacelike-separated and qualifies ‘causally connected’ with the light-speed-or-slower condition.",
+          "limitation": "The article does not calculate the interval of the idealized strikes; the train/embankment geometry and standard relativity assumptions make them spacelike-separated in the described case.",
+          "required_edit": "Made: defined the relevant causal condition and identified why the lightning-strike order may differ between frames."
+        },
+        {
+          "material_claim": "The conventionality of distant clock synchronization is a debated philosophical thesis; Lorentzian interpretations can posit a preferred frame while remaining empirically indistinguishable from the standard special-relativistic account; philosophers disagree about what relativity of simultaneity entails for an objective present.",
+          "source_title": "Conventionality of Simultaneity; Space and Time: Inertial Frames; Being and Becoming in Modern Physics",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-convensimul/; https://plato.stanford.edu/entries/spacetime-iframes/; https://plato.stanford.edu/entries/spacetime-bebecome/",
+          "exact_location": "Janis, §§1–3 on standard synchrony and competing arguments; DiSalle, §2.4 on Lorentzian/Einsteinian accounts and empirical indistinguishability; Savitt, Deng, and Pooley, §3 on presentist, possibilist, and other responses to relativity of simultaneity.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support the article’s summary only when it is framed as a debate among interpretations, not a settled consensus. The article now says conventionality remains debated, describes a preferred frame as a Lorentzian interpretation rather than a result of special relativity, and states that the objective-present question is not settled by the kinematics alone.",
+          "limitation": "These are selective reference-work treatments of a broader philosophical literature. No claim of exhaustive survey or consensus is made.",
+          "required_edit": "Made: added qualifications about the scope of the conventionality thesis, the empirical status of a preferred-frame interpretation, and the unsettled metaphysical implications."
+        }
+      ],
+      "article_further_reading": [
+        "https://www.gutenberg.org/ebooks/5001",
+        "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+        "https://plato.stanford.edu/entries/spacetime-convensimul/",
+        "https://plato.stanford.edu/entries/spacetime-iframes/",
+        "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+        "https://plato.stanford.edu/entries/spacetime-bebecome/"
+      ],
+      "dataset_alignment": "The matching data record was updated after the audit to use date_verified 2026-11-01 and the same six Further Reading URLs as the article, with support descriptions aligned to each source. The audit agents did not make this shared-file edit; it was applied by the parent after review.",
+      "unresolved": [
+        "The original German 1916 title page was not independently consulted; the date was checked through the Project Gutenberg catalog summary, while the English Methuen 1920 translation and Robert W. Lawson attribution were checked in the catalog metadata.",
+        "The 1905 source was consulted in an electronic English translation based on Perrett and Jeffery’s 1923 translation, with editorial corrections; the original German printed paper was not separately accessed.",
+        "The philosophical literature on conventionality, Lorentzian interpretation, and the objective present is much larger than the selected SEP entries; the article gives a limited map, not a consensus report or exhaustive review.",
+        "The German 1916 title page was not independently consulted; the date was checked through the Project Gutenberg catalog summary."
+      ],
+      "required_edits": [
+        "Made: clarified the assumptions behind the embankment midpoint arrival criterion and that it is a frame-specific definition of distant simultaneity.",
+        "Made: distinguished the train observer’s first receipt of the B flash from the train-frame time assigned to the lightning emission events using synchronized clocks.",
+        "Made: qualified the relationship between relativity of simultaneity, time dilation, length contraction, and the twin paradox.",
+        "Made: specified that causal order is preserved for light-speed-or-slower connected events and that the train’s separated strike events are spacelike-separated.",
+        "Made: qualified conventionalist, Lorentzian, and objective-present summaries to reflect continuing interpretive disagreement and the limits of what the argument establishes.",
+        "Parent reconciliation: synchronized the corresponding data/experiments.json record to the article’s six Further Reading URLs and review date 2026-11-01.",
+        "Audit agents left data/experiments.json unchanged; parent reconciliation later synchronized the dataset record."
+      ],
+      "post_edit_review": "Independent read-only reviewer compared the revised article with Einstein, Relativity §§VIII–IX; Einstein’s 1905 paper §§1–2; OpenStax University Physics Vol. 3 §5.5; and the cited SEP discussions of conventionality, inertial frames, and being/becoming. The sources support the article’s distinctions between observed signal-arrival order and synchronized-clock time assignments, the frame-relative result, and the causal-order qualification; no substantive discrepancy was found. All six Further Reading URLs match the dataset references in the same order, and the record uses date_verified 2026-11-01. The 1916 German edition date rests on the Gutenberg summary, not a separately checked first-edition facsimile; the philosophical discussion is selective, not a consensus survey or expert review."
+    },
+    {
+      "version": 1,
+      "id": "eternal-recurrence",
+      "title": "Nietzsche’s Eternal Recurrence",
+      "article_path": "experiments/time-and-causality/eternal-recurrence.md",
+      "dataset_record": {
+        "path": "data/experiments.json",
+        "id": "eternal-recurrence",
+        "title": "Nietzsche’s Eternal Recurrence",
+        "date_verified_before_review": "2026-10-31",
+        "references_before_review": [
+          "https://plato.stanford.edu/entries/nietzsche/",
+          "https://plato.stanford.edu/entries/nietzsche-moral-political/"
+        ],
+        "review_note": "The matching record was read but left unchanged as instructed. It does not yet list the primary-text and Sinhababu links added to the article’s Further Reading.",
+        "references_after_review": [
+          "https://web.stanford.edu/~jsabol/existentialism/materials/nietzsche-gay-science-hurry.pdf",
+          "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm",
+          "https://www.gutenberg.org/files/1998/1998-h/1998-h.htm",
+          "https://philarchive.org/archive/SINNOT-9v2",
+          "https://plato.stanford.edu/entries/nietzsche/",
+          "https://plato.stanford.edu/entries/nietzsche-moral-political/"
+        ],
+        "date_verified_after_review": "2026-11-01",
+        "synchronization_note_after_review": "Parent reconciliation updated the matching dataset record after the audit; its six references now match the article. The item remains partially_source_checked because the cited unpublished notebook fragment was not directly accessed."
+      },
+      "review_date": "2026-11-01",
+      "status": "partially_source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset object. Checked: the wording and sequence of the demon’s hypothetical in The Gay Science §341; the test-of-affirmation interpretation; published recurrence formulations in Beyond Good and Evil §56 and Thus Spoke Zarathustra, Part III, “The Vision and the Enigma”; the article’s distinctions among existential, cosmological, and ethical/affirmative readings; its use of amor fati; its distinction from Poincaré recurrence; and its claims about the role of notebooks and scholarly disagreement. The status is conservative because the cited unpublished notebook fragment was not directly accessible and the review does not adjudicate competing interpretations or constitute exhaustive literature review, proof that recurrence is true, consensus, or expert review.",
+      "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "protocol_version": "Approved local source-review standard for the 2026-11-01 batch (version recorded by path; no separate numbered version specified).",
+      "summary": "The article’s original existential-only framing and its broad statement that Nietzsche does not say life is worth repeating needed qualification. The accessed primary texts support a distinction between the hypothetical challenge in The Gay Science §341 and more affirmative or cosmological-sounding formulations in Beyond Good and Evil §56 and Zarathustra, Part III. The article was revised to describe those formulations, distinguish interpretive readings without treating them as settled or exclusive, and state the notebook-access gap. R. Lanier Anderson’s SEP entry emphasizes §341’s test of affirmation; Neil Sinhababu (2024) argues for cosmological significance in notebook material and reads Zarathustra as fiction foregrounding response. The original notebook passage itself could not be read; status is therefore partially_source_checked. The dataset was synchronized after the audit to match the article’s six Further Reading URLs and 2026-11-01 verification date. The status remains partial because the cited unpublished notebook fragment was not directly accessed.",
+      "sources": [
+        {
+          "title": "The Gay Science",
+          "author": "Friedrich Nietzsche",
+          "publication": "First edition published 1882; cited English text is Walter Kaufmann’s translation, Vintage, 1974, reproduced in a Stanford-hosted course PDF.",
+          "stable_url": "https://web.stanford.edu/~jsabol/existentialism/materials/nietzsche-gay-science-hurry.pdf",
+          "source_type": "Primary published philosophical work, English translation",
+          "access_level": "Relevant passage in an accessible full-text reproduction was retrieved and read; the entire book was not read.",
+          "exact_locations_read": "Book IV, §341, “The greatest weight,” printed pp. 273–274 in the reproduced Kaufmann edition. Read the complete demon address, the two possible reactions, and the concluding questions about whether the addressee could crave the eternal confirmation of the life. Adjacent §§340 and 342 and the translator/editor note on §341 were also visible in the extracted pages.",
+          "limitations": "A translated reproduction hosted for a Stanford course, not a critical edition or publisher-hosted text. The demon passage is a hypothetical speech in the published aphorism; it alone does not establish a cosmological proof or settle Nietzsche’s position across other works."
+        },
+        {
+          "title": "Thus Spake Zarathustra: A Book for All and None",
+          "author": "Friedrich Nietzsche; translated by Thomas Common",
+          "publication": "Published in parts, 1883–1885; Project Gutenberg HTML transcription of the Common translation, eBook 1998.",
+          "stable_url": "https://www.gutenberg.org/files/1998/1998-h/1998-h.htm",
+          "source_type": "Primary published philosophical/literary work, English translation",
+          "access_level": "The complete relevant chapter in the accessible full-text transcription was retrieved; the whole book was not read.",
+          "exact_locations_read": "Part III, chapter “The Vision and the Enigma,” sections 1–2. Read the passage in which Zarathustra calls recurrence his “abysmal thought,” the gateway dialogue with the dwarf, the argument about past and future roads and “This Moment,” the question “must we eternally return?”, and the transition to the shepherd vision.",
+          "limitations": "The Project Gutenberg page identifies Thomas Common as translator and notes that the archaic translation and transcription preserve older spelling and punctuation. The dialogue is a literary scene spoken by Zarathustra and the dwarf, with the key cosmological-sounding inference posed as a question; it is not a systematic proof in Nietzsche’s own expository voice."
+        },
+        {
+          "title": "Beyond Good and Evil",
+          "author": "Friedrich Nietzsche; translated by Helen Zimmern",
+          "publication": "First published 1886; Gutenberg transcription reproduces the Helen Zimmern translation from The Complete Works of Friedrich Nietzsche (1909–1913).",
+          "stable_url": "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm",
+          "source_type": "Primary published philosophical work, English translation",
+          "access_level": "Relevant passage was retrieved and read in an accessible full-text transcription; the whole book was not read.",
+          "exact_locations_read": "Aphorism §56. Read the paragraph describing the ideal of a “world-approving” person who wishes what was and is to be repeated “for all eternity,” as well as the surrounding §55–57 context returned with the passage.",
+          "limitations": "This is a historical English translation and e-text transcription, not a critical edition. The passage establishes an affirmative formulation in a published aphorism; interpretation of its relation to a literal cosmology or to the demon’s test remains a further question."
+        },
+        {
+          "title": "Friedrich Nietzsche",
+          "author": "R. Lanier Anderson",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2026 Edition; substantive revision 25 June 2026. Editors: Edward N. Zalta and Uri Nodelman; Stanford University Metaphysics Research Lab.",
+          "stable_url": "https://plato.stanford.edu/archives/fall2026/entries/nietzsche/",
+          "source_type": "Scholarly reference work",
+          "access_level": "Relevant entry passages and bibliography were read; not every section or cited secondary work was followed.",
+          "exact_locations_read": "Discussion of affirmation associated with GS §§276–277 and the introduction of recurrence in GS §341; §6, “Key Doctrines,” including the characterization of recurrence as cryptically or metaphorically formulated in published works and the need for interpretive reconstruction; the discussion of the practical significance of the eternity condition and references to Reginster and Anderson; bibliography entries describing published Nietzsche texts and the critical editions/translations of unpublished writing.",
+          "limitations": "This is a reference-work author’s synthesis, not Nietzsche’s text or a full specialist monograph on recurrence. The cited section interprets GS §341 as placing a weight on life-affirmation; it does not by itself establish a consensus on cosmological status."
+        },
+        {
+          "title": "Nietzsche’s Moral and Political Philosophy",
+          "author": "Brian Leiter",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 Edition; substantive revision 5 September 2024. Editors: Edward N. Zalta and Uri Nodelman; Stanford University Metaphysics Research Lab.",
+          "stable_url": "https://plato.stanford.edu/archives/fall2024/entries/nietzsche-moral-political/",
+          "source_type": "Scholarly reference work",
+          "access_level": "Relevant section and cited passages were read; not every section or cited work was followed.",
+          "exact_locations_read": "§2, “Nietzsche’s Positive Ethical Vision,” especially the subsection passage beginning “Fourth, higher types affirm life,” which relates willingness of eternal recurrence to a Dionysian/life-affirming attitude and cites BGE §56 and EH III:Z-1; later discussion of Magnus’s recurrence-based criterion and its limitations.",
+          "limitations": "This entry presents Leiter’s interpretive account of Nietzsche’s positive ethics and notes objections to treating recurrence alone as a sufficient or satisfactory criterion. It does not establish that all scholars accept that account."
+        },
+        {
+          "title": "Nietzsche on the Eternal Recurrence",
+          "author": "Neil Sinhababu",
+          "publication": "Elements in Philosophy of Friedrich Nietzsche, edited by Kaitlyn Creasy and Matthew Meyer, Cambridge University Press; first published online 2024; DOI 10.1017/9781009443180.",
+          "stable_url": "https://philarchive.org/archive/SINNOT-9v2",
+          "source_type": "Scholarly secondary monograph/chapter; Cambridge University Press publication",
+          "access_level": "Accessible chapter text was retrieved through PhilArchive; the relevant passages were read, not the complete chapter or every cited source.",
+          "exact_locations_read": "Chapter “Nietzsche on the Eternal Recurrence,” p. 12, “Poincaré’s Theorem,” on the unpublished KSA 11:38[12] / Will to Power §1066 fragment and its finite-states/infinite-time argument; pp. 17–18 on Nietzsche’s unfinished plans for a cosmological treatment and the uncertainty of what he would have written; p. 45 on the published works’ hypothetical or fictional presentation, Zarathustra’s whispering and questions, and the author’s inference about Nietzsche’s degree of commitment; pp. 39–40 on Zarathustra and the ‘knot of causes.’",
+          "limitations": "This is one recent scholar’s argued reading, not a statement of consensus. It cites and interprets the notebook fragment but does not replace direct access to the manuscript or critical-edition text. Its interpretation of authorial uncertainty is an inference from literary form, not an independently established fact. The Cambridge official page could not be extracted during this audit; publication metadata was available in the chapter’s front matter."
+        },
+        {
+          "title": "Nietzsche, Nachlass fragment KSA 11:38[12] (also cited as The Will to Power §1066)",
+          "author": "Friedrich Nietzsche",
+          "publication": "Unpublished notebook material, cited and interpreted by later editors and scholars; the fragment’s dating, textual context, and posthumous compilation history require consultation of the critical edition. The fragment was not directly accessed in this review.",
+          "stable_url": null,
+          "source_type": "Primary unpublished notebook fragment; its posthumous appearance in The Will to Power is not a publication by Nietzsche",
+          "access_level": "Not accessed directly. The citation and an account of its argument were read only in Sinhababu (2024), p. 12; this is secondary-source access, not primary-text access.",
+          "exact_locations_read": "No location in the primary notebook was read. Secondary citation consulted: KSA 11:38[12] / The Will to Power §1066, as discussed in Sinhababu, “Poincaré’s Theorem,” p. 12.",
+          "limitations": "The original notebook passage and its critical-edition context were unavailable through the accessible sources in this audit. No claim about its wording, full context, or decisive weight is made from direct inspection."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The demon in The Gay Science §341 tells the addressee that this same life and every detail would recur innumerable times in the same sequence, and asks whether the addressee would curse the news or welcome it as divine; the demon passage is paraphrased in the article, not quoted.",
+          "source_title": "The Gay Science",
+          "source_url": "https://web.stanford.edu/~jsabol/existentialism/materials/nietzsche-gay-science-hurry.pdf",
+          "exact_location": "Book IV, §341, “The greatest weight,” printed pp. 273–274 in the reproduced Kaufmann translation.",
+          "relationship": "supports",
+          "finding": "The read passage directly supports the scenario’s repeated life, same order, inclusion of small and great details, demon, and two contrasting reactions. The article labels its narration as paraphrase rather than quotation.",
+          "limitation": "Aphorism §341 stages a hypothetical speech and response; it does not alone prove recurrence as a cosmological fact.",
+          "required_edit": "Completed: replaced the previous broad notice that the primary text had not been retrieved with disclosure of the published passages actually consulted; retained the paraphrase as paraphrase."
+        },
+        {
+          "material_claim": "The practical force of §341 can be read as an existential test of affirmation, but that reading should not be treated as exhausting Nietzsche’s published formulations or as settling his cosmological commitment.",
+          "source_title": "The Gay Science; R. Lanier Anderson, “Friedrich Nietzsche”",
+          "source_url": "https://plato.stanford.edu/archives/fall2026/entries/nietzsche/",
+          "exact_location": "GS §341, especially the closing questions at printed pp. 273–274; Anderson’s discussion of GS §341 under affirmation and §6, “Key Doctrines.”",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary ending places the question of desiring recurrence on one’s actions and asks how well-disposed one would need to be toward oneself and life. Anderson interprets the section through affirmation and notes the cryptic or metaphorical character of the doctrine and the work required of commentators.",
+          "limitation": "The existential emphasis is an interpretation of the passage’s practical effect, not proof that Nietzsche intended only a psychological test.",
+          "required_edit": "Completed: changed the article from saying the experiment’s aim is existential rather than ethical/theoretical to saying this page emphasizes that force without excluding other interpretations."
+        },
+        {
+          "material_claim": "Nietzsche’s published texts also contain affirmative or cosmological-sounding recurrence formulations: BGE §56 expresses willing recurrence as an ideal, and Zarathustra’s Part III dialogue reasons toward eternal return while retaining a literary, interrogative form.",
+          "source_title": "Beyond Good and Evil; Thus Spake Zarathustra",
+          "source_url": "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm; https://www.gutenberg.org/files/1998/1998-h/1998-h.htm",
+          "exact_location": "BGE §56; Zarathustra, Part III, “The Vision and the Enigma,” §§1–2, especially the gateway conversation and the final question “must we eternally return?”.",
+          "relationship": "supports_with_qualification",
+          "finding": "BGE §56 describes the world-approving person as wishing what was and is to recur for all eternity. In Zarathustra, the dwarf states “time itself is a circle,” and Zarathustra develops a recurrence argument in a vision/dialogue, speaking with increasing softness and ending in a question. These texts make it inaccurate to present the entire doctrine as only the §341 test, while genre, speaker, and wording still matter to attribution.",
+          "limitation": "The translations and transcriptions are historical and not critical editions. Literary dialogue and aphoristic formulations do not by themselves resolve whether the claim is literal cosmology, ethical ideal, existential test, or a combination.",
+          "required_edit": "Completed: added the two published formulations and qualified how they relate to the thought experiment."
+        },
+        {
+          "material_claim": "The ethical/affirmative reading links willing recurrence to life-affirmation and sometimes to amor fati, but this is an interpretive connection rather than an identity established by §341 alone.",
+          "source_title": "Nietzsche’s Moral and Political Philosophy; Friedrich Nietzsche",
+          "source_url": "https://plato.stanford.edu/archives/fall2024/entries/nietzsche-moral-political/; https://plato.stanford.edu/archives/fall2026/entries/nietzsche/",
+          "exact_location": "Leiter, §2, “Nietzsche’s Positive Ethical Vision,” passage on higher types and eternal recurrence, citing BGE §56 and EH III:Z-1; Anderson’s discussion of GS §§276–277 and affirmation.",
+          "relationship": "supports_with_qualification",
+          "finding": "Leiter explicitly presents willing eternal recurrence as a manifestation of a Dionysian/life-affirming attitude among higher types; Anderson’s account links GS §341 to affirmation in a broader discussion of amor fati. The revision calls this an interpretive connection and avoids saying that §341 itself equates recurrence with amor fati.",
+          "limitation": "Leiter also reports a specific objection to taking recurrence alone as a sufficient criterion; the article does not resolve such objections or claim that this is the sole ethical interpretation.",
+          "required_edit": "Completed: changed the unqualified statement that the test simply ‘ties’ to amor fati into a qualified account of life-affirmation and interpretive association."
+        },
+        {
+          "material_claim": "A cosmological interpretation is argued for by Sinhababu from notebook materials, whereas Anderson’s SEP discussion emphasizes the existential/affirmative force of the published §341; these named accounts illustrate interpretive difference without establishing a consensus or mutually exclusive readings.",
+          "source_title": "Neil Sinhababu, “Nietzsche on the Eternal Recurrence”; R. Lanier Anderson, “Friedrich Nietzsche”",
+          "source_url": "https://philarchive.org/archive/SINNOT-9v2; https://plato.stanford.edu/archives/fall2026/entries/nietzsche/",
+          "exact_location": "Sinhababu, pp. 12 and 17–18 on the notebook cosmological argument and Nietzsche’s planned cosmological treatment, and p. 45 on the fictional presentation in Zarathustra; Anderson, affirmation/GS §341 discussion and §6, “Key Doctrines.”",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support the narrowly stated contrast between these authors’ emphases. The article now names the competing source and says the page does not adjudicate the interpretations, rather than invoking unspecified scholarly disagreement as if it were a consensus survey.",
+          "limitation": "Anderson’s reference entry and Sinhababu’s single recent monograph are not a systematic survey of the literature; Sinhababu’s account of the notebook fragment is secondary, not direct access to Nietzsche’s note.",
+          "required_edit": "Completed: attributed the interpretive positions narrowly and added Sinhababu’s source link to Further Reading."
+        },
+        {
+          "material_claim": "Nietzsche’s recurrence should be distinguished from Poincaré recurrence as a mathematical result, while a scholarly comparison may discuss a historical resemblance or anticipation in Nietzsche’s notebook argument.",
+          "source_title": "Neil Sinhababu, “Nietzsche on the Eternal Recurrence”",
+          "source_url": "https://philarchive.org/archive/SINNOT-9v2",
+          "exact_location": "Chapter, p. 12, section “Poincaré’s Theorem,” describing the fragment’s finite-states/infinite-time premises and its relation to Poincaré’s recurrence theorem.",
+          "relationship": "supports_with_qualification",
+          "finding": "Sinhababu describes an argument in Nietzsche’s notebook as anticipating aspects of Poincaré’s theorem; that historical or conceptual connection does not make the philosophical doctrine and the mathematical theorem interchangeable. The revision uses this more careful distinction.",
+          "limitation": "The notebook itself was not accessed, and the scientific validity of Nietzsche’s cosmological reasoning is outside the scope of this source audit.",
+          "required_edit": "Completed: replaced the unqualified conflation risk with a distinction from Poincaré recurrence as a mathematical result."
+        }
+      ],
+      "limitations": [
+        "The primary notebook fragment KSA 11:38[12] / The Will to Power §1066 was not directly accessible. Its exact wording, critical-edition context, dating, and relation to the posthumously compiled Will to Power therefore remain unchecked. This is the principal reason for partially_source_checked status.",
+        "Primary-text consultation was limited to the relevant passages in GS §341, Zarathustra Part III, “The Vision and the Enigma,” and BGE §56, not every passage in Nietzsche’s corpus or complete critical editions.",
+        "The published English primary texts are historical translations and web reproductions/transcriptions; the audit did not collate them against the German critical edition.",
+        "The interpretive comparison is selective: the SEP reference entries and one 2024 Cambridge scholarly chapter were read at relevant passages, not an exhaustive survey. Findings are not a consensus judgment, philosophical adjudication, or expert review."
+      ],
+      "unresolved": [
+        "Direct inspection of the Nachlass fragment in the critical edition and its manuscript context would be required to assess its text, dating, and weight against published works.",
+        "The relation among existential, cosmological, and ethical interpretations remains contested; Anderson and Sinhababu provide different emphases, not a basis for claiming a field-wide consensus.",
+        "The validity of any cosmological argument for eternal recurrence, and whether Nietzsche ultimately endorsed it, are outside this traceability audit and remain unsettled here."
+      ],
+      "required_edits": [
+        {
+          "location": "Article §3, Why It Matters",
+          "change": "Replaced the claim that the aim is existential rather than epistemic or moral with a scoped statement that the page emphasizes existential force while leaving cosmological and ethical relations open.",
+          "status": "completed"
+        },
+        {
+          "location": "Article §4, Major Interpretations",
+          "change": "Expanded the existential, cosmological, and ethical/affirmative readings; named Anderson and Sinhababu for the specific emphases reviewed; clarified that readings need not be exclusive and that the page does not adjudicate them.",
+          "status": "completed"
+        },
+        {
+          "location": "Article §5, Common Misunderstandings",
+          "change": "Narrowed the claim about what §341 asserts: it stages a hypothetical and is not itself proof, but other published texts use more affirmative and cosmological-sounding formulations; distinguished the philosophical doctrine from Poincaré’s mathematical result.",
+          "status": "completed"
+        },
+        {
+          "location": "Article §9, Further Reading and §10, Sources and Attribution",
+          "change": "Added direct links to the consulted published texts and Sinhababu’s secondary analysis; disclosed that the demon’s speech is paraphrased, the notebook primary text was not read, and the research check date is 2026-11-01 with this ledger as the access record.",
+          "status": "completed"
+        },
+        {
+          "location": "data/experiments.json matching record",
+          "change": "Parent reconciliation updated the matching data/experiments.json record to include the article’s six Further Reading URLs and date_verified 2026-11-01. The audit agents did not modify the shared dataset file.",
+          "status": "completed after audit"
+        }
+      ],
+      "article_further_reading_urls": [
+        "https://web.stanford.edu/~jsabol/existentialism/materials/nietzsche-gay-science-hurry.pdf",
+        "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm",
+        "https://www.gutenberg.org/files/1998/1998-h/1998-h.htm",
+        "https://philarchive.org/archive/SINNOT-9v2",
+        "https://plato.stanford.edu/entries/nietzsche/",
+        "https://plato.stanford.edu/entries/nietzsche-moral-political/"
+      ],
+      "public_status_or_badge_added": false,
+      "git_actions": "No staging, commits, or pushes were performed.",
+      "post_edit_review": "Independent read-only reviewer compared the revised article and matching dataset record with The Gay Science §341, Beyond Good and Evil §56, Thus Spoke Zarathustra Part III, ‘The Vision and the Enigma,’ relevant passages in Sinhababu (2024), and both cited SEP entries. The source passages support the bounded existential, cosmological-sounding, and ethical/affirmative descriptions without establishing exclusive readings or consensus; no substantive discrepancy was found. All six Further Reading URLs match the dataset references, and date_verified is 2026-11-01. The cited unpublished notebook fragment KSA 11:38[12] was not accessed directly; this remains the principal limitation and the entry remains partially_source_checked. Only relevant passages were reviewed; this is not expert review."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "leslies-firing-squad",
   "title": "Leslie’s Firing Squad",
-  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/leslies-firing-squad.md",
+  "article_path": "experiments/science-and-biology/leslies-firing-squad.md",
   "review_date": "2026-11-01",
   "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
   "protocol_version": "Approved local source-review standard dated 2026-11-01",
@@ -214,7 +214,7 @@
     {
       "material_claim": "The central question and reflection prompts are original teaching framing rather than historical claims attributed to Leslie.",
       "source_title": "Leslie’s Firing Squad (local article)",
-      "source_url": "file:///workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/leslies-firing-squad.md",
+      "source_url": "experiments/science-and-biology/leslies-firing-squad.md",
       "exact_location": "§2, §6, and §7; article §10 states additional comparisons are teaching prompts, not established historical variations.",
       "relationship": "context_only",
       "finding": "Prompts about surprise, intention, and assigning probabilities are editorial questions. The revised setup explicitly identifies itself as a teaching version and avoids presenting those prompts as Leslie’s own wording.",
@@ -240,7 +240,7 @@
   ],
   "dataset_alignment": "After the audit, the dataset record’s identity, publication wording, verification date (2026-11-01), and four references match the article. The SEP and USI catalogue cite 1989; the exact first-publication date is explicitly unresolved. The dataset and article URL sets are identical.",
   "further_reading_matches": true,
-  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-leslies-firing-squad.json",
+  "ledger_path": "research/source-review-batch5-item-leslies-firing-squad.json",
   "protocol": "research/source-review-standard.md",
   "selection_rank": 2,
   "risk_reason": "The article maps a contested observation-selection analogy to fine-tuning and attributes claims to Leslie while the primary pages were inaccessible; it also made an uncertain publication-date claim.",

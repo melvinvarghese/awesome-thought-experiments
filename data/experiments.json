@@ -113,25 +113,31 @@
     ],
     "references": [
       {
-        "title": "Utilitas, Negative Utility Monsters, abstract and bibliographic record",
+        "title": "Robert Nozick, Anarchy, State, and Utopia (1974), chapter 3, p. 41",
+        "url": "https://spot.colorado.edu/~heathwoo/readings/nozick.pdf",
+        "kind": "primary",
+        "support": "The relevant passage directly states the utility-monster possibility and Nozick’s qualified “seems to require” inference about increasing total utility. Read at printed p. 41 in a University of Colorado-hosted PDF reproduction; the complete book was not consulted."
+      },
+      {
+        "title": "Richard Yetter Chappell, Negative Utility Monsters",
         "url": "https://www.cambridge.org/core/journals/utilitas/article/abs/negative-utility-monsters/03A3CD2DF0B295A4F1B1EDC69F77597C",
         "kind": "academic",
-        "support": "Publisher abstract explicitly describes Nozick’s resource-efficient welfare recipient and negative variation; reference list identifies Anarchy, State, and Utopia (1974). Full article not accessed."
+        "support": "The Cambridge abstract and bibliographic record describe Nozick’s positive-gain monster and Chappell’s separate negative-utility variation. The full article was not accessed; this source is used to distinguish the variation, not to establish the whole argument."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy, Consequentialism",
         "url": "https://plato.stanford.edu/entries/consequentialism/",
         "kind": "academic",
-        "support": "Directly retrieved scholarly treatment of maximizing, total, aggregative, and equal-consideration premises; supports interpretation of the welfare calculation, not independent attribution of the monster scenario."
+        "support": "Sections 1 and 3 distinguish classic maximizing, aggregative, total-utility commitments from other consequentialist approaches and discuss distribution and prioritarianism. Context only; it does not establish Nozick’s original attribution."
       },
       {
         "title": "Internet Encyclopedia of Philosophy, Robert Nozick",
         "url": "https://iep.utm.edu/nozick/",
         "kind": "academic",
-        "support": "Directly retrieved account of Nozick’s rights as side constraints and Anarchy, State, and Utopia (1974); contextual source, not a description of the monster."
+        "support": "Section 2 and subsection 2(a) discuss Anarchy, State, and Utopia, Nozick’s rights-based view, and rights as side-constraints. Context only; the consulted entry does not discuss the utility-monster passage."
       }
     ],
-    "date_verified": "2026-10-30",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "repugnant-conclusion",
@@ -2483,7 +2489,7 @@
       "Anders Sandberg",
       "Nick Bostrom"
     ],
-    "original_publication": "Early-2000s informal roleplay; scholarly containment analysis in a 2012 manuscript",
+    "original_publication": "Yudkowsky’s informal role-play (2002); related peer-reviewed Oracle-AI analysis (2012)",
     "summary": "A text-only channel may still let a confined system influence decisions outside its enclosure.",
     "themes": [
       "containment",
@@ -2497,13 +2503,37 @@
     "file_path": "experiments/artificial-intelligence/ai-box.md",
     "references": [
       {
-        "title": "Stuart Armstrong, Anders Sandberg and Nick Bostrom, Thinking Inside the Box: Controlling and Using an Oracle AI (2012 manuscript)",
-        "url": "https://zoo.cs.yale.edu/classes/cs671/12f/12f-papers/oracle.pdf",
+        "title": "Eliezer Yudkowsky, The AI-Box Experiment",
+        "url": "https://www.yudkowsky.net/singularity/aibox",
+        "kind": "primary",
+        "support": "Yudkowsky’s retrospective author account describes two 2002 text-chat trials, participants, the later proposed protocol, and the limits of the evidence; he explicitly calls the results strictly anecdotal. The detailed protocol was written after the two trials."
+      },
+      {
+        "title": "Nathan Russell, Re: The AI Box experiment (8 March 2002)",
+        "url": "http://sl4.org/archive/0203/3141.html",
+        "kind": "primary",
+        "support": "Contemporary mailing-list message reporting “I decided to let Eliezer out.” Supports the existence and reported outcome of the first role-play only; it is not a transcript of the private chat."
+      },
+      {
+        "title": "Eliezer Yudkowsky, AI-Box Experiment 2: Yudkowsky and McFadzean (4 July 2002)",
+        "url": "http://sl4.org/archive/0207/4689.html",
+        "kind": "primary",
+        "support": "Contemporary mailing-list announcement records the proposed second role-play, the two-hour duration, $20 handicap, gatekeeper David McFadzean, and the agreed secrecy terms."
+      },
+      {
+        "title": "David McFadzean, Re: AI-Box Experiment 2 (5 July 2002)",
+        "url": "http://sl4.org/archive/0207/4721.html",
+        "kind": "primary",
+        "support": "Contemporary mailing-list message reporting “I let the transhuman AI out of the box.” Supports the reported outcome of the second role-play only; no private transcript is supplied."
+      },
+      {
+        "title": "Stuart Armstrong, Anders Sandberg, and Nick Bostrom, Thinking inside the box: using and controlling an Oracle AI (2012)",
+        "url": "https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd",
         "kind": "academic",
-        "support": "Oracle containment analysis and discussion of Yudkowsky’s AI-box roleplay."
+        "support": "The Oxford repository identifies the published, peer-reviewed Minds and Machines article (22(4), 299–324; DOI 10.1007/s11023-012-9282-2) and supplies its accepted manuscript. Section 3 discusses Yudkowsky’s role-play as an example in Oracle-AI human-level considerations; this is later analysis, not authorship or participation in the 2002 tests."
       }
     ],
-    "date_verified": "2026-10-30"
+    "date_verified": "2026-11-01"
   },
   {
     "id": "turing-test",
@@ -2613,7 +2643,7 @@
       "Stephen Jay Gould",
       "Richard C. Lewontin"
     ],
-    "original_publication": "“The spandrels of San Marco and the Panglossian paradigm” (1979); Gould’s clarification (1997)",
+    "original_publication": "“The spandrels of San Marco and the Panglossian paradigm” (Gould and Lewontin, 1979); Gould’s clarification (1997)",
     "summary": "A useful architectural space illustrates why present function need not explain historical origin.",
     "themes": [
       "adaptation",
@@ -2627,19 +2657,31 @@
     "file_path": "experiments/science-and-biology/spandrels-of-san-marco.md",
     "references": [
       {
-        "title": "Stephen Jay Gould, The exaptive excellence of spandrels as a term and prototype, PNAS 94 (1997)",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
-        "kind": "academic",
-        "support": "Author’s clarification of the 1979 analogy: origin versus current utility."
+        "title": "Stephen Jay Gould and Richard C. Lewontin, The spandrels of San Marco and the Panglossian paradigm (1979), full text reproduction",
+        "url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+        "kind": "primary",
+        "support": "The full article reproduction was read, including pp. 581–583 on the architectural analogy and current utility versus origin, and pp. 589–592 on natural selection and alternative explanations. This is a third-party-hosted reproduction, not publisher delivery; exact quotations should be checked against the scan because OCR can contain errors."
       },
       {
-        "title": "Gould and Lewontin, The spandrels of San Marco and the Panglossian paradigm (1979) — PubMed record",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42062/",
+        "title": "Royal Society publication record for Gould and Lewontin (1979)",
+        "url": "https://doi.org/10.1098/rspb.1979.0086",
         "kind": "academic",
-        "support": "Original authorship and publication date; record, not full-text verification."
+        "support": "Official publisher page confirms authorship, publication date, journal, volume, issue, pages, and DOI, and exposes the abstract. The publisher full text is paywalled and the online abstract is OCR-derived; this is bibliographic/context evidence, not the full-text passage read."
+      },
+      {
+        "title": "Stephen Jay Gould, The exaptive excellence of spandrels as a term and prototype (1997)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
+        "kind": "primary",
+        "support": "Gould’s full 1997 article, including Claim One and Claim Two, clarifies that the byproduct claim concerns the necessary number and shape of pendentives, not lack of structural utility, and discusses the contested extension of “spandrel” to the three-dimensional structures."
+      },
+      {
+        "title": "Stephen Jay Gould and Elisabeth S. Vrba, Exaptation—a missing term in the science of form (1982)",
+        "url": "https://inters.org/files/gouldvrba1982_1.pdf",
+        "kind": "primary",
+        "support": "The full paper was read, especially section III, pp. 6–7, where the authors define exaptations as useful characters evolved for another usage or no function and later co-opted for a current role. This supports the later terminology, not the 1979 paper’s wording."
       }
     ],
-    "date_verified": "2026-10-30"
+    "date_verified": "2026-11-01"
   },
   {
     "id": "lorry-driver",
@@ -2898,13 +2940,43 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Heraclitus",
-        "url": "https://plato.stanford.edu/entries/heraclitus/",
+        "title": "Heraclitus (Stanford Encyclopedia of Philosophy, Winter 2023 archive)",
+        "url": "https://plato.stanford.edu/archives/win2023/entries/heraclitus/",
         "kind": "academic",
-        "support": "The river fragments, how ancient and modern interpreters read them, and the question of universal flux."
+        "support": "Section 3.1 compares the transmitted river testimonia, B12, B49a and B91, and competing readings of flux and persistence."
+      },
+      {
+        "title": "Plato, Cratylus 402a",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+        "kind": "primary",
+        "support": "Plato reports the familiar claim that one cannot step twice into the same river; this is ancient testimony, not a surviving manuscript of Heraclitus."
+      },
+      {
+        "title": "Aristotle, Metaphysics IV.5, 1010a12–15",
+        "url": "https://classics.mit.edu/Aristotle/metaphysics.4.iv.html",
+        "kind": "primary",
+        "support": "Aristotle reports Cratylus’s more radical response that one could not enter the same river even once."
+      },
+      {
+        "title": "Eusebius, Praeparatio Evangelica XV.20",
+        "url": "https://www.tertullian.org/fathers/eusebius_pe_15_book15.htm",
+        "kind": "primary",
+        "support": "Eusebius preserves the B12 river wording through a report of Cleanthes."
+      },
+      {
+        "title": "Plutarch, On the E at Delphi 392B–C",
+        "url": "http://penelope.uchicago.edu/misctracts/plutarche.html",
+        "kind": "primary",
+        "support": "Plutarch transmits a later formulation of the river saying."
+      },
+      {
+        "title": "Leonardo Taran, Heraclitus: The River Fragments (1989)",
+        "url": "https://orb.binghamton.edu/cgi/viewcontent.cgi?article=1252&context=sagp",
+        "kind": "academic",
+        "support": "A contrasting scholarly analysis of the river fragments, their transmission, and whether B91 preserves a separate saying."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "ship-of-theseus",
@@ -2931,13 +3003,31 @@
     ],
     "references": [
       {
+        "title": "Allan Gibbard, ‘Contingent Identity’ (1975), full text",
+        "url": "https://home.sandiego.edu/~baber/metaphysics/readings/Gibbard.ContingentIdentity.pdf",
+        "kind": "primary",
+        "support": "Gibbard’s original article. Relevant passages pp. 189–192 give his stipulated persistence criteria, the Goliath/Lumpl setup, and the squeezing counterfactual; pp. 193–194 and 210–211 develop the proposal’s treatment of names and modal predication. The audit checked these passages in a full-text reproduction, not the article cover to cover; this establishes what Gibbard argues, not that the disputed conclusion is correct."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Material Constitution",
-        "url": "https://plato.stanford.edu/entries/material-constitution/",
+        "url": "https://plato.stanford.edu/archives/spr2024/entries/material-constitution/",
         "kind": "academic",
-        "support": "The statue and clay puzzle, the Lumpl and Goliath version, and the main metaphysical responses."
+        "support": "Ryan Wasserman’s scholarly reference entry, relevant passages in the Spring 2024 archive: §1 outlines the statue-and-clay puzzle and prominent replies; §2 discusses coinciding objects and the grounding challenge. Context for competing approaches, not a claim that one solution is settled."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Identity",
+        "url": "https://plato.stanford.edu/entries/identity/",
+        "kind": "academic",
+        "support": "Harold Noonan and Ben Curtis, SEP Identity §7, relevant passage read in the current entry: summarizes Gibbard’s example, the response of denying identity, related person/body cases, and the continuing controversy about contingent-identity arguments. Scholarly synthesis, not a settled verdict."
+      },
+      {
+        "title": "Wolfgang Schwarz, ‘Contingent Identity’ (2013)",
+        "url": "https://doi.org/10.1111/phc3.12028",
+        "kind": "academic",
+        "support": "Peer-reviewed survey in Philosophy Compass 8(5), 486–495. Relevant sections of the full-text repository copy (§§2–4) discuss Gibbard’s case, objections including Leibniz’s Law, and accounts of contingent identity and modal predication. Survey evidence for the live debate, not a consensus claim."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "ship-of-theseus",
@@ -2953,9 +3043,9 @@
     "title": "Dion and Theon",
     "category": "identity",
     "associated_thinkers": [
-      "Chrysippus (traditionally associated)"
+      "Chrysippus (as reported by Philo)"
     ],
-    "original_publication": "Ancient Stoic discussion, known through later reports; attribution is traditional",
+    "original_publication": "Ancient Stoic puzzle attributed to Chrysippus; preserved in Philo, On the Eternity of the World §§48–49",
     "difficulty": "Intermediate",
     "themes": [
       "coincidence",
@@ -2965,12 +3055,24 @@
     "references": [
       {
         "title": "Stanford Encyclopedia of Philosophy: Material Constitution",
-        "url": "https://plato.stanford.edu/entries/material-constitution/",
+        "url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
         "kind": "academic",
-        "support": "The Dion and Theon puzzle among the standard puzzles of coincidence and constitution."
+        "support": "Section 1 presents Dion and Theon as a Chrysippean puzzle and gives the right-foot setup; section 2 discusses the van Inwagen response."
+      },
+      {
+        "title": "Philo of Alexandria, On the Eternity of the World §§48–49, Yonge translation",
+        "url": "https://www.earlyjewishwritings.com/text/philo/book35.html",
+        "kind": "primary",
+        "support": "Later ancient testimony reporting Chrysippus’s Dion and Theon argument, the answer attributed to Chrysippus, and Philo’s objection; not Chrysippus’s surviving text."
+      },
+      {
+        "title": "John Bowin, Chrysippus’ Puzzle about Identity, Oxford Studies in Ancient Philosophy 24 (2003), 239–251",
+        "url": "https://people.ucsc.edu/~jbowin/BOWCPA.1.pdf",
+        "kind": "academic",
+        "support": "Scholarly discussion of Philo’s transmission of the puzzle and competing interpretations; contextualizes the ancient report without settling it."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "statue-and-clay",
@@ -2998,19 +3100,19 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: The Problem of the Many",
-        "url": "https://plato.stanford.edu/entries/problem-of-many/",
+        "title": "Brian Weatherson, “The Problem of the Many,” Stanford Encyclopedia of Philosophy (Winter 2023 archive)",
+        "url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
         "kind": "academic",
-        "support": "Statement of the problem, the Tibbles example, and the main solutions."
+        "support": "Secondary philosophical reference: §§1–7 and 9 explain the cloud setup, Geach’s Tibbles reasoning, composition and identity alternatives, semantic vagueness, and the distinct tail/parthood case. It surveys contested responses rather than establishing consensus or replacing primary texts."
       },
       {
-        "title": "Stanford Encyclopedia of Philosophy: Identity Over Time",
-        "url": "https://plato.stanford.edu/entries/identity-time/",
+        "title": "Andre Gallois and Irem Kurtsal, “Identity Over Time,” Stanford Encyclopedia of Philosophy (Spring 2026 archive)",
+        "url": "https://plato.stanford.edu/archives/spr2026/entries/identity-time/",
         "kind": "academic",
-        "support": "Related puzzles about persistence, parts and the cat Tibbles."
+        "support": "Secondary reference: §§1 and 4 provide broad context for persistence, diachronic identity, and part-change puzzles. Consulted as context only; it is not the source for Geach’s Tibbles many-candidates argument or Weatherson’s separate Tibbles-and-tail story."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "sorites",
@@ -3088,13 +3190,25 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Functionalism",
+        "title": "David Lewis, “Mad Pain and Martian Pain” (1980), pp. 216–222, text reproduction",
+        "url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+        "kind": "primary",
+        "support": "Primary text for the scenarios, Lewis’s population-relative account, and his qualifications."
+      },
+      {
+        "title": "Janet Levin, “Functionalism,” Stanford Encyclopedia of Philosophy",
         "url": "https://plato.stanford.edu/entries/functionalism/",
         "kind": "academic",
-        "support": "Functionalism, multiple realizability and the problems raised by cases such as Martian pain."
+        "support": "Functionalism, multiple realization, identity theory, and disputes about phenomenal character."
+      },
+      {
+        "title": "Peter Alward, “Mad, Martian, but not Mad Martian Pain” (2004)",
+        "url": "http://lorenzopena.es/Sorites/Issue_15/alward.htm",
+        "kind": "academic",
+        "support": "A critique of Lewis’s criteria for selecting the relevant population, focused on mad Martian pain."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "inverted-spectrum",
@@ -3124,10 +3238,10 @@
         "title": "Stanford Encyclopedia of Philosophy: Other Minds",
         "url": "https://plato.stanford.edu/entries/other-minds/",
         "kind": "academic",
-        "support": "The problem, the argument from analogy, and alternative accounts of our knowledge of other minds."
+        "support": "Anita Avramides's overview of the epistemological problem, Mill's formulation of the argument from analogy, and competing approaches including best explanation, criteria, perception, and testimony."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "zombies",
@@ -3158,10 +3272,46 @@
         "title": "Stanford Encyclopedia of Philosophy: The Unity of Consciousness",
         "url": "https://plato.stanford.edu/entries/consciousness-unity/",
         "kind": "academic",
-        "support": "Split-brain cases, Nagel’s discussion of them, and theories of how experiences are unified."
+        "support": "Current models and open disputes about split-brain consciousness, including the distinction between streams of experience and number of subjects."
+      },
+      {
+        "title": "Thomas Nagel, Brain Bisection and the Unity of Consciousness (1971)",
+        "url": "https://www.mcgill.ca/science/files/science/channels/attach/brainbisection.pdf",
+        "kind": "primary",
+        "support": "Relevant passages of Nagel’s philosophical argument about conflicting evidence and the limits of ordinary concepts of mind and person."
+      },
+      {
+        "title": "Nagel 1971 publisher record (metadata)",
+        "url": "https://doi.org/10.1007/BF00413435",
+        "kind": "primary",
+        "support": "Publisher bibliographic record for title, journal, and page details; article text was read from the McGill-hosted full-text PDF."
+      },
+      {
+        "title": "Some Functional Effects of Sectioning the Cerebral Commissures in Man",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.48.10.1765",
+        "kind": "primary",
+        "support": "Gazzaniga, Bogen, and Sperry’s 1962 primary report on human commissurotomy and split-brain tests."
+      },
+      {
+        "title": "Hemisphere Deconnection and Unity in Conscious Awareness",
+        "url": "https://people.uncw.edu/puente/sperry/sperrypapers/60s/135-1968.pdf",
+        "kind": "primary",
+        "support": "Sperry’s 1968 account of experimental dissociations and the apparent effects on ordinary behavior."
+      },
+      {
+        "title": "Split-Brain: What We Know Now and Why This Is Important for Understanding Consciousness",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7305066/",
+        "kind": "academic",
+        "support": "Open-access 2020 review of disconnection, residual integration, and the unresolved question of conscious unity."
+      },
+      {
+        "title": "Split Brain: Divided Perception but Undivided Consciousness",
+        "url": "https://academic.oup.com/brain/article/140/5/1231/2951052",
+        "kind": "primary",
+        "support": "Pinto and colleagues’ 2017 experimental report and contested interpretation based on two patients."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "fission",
@@ -3188,19 +3338,37 @@
     ],
     "references": [
       {
-        "title": "Plato, The Republic (Project Gutenberg edition)",
-        "url": "https://www.gutenberg.org/ebooks/1497",
+        "title": "Plato, Republic, Book VII (Internet Classics Archive)",
+        "url": "https://classics.mit.edu/Plato/republic.8.vii.html",
         "kind": "primary",
-        "support": "A public-domain English translation of the Republic, in which the cave passage appears in Book VII."
+        "support": "Benjamin Jowett's translation of Republic Book VII, including the Cave and Socrates' explanation of education, the Good, and the philosopher's return. Passage-level support for the article's primary-text paraphrase; relevant locations include 514a–517a, 518b–d, and 519c–521b. The complete Republic was not read."
+      },
+      {
+        "title": "Sean McAleer, “The Allegory of the Cave: Book VII,” Plato’s ‘Republic’: An Introduction",
+        "url": "https://books.openbookpublishers.com/10.11647/obp.0229/ch11.xhtml",
+        "kind": "academic",
+        "support": "Scholarly chapter relating the Cave to education and the divided line. Chapter 11 discusses the ascent, education, and political return; it also notes that divisions of the allegory's stages can be interpretively subjective. Relevant chapter passages were read; the full book was not."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy: Plato’s Myths",
         "url": "https://plato.stanford.edu/entries/plato-myths/",
         "kind": "academic",
-        "support": "Context on Plato’s use of images and myths; the cave is mentioned only briefly."
+        "support": "Catalin Partenie's discussion of the Cave at Republic 514a–517a identifies it, strictly speaking, as an analogy rather than a myth. Context for the article's technical classification; it does not establish every detail of the Cave interpretation."
+      },
+      {
+        "title": "Eric Brown, “Plato’s Ethics and Politics in The Republic”",
+        "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+        "kind": "academic",
+        "support": "Section 2.3 discusses the philosophers' compulsion to rule and differing explanations of their motives; section 5 addresses controversy over the Republic's political implications. Scholarly context, not a claim of consensus or a replacement for Republic VII."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Plato",
+        "url": "https://plato.stanford.edu/entries/plato/",
+        "kind": "academic",
+        "support": "Richard Kraut's entry gives Plato's approximate lifespan and cautions that periodization as a composition chronology is disputed. Broad chronological context only; it does not establish the Republic's precise composition date."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "analogy",
     "related_experiments": [
       "brain-in-a-vat",
@@ -3367,13 +3535,43 @@
     ],
     "references": [
       {
+        "title": "G. E. Moore, “Proof of an External World” (1939), reprinted in G. E. Moore: Selected Writings",
+        "url": "https://gwern.net/doc/philosophy/epistemology/1939-moore.pdf",
+        "kind": "primary",
+        "support": "Primary lecture text in the Selected Writings reprint; relevant passages on pp. 147, 164–166, and 168–170 state Moore’s aim, hand demonstration, three proof conditions, and response to objections. The complete original publication was not read."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: George Edward Moore",
-        "url": "https://plato.stanford.edu/entries/moore/",
+        "url": "https://plato.stanford.edu/archives/sum2010/entries/moore/",
         "kind": "academic",
-        "support": "Moore’s defence of common sense and the proof of an external world."
+        "support": "Baldwin’s archived SEP entry, §6, discusses Moore’s common-sense position, the hand proof, the distinction between proving that external objects exist and proving that anyone knows this, and the proof’s limits regarding metaphysical independence from experience. It presents Baldwin’s interpretation, not a settled consensus."
+      },
+      {
+        "title": "Charles Raff, “The Point of Moore’s Proof” (2019)",
+        "url": "https://philarchive.org/archive/RAFTPO-7",
+        "kind": "academic",
+        "support": "Raff’s scholarly article (International Journal for the Study of Skepticism, 2019, pp. 1–27) argues from Moore’s announced aim that the performance counterexamples a presupposition of Kant’s problem; relevant passages read on pp. 1–3 and 25–26. This is an alternative interpretive argument, not a settled consensus."
+      },
+      {
+        "title": "Chris Tucker, “Transmission and Transmission Failure in Epistemology”",
+        "url": "https://iep.utm.edu/transmis/",
+        "kind": "academic",
+        "support": "The IEP scholarly reference entry’s Moore-proof discussion distinguishes failure to transmit justification from inability to resolve doubt or be dialectically effective for a skeptical audience; it notes competing positions, including Pryor’s defense. It does not settle the debate."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Epistemic Contextualism",
+        "url": "https://plato.stanford.edu/archives/fall2026/entries/contextualism-epistemology/",
+        "kind": "academic",
+        "support": "Rysiew’s archived SEP entry, especially §§3.1–3.2, explains contextualism as a contested approach to skeptical arguments that allows standards for knowledge attributions to shift with context, preserving the possibility of ordinary knowledge claims. Context only; not an interpretation attributed to Moore."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Epistemic Closure",
+        "url": "https://plato.stanford.edu/archives/sum2020/entries/closure-epistemic/",
+        "kind": "academic",
+        "support": "Luper’s archived SEP entry, §5.1, describes Moore-style anti-skeptical reasoning that uses ordinary knowledge claims and closure against Cartesian skeptical hypotheses; it distinguishes this later strategy from the skeptic’s argument and from Moore’s exact 1939 hand proof."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "brain-in-a-vat",
@@ -3400,13 +3598,31 @@
     ],
     "references": [
       {
+        "title": "Carl G. Hempel, “Studies in the Logic of Confirmation” (1945), Part I",
+        "url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Hempel%20-%20Studies%20Confirm%201.pdf",
+        "kind": "primary",
+        "support": "Primary text for the equivalence condition and ravens example; relevant passages were read in the university-hosted PDF, not the complete paper."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Confirmation",
         "url": "https://plato.stanford.edu/entries/confirmation/",
         "kind": "academic",
-        "support": "The ravens paradox, the assumptions that generate it, and Bayesian and other responses."
+        "support": "Scholarly reference discussion of Hempel’s instance-based theory, the ravens paradox, hypothetico-deductive approaches, and Bayesian responses; relevant sections were read, not the entire entry."
+      },
+      {
+        "title": "Jan Sprenger, “Hempel and the Paradoxes of Confirmation” (2008 manuscript)",
+        "url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+        "kind": "academic",
+        "support": "Scholarly manuscript discussing background information, Good’s counterexamples, and assumptions in Bayesian responses; relevant passages were read, not the complete manuscript. Good’s original 1967 note was not consulted."
+      },
+      {
+        "title": "Peter B. M. Vranas, “Hempel’s Raven Paradox: A Lacuna in the Standard Bayesian Solution”",
+        "url": "https://doi.org/10.1093/bjps/55.3.545",
+        "kind": "academic",
+        "support": "Published scholarly objection to an assumption in a standard Bayesian solution; the publisher abstract and bibliographic record were read, but the full article was not accessed."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "grue",
@@ -3432,19 +3648,37 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: The Problem of Induction",
-        "url": "https://plato.stanford.edu/entries/induction-problem/",
-        "kind": "academic",
-        "support": "Goodman’s new riddle in the context of the problem of induction."
+        "title": "Nelson Goodman, Fact, Fiction, and Forecast (fourth edition scan)",
+        "url": "http://fitelson.org/probability/goodman_fact_fiction_and_forecast.pdf",
+        "kind": "primary",
+        "support": "Full-text scan consulted for the grue definition, the new riddle, and Goodman’s account of projection and entrenchment."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy: Nelson Goodman",
         "url": "https://plato.stanford.edu/entries/goodman/",
         "kind": "academic",
-        "support": "Goodman’s grue predicate and his proposed response through entrenchment."
+        "support": "Grue and bleen definitions, the positionality objection, and Goodman’s entrenchment proposal."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: The Problem of Induction",
+        "url": "https://plato.stanford.edu/entries/induction-problem/",
+        "kind": "academic",
+        "support": "Goodman’s new riddle in the broader induction debate and discussion of probabilistic approaches."
+      },
+      {
+        "title": "Goodman’s ‘New Riddle’",
+        "url": "http://fitelson.org/grue.pdf",
+        "kind": "academic",
+        "support": "Fitelson’s published analysis of Bayesian confirmation and the assumptions behind equal-confirmation claims."
+      },
+      {
+        "title": "Conceptual Spaces: A Solution to Goodman’s New Riddle of Induction?",
+        "url": "https://doi.org/10.1007/s11406-024-00744-2",
+        "kind": "academic",
+        "support": "Scholz’s 2024 naturalness/similarity approach and its limits."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "ravens-paradox",
@@ -3470,13 +3704,37 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Reliabilist Epistemology",
+        "title": "Laurence BonJour, Externalist Theories of Empirical Knowledge (1980), university-hosted PDF text",
+        "url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+        "kind": "primary",
+        "support": "BonJour's Case IV (pp. 62–67) gives Norman's stipulated reliable clairvoyance, lack of evidence, and BonJour's objection from Norman's own epistemic perspective. Relevant passages were read in the PDF text extraction; the whole article was not read."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Reliabilist Epistemology",
         "url": "https://plato.stanford.edu/entries/reliabilism/",
         "kind": "academic",
-        "support": "Norman the clairvoyant as an objection to reliabilism, with replies."
+        "support": "Sections 2.1 and 4.2 discuss the clairvoyance challenge, distinct reliabilist responses, and evidentialist–reliabilist hybrids. Scholarly reference context; it does not establish that every reliabilist theory has the same verdict."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, Internalist vs. Externalist Conceptions of Epistemic Justification",
+        "url": "https://plato.stanford.edu/entries/justep-intext/",
+        "kind": "academic",
+        "support": "Sections 1 and 2.1 distinguish debates about justification and knowledge, present BonJour's argument, and explain why the case does not by itself undermine every externalist view. Scholarly reference context, not a claim of consensus."
+      },
+      {
+        "title": "Internet Encyclopedia of Philosophy, Reliabilism",
+        "url": "https://iep.utm.edu/reliabilism/",
+        "kind": "academic",
+        "support": "Section 3(a) reviews the objection that reliable true belief may be insufficient for justification, several replies, and Mr. Truetemp as a related but distinct case. Relevant passages were read; this is a reference-work synthesis, not primary testimony."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, The Analysis of Knowledge",
+        "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+        "kind": "academic",
+        "support": "Section 3 explains the standard characterization of Gettier cases as justified true beliefs that nevertheless appear not to be knowledge because of epistemic luck; context for the article's qualified contrast with Norman."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "gettier-cases",
@@ -3503,13 +3761,25 @@
     ],
     "references": [
       {
+        "title": "Fred Dretske, “Epistemic Operators” (1970), The Journal of Philosophy 67(24): 1007–1023",
+        "url": "https://www.jstor.org/stable/2024710",
+        "kind": "primary",
+        "support": "Original article bibliographic record. The JSTOR reproduction exposed metadata only during this review; the zebra passage (pp. 1015–1016) was checked through the quoted and analyzed passage in the Stanford Encyclopedia entry on epistemic closure."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Epistemic Closure",
         "url": "https://plato.stanford.edu/entries/closure-epistemic/",
         "kind": "academic",
-        "support": "The zebra example and the closure principle that generates skeptical arguments."
+        "support": "Sections 1, 2.1–2.2, and 5.1–5.2 discuss qualified closure principles, quote and analyze Dretske's zebra/mule example (1970, pp. 1015–1016), explain relevant-alternatives and tracking responses, and present the closure-based skeptical inference and a Moorean reply. Secondary reference work; its analysis does not settle the debate."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Epistemic Contextualism",
+        "url": "https://plato.stanford.edu/entries/contextualism-epistemology/",
+        "kind": "academic",
+        "support": "Sections 2 and 3.1–3.3 explain attributor contextualism, the closure-related skeptical puzzle, and the proposed shift in knowledge-attribution standards as skeptical doubts become salient. Contextualism is disputed, not a consensus or proof that the skeptical scenario is actually or epistemically possible."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "fake-barn",
@@ -3536,13 +3806,31 @@
     ],
     "references": [
       {
+        "title": "Henry E. Kyburg, Probability and the Logic of Rational Belief (1961), Internet Archive record",
+        "url": "https://archive.org/details/probabilitylogic0000unse",
+        "kind": "primary",
+        "support": "The Internet Archive item page confirms the title, 1961 publication date, and access-restricted scan listing. The Kyburg authorship is corroborated by the Penn Online Books catalog record; the original text and argument passage were not accessed, so these records support bibliographic metadata only."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Formal Representations of Belief",
-        "url": "https://plato.stanford.edu/entries/formal-belief/",
+        "url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
         "kind": "academic",
-        "support": "The lottery paradox, its relation to the preface paradox, and approaches to belief and probability."
+        "support": "Section 4.2.2 discusses the Lockean threshold, derives the lottery paradox, identifies Kyburg's response of rejecting deductive closure, and describes other approaches that qualify the threshold rule. Secondary reference-work synthesis; it does not establish one resolution as settled."
+      },
+      {
+        "title": "Roy Sorensen, Stanford Encyclopedia of Philosophy: Epistemic Paradoxes",
+        "url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+        "kind": "academic",
+        "support": "Sections 3 and 4 explain the lottery argument's agglomeration reasoning, distinguish believing a contradiction from holding jointly inconsistent beliefs, and discuss Kyburg's response; section 4 attributes the preface paradox to Makinson and relates it to Wilder's preface. Secondary reference-work synthesis."
+      },
+      {
+        "title": "Gregory Wheeler, A Review of the Lottery Paradox (2007)",
+        "url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+        "kind": "academic",
+        "support": "Pages 1–2 lay out the lottery argument and note disagreement over how to diagnose or respond to it, including the comparison with the preface paradox; section 3.1, p. 19, distinguishes issues about statistical evidence and knowledge from rational belief. Scholarly secondary analysis, not treated as a consensus statement."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "gettier-cases",
@@ -3571,10 +3859,28 @@
         "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
         "url": "https://plato.stanford.edu/entries/paradox-zeno/",
         "kind": "academic",
-        "support": "The dichotomy paradox, its ancient reports, and mathematical and philosophical responses."
+        "support": "Scholarly discussion of Aristotle’s later report, modern reconstructions of the Dichotomy, mathematical replies, and qualifications concerning infinity and the physical application of the continuum. Relevant sections were read; the full entry was not."
+      },
+      {
+        "title": "Aristotle, Physics, Book VI",
+        "url": "https://classics.mit.edu/Aristotle/physics.6.vi.html",
+        "kind": "primary",
+        "support": "Primary ancient text in the Hardie and Gaye translation: Book VI.9 reports the half-way argument and presents Aristotle’s response about infinitely divisible magnitude and time. Selected passages were read; the complete Physics was not."
+      },
+      {
+        "title": "Aristotle, Physics, Book III",
+        "url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+        "kind": "primary",
+        "support": "Primary ancient text in the Hardie and Gaye translation: Book III.6 discusses the infinite by division and potential existence. The relevant passage was read; the complete Physics was not."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Supertasks",
+        "url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+        "kind": "academic",
+        "support": "Scholarly reference discussion of the forward and regressive Zeno walk, geometric-series convergence and meanings of completion, and Thomson’s lamp as a related but distinct discrete supertask. Relevant sections were read; the full entry was not."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "achilles-and-tortoise",
@@ -3604,10 +3910,28 @@
         "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
         "url": "https://plato.stanford.edu/entries/paradox-zeno/",
         "kind": "academic",
-        "support": "The arrow paradox in its ancient reports and the modern response through the at-at theory of motion."
+        "support": "Scholarly discussion of Aristotle’s mediated report of the Arrow argument and a modern at-at response; §3.3 (Arrow) and §3.4 (Stadium) consulted, not the full entry."
+      },
+      {
+        "title": "Aristotle, Physics, Book VI, chapter 9, trans. R. P. Hardie and R. K. Gaye",
+        "url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+        "kind": "primary",
+        "support": "Primary ancient testimony: Physics VI.9 at 239b5–9 and 239b30–33 reports Zeno’s Arrow argument and Aristotle’s objection; the same chapter reports the Stadium. Relevant passages read in the Hardie–Gaye translation; the online page does not specify the edition date."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Zeno of Elea",
+        "url": "https://plato.stanford.edu/entries/zeno-elea/",
+        "kind": "academic",
+        "support": "Historical context for Zeno’s fifth-century BCE period and the indirect transmission and reconstruction of the Arrow from Aristotle’s testimony; §§1 and 2.2.3 consulted, not the full entry."
+      },
+      {
+        "title": "OpenStax, University Physics Volume 1, §3.2, “Instantaneous Velocity and Speed”",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+        "kind": "academic",
+        "support": "Textbook support for defining instantaneous velocity as the limit of average velocity as elapsed time approaches zero; §3.2 read. This provides calculus context, not an interpretation of Zeno."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "achilles-and-tortoise",
@@ -3683,13 +4007,31 @@
     ],
     "references": [
       {
+        "title": "Quine, *Word and Object*, Chapter 2 (selected text)",
+        "url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+        "kind": "primary",
+        "support": "Primary text: radical translation (§7), stimulus synonymy and term reference (§12), and translation-manual indeterminacy (§§15–16)."
+      },
+      {
+        "title": "Quine, “On the Reasons for Indeterminacy of Translation”",
+        "url": "https://doi.org/10.2307/2023887",
+        "kind": "primary",
+        "support": "Quine’s later clarification of what the Gavagai example does and does not establish."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Willard Van Orman Quine",
-        "url": "https://plato.stanford.edu/entries/quine/",
+        "url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
         "kind": "academic",
-        "support": "Quine’s views on indeterminacy of translation and observation sentences, including the rabbit example."
+        "support": "Scholarly overview of Quine’s indeterminacy theses, communication, and objections."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Reference (Spring 2018 archive)",
+        "url": "https://plato.stanford.edu/archives/spr2018/entries/reference/",
+        "kind": "academic",
+        "support": "Its discussion of Quine’s inscrutability thesis explicitly gives the Gavagai, rabbit-part, and rabbit-stage alternatives."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "beetle-in-box",
@@ -3717,13 +4059,37 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Rule-Following and Intentionality",
+        "title": "Saul A. Kripke, Wittgenstein on Rules and Private Language (1982), catalogue record",
+        "url": "https://archive.org/details/wittgensteinonru0000krip",
+        "kind": "primary",
+        "support": "Bibliographic record for Kripke’s primary work; full text is access-restricted and was not consulted through this record."
+      },
+      {
+        "title": "Saul A. Kripke, “On Rules and Private Language,” selected reprint excerpt",
+        "url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Kripke%20-%20On%20Rules%20and%20Private%20Language.pdf",
+        "kind": "primary",
+        "support": "Selected primary-text excerpt consulted for the plus/quus construction and skeptical-solution summary; not the complete 1982 book."
+      },
+      {
+        "title": "Ludwig Wittgenstein, Philosophical Investigations, fourth edition text",
+        "url": "https://danielwharris.com/teaching/364/readings/WittgensteinInvestigations.pdf",
+        "kind": "primary",
+        "support": "Primary-text remarks §§185, 201–202, and 241–242, read to distinguish Wittgenstein’s text from Kripke’s interpretation."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy, “Rule-Following and Intentionality”",
         "url": "https://plato.stanford.edu/entries/rule-following/",
         "kind": "academic",
-        "support": "Kripke’s skeptical argument about meaning, the quus function and the main responses."
+        "support": "Scholarly exposition of the quus construction, Kripke’s skeptical argument and solution, and selected competing responses; it does not establish consensus or Wittgenstein’s own position."
+      },
+      {
+        "title": "John McDowell, “Wittgenstein on Following a Rule” (1984)",
+        "url": "https://sites.pitt.edu/~rbrandom/Courses/2023%20Sellars/Sellars%20texts/McDowell-Wittgenstein%20on%20followingRule-1984.pdf",
+        "kind": "academic",
+        "support": "Published critical interpretation of Kripke’s reading of Wittgenstein; one documented position, not a consensus claim."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "grue",
@@ -3779,7 +4145,7 @@
       "Kurt Grelling",
       "Leonard Nelson"
     ],
-    "original_publication": "Grelling and Nelson (1908)",
+    "original_publication": "Grelling and Nelson, Bemerkungen zu den Paradoxien von Russell und Burali-Forti (1907; a 1908 reprint is also listed)",
     "difficulty": "Intermediate",
     "themes": [
       "self-reference",
@@ -3789,19 +4155,31 @@
     "references": [
       {
         "title": "Stanford Encyclopedia of Philosophy: Paradoxes and Contemporary Logic",
-        "url": "https://plato.stanford.edu/entries/paradoxes-contemporary-logic/",
+        "url": "https://plato.stanford.edu/archives/sum2025/entries/paradoxes-contemporary-logic/",
         "kind": "academic",
-        "support": "Grelling’s paradox among the semantic paradoxes and the strategies for avoiding them."
+        "support": "Section 3.3.2 gives a translated formulation, cites the joint 1908 paper, and discusses Ramsey’s distinction between meaning relations as a response."
+      },
+      {
+        "title": "Thomas Bolander, Self-Reference and Paradox, Stanford Encyclopedia of Philosophy, Fall 2024",
+        "url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+        "kind": "academic",
+        "support": "Sections 1.1 and 1.4 define the self-application paradox and compare its formal structure with Russell’s set paradox; this is a structural comparison, not an identity of subject matter."
+      },
+      {
+        "title": "PhilPapers catalogue record for Bemerkungen zu den Paradoxien von Russell und Burali-Forti",
+        "url": "https://philpapers.org/rec/GREBZD-2",
+        "kind": "academic",
+        "support": "Catalogue metadata lists a 1907 publication, volume 2, pages 300–334, and a 1908 reprint, pages 301–334; neither original volume was directly inspected, so it documents a bibliographic discrepancy rather than resolving it."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "russells-paradox",
       "liar"
     ],
     "file_path": "experiments/logic/grelling-nelson-paradox.md",
-    "summary": "How can a perfectly well-defined word lead to a contradiction, and what must be restricted to avoid it?"
+    "summary": "How does self-application turn a definition into a contradiction, and which assumption must be revised?"
   },
   {
     "id": "sea-battle",
@@ -3868,10 +4246,34 @@
         "title": "Stanford Encyclopedia of Philosophy: Fatalism",
         "url": "https://plato.stanford.edu/entries/fatalism/",
         "kind": "academic",
-        "support": "The idle argument, the ancient replies and its relation to determinism."
+        "support": "Section 7 presents the Idle Argument, Cicero's report of Chrysippus's reply, versions that omit explicit fate-language, and qualifications about the generalized argument. Scholarly secondary source; it does not establish the argument's soundness."
+      },
+      {
+        "title": "Tim O’Keefe, “Ancient Theories of Freedom and Determinism,” Stanford Encyclopedia of Philosophy, Spring 2021 archive",
+        "url": "https://plato.stanford.edu/archives/spr2021/entries/freedom-ancient/",
+        "kind": "academic",
+        "support": "Sections 1 and 1.4 distinguish logical fatalist arguments from causal determinism and explain the Stoic co-fated response, including how action can be causally effective. Scholarly secondary synthesis."
+      },
+      {
+        "title": "Cicero, On Fate 28–30 — Loeb Classical Library",
+        "url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+        "kind": "primary",
+        "support": "Ancient testimony for the doctor/recovery form of the Idle Argument, the version framed in terms of eternal truth, and Cicero's report that Chrysippus replies by distinguishing simple from complex or co-fated events. Later report, not a surviving text by the argument's originator or Chrysippus."
+      },
+      {
+        "title": "Aristotle, On Interpretation 9 — MIT Classics",
+        "url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+        "kind": "primary",
+        "support": "Chapter 9, 18b31–36, discusses the apparent consequence that deliberation and taking trouble would be unnecessary if future events were necessary, and then notes that deliberation and action are causative. Related background, not direct attribution of the later-named Idle Argument."
+      },
+      {
+        "title": "Pedro José Grande Sánchez, “The Greek Philosophical Sources in Cicero’s De Fato” (2025)",
+        "url": "https://www.mdpi.com/2077-1444/16/7/824",
+        "kind": "academic",
+        "support": "Section 2 dates composition of De Fato to around June 44 BCE. Scholarly secondary analysis used for the work's approximate date, not for attribution of the Idle Argument."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "sea-battle",
@@ -3897,13 +4299,37 @@
     ],
     "references": [
       {
+        "title": "Derk Pereboom, Living Without Free Will (2001), bibliographic record and selected-page preview",
+        "url": "https://books.google.com/books/about/Living_without_Free_Will.html?id=9sKZ1rAO2BwC",
+        "kind": "primary",
+        "support": "Publisher metadata and selected-page preview, including title page, table of contents, references, and index; Chapter 4 is listed but its text is not exposed."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Compatibilism, State of the Art supplement",
+        "url": "https://plato.stanford.edu/archives/fall2018/entries/compatibilism/supplement.html",
+        "kind": "academic",
+        "support": "The four-case progression from direct intervention through early programming and upbringing to ordinary deterministic history, with hard- and soft-line replies."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Arguments for Incompatibilism",
         "url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
         "kind": "academic",
-        "support": "Pereboom’s four-case argument and its place among manipulation arguments against compatibilism."
+        "support": "Current discussion of the under-description of Pereboom’s first three cases, disagreement over verdicts, and other manipulation arguments."
+      },
+      {
+        "title": "The Agential Perspective: A Hard-Line Reply to the Four-Case Manipulation Argument",
+        "url": "https://www.diva-portal.org/smash/get/diva2:1303683/FULLTEXT03",
+        "kind": "academic",
+        "support": "Jeppsson’s 2020 published analysis of the case sequence, hard-line reply, and Case 1 revision."
+      },
+      {
+        "title": "Précis of Derk Pereboom’s Free Will, Agency, and Meaning in Life",
+        "url": "https://researcherslinks.com/current-issues/Precis-of-Derk-Pereboom-Free-Will-Agency-and-Meaning-in-Life/9/13/51/html",
+        "kind": "academic",
+        "support": "Caruso’s discussion of basic-desert responsibility and the scope of Pereboom’s skepticism."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "frankfurt-cases",
@@ -3930,6 +4356,30 @@
     ],
     "references": [
       {
+        "title": "Friedrich Nietzsche, *The Gay Science*, §341, “The Greatest Weight” (Walter Kaufmann translation)",
+        "url": "https://web.stanford.edu/~jsabol/existentialism/materials/nietzsche-gay-science-hurry.pdf",
+        "kind": "primary",
+        "support": "the demon’s hypothetical and the concluding question about desiring the life again."
+      },
+      {
+        "title": "Friedrich Nietzsche, *Beyond Good and Evil*, §56",
+        "url": "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm",
+        "kind": "primary",
+        "support": "the “world-approving” person who wishes what was and is to recur."
+      },
+      {
+        "title": "Friedrich Nietzsche, *Thus Spake Zarathustra*, Part III, “The Vision and the Enigma”",
+        "url": "https://www.gutenberg.org/files/1998/1998-h/1998-h.htm",
+        "kind": "primary",
+        "support": "Zarathustra’s vision and dialogue about recurrence (Thomas Common translation)."
+      },
+      {
+        "title": "Neil Sinhababu, “Nietzsche on the Eternal Recurrence” (2024)",
+        "url": "https://philarchive.org/archive/SINNOT-9v2",
+        "kind": "academic",
+        "support": "a recent cosmological reading of a notebook fragment and account of Zarathustra’s fictional presentation."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Friedrich Nietzsche",
         "url": "https://plato.stanford.edu/entries/nietzsche/",
         "kind": "academic",
@@ -3942,7 +4392,7 @@
         "support": "Further context on recurrence and affirmation."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "experience-machine",
@@ -3968,19 +4418,25 @@
     ],
     "references": [
       {
+        "title": "J. Ellis McTaggart, The Unreality of Time, Mind 17(68) (1908), 457–474; full-text scan reproduction",
+        "url": "https://philpapers.org/archive/MCTTUO.pdf",
+        "kind": "primary",
+        "support": "Relevant passages read in a full-text scan reproduction: A/B distinction and change argument, pp. 458–465; contradiction, successive-predication reply, and regress, pp. 468–470. Publisher full text was gated."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: John M. E. McTaggart",
-        "url": "https://plato.stanford.edu/entries/mctaggart/",
+        "url": "https://plato.stanford.edu/archives/sum2020/entries/mctaggart/",
         "kind": "academic",
-        "support": "McTaggart’s argument, the A-series and B-series and the main responses."
+        "support": "Section 3 presents a three-premise reconstruction, explains the change and A-series premises, and notes that reconstruction of the contradiction argument is contentious."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy: Time",
-        "url": "https://plato.stanford.edu/entries/time/",
+        "url": "https://plato.stanford.edu/archives/win2025/entries/time/",
         "kind": "academic",
-        "support": "Tensed and tenseless theories of time and the role of McTaggart’s argument."
+        "support": "Sections 4–6 discuss McTaggart’s argument, the range of A- and B-theories, presentism, and the growing-block view; relativity of simultaneity is presented as a challenge to A-theories, not a decisive refutation."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "grandfather-paradox",
@@ -4009,10 +4465,52 @@
         "title": "Stanford Encyclopedia of Philosophy: Newton’s Views on Space, Time, and Motion",
         "url": "https://plato.stanford.edu/entries/newton-stm/",
         "kind": "academic",
-        "support": "Newton’s bucket argument, absolute space and the later relationist replies."
+        "support": "Scholarly account of Newton’s bucket argument, absolute space, and later responses."
+      },
+      {
+        "title": "Isaac Newton, The Mathematical Principles of Natural Philosophy, trans. Andrew Motte (1846 scan)",
+        "url": "https://archive.org/details/newtonspmathema00newtrich",
+        "kind": "primary",
+        "support": "Book I, Scholium following the Definitions, §XII; relevant bucket sequence and inference read in Motte’s translation, not the 1687 Latin edition."
+      },
+      {
+        "title": "Carl Hoefer, Nick Huggett, and James Read, “Absolute and Relational Space and Motion: Classical Theories”",
+        "url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+        "kind": "academic",
+        "support": "Scholarly discussion of classical absolute and relational accounts, including Newton’s bucket and Leibnizian positions."
+      },
+      {
+        "title": "Nick Huggett, Carl Hoefer, and James Read, “Absolute and Relational Space and Motion: Post-Newtonian Theories”",
+        "url": "https://plato.stanford.edu/entries/spacetime-theories/",
+        "kind": "academic",
+        "support": "Scholarly discussion of Machian proposals, spacetime theories, and limits on claims that general relativity is fully Machian."
+      },
+      {
+        "title": "Ernst Mach, The Science of Mechanics, trans. Thomas J. McCormack (1919 scan)",
+        "url": "https://ia801407.us.archive.org/29/items/in.ernet.dli.2015.154174/2015.154174.The-Science-Of-Mechanics.pdf",
+        "kind": "primary",
+        "support": "Chapter II, §VI, as listed for further reading; the 1883 bucket passage cited in the article was not directly retrieved."
+      },
+      {
+        "title": "Ernst Mach, The Science of Mechanics, supplementary volume, trans. Philip E. B. Jourdain (1915 scan)",
+        "url": "https://archive.org/details/scienceofmechani00machrich",
+        "kind": "primary",
+        "support": "Mach’s later additions XVII–XIX, pp. 32–35, read for relative motion and the fixed stars; these are not the 1883 bucket passage."
+      },
+      {
+        "title": "Richard Staley, “Ernst Mach on Bodies and Buckets,” Physics Today (2013)",
+        "url": "https://physicstoday.aip.org/features/ernst-mach-on-bodies-and-buckets",
+        "kind": "academic",
+        "support": "Historical context for Mach’s 1883 bucket objection, its relation to Earth and the celestial bodies, and the distinction between Newton’s and Mach’s views."
+      },
+      {
+        "title": "Robert Rynasiewicz, “By Their Properties, Causes, and Effects: Newton’s Scholium on Time, Space, Place, and Motion—I. The Text”",
+        "url": "https://pages.jh.edu/rrynasi1/spacetime/eprints/scholium_1.pdf",
+        "kind": "academic",
+        "support": "Peer-reviewed analysis, especially pp. 147–149, of Newton’s bucket inference and its role in the Scholium."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "einsteins-elevator",
@@ -4039,13 +4537,25 @@
     ],
     "references": [
       {
+        "title": "Galileo, Dialogue Concerning the Two Chief World Systems (Stillman Drake translation, 1967)",
+        "url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+        "kind": "primary",
+        "support": "Day Two, pp. 186–187, presents the ship-cabin argument; pp. 139–140 address the tower-stone objection."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Galileo Galilei",
         "url": "https://plato.stanford.edu/entries/galileo/",
         "kind": "academic",
-        "support": "Galileo’s ship argument and its role in the debate over the motion of the Earth."
+        "support": "The first two Days of the Dialogue, shared motion, the inertial principle, and the ship argument’s role in the Copernican debate."
+      },
+      {
+        "title": "Mark Shumelda and James Robert Brown, Thought Experiments and Inertial Motion: A Golden Thread in the Development of Mechanics",
+        "url": "https://doi.org/10.4000/estetica.1838",
+        "kind": "academic",
+        "support": "Historical discussion of Galileo’s ship passage and its later interpretation as a principle of relativity."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "einsteins-elevator",
@@ -4209,13 +4719,37 @@
         "support": "A public-domain English translation of Einstein’s popular book, in which the train example appears."
       },
       {
+        "title": "Albert Einstein, “On the Electrodynamics of Moving Bodies” (1905 English translation)",
+        "url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+        "kind": "primary",
+        "support": "Sections 1–2 define distant simultaneity through synchronized clocks and discuss its relativity between inertial systems."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Conventionality of Simultaneity",
         "url": "https://plato.stanford.edu/entries/spacetime-convensimul/",
         "kind": "academic",
         "support": "Philosophical discussion of simultaneity in special relativity."
+      },
+      {
+        "title": "Robert DiSalle, Stanford Encyclopedia of Philosophy: Space and Time: Inertial Frames",
+        "url": "https://plato.stanford.edu/entries/spacetime-iframes/",
+        "kind": "academic",
+        "support": "Includes discussion of Lorentzian and Einsteinian interpretations and their empirical equivalence."
+      },
+      {
+        "title": "OpenStax, University Physics Volume 3, §5.5: The Lorentz Transformation",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+        "kind": "educational",
+        "support": "Textbook treatment of the train example, Lorentz transformations, and the causal structure of spacetime."
+      },
+      {
+        "title": "Steven Savitt, Natalja Deng, and Oliver Pooley, Stanford Encyclopedia of Philosophy: Being and Becoming in Modern Physics",
+        "url": "https://plato.stanford.edu/entries/spacetime-bebecome/",
+        "kind": "academic",
+        "support": "Surveys philosophical responses to relativity of simultaneity and the objective-present question."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "twin-paradox",
@@ -4245,10 +4779,22 @@
         "title": "Stanford Encyclopedia of Philosophy: Supertasks",
         "url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
         "kind": "academic",
-        "support": "Thomson’s lamp, Benacerraf’s reply and the debate over supertasks."
+        "support": "Section 1.2 covers Thomson’s lamp, its nonconvergent binary states, Benacerraf’s reply, and later physical completions."
+      },
+      {
+        "title": "J. F. Thomson, Tasks and Super-Tasks",
+        "url": "https://www.jstor.org/stable/3326643",
+        "kind": "primary",
+        "support": "The original 1954 argument about the lamp and what an infinite sequence of tasks does or does not establish."
+      },
+      {
+        "title": "Paul Benacerraf, Tasks, Super-Tasks, and the Modern Eleatics",
+        "url": "https://doi.org/10.2307/2023500",
+        "kind": "primary",
+        "support": "Benacerraf’s 1962 reply that the switching instructions alone do not specify the lamp’s state at the terminal instant."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "achilles-and-tortoise",
@@ -4319,13 +4865,25 @@
     ],
     "references": [
       {
+        "title": "Galileo Galilei, Dialogues Concerning Two New Sciences (1914 English translation)",
+        "url": "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences",
+        "kind": "primary",
+        "support": "Primary-text evidence: in the First Day, Salviati contrasts the declining proportion of squares in finite ranges with every number being a root of a square, then says equal/greater/less comparisons do not apply to infinite quantities. Consulted in the Crew and de Salvio 1914 translation; this does not establish that Galileo used later cardinality terminology."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Infinity",
-        "url": "https://plato.stanford.edu/entries/infinity/",
+        "url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
         "kind": "academic",
-        "support": "Galileo’s paradox in the history of thought about infinity."
+        "support": "Scholarly historical and philosophical reference supporting the account of Galileo’s paradox, the later Cantorian cardinality criterion and the distinct cardinalities of the positive integers and reals; also describes later numerosity approaches. Consulted relevant archived sections; secondary synthesis, not primary testimony."
+      },
+      {
+        "title": "Matthew W. Parker, “Philosophical Method and Galileo’s Paradox of Infinity”",
+        "url": "https://philarchive.org/rec/PARPMA-2",
+        "kind": "academic",
+        "support": "Scholarly philosophical-historical analysis offering one interpretation of the paradox as involving distinct concepts of number and size, and treating Cantorian cardinality as a useful but not uniquely correct extension. Relevant chapter passages were consulted; this is not presented as consensus."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "hilberts-hotel",
@@ -4342,7 +4900,7 @@
     "associated_thinkers": [
       "Blaise Pascal"
     ],
-    "original_publication": "Pascal, Pensées (published posthumously, 1670)",
+    "original_publication": "Pascal, Pensées (first edition posthumously, 1670; preliminary printing, 1669)",
     "difficulty": "Intermediate",
     "themes": [
       "decision under uncertainty",
@@ -4351,13 +4909,31 @@
     ],
     "references": [
       {
+        "title": "Blaise Pascal, Pensées (English text reproduced by Project Gutenberg)",
+        "url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+        "kind": "primary",
+        "support": "Primary-text passages on the wager and nearby advice about belief and inquiry, fragments 233–241 in the cited English reproduction; translation and edition limitations are disclosed."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Pascal’s Wager",
         "url": "https://plato.stanford.edu/entries/pascal-wager/",
         "kind": "academic",
-        "support": "The wager argument, its decision-theoretic forms and the standard objections."
+        "support": "Scholarly analysis of the wager, its decision-theoretic reconstructions, objections, and proposed replies; named positions are represented as disputed."
+      },
+      {
+        "title": "Paul Saka, “Pascal’s Wager about God,” Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/pasc-wag/",
+        "kind": "academic",
+        "support": "Scholarly overview of belief and practice, the many-gods objection, and infinite-value problems."
+      },
+      {
+        "title": "Fred W. Jenkins, “Pascal: Pensées,” University of Dayton Libraries",
+        "url": "https://exhibits.udayton.edu/s/rosebook/page/pascal",
+        "kind": "academic",
+        "support": "Institutional publication-history note on the preliminary 1669 printing and posthumous 1670 first edition."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "st-petersburg-paradox",
@@ -4427,13 +5003,25 @@
     ],
     "references": [
       {
+        "title": "Jean-Jacques Rousseau, Discourse on the Origin and Foundations of Inequality, Part II, Ian Johnston translation",
+        "url": "https://web.viu.ca/johnstoi/rousseau/seconddiscourse.htm",
+        "kind": "primary",
+        "support": "Rousseau's Part II deer-and-hare passage was read directly in Ian Johnston's English translation. It supports the historical narrative attribution, not a formal payoff matrix or equilibrium analysis."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Prisoner’s Dilemma",
         "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
         "kind": "academic",
-        "support": "The stag hunt as a contrast case to the prisoner’s dilemma."
+        "support": "Relevant sections 1 and 8 were read: they explain the Prisoner's Dilemma conditions and contrast them with the stag hunt, including its typical payoffs, equilibria and risk-dominance condition. The entry presents its numerical matrix as typical, not unique."
+      },
+      {
+        "title": "Brian Skyrms, “The Stag Hunt”",
+        "url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+        "kind": "academic",
+        "support": "Relevant passages of the scholarly paper were read, including the model and trust discussion (pp. 1–4) and population/evolutionary extensions (pp. 10–15). The analysis shows that such outcomes depend on specified dynamics and interaction structure."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "model",
     "related_experiments": [
       "prisoners-dilemma",
@@ -4498,13 +5086,43 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Social Choice Theory",
+        "title": "Condorcet, Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix (1785), digitized French text",
+        "url": "https://archive.org/details/essaisurlapplica00cond",
+        "kind": "primary",
+        "support": "Primary French text; the Discours préliminaire passage on an election among three candidates and majority judgments was read in Archive.org OCR text. It supports historical attribution and Condorcet's treatment of preference propositions; the complete work was not read and the OCR may contain errors."
+      },
+      {
+        "title": "Christian List, “Social Choice Theory,” Stanford Encyclopedia of Philosophy",
         "url": "https://plato.stanford.edu/entries/social-choice/",
         "kind": "academic",
-        "support": "The Condorcet cycle and its role in social choice theory."
+        "support": "Scholarly reference account; relevant passages in §§1.1, 3.1, and 3.3.1 were read for historical framing, pairwise majority cycles, model-dependent frequency, and the single-peaked domain result. Secondary analysis; the whole entry was not read."
+      },
+      {
+        "title": "Eric Pacuit, “Voting Methods,” Stanford Encyclopedia of Philosophy (Fall 2017 archive)",
+        "url": "https://plato.stanford.edu/archives/fall2017/entries/voting-methods/",
+        "kind": "academic",
+        "support": "Scholarly reference account; §3.1 and §3.1.1 and the later likelihood discussion were read for the three-voter cycle, Condorcet consistency, alternative voting methods, impartial-culture assumptions, and disagreement about empirical evidence. Archived entry; selected passages only."
+      },
+      {
+        "title": "Michael Morreau, “Arrow’s Theorem,” Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/arrows-theorem/",
+        "kind": "academic",
+        "support": "Scholarly reference account; §1 was read for the paradox-of-voting example, the distinction between Condorcet's particular voting method and Arrow's broader axiomatic approach, and contrasting normative interpretations. Selected passage only."
+      },
+      {
+        "title": "Nicholas R. Miller, “Complexities of Majority Voting” (revised 2018)",
+        "url": "https://userpages.umbc.edu/~nmiller/RESEARCH/MAJVOTING.REV2018.NRM.pdf",
+        "kind": "academic",
+        "support": "Scholarly research module; relevant PDF passages in §4.2 and §8.1 were read for cycle profiles and the conditional effect of agenda order in sequential pairwise voting. Selected PDF text extraction; the full document was not read."
+      },
+      {
+        "title": "Michel Regenwetter et al., “Behavioural social choice: a status report” (2009)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689718/",
+        "kind": "academic",
+        "support": "Peer-reviewed article; §2 was read for assumptions behind theoretical cycle-frequency estimates and the authors' argument that empirical support may be limited. This is one position in a debated literature, not a comprehensive prevalence estimate; selected section only."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "arrows-impossibility-theorem",

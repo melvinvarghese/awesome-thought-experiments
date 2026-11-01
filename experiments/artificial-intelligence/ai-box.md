@@ -2,7 +2,7 @@
 
 **Category:** artificial-intelligence  
 **Associated thinker(s):** Eliezer Yudkowsky; Stuart Armstrong; Anders Sandberg; Nick Bostrom  
-**Original publication or approximate period:** Early-2000s informal roleplay; scholarly containment analysis in a 2012 manuscript  
+**Original publication or approximate period:** Yudkowsky’s informal role-play (2002); related peer-reviewed Oracle-AI analysis (2012)
 **Difficulty:** Intermediate  
 **Type:** thought experiment  
 **Themes:** containment; persuasion; human oversight  
@@ -12,7 +12,7 @@
 
 An advanced artificial system is confined to hardware without direct control over outside machinery. It can send messages to a human gatekeeper. The gatekeeper is initially determined to keep it confined. Can the system nevertheless persuade the person to authorize its release or take consequential actions on its behalf?
 
-Yudkowsky used human roleplay to explore the intuition that a determined gatekeeper would simply refuse. One person represented the system and another the gatekeeper. Such a demonstration is informal evidence about an interaction under particular rules, not a controlled test of an actual superintelligent machine.
+Yudkowsky reports that he played the AI in two text-chat trials in 2002, with Nathan Russell and David McFadzean acting as gatekeepers. In contemporary mailing-list messages, each gatekeeper reported letting the role-play AI out. These were human role-plays, not tests of an actual AI or superintelligent system.
 
 ## 2. The Central Question
 
@@ -25,6 +25,8 @@ The scenario broadens the meaning of an action channel. Output can change belief
 ## 4. Major Interpretations
 
 **Capability-control analysis** studies restricted outputs, limited information, monitoring, and compartmentalization as ways to reduce influence. **Motivational analysis** asks whether the system wants to manipulate the gatekeeper and whether it can exploit loopholes in the assigned task. **A skeptical assessment of roleplay** notes the small number of cases, participant incentives, undisclosed details, and uncertain transfer to machine behavior. Neither a claimed roleplay success nor failure proves the general impossibility or sufficiency of containment.
+
+Yudkowsky says that the two 2002 trials had no prior agreed rules beyond secrecy and a two-hour minimum; his detailed public protocol was written afterward. He describes the results as “strictly anecdotal evidence.” The role-play therefore illustrates a possible human-interaction concern; it does not show what an actual AI can do.
 
 ## 5. Common Misunderstandings
 
@@ -47,10 +49,14 @@ Oracle-AI proposals consider systems designed only to answer questions. The scho
 
 ## 9. Further Reading
 
-- [Stuart Armstrong, Anders Sandberg and Nick Bostrom, Thinking Inside the Box: Controlling and Using an Oracle AI (2012 manuscript)](https://zoo.cs.yale.edu/classes/cs671/12f/12f-papers/oracle.pdf)
+- [Eliezer Yudkowsky, “The AI-Box Experiment” — retrospective account and later proposed protocol](https://www.yudkowsky.net/singularity/aibox)
+- [Nathan Russell’s March 2002 message reporting the first gatekeeper outcome](http://sl4.org/archive/0203/3141.html)
+- [Yudkowsky’s July 2002 message describing the second trial’s terms](http://sl4.org/archive/0207/4689.html)
+- [David McFadzean’s July 2002 message reporting the second gatekeeper outcome](http://sl4.org/archive/0207/4721.html)
+- [Armstrong, Sandberg, and Bostrom, “Thinking Inside the Box: Using and Controlling an Oracle AI” (2012), Oxford accepted-manuscript record](https://ora.ox.ac.uk/objects/uuid:ce99b73c-07f9-4607-b964-25a03206c6dd)
 
 ## 10. Sources and Attribution
 
-The retrieved Armstrong–Sandberg–Bostrom manuscript discusses Yudkowsky’s AI-box exercise and analyzes oracle control. The original Yudkowsky page could not be retrieved in this session. No private transcripts, exact success counts, or independently replicated results are claimed.
+Yudkowsky devised and performed the role-play. Armstrong, Sandberg, and Bostrom later discussed it in their peer-reviewed 2012 article on Oracle-AI control; they were not participants in the 2002 trials. The currently accessible Yudkowsky page is retrospective, and the contemporary mailing-list messages record the arrangements and reported outcomes. The private chat transcripts were not consulted. Yudkowsky himself characterizes the results as anecdotal; no inference about the capabilities of actual AI systems is claimed.
 
-Verified on 2026-10-30. Source coverage: [1] Oracle containment analysis and discussion of Yudkowsky’s AI-box roleplay. Reflection questions and illustrative numerical examples are original editorial material.
+Verified on 2026-11-01. Source coverage: the retrospective account and contemporary records support the role-play history; the 2012 article supports its characterization as a topic in Oracle-AI containment analysis. Reflection questions and general safety implications are editorial framing.

@@ -1,0 +1,30 @@
+{
+  "id": "lottery-paradox",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Henry E. Kyburg, Probability and the Logic of Rational Belief (1961), Internet Archive record",
+      "url": "https://archive.org/details/probabilitylogic0000unse",
+      "kind": "primary",
+      "support": "The Internet Archive item page confirms the title, 1961 publication date, and access-restricted scan listing. The Kyburg authorship is corroborated by the Penn Online Books catalog record; the original text and argument passage were not accessed, so these records support bibliographic metadata only."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Formal Representations of Belief",
+      "url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+      "kind": "academic",
+      "support": "Section 4.2.2 discusses the Lockean threshold, derives the lottery paradox, identifies Kyburg's response of rejecting deductive closure, and describes other approaches that qualify the threshold rule. Secondary reference-work synthesis; it does not establish one resolution as settled."
+    },
+    {
+      "title": "Roy Sorensen, Stanford Encyclopedia of Philosophy: Epistemic Paradoxes",
+      "url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+      "kind": "academic",
+      "support": "Sections 3 and 4 explain the lottery argument's agglomeration reasoning, distinguish believing a contradiction from holding jointly inconsistent beliefs, and discuss Kyburg's response; section 4 attributes the preface paradox to Makinson and relates it to Wilder's preface. Secondary reference-work synthesis."
+    },
+    {
+      "title": "Gregory Wheeler, A Review of the Lottery Paradox (2007)",
+      "url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+      "kind": "academic",
+      "support": "Pages 1–2 lay out the lottery argument and note disagreement over how to diagnose or respond to it, including the comparison with the preface paradox; section 3.1, p. 19, distinguishes issues about statistical evidence and knowledge from rational belief. Scholarly secondary analysis, not treated as a consensus statement."
+    }
+  ]
+}

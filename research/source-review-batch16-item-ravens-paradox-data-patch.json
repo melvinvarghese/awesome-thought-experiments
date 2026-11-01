@@ -1,0 +1,30 @@
+{
+  "id": "ravens-paradox",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Carl G. Hempel, “Studies in the Logic of Confirmation” (1945), Part I",
+      "url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Hempel%20-%20Studies%20Confirm%201.pdf",
+      "kind": "primary",
+      "support": "Primary text for the equivalence condition and ravens example; relevant passages were read in the university-hosted PDF, not the complete paper."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Confirmation",
+      "url": "https://plato.stanford.edu/entries/confirmation/",
+      "kind": "academic",
+      "support": "Scholarly reference discussion of Hempel’s instance-based theory, the ravens paradox, hypothetico-deductive approaches, and Bayesian responses; relevant sections were read, not the entire entry."
+    },
+    {
+      "title": "Jan Sprenger, “Hempel and the Paradoxes of Confirmation” (2008 manuscript)",
+      "url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+      "kind": "academic",
+      "support": "Scholarly manuscript discussing background information, Good’s counterexamples, and assumptions in Bayesian responses; relevant passages were read, not the complete manuscript. Good’s original 1967 note was not consulted."
+    },
+    {
+      "title": "Peter B. M. Vranas, “Hempel’s Raven Paradox: A Lacuna in the Standard Bayesian Solution”",
+      "url": "https://doi.org/10.1093/bjps/55.3.545",
+      "kind": "academic",
+      "support": "Published scholarly objection to an assumption in a standard Bayesian solution; the publisher abstract and bibliographic record were read, but the full article was not accessed."
+    }
+  ]
+}

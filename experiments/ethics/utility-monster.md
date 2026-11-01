@@ -7,11 +7,11 @@
 **Themes:** aggregation, fairness, welfare  
 **Related experiments:** repugnant-conclusion, experience-machine  
 **Kind:** thought experiment  
-**Research checked:** 2026-10-30
+**Research checked:** 2026-11-01
 
 ## 1. The Scenario
 
-Imagine an individual who converts resources into well-being much more efficiently than everyone else. An extra meal or hour of leisure gives this individual an enormous benefit. As resources accumulate, the advantage does not conveniently disappear. A rule that always maximizes total welfare may therefore direct nearly everything to this one beneficiary, while others endure deprivation.
+Nozick introduces the possibility of a utility monster: a being that gains enormously more utility from any sacrifice by others than those others lose. He argues that utilitarian theory seems to require sacrificing everyone to the monster in order to increase total utility. This is a hypothetical challenge to a theory, not an empirical claim about a real person or group.
 
 ## 2. The Central Question
 
@@ -21,15 +21,15 @@ Can maximizing total well-being justify extreme concentration on a single benefi
 
 The case exposes a tension between aggregate benefits and the distribution of those benefits. It also requires careful distinctions between measurable welfare, resources, needs, and moral status. Equal resources and equal welfare are different goals.
 
-For a simplified calculation, imagine allocating ten units. A unit gives an ordinary recipient one welfare point but gives the monster one hundred. If these numbers are comparable and all other effects are excluded, maximizing their sum favors the monster. The arithmetic is straightforward; the dispute concerns whether the sum should govern distribution, whether the comparisons make sense, and what protections remain for individuals. Changing the objective to protect minimum welfare or weight gains to worse-off people changes the moral rule rather than revealing an error in addition.
+As a separate illustration—not Nozick’s example—imagine allocating ten units. A unit gives an ordinary recipient one welfare point but gives the monster one hundred. If the values are comparable and additive, and all other effects are excluded, an unrestricted total-utility rule favors giving the units to the monster. The arithmetic is straightforward; the dispute concerns whether those assumptions are justified and whether the total alone should govern distribution. A theory that weights gains to worse-off people or adds other constraints uses a different objective.
 
 ## 4. Major Interpretations
 
-A strict maximizing view may accept an unequal distribution if its welfare assumptions are genuinely satisfied. Egalitarian, prioritarian, and rights-based responses may instead limit sacrifice or give special importance to those who are worse off. A further response challenges whether interpersonal welfare comparisons could warrant the extraordinary numerical claims.
+An unrestricted additive total-utility maximizer may accept an unequal distribution if the stipulated utility gains are genuinely comparable and large enough. That conclusion does not follow for every consequentialist theory: some views give weight to distribution, prioritize the worse off, or impose other constraints. The monster’s extraordinary gains are a premise of the hypothetical, not an empirical finding.
 
 ## 5. Common Misunderstandings
 
-The monster is not simply a greedy person who makes extravagant demands. The premise concerns actual welfare gains, not self-reported desire. The case is not an empirical finding about any social group, and denying its empirical likelihood does not by itself settle its conceptual implications.
+The monster is not simply a greedy person who makes extravagant demands. The hypothetical stipulates exceptionally large utility gains; it does not rely on self-reported desire or make an empirical finding about any social group. Denying that such a case is empirically likely does not by itself settle its conceptual implications.
 
 ## 6. Think for Yourself
 
@@ -39,7 +39,7 @@ The monster is not simply a greedy person who makes extravagant demands. The pre
 
 ## 7. Variations and Extensions
 
-Negative-utility-monster discussions concern exceptionally large capacities for suffering and the demands these might place on others. They test a different pressure point and should not be treated as identical to a creature with unusually great positive welfare gains.
+Richard Yetter Chappell’s later “negative utility monster” discussion starts from a being in massive suffering, a variation that changes the case’s starting point. The Cambridge page available here provides its abstract and publication record, not the full article. This variation should not be treated as identical to Nozick’s positive-gain monster.
 
 ## 8. Related Thought Experiments
 
@@ -48,14 +48,13 @@ Negative-utility-monster discussions concern exceptionally large capacities for 
 
 ## 9. Further Reading
 
+- [Robert Nozick, *Anarchy, State, and Utopia* (1974), chapter 3, p. 41 — relevant passage in a university-hosted PDF reproduction](https://spot.colorado.edu/~heathwoo/readings/nozick.pdf)
 - [Utilitas, Negative Utility Monsters, abstract and bibliographic record](https://www.cambridge.org/core/journals/utilitas/article/abs/negative-utility-monsters/03A3CD2DF0B295A4F1B1EDC69F77597C)
-
 - [Stanford Encyclopedia of Philosophy, Consequentialism](https://plato.stanford.edu/entries/consequentialism/)
-
 - [Internet Encyclopedia of Philosophy, Robert Nozick](https://iep.utm.edu/nozick/)
 
 ## 10. Sources and Attribution
 
-Historical association: Anarchy, State, and Utopia (1974). The sources above support the scenario and its intellectual context. Where an original work was not retrieved in full, its account is mediated by the named academic reference; no claim of full primary-source verification is made. The explanation and reflection questions here are original editorial prose.
+Nozick’s primary passage is in chapter 3, “Moral Constraints and the State,” p. 41. It supports the hypothetical and his qualified claim that utilitarian theory “seems to require” sacrificing everyone to increase total utility. The Cambridge article was accessed at abstract and bibliographic-record level only. The Stanford Encyclopedia and Internet Encyclopedia are contextual secondary sources: they support distinctions among consequentialist theories and Nozick’s rights-based political philosophy, not the original monster’s wording. The numerical illustration, teaching prompts, and explanatory framing are original editorial material.
 
-Access scope: the Utilitas source was inspected at abstract and bibliographic-record level, not as a full-text article. The SEP and IEP sources supply theoretical context. Nozick’s original book was not independently retrieved in full.
+Access scope: a selected passage in Nozick’s book was read in a university-hosted PDF reproduction; the complete book was not reviewed. No claim is made that the hypothetical is empirically realized, that the argument succeeds, or that all consequentialists accept its assumptions.

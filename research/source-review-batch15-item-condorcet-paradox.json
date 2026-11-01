@@ -1,0 +1,182 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "condorcet-paradox",
+  "title": "The Condorcet Paradox",
+  "article_path": "experiments/society-and-justice/condorcet-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the historical attribution and 1785 publication framing against the original French passage and modern reference works; the stated three-voter profile and pairwise-majority calculations; the assumptions of strict transitive rankings and pairwise majority; the absence of a Condorcet winner; the distinction between a cycle and sequential agenda effects; Condorcet-consistent and scoring procedures; single-peaked domain restrictions; the relationship to Arrow's theorem; probability-model assumptions and scholarly disagreement about empirical prevalence; and editorial/normative teaching prompts. The status records source traceability, not the truth of every normative interpretation, exhaustive literature coverage, consensus, or expert review.",
+  "summary": "The revised article preserves the illustrative cycle while stating the profile and pairwise-majority assumptions explicitly. It separates the cycle in the pairwise relation from agenda effects in sequential voting, qualifies the discussion of scoring rules and domain restrictions, describes Arrow as a broader related result rather than a theorem derived from this example, and distinguishes conditional model-based likelihood from contested empirical prevalence. The original French essay's relevant discussion of a three-candidate election and majority judgments was accessed in OCR text; the article now identifies its example as a modern teaching presentation rather than a verbatim reconstruction of Condorcet's profile. Modern reference and scholarly sources were read at relevant passages. Dataset references were reconciled to the revised Further Reading list; the dataset itself was not modified.",
+  "sources": [
+    {
+      "title": "Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix",
+      "author": "Nicolas de Condorcet",
+      "publication": "Paris: Imprimerie Royale, 1785; digitized edition hosted by the Internet Archive.",
+      "stable_url": "https://archive.org/details/essaisurlapplica00cond",
+      "source_type": "Primary historical work",
+      "access_level": "Selected excerpt of the scanned work, accessed in the Archive.org DjVu OCR text; the complete work was not read.",
+      "exact_locations_read": "Discours préliminaire, the passage beginning “Il nous reste à donner un dernier exemple: c'est le cas d'une élection entre trois candidats,” through the discussion of combinations of preference propositions and the contradictory conclusions arising from some combinations. No page number is asserted because the extracted OCR's printed Roman folio markers are unreliable in this passage.",
+      "limitations": "The source is in French and was consulted through machine OCR rather than a critical edition or facsimile page inspection. The passage supports Condorcet's discussion of three-candidate preference judgments and possible inconsistency; it is not identical to the article's modern three-voter profile in the exact displayed notation."
+    },
+    {
+      "title": "Social Choice Theory",
+      "author": "Christian List",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2013, substantive revision 14 October 2022; §§1.1, 3.1, and 3.3.1.",
+      "stable_url": "https://plato.stanford.edu/entries/social-choice/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the current entry were read through the page's extracted text; the entire entry was not read.",
+      "exact_locations_read": "§1.1 attributes pairwise majority voting and the Condorcet paradox to the 1785 Essay and gives a one-third/one-third/one-third cycle; §3.1 defines profiles and pairwise majority and discusses the dependence of cycle frequencies on assumptions; §3.3.1 explains single-peaked domains and Black's result that cycles cannot occur under that restriction.",
+      "limitations": "Secondary scholarly synthesis, not Condorcet's testimony. Probability statements are model-dependent; the entry itself notes that departures from impartial culture can substantially reduce cycle probabilities."
+    },
+    {
+      "title": "Voting Methods",
+      "author": "Eric Pacuit",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2017 archive; §§3.1 and 3.1.1 and the later discussion of the likelihood of voting paradoxes.",
+      "stable_url": "https://plato.stanford.edu/archives/fall2017/entries/voting-methods/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the fixed archived entry were read through the page's extracted text; the entire entry was not read.",
+      "exact_locations_read": "§3.1 states the example's rankings and pairwise 2–1 cycle; §3.1.1 distinguishes Condorcet consistency from other voting methods and explains that some rules need a fallback when no Condorcet winner exists; the later likelihood discussion describes impartial-culture calculations and disagreement about empirical evidence and incomplete preference data.",
+      "limitations": "Archived secondary reference account, not the primary source. Its discussion surveys research rather than resolving the empirical debate; probability conclusions depend on stated preference-distribution assumptions."
+    },
+    {
+      "title": "Arrow's Theorem",
+      "author": "Michael Morreau",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 13 October 2014, substantive revision 7 December 2025; §1, “The Will of the People?”",
+      "stable_url": "https://plato.stanford.edu/entries/arrows-theorem/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passage in §1 and associated historical discussion were read through the page's extracted text; the entire entry was not read.",
+      "exact_locations_read": "§1 gives the three-person ABC/BCA/CAB majority cycle, calls it the paradox of voting, attributes its discovery to Condorcet (1785), distinguishes Condorcet's study of particular procedures from Arrow's axiomatic approach, and reports contrasting interpretations of Arrow's normative implications.",
+      "limitations": "Secondary interpretation. It establishes the conceptual and historical relationship but not that Arrow's theorem is logically derived from the three-option cycle. The article is not used as evidence that one normative reading is consensus."
+    },
+    {
+      "title": "Complexities of Majority Voting",
+      "author": "Nicholas R. Miller",
+      "publication": "Vote Democracy project module for the Centre for Philosophy of Natural and Social Science, London School of Economics; revised April 2018 (original November 2015); §§4.2, 8.1, and sequential-voting discussion.",
+      "stable_url": "https://userpages.umbc.edu/~nmiller/RESEARCH/MAJVOTING.REV2018.NRM.pdf",
+      "source_type": "Scholarly secondary analysis / research module",
+      "access_level": "Relevant passages of the PDF were read in the returned PDF text extraction; the full document was not read.",
+      "exact_locations_read": "§4.2, text extraction's ‘Majority Voting’ pp. 10–11, describes three-option Condorcet cycles and cycles across more alternatives; §8.1, extracted pp. 39–40, explains sequential pairwise voting and how agenda order determines the final outcome when there is no Condorcet winner.",
+      "limitations": "A scholarly teaching module rather than a peer-reviewed journal article. Its agenda discussion concerns sequential pairwise procedures and should not be generalized to the pairwise-majority relation itself."
+    },
+    {
+      "title": "Behavioural social choice: a status report",
+      "author": "Michel Regenwetter, Bernard Grofman, Anna Popova, William Messner, Clintin P. Davis-Stober, and Daniel R. Cavagnaro",
+      "publication": "Philosophical Transactions of the Royal Society B, 364(1518), 833–843 (2009), especially §2, “The empirical rarity of the Condorcet paradox”; DOI 10.1098/rstb.2008.0259.",
+      "stable_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689718/",
+      "source_type": "Peer-reviewed scholarly article",
+      "access_level": "Relevant full-text section (§2) was read in the PMC text extraction; the entire article was not read. Publisher metadata and abstract were separately consulted.",
+      "exact_locations_read": "§2 reviews impartial-culture model literature, reports the authors' critique that results can be sensitive to assumptions, and describes their account of survey and ballot evidence suggesting limited empirical support for cycles. The publisher page supplied publication date, author list, journal, volume, pages, and DOI.",
+      "limitations": "This is one scholarly position in a live debate, not a definitive prevalence estimate. Empirical detection depends on available preference data and the authors' interpretation of theoretical and observed evidence; Pacuit's reference account documents contrary views and data limitations."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The 1785 work is Condorcet's essay on majority decisions, and the original text discusses an election among three candidates with judgments about which candidate is preferable.",
+      "source_title": "Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix; Social Choice Theory; Arrow's Theorem",
+      "source_url": "https://archive.org/download/essaisurlapplica00cond/essaisurlapplica00cond_djvu.txt",
+      "exact_location": "Condorcet, Discours préliminaire, passage beginning “Il nous reste à donner un dernier exemple” and describing an election among three candidates; compare List §1.1 and Morreau §1 for bibliographic attribution and historical context.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary French OCR passage directly discusses three-candidate preference propositions and how majority judgments may yield inconsistent combinations. The secondary sources independently identify Condorcet's 1785 Essay with pairwise majority voting and the paradox.",
+      "limitation": "OCR is imperfect and only the relevant French excerpt was consulted. The original passage is not the exact modern profile table in the article; the displayed table is explicitly framed as an educational example.",
+      "required_edit": "Made: article identifies the original French passage and distinguishes it from the modern profile presentation."
+    },
+    {
+      "material_claim": "For the displayed strict rankings A>B>C, B>C>A, and C>A>B, pairwise majority yields A>B, B>C, and C>A, each by 2–1.",
+      "source_title": "Revised article profile; Social Choice Theory; Voting Methods; Arrow's Theorem",
+      "source_url": "https://plato.stanford.edu/archives/fall2017/entries/voting-methods/",
+      "exact_location": "Article §1, calculations directly derived from its table; Pacuit §3.1; List §1.1; Morreau §1, which report the equivalent three-person cycle under equivalent labels/ranking order.",
+      "relationship": "supports",
+      "finding": "Each pairwise count follows directly from the stated profile, and the three consulted reference accounts describe the same structural cycle. The table itself is a standard modern illustrative profile, not a verbatim primary-text quotation.",
+      "limitation": "The mathematical result is conditional on the stated rankings and one-vote-per-person pairwise majority rule; it is not a claim that every election cycles.",
+      "required_edit": "Made: displayed the rankings and explicitly stated the strict, transitive-ranking and pairwise-majority assumptions."
+    },
+    {
+      "material_claim": "The pairwise-majority relation can be intransitive even when every individual ranking is transitive; in this profile there is no Condorcet winner.",
+      "source_title": "Social Choice Theory; Voting Methods; Arrow's Theorem",
+      "source_url": "https://plato.stanford.edu/entries/social-choice/",
+      "exact_location": "List §1.1 defines the paradox and Condorcet winner; §3.1 defines pairwise majority and notes it does not guarantee transitive social preferences; Pacuit §3.1; Morreau §1.",
+      "relationship": "supports",
+      "finding": "The sources directly support the mathematical conclusion. The revised article says the pairwise relation exists but lacks a Condorcet winner, and does not infer that majority rule is universally incoherent.",
+      "limitation": "The conclusion is about this profile and rule; the result alone does not settle the normative status of majority rule.",
+      "required_edit": "Made: replaced the unqualified claim that majority will can be undefined with the narrower conclusion that no option beats every other under pairwise majority."
+    },
+    {
+      "material_claim": "A cyclic pairwise relation and the outcome of sequential pairwise voting are distinct; agenda order can affect the final option under sequential procedure.",
+      "source_title": "Complexities of Majority Voting",
+      "source_url": "https://userpages.umbc.edu/~nmiller/RESEARCH/MAJVOTING.REV2018.NRM.pdf",
+      "exact_location": "Miller §4.2, pp. 10–11 in the text extraction, for the cycle; §8.1 and sequential pairwise voting discussion, pp. 39–40 in the text extraction, for procedure and agenda dependence.",
+      "relationship": "supports_with_qualification",
+      "finding": "Miller distinguishes the pairwise preference tournament from sequential committee procedure and explains why the order alternatives enter the sequential agenda can affect the winner when no Condorcet winner exists.",
+      "limitation": "This is conditional on a sequential procedure. The profile itself fixes each pairwise comparison; agenda dependence should not be attributed to the static relation alone.",
+      "required_edit": "Made: clarified that order matters when pairwise votes are conducted sequentially, not when describing the cycle itself."
+    },
+    {
+      "material_claim": "Condorcet-consistent methods elect a Condorcet winner when one exists, but a cycle leaves no such candidate and procedures need a fallback; a scoring method's selected outcome does not erase the pairwise cycle.",
+      "source_title": "Voting Methods",
+      "source_url": "https://plato.stanford.edu/archives/fall2017/entries/voting-methods/",
+      "exact_location": "Pacuit §3.1.1, including the Condorcet rule and Copeland rule descriptions and discussion of scoring rules and Condorcet consistency.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry distinguishes a Condorcet-consistency criterion from other methods, shows that some rules need explicit treatment when no Condorcet winner exists, and explains that scoring rules need not select a Condorcet winner even when one exists.",
+      "limitation": "Different methods resolve or present cycles differently; no single fallback is implied by the paradox itself.",
+      "required_edit": "Made: replaced the blanket statement that scoring rules avoid cycles with the more precise distinction between selecting an outcome and making the pairwise relation transitive."
+    },
+    {
+      "material_claim": "Single-peaked profiles prevent majority cycles under the stated domain restriction; this conditional result does not establish that actual electorates always meet the restriction.",
+      "source_title": "Social Choice Theory",
+      "source_url": "https://plato.stanford.edu/entries/social-choice/",
+      "exact_location": "List §3.3.1, ‘Relaxing universal domain,’ definition of single-peakedness and Black's result for odd electorates.",
+      "relationship": "supports_with_qualification",
+      "finding": "The reference states that single-peakedness ensures transitive majority preferences and a Condorcet winner at the median peak when the electorate is odd. The article retains this as a conditional mathematical result.",
+      "limitation": "Single-peakedness is a substantive restriction on admissible preferences, not a general property of elections.",
+      "required_edit": "Made: explicitly marked the result as conditional on the domain restriction."
+    },
+    {
+      "material_claim": "Arrow's theorem is related to the Condorcet paradox but studies a broader class of aggregation procedures under axioms; the normative implications of impossibility results are disputed.",
+      "source_title": "Social Choice Theory; Arrow's Theorem",
+      "source_url": "https://plato.stanford.edu/entries/arrows-theorem/",
+      "exact_location": "Morreau §1 distinguishes Condorcet's study of particular procedures from Arrow's general axiomatic approach and reports opposing interpretations; List §1.2 on Arrow's general framework and §3.1 on the basic aggregation framework.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support treating Condorcet's paradox as a precursor and motivating illustration, while Arrow's theorem concerns broader conditions. They do not warrant saying Arrow's theorem is simply a consequence of this particular three-voter example.",
+      "limitation": "The article presents a concise historical relationship, not an exhaustive history of social-choice theory or a resolution of normative disputes.",
+      "required_edit": "Made: replaced the loose ‘motivated ... led to Arrow’s theorem’ claim with a qualified account of relation and distinction."
+    },
+    {
+      "material_claim": "The probability of cycles depends on the assumed distribution of preferences; impartial culture is one model, while empirical prevalence and its interpretation remain disputed.",
+      "source_title": "Social Choice Theory; Voting Methods; Behavioural social choice: a status report",
+      "source_url": "https://plato.stanford.edu/archives/fall2017/entries/voting-methods/",
+      "exact_location": "Pacuit's later discussion of the likelihood of voting paradoxes explains impartial-culture calculations, model assumptions and empirical-data limitations; List §3.1 describes sensitivity to preference-distribution departures; Regenwetter et al. §2 argues that theoretical predictions can be sensitive to assumptions and reports limited empirical support in studied data.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources agree that probability estimates are assumption-dependent but differ in their portrayal of the empirical risk. The article states that findings are disputed and that full pairwise-preference data are often unavailable; it does not assert a universal likelihood or consensus.",
+      "limitation": "Only relevant sections and one peer-reviewed article were examined, not the full empirical literature. Regenwetter et al.'s conclusions are one scholarly position; the reference account notes opposing interpretations and data-inference issues.",
+      "required_edit": "Made: qualified the frequency discussion by its preference-distribution assumptions and acknowledged empirical disagreement."
+    },
+    {
+      "material_claim": "The fairness, legitimacy, and procedural evaluation questions are normative teaching prompts, not historical claims or conclusions proved by the cycle.",
+      "source_title": "Revised article framing; Arrow's Theorem",
+      "source_url": "https://plato.stanford.edu/entries/arrows-theorem/",
+      "exact_location": "Article §§2, 4, and 6; Morreau §1 reports competing interpretations of the normative implications of Arrow's theorem.",
+      "relationship": "context_only",
+      "finding": "The prompts are clearly labeled as questions. The revised exposition separates the mathematical finding from normative evaluation and avoids describing a contested interpretation as consensus.",
+      "limitation": "Editorial questions are not claims established by the cited sources.",
+      "required_edit": "Made: labeled fairness/legitimacy matters as normative discussion rather than mathematical conclusions."
+    },
+    {
+      "material_claim": "The dataset entry's date_verified and references match the revised article's Further Reading links in order.",
+      "source_title": "Matching Condorcet Paradox data record",
+      "source_url": null,
+      "exact_location": "Read-only data/experiments.json object with id condorcet-paradox and revised article §9, compared after the edit; reference order is the same and the patch sets date_verified to 2026-11-01.",
+      "relationship": "supports",
+      "finding": "All six proposed reference URLs match the revised article's Further Reading URLs exactly and in the same order. The patch has the matching id and date_verified 2026-11-01; the source descriptions distinguish a primary historical text from secondary reference and scholarly sources.",
+      "limitation": "Metadata reconciliation only; the dataset file remains unchanged and the patch is a local proposed patch, not applied data.",
+      "required_edit": "Made: created the local data-patch file; did not modify data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "The primary French essay was consulted only at the relevant passage in OCR text, not as a complete work or by inspection of the corresponding facsimile pages; the OCR may contain errors.",
+    "The article's three-voter table is an educational presentation of the standard cycle and is not claimed as a verbatim reproduction of Condorcet's exact original example.",
+    "The empirical frequency and practical significance of Condorcet cycles remain debated; this review read selected sources rather than an exhaustive literature review, and underlying elections often lack complete pairwise preference data.",
+    "Different voting rules handle cycles in different ways; the article names representative principles but does not survey all resolution methods or settle their merits.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

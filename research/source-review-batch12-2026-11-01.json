@@ -1,0 +1,392 @@
+{
+  "batch_id": "source-review-batch12-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No commit, push, merge, release, or remote-branch change.",
+  "reviewer_type": "Three AI-assisted claim-level audits with independent read-only post-edit verification; no human expert review is claimed.",
+  "batch_scope": "Three remaining expansion-listed entries: Dion and Theon, the Grelling–Nelson paradox, and McTaggart’s paradox of time.",
+  "selection_method": "From the 19 expansion entries remaining after batch eleven, prioritize three elevated-risk subjects: an ancient identity puzzle transmitted through later testimony and disputed interpretation; a semantic paradox with subtle self-reference and a 1907/1908 bibliographic discrepancy; and a complex A-series/B-series argument whose reconstruction and relativity connection require careful qualification.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 41,
+    "expansion_inventory_entries_with_audit_records_before_batch": 38,
+    "entries_in_batch": 3,
+    "audit_records_after_batch_all_repository": 44,
+    "expansion_inventory_entries_with_audit_records_after_batch": 41,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 16,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "source_checked": 3,
+      "partially_source_checked": 0,
+      "needs_source_check": 0
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 43,
+      "partially_source_checked": 1,
+      "needs_source_check": 0
+    }
+  },
+  "status_summary": "All three entries are source_checked for their declared claim-traceability scopes after revision and independent read-only post-edit verification. Source_checked is an editorial traceability label, not a claim of philosophical truth, consensus, exhaustive literature review, or expert review. The one remaining partial status is Nietzsche’s Eternal Recurrence.",
+  "limits": [
+    "Dion and Theon: Chrysippus’s original work is not extant in the consulted sources; Philo’s later testimony is brief and interpretively disputed. The SEP’s right-foot formulation is explicitly distinguished from Philo’s account.",
+    "Grelling–Nelson: the 1907 publication and 1908 reprint were not directly inspected; the chronology is reported as a catalogue/SEP discrepancy, not resolved. The original paper is represented through a translated SEP discussion.",
+    "McTaggart: relevant passages were read in a full-text scan reproduction because the publisher’s full text was gated; the best reconstruction of the contradiction argument remains contested.",
+    "No named human subject-matter expert reviewed this batch."
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; schema, article sections, metadata, references, README consistency, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests -v — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors.",
+    "article_dataset_reference_alignment": "PASS: Further Reading URLs exactly match the data/experiments.json references in order, three per article; all three date_verified values are 2026-11-01.",
+    "item_ledgers": "PASS: all four batch-twelve JSON files parse; the three item records include sources, claim evidence, access limits, and required edits; the consolidated ledger embeds all three records.",
+    "inventory_reconciliation": "PASS: 44 unique audit records; 41 of 57 expansion IDs have records (40 source_checked, 1 partially_source_checked), 16 expansion IDs remain, and 3 audited IDs are outside the inventory. The dataset contains 264 distinct reference URLs.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk, HEAD 0d26e6615fa78124dd6e027fe26ebf05a6c7fb35, 0 staged paths. Existing and new work remains local, unstaged, uncommitted, and unpushed; no remote branch change was made."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "dion-and-theon",
+      "title": "Dion and Theon",
+      "article_path": "experiments/identity/dion-and-theon.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the modern SEP formulation of the whole-limbed Dion and Theon as the remainder excluding the right foot; the apparent survival/coincidence problem; the later report in Philo and the answer attributed to Chrysippus; Philo’s objection; the van Inwagen response; and the article’s brief mention of other material-constitution positions. This status records source traceability for those claims, not a settled ancient interpretation, philosophical truth, consensus, or expert review.",
+      "summary": "The article now distinguishes the SEP’s modern right-foot formulation from the testimony preserved in Philo, attributes the Dion-survives/Theon-perishes answer to Chrysippus as reported by Philo, and identifies Philo as the critic. The van Inwagen passage has been corrected to track the SEP’s account of the simples constituting part of Dion’s life before the operation and composing Dion afterward. Modern material-constitution positions are labeled as later options rather than readings of Chrysippus. An independent reviewer checked the revised article and dataset; the source location and paraphrase issues it flagged were corrected before status assignment.",
+      "sources": [
+        {
+          "title": "Material Constitution",
+          "author": "Ryan Wasserman",
+          "publication": "The Stanford Encyclopedia of Philosophy, Spring 2026 archive; first published 2009, revised 14 January 2026.",
+          "stable_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "The relevant portions of the fixed archived entry were read; the whole entry was not audited systematically.",
+          "exact_locations_read": "§1 presents the Dion and Theon puzzle, identifies Theon as the part of Dion excluding the right foot, and states the apparent problem. §2 explains van Inwagen’s response: the simples initially constitute part of Dion’s life and, after the operation, compose Dion. The entry’s overview and treatment of coincident objects support the carefully limited note that other later material-constitution positions differ.",
+          "limitations": "Secondary reference, not Chrysippus’s own text. The right-foot setup is attributed to the SEP’s modern presentation, not projected onto Philo’s wording. The brief overview of other views is not an exhaustive survey of solutions to Dion and Theon."
+        },
+        {
+          "title": "On the Eternity of the World",
+          "author": "Philo of Alexandria; translated by C. D. Yonge",
+          "publication": "Sections 48–49; English translation hosted by Early Jewish Writings.",
+          "stable_url": "https://www.earlyjewishwritings.com/text/philo/book35.html",
+          "source_type": "Primary ancient testimony / later report of a Stoic argument",
+          "access_level": "The English text of the relevant sections was read; the complete work was not read systematically.",
+          "exact_locations_read": "§48 introduces Chrysippus’s puzzle, states the principle that two specifically qualified individuals cannot jointly occupy the same substance, and poses which person has been spoiled. §49 records Philo’s objection and the explanatory reply attributed to Chrysippus that Dion survives while Theon perishes.",
+          "limitations": "Philo is a later witness and critic, not Chrysippus. His report is brief and interpretively disputed; no extant Chrysippus text was consulted."
+        },
+        {
+          "title": "Chrysippus’ Puzzle about Identity",
+          "author": "John Bowin",
+          "publication": "Oxford Studies in Ancient Philosophy 24 (2003), 239–251; author-hosted scan reproduction.",
+          "stable_url": "https://people.ucsc.edu/~jbowin/BOWCPA.1.pdf",
+          "source_type": "Scholarly secondary analysis",
+          "access_level": "The paper’s opening account and relevant interpretive discussion were read in a full-text scan; the whole article was not audited line by line.",
+          "exact_locations_read": "Opening, pp. 239–240, quotes Philo’s report and notes that it is notoriously cryptic; the paper discusses Sedley’s reading and Bowin’s alternative interpretation across pp. 239–251. Bibliographic details were cross-checked against the PhilPapers record https://philpapers.org/rec/BOWCPA.",
+          "limitations": "A secondary interpretation, not a resolution of the ancient passage. The present educational article does not adopt Bowin’s interpretation as settled."
+        },
+        {
+          "title": "Matching Dion and Theon data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id dion-and-theon; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "Checked the `date_verified`, `file_path`, reference order, and support descriptions against the revised article’s Further Reading and Sources and Attribution sections.",
+          "limitations": "Metadata alignment only; does not establish historical or philosophical claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "In the SEP formulation, Theon is the part of Dion excluding the right foot; after the foot is removed, Theon’s parts seem unchanged, which creates a survival and coincidence problem if Dion survives too.",
+          "source_title": "Material Constitution",
+          "source_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+          "exact_location": "§1, opening discussion of the Dion and Theon puzzle.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports this as its modern formulation. The revised article explicitly attributes the right-foot version to the SEP rather than treating it as the exact wording of Philo’s report.",
+          "limitation": "The scenario is a later exposition of the ancient testimony; no original text by Chrysippus survives in the consulted sources.",
+          "required_edit": "Made: separated the SEP’s specified right-foot version from the broader ancient report."
+        },
+        {
+          "material_claim": "Philo reports a Chrysippean answer that Dion survives and Theon perishes because two specifically qualified individuals cannot occupy one substance, then objects that Theon lost no part while Dion lost a foot.",
+          "source_title": "On the Eternity of the World; Chrysippus’ Puzzle about Identity",
+          "source_url": "https://www.earlyjewishwritings.com/text/philo/book35.html",
+          "exact_location": "Philo §§48–49: §48 gives the setup and question; §49 gives Philo’s objection and Chrysippus’s explanation. Bowin, opening pp. 239–240, quotes and conventionally cites the report as De aeternitate mundi 48 (SVF ii.397).",
+          "relationship": "supports_with_qualification",
+          "finding": "The translated testimony and Bowin’s scholarly reproduction support the attribution and the objection. The article consistently says this is Philo’s later report of Chrysippus, not Chrysippus’s own surviving text.",
+          "limitation": "The report is brief and cryptic; the precise force and original dialectical purpose are disputed.",
+          "required_edit": "Made: identified Philo as the transmitter and critic and qualified Chrysippus’s attribution."
+        },
+        {
+          "material_claim": "Van Inwagen’s response denies that Theon exists as an object before the operation; the relevant simples initially constitute only part of Dion’s life, and after the foot is removed they constitute a life and compose Dion.",
+          "source_title": "Material Constitution",
+          "source_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+          "exact_location": "§2, discussion of van Inwagen’s eliminativist view and its application to Dion and Theon.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP supports this modern response. The article’s paraphrase was corrected to track the distinction between the simples constituting part of Dion’s life before the operation and composing Dion afterward.",
+          "limitation": "This is van Inwagen’s modern position as summarized by the SEP, not an ancient solution attributed to Chrysippus.",
+          "required_edit": "Made: corrected the paraphrase and cited SEP §2 rather than §1 for this response."
+        },
+        {
+          "material_claim": "Modern material-constitution views differ over coincident objects, identity, persistence, and which objects exist; they are later options rather than a settled interpretation of Chrysippus.",
+          "source_title": "Material Constitution",
+          "source_url": "https://plato.stanford.edu/archives/spr2026/entries/material-constitution/",
+          "exact_location": "The entry’s overview of replies and §§2–6 on coincident objects and alternative approaches to material-constitution puzzles.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry documents distinct modern positions. The article describes these only as a brief map of the broader debate and explicitly disclaims a consensus reading of the ancient argument.",
+          "limitation": "The source’s main focus is material constitution generally; the article does not claim each view was developed specifically as a direct answer to Dion and Theon.",
+          "required_edit": "Made: removed the unsupported four-dimensionalist and sortal-specific solution list; retained only a qualified overview tied to material-constitution debates."
+        },
+        {
+          "material_claim": "The article’s cited sources, verification date, and dataset references match.",
+          "source_title": "Matching Dion and Theon data record",
+          "source_url": null,
+          "exact_location": "data/experiments.json record `dion-and-theon` and article §9.",
+          "relationship": "supports",
+          "finding": "The article Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: updated the dataset references and date."
+        }
+      ],
+      "unresolved_limits": [
+        "Chrysippus’s original work is not extant in the consulted sources; Philo’s testimony is later, brief, and interpretively disputed.",
+        "The modern foot-side formulation is from the SEP and differs in specificity from the surviving Philo report.",
+        "Modern material-constitution views are sampled, not exhaustively reviewed or presented as consensus.",
+        "No named human subject-matter expert reviewed the entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "grelling-nelson-paradox",
+      "title": "The Grelling–Nelson Paradox (Heterological Words)",
+      "article_path": "experiments/logic/grelling-nelson-paradox.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the standard autological/heterological setup and self-application contradiction; the qualified formal analogy with Russell’s set paradox; Ramsey’s meaning-relation response and the Tarski connection; the paper’s authorship and 1907/1908 publication metadata; and the article-to-dataset reference alignment. This does not establish that any proposed solution is definitive or that the original paper has been fully examined.",
+      "summary": "The article now states the self-application assumptions needed for the contradiction, distinguishes the semantic paradox from Russell’s set paradox, and limits its historical solution discussion to Ramsey’s meaning-relation approach as summarized by the SEP. The publication line records both the catalogue’s 1907 entry and its 1908 reprint rather than collapsing the discrepancy. The original paper and its publication volumes were not directly inspected. An independent read-only reviewer found no essential factual correction; it verified the definition, structural analogy, Ramsey/Tarski summary, and exact URL order.",
+      "sources": [
+        {
+          "title": "Paradoxes and Contemporary Logic",
+          "author": "Andrea Cantini and Riccardo Bruni",
+          "publication": "The Stanford Encyclopedia of Philosophy, Summer 2025 archive; first published 2007, revised 19 May 2025.",
+          "stable_url": "https://plato.stanford.edu/archives/sum2025/entries/paradoxes-contemporary-logic/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Section 3.3.2 and the relevant bibliographic discussion were read in the fixed archived entry; the entire entry was not audited systematically.",
+          "exact_locations_read": "§3.3.2 provides a translated formulation, discusses Grelling’s paradox and Ramsey’s treatment through distinct meaning relations, and states that these ideas foreshadow Tarski. The entry’s cited bibliography associates the paper with 1908.",
+          "limitations": "Secondary account, not direct access to either publication volume. It supports the standard presentation and response, not the ultimate success of the response."
+        },
+        {
+          "title": "Self-Reference and Paradox",
+          "author": "Thomas Bolander",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 archive; first published 2008, revised 23 July 2024.",
+          "stable_url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Sections 1.1 and 1.4 were read in the fixed archived entry; the entire entry was not audited systematically.",
+          "exact_locations_read": "§1.1 defines heterological self-application and presents the contradiction; §1.4 formalizes the structure and compares it with Russell’s set paradox.",
+          "limitations": "Secondary account. The comparison supports a structural analogy, not identity between a semantic paradox and a set-theoretic paradox."
+        },
+        {
+          "title": "Bemerkungen zu den Paradoxien von Russell und Burali-Forti",
+          "author": "K. Grelling and L. Nelson",
+          "publication": "PhilPapers catalogue lists Abhandlungen der Fries’schen Schule (Neue Serie) 2 (1907), 300–334, and a 1908 reprint at 2, 301–334.",
+          "stable_url": "https://philpapers.org/rec/GREBZD-2",
+          "source_type": "Bibliographic catalogue record, not the primary work",
+          "access_level": "Catalogue metadata and reprint information only; neither original volume was accessed.",
+          "exact_locations_read": "The record’s citation and “Reprint years” / “Other Versions” fields list 1907 and a separate 1908 reprint with different pagination.",
+          "limitations": "Metadata only; does not establish the wording or argument of the primary text. The discrepancy is retained, not resolved."
+        },
+        {
+          "title": "Matching Grelling–Nelson data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id grelling-nelson-paradox; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "Checked `date_verified`, `original_publication`, `file_path`, and all three reference URLs and support descriptions against article §§9–10.",
+          "limitations": "Metadata alignment only; does not establish the paradox’s history or solution."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "A predicate is autological if it applies to itself and heterological if it does not; applying the heterological definition to itself produces a yes/no contradiction under the stated assumptions.",
+          "source_title": "Self-Reference and Paradox",
+          "source_url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+          "exact_location": "§1.1; compare §3.3.2 in Paradoxes and Contemporary Logic for a translated formulation.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the standard setup and self-application contradiction. The revised article makes explicit that the result depends on applying the definition to itself and requiring a yes/no classification.",
+          "limitation": "The original paper was not read; the article explains the standard reconstruction rather than reproducing the primary argument verbatim.",
+          "required_edit": "Made: clarified the assumptions under which the contradiction follows and kept examples explicitly illustrative."
+        },
+        {
+          "material_claim": "The Grelling–Nelson paradox is structurally analogous to Russell’s set paradox, but concerns semantic predicates rather than sets.",
+          "source_title": "Self-Reference and Paradox",
+          "source_url": "https://plato.stanford.edu/archives/fall2024/entries/self-reference/",
+          "exact_location": "§1.4, formal comparison of the paradox’s structure with Russell’s set paradox.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source explicitly makes the formal comparison. The article describes it as structural and states that the paradoxes concern different kinds of things.",
+          "limitation": "The analogy does not imply that semantic predicates and sets are the same kind of entity or that their solutions are interchangeable.",
+          "required_edit": "Made: qualified the analogy and removed broader unsupported claims about type theory and definability."
+        },
+        {
+          "material_claim": "Ramsey’s response distinguishes the meaning relation used in the definition from the relation needed to express the meaning of the adjective, blocking the unrestricted self-application; the SEP connects this with later Tarski-style semantic hierarchies.",
+          "source_title": "Paradoxes and Contemporary Logic",
+          "source_url": "https://plato.stanford.edu/archives/sum2025/entries/paradoxes-contemporary-logic/",
+          "exact_location": "§3.3.2, Ramsey’s treatment of Grelling’s paradox and the subsequent note about Tarski.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the distinct-meaning-relations explanation and says these ideas foreshadow Tarski. The article presents this as one historically discussed response, not a definitive solution.",
+          "limitation": "The article does not claim Ramsey formulated Tarski’s later theory in full or that all versions of the paradox are solved by one move.",
+          "required_edit": "Made: replaced an unsupported list of non-classical and contextual views with the source-supported Ramsey response and an explicit scope limitation."
+        },
+        {
+          "material_claim": "The source record documents a 1907 publication and a 1908 reprint; the SEP cites 1908, so the article should preserve rather than erase the discrepancy.",
+          "source_title": "Paradoxes and Contemporary Logic; Bemerkungen zu den Paradoxien von Russell und Burali-Forti catalogue record",
+          "source_url": "https://philpapers.org/rec/GREBZD-2",
+          "exact_location": "SEP §3.3.2 and its bibliographic citation; PhilPapers record’s main citation and “Other Versions” fields.",
+          "relationship": "supports_with_qualification",
+          "finding": "The opened sources report 1908 in the SEP and a 1907 edition plus 1908 reprint in the catalogue. The revised article states both and says the primary publication volumes were not inspected.",
+          "limitation": "Bibliographic records are not primary copies; exact print chronology remains unresolved.",
+          "required_edit": "Made: changed the publication line and section 10 to record the discrepancy explicitly; added the catalogue reference."
+        },
+        {
+          "material_claim": "The article’s source list and dataset references match in order, and the verification date is current to the review.",
+          "source_title": "Matching Grelling–Nelson data record",
+          "source_url": null,
+          "exact_location": "data/experiments.json record `grelling-nelson-paradox` and article §9.",
+          "relationship": "supports",
+          "finding": "The three article Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: aligned publication date caveat and references across the article and dataset."
+        }
+      ],
+      "unresolved_limits": [
+        "The original 1907 volume and 1908 reprint were not accessed; the chronology follows two conflicting secondary/bibliographic records and remains unresolved.",
+        "The article is a standard educational reconstruction, not a primary-text transcription or a formal proof within a specified logic.",
+        "The Ramsey response is presented as a historical approach, not as an agreed or exhaustive solution.",
+        "No named human subject-matter expert reviewed the entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "mctaggarts-paradox",
+      "title": "McTaggart’s Paradox of Time",
+      "article_path": "experiments/time-and-causality/mctaggarts-paradox.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset record. Checked the A-series/B-series distinction; the move from change to the A-series; the incompatibility and successive-predication argument; McTaggart’s tensed reply and regress; the article’s reconstruction caveat; the broad A-/B-theory descriptions; the qualified relativity connection; publication metadata; and ordered source alignment. This is not a judgment that McTaggart’s argument succeeds or that one theory of time is correct.",
+      "summary": "The revised article now summarizes the A/B distinction and McTaggart’s two-stage argument with the primary text’s relevant pages read in a full-text scan reproduction. It avoids saying the A-properties apply simultaneously, explains the successive-predication reply and regress, and marks the three-premise reconstruction as one standard form because the SEP notes reconstruction disputes. Modern A-/B-theory and relativity statements are qualified to match the SEP discussions. An independent reviewer found no essential correction; the primary scan metadata, article references, and dataset URLs align.",
+      "sources": [
+        {
+          "title": "I.—The Unreality of Time",
+          "author": "J. Ellis McTaggart",
+          "publication": "Mind XVII, issue 4 (1908), 457–474; scan reproduction hosted by PhilPapers.",
+          "stable_url": "https://philpapers.org/archive/MCTTUO.pdf",
+          "source_type": "Primary philosophical work (scan reproduction)",
+          "access_level": "Relevant passages were read in a full-text scan reproduction; the whole article was not read systematically.",
+          "exact_locations_read": "pp. 458–465: A-series/B-series distinction, change, and why McTaggart thinks the B-series is insufficient; pp. 468–470: A-series contradiction, successive-predication reply, regress, and conclusion.",
+          "limitations": "The accessible file is a scan reproduction, not the publisher-hosted text. The publisher’s article PDF was gated. The paper establishes what McTaggart argued, not that his reasoning is sound."
+        },
+        {
+          "title": "Publisher metadata for I.—The Unreality of Time",
+          "author": "J. Ellis McTaggart",
+          "publication": "Oxford Academic, Mind XVII, issue 4 (1908), 457–474; published 1 January 1908; DOI 10.1093/mind/XVII.4.457.",
+          "stable_url": "https://doi.org/10.1093/mind/XVII.4.457",
+          "source_type": "Publisher bibliographic record, not an accessible copy of the full primary text",
+          "access_level": "Article metadata read; publisher states that the PDF requires subscription access.",
+          "exact_locations_read": "Article title/byline, journal volume and issue, date, page range, DOI, and access notice on the publisher page.",
+          "limitations": "Metadata only; argument evidence comes from the scan reproduction and the cited scholarly entries."
+        },
+        {
+          "title": "John M. E. McTaggart",
+          "author": "Kris McDaniel",
+          "publication": "The Stanford Encyclopedia of Philosophy, Summer 2020 archive; first published 2009, revised 12 May 2020.",
+          "stable_url": "https://plato.stanford.edu/archives/sum2020/entries/mctaggart/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Section 3 was read in the fixed archived entry; the whole entry was not audited systematically.",
+          "exact_locations_read": "§3 presents a three-premise reconstruction, discusses the change and A-series premises, and states that the best reconstruction of McTaggart’s contradiction argument is contentious.",
+          "limitations": "Secondary reconstruction. It documents a standard way of presenting the argument, not an uncontested formalization."
+        },
+        {
+          "title": "Time",
+          "author": "Nina Emery, Ned Markosian, and Meghan Sullivan",
+          "publication": "The Stanford Encyclopedia of Philosophy, Winter 2025 archive; first published 2002, revised 4 December 2025.",
+          "stable_url": "https://plato.stanford.edu/archives/win2025/entries/time/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections 4–6 were read in the fixed archived entry; the whole entry was not audited systematically.",
+          "exact_locations_read": "§4 covers the A-/B-series argument and reconstructions; §5 distinguishes A- and B-theory and the diversity of views; §6 discusses the relativity of simultaneity, presentism, and the growing-block view.",
+          "limitations": "Secondary synthesis. Relativity is a challenge to some A-theories, not evidence by itself that McTaggart’s argument is valid or that A-theory is false."
+        },
+        {
+          "title": "Matching McTaggart data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id mctaggarts-paradox; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "Checked `date_verified`, `file_path`, the original-publication string, and all three references against the revised article’s Further Reading section.",
+          "limitations": "Metadata alignment only; does not establish the argument’s validity."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The A-series orders times as future, present, and past, while the B-series orders them through earlier/later relations; McTaggart says genuine change requires the A-series because B-series relations do not change.",
+          "source_title": "I.—The Unreality of Time; John M. E. McTaggart",
+          "source_url": "https://philpapers.org/archive/MCTTUO.pdf",
+          "exact_location": "McTaggart pp. 458–465; corroborated by SEP McDaniel §3 and SEP Time §4.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text supports the distinction and the change argument; the SEP entries corroborate the standard reconstruction. The article attributes the claims to McTaggart rather than presenting them as established facts.",
+          "limitation": "The scan is a reproduction and the reconstruction’s details are discussed by later commentators.",
+          "required_edit": "Made: clarified the sequence of premises and stated that McTaggart argues B-series relations alone are fixed."
+        },
+        {
+          "material_claim": "McTaggart argues that incompatible past/present/future determinations apply to each event successively, and that the reply using ‘was future, is present, will be past’ presupposes time and generates a regress.",
+          "source_title": "I.—The Unreality of Time; John M. E. McTaggart",
+          "source_url": "https://philpapers.org/archive/MCTTUO.pdf",
+          "exact_location": "McTaggart pp. 468–470; SEP McDaniel §3 on the contradiction argument and its contested reconstruction.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text supports the successive-predication and regress summary. The revised article does not say that the three properties apply simultaneously and notes that later A-theorists need not treat McTaggart’s objection as decisive.",
+          "limitation": "This is a simplified educational summary; it does not establish that the regress is sound or the conclusion follows.",
+          "required_edit": "Made: corrected the common simultaneous-predication gloss and explained the tensed reply."
+        },
+        {
+          "material_claim": "B-theory and A-theory are broad families with multiple positions; presentism and growing block are distinct A-theoretic views, while relativity of simultaneity challenges but does not by itself refute A-theory.",
+          "source_title": "Time",
+          "source_url": "https://plato.stanford.edu/archives/win2025/entries/time/",
+          "exact_location": "§§5–6, discussion of A-/B-theory, presentism, growing block, and relativity of simultaneity.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP supports the range-of-views framing and treats relativity as a challenge whose implications depend on additional assumptions. The article explicitly avoids treating physics as a decisive verdict on the metaphysical debate.",
+          "limitation": "The article does not survey all A- and B-theories or resolve the metaphysical/physical assumptions.",
+          "required_edit": "Made: qualified the relativity connection and separated presentism from growing block."
+        },
+        {
+          "material_claim": "The original article’s bibliographic identity is Mind XVII, issue 4 (1908), pages 457–474, and the publisher PDF is subscription-gated.",
+          "source_title": "Publisher metadata for I.—The Unreality of Time",
+          "source_url": "https://doi.org/10.1093/mind/XVII.4.457",
+          "exact_location": "Oxford Academic article metadata and access notice; scan reproduction title page and original pagination.",
+          "relationship": "supports",
+          "finding": "The publisher record verifies the byline, journal, issue, year, pages, DOI, and access notice; the cited scan reproduces the text and pagination.",
+          "limitation": "The publisher page provides metadata, not the full text accessed for argument claims.",
+          "required_edit": "Made: added the primary scan to Further Reading and recorded publisher access limits."
+        },
+        {
+          "material_claim": "The article’s source list and dataset references match in order, and the verification date is 2026-11-01.",
+          "source_title": "Matching McTaggart data record",
+          "source_url": null,
+          "exact_location": "data/experiments.json record `mctaggarts-paradox` and article §9.",
+          "relationship": "supports",
+          "finding": "The three article Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: updated the dataset references, source support descriptions, and verification date."
+        }
+      ],
+      "unresolved_limits": [
+        "McTaggart’s publisher-hosted full text was gated; argument passages were checked in a scan reproduction.",
+        "The best formal reconstruction of the A-series contradiction is contested; the article presents one standard summary.",
+        "No exhaustive survey of contemporary theories of time, relativity, or objections was undertaken.",
+        "No named human subject-matter expert reviewed the entry."
+      ]
+    }
+  ]
+}

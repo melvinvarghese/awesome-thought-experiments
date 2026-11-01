@@ -1,0 +1,30 @@
+{
+  "id": "statue-and-clay",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Allan Gibbard, ‘Contingent Identity’ (1975), full text",
+      "url": "https://home.sandiego.edu/~baber/metaphysics/readings/Gibbard.ContingentIdentity.pdf",
+      "kind": "primary",
+      "support": "Gibbard’s original article. Relevant passages pp. 189–192 give his stipulated persistence criteria, the Goliath/Lumpl setup, and the squeezing counterfactual; pp. 193–194 and 210–211 develop the proposal’s treatment of names and modal predication. The audit checked these passages in a full-text reproduction, not the article cover to cover; this establishes what Gibbard argues, not that the disputed conclusion is correct."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Material Constitution",
+      "url": "https://plato.stanford.edu/archives/spr2024/entries/material-constitution/",
+      "kind": "academic",
+      "support": "Ryan Wasserman’s scholarly reference entry, relevant passages in the Spring 2024 archive: §1 outlines the statue-and-clay puzzle and prominent replies; §2 discusses coinciding objects and the grounding challenge. Context for competing approaches, not a claim that one solution is settled."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Identity",
+      "url": "https://plato.stanford.edu/entries/identity/",
+      "kind": "academic",
+      "support": "Harold Noonan and Ben Curtis, SEP Identity §7, relevant passage read in the current entry: summarizes Gibbard’s example, the response of denying identity, related person/body cases, and the continuing controversy about contingent-identity arguments. Scholarly synthesis, not a settled verdict."
+    },
+    {
+      "title": "Wolfgang Schwarz, ‘Contingent Identity’ (2013)",
+      "url": "https://doi.org/10.1111/phc3.12028",
+      "kind": "academic",
+      "support": "Peer-reviewed survey in Philosophy Compass 8(5), 486–495. Relevant sections of the full-text repository copy (§§2–4) discuss Gibbard’s case, objections including Leibniz’s Law, and accounts of contingent identity and modal predication. Survey evidence for the live debate, not a consensus claim."
+    }
+  ]
+}

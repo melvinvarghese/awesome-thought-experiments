@@ -1,0 +1,122 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "galileos-paradox",
+  "title": "Galileo’s Paradox of the Infinite",
+  "article_path": "experiments/mathematics/galileos-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the 1638 work/date attribution; Galileo’s positive whole-number and square-number example, finite-range proportions, root pairing, and stated limitation on applying equality/greater-than/less-than to infinite quantities; the distinction between Galileo’s text and later one-to-one correspondence/cardinality terminology; Cantorian cardinality and the comparison with the real numbers; alternative numerosity theories; Matthew W. Parker’s interpretation; and the article’s explicitly labeled modern teaching comparisons. The status records traceability of this declared scope, not a determination that one philosophical interpretation is correct, consensus, exhaustive scholarship, or expert review.",
+  "summary": "The revised article grounds the paradox and Galileo’s stated conclusion in the First Day of Two New Sciences, while identifying one-to-one correspondence and cardinality as modern terminology. It distinguishes the Cantorian response from Galileo’s historical formulation, notes that Parker offers a different philosophical interpretation without presenting it as consensus, and describes numerosity theories as later alternatives. Unsupported broad claims about density as a general size measure and finitism were removed. The primary text, the relevant sections of the SEP entry, and relevant passages from Parker’s chapter were consulted. The revised Further Reading links and order are reconciled with the proposed data patch.",
+  "sources": [
+    {
+      "title": "Dialogues Concerning Two New Sciences",
+      "author": "Galileo Galilei; translated by Henry Crew and Alfonso de Salvio",
+      "publication": "English translation with introduction by Antonio Favaro (New York: Macmillan, 1914), First Day; Online Library of Liberty text-based ebook/PDF reproduction.",
+      "stable_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/753/Galileo_0416_EBk_v6.0.pdf",
+      "source_type": "Primary work in later English translation",
+      "access_level": "Relevant passages in the searchable text-based PDF were retrieved and read; the full work was not read.",
+      "exact_locations_read": "First Day, OLL ebook/PDF pagination 39–41 (pagination displayed in the searchable ebook, not asserted as the printed 1914 page numbers). Page 39 introduces Salviati’s limitation on comparing infinite quantities; page 40 contains the root pairing and finite-range proportions (10 squares up to 100 and 100 up to 10,000); page 41 states that equality, greater, and less apply to finite, not infinite, quantities. The OLL title record identifies the 1914 translation and translators.",
+      "limitations": "This is Galileo’s dialogue in a 1914 English translation, not the Italian original. The relevant passages were read, not the entire work. The reported conclusion is spoken by Salviati within the dialogue; using it as Galileo’s position follows the consulted SEP historical account and is presented as attribution rather than a claim that Galileo used later terminology."
+    },
+    {
+      "title": "Infinity",
+      "author": "Kenny Easwaran, Alan Hájek, Paolo Mancosu, and Graham Oppy",
+      "publication": "The Stanford Encyclopedia of Philosophy, Spring 2022 archive; §§2.4, “Counting infinite collections,” and 3.3.1, “Preliminaries,” with related discussion of cardinality and numerosity.",
+      "stable_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+      "source_type": "Scholarly reference work / secondary historical and philosophical analysis",
+      "access_level": "Relevant sections of the fixed archived entry were read; the entire entry was not read.",
+      "exact_locations_read": "§2.4 describes the square/whole-number paradox, Galileo’s conclusion, and its antecedents in Oresme and Albert of Saxony; the discussion of Bolzano and Cantor distinguishes the part–whole and bijection intuitions and locates Cantor’s later use of bijection in cardinality. §3.3.1 explains cardinality, the equal cardinality of squares and natural numbers, and theories of numerosities that preserve part–whole comparisons. The later cardinal discussion states that positive reals have greater cardinality than positive integers. Author/citation information was also consulted.",
+      "limitations": "A secondary synthesis, not a primary text. Its compact historical account does not settle the interpretation of Galileo’s argument; Parker’s contrasting philosophical analysis was also consulted. The article’s modern explanatory language is not attributed to Galileo."
+    },
+    {
+      "title": "Philosophical Method and Galileo’s Paradox of Infinity",
+      "author": "Matthew W. Parker",
+      "publication": "Chapter in Bart Van Kerkhove (ed.), New Perspectives on Mathematical Practices: Essays in Philosophy and History of Mathematics (World Scientific, 2009); PhilArchive record and author manuscript.",
+      "stable_url": "https://philarchive.org/rec/PARPMA-2",
+      "source_type": "Scholarly secondary philosophical analysis (chapter in an edited volume)",
+      "access_level": "Relevant passages from the chapter’s PDF text extraction were read; the chapter was not read in full.",
+      "exact_locations_read": "The passage beginning “Galileo points out in his last dialogue” through Parker’s claim that Salviati was right and Cantor wrong; the subsequent discussion of Euclid’s Principle and Hume’s Principle; and concluding passages under the Method of Conceptual Articulation concerning Cantorian power as useful but not the only possible concept of numerosity. The extraction did not establish page numbers, so none are assigned here.",
+      "limitations": "One author’s philosophical interpretation, not a consensus statement. Parker expressly characterizes his reading as an argument about how concepts of number and size are articulated; the article reports it as a published interpretation, not as settled history."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Galileo’s 1638 Two New Sciences presents the positive whole numbers and their square numbers as apparently fewer in finite ranges yet matchable by assigning each number its square root relation; the passage gives the 100/10 and 10,000/100 examples.",
+      "source_title": "Dialogues Concerning Two New Sciences",
+      "source_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/753/Galileo_0416_EBk_v6.0.pdf",
+      "exact_location": "First Day, OLL ebook/PDF pp. 40–41; especially the passage beginning “But if I inquire how many roots there are.”",
+      "relationship": "supports",
+      "finding": "The primary dialogue directly states that every number is a root of some square, infers as many squares as numbers, contrasts this with the many non-squares, and gives the stated finite-range ratios. The article now attributes the pairing to the dialogue and labels “one-to-one correspondence” as current mathematical language.",
+      "limitation": "Crew and de Salvio’s 1914 English translation; relevant passages only. The displayed ebook page numbers are not asserted as print pagination.",
+      "required_edit": "Made: tied the setup and finite-range proportions to the primary passage and explicitly separated the modern correspondence terminology from Galileo’s terminology."
+    },
+    {
+      "material_claim": "In the dialogue, Salviati says that equality, greater-than, and less-than comparisons apply to finite rather than infinite quantities.",
+      "source_title": "Dialogues Concerning Two New Sciences; Infinity",
+      "source_url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/753/Galileo_0416_EBk_v6.0.pdf",
+      "exact_location": "Primary: First Day, OLL ebook/PDF pp. 39–41. Secondary: SEP §2.4, “Counting infinite collections.”",
+      "relationship": "supports_with_qualification",
+      "finding": "Salviati states that the attributes “equal,” “greater,” and “less” apply to finite, not infinite, quantities. SEP characterizes this as Galileo’s conclusion. The article carefully attributes the line to Salviati in Galileo’s dialogue, rather than claiming direct access to Galileo’s private intent.",
+      "limitation": "Dialogue speech is primary textual evidence of what the character says; historical attribution to Galileo is mediated by the SEP’s account. The article does not claim this is Galileo’s only view of infinity.",
+      "required_edit": "Made: revised the wording to quote the dialogue’s position and avoid presenting a modern formal solution as Galileo’s own."
+    },
+    {
+      "material_claim": "One-to-one correspondence and cardinality are later mathematical descriptions; Cantorian cardinality counts the positive whole numbers and their squares as equal in size, and distinguishes the real numbers as larger.",
+      "source_title": "Infinity",
+      "source_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+      "exact_location": "SEP §2.4 on Cantor’s later use of one-to-one correspondence to define cardinal numbers; §3.3.1 on the squares as a proper subset with the same cardinality; later cardinal discussion on positive reals and positive integers.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP explicitly distinguishes Galileo’s paradox from the later Cantorian framework and states both the equal cardinality of squares and natural numbers and the greater cardinality of the positive reals. The revised article presents these as later results, not Galileo’s vocabulary or achievement.",
+      "limitation": "The SEP is a secondary reference account; the claim is restricted to the contemporary set-theoretic definition it describes. It does not prove that cardinality is the sole legitimate notion of infinite size.",
+      "required_edit": "Made: added explicit chronology and removed language suggesting that the later set-theoretic criterion was Galileo’s own."
+    },
+    {
+      "material_claim": "Parker interprets the resolution as articulation of distinct concepts of number/size and treats Cantorian cardinality as useful but not uniquely correct, rather than a discovery of the one true meaning of number.",
+      "source_title": "Philosophical Method and Galileo’s Paradox of Infinity",
+      "source_url": "https://philarchive.org/rec/PARPMA-2",
+      "exact_location": "Relevant extracted chapter passages: opening discussion of Galileo’s paradox; discussion of Euclid’s Principle and Hume’s Principle; conclusion on the Method of Conceptual Articulation and the usefulness and non-uniqueness of Cantorian power.",
+      "relationship": "supports",
+      "finding": "Parker’s chapter advances the interpretation summarized in the revised article. The text identifies it as Parker’s argument and explicitly avoids treating it as consensus.",
+      "limitation": "One scholarly interpretation; relevant passages only and no page numbers established from the extraction. It does not replace primary-text evidence or establish a consensus reading.",
+      "required_edit": "Made: added Parker’s contrasting interpretation and marked it as a published, non-consensus position."
+    },
+    {
+      "material_claim": "Some later theories of numerosities can preserve a part–whole comparison for infinite sets, while describing how often squares appear in finite ranges is not itself a general alternative definition of infinite size.",
+      "source_title": "Infinity; Dialogues Concerning Two New Sciences",
+      "source_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+      "exact_location": "SEP §3.3.1 on numerosity theories and their treatment of the square numbers; primary First Day, OLL ebook/PDF p. 40 on the decreasing proportion of squares in finite ranges.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP describes numerosity approaches that diverge from Cantorian cardinality and preserve a part–whole intuition for infinite sets. Galileo’s own finite-range examples support the descriptive use of proportion, but do not establish density as a general size measure. The revised article distinguishes these claims and calls numerosity approaches later theories.",
+      "limitation": "The review does not assess the technical merits of numerosity frameworks. The density sentence is a bounded methodological inference from the cited scope of Galileo’s finite examples, not a claim attributed to Galileo or an exhaustive statement about density measures.",
+      "required_edit": "Made: removed the unqualified claim that alternative approaches simply use density and replaced it with a sourced account of later numerosity theories plus a scope qualification."
+    },
+    {
+      "material_claim": "The even positive integers can be paired one-to-one with all positive integers as an illustrative modern example; the pairing is an educational extension, not a historical variation attributed to Galileo.",
+      "source_title": "Infinity; revised article framing",
+      "source_url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+      "exact_location": "SEP §3.3.1 on one-to-one correspondence and cardinality; revised article §§6–7 explicitly label the even-number comparison a modern illustration.",
+      "relationship": "context_only",
+      "finding": "The pairing is a straightforward modern example of the Cantorian criterion; the article marks it as an extension and not part of Galileo’s text.",
+      "limitation": "This is educational framing, not a claim about Galileo or a sourced historical variation.",
+      "required_edit": "Made: labeled the extension as modern set theory and not a variation attributed to Galileo."
+    },
+    {
+      "material_claim": "The revised article’s Further Reading references and order match the proposed data patch, and the dataset verification date is updated to 2026-11-01.",
+      "source_title": "Matching Galileo’s Paradox data record",
+      "source_url": null,
+      "exact_location": "Matching object id galileos-paradox in data/experiments.json and revised article §9 Further Reading; compared against the proposed data patch.",
+      "relationship": "supports",
+      "finding": "The article’s three Further Reading URLs are present in the proposed references in the same order: the OLL Galileo text, archived SEP entry, and Parker chapter record. The patch sets date_verified to 2026-11-01 and does not add a public review-status field. The dataset itself remains unchanged.",
+      "limitation": "Metadata reconciliation only; it does not establish historical or mathematical claims.",
+      "required_edit": "Made: created the requested local data patch; did not edit data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "The review consulted relevant passages, not the complete text of Two New Sciences, the complete SEP entry, or Parker’s complete chapter.",
+    "The primary source was read in the 1914 Crew and de Salvio English translation; no Italian original or critical edition was consulted.",
+    "The report presents Parker’s interpretation as one scholarly position and does not undertake an exhaustive review of Galileo scholarship or establish a consensus interpretation.",
+    "The technical details and merits of numerosity theories are not assessed; they are mentioned only to qualify the article’s former broad account of alternatives.",
+    "No named human subject-matter expert reviewed the article."
+  ]
+}

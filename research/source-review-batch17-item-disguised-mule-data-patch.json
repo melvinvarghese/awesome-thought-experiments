@@ -1,0 +1,24 @@
+{
+  "id": "disguised-mule",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Fred Dretske, “Epistemic Operators” (1970), The Journal of Philosophy 67(24): 1007–1023",
+      "url": "https://www.jstor.org/stable/2024710",
+      "kind": "primary",
+      "support": "Original article bibliographic record. The JSTOR reproduction exposed metadata only during this review; the zebra passage (pp. 1015–1016) was checked through the quoted and analyzed passage in the Stanford Encyclopedia entry on epistemic closure."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Epistemic Closure",
+      "url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "kind": "academic",
+      "support": "Sections 1, 2.1–2.2, and 5.1–5.2 discuss qualified closure principles, quote and analyze Dretske's zebra/mule example (1970, pp. 1015–1016), explain relevant-alternatives and tracking responses, and present the closure-based skeptical inference and a Moorean reply. Secondary reference work; its analysis does not settle the debate."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Epistemic Contextualism",
+      "url": "https://plato.stanford.edu/entries/contextualism-epistemology/",
+      "kind": "academic",
+      "support": "Sections 2 and 3.1–3.3 explain attributor contextualism, the closure-related skeptical puzzle, and the proposed shift in knowledge-attribution standards as skeptical doubts become salient. Contextualism is disputed, not a consensus or proof that the skeptical scenario is actually or epistemically possible."
+    }
+  ]
+}

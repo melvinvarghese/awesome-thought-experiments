@@ -1,0 +1,191 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "problem-of-the-many",
+  "title": "The Problem of the Many (Tibbles the Cat)",
+  "article_path": "experiments/identity/problem-of-the-many.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and its matching local dataset record. Checked Unger’s 1980 attribution and cloud-boundary setup; Geach’s Tibbles/hairs passage, the argument yielding 1,001 cat-candidates, and Geach’s own relative-identity response; the article’s distinction between those formulations; the assumptions, claims, qualifications, and scholarly objections attached to the outlined responses (restricted composition/nihilism, overpopulation, relative identity, almost-identity, semantic vagueness and epistemicism, and vague parthood); the educational framing and ordinary-counting qualifications; the difference between vague-boundary/candidate-counting puzzles and the separate Tibbles-and-tail parthood/persistence story; bibliographic names, dates, edition and page details; and alignment of Further Reading URLs/order with the proposed data patch. Status records traceability, not that any philosophical argument succeeds, that one response is correct or consensus, exhaustive literature review, or expert review.",
+  "summary": "The revised article separates Unger’s original cloud-based many-or-none dilemma from Geach’s Tibbles argument. It now states that Geach’s example begins with at least 1,000 identifiable hairs, considers distinct feline-tissue masses omitting one hair at a time, and uses relative identity to say that different masses can be the same cat. It no longer describes this as a single generic taxonomy: the solutions and their objections are attributed as contested alternatives, including distinctions between Unger’s radical nihilist conclusion and restricted composition, between supervaluationism and indeterminate reference, and between Geach’s relative identity and Lewis’s almost-identity account. The cat-loses-its-tail example is explicitly separated as a parthood/persistence puzzle. Primary passages by Unger and Geach and relevant SEP sections were read; the article states that complete primary works were not read cover to cover. The local data patch uses the two stable archive URLs in the revised Further Reading order and leaves the read-only dataset unchanged.",
+  "sources": [
+    {
+      "title": "The Problem of the Many",
+      "author": "Peter Unger",
+      "publication": "Midwest Studies in Philosophy 5 (1980), 411–467; DOI 10.1111/j.1475-4975.1980.tb00416.x. Full text consulted via a PDF reproduction; the publisher’s PDC record was checked separately for bibliographic details.",
+      "stable_url": "https://doi.org/10.1111/j.1475-4975.1980.tb00416.x",
+      "source_type": "Primary philosophical work",
+      "access_level": "Relevant passages in the full work; the full-text PDF was retrieved and parsed, but only the opening pages relevant to the cloud setup and argument were read for this audit.",
+      "exact_locations_read": "Printed pp. 411–415, especially the opening discussion of vagueness and clouds (§1) and the beginning of the formal cloud argument (§2): Unger introduces the named problem, describes gradually dispersed droplets, and states the many-or-none dilemma. The article’s claim about Unger extending the topic to other kinds was checked at p. 411, lines naming stones, tables, and hands.",
+      "limitations": "Only relevant passages were read, not the entire paper or all of its later argumentation. The primary text establishes Unger’s formulation and what he argues, not that its premises or conclusion are sound. The full text was read from a third-party PDF reproduction rather than the publisher-hosted paywalled copy."
+    },
+    {
+      "title": "Reference and Generality: An Examination of Some Medieval and Modern Theories",
+      "author": "Peter Thomas Geach",
+      "publication": "Third edition, Cornell University Press, 1980, §110, “How is ‘is the same A as’ related to a proper name for an A?”; first edition 1962. Edition and publication details checked against the scanned title page and Google Books bibliographic record.",
+      "stable_url": "http://philosophieweb0.001.free.fr/GeachRandG.pdf",
+      "source_type": "Primary philosophical work",
+      "access_level": "Selected passage in a scanned full-book PDF; PDF pages 107–108 were parsed as text and the relevant §110 passage was read. The entire book was not read.",
+      "exact_locations_read": "§110, the passage beginning “The fat cat sat on the mat. There was just one cat on the mat.” It states the 1,000-hair assumption, considers masses of feline tissue each omitting one hair, derives the apparent 1,001-cat result, and then says the distinct masses are the same cat while the original story of one cat stands.",
+      "limitations": "The textual copy was obtained from an unofficial third-party scan; the official Google Books page confirms the third edition and publisher metadata but does not expose the argument passage. The scan’s PDF page numbers are not substituted for unverified printed pagination. The primary text establishes Geach’s proposal, not its correctness or acceptance."
+    },
+    {
+      "title": "The Problem of the Many",
+      "author": "Brian Weatherson",
+      "publication": "The Stanford Encyclopedia of Philosophy, Winter 2023 archive edition; substantive revision August 31, 2023.",
+      "stable_url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full archived entry; sections 1–7 and 9 were consulted, not every sentence of the entry.",
+      "exact_locations_read": "§1 on Unger’s and Geach’s attributions, the cloud setup, and the breadth of solution domains; §§2–4 on Unger’s nihilism, overpopulation, and restricted/brutal composition; §5 on relative identity and objections; §6 on Lewis’s almost-identity proposal and objections; §7 on arguments and semantic vagueness, including supervaluationism and epistemicism; §9 on vague parthood and the separate Tibbles-and-tail example.",
+      "limitations": "Secondary survey that presents a range of views and objections; it does not establish a consensus or settle the philosophical dispute. The audit follows the stable Winter 2023 version cited in the article, not a claim that every later editorial change was reviewed."
+    },
+    {
+      "title": "Identity Over Time",
+      "author": "Andre Gallois and Irem Kurtsal",
+      "publication": "The Stanford Encyclopedia of Philosophy, Spring 2026 archive edition; current fixed archive identified through SEP author/citation information.",
+      "stable_url": "https://plato.stanford.edu/archives/spr2026/entries/identity-time/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full archived entry; the introduction and §4 were consulted, not the entire entry.",
+      "exact_locations_read": "§1 on identity, change, and objects with changing parts; §4 on diachronic identity puzzles, coincidence, and persistence. These passages support only the article’s broad use of the entry as background on persistence and changing parts.",
+      "limitations": "The consulted sections do not present Geach’s many-candidates cat argument or the specific Tibbles-and-tail illustration; the revised article attributes that tail illustration to Weatherson §9 instead. This source is contextual, not evidence for the many-candidate scenario."
+    },
+    {
+      "title": "The Problem of the Many (publisher record)",
+      "author": "Philosophy Documentation Center; article author Peter Unger",
+      "publication": "Midwest Studies in Philosophy, Volume 5 (1980), Studies in Epistemology; publisher bibliographic record, DOI 10.1111/j.1475-4975.1980.tb00416.x.",
+      "stable_url": "https://www.pdcnet.org/msp/content/msp_1980_0005_0411_0467",
+      "source_type": "Publisher bibliographic record",
+      "access_level": "Metadata/catalogue record only; full article is paywalled on the publisher site.",
+      "exact_locations_read": "The record’s title, author, journal volume/year, page range 411–467, and DOI.",
+      "limitations": "Bibliographic metadata only; the argument was checked in the separately accessed full-text PDF reproduction, not on this page."
+    },
+    {
+      "title": "Reference and Generality: An Examination of Some Medieval and Modern Theories (Google Books record)",
+      "author": "Google Books bibliographic record for Peter Thomas Geach",
+      "publication": "Third edition, Cornell University Press, 1980; record gives 231 pages and ISBN 0-8014-1315-X.",
+      "stable_url": "https://books.google.com/books/about/Reference_and_Generality.html?id=bv8tAAAAMAAJ",
+      "source_type": "Bibliographic catalogue record",
+      "access_level": "Metadata/catalogue record only.",
+      "exact_locations_read": "Bibliographic information table: title, author, edition 3, publisher, year 1980, and ISBN. The first-edition year 1962 was checked against the scanned book’s title/copyright pages.",
+      "limitations": "The record verifies bibliographic metadata only; it does not establish the Tibbles argument, which was read in the §110 scan passage."
+    },
+    {
+      "title": "Matching local data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id problem-of-the-many; read-only input inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object inspected before preparing the local patch.",
+      "exact_locations_read": "The matching entry’s ID, title, current Further Reading references, and date_verified value were inspected. The proposed patch sets date_verified to 2026-11-01 and its two reference URLs match the revised article’s Further Reading links in the same order; no edit was made to data/experiments.json.",
+      "limitations": "Metadata reconciliation only; it does not establish any philosophical or historical claim."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Unger introduced the named Problem of the Many in 1980 and presented it through a cloud with gradually fading boundaries and multiple overlapping candidate aggregates, generating a many-or-none dilemma.",
+      "source_title": "The Problem of the Many; The Problem of the Many (publisher record); The Problem of the Many (SEP)",
+      "source_url": "https://doi.org/10.1111/j.1475-4975.1980.tb00416.x",
+      "exact_location": "Unger, printed pp. 411–415, especially §§1–2; PDC publisher record, bibliographic metadata; Weatherson, SEP Winter 2023, §1.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary paper supports the attribution and the cloud-based candidate-aggregate setup. Unger frames the outcome as a dilemma if the described ordinary cloud exists and argues that there are many equally eligible overlapping candidates. The revised article presents this as Unger’s stipulated philosophical argument, not as an established empirical count or quote.",
+      "limitation": "The source establishes Unger’s argument, not the truth of its premises or conclusion; the full article was not read cover to cover.",
+      "required_edit": "Made: separated the cloud formulation from the cat example and marked it as a paraphrased stipulated dilemma rather than an empirical claim."
+    },
+    {
+      "material_claim": "Geach’s Tibbles setup uses a cat with at least 1,000 identifiable hairs, considers tissue masses omitting one hair, derives an apparent 1,001-cat result, and responds that distinct tissue masses can be the same cat.",
+      "source_title": "Reference and Generality; The Problem of the Many (SEP)",
+      "source_url": "http://philosophieweb0.001.free.fr/GeachRandG.pdf",
+      "exact_location": "Geach, Reference and Generality, 3rd ed. (1980), §110, PDF pages 107–108; Weatherson, SEP Winter 2023, §§1, 5, and 7.1.",
+      "relationship": "supports_with_qualification",
+      "finding": "Geach’s passage directly contains the hair/tissue construction, the apparent 1,001 result, and his resolution in terms of the different masses being the same cat. The revised article now distinguishes this relative-identity move from Unger’s cloud-based setup and marks the proposal as controversial.",
+      "limitation": "A third-party scan was used for the primary passage; no printed page number was asserted. The primary text reports Geach’s own view, not its acceptance by later philosophers.",
+      "required_edit": "Made: replaced the earlier generic atom/hair vignette with Geach’s actual omission-of-one-hair construction and explained his response."
+    },
+    {
+      "material_claim": "The Problem of the Many is about vague boundaries and competing candidate objects, but its relation to vagueness does not make it identical to the Sorites or to persistence-through-part-change puzzles.",
+      "source_title": "The Problem of the Many (Unger); The Problem of the Many (SEP); Identity Over Time (SEP)",
+      "source_url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "exact_location": "Unger, pp. 411–415; Weatherson, SEP §1 (vague predicates, cloud boundaries, and solution domains) and §9 (separate Tibbles-and-tail parthood example); Gallois and Kurtsal, SEP Spring 2026 §§1 and 4 (identity and persistence through changing parts).",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP survey explicitly distinguishes the problem’s apparent connection to vague predicates from deeper composition and identity issues, and its §9 tail story is a separate time-sensitive parthood puzzle. The identity-over-time source supports broad context only. The revised article says both puzzles are related but not the same, and directs the Tibbles-and-tail attribution to Weatherson §9.",
+      "limitation": "The identity-over-time source is a general secondary account and does not itself establish the Tibbles-tail example. The distinction is conceptual/editorial framing grounded in the SEP’s presentation.",
+      "required_edit": "Made: clarified that Unger’s cloud case, Geach’s Tibbles masses, and the cat-loses-its-tail story are distinct presentations/questions."
+    },
+    {
+      "material_claim": "The outlined metaphysical responses include restricted composition or Unger-style nihilism, overpopulation, relative identity, and Lewis’s almost-identity proposal, with objections and different costs.",
+      "source_title": "The Problem of the Many (SEP); Reference and Generality",
+      "source_url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "exact_location": "Weatherson, SEP §§2–6; Geach, §110 for the cat/relative-identity proposal.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP surveys these as separate, competing options and gives objections; it notes overpopulation has defenders, distinguishes Unger’s radical conclusion from composition theories, and discusses challenges to both relative identity and almost-identity. The revised article now avoids collapsing all responses into “many cats” or a single almost-identity view.",
+      "limitation": "The selected responses are illustrative, not exhaustive. No claim is made that any response is settled or accepted by consensus.",
+      "required_edit": "Made: replaced compressed, potentially conflating solution labels with a qualified list of distinct response families and acknowledged disagreement."
+    },
+    {
+      "material_claim": "Semantic vagueness solutions, including supervaluationism and epistemicism, do not amount simply to saying every candidate is an equally permissible referent for the name Tibbles.",
+      "source_title": "The Problem of the Many (SEP)",
+      "source_url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "exact_location": "Weatherson, SEP §7, especially §§7.1–7.3 and its discussion of supervaluationist precisifications, penumbral connections, epistemicism, and semantic indeterminacy in names/demonstratives.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source distinguishes supervaluationist treatment of vague predicate extensions from related indeterminacy about demonstratives/names and records objections to the supervaluationist package. The revised article says candidate classifications can vary across admissible precisifications while “there is one cloud” may remain true, and does not identify that with unrestricted reference-indeterminacy.",
+      "limitation": "The SEP entry itself notes outstanding objections and that the success of vagueness-based solutions is unsettled; the article gives a brief teaching summary rather than a full semantics.",
+      "required_edit": "Made: corrected the earlier overbroad description of supervaluationism as each candidate being a permissible referent and stated its contested status."
+    },
+    {
+      "material_claim": "Some proposed responses locate indeterminacy in parthood/composition, while such moves remain controversial and do not automatically eliminate the many-candidates difficulty.",
+      "source_title": "The Problem of the Many (SEP)",
+      "source_url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "exact_location": "Weatherson, SEP §9, on van Inwagen’s vague parthood/fuzzy constitution account and the difficulties of selecting among candidate objects.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP describes a proposal to treat parthood as vague but questions how that handles the many candidate objects; it also distinguishes the cloud case from cats and people in the view discussed. The article avoids presenting ontological vagueness as a simple or accepted solution.",
+      "limitation": "The sources survey but do not settle whether ontological vagueness is coherent or whether it solves all versions of the problem.",
+      "required_edit": "Made: retained the metaphysical-vagueness option but made its contested and incomplete status explicit."
+    },
+    {
+      "material_claim": "Lewis’s almost-identity response treats everyday counting as sometimes relying on almost-identity rather than strict identity; this is one proposal, not an established fact about ordinary counting.",
+      "source_title": "The Problem of the Many (SEP)",
+      "source_url": "https://plato.stanford.edu/archives/win2023/entries/problem-of-many/",
+      "exact_location": "Weatherson, SEP §6, including the statement that Lewis proposes counting by almost-identity and the section’s objections about strict identity and non-almost-identical candidates.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports attributing the proposal to Lewis and describes objections. The revised article explicitly calls it one response and says other philosophers reject the analysis; it does not infer that ordinary counting in fact works this way.",
+      "limitation": "This is a contested account of counting language and identity, not an empirical finding about speakers or a consensus view.",
+      "required_edit": "Made: qualified the counting claim as an attributed response and stated that its consequences depend on disputed assumptions."
+    },
+    {
+      "material_claim": "Unger extends the argument beyond clouds to other ordinary kinds, while the article’s crowd extension is editorial teaching framing.",
+      "source_title": "The Problem of the Many (Unger); The Problem of the Many (SEP)",
+      "source_url": "https://doi.org/10.1111/j.1475-4975.1980.tb00416.x",
+      "exact_location": "Unger, p. 411, lines naming stones, tables, and hands; Weatherson, SEP §§1–2 on objects including humans and the extension of the problem beyond clouds.",
+      "relationship": "supports_with_qualification",
+      "finding": "Unger explicitly says he will extend his arguments from clouds to other ordinary kinds, including stones, tables, and hands. The revised article attributes those examples to him and labels only the further crowd analogy as editorial framing.",
+      "limitation": "The crowd example is not represented as a historical example or as a separately sourced case.",
+      "required_edit": "Made: corrected the scope note so Unger’s own extensions are not mislabelled as editorial analogies."
+    },
+    {
+      "material_claim": "The article’s ‘more detailed physical description does not by itself settle the count’ sentence is an interpretive explanation of the puzzle, not a claim that science can never contribute.",
+      "source_title": "The Problem of the Many (Unger); The Problem of the Many (SEP)",
+      "source_url": "https://doi.org/10.1111/j.1475-4975.1980.tb00416.x",
+      "exact_location": "Unger, pp. 413–415 on gradual dispersion and equally eligible overlapping complexes; Weatherson, SEP §1 and §7 on the setup and candidate extension issue.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources frame the problem around multiple candidate aggregates and the absence of a uniquely favored one under the stipulated assumptions. The revised article limits its claim to physical description alone not settling which collections count as the object.",
+      "limitation": "This is an explanatory inference from the philosophical setup, not an independent result in physics or a universal claim that further empirical information is irrelevant.",
+      "required_edit": "Made: recast the statement as a limited interpretive point tied to the stipulated setup."
+    },
+    {
+      "material_claim": "The revised Further Reading entries, their stable URLs and order match the proposed data patch; the target dataset record was not modified.",
+      "source_title": "Revised target article; matching local data record; proposed data patch",
+      "source_url": null,
+      "exact_location": "Article §9 and research/source-review-batch15-item-problem-of-the-many-data-patch.json; read-only data/experiments.json object with id problem-of-the-many.",
+      "relationship": "supports",
+      "finding": "The article lists the Weatherson Winter 2023 archive first and the Gallois–Kurtsal Spring 2026 archive second; the proposed patch contains those same URLs in that order and sets date_verified to 2026-11-01. The input dataset still has its prior date and was not edited.",
+      "limitation": "Local metadata reconciliation only; the patch is a proposed local file, not an applied dataset change.",
+      "required_edit": "Made: created the requested data patch only; did not modify data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "No named or qualified human subject-matter expert reviewed the article; no expert-review claim is made.",
+    "Only relevant passages, not the complete Unger article or Geach book, were read cover to cover; the primary Geach passage came from an unofficial scan.",
+    "The SEP survey is a selective secondary overview, not an exhaustive history of the literature; competing proposals and their criticisms are not settled by this audit.",
+    "The audit verifies attribution and traceability, not the truth or soundness of Unger’s or Geach’s arguments, or which theory of identity, vagueness, composition, or counting is correct."
+  ]
+}

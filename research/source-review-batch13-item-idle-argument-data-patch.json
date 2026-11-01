@@ -1,0 +1,36 @@
+{
+  "id": "idle-argument",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Fatalism",
+      "url": "https://plato.stanford.edu/entries/fatalism/",
+      "kind": "academic",
+      "support": "Section 7 presents the Idle Argument, Cicero's report of Chrysippus's reply, versions that omit explicit fate-language, and qualifications about the generalized argument. Scholarly secondary source; it does not establish the argument's soundness."
+    },
+    {
+      "title": "Tim O’Keefe, “Ancient Theories of Freedom and Determinism,” Stanford Encyclopedia of Philosophy, Spring 2021 archive",
+      "url": "https://plato.stanford.edu/archives/spr2021/entries/freedom-ancient/",
+      "kind": "academic",
+      "support": "Sections 1 and 1.4 distinguish logical fatalist arguments from causal determinism and explain the Stoic co-fated response, including how action can be causally effective. Scholarly secondary synthesis."
+    },
+    {
+      "title": "Cicero, On Fate 28–30 — Loeb Classical Library",
+      "url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+      "kind": "primary",
+      "support": "Ancient testimony for the doctor/recovery form of the Idle Argument, the version framed in terms of eternal truth, and Cicero's report that Chrysippus replies by distinguishing simple from complex or co-fated events. Later report, not a surviving text by the argument's originator or Chrysippus."
+    },
+    {
+      "title": "Aristotle, On Interpretation 9 — MIT Classics",
+      "url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+      "kind": "primary",
+      "support": "Chapter 9, 18b31–36, discusses the apparent consequence that deliberation and taking trouble would be unnecessary if future events were necessary, and then notes that deliberation and action are causative. Related background, not direct attribution of the later-named Idle Argument."
+    },
+    {
+      "title": "Pedro José Grande Sánchez, “The Greek Philosophical Sources in Cicero’s De Fato” (2025)",
+      "url": "https://www.mdpi.com/2077-1444/16/7/824",
+      "kind": "academic",
+      "support": "Section 2 dates composition of De Fato to around June 44 BCE. Scholarly secondary analysis used for the work's approximate date, not for attribution of the Idle Argument."
+    }
+  ]
+}

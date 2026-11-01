@@ -1,0 +1,30 @@
+{
+  "id": "zenos-dichotomy",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
+      "url": "https://plato.stanford.edu/entries/paradox-zeno/",
+      "kind": "academic",
+      "support": "Scholarly discussion of Aristotle’s later report, modern reconstructions of the Dichotomy, mathematical replies, and qualifications concerning infinity and the physical application of the continuum. Relevant sections were read; the full entry was not."
+    },
+    {
+      "title": "Aristotle, Physics, Book VI",
+      "url": "https://classics.mit.edu/Aristotle/physics.6.vi.html",
+      "kind": "primary",
+      "support": "Primary ancient text in the Hardie and Gaye translation: Book VI.9 reports the half-way argument and presents Aristotle’s response about infinitely divisible magnitude and time. Selected passages were read; the complete Physics was not."
+    },
+    {
+      "title": "Aristotle, Physics, Book III",
+      "url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+      "kind": "primary",
+      "support": "Primary ancient text in the Hardie and Gaye translation: Book III.6 discusses the infinite by division and potential existence. The relevant passage was read; the complete Physics was not."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Supertasks",
+      "url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "kind": "academic",
+      "support": "Scholarly reference discussion of the forward and regressive Zeno walk, geometric-series convergence and meanings of completion, and Thomson’s lamp as a related but distinct discrete supertask. Relevant sections were read; the full entry was not."
+    }
+  ]
+}

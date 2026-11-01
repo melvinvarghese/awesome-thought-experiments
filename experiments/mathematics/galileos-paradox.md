@@ -10,38 +10,40 @@
 
 ## 1. The Scenario
 
-Some whole numbers are perfect squares: 1, 4, 9, 16, and so on. Most are not. So there seem to be fewer squares than numbers.
+In the First Day of *Two New Sciences*, Galileo’s interlocutors compare the whole numbers with their square numbers: 1, 4, 9, 16, and so on. The squares are only some of the numbers. In finite ranges, their proportion decreases: Galileo’s example says that up to 100 there are 10 squares, and up to 10,000 there are 100.
 
-But every number can be paired with its square: 1 with 1, 2 with 4, 3 with 9, and so on. Every number has exactly one square and every square has exactly one number as its root. So there seem to be exactly as many squares as numbers.
+But every positive whole number is the root of a square. So each number can be matched with its square: 1 with 1, 2 with 4, 3 with 9, and so on. In current mathematical language, this is a one-to-one correspondence. That modern description captures the pairing in the dialogue; it is not Galileo’s technical terminology for cardinality.
 
 ## 2. The Central Question
 
-Can an infinite collection have as many members as one of its own proper parts?
+When an infinite collection is paired one-to-one with a proper part of itself, should we call the two collections equal in size, or should the whole count as greater than its part?
 
 ## 3. Why It Matters
 
-Galileo concluded that the notions of “more,” “less” and “equal” cannot be applied to infinite quantities. Later mathematicians, especially Cantor, took a different view: they defined two collections to be the same size if they can be paired off one-to-one. On this definition, the squares and the numbers have the same size.
+In Galileo’s dialogue, Salviati concludes that “equal,” “greater,” and “less” do not apply to infinite quantities in the way they do to finite ones. The squares appear fewer because they form only part of the numbers; the root-pairing, however, appears to match every number with exactly one square. The dialogue presents both considerations rather than resolving them with a later definition of infinite size.
 
-This overturned the old principle that the whole is greater than the part, at least for infinite collections, and it opened the way to a hierarchy of infinite sizes.
+Later, Cantorian set theory adopted one-to-one correspondence as the criterion for equal cardinality. On that modern definition, the positive whole numbers and their squares have the same cardinality, even though the squares are a proper subset. Cantorian cardinality also distinguishes infinite sizes: the real numbers cannot be paired one-to-one with the positive whole numbers. These are later mathematical developments, not terminology or results to attribute to Galileo.
 
 ## 4. Major Interpretations
 
-**Galileo’s own conclusion** is to avoid comparing infinite quantities. **Cantorian set theory** accepts the pairing criterion and holds that some infinite sets are larger than others. **Alternative approaches** keep the part–whole principle by using different notions of size, for example based on density. **Finitists** reject actual infinities.
+The Stanford Encyclopedia of Philosophy’s historical account presents Galileo as concluding that equality and greater-than/less-than comparisons cannot be applied to infinite collections; it explains Cantor’s later cardinality framework as privileging one-to-one correspondence. Matthew W. Parker offers a different philosophical emphasis: he argues that the paradox is best understood through the articulation of distinct concepts of number and size, and that Cantor’s framework is a useful extension rather than the uniquely correct meaning of number. This is a published interpretation, not a settled consensus.
+
+Later alternatives also exist. The SEP account describes theories of “numerosities” that distinguish sets which Cantorian cardinality treats as equal and can preserve a part–whole comparison for infinite sets. These are modern mathematical theories, not Galileo’s own proposal. “Density” can describe how frequently squares occur within finite initial ranges, as in Galileo’s example, but it is not by itself a general replacement for cardinality.
 
 ## 5. Common Misunderstandings
 
-The paradox does not show that all infinite sets are the same size; Cantor showed that real numbers are more numerous than whole numbers. It also does not show that mathematics is inconsistent. It shows that our intuitions about size, formed by finite cases, do not carry over.
+The paradox does not show that all infinite sets have the same cardinality: under Cantorian set theory, the real numbers are not in one-to-one correspondence with the positive whole numbers. Nor does it show that mathematics is inconsistent. The apparent conflict comes from applying different comparison intuitions—part–whole and one-to-one pairing—to infinite collections.
 
 ## 6. Think for Yourself
 
-1. Which principle do you prefer: one-to-one pairing, or the whole being greater than the part?
-2. Is there a sense in which squares are rarer than numbers?
-3. Can you pair the even numbers with all numbers?
-4. How does this relate to Hilbert’s Hotel?
+1. Which comparison rule seems more compelling here: one-to-one pairing, or the whole being greater than a proper part?
+2. How can squares be less frequent in every finite initial range yet pair one-to-one with all positive whole numbers?
+3. Can you pair the even positive integers with all positive integers? What does that pairing establish under Cantorian cardinality?
+4. How does this modern comparison relate to Hilbert’s Hotel?
 
 ## 7. Variations and Extensions
 
-Other pairs, such as the natural numbers and the integers, work the same way. Contrast them with the real numbers, which cannot be paired with the natural numbers.
+In modern set theory, the positive integers can also be paired one-to-one with their even members. This illustrates the same feature of infinite cardinality; it is an extension of the mathematical discussion, not a variation attributed to Galileo.
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +52,14 @@ Other pairs, such as the natural numbers and the integers, work the same way. Co
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Infinity](https://plato.stanford.edu/entries/infinity/) — Galileo’s paradox in the history of thought about infinity.
+- [Galileo Galilei, *Dialogues Concerning Two New Sciences* (1914 English translation)](https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences) — Primary text, First Day; the relevant passage contrasts the finite proportion of squares with the root-pairing and the limits of comparing infinite quantities.
+- [Stanford Encyclopedia of Philosophy: Infinity](https://plato.stanford.edu/archives/spr2022/entries/infinity/) — Historical account of Galileo’s paradox, Cantorian cardinality, and later numerosity approaches.
+- [Matthew W. Parker, “Philosophical Method and Galileo’s Paradox of Infinity”](https://philarchive.org/rec/PARPMA-2) — A philosophical-historical analysis of the paradox as a problem of how concepts of number are extended.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on infinity was consulted for Galileo’s paradox and the later treatment. Galileo’s book was not retrieved. The summary of Cantor’s result is brief.
+Galileo’s First Day passage was checked in the Henry Crew and Alfonso de Salvio English translation of *Two New Sciences* (1914), especially the discussion of the squares and roots and the conclusion about comparing infinite quantities. “One-to-one correspondence” and “cardinality” are used here as modern mathematical descriptions, not as Galileo’s technical vocabulary. The historical and mathematical context was checked against the Stanford Encyclopedia of Philosophy entry “Infinity”; Parker’s chapter was consulted for a contrasting philosophical interpretation. Modern comparison questions are teaching prompts, not historical claims about Galileo.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. The primary text and relevant passages of the two secondary sources were consulted; none of the works was read in full. This is an educational explanation, not a substitute for the primary texts or a comprehensive history of the mathematics of infinity.
 
 [Return to collection](../../README.md)

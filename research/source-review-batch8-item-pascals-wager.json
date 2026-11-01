@@ -1,0 +1,173 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "pascals-wager",
+  "title": "Pascal’s Wager",
+  "article_path": "experiments/economics/pascals-wager.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, its matching dataset record, and the prior expansion/access note. Focus: the wager's exact payoff and forced-choice formulation in Pensées; the expected-utility inference and its assumptions; distinctions among belief, conduct, and inquiry; objections involving infinite utility, multiple religions, and doxastic control; named critics and replies; publication-history wording; and teaching framings. Source_checked records traceability of the revised article's material claims, not the truth or soundness of Pascal's argument, consensus, exhaustive literature coverage, or expert review.",
+  "summary": "The consulted Pensées translation directly supports the forced-choice language, the ‘gain all/lose nothing’ formulation, the finite stake versus eternal-life payoff claim, and Pascal's practical advice to act as if one believed and lessen passions; a nearby fragment separately urges searching for truth. The SEP sections read distinguish Pascal's prudential wager from proof, explain the positive-probability/infinite-utility inference and its conditions, and map objections and named replies concerning infinite expectations, mixed strategies, and rival religious hypotheses. The IEP provides an independently read overview of belief/practice and the many-gods and infinite-value objections. The University of Dayton Libraries exhibit supports the 1670 posthumous first-edition wording and notes a preliminary 1669 printing. Article edits now qualify the inference, distinguish belief from conduct and inquiry, name the objections and replies without presenting them as settled, and disclose that the primary text was read in translation. The article and dataset now share all four Further Reading URLs; date_verified is 2026-11-01, and the publication record notes both the preliminary printing and posthumous first edition.",
+  "sources": [
+    {
+      "title": "Pascal’s Pensées",
+      "author": "Blaise Pascal",
+      "publication": "English text in the Project Gutenberg reproduction, EBook #18269 (released 2006); the reproduced edition is identified on its title page as a 1958 E. P. Dutton paperback with an introduction by T. S. Eliot. The exact translator metadata is not displayed in the consulted Gutenberg title block. The SEP separately identifies its own quotations as from the 1910 W. F. Trotter translation.",
+      "stable_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+      "source_type": "Primary philosophical work in English translation/reproduction",
+      "access_level": "Selected relevant passages in the full text were directly accessed and read; this is not access to the complete work as an argument or to a critical French edition.",
+      "exact_locations_read": "Printed pp. 66–69, Section III, ‘Of the Necessity of the Wager,’ fragment 233: the interlocutor's inability to believe, forced choice, ‘gain all/lose nothing,’ eternal life and happiness, finite stake, and conduct/means-of-belief advice; printed p. 70, fragment 236, urging the reader to search for truth; printed pp. 70–71, fragments 239–241, on hope, renouncing pleasure, and fear of error. The source begins Section IV, ‘Of the Means of Belief,’ fragment 242, on printed p. 71.",
+      "limitations": "The passage was read in English, not in the French manuscript or a critical edition; the Gutenberg page's visible title block does not identify the translator. The SEP identifies Trotter as the translator of its 1910 quotation, but that does not by itself establish the Gutenberg transcription's edition metadata. A primary passage establishes what the text says, not whether the argument succeeds or whether its theological payoff table is true."
+    },
+    {
+      "title": "Pascal’s Wager",
+      "author": "Alan Hájek",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 2 May 1998; substantive revision 11 September 2022 (current entry consulted).",
+      "stable_url": "https://plato.stanford.edu/entries/pascal-wager/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the current full entry were read; not every note, linked paper, or bibliography item was consulted.",
+      "exact_locations_read": "§1, Background, for prudential versus evidential aims, the decision-theory framing, the unfinished manuscript context, and the text's exegetical issues; §§2–4 for the superdominance and expectation arguments and the positive-probability/infinite-reward reconstruction; §5.1 for the decision table, infinite-utility, additional-infinities, and many-gods objections and proposed replies; §§5.2–5.4 for zero/undefined probability, expected-utility and mixed-strategy objections and responses; §5.5 for moral objections and Franklin's action-oriented reading; §7 for the distinction between believing and taking steps to cultivate belief, including Pascal's practice advice.",
+      "limitations": "This is a sophisticated reference-work interpretation, not a substitute for the primary passage or for the cited individual articles. Named critics and responses were verified as accurately reported by this entry; the underlying papers by Diderot, Mackie, Cargile, Jordan, Schlesinger, Hájek, Duff, Monton, Bartha, and Jackson and Rogers were not independently read. The entry itself notes exegetical and decision-theoretic disputes."
+    },
+    {
+      "title": "Pascal’s Wager about God",
+      "author": "Paul Saka",
+      "publication": "Internet Encyclopedia of Philosophy online entry; author information lists the University of Texas, Rio Grande; a publication or revision date was not visible in the retrieved entry text.",
+      "stable_url": "https://iep.utm.edu/pasc-wag/",
+      "source_type": "Scholarly philosophy reference work / secondary analysis",
+      "access_level": "Relevant full-entry sections were retrieved and read, not only the introductory summary; not every linked source was consulted.",
+      "exact_locations_read": "§1, ‘A Reason for Believing in God,’ subsections a–c on super-dominance, expectation, and dominating expectations; §2, ‘The Intellectualist Objection: Is Belief a Matter of Choice?’; §3, ‘The Many-Gods Objection: Do Rival Religious Options Undermine Each Other?,’ including genuine-option and run-off-decision replies; §4, ‘The Evidentialist Objection’; §5.2, ‘The St. Petersburg Paradox.’",
+      "limitations": "The entry is a secondary overview and its presentation sometimes simplifies technical disputes; it is used as a cross-check for the existence and framing of objections, not as proof that every objection or reply succeeds. Its named sources were not independently read."
+    },
+    {
+      "title": "Pascal: Pensées",
+      "author": "Fred W. Jenkins",
+      "publication": "University of Dayton Libraries Rose Book Collection exhibit; the page credits Jenkins as Professor and Associate Dean for Collections and Operations. No publication date was displayed on the page consulted.",
+      "stable_url": "https://exhibits.udayton.edu/s/rosebook/page/pascal",
+      "source_type": "Institutional library exhibit / publication-history note",
+      "access_level": "The full short exhibit page and its attached bibliography were accessed and read.",
+      "exact_locations_read": "Main exhibit paragraph beginning ‘The work remained incomplete at the time of his death’: it states that the first edition appeared in 1670, eight years after Pascal's death, edited by Abbé Périer, and that there was a preliminary printing in 1669 while the 1670 printing is recognized as the true first edition. The bibliography lists the Brunschvicg and Sellier editions.",
+      "limitations": "This exhibit supports concise publication-history wording and is not a critical bibliography or an account of the wager's argument. The article retains the accurate 1670 posthumous first-edition date and notes the 1669 preliminary printing; it does not imply that Pascal personally published the unfinished Pensées."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Pascal frames the choice as unavoidable and contrasts the possible gain of ‘all’ with losing ‘nothing,’ then describes eternal life and happiness as the possible gain against a finite stake.",
+      "source_title": "Pascal’s Pensées",
+      "source_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+      "exact_location": "Section III, fragment 233, printed pp. 66–68; especially ‘Yes; but you must wager. It is not optional,’ ‘If you gain, you gain all; if you lose, you lose nothing,’ and the subsequent ‘eternity of life and happiness’ / ‘what you stake is finite’ passage.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text supports the article's basic payoff and forced-choice description. The text itself juxtaposes ‘lose nothing’ with a finite stake and describes a theological payoff; the article now states that this is Pascal's setup, not an independently established table of what God rewards.",
+      "limitation": "The wager fragment is a draft within an unfinished work and the consulted English translation is not a critical French edition. ‘Lose nothing’ is Pascal's claim in the argument, not a neutral description accepted by all interpreters.",
+      "required_edit": "Made: replaced the simplified ‘small loss: some pleasures and effort’ with the primary passage's language and marked the payoff table as Pascal's theological setup."
+    },
+    {
+      "material_claim": "On the standard expected-utility reconstruction, a positive, finite, non-infinitesimal probability of God’s existence paired with an infinite reward yields infinite expected utility for wagering for God, assuming the other relevant outcomes are finite; this is conditional, not an uncontested consequence of any tiny probability and any infinity.",
+      "source_title": "Pascal’s Wager",
+      "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+      "exact_location": "§4, ‘The Argument From Generalized Expectations,’ especially the text at lines around the expectation formula and explicit premises; §5.1 on other infinite outcomes; §§5.2–5.4 on zero probability, expected-utility norms, and mixed strategies.",
+      "relationship": "supports_with_qualification",
+      "finding": "Hájek explicitly formalizes the inference using positive finite probability, an infinite payoff, and finite alternative payoffs, while also discussing cases in which probability is zero/undefined, other entries are infinite, or mixed strategies produce a tie. The article now states the conditions and acknowledges the contested status of infinite-utility comparisons.",
+      "limitation": "This is a decision-theoretic reconstruction of Pascal, not an assertion that Pascal used modern Bayesian notation. The mathematical handling of infinities and the normative expected-utility premise remain disputed.",
+      "required_edit": "Made: replaced the unqualified ‘however small its probability’ conclusion with the standard model's stated conditions and explicit objections."
+    },
+    {
+      "material_claim": "The many-gods objection says that a decision table restricted to Pascal's preferred God may leave rival religious hypotheses unrepresented; responses such as genuine-option restrictions and probability tie-breakers have been proposed but are not settled.",
+      "source_title": "Pascal’s Wager",
+      "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+      "exact_location": "§5.1, subsection ‘The decision table,’ item 5, including the Diderot, Mackie, and Cargile formulations and the reply discussion of Schlesinger, Jordan, Franklin, Saka, and Lycan and Schlesinger; cross-checked with Saka, ‘Pascal’s Wager about God,’ §3 and subsections a–b.",
+      "relationship": "supports_with_qualification",
+      "finding": "Both consulted reference works directly discuss the objection and competing response strategies. The revised article presents it as an objection and replies as proposals, not as a settled resolution or as the sole problem with the wager.",
+      "limitation": "Diderot's original text and the cited later authors' papers were not separately read; the claimed historical attribution and named replies are verified through these secondary accounts only.",
+      "required_edit": "Made: named Diderot, Mackie, Saka, Schlesinger, and Jordan in the article and qualified the status of their arguments."
+    },
+    {
+      "material_claim": "Infinite-utility objections include concerns about coherent or usable infinite utilities, multiple or opposing infinities, and mixed strategies that may prevent an outright wager from being uniquely required; responses and reformulations are contested.",
+      "source_title": "Pascal’s Wager",
+      "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+      "exact_location": "§5.1, items 2–3, on infinite utility and additional infinities; §5.3 on limits of maximizing expected utility; §5.4 on the mixed-strategy objection (Duff and Hájek) and responses by Monton, Robertson, Easwaran and Monton, Bartha, and Jackson and Rogers.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP supports the specific classes of objection and reports named counterarguments/reformulations. The article no longer says broadly that expected utility is simply ‘not well-defined’; it states more carefully that comparisons may be unable to distinguish choices or may become undefined under some infinite-value specifications.",
+      "limitation": "The entry reports an active technical dispute; the underlying papers were not individually consulted. The article summarizes only representative issues and does not claim an exhaustive objection taxonomy.",
+      "required_edit": "Made: narrowed the infinite-utility objection and named representative critics and replies without suggesting that any one position resolves it."
+    },
+    {
+      "material_claim": "Pascal's text distinguishes the inability to believe directly from practical steps toward faith, and a nearby fragment separately urges the reader to search for truth.",
+      "source_title": "Pascal’s Pensées",
+      "source_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+      "exact_location": "Fragment 233, printed pp. 68–69: the interlocutor says he cannot believe; Pascal advises not increasing proofs but lessening passions, and recommends acting as if one believed, taking holy water, and having masses said; fragment 236, printed p. 70, says to search for truth. Cross-check: Hájek, SEP §7, ‘What Does It Mean to “Wager for God”?’",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary passage supports the distinction between direct belief, conduct intended to cultivate belief, and inquiry. Pascal says the practices may lead to belief; the article presents this as his counsel, not as a guaranteed causal mechanism, and avoids identifying the wager solely with the cost of inquiry.",
+      "limitation": "Pascal's causal/psychological claim about practice and belief is what the text asserts; it is not independently validated. The consulted passage does not establish that action will reliably produce belief for every reader.",
+      "required_edit": "Made: distinguished belief, conduct, and inquiry; replaced the ungrounded ‘cost of inquiry’ gloss with Pascal's actual practice advice and nearby search-for-truth fragment."
+    },
+    {
+      "material_claim": "The wager is prudential rather than a proof that God exists; this does not entail that the unfinished Pensées contains no other reasoning or evidence-oriented material.",
+      "source_title": "Pascal’s Wager",
+      "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+      "exact_location": "§1, Background, which states that Pascal's project in the wager is to show that one ought to believe rather than that God exists, and to give prudential rather than evidential reasons; primary-text context at Pensées fragment 233, printed pp. 66–69, including ‘Reason can decide nothing here’ and ‘not by increase of proofs’ in the advice to the unbeliever.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP directly supports describing the wager as prudential rather than an existence proof. Pascal's primary passage supports that the wager begins where reason cannot decide and turns to practical advice, but neither source justifies a blanket claim that Pascal offered no other arguments in the Pensées. The revised wording preserves this distinction.",
+      "limitation": "The article addresses the wager, not the full apologetic project of the unfinished Pensées. The SEP itself notes that Pascal left notes and that the text poses exegetical problems.",
+      "required_edit": "Made: changed ‘Pascal did not offer it as such’ to distinguish the wager's aim from the broader contents of Pascal's unfinished work."
+    },
+    {
+      "material_claim": "The Pensées remained unfinished at Pascal's death; its recognized first edition appeared posthumously in 1670, with a preliminary printing in 1669.",
+      "source_title": "Pascal: Pensées",
+      "source_url": "https://exhibits.udayton.edu/s/rosebook/page/pascal",
+      "exact_location": "University of Dayton Libraries exhibit paragraph beginning ‘The work remained incomplete at the time of his death’; read in full.",
+      "relationship": "supports",
+      "finding": "The institutional exhibit says the first edition appeared in 1670, eight years after Pascal's death, edited by Abbé Périer, while a preliminary printing occurred in 1669 and the 1670 printing is recognized as the true first edition. The article's metadata continues to state the correct posthumous 1670 publication and adds the preliminary-printing nuance in its source note.",
+      "limitation": "This is a brief institutional exhibit, not a critical publication-history study. It supports the date wording only, not claims about the argument.",
+      "required_edit": "Made: preserved the 1670 posthumous first-edition claim and added that a preliminary printing appeared in 1669."
+    },
+    {
+      "material_claim": "The wager is commonly described as an early decision-theoretic argument, while the precise historical-priority claim should not be overstated.",
+      "source_title": "Pascal’s Wager",
+      "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
+      "exact_location": "§1, Background: SEP calls Pascal's formulation distinctive for its explicit decision-theoretic form and attributes ‘the first well-understood contribution to decision theory’ to Hacking (1975).",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised wording ‘often treated as an early explicit decision-theoretic argument’ is proportionate to the SEP's account and avoids claiming an unqualified absolute priority for Pascal.",
+      "limitation": "The underlying historical-priority assertion belongs to Hacking as reported by Hájek; Hacking's book and possible precursors were not independently examined in this item review.",
+      "required_edit": "Made: qualified the article's historical-priority statement."
+    },
+    {
+      "material_claim": "Finite-but-large payoff versions and alternative divine payoffs are teaching variations that alter the decision problem, not established historical variants attributed to Pascal.",
+      "source_title": "Pascal’s Wager about God",
+      "source_url": "https://iep.utm.edu/pasc-wag/",
+      "exact_location": "§5.2, ‘The St. Petersburg Paradox,’ on arbitrarily high finite payoffs; §3 on alternative religious payoff matrices. Cross-check: Hájek, SEP §5.1, items 1–5, on different reward tables and other infinite payoffs.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support the conceptual possibility of finite high-payoff and altered-reward variants, while the revised article labels such cases as versions/teaching variations rather than as Pascal's historical wording.",
+      "limitation": "The sources do not establish that a particular classroom version is a canonical historical formulation. The article does not claim that they are.",
+      "required_edit": "Made: explicitly labeled the payoff setup and modernization as teaching framing rather than a historical version."
+    }
+  ],
+  "edits_made": [
+    "Replaced the simplified payoff scenario with Pascal's own forced-choice, gain-all/lose-nothing, eternal-life, and finite-stake wording, while identifying the payoff table as Pascal's theological setup.",
+    "Qualified the expected-utility inference by stating the positive, finite, non-infinitesimal probability and finite-alternative assumptions and noting objections to infinite-utility reasoning.",
+    "Distinguished direct belief, practices intended to cultivate belief, and inquiry; added the nearby fragment's advice to search for truth and removed the unsupported cost-of-inquiry gloss.",
+    "Named representative many-gods, infinite-utility, and mixed-strategy critics and replies, while marking these positions as disputed rather than settled.",
+    "Qualified the claim that the wager is not a proof, so it does not imply that Pascal's unfinished Pensées contains no other arguments.",
+    "Qualified the early-decision-theory historical wording; preserved the posthumous 1670 first-edition date and noted the preliminary 1669 printing.",
+    "Added direct primary-text, IEP, and publication-history references; updated the article research-check date and disclosed translation and metadata limits."
+  ],
+  "unresolved": [
+    "The underlying primary texts and papers by Diderot, Mackie, Cargile, Jordan, Schlesinger, Hájek, Duff, Monton, Bartha, Jackson and Rogers, and Saka were not individually read; named arguments were checked through the directly read SEP and IEP discussions only.",
+    "The Pascal text was consulted only in English translation/reproduction. The French manuscript and a critical French edition were not consulted; the exact translator metadata for the Gutenberg transcription was not displayed in its retrieved title block.",
+    "The philosophical soundness of Pascal's payoff assumptions, the proper treatment of infinite utilities, and the success of proposed replies remain disputed and were not adjudicated."
+  ],
+  "dataset_alignment": "The matching dataset record retains the same id, title, article path, category/type, associated thinker, related entries, and compatible summary. The summary question is conceptually aligned with, but not verbatim from, the article’s central question. Dataset references now match all four Further Reading URLs, date_verified is 2026-11-01, and original_publication records the posthumous 1670 first edition and preliminary 1669 printing.",
+  "further_reading_matches": "Yes: all four Further Reading URLs match the dataset references; date_verified matches the 2026-11-01 article research check.",
+  "ledger_path": "research/source-review-batch8-item-pascals-wager.json",
+  "selection_rank": 1,
+  "risk_reason": "The article uses an infinite-reward setup to claim that belief is rational even at a small probability, asserts that Pascal did not offer the wager as proof, and previously disclosed that Pensées was not retrieved while the SEP was only topic-checked. These conditions created attribution, payoff-table, infinity, access, and overstatement risk.",
+  "audit_focus": "Trace the exact payoff/choice formulation to Pensées passages if accessible; distinguish belief, conduct, and inquiry; check inference under infinite utility and multiple-religion objections; verify publication-history wording and named responses.",
+  "independent_review": {
+    "review_date": "2026-11-01",
+    "reviewer_type": "AI-assisted independent read-only post-edit reviewer",
+    "verdict": "pass_with_minor_changes",
+    "status": "complete",
+    "summary": "No material source-traceability issue was found. The review noted that the article and dataset summary questions are conceptually aligned rather than verbatim; the ledger now says so. Dataset references and date have been synchronized. This is not human or expert review.",
+    "human_expert_review": false
+  }
+}

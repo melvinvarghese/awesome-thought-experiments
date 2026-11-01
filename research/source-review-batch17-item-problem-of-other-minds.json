@@ -1,0 +1,116 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "problem-of-other-minds",
+  "title": "The Problem of Other Minds",
+  "article_path": "experiments/consciousness/problem-of-other-minds.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching data record. Checked the traditional epistemological setup; Mill's argument-from-analogy formulation and attribution/date; objections and replies concerning single-case generalization and checkability; best-explanation, criteria/Wittgensteinian, perceptual, and testimony-based approaches; skeptical, conceptual, and metaphysical distinctions; and extensions to animals, infants, noncommunicating people, and machines. The status records traceability to the consulted passages, not the truth of any disputed philosophical conclusion, an exhaustive history or literature review, or expert review.",
+  "summary": "The article now presents Mill's argument as an influential formulation rather than an origin claim; explains both the single-case objection and replies; distinguishes epistemological, conceptual, and metaphysical questions; and describes best-explanation, criteria-based, perceptual, and testimony-based alternatives without presenting them as settled. It separates uncertainty about knowledge from denial of other minds. Animal/infant applications are grounded in the SEP discussion; noncommunication and machine examples are explicitly labeled as editorial teaching extensions. Relevant passages of the SEP entry were read. Mill's own passage was verified through the SEP's quotation and citation, not by reading the primary text passage itself.",
+  "sources": [
+    {
+      "title": "Other Minds",
+      "author": "Anita Avramides",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2019, substantive revision 19 December 2023.",
+      "stable_url": "https://plato.stanford.edu/entries/other-minds/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Selected relevant passages in the full online entry were read; the entire entry was not read.",
+      "exact_locations_read": "Opening overview; §1, “The (Traditional) Epistemological Problem”; §1.1, “The Argument from Analogy” (including the Mill quotation and objections/replies); §1.2, “Best Explanation”; §1.3, “Criteria”; §1.4 and §1.4.1 on perceptual knowledge; and §4.1, “From Descartes to Mill.” The overview distinguishes epistemological, conceptual, and metaphysical questions and mentions testimony, perception, infants, and non-human animals. Sections 1 and 1.1 describe the setup, cite Mill's 1865 formulation, and discuss the single-case, logical-checkability, and first-premise objections alongside replies. Sections 1.2–1.4.1 describe best explanation, criteria/Wittgensteinian approaches, and disputed perceptual accounts. Section 4.1 situates Mill in earlier debates and discusses Reid and an arguably earlier formulation in Arnauld.",
+      "limitations": "Secondary synthesis, not a substitute for reading Mill's complete primary work or a comprehensive history. The entry explicitly reports disagreement about the problem and its solutions; its account is not treated as consensus or as establishing that any one argument succeeds. Perceptual knowledge is described as a debated view with limited scope, not an infallible or universal ability."
+    },
+    {
+      "title": "An examination of Sir William Hamilton's philosophy, and of the principal philosophical questions discussed in his writings",
+      "author": "John Stuart Mill",
+      "publication": "Second edition, London: Longmans, Green, and Co., 1865; Internet Archive digitized catalogue and scan record.",
+      "stable_url": "https://archive.org/details/examinationofsir00mill",
+      "source_type": "Primary philosophical work (bibliographic record and scan; not used as direct passage evidence)",
+      "access_level": "Catalogue metadata and title-page text were read; an OCR text endpoint was fetched, but the relevant passage was not located or consulted directly.",
+      "exact_locations_read": "Catalogue record publication date, author, title, and publisher; digitized text title page identifies the second edition and 1865. No argument-from-analogy passage from the body of the work is claimed as read from this item.",
+      "limitations": "Metadata/title page establishes bibliographic details only. The SEP entry supplies the consulted quotation and its citation to Mill (1865 [1872: 243]); this audit does not claim independent verification of that passage against the primary work."
+    },
+    {
+      "title": "Matching Problem of Other Minds data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id problem-of-other-minds; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching dataset object was inspected and compared with the revised article.",
+      "exact_locations_read": "The matching object lists the same article path and a single SEP Further Reading URL. Its existing date_verified value is 2026-10-31; the requested data patch records 2026-11-01 and retains that one reference in the article's order.",
+      "limitations": "Metadata comparison only; this audit made no writes to data/experiments.json. At final inspection the shared worktree showed unrelated changes to other records in that file; those changes were left untouched. The record does not establish philosophical or historical claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The traditional problem asks how one knows or justifies belief that others have thoughts and feelings; the scenario contrasts direct awareness of one's own case with evidence concerning others.",
+      "source_title": "Other Minds",
+      "source_url": "https://plato.stanford.edu/entries/other-minds/",
+      "exact_location": "Opening overview and §1, especially the discussion of epistemological asymmetry and indirect access through behavior.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP supports the traditional epistemological setup and describes the usual contrast between direct knowledge of one's own states and indirect knowledge of others. The article avoids treating indirect access as the only possible account: perception and testimony are also discussed.",
+      "limitation": "The SEP emphasizes that philosophers disagree about whether there is a problem and how it should be framed; the scenario is an introductory rendering of the traditional framing."
+    },
+    {
+      "material_claim": "Mill offers an influential argument-from-analogy formulation using bodily similarity and outward signs known in one's own case to be associated with feelings; the attribution is not a claim that he originated the argument.",
+      "source_title": "Other Minds",
+      "source_url": "https://plato.stanford.edu/entries/other-minds/",
+      "exact_location": "§1.1 quotes Mill's question and answer and cites 1865 [1872: 243]; §4.1 situates Mill in prior discussions, including Reid and Arnauld.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP explicitly identifies Mill's writing as a statement of the argument and quotes the body-and-outward-signs reasoning. Its historical discussion places the argument in an earlier context and says Arnauld arguably offers an earlier formulation. The article therefore identifies Mill as influential, not first.",
+      "limitation": "The primary passage was not independently read in Mill's work; the wording and attribution are checked through the SEP quotation and citation. The Internet Archive record confirms the 1865 edition/title metadata only."
+    },
+    {
+      "material_claim": "The single-case objection and doubts about checking the conclusion are debated, rather than a decisive refutation; defenders have offered replies and different ways to construe the evidence.",
+      "source_title": "Other Minds",
+      "source_url": "https://plato.stanford.edu/entries/other-minds/",
+      "exact_location": "§1.1, passages on the three objections, responses by Hyslop and Jackson, Mill's account of analogy as inductive evidence, and the differing view of single-case generalization.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP records logical uncheckability, generalization from one case, and the first-person premise as objections, while also presenting replies and alternative defenses. The article's revised wording preserves this disagreement rather than treating the objection as settled.",
+      "limitation": "The ledger does not evaluate which defense succeeds or survey the full literature."
+    },
+    {
+      "material_claim": "Best-explanation, criteria-based/Wittgensteinian, perceptual, and testimony-based accounts are alternatives or supplements; they differ in how they understand evidence and access to other minds.",
+      "source_title": "Other Minds",
+      "source_url": "https://plato.stanford.edu/entries/other-minds/",
+      "exact_location": "Opening overview; §§1.2, 1.3, 1.4, and 1.4.1.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP describes best explanation as a prominent alternative; criteria approaches as challenging a private-inner-object picture; perceptual approaches as defended by some philosophers in some cases; and testimony as a proposed basic source of knowledge. It also records objections, internal differences, and limits of perceptual accounts. The article presents these as competing views, not conclusions settled by the entry.",
+      "limitation": "No account is established as correct or exhaustive. The article's short summaries are introductory and intentionally do not reproduce the full debate."
+    },
+    {
+      "material_claim": "Epistemic uncertainty about how we know others have minds is distinct from asserting that they lack minds; conceptual and metaphysical questions are related but not identical.",
+      "source_title": "Other Minds",
+      "source_url": "https://plato.stanford.edu/entries/other-minds/",
+      "exact_location": "Opening overview; §1 on thin and thick skeptical problems and solipsism; §§1.3–1.4.1 on criteria and perceptual responses.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry distinguishes epistemological skepticism from conceptual questions and connects both with a broader metaphysical question. It discusses radical skeptical scenarios as challenges to knowledge and explains that approaches to them differ. The revised article does not infer nonexistence from lack of certainty and does not claim that philosophers generally accept solipsism.",
+      "limitation": "The SEP does not settle the metaphysical question or establish that any skeptical scenario is true."
+    },
+    {
+      "material_claim": "Applications to infants and non-human animals fit the SEP's discussion of the naturalist turn; applications to noncommunicating people and artificial systems are the article's extensions, not claims attributed to the SEP or Mill.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§3 and 7.",
+      "relationship": "context_only",
+      "finding": "The SEP overview mentions infants and non-human animals as cases in work on mental-state attribution. The article explicitly labels noncommunication and machine examples as its own teaching applications and does not attribute them to Mill or treat them as established conclusions.",
+      "limitation": "The machine and noncommunication prompts are editorial examples, not substantiated claims about the mental states of any particular people or systems."
+    },
+    {
+      "material_claim": "The article's Further Reading entry and the matching data record refer to the same SEP URL; the data record's extant verification date differs from the requested review date.",
+      "source_title": "Matching Problem of Other Minds data record",
+      "source_url": null,
+      "exact_location": "Revised article §9 and data/experiments.json object with id problem-of-other-minds.",
+      "relationship": "supports",
+      "finding": "The article retains one SEP Further Reading reference, matching the matching object’s one URL and order. That object’s existing date_verified is 2026-10-31; the separate requested data patch proposes 2026-11-01. No public review-status field was added and this audit made no writes to the data file.",
+      "limitation": "Metadata alignment only; the patch is an artifact for later application, not an edit to the data file. Other objects in data/experiments.json had unrelated shared-worktree changes at final inspection; they were preserved."
+    }
+  ],
+  "unresolved_limits": [
+    "Mill's primary passage was not independently consulted; the attribution and quoted argument were checked through Avramides's SEP quotation and citation, while the 1865 edition metadata was checked against the digitized title page/catalogue.",
+    "The audit does not decide whether analogy, inference to the best explanation, criteria, perception, or testimony offers the best account, and it is not an exhaustive literature review.",
+    "The history before Mill is summarized only enough to avoid an origin claim; no complete historical survey was undertaken.",
+    "Extensions to noncommunicating people and artificial systems remain editorial teaching prompts, not source-established conclusions.",
+    "The shared worktree showed unrelated edits in other data/experiments.json objects at final inspection; this audit did not write to that file and left those changes untouched.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

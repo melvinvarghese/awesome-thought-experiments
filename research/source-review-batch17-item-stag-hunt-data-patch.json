@@ -1,0 +1,24 @@
+{
+  "id": "stag-hunt",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Jean-Jacques Rousseau, Discourse on the Origin and Foundations of Inequality, Part II, Ian Johnston translation",
+      "url": "https://web.viu.ca/johnstoi/rousseau/seconddiscourse.htm",
+      "kind": "primary",
+      "support": "Rousseau's Part II deer-and-hare passage was read directly in Ian Johnston's English translation. It supports the historical narrative attribution, not a formal payoff matrix or equilibrium analysis."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Prisoner’s Dilemma",
+      "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "kind": "academic",
+      "support": "Relevant sections 1 and 8 were read: they explain the Prisoner's Dilemma conditions and contrast them with the stag hunt, including its typical payoffs, equilibria and risk-dominance condition. The entry presents its numerical matrix as typical, not unique."
+    },
+    {
+      "title": "Brian Skyrms, “The Stag Hunt”",
+      "url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+      "kind": "academic",
+      "support": "Relevant passages of the scholarly paper were read, including the model and trust discussion (pp. 1–4) and population/evolutionary extensions (pp. 10–15). The analysis shows that such outcomes depend on specified dynamics and interaction structure."
+    }
+  ]
+}

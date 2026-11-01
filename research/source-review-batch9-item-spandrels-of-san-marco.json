@@ -1,0 +1,101 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "spandrels-of-san-marco",
+  "title": "The Spandrels of San Marco",
+  "article_path": "experiments/science-and-biology/spandrels-of-san-marco.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the revised article and matching dataset record. Focus: the 1979 paper’s architectural analogy and current-utility/origin distinction; whether the authors rejected natural selection; the contested architectural terminology and Gould’s clarification of number, shape, and structural utility; attribution and definition of the later term exaptation; and publication/access qualifications. This status records traceability, not the truth of any evolutionary explanation, the prevalence of exaptation or by-products, scholarly consensus, exhaustive literature coverage, or expert review.",
+  "summary": "The full 1979 Gould–Lewontin paper was read in a publicly hosted reproduction, including its opening analogy and discussion of alternatives to adaptationist explanations. The Royal Society record confirms publication details and abstract, while its full text remains paywalled. The article now explains that Gould and Lewontin use the San Marco architectural spaces to illustrate why current utility alone does not establish origin, and it avoids claiming that natural selection is rejected. Gould’s full 1997 clarification supports the qualification that his byproduct claim concerned the pendentives’ necessary number and shape, not absence of structural utility, and that extending ‘spandrel’ to those 3-D structures has been debated. Gould and Vrba’s 1982 paper supports the later term exaptation and its distinction from adaptation. A read-only post-edit review found no material corrections. The four Further Reading URLs match the dataset reference URLs; date_verified is 2026-11-01.",
+  "sources": [
+    {
+      "title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+      "author": "Stephen Jay Gould and Richard C. Lewontin",
+      "publication": "Proceedings of the Royal Society of London. Series B, Biological Sciences 205(1161) (1979): 581–598; DOI 10.1098/rspb.1979.0086.",
+      "stable_url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+      "source_type": "Primary peer-reviewed biological and methodological argument; public scan/reproduction",
+      "access_level": "Complete article text was read in a publicly hosted reproduction; official publisher metadata and abstract were checked separately. This is not publisher-delivered full text.",
+      "exact_locations_read": "Printed pp. 581–583, abstract and §1 ‘Introduction,’ for the San Marco example, the necessary four spaces and tapering form, the use of mosaics, and the distinction between current utility and reasons for origin; pp. 589–592 and the abstract for the authors’ pluralistic account, natural selection as one process among others, and alternatives to adaptationist explanations.",
+      "limitations": "The full-text reproduction is hosted by a third party; its front matter reproduces JSTOR copyright text and its OCR can contain errors. The Royal Society states that its own web text is OCR-derived and that publisher full text is available only by purchase/institutional access. The audit did not consult San Marco architectural archives or independently establish original architects’ intentions."
+    },
+    {
+      "title": "Royal Society publication record for The spandrels of San Marco and the Panglossian paradigm",
+      "author": "Stephen Jay Gould and Richard C. Lewontin",
+      "publication": "Proceedings of the Royal Society B; published online 21 September 1979; 205(1161): 581–598; DOI 10.1098/rspb.1979.0086.",
+      "stable_url": "https://doi.org/10.1098/rspb.1979.0086",
+      "source_type": "Publisher bibliographic record and abstract",
+      "access_level": "Official publisher page, bibliographic details, and abstract were read; full article was paywalled.",
+      "exact_locations_read": "Publisher citation and publication history; abstract passages identifying the failure to distinguish current utility from origin, the need to consider alternatives, and the authors’ support for Darwin’s pluralistic approach.",
+      "limitations": "The abstract is not a substitute for full-text passages; the full text was instead accessed through a third-party-hosted reproduction. The page warns that its online abstract was generated from OCR and may contain errors."
+    },
+    {
+      "title": "The exaptive excellence of spandrels as a term and prototype",
+      "author": "Stephen Jay Gould",
+      "publication": "Proceedings of the National Academy of Sciences 94(20) (1997): 10750–10755.",
+      "stable_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
+      "source_type": "Primary author clarification and scholarly response",
+      "access_level": "The full article in PubMed Central was retrieved and relevant passages were read; not every citation or all discussion of the debate was independently followed.",
+      "exact_locations_read": "Abstract; section ‘Claim One: What’s in a Name?’ on the use of ‘spandrel’ for San Marco’s pendentives and objections to the terminology; section ‘Claim Two: Are Spandrels Spandrels or Adaptations?’ on structural utility and Gould’s intended properties of number and shape as by-products of the dome-on-four-arches design.",
+      "limitations": "This is Gould’s later clarification and response, not an independent architectural consensus statement or a substitute for the 1979 article. It acknowledges disagreement rather than resolving architectural usage for all specialists."
+    },
+    {
+      "title": "Exaptation—a missing term in the science of form",
+      "author": "Stephen Jay Gould and Elisabeth S. Vrba",
+      "publication": "Paleobiology 8(1) (1982): 4–15.",
+      "stable_url": "https://inters.org/files/gouldvrba1982_1.pdf",
+      "source_type": "Primary peer-reviewed conceptual paper",
+      "access_level": "The full paper text was retrieved; the abstract and relevant sections were read, not every example or later citation.",
+      "exact_locations_read": "Abstract; §II, ‘Two Meanings of Adaptation’; §III, ‘A Definition of Exaptation,’ especially printed pp. 6–7, defining useful characters evolved for another use or no function and later co-opted for a current role.",
+      "limitations": "This 1982 paper supports the later terminology and its authorship, not the wording of the 1979 paper. Its definitions reflect the authors’ proposed terminology and do not eliminate all later debate about adaptation concepts."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Gould and Lewontin use San Marco’s dome and mosaics to illustrate that the spaces’ present decorative use does not establish that the spaces originated in order to house that artwork; the article is an analogy and methodological argument, not a strict hypothetical experiment.",
+      "source_title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+      "source_url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+      "exact_location": "Abstract and §1, ‘Introduction,’ printed pp. 581–583; especially the passage on the architectural constraint, fit of the mosaics, and ‘Spandrels do not exist to house the evangelists.’",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary paper directly supports the analogy and its point about reversing causal explanation from present fit. The revised article labels it an analogy and methodological argument rather than a controlled or strict hypothetical experiment.",
+      "limitation": "The architectural example is the authors’ account. The audit did not independently verify building chronology, the original architects’ intentions, or the historical sequence of mosaic placement through archival evidence.",
+      "required_edit": "Made: replaced a generic architectural setup with the specific number/shape and later-mosaic account, and qualified the status of the example."
+    },
+    {
+      "material_claim": "The 1979 critique does not claim that natural selection never operates; it criticizes adaptationist explanations that treat current utility as sufficient evidence of origin and calls for a pluralistic account of evolutionary change.",
+      "source_title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+      "source_url": "https://joelvelasco.net/teaching/167win10/gould%20lewontin%2079%20-%20spandrels.pdf",
+      "exact_location": "Abstract, printed pp. 581–582; §4, ‘The Master’s Voice Re-examined,’ printed pp. 589–590; §5, ‘A Partial Typology of Alternatives to the Adaptationist Programme,’ beginning p. 590.",
+      "relationship": "supports",
+      "finding": "The authors explicitly support Darwin’s pluralistic approach and describe natural selection as a force that may mediate change, while arguing for attention to developmental constraints and non-adaptive alternatives. The article does not attribute rejection of selection to them.",
+      "limitation": "The paper’s theoretical position and its assessment of competing explanations are the authors’ argument, not an established consensus about the prevalence of by-products.",
+      "required_edit": "Made: explicitly states that the authors do not reject selection and summarizes their critique as a call for pluralistic explanations."
+    },
+    {
+      "material_claim": "Gould later clarified that the intended byproduct properties are the pendentives’ necessary number and shape, regardless of structural utility; extending ‘spandrel’ to three-dimensional pendentives has been disputed.",
+      "source_title": "The exaptive excellence of spandrels as a term and prototype",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23474/",
+      "exact_location": "‘Claim One: What’s in a Name?’ and ‘Claim Two: Are Spandrels Spandrels or Adaptations?’; Gould’s discussion of pendentives, their four-in-number/roughly triangular form, and structural uses such as buttressing.",
+      "relationship": "supports_with_qualification",
+      "finding": "Gould explicitly acknowledges that most architects apparently do not use ‘spandrel’ for these 3-D structures, notes some architectural-historical usage, and defines his intended claim as the necessary number and shape arising from the chosen dome-on-four-arches design. He says the pendentives can still have structural utility.",
+      "limitation": "This establishes Gould’s clarification and that terminology was contested; it does not show that all architects accept his terminology or settle the issue independently.",
+      "required_edit": "Made: qualified the word ‘spandrel’ and preserved Gould’s distinction between byproduct form/number and structural usefulness."
+    },
+    {
+      "material_claim": "Gould and Vrba introduced ‘exaptation’ in 1982 for a useful character co-opted for its current role after evolving for another use or for no function.",
+      "source_title": "Exaptation—a missing term in the science of form",
+      "source_url": "https://inters.org/files/gouldvrba1982_1.pdf",
+      "exact_location": "Abstract and §III, ‘A Definition of Exaptation,’ printed pp. 6–7.",
+      "relationship": "supports",
+      "finding": "The primary 1982 paper explicitly proposes the term and defines the relevant historical distinction. The revised article no longer describes exaptation as a field of study or attributes the term to the 1979 paper.",
+      "limitation": "The term is later than the 1979 critique and reflects the authors’ proposed taxonomy; the article uses it as later terminology rather than as Gould and Lewontin’s own label in 1979.",
+      "required_edit": "Made: attributed the term to Gould and Vrba (1982) and distinguished later co-option from the original byproduct analogy."
+    }
+  ],
+  "unresolved": [
+    "The Royal Society full text was paywalled; the full 1979 article was read through a third-party-hosted reproduction whose OCR may contain errors.",
+    "The original architects’ intentions and the building’s detailed history were not independently checked against architectural archives; the article attributes the analogy to Gould and Lewontin.",
+    "The audit does not establish how common exaptations or non-adaptive by-products are in biological systems or settle the architectural terminology debate."
+  ],
+  "post_edit_review": "Independent read-only review found no material corrections; it checked geometry, the current-use/origin distinction, natural-selection framing, terminology qualification, exaptation attribution, and article/dataset URL alignment."
+}

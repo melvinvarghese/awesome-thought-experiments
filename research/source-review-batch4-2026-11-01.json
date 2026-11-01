@@ -18,7 +18,7 @@
     {
       "id": "lucas-penrose-argument",
       "title": "The Lucas–Penrose Argument",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/lucas-penrose-argument.md",
+      "article_path": "experiments/artificial-intelligence/lucas-penrose-argument.md",
       "review_date": "2026-11-01",
       "status": "source_checked",
       "status_rationale": "The article’s material theorem statement, attribution to Lucas, stated objections and qualifications, Penrose extension, and publication details are traceable to relevant passages in appropriate sources. It does not present the anti-mechanist conclusion as established or imply consensus or expert review. The Further Reading URLs match the dataset record. The disclosed limits concerning Gödel’s 1931 paper and Penrose’s 1989 book are accurate and do not leave an unsupported material claim in the article’s declared scope.",
@@ -205,7 +205,7 @@
         "The complete Penrose Shadows of the Mind quantum/brain chapter was not read. The article discloses this; the passages relevant to its limited claim that Penrose made a proposal were read, and no claim that the proposal is scientifically established is made."
       ],
       "dataset_comparison": {
-        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_path": "data/experiments.json",
         "dataset_record_id": "lucas-penrose-argument",
         "date_verified": "2026-11-01",
         "article_reference_alignment": "All six Further Reading URLs and their source titles correspond to the six references in the lucas-penrose-argument dataset record. The article’s added source-note disclosure does not conflict with those records. No URL mismatch found."
@@ -214,7 +214,7 @@
     {
       "id": "symbol-grounding",
       "title": "The Symbol Grounding Problem",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/symbol-grounding.md",
+      "article_path": "experiments/artificial-intelligence/symbol-grounding.md",
       "review_date": "2026-11-01",
       "status": "source_checked",
       "status_rationale": "The article’s material source-based claims and attributions are traceable to the cited passages. Harnad’s full 1990 text supports the two dictionary-go-round versions, their analogy to purely symbolic cognitive models, the proposed hybrid account, the stated limit concerning subjective meaning, and the distinction from AI in general. Taddeo and Floridi’s full review supports the article’s bounded attribution of their critique. This is an editorial traceability finding, not a judgment that either argument succeeds, a consensus claim, exhaustive literature review, or expert review.",
@@ -362,7 +362,7 @@
         "Publisher full-article access is controlled; detailed claims were checked against the full arXiv-hosted text and the Taddeo–Floridi institutional-repository full text. The arXiv deposit date is 1999, distinct from Harnad’s 1990 publication; the publisher record for Taddeo–Floridi lists 2007 online-first while the issue citation is 2005."
       ],
       "dataset_comparison": {
-        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_path": "data/experiments.json",
         "dataset_record_id": "symbol-grounding",
         "date_verified": "2026-11-01",
         "article_reference_alignment": "The article’s three Further Reading URLs align with the corresponding symbol-grounding dataset records: Harnad full text at arxiv.org/html/cs/9906002, the Harnad publisher DOI, and the Taddeo–Floridi DOI. Titles and descriptions are consistent with the records. The 1990 journal date versus 1999 arXiv deposit is clearly distinguished; Taddeo and Floridi’s 2005 issue-year citation is supported by the institutional record, while the publisher notes online publication in 2007."
@@ -371,7 +371,7 @@
     {
       "id": "frame-problem",
       "title": "The Frame Problem",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/frame-problem.md",
+      "article_path": "experiments/artificial-intelligence/frame-problem.md",
       "review_date": "2026-11-01",
       "status": "source_checked",
       "status_rationale": "The final article wording identifies m fluents (properties of situations); targeted follow-up verified that McCarthy and Hayes §4.3 states n actions and m fluents may require mn non-effect conditions (printed p. 31), and §3.2 defines fluents (p. 19). The earlier precision finding is resolved. Remaining material claims are traceable to relevant passages; no material finding remains.",
@@ -526,7 +526,7 @@
         "Relevant passages, not every page of each listed work, were read; the review is not an exhaustive literature survey. No access gap prevented checking a material claim."
       ],
       "dataset_comparison": {
-        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_path": "data/experiments.json",
         "dataset_record_id": "frame-problem",
         "date_verified": "2026-11-01",
         "article_reference_alignment": "All four Further Reading titles and URLs match the dataset record for id frame-problem. Specifically, the SEP, McCarthy–Hayes PDF, Kowalski–Sergot event-calculus PDF, and Dennett essay URLs align exactly. Article metadata also matches the dataset title, category, associated thinkers, original publication, type, and related entries. The article does not give publication years for the Kowalski–Sergot and Dennett readings; it makes no contrary date claim, and the dataset does not require those years in its reference titles."
@@ -535,7 +535,7 @@
     {
       "id": "blockhead",
       "title": "Blockhead",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/blockhead.md",
+      "article_path": "experiments/artificial-intelligence/blockhead.md",
       "review_date": "2026-11-01",
       "status": "source_checked",
       "status_rationale": "The material claims and attributions in the revised entry are traceable to the original 1981 argument, the relevant SEP section, or Schwaninger’s explicitly named later interpretation; editorial extensions are labeled as such. No material correction is required. This is an editorial traceability review, not an assessment that Block’s argument succeeds, a claim of consensus, or expert review.",
@@ -703,7 +703,7 @@
         "The journal DOI/JSTOR landing page did not expose the article text; the relevant full-text passages were read in a third-party posted PDF. Crossref page-range metadata is incomplete; the ending page is corroborated by Schwaninger’s bibliography."
       ],
       "dataset_comparison": {
-        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_path": "data/experiments.json",
         "dataset_record_id": "blockhead",
         "date_verified": "2026-11-01",
         "article_reference_alignment": "All three Further Reading titles and URLs match the corresponding Blockhead dataset reference records. The dataset’s short support descriptions are consistent with the uses made in the entry; Schwaninger is appropriately characterized as a named position, not consensus."
@@ -712,7 +712,7 @@
     {
       "id": "paleys-watch",
       "title": "Paley’s Watch",
-      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/paleys-watch.md",
+      "article_path": "experiments/science-and-biology/paleys-watch.md",
       "review_date": "2026-11-01",
       "status": "source_checked",
       "status_rationale": "The final corrected text and targeted independent recheck establish the 1802 table-of-contents mapping: Chapter IV begins at printed p. 36; Chapter VI begins at p. 55, where the eye passage starts and continues on p. 56. The final article lists Chapter IV pp. 36–38 and Chapter VI pp. 55–56 and distinguishes the OCR Paley/Darwin texts from the keyboarded/encoded Hume edition. All five article URLs match the dataset references; no material finding remains.",
@@ -880,7 +880,7 @@
         "Paley and Darwin Archive.org texts are OCR and may contain errors. The University of Michigan Hume edition is keyboarded/encoded rather than OCR and may still contain transcription errors. The SEP and historical commentary are secondary sources; the review is not exhaustive."
       ],
       "dataset_comparison": {
-        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_path": "data/experiments.json",
         "dataset_record_id": "paleys-watch",
         "date_verified": "2026-11-01",
         "article_reference_alignment": "All five Further Reading URLs match the corresponding Paley’s Watch dataset reference URLs. Titles and linked works are substantively aligned; the article’s Paley display title omits the dataset’s descriptive words ‘digitized text,’ which is not a URL or source mismatch. No additional Further Reading URL discrepancy found."

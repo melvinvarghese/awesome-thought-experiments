@@ -1,0 +1,207 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "newtons-bucket",
+  "title": "Newton’s Bucket",
+  "article_path": "experiments/physics/newtons-bucket.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article and its matching data/experiments.json record. Focus: the full bucket sequence in the Principia; Newton’s inference from surface concavity and centrifugal effects; the distinction between rotation relative to the vessel, relative to surrounding bodies, and true circular motion in Newton’s account; the status of the bucket as an argument for absolute space; the distinct relationist, Machian, and relativistic responses and their attribution; Newton’s report that he experienced the effect; the separate connected-globes example; publication metadata; and article/dataset reference alignment. This status records traceability, not that Newton’s argument succeeds, that one later view is correct or consensus, independent expert review, or exhaustive coverage of the literature.",
+  "summary": "The relevant primary Scholium passage in Andrew Motte’s translation confirms the bucket sequence, its endpoint contrast, Newton’s reported experience, and his inference that centrifugal endeavour does not depend on translation relative to ambient bodies. The article now distinguishes Newton’s actual sequence from the familiar stop-the-bucket continuation and states his reasoning without treating the experiment as proof that space is a substance. Rynasiewicz’s scholarly analysis and the SEP entries support qualifications on what the argument establishes, Leibniz’s distinct account, Mach’s mass-relative proposal, and the non-equivalence between general relativity and a fully Machian theory. The Mach passage from the 1883 edition, p. 284, was not directly retrieved; its wording and attribution were checked through the SEP’s quotation and discussion, while Mach’s later additions were read directly. This limitation is explicit. The article’s eight Further Reading URLs now match the dataset references, including the 1915 Mach supplementary volume and Richard Staley’s historical account; date_verified is 2026-11-01. A trailing duplicate source note found during review was removed, leaving one source note in the correct section.",
+  "sources": [
+    {
+      "title": "The Mathematical Principles of Natural Philosophy",
+      "author": "Isaac Newton; translated by Andrew Motte",
+      "publication": "New York: Daniel Adee, 1846 reprint of Motte’s English translation (first published 1729); Book I, Scholium following the Definitions",
+      "stable_url": "https://archive.org/details/newtonspmathema00newtrich",
+      "source_type": "Primary philosophical and scientific work; translated edition",
+      "access_level": "Relevant passage in a digitized scan/full-text transcription of the work accessed and read; not the complete work and not the 1687 Latin edition.",
+      "exact_locations_read": "Book I, Scholium following the Definitions, paragraph XII: the rotating-vessel sequence from the twisted cord and vessel/water at rest, through initial flat surface and communicated rotation, to the concave surface at relative rest; Newton’s ‘as I have experienced’ parenthetical; and his inference about centrifugal endeavour, ambient bodies, and true circular motion. The OCR full-text passage at https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt was opened and read. Archive scan title-page metadata was checked for the consulted edition.",
+      "limitations": "This is Motte’s translation in an 1846 reprint, not Newton’s original 1687 Latin edition; the 1846 edition establishes the consulted reprint’s metadata, not the original publication date. The report ‘as I have experienced’ establishes Newton’s own statement, not independent historical verification that the experiment was performed exactly as described."
+    },
+    {
+      "title": "Newton’s Scholium on Time, Space, Place and Motion",
+      "author": "Robert Rynasiewicz",
+      "publication": "‘By Their Properties, Causes, and Effects: Newton’s Scholium on Time, Space, Place, and Motion—I. The Text,’ Studies in History and Philosophy of Science 26 (1995): 133–153",
+      "stable_url": "https://pages.jh.edu/rrynasi1/spacetime/eprints/scholium_1.pdf",
+      "source_type": "Peer-reviewed scholarly historical/philosophical analysis",
+      "access_level": "Full relevant article passages were extracted from the author-hosted article PDF and read; the complete article’s full text was available, but this review relies on the specified pages.",
+      "exact_locations_read": "Printed pp. 133–135 on how the Scholium’s sequence of arguments is commonly misread and what the arguments seek to establish; pp. 147–149 on the bucket passage, the role of the water’s ascent as an assumed indicator, the initial/final contrast, and Newton’s conclusion about relative translation.",
+      "limitations": "Rynasiewicz offers a scholarly interpretation of Newton’s argument and distinguishes the argument’s text from later reconstructions; this is not a claim that all historians agree or that the inference is sound."
+    },
+    {
+      "title": "Newton’s Views on Space, Time, and Motion",
+      "author": "Robert Rynasiewicz",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 12 August 2004; version metadata checked via the official author-and-citation record (Spring 2022 edition)",
+      "stable_url": "https://plato.stanford.edu/entries/newton-stm/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full-entry sections and the separately linked Scholium text were read; not every note or bibliography item is claimed as consulted.",
+      "exact_locations_read": "§5.3, ‘The Arguments from Properties, Causes, and Effects,’ especially the ‘Argument from Effects’ and bucket stages; §5.4 for distinguishing the arguments from properties/causes/effects from the later practical inference of absolute motion; Scholium §XII for the full transcribed primary passage. Official author-and-citation information was read for Rynasiewicz’s authorship and stable edition metadata.",
+      "limitations": "Scholarly interpretation rather than primary evidence for Newton’s words; the translated primary paragraph is separately cited above. The SEP’s account is not treated as proof that Newton’s argument succeeds."
+    },
+    {
+      "title": "Absolute and Relational Space and Motion: Classical Theories",
+      "author": "Carl Hoefer, Nick Huggett, and James Read",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 19 July 2021; version metadata checked via the official author-and-citation record (Summer 2026 edition)",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+      "source_type": "Scholarly reference work / secondary historical and philosophical analysis",
+      "access_level": "Relevant full-entry sections were read; not every note or bibliography item is claimed as consulted.",
+      "exact_locations_read": "§4.1 on the bucket, the initial and co-rotating comparisons, the distinction from Cartesian ‘proper motion,’ and the possible lacuna concerning the water’s motion relative to air; §6.5 on Leibniz’s response; §§7.1–7.3 on common misreadings and the distinction between Newton’s argument and later best-explanation arguments about globes/absolute structure. Official author-and-citation metadata was also read.",
+      "limitations": "A contemporary scholarly synthesis; its specific historiographical and philosophical analysis is attributed to its authors, not presented as Newton’s or Leibniz’s own words."
+    },
+    {
+      "title": "Absolute and Relational Space and Motion: Post-Newtonian Theories",
+      "author": "Nick Huggett, Carl Hoefer, and James Read",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 11 August 2006; version metadata checked via the official author-and-citation record (Fall 2024 edition)",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-theories/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full-entry sections were read; not every note or bibliography item is claimed as consulted.",
+      "exact_locations_read": "§1.1 on Mach-lite and Mach-heavy readings, including Mach’s response concerning relative rotation and cosmic matter; §1.2 on the lack of a complete Mach-heavy replacement theory; §2.4 and the conclusion on general relativity’s metric/inertial structure, partial versus full matter determination, frame-dragging, and the claim that general relativity does not satisfy Mach’s principle in all solutions. Official author-and-citation metadata was also read.",
+      "limitations": "The authors explicitly distinguish competing readings of Mach and discuss continuing interpretive debates. Their synthesis is not treated as a literature-wide consensus or as a substitute for Mach’s text."
+    },
+    {
+      "title": "The Science of Mechanics: A Critical and Historical Account of its Development (supplementary volume)",
+      "author": "Ernst Mach; translated and annotated by Philip E. B. Jourdain",
+      "publication": "Chicago: Open Court Publishing Company, 1915; supplement to the third English edition, containing Mach’s additions to the seventh German edition",
+      "stable_url": "https://archive.org/details/scienceofmechani00machrich",
+      "source_type": "Primary philosophical and scientific work; author’s later additions to his own work",
+      "access_level": "Selected relevant primary passages in the full scanned supplementary volume’s OCR text were accessed and read; not the complete volume.",
+      "exact_locations_read": "Mach’s additions XVII–XIX, printed pp. 32–35, especially the addition to p. 229 on all masses/velocities being relative, the rotating bucket, and the fixed stars; full-text scan at https://archive.org/stream/scienceofmechani00machrich/scienceofmechani00machrich_djvu.txt.",
+      "limitations": "These are later additions, not Mach’s 1883 bucket passage. They support his general criticism of absolute motion and his reference to the fixed stars but do not independently establish the specific thick-walled-bucket statement attributed to the 1883 text."
+    },
+    {
+      "title": "Ernst Mach on Bodies and Buckets",
+      "author": "Richard Staley",
+      "publication": "Physics Today, 1 December 2013; DOI 10.1063/PT.3.2214",
+      "stable_url": "https://physicstoday.aip.org/features/ernst-mach-on-bodies-and-buckets",
+      "source_type": "Scholarly historical article / secondary source",
+      "access_level": "Full relevant article passages were read, including the account of Mach’s quoted 1883 objection, the Earth/stars discussion, and the distinction between Newton and Mach.",
+      "exact_locations_read": "Article paragraphs beginning ‘In 1883 Mach wrote…’ for his claim that water’s rotation relative to the vessel walls did not produce noticeable centrifugal forces and that the relevant relation was to Earth/celestial bodies; adjacent account of the thick-wall passage and Mach’s wider view of inertia.",
+      "limitations": "Secondary historical treatment; used to cross-check attribution and context for Mach’s 1883 passage, not as evidence that Mach’s proposal is a complete theory or that it is correct."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Newton’s described sequence starts with the twisted-cord vessel and water held at rest together; the vessel is then made to turn as the cord unwinds. The water first remains flat while the bucket moves relative to it, then gradually rotates and rises into a concave surface until it co-rotates with the bucket and is at relative rest. Newton’s passage does not include stopping the bucket after that endpoint.",
+      "source_title": "The Mathematical Principles of Natural Philosophy",
+      "source_url": "https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt",
+      "exact_location": "Book I, Scholium following the Definitions, paragraph XII; passage beginning ‘If a vessel, hung by a long cord…’ and continuing through the vessel/water relative-rest endpoint.",
+      "relationship": "supports_with_qualification",
+      "finding": "The original article compressed the setup into a release-and-spin sequence and included the water’s continuation after the bucket is stopped as if it were Newton’s own sequence. The revised article now states Newton’s sequence and explicitly marks the stop-the-bucket episode as a later variation.",
+      "limitation": "The primary text consulted is Motte’s English translation in an 1846 reprint, not the Latin 1687 edition. The physical stop-stage may be a valid teaching variation, but is not in this cited paragraph.",
+      "required_edit": "Made: corrected the sequence and distinguished the common later variation from Newton’s account."
+    },
+    {
+      "material_claim": "Newton treats the water’s ascent as indicating centrifugal endeavour and as a measure of true circular motion. He contrasts maximal water/bucket relative motion with a flat surface against maximal ascent when water and bucket are at relative rest; he concludes that the effect does not depend on translation relative to ambient bodies and that true circular motion cannot be defined by such translation.",
+      "source_title": "The Mathematical Principles of Natural Philosophy",
+      "source_url": "https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt",
+      "exact_location": "Book I, Scholium following the Definitions, paragraph XII; checked against the SEP transcription, Scholium §XII, and Rynasiewicz (1995), pp. 147–149.",
+      "relationship": "supports",
+      "finding": "Newton’s stated reasoning supports the revised attribution. The article distinguishes water/bucket relative motion from Newton’s broader phrase ‘translation … in respect of the ambient bodies’ and does not turn the inference into a modern claim that space is a causal substance.",
+      "limitation": "Newton’s inference rests on treating the surface rise as an indicator of centrifugal endeavour and on the relationship he posits between that effect and true circular motion. Verifying the argument’s text does not establish its philosophical success.",
+      "required_edit": "Made: replaced the compressed ‘space itself produces inertial effects’ formulation with Newton’s stated effect, comparison, and inference, plus a qualification on what the experiment establishes."
+    },
+    {
+      "material_claim": "The bucket passage is part of Newton’s argument that true motion is not definable solely in terms of motion relative to nearby bodies; it is not, by itself, a demonstration that space is a substance or an uncontested proof of Newtonian absolute space.",
+      "source_title": "Newton’s Scholium on Time, Space, Place and Motion; Newton’s Views on Space, Time, and Motion",
+      "source_url": "https://pages.jh.edu/rrynasi1/spacetime/eprints/scholium_1.pdf; https://plato.stanford.edu/entries/newton-stm/",
+      "exact_location": "Rynasiewicz (1995), pp. 133–135 and 147–149; SEP Newton §5.3, ‘The Arguments from Properties, Causes, and Effects,’ and §5.4.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources distinguish Newton’s effort to show that an adequate analysis of true motion must invoke absolute space from later reconstructions that treat the bucket as standalone empirical proof of absolute space. The revised article states Newton’s own inference and leaves its success open.",
+      "limitation": "Rynasiewicz’s reading is a scholarly interpretation; the article preserves the distinction between the primary argument and that interpretation. The question of whether Newton’s argument succeeds is beyond a source-traceability audit.",
+      "required_edit": "Made: explicitly limited the argument’s conclusion and stated that it does not itself prove space is a substance."
+    },
+    {
+      "material_claim": "Leibniz’s rejection of Newtonian absolute space should not be collapsed into the Machian claim that inertia is determined by the distribution of distant matter; Leibniz offered a different analysis of true motion.",
+      "source_title": "Absolute and Relational Space and Motion: Classical Theories",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+      "exact_location": "§6.5 on Leibniz’s response to Newton’s Scholium; §§7.1–7.3 on common misattributions and the difference between Leibnizian relationalism and Mach’s proposal.",
+      "relationship": "supports",
+      "finding": "The entry explains that Leibniz grants a distinction between true and relative motion while grounding true motion differently from Newton; it explicitly warns against conflating him with the later Machian approach. The revised article now describes the views separately.",
+      "limitation": "This is the SEP authors’ historical analysis, not a direct quotation from Leibniz’s correspondence; the article does not claim an exhaustive account of Leibniz’s metaphysics.",
+      "required_edit": "Made: qualified the blanket ‘relationalists’ summary and identified Leibniz’s response as distinct from Mach’s."
+    },
+    {
+      "material_claim": "Mach’s response emphasizes inertial effects in relation to Earth and the celestial masses and imagines that sufficiently massive bucket walls might affect the water; Mach’s position is not a single complete replacement mechanics or a settled explanation.",
+      "source_title": "Absolute and Relational Space and Motion: Post-Newtonian Theories; The Science of Mechanics (supplement); Ernst Mach on Bodies and Buckets",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-theories/; https://archive.org/details/scienceofmechani00machrich; https://physicstoday.aip.org/features/ernst-mach-on-bodies-and-buckets",
+      "exact_location": "SEP §1.1, ‘Two Interpretations of Mach on Inertia,’ including its quotation of Mach (1883), p. 284, and discussion of the ‘Mach-lite’/‘Mach-heavy’ distinction; Mach’s 1915 supplementary additions XVII–XIX, pp. 32–35; Staley (2013), paragraphs on Mach’s 1883 bucket response and thick-walled-bucket proposal.",
+      "relationship": "supports_with_qualification",
+      "finding": "Mach’s own later additions directly criticize Newtonian absolute motion and refer to the bucket and fixed stars. The SEP and Staley quote and contextualize the 1883 claim about relative rotation with Earth/celestial masses and very thick bucket walls. The revised article labels these as Mach’s proposal and avoids simplifying all relationalism to it.",
+      "limitation": "The 1883 primary passage at p. 284 was not directly retrieved; its quoted content was read in two secondary sources that identify the original location. Mach’s 1915 additions are primary but later and do not substitute for that passage. Mach’s precise position is interpreted differently, as the SEP explains; he did not provide a complete Mach-heavy replacement mechanics in this discussion.",
+      "required_edit": "Made: separated Mach from Leibniz and generic relationism; distinguished the mass-relative suggestion from a complete theory and made the primary-text access gap explicit."
+    },
+    {
+      "material_claim": "General relativity uses dynamical spacetime geometry whose metric encodes local inertial structure and is partly shaped by matter/energy, but the theory does not make inertia fully dependent on matter distribution in all solutions; some models exhibit Machian effects such as frame-dragging.",
+      "source_title": "Absolute and Relational Space and Motion: Post-Newtonian Theories",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-theories/",
+      "exact_location": "§2.4 on general relativity and relativity of motion; concluding discussion of whether general relativity satisfies Mach’s principle; §1.1 for frame-dragging examples and the distinction between strong Mach-heavy requirements and particular models.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry states that the metric field encodes gravity and inertia and is partly shaped by matter/energy, but also discusses vacuum solutions and other cases in which the matter distribution does not fully determine inertial structure. It identifies frame-dragging and selected models as Machian features without claiming that GTR fully satisfies Mach’s principle.",
+      "limitation": "The article is a philosophical reference synthesis, and the status/meaning of ‘Mach’s principle’ and background structure remain debated. The revised article says some models exhibit Machian effects but that GTR does not in all solutions make inertia fully matter-dependent.",
+      "required_edit": "Made: replaced the too-general statement that relativistic views simply replace absolute space with spacetime structure with a qualified account of GTR."
+    },
+    {
+      "material_claim": "Newton wrote that the concave surface was ‘as I have experienced’; this supports attributing that report to Newton, but not asserting independent proof that the experiment was performed exactly as stated.",
+      "source_title": "The Mathematical Principles of Natural Philosophy",
+      "source_url": "https://archive.org/stream/newtonspmathema00newtrich/newtonspmathema00newtrich_djvu.txt",
+      "exact_location": "Book I, Scholium following the Definitions, paragraph XII, parenthetical ‘(as I have experienced)’ in the bucket description.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary passage directly contains Newton’s report. The article now reports what Newton wrote and explicitly states that it is not independent historical confirmation.",
+      "limitation": "A separate scholarly paper titled ‘Newton’s Bucket Experiment: Fictional or Real?’ was not accessible through its repository page during this review, which returned a CAPTCHA. The historical question whether the described experiment was actually performed remains unresolved here.",
+      "required_edit": "Made: narrowed ‘Newton himself reported actual experiments’ to his own textual report and stated the limitation."
+    },
+    {
+      "material_claim": "Newton’s connected-globes example is a separate passage using cord tension to discuss inference of circular motion; it is not identical to the bucket argument, and later arguments that infer absolute structure from globes may not be Newton’s own argument.",
+      "source_title": "Absolute and Relational Space and Motion: Classical Theories",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-theories-classical/",
+      "exact_location": "SEP classical theories §§7.1–7.3.1, especially §7.3.1 on Newton’s connected globes example and the distinction between his example and later best-explanation arguments about rigid globes in an otherwise empty universe.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP distinguishes Newton’s original example from later reconstructions involving rigid globes in an otherwise empty universe. The revised article describes the connected globes as a separate example and does not assign the later argument to Newton.",
+      "limitation": "Newton’s paragraph XIV was not independently read in this review; the claim is supported by the SEP’s account rather than a direct reading of that primary passage. It is peripheral to the bucket sequence and retained only as a concise related variation.",
+      "required_edit": "Made: replaced the unspecific ‘second argument makes a similar point’ with a separate example and avoided attributing later empty-universe reconstructions to Newton."
+    },
+    {
+      "material_claim": "The *Principia* was first published in 1687, while the primary-text translation used in this review was Andrew Motte’s English translation, consulted in an 1846 reprint.",
+      "source_title": "Newton’s Views on Space, Time, and Motion; The Mathematical Principles of Natural Philosophy",
+      "source_url": "https://plato.stanford.edu/entries/newton-stm/; https://archive.org/details/newtonspmathema00newtrich",
+      "exact_location": "SEP Newton entry, introductory discussion of Newton’s 1687 *Mathematical Principles of Natural Philosophy*; Archive scan title page and publication metadata identifying the Motte translation and 1846 New York reprint.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article’s 1687 original-publication metadata is consistent with the SEP’s historical account. The consulted scan is correctly identified in the Sources and Attribution note as a later reprint/translation rather than the original edition.",
+      "limitation": "The 1846 edition is not evidence for the original publication date by itself; the 1687 date is contextualized by the SEP source.",
+      "required_edit": "Made: identified the exact English translation/reprint used in the article’s source note."
+    }
+  ],
+  "edits_made": [
+    "Corrected the bucket scenario to match Newton’s sequence in Scholium §XII and marked the stopped-bucket continuation as a later variation.",
+    "Rewrote the central inference to distinguish relative motion between water and vessel from Newton’s claim about translation relative to ambient bodies and true circular motion.",
+    "Added the qualification that the bucket argument does not itself prove space is a substance or settle whether Newton’s inference succeeds.",
+    "Separated Leibniz’s response from Mach’s mass-relative proposal and qualified the summary of Mach’s view.",
+    "Replaced the compressed relativistic summary with a qualified account of general relativity’s dynamical metric, matter dependence, and Machian effects.",
+    "Changed the claim that Newton performed actual experiments to the precise textual claim that he wrote ‘as I have experienced,’ noting that performance is not independently verified here.",
+    "Distinguished Newton’s connected-globes example from later reconstructions and added passage-level source notes, limitations, and further reading."
+  ],
+  "unresolved": [
+    "The original 1883 Mach bucket passage at p. 284 was not directly retrieved. Its content was read through the SEP’s explicit quotation and Staley’s contextualized historical treatment; Mach’s 1915 supplementary additions were separately consulted as primary text.",
+    "Whether Newton actually performed the bucket experiment as described remains unresolved in this audit. The primary passage records his statement ‘as I have experienced’; the paper ‘Newton’s Bucket Experiment: Fictional or Real?’ could not be opened because the repository page returned a CAPTCHA.",
+    "Newton’s paragraph XIV on connected globes was not independently read; the article’s short variation statement is supported by the classical-spacetime SEP analysis, and the limitation is recorded above.",
+    "The philosophical success of Newton’s inference and the correct interpretation of Mach’s principle remain disputed questions, not claims settled by this traceability review."
+  ],
+  "dataset_alignment": "The matching data record has the same id, title, and article path. The dataset now includes all eight Further Reading URLs, including the directly consulted 1915 Mach supplementary volume and Richard Staley’s historical article; date_verified is 2026-11-01. The 1883 Mach passage remains identified as not directly retrieved.",
+  "further_reading_matches": "Yes: all eight Further Reading URLs match the dataset references; date_verified matches the 2026-11-01 article research check.",
+  "ledger_path": "research/source-review-batch8-item-newtons-bucket.json",
+  "selection_rank": 3,
+  "risk_reason": "The article moves from the water’s surface to Newton’s case for absolute space and then summarizes relationist, Machian, and relativistic views; it says Principia was not retrieved and the Mach summary is simplified.",
+  "audit_focus": "Check the full bucket sequence and Newton’s inference against Principia; distinguish rotation/inertial effects from motion relative to the bucket; check relationist, Machian, and relativistic responses and attribution.",
+  "independent_review": {
+    "review_date": "2026-11-01",
+    "reviewer_type": "AI-assisted independent read-only post-edit reviewers",
+    "status": "complete",
+    "initial_verdict": "pass_with_minor_changes",
+    "initial_summary": "No material claim-traceability issue was found; the reviewer requested a reader-facing link to the consulted 1915 Mach supplementary volume and clarification of the 1883 source path. Those corrections and dataset alignment were made.",
+    "followup_findings": "A follow-up confirmed all eight Further Reading URLs match the dataset and line 6 differs from HEAD only by removed trailing whitespace. It also found an accidentally duplicated source note after the return link; that paragraph was removed and the corrected note remains once in Sources and Attribution.",
+    "final_verdict": "pass",
+    "final_summary": "The final read-only review confirmed the line-6 whitespace-only difference, one correctly placed Sources and Attribution note, no content after the final return link, correct source links, current dataset alignment, and the stated source_checked scope.",
+    "human_expert_review": false
+  }
+}

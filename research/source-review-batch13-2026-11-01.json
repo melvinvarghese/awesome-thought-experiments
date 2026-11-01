@@ -1,0 +1,625 @@
+{
+  "batch_id": "source-review-batch13-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No commit, push, merge, release, or remote-branch change.",
+  "reviewer_type": "AI-assisted claim-level audits with item-level self-check after edits; no human expert review is claimed.",
+  "batch_scope": "3 remaining expansion entries: allegory-of-the-cave, idle-argument, zenos-arrow.",
+  "selection_method": "Prioritized entries where primary-text access, later testimony, or allegorical interpretation creates substantial attribution and chronology risk.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 44,
+    "expansion_inventory_entries_with_audit_records_before_batch": 41,
+    "entries_in_batch": 3,
+    "audit_records_after_batch_all_repository": 47,
+    "expansion_inventory_entries_with_audit_records_after_batch": 44,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 13,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "partially_source_checked": 1,
+      "source_checked": 2
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 45,
+      "partially_source_checked": 2,
+      "needs_source_check": 0,
+      "expert_reviewed": 0
+    }
+  },
+  "status_summary": "This batch has 2 source_checked and 1 partially_source_checked entries for their declared claim-traceability scopes. These labels do not state philosophical truth, consensus, exhaustive review, or human expertise.",
+  "limits": [
+    {
+      "id": "allegory-of-the-cave",
+      "limitations": [
+        "The exact composition date of the Republic was not established. The c. 375 BCE value appears in Project Gutenberg's automatically generated catalogue summary; consulted scholarly sources support broad middle-period placement and caution that chronology is disputed, but do not confirm that exact estimate. This unresolved material detail is why the status is partially_source_checked.",
+        "Primary passage verification used Jowett and Shorey English translations at selected Book VII locations; neither the full Republic nor a Greek critical edition and apparatus were read.",
+        "The audit consulted one scholarly book chapter and relevant SEP reference entries, not an exhaustive literature review. Disputes over the philosophers' motives and the exact mapping of stages are left open.",
+        "Modern brain-in-a-vat, media, social-network, and virtual-reality comparisons are editorial teaching examples rather than claims about Plato or an investigated history of reception.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "id": "idle-argument",
+      "limitations": [
+        "No surviving text by the named argument's original author or by Chrysippus was consulted; the audit relies on later testimony, especially Cicero.",
+        "The consulted passages do not identify the original author of the named Idle Argument; attribution remains uncertain, and the audit is not an exhaustive search of ancient reports.",
+        "The generalized version replacing fate-language with eternal truth remains a substantive interpretive issue; the SEP says the exact point of failure is unclear. Bledin (2020), cited there for a detailed discussion, was not independently accessed.",
+        "Only relevant passages of the primary works and secondary entries were read; no complete work, critical edition, or exhaustive scholarly literature review was consulted.",
+        "The Loeb page excerpt cuts off partway through Cicero's §30; the conclusion about the reply was triangulated with the SEP entry and a full-text online reproduction whose translation provenance was not fully established.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "id": "zenos-arrow",
+      "limitations": [
+        "Zeno’s original book does not survive; the Arrow’s exact wording and complete original argument cannot be recovered from Aristotle’s report.",
+        "The audit consulted relevant passages rather than reading every cited reference or an exhaustive critical edition and scholarly literature on Zeno.",
+        "The audit records competing kinds of response but does not decide whether the at-at account or another theory best explains motion.",
+        "The consulted IEP article makes broad claims about scholarly acceptance that were not independently verified and were excluded from the revised article.",
+        "The article’s former statement about whether contemporary physics leaves time’s continuity at very small scales unsettled was removed; that scientific question was outside the revised scope and was not audited.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    }
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; JSON schema, article sections, metadata, references, README, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests -v — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors.",
+    "article_dataset_reference_alignment": "PASS: all 3 Further Reading URL lists match the matching data references in order; all date_verified values are 2026-11-01.",
+    "item_ledgers": "PASS: item evidence ledgers and data patches parse as JSON; required claim/source fields and allowed relationships checked.",
+    "inventory_reconciliation": "PASS: 47 audit records; 44 of 57 expansion IDs covered; 13 remain; 3 records outside the inventory.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk at HEAD 0d26e66; no staged paths; all work remains local, unstaged, uncommitted, and unpushed."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "allegory-of-the-cave",
+      "title": "Plato’s Allegory of the Cave",
+      "article_path": "experiments/epistemology/allegory-of-the-cave.md",
+      "status": "partially_source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the Cave's setting and narrative sequence; its relation to education, the divided line, the sun/Form of the Good, and the return to the cave; the portrayal of compulsion and disagreement over philosophers' motives for ruling; technical classification as analogy rather than myth; the article's skeptical and contemporary examples; date and attribution framing; and metadata reconciliation. This review does not establish that Plato's argument is sound, settle interpretation, provide an exhaustive literature review, or claim expert review. Status is partial because the article's approximate c. 375 BCE date is not independently established by an authoritative chronological source in the material accessed; the source that states that estimate is Project Gutenberg's automatically generated catalogue summary.",
+      "summary": "The revised article's narrative and interpretive claims are tied to specified passages in Republic VII and relevant scholarly discussions. It distinguishes Plato's dialogue from modern teaching analogies, identifies the Cave as an analogy rather than a myth, clarifies the visible/intelligible mapping, and reports that philosophers are compelled to rule while leaving scholarly explanations of that compulsion open. The approximate c. 375 BCE date is retained as approximate and attributed to the Project Gutenberg catalogue summary, but is not independently confirmed by the consulted scholarly sources; therefore the status remains partially_source_checked. No human expert review is claimed.",
+      "sources": [
+        {
+          "title": "The Republic, Book VII",
+          "author": "Plato; translated by Benjamin Jowett",
+          "publication": "Internet Classics Archive, Massachusetts Institute of Technology; online English translation of Book VII.",
+          "stable_url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "source_type": "Primary ancient philosophical text in translation",
+          "access_level": "Relevant sections in the full online Book VII text were read; the complete Republic was not read.",
+          "exact_locations_read": "Book VII: the cave image and prisoners' shadow-naming and prediction (Stephanus 514a–516c); the return and reaction (516c–517a); Socrates' application of the image and Good/sun comparison (517a–c); education and turning the soul (518b–d); and philosophers' compulsory return and service to the city (519c–521b). The MIT text is presented as continuous Book VII rather than individually marked Stephanus excerpts; Stephanus references were cross-checked against Perseus.",
+          "limitations": "Jowett is an English translation, not the Greek text or a critical-edition apparatus. Translation choices can shape wording. The source establishes what Plato's dialogue says, not whether its argument succeeds."
+        },
+        {
+          "title": "Plato, Republic",
+          "author": "Plato; translated by Paul Shorey",
+          "publication": "Perseus Digital Library, Plato in Twelve Volumes, Vols. 5–6, Harvard University Press / William Heinemann, 1969; online text entry.",
+          "stable_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Rep.+514a",
+          "source_type": "Primary ancient philosophical text in translation",
+          "access_level": "Selected passages were read directly in translation; the full dialogue was not read.",
+          "exact_locations_read": "Republic 514a (opening claim that the image concerns education and its lack); 517a (the image's application and the prisoners' reaction); 518b (education and the soul's condition); and 519c (founders' duty to compel the best natures). The passage at 517a includes a translator/editor's note about the death of Socrates; this is commentary, not Plato's explicit identification of the allusion.",
+          "limitations": "English translation and selected passages only. The Perseus note identifying an allusion to Socrates' death is scholarly editorial commentary and is not used as a direct statement by Plato."
+        },
+        {
+          "title": "The Republic by Plato",
+          "author": "Plato; translated by Benjamin Jowett; Project Gutenberg catalogue description is automatically generated",
+          "publication": "Project Gutenberg, eBook 1497; public-domain English edition and online catalogue record.",
+          "stable_url": "https://www.gutenberg.org/ebooks/1497",
+          "source_type": "Primary work edition and catalogue metadata",
+          "access_level": "Catalogue record and selected excerpts of the online HTML edition were retrieved. The extracted HTML included Jowett's introductory discussion and summary of Book VII, but did not expose the exact dialogue passage requested; the Cave passage itself was not verified through this edition.",
+          "exact_locations_read": "Catalogue fields for title, author, translator, and ebook details; automatically generated description stating that the dialogue was written around 375 BCE; selected introductory text summarizing Book VII. No specific Republic passage was read from this edition.",
+          "limitations": "The date appears in an automatically generated catalogue summary, not in a scholarly discussion of composition chronology. This source does not independently establish the c. 375 BCE date or provide passage-level support for the article's narrative. The primary passage was checked in the MIT and Perseus translations instead."
+        },
+        {
+          "title": "The Allegory of the Cave: Book VII",
+          "author": "Sean McAleer",
+          "publication": "Chapter 11 in Plato's 'Republic': An Introduction, Open Book Publishers, 2020, pp. 211–228; DOI 10.11647/OBP.0229.11.",
+          "stable_url": "https://books.openbookpublishers.com/10.11647/obp.0229/ch11.xhtml",
+          "source_type": "Scholarly secondary analysis / academic book chapter",
+          "access_level": "Relevant chapter passages were read in the open-access full-text chapter; the complete book was not read.",
+          "exact_locations_read": "Chapter 11 opening, which relates the Cave to the Sun and Divided Line analogies and quotes Republic 514a and 518b,d on education; the discussion headed 'Stages in the Cave Allegory,' which maps stages to the divided line and explicitly notes that divisions of the allegory can be subjective; and the selected subsequent discussion of the ascent and return.",
+          "limitations": "One scholar's interpretive account, not a consensus statement or exhaustive survey. The author explicitly acknowledges that segmenting the allegory can be subjective."
+        },
+        {
+          "title": "Plato's Myths",
+          "author": "Catalin Partenie",
+          "publication": "The Stanford Encyclopedia of Philosophy, first published 2009; substantive revision 2022; section on the Cave and §4, 'Myth as a Teaching Tool.'",
+          "stable_url": "https://plato.stanford.edu/entries/plato-myths/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections of the entry were read; the entire entry was not read.",
+          "exact_locations_read": "The paragraph on Republic 514a–517a, which calls the Cave strictly an analogy rather than a myth, and §4's discussion of image, simile, or myth as potential teaching tools.",
+          "limitations": "A scholarly reference synthesis, not a primary text. The entry does not provide a full interpretation of every Cave element or establish the truth of Plato's claims."
+        },
+        {
+          "title": "Plato's Ethics and Politics in The Republic",
+          "author": "Eric Brown",
+          "publication": "The Stanford Encyclopedia of Philosophy, first published 2003; substantive revision 2017; §2.3 and relevant discussion in §5.",
+          "stable_url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections were read; the full entry was not read.",
+          "exact_locations_read": "§2.3, 'Perfectly Virtuous Motivations,' on the repeated compulsion of philosophers to rule, a law-based interpretation, and the alternative explanation that justice itself demands ruling; §5 on controversy over the political implications of the Republic and readings associated with Annas and Strauss.",
+          "limitations": "The discussion concerns the Republic's broader political argument, not only the Cave passage. It lays out interpretive alternatives rather than proving that one motive account is settled consensus."
+        },
+        {
+          "title": "Plato",
+          "author": "Richard Kraut",
+          "publication": "The Stanford Encyclopedia of Philosophy, first published 2004; substantive revision 2026; opening biographical and chronological discussion.",
+          "stable_url": "https://plato.stanford.edu/entries/plato/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant opening and chronology passages were read; the full entry was not read.",
+          "exact_locations_read": "Opening dates Plato's life as 429?–347 BCE; the discussion of periodization says the division into early, middle, and late periods as composition chronology remains disputed and its usefulness is debated.",
+          "limitations": "It supports broad chronological caution but does not give a precise composition date for the Republic. It therefore does not independently establish c. 375 BCE."
+        },
+        {
+          "title": "The Republic",
+          "author": "Encyclopaedia Britannica Editors",
+          "publication": "Encyclopaedia Britannica online reference article; accessed 2026-11-01.",
+          "stable_url": "https://www.britannica.com/topic/The-Republic",
+          "source_type": "General reference work / secondary summary",
+          "access_level": "Relevant sections of the full web article were read; the full encyclopedia was not consulted.",
+          "exact_locations_read": "Sections 'What is The Republic?' and 'The middle books of the Republic,' which classify the Republic as a middle-period dialogue and summarize the Cave, Sun, Good, and epistemic ascent.",
+          "limitations": "A general reference summary, not a specialist chronology study or the primary text. It gives no exact composition year."
+        },
+        {
+          "title": "Matching Allegory of the Cave data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id allegory-of-the-cave; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected read-only after revising the article.",
+          "exact_locations_read": "The record's title, original_publication, date_verified, and two existing reference objects were compared with the revised article. The proposed patch uses the article's five Further Reading URLs, in their displayed order, and sets date_verified to 2026-11-01; the source dataset itself was not edited.",
+          "limitations": "Metadata reconciliation only; it cannot establish historical or philosophical claims. The current dataset's approximate date matches the article but is not independently confirmed at that precision by the scholarly sources consulted."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The Cave scenario has prisoners chained from childhood, facing a wall while objects cast shadows; they take the shadows as real, name them, and reward skill at predicting them.",
+          "source_title": "The Republic, Book VII; The Allegory of the Cave: Book VII",
+          "source_url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "exact_location": "Plato, Republic 514a–516c; McAleer, chapter 11, 'Stages in the Cave Allegory.'",
+          "relationship": "supports",
+          "finding": "The dialogue describes chains restricting the prisoners' view, objects carried behind them, shadows named as if they were the things themselves, and honors for those best at observing and predicting the shadows. The revised article paraphrases the setup without attributing the editor's later analogies to Plato.",
+          "limitation": "The MIT text is Jowett's English translation; the full dialogue and Greek textual apparatus were not consulted.",
+          "required_edit": "Made: tightened wording to state the prediction and naming accurately and cited the relevant Book VII passage in the article."
+        },
+        {
+          "material_claim": "The freed prisoner's ascent is painful, he gradually sees the world and sun, and on return is mocked and may provoke lethal resistance.",
+          "source_title": "The Republic, Book VII",
+          "source_url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "exact_location": "Plato, Republic 515c–517a; Perseus text at 517a.",
+          "relationship": "supports",
+          "finding": "The primary passage supports the painful adjustment, progression to the sun, impaired vision on return, laughter, and the conditional possibility that those attempting to free the prisoners would be killed. The article now includes that last qualification and does not report it as an event that actually occurs.",
+          "limitation": "At 517a Perseus's editorial note calls the threat an allusion to Socrates' death; that interpretive note is not Plato's explicit identification and is not repeated as fact in the article.",
+          "required_edit": "Made: added the conditional threat of killing and kept it attributed to Socrates' dialogue."
+        },
+        {
+          "material_claim": "Plato presents the image as concerning education; Socrates describes education as turning the soul and the ascent as a movement toward the Good.",
+          "source_title": "The Republic, Book VII; The Allegory of the Cave: Book VII",
+          "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Rep.+514a",
+          "exact_location": "Plato, Republic 514a, 517a–c, and 518b–d; McAleer, chapter 11 opening on education and turning the whole soul.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary dialogue explicitly frames the comparison around education and its lack, maps the cave image onto the visible realm, associates the Good with the sun, and describes education as turning the soul. The article's formulation that this changes what a person can see is close to the text; 'care about' and contemporary applications are explicitly marked as the article's interpretation.",
+          "limitation": "The visible/intelligible mapping is an interpretation of the image as Socrates explains it; the image does not supply a one-to-one glossary for every element.",
+          "required_edit": "Made: qualified editorial applications and stated the visible/intelligible mapping more carefully."
+        },
+        {
+          "material_claim": "The ascent can be read alongside the divided-line analogy as relating to levels of cognition.",
+          "source_title": "The Allegory of the Cave: Book VII; The Republic, Book VII",
+          "source_url": "https://books.openbookpublishers.com/10.11647/obp.0229/ch11.xhtml",
+          "exact_location": "McAleer, chapter 11, opening and 'Stages in the Cave Allegory'; Plato, Republic 517a and preceding divided-line discussion at 509d–511e.",
+          "relationship": "supports_with_qualification",
+          "finding": "Socrates says the image should be applied to the preceding argument; McAleer explicitly relates the stages to the divided line while noting that stage divisions can be subjective. The revised article describes this as a way of reading the image, not as an uncontested exact mapping.",
+          "limitation": "McAleer's stage boundaries are one scholarly account and he acknowledges their interpretive character.",
+          "required_edit": "Made: replaced a broad claim that scholars dispute every element's mapping with a qualified divided-line reading and an explicit note about interpretive disagreement."
+        },
+        {
+          "material_claim": "Socrates connects the sun to the Good, which is described as the source of truth and intelligibility.",
+          "source_title": "The Republic, Book VII; The Republic",
+          "source_url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "exact_location": "Plato, Republic 517b–c; Britannica, 'The middle books of the Republic.'",
+          "relationship": "supports",
+          "finding": "The primary text explicitly compares the sun in the visible realm with the Good in the intelligible realm and associates the Good with truth and understanding. Britannica independently summarizes this connection.",
+          "limitation": "This reports the dialogue's analogy and does not prove a settled account of the metaphysics of the Good.",
+          "required_edit": "Made: retained the sun/Good interpretation with a specific Stephanus reference."
+        },
+        {
+          "material_claim": "In the ideal city, philosophers who have ascended are compelled to return and rule; scholarly explanations of their compulsion and motive differ.",
+          "source_title": "The Republic, Book VII; Plato's Ethics and Politics in The Republic",
+          "source_url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+          "exact_location": "Plato, Republic 519c–521b; Brown, §2.3, 'Perfectly Virtuous Motivations,' and §5 on controversy over political interpretation.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text says the founders must compel the best natures and that philosophers must take turns ruling for the city's benefit. Brown reviews explanations involving justice's demand and the law's compulsion and discusses broader disagreements about the Republic's political implications. The revised article reports compulsion directly and does not claim scholarly consensus about motive.",
+          "limitation": "Brown's reference entry surveys the debate but is not an exhaustive review of all scholarship; the primary text itself does not resolve every question about motivation.",
+          "required_edit": "Made: specified compulsion and civic purpose and preserved disagreement about its explanation."
+        },
+        {
+          "material_claim": "The Cave is technically an analogy rather than one of Plato's myths, although 'Allegory of the Cave' remains the article's conventional title.",
+          "source_title": "Plato's Myths",
+          "source_url": "https://plato.stanford.edu/entries/plato-myths/",
+          "exact_location": "Partenie, paragraph discussing the Cave at Republic 514a–517a.",
+          "relationship": "supports_with_qualification",
+          "finding": "Partenie explicitly calls the Cave, strictly speaking, an analogy rather than a myth. The dataset already classifies the entry type as analogy; the familiar title is retained, while the article now states the technical distinction.",
+          "limitation": "The article's title is a conventional label, not a technical claim that it belongs to a separate genre of myth.",
+          "required_edit": "Made: retained the familiar title and clarified the technical classification in the article and Further Reading."
+        },
+        {
+          "material_claim": "The sensible/visible realm should not be collapsed into the prisoners' shadows; the Cave as a whole is mapped to the visible realm and the ascent beyond it to intelligible reality.",
+          "source_title": "The Republic, Book VII; Plato's Myths",
+          "source_url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+          "exact_location": "Plato, Republic 517a–c; compare Partenie's description of the Cave as an analogy at 514a–517a.",
+          "relationship": "supports_with_qualification",
+          "finding": "Socrates applies the full image to the prior discussion and says the cave corresponds to the visible region, with the ascent corresponding to the intelligible realm. The article's revised wording avoids equating all ordinary physical objects directly with the cave's shadows.",
+          "limitation": "The mapping is supplied by Socrates in the dialogue and remains an analogy rather than a literal identity between worlds.",
+          "required_edit": "Made: qualified the prior statement about sensible objects and added the specific 517a–c mapping."
+        },
+        {
+          "material_claim": "The cave's comparison with brain-in-a-vat, media, social networks, and virtual reality is the article's educational framing, not a historical variation or a claim Plato makes in those terms.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§3, 5, and 7.",
+          "relationship": "context_only",
+          "finding": "These are clearly marked as editorial comparisons or examples. They are not attributed to Plato, and the article cautions that the contemporary skeptical comparison is not the same argument as the ascent narrative.",
+          "limitation": "The modern analogies are prompts, not historical claims; no claim about the history of later retellings is made.",
+          "required_edit": "Made: reframed modern examples as editorial teaching analogies and removed the uncited historical assertion that later retellings use them."
+        },
+        {
+          "material_claim": "The Republic is approximately dated to about 375 BCE, but that is not an exact or independently verified composition year.",
+          "source_title": "The Republic by Plato; Plato",
+          "source_url": "https://www.gutenberg.org/ebooks/1497",
+          "exact_location": "Project Gutenberg catalogue's automatically generated description gives 'Written around 375 BC'; SEP Plato opening provides Plato's approximate lifespan and its chronology discussion says composition periodization is disputed; Britannica describes the Republic as a middle-period dialogue without giving an exact year.",
+          "relationship": "supports_with_qualification",
+          "finding": "The Gutenberg-generated description accounts for the existing c. 375 BCE estimate, and the article labels it approximate. The scholarly sources support only broad periodization and caution against overconfident chronology; they do not independently establish that precise estimate.",
+          "limitation": "The c. 375 BCE estimate is not confirmed by the primary Cave passage or by a specialist chronology source consulted here. This material dating detail remains unresolved at the stated precision.",
+          "required_edit": "Made: retained the existing approximate date, explicitly noted the uncertainty in Sources and Attribution, and kept the entry status partial rather than presenting the date as verified."
+        },
+        {
+          "material_claim": "The article's title, entry type, approximate publication description, review date, and Further Reading URLs/order are reconciled with the matching dataset record or proposed patch.",
+          "source_title": "Matching Allegory of the Cave data record",
+          "source_url": null,
+          "exact_location": "Read-only data/experiments.json object with id allegory-of-the-cave; revised article metadata and §9; proposed data patch references array.",
+          "relationship": "supports",
+          "finding": "The title and id match. The dataset's kind 'analogy' matches the article's Type; its approximate publication wording remains unchanged. The article Research check date and proposed date_verified are both 2026-11-01. The proposed patch contains the five Further Reading links in exactly the article's order; it will replace the two earlier reference URLs. The underlying dataset was not edited.",
+          "limitation": "Metadata comparison only. The c. 375 BCE estimate remains only approximately supported, as stated above. The patch is local and is not a public source-review status field.",
+          "required_edit": "Made: revised the Further Reading list and prepared the separate patch with its exact links/order and verification date."
+        }
+      ],
+      "unresolved_limits": [
+        "The exact composition date of the Republic was not established. The c. 375 BCE value appears in Project Gutenberg's automatically generated catalogue summary; consulted scholarly sources support broad middle-period placement and caution that chronology is disputed, but do not confirm that exact estimate. This unresolved material detail is why the status is partially_source_checked.",
+        "Primary passage verification used Jowett and Shorey English translations at selected Book VII locations; neither the full Republic nor a Greek critical edition and apparatus were read.",
+        "The audit consulted one scholarly book chapter and relevant SEP reference entries, not an exhaustive literature review. Disputes over the philosophers' motives and the exact mapping of stages are left open.",
+        "Modern brain-in-a-vat, media, social-network, and virtual-reality comparisons are editorial teaching examples rather than claims about Plato or an investigated history of reception.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "idle-argument",
+      "title": "The Idle Argument",
+      "article_path": "experiments/time-and-causality/idle-argument.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the argument's illness/doctor setup and conclusion; Aristotle's related discussion of deliberation; the transmission and attribution in Cicero; the reported Chrysippus reply and co-fated outcomes; the version framed through eternal truth; the distinction between logical fatalism and causal determinism; the article's characterization of action's efficacy; and the editorial status of the crop/exam comparisons. This status records traceability for this declared scope, not the truth of fatalism, a complete reconstruction of lost ancient views, exhaustive scholarship, or expert review.",
+      "summary": "The article now presents the doctor example as a reported argument rather than an established truth, distinguishes Aristotle's related passage from the later named Idle Argument, and identifies Cicero's account as later testimony. It attributes the co-fated response to Chrysippus as Cicero does, notes Cicero's eternal-truth version, and does not imply that the Stoic reply settles every generalized formulation. The article clarifies that causal determinism need not make actions causally ineffective, removes the unsupported claim about strong fatalists, and labels contemporary examples as teaching prompts. Relevant passages in the SEP, Cicero, and Aristotle were read; the dataset reference list is proposed to match the revised article exactly.",
+      "sources": [
+        {
+          "title": "Fatalism",
+          "author": "Hugh Rice",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2002, substantive revision 2023; especially §7, ‘The Idle Argument.’",
+          "stable_url": "https://plato.stanford.edu/entries/fatalism/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections in the online entry were read; the full entry was not read.",
+          "exact_locations_read": "The opening account of the philosophical use of ‘fatalism’ and §7: Aristotle's related deliberation passage, the argument's illness/doctor form, Chrysippus's reported reply, versions omitting explicit fate, the purpose attributed to the original argument, and the stated uncertainty about the generalized version.",
+          "limitations": "Secondary synthesis. The entry refers to Bobzien (1998) and Bledin (2020); those works were not independently consulted in this audit. It does not establish that the reported argument is sound or that the co-fated answer resolves every version."
+        },
+        {
+          "title": "Ancient Theories of Freedom and Determinism",
+          "author": "Tim O’Keefe",
+          "publication": "The Stanford Encyclopedia of Philosophy, Spring 2021 archive; first published 2020; especially §§1 and 1.4.",
+          "stable_url": "https://plato.stanford.edu/archives/spr2021/entries/freedom-ancient/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections in the archived online entry were read; the full entry was not read.",
+          "exact_locations_read": "§1 distinguishes arguments from ‘logical determinism’ (fixed truth values of future statements) from causal determinism and notes that ancient discussions also relate them; §1.4 explains the Stoic position that causal determination and fate can coexist with causally effective, co-fated action, citing Cicero, De Fato 30.",
+          "limitations": "Secondary interpretation and synthesis. Ancient terminology and modern categories should not be treated as interchangeable; the article uses the distinction as a concise teaching contrast, not a complete history of ancient theories."
+        },
+        {
+          "title": "De Fato (On Fate)",
+          "author": "Cicero",
+          "publication": "Loeb Classical Library 349, 1942, pp. 224–225; §§28–30; Harvard University Press / Loeb Classical Library online text. The accessible page did not identify the translator in the consulted display.",
+          "stable_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+          "source_type": "Primary ancient testimony in later translation",
+          "access_level": "Selected passages of the translated text were read directly on the Loeb page; the work was not read in full.",
+          "exact_locations_read": "§§28–29: Cicero calls the argument the Argos Logos / ‘idle argument,’ gives the doctor-and-recovery reasoning, and gives a version framed as a statement true or false from eternity. §30 begins Cicero's report that Chrysippus criticizes the argument by distinguishing simple from complex/condestinate facts and includes his counterexample; the accessible page excerpt cuts off partway through §30. The fuller passage was cross-checked against the text reproduced at https://www.informationphilosopher.com/solutions/philosophers/cicero/de_fato_english.html, especially §§28–30.",
+          "limitations": "Cicero is a primary ancient witness for what he reports, but his account is later testimony about Chrysippus and does not provide a surviving Chrysippus text or identify the original author of the named argument. The Loeb excerpt is incomplete within §30; the auxiliary online reproduction is not the Loeb edition and its translation/editorial provenance was not fully established."
+        },
+        {
+          "title": "On Interpretation",
+          "author": "Aristotle",
+          "publication": "Chapter 9, 18b31–36; MIT Classics online English translation (translator attribution not displayed on the consulted page).",
+          "stable_url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+          "source_type": "Primary ancient work in later translation",
+          "access_level": "The relevant translated passage in chapter 9 was read directly; the full work was not read.",
+          "exact_locations_read": "Chapter 9, 18b31–36: Aristotle describes the apparent consequence that deliberation or taking trouble would be unnecessary if future outcomes were necessary; the surrounding passage then says deliberation and action are causative with respect to the future.",
+          "limitations": "This is a primary text for Aristotle's discussion, but not a direct attribution of the later-named Idle Argument to Aristotle. Translation is mediated, and only the relevant passage was consulted."
+        },
+        {
+          "title": "The Greek Philosophical Sources in Cicero’s De Fato",
+          "author": "Pedro José Grande Sánchez",
+          "publication": "Religions, 16(7), article 824 (2025), DOI 10.3390/rel16070824; §2, ‘Historical and Philosophical Context of the Treatise De Fato.’",
+          "stable_url": "https://www.mdpi.com/2077-1444/16/7/824",
+          "source_type": "Scholarly secondary analysis",
+          "access_level": "The relevant portion of the open-access article was read; the full article was not read.",
+          "exact_locations_read": "§2 identifies Cicero's dates and states that De Fato was composed around June 44 BCE, shortly after Caesar's assassination.",
+          "limitations": "Used only to verify the approximate composition date; it is a secondary account and does not establish the argument's original authorship."
+        },
+        {
+          "title": "Matching Idle Argument data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id idle-argument; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "The id and current date_verified field were checked, and the existing reference list was compared with the revised article's Further Reading links and order to prepare the proposed patch.",
+          "limitations": "Metadata reconciliation only; it does not establish historical or philosophical claims. The dataset file itself was not modified."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The Idle Argument's doctor example says that, whether recovery or non-recovery is fated, consulting a doctor makes no difference, and generalizes the result to inaction.",
+          "source_title": "De Fato; Fatalism",
+          "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+          "exact_location": "Cicero, De Fato §§28–29, pp. 224–225; SEP Fatalism §7.",
+          "relationship": "supports_with_qualification",
+          "finding": "Cicero directly reports this illness/doctor reasoning and its idle conclusion. The article now presents it as the argument's reasoning, not as an endorsed claim that treatment has no effect.",
+          "limitation": "Cicero is a later witness and does not name the argument's inventor in this passage. The article's wording is an educational paraphrase, not a quotation.",
+          "required_edit": "Made: retained the core scenario and conclusion while making its status as an argument clear in context."
+        },
+        {
+          "material_claim": "Aristotle discusses the apparent futility of deliberation as a consequence of a fatalist conclusion, but this does not establish that he originated or named the Idle Argument.",
+          "source_title": "On Interpretation; Fatalism",
+          "source_url": "https://classics.mit.edu/Aristotle/interpretation.1.1.html",
+          "exact_location": "Aristotle, On Interpretation 9, 18b31–36; SEP Fatalism §7.",
+          "relationship": "supports_with_qualification",
+          "finding": "Aristotle's passage connects necessity with the apparent lack of need to deliberate, and the SEP identifies this as a related corollary. The text supports a relation, not attribution of the later named argument.",
+          "limitation": "Only the relevant chapter passage was read; the later history of the argument is not exhausted by this comparison.",
+          "required_edit": "Made: explicitly described Aristotle's text as related background, not as evidence that he named or originated the Idle Argument."
+        },
+        {
+          "material_claim": "Cicero attributes to Chrysippus a reply that certain outcomes are complex or co-fated with the actions necessary to bring them about.",
+          "source_title": "De Fato; Ancient Theories of Freedom and Determinism",
+          "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+          "exact_location": "Cicero, De Fato §30, pp. 225–226 (the accessible Loeb page begins §30 and truncates before its full continuation); SEP Ancient Theories of Freedom and Determinism §1.4, citing Fat. 30.",
+          "relationship": "supports_with_qualification",
+          "finding": "Cicero explicitly says Chrysippus criticizes the argument and distinguishes simple from complex/condestinate facts. O’Keefe's SEP discussion interprets the relevant case as a fated recovery conjoined with seeking treatment, so the action remains causally efficacious.",
+          "limitation": "This is Cicero's later report of Chrysippus, not a surviving Chrysippus text. The phrase ‘co-fated’ summarizes the account and should not imply that all versions of the argument are answered.",
+          "required_edit": "Made: attributed the reply to Chrysippus through Cicero and qualified its reach."
+        },
+        {
+          "material_claim": "Cicero reports a version that replaces explicit fate language with a claim about a future-statement being eternally true or false.",
+          "source_title": "De Fato; Fatalism",
+          "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+          "exact_location": "Cicero, De Fato §29, pp. 224–225; SEP Fatalism §7 on variants omitting ‘it is fated that’ and the generalized version.",
+          "relationship": "supports_with_qualification",
+          "finding": "Cicero explicitly presents an eternal-truth version after the fate-framed version. The SEP notes that the generalized version raises a further unresolved question about where it fails.",
+          "limitation": "The audit did not independently read the cited Bledin (2020) paper; no claims about its detailed argument are made. The article reports the SEP's stated qualification only.",
+          "required_edit": "Made: included the eternal-truth variant and avoided suggesting the co-fated reply settles all generalized forms."
+        },
+        {
+          "material_claim": "Fatalism in this argument must be distinguished from causal determinism; causal determination does not by itself make actions ineffective.",
+          "source_title": "Ancient Theories of Freedom and Determinism; Fatalism",
+          "source_url": "https://plato.stanford.edu/archives/spr2021/entries/freedom-ancient/",
+          "exact_location": "O’Keefe, Ancient Theories of Freedom and Determinism §1 (logical fatalism vs causal determinism) and §1.4 (Stoic action as causally determined and efficacious); SEP Fatalism opening paragraphs distinguish fatalist arguments by logical, theological, and causal routes.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP sources distinguish a logical/future-truth fatalist argument from causal determinism and explain the Stoic position that causally determined action may still be effective. The article's distinction is framed as the relevant contrast, not as a claim that every historical use of ‘fatalism’ is uniform.",
+          "limitation": "The entries give a scholarly synthesis, not a single universally accepted definition for every context. The article simplifies a complex ancient debate for beginners.",
+          "required_edit": "Made: refined the fatalism/determinism contrast and stated that determinism does not by itself entail ineffective action."
+        },
+        {
+          "material_claim": "The reviewed passages do not establish a secure original author for the named Idle Argument.",
+          "source_title": "De Fato; Fatalism",
+          "source_url": "https://www.loebclassics.com/view/marcus_tullius_cicero-de_fato/1942/pb_LCL349.225.xml?readMode=recto",
+          "exact_location": "Cicero, De Fato §§28–30, pp. 224–225; SEP Fatalism §7, which refers to the argument as known and cites Bobzien 1998 §5 without naming an originator in the discussion read.",
+          "relationship": "does_not_establish",
+          "finding": "The consulted text names the argument and attributes the reply to Chrysippus, but does not name the argument's original author. The article therefore retains uncertainty rather than assigning the argument to Aristotle, Chrysippus, or another specific thinker.",
+          "limitation": "This finding is limited to the passages consulted; it is not an exhaustive survey of ancient testimonia or scholarship on attribution.",
+          "required_edit": "Made: marked the original author's identity uncertain and described Cicero's evidence as later testimony."
+        },
+        {
+          "material_claim": "The crops and exams examples are modern explanatory comparisons, not historical variations attributed to ancient authors.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §7, Variations and Extensions, and §10, Sources and Attribution.",
+          "relationship": "context_only",
+          "finding": "These examples are marked as teaching prompts, and the article does not attribute them to ancient sources.",
+          "limitation": "Editorial framing rather than a historical claim requiring external corroboration.",
+          "required_edit": "Made: retained the examples and labeled them as teaching prompts, not established ancient variations."
+        },
+        {
+          "material_claim": "Cicero's De Fato, which transmits the Idle Argument, was composed around 44 BCE.",
+          "source_title": "The Greek Philosophical Sources in Cicero’s De Fato",
+          "source_url": "https://www.mdpi.com/2077-1444/16/7/824",
+          "exact_location": "Grande Sánchez, §2, ‘Historical and Philosophical Context of the Treatise De Fato’: states that the treatise was composed around June 44 BCE.",
+          "relationship": "supports_with_qualification",
+          "finding": "The scholarly article supports the article's approximate date for Cicero's report. The date refers to Cicero's treatise, not to the origin of the Idle Argument.",
+          "limitation": "Single secondary source consulted for this approximate date; the audit did not independently reconstruct the work's chronology from Cicero's correspondence.",
+          "required_edit": "Made: specified c. 44 BCE for Cicero's De Fato and added the supporting scholarly source to Further Reading."
+        },
+        {
+          "material_claim": "The dataset metadata should use the revised article's exact Further Reading reference links in the same order, and date_verified should be 2026-11-01.",
+          "source_title": "Matching Idle Argument data record",
+          "source_url": null,
+          "exact_location": "Matching id idle-argument in data/experiments.json compared with revised article §9; proposed patch sets date_verified to 2026-11-01.",
+          "relationship": "supports",
+          "finding": "The revised Further Reading section has five URLs in the order: SEP Fatalism; archived SEP Ancient Theories of Freedom and Determinism; Cicero's Loeb text; Aristotle at MIT Classics; Grande Sánchez's article. The proposed patch mirrors them exactly and updates the verification date.",
+          "limitation": "Metadata reconciliation only. The dataset is read-only in this task; the patch file is a proposal and has not been applied.",
+          "required_edit": "Prepared, not applied: wrote the matching local data patch without editing data/experiments.json."
+        }
+      ],
+      "unresolved_limits": [
+        "No surviving text by the named argument's original author or by Chrysippus was consulted; the audit relies on later testimony, especially Cicero.",
+        "The consulted passages do not identify the original author of the named Idle Argument; attribution remains uncertain, and the audit is not an exhaustive search of ancient reports.",
+        "The generalized version replacing fate-language with eternal truth remains a substantive interpretive issue; the SEP says the exact point of failure is unclear. Bledin (2020), cited there for a detailed discussion, was not independently accessed.",
+        "Only relevant passages of the primary works and secondary entries were read; no complete work, critical edition, or exhaustive scholarly literature review was consulted.",
+        "The Loeb page excerpt cuts off partway through Cicero's §30; the conclusion about the reply was triangulated with the SEP entry and a full-text online reproduction whose translation provenance was not fully established.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "zenos-arrow",
+      "title": "Zeno’s Arrow",
+      "article_path": "experiments/logic/zenos-arrow.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the revised article and matching dataset entry. Checked the fifth-century BCE period framing; whether Zeno’s original text survives; the ancient attribution and reported assumptions in Aristotle, Physics VI.9; the distinction between Aristotle’s rejection of indivisible nows and the modern at-at/calculus response; the separate Stadium reference; and the article’s explicitly editorial discussion prompt. The previous assertion about contemporary physics and time at very small scales was removed rather than retained without suitable evidence. This status records traceability of the revised declared scope, not a verdict on the paradox’s soundness, a consensus about the metaphysics of motion, exhaustive scholarship, or expert review.",
+      "summary": "The article now labels the familiar step-by-step Arrow scenario as a reconstruction from Aristotle’s surviving report, gives the Bekker locations for Aristotle’s report and response, and distinguishes that response from a modern at-at account and the calculus definition of instantaneous velocity. It retains the fifth-century BCE period only as an approximate date, supported by scholarly reference sources. The Stadium is identified as a separate argument concerning relative motion. An unsupported statement about contemporary physics and time at very small scales was removed. Four Further Reading references and the verification date are set out in a separate proposed data patch; the dataset itself remains unchanged.",
+      "sources": [
+        {
+          "title": "Zeno’s Paradoxes",
+          "author": "Nick Huggett",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2002, substantive revision 2024; §§3.3 (‘The Arrow’) and 3.4 (‘The Stadium’).",
+          "stable_url": "https://plato.stanford.edu/entries/paradox-zeno/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections and passages were read in the full web entry; the entire entry was not read.",
+          "exact_locations_read": "§3.3 quotes Aristotle, Physics 239b30, summarizes the argument’s assumption that time is composed only of moments, explains why the inference from no distance in a zero-duration instant to rest is challenged, and describes the at-at account and its counterintuitive implication. §3.4 reports the Stadium and discusses its relative-motion reconstruction.",
+          "limitations": "Secondary analysis, not a primary text or exhaustive survey of scholarship. It presents one modern response and does not establish that it is the only possible account of motion or a settled metaphysical conclusion."
+        },
+        {
+          "title": "Physics",
+          "author": "Aristotle; translated by R. P. Hardie and R. K. Gaye",
+          "publication": "Book VI, chapter 9, especially 239b5–9 and 239b30–33; English translation hosted by the Logos Virtual Library. The consulted page does not identify the translation edition or its date.",
+          "stable_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+          "source_type": "Primary ancient philosophical text and testimony about Zeno",
+          "access_level": "The chapter was available in translation and the relevant passage and adjacent discussion were read directly; no Greek critical edition was consulted.",
+          "exact_locations_read": "VI.9, 239b5–9: Aristotle reports Zeno’s Arrow reasoning and says time is not composed of indivisible moments. VI.9, 239b30–33: Aristotle repeats the Arrow as the third argument and identifies its dependence on the assumption that time is composed of moments. The chapter’s subsequent discussion of the moving rows was also read.",
+          "limitations": "Aristotle is a later reporter and critic, not Zeno’s surviving text. The online translation is mediated, and its host page gives no edition details. The passage establishes what Aristotle reports and argues, not that the argument is sound or that it reproduces Zeno verbatim."
+        },
+        {
+          "title": "Zeno of Elea",
+          "author": "John Palmer",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2008, substantive revision 2025; §1 (‘Life and Writings’) and §2.2.3 (‘The Arrow’).",
+          "stable_url": "https://plato.stanford.edu/entries/zeno-elea/",
+          "source_type": "Scholarly reference work / historical analysis",
+          "access_level": "Relevant sections and passages were read in the full web entry; the entire entry was not read.",
+          "exact_locations_read": "§1 identifies Zeno as a fifth-century BCE thinker and discusses the evidence for an approximate birth date. §2.2.3 reviews Aristotle’s report at Physics 239b5–9 and 239b30–33, the indirect nature of evidence for the Arrow, the lost original book, and the constraints on reconstruction.",
+          "limitations": "Modern historical synthesis based on surviving ancient testimony; it cannot recover Zeno’s exact wording. The broad fifth-century BCE period in the article is more secure than a precise biographical date."
+        },
+        {
+          "title": "University Physics Volume 1, §3.2: Instantaneous Velocity and Speed",
+          "author": "OpenStax (Rice University; individual section author not specified on the consulted page)",
+          "publication": "OpenStax, University Physics Volume 1, §3.2, ‘Instantaneous Velocity and Speed’.",
+          "stable_url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+          "source_type": "Open educational physics textbook",
+          "access_level": "The complete relevant web section was read; the rest of the textbook was not read.",
+          "exact_locations_read": "§3.2, subsection ‘Instantaneous Velocity’: defines instantaneous velocity as the limit of average velocity as elapsed time approaches zero, and relates it to the derivative of position with respect to time.",
+          "limitations": "Supports the calculus definition only; it does not interpret Zeno or adjudicate the philosophical meaning of motion at an instant."
+        },
+        {
+          "title": "Zeno’s Paradoxes",
+          "author": "Bradley Dowden",
+          "publication": "Internet Encyclopedia of Philosophy; page publication or revision date not displayed in the consulted page; sections ‘The Arrow’, ‘Aristotle’s Treatment of the Paradoxes’, and introductory historical material.",
+          "stable_url": "https://iep.utm.edu/zenos-paradoxes/",
+          "source_type": "Secondary philosophy encyclopedia article",
+          "access_level": "Selected relevant sections and author metadata were read in the web entry; the entire article was not read.",
+          "exact_locations_read": "The Arrow section discusses the standard calculus/at-at response; the Aristotle section compares Aristotle’s rejection of indivisible moments with the modern response; the introduction discusses the loss and indirect transmission of Zeno’s book.",
+          "limitations": "The article makes broad claims about which response is accepted by most scholars and includes a chapter-location discrepancy for Aristotle’s Arrow passage (it labels the source Physics VI.5, while the primary text and the SEP entries locate it at VI.9). Those claims were not adopted as article claims or used to establish consensus."
+        },
+        {
+          "title": "Matching Zeno’s Arrow data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id zenos-arrow; inspected 2026-11-01, read-only.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was inspected; a separate proposed patch was prepared but not applied to the dataset.",
+          "exact_locations_read": "Matching entry fields id, date_verified, and references were inspected and compared with the revised article’s §9 Further Reading links and order.",
+          "limitations": "Metadata reconciliation only. The current dataset still contains its prior date and one reference; the proposed patch is a separate local artifact and does not modify data/experiments.json."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Aristotle reports Zeno’s Arrow reasoning using the assumptions that what occupies a space equal to itself is at rest and that what moves is always in a now; the familiar step-by-step account is a reconstruction rather than Zeno’s preserved wording.",
+          "source_title": "Physics; Zeno’s Paradoxes; Zeno of Elea",
+          "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+          "exact_location": "Aristotle, Physics VI.9, 239b5–9 and 239b30–33; Huggett, SEP §3.3; Palmer, SEP §2.2.3.",
+          "relationship": "supports_with_qualification",
+          "finding": "Aristotle explicitly attributes the conclusion that the flying arrow is motionless to Zeno’s reasoning, then says the assumption that time is composed of indivisible moments is false. Palmer and Huggett explain that the original book is lost and the Arrow is known through later reports. The revised article attributes the report to Aristotle and marks the fuller scenario as a familiar reconstruction.",
+          "limitation": "The report is mediated through Aristotle; the exact wording and every step of Zeno’s own argument cannot be established from the surviving passage.",
+          "required_edit": "Made: attributed the argument to Aristotle’s report, supplied Bekker references, and qualified the step-by-step scenario as reconstruction."
+        },
+        {
+          "material_claim": "Aristotle rejects the Arrow argument’s premise that time is composed of indivisible moments; this is distinct from the modern at-at response.",
+          "source_title": "Physics; Zeno’s Paradoxes",
+          "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+          "exact_location": "Aristotle, Physics VI.9, 239b8–9 and 239b30–33; Huggett, SEP §3.3, explanation of the Arrow and the modern response.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary passage directly states Aristotle’s rejection of time as composed of indivisible moments. Huggett’s account distinguishes this ancient response from a modern response that allows instants and challenges the inference from no displacement during a zero-duration instant to rest.",
+          "limitation": "The modern account is one response to the paradox; the sources do not establish a single metaphysically mandatory theory of motion.",
+          "required_edit": "Made: separated Aristotle’s objection from the modern account and removed unsupported claims about broader families of motion theories."
+        },
+        {
+          "material_claim": "Calculus defines instantaneous velocity as a limit of average velocity over shrinking time intervals, and an at-at account characterizes motion through different positions at different times.",
+          "source_title": "University Physics Volume 1, §3.2: Instantaneous Velocity and Speed; Zeno’s Paradoxes",
+          "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+          "exact_location": "OpenStax §3.2, subsection ‘Instantaneous Velocity’; Huggett, SEP §3.3, response to the inference from zero distance in a zero-duration instant and discussion of successive positions at successive times.",
+          "relationship": "supports_with_qualification",
+          "finding": "OpenStax directly defines instantaneous velocity as the limit of average velocity as elapsed time approaches zero. Huggett explains that the at-at conception describes an object as occupying different positions at different times and that motion need not be distance traversed within any one instant. The revised article presents these as a mathematical account and a philosophical response, not as a proof that all philosophical questions are settled.",
+          "limitation": "OpenStax establishes the mathematical definition, not its metaphysical interpretation; Huggett’s at-at discussion is a secondary philosophical account.",
+          "required_edit": "Made: retained the calculus/at-at discussion with distinct sourcing and framed the remaining question as editorial discussion."
+        },
+        {
+          "material_claim": "The Stadium is a separate argument involving rows of bodies moving in opposite directions and relative motion.",
+          "source_title": "Physics; Zeno’s Paradoxes",
+          "source_url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+          "exact_location": "Aristotle, Physics VI.9, from 239b33 through the discussion of the moving rows; Huggett, SEP §3.4 (‘The Stadium’).",
+          "relationship": "supports_with_qualification",
+          "finding": "Aristotle distinguishes the fourth moving-rows argument from the third Arrow argument. Huggett’s reconstruction describes the relative-motion issue and notes that interpretations of the Stadium differ. The article now calls it a separate argument, not another version of the Arrow.",
+          "limitation": "The interpretation of the Stadium is not required to settle the Arrow; only its distinctness and basic relative-motion characterization are retained.",
+          "required_edit": "Made: replaced the unsupported contemporary-physics aside with a sourced distinction of the Stadium."
+        },
+        {
+          "material_claim": "Zeno belongs approximately to the fifth century BCE, and the Arrow is known through later testimony rather than a surviving original text.",
+          "source_title": "Zeno of Elea; Zeno’s Paradoxes",
+          "source_url": "https://plato.stanford.edu/entries/zeno-elea/",
+          "exact_location": "Palmer, SEP §1 (‘Life and Writings’) and §2.2.3 (‘The Arrow’); Huggett, SEP introductory historical account and §3.3.",
+          "relationship": "supports_with_qualification",
+          "finding": "Palmer identifies Zeno as a fifth-century BCE thinker and explains the inferential nature of biographical dating. Both SEP accounts describe the loss of Zeno’s book and the second-hand nature of the Arrow report. The article keeps the broad period and explicitly says the account is mediated.",
+          "limitation": "A precise year for the Arrow’s composition or Zeno’s birth is not established; the article does not state one.",
+          "required_edit": "Made: retained only the approximate fifth-century BCE metadata and clarified the mediated status of the ancient testimony."
+        },
+        {
+          "material_claim": "The question about what makes an object moving and the prompts about film frames and instantaneous velocity are educational framing, not claims attributed to Zeno.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§2, 3, and 6; §10 identifies the prompts as teaching and discussion framing.",
+          "relationship": "context_only",
+          "finding": "The article identifies the relevant prompts as editorial framing and does not attribute them to Zeno or Aristotle.",
+          "limitation": "These are discussion prompts and do not require external historical verification.",
+          "required_edit": "Made: explicitly labeled the question and prompts as teaching framing."
+        },
+        {
+          "material_claim": "The article’s Further Reading list and proposed dataset patch have matching reference URLs in the same order, with date_verified set to 2026-11-01.",
+          "source_title": "Revised Zeno’s Arrow article and proposed matching data patch",
+          "source_url": null,
+          "exact_location": "Article §9 and research/source-review-batch13-item-zenos-arrow-data-patch.json; matching read-only data/experiments.json entry id zenos-arrow.",
+          "relationship": "supports",
+          "finding": "The revised Further Reading links are, in order, the SEP Zeno’s Paradoxes entry, Aristotle Physics VI.9 translation, SEP Zeno of Elea entry, and OpenStax §3.2. The proposed patch uses those exact URLs and order and sets date_verified to 2026-11-01. The current dataset object was read but not edited.",
+          "limitation": "The patch is a local proposal only; the read-only dataset retains the prior single-reference list and prior verification date.",
+          "required_edit": "Made: prepared the separate data patch; did not edit data/experiments.json."
+        }
+      ],
+      "unresolved_limits": [
+        "Zeno’s original book does not survive; the Arrow’s exact wording and complete original argument cannot be recovered from Aristotle’s report.",
+        "The audit consulted relevant passages rather than reading every cited reference or an exhaustive critical edition and scholarly literature on Zeno.",
+        "The audit records competing kinds of response but does not decide whether the at-at account or another theory best explains motion.",
+        "The consulted IEP article makes broad claims about scholarly acceptance that were not independently verified and were excluded from the revised article.",
+        "The article’s former statement about whether contemporary physics leaves time’s continuity at very small scales unsettled was removed; that scientific question was outside the revised scope and was not audited.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    }
+  ]
+}

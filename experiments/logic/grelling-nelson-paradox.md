@@ -3,45 +3,45 @@
 **Category:** logic  
 **Type:** paradox  
 **Associated thinker(s):** Kurt Grelling, Leonard Nelson  
-**Original publication or approximate period:** Grelling and Nelson (1908)  
+**Original publication or approximate period:** Grelling and Nelson, “Bemerkungen zu den Paradoxien von Russell und Burali-Forti” (1907; a 1908 reprint is also listed) \
 **Difficulty:** Intermediate  
 **Themes:** self-reference, semantic paradox, predicates  
 **Related experiments:** [Russell’s Paradox](russells-paradox.md); [The Liar Paradox](liar.md)
 
 ## 1. The Scenario
 
-Some words describe themselves. “Short” is a short word. “English” is an English word. “Polysyllabic” has many syllables. Call a word that describes itself autological. Other words do not describe themselves. “Long” is not a long word. “German” is not a German word. Call such a word heterological.
+Call an adjective **autological** if it applies to itself: “polysyllabic” has several syllables. Call it **heterological** if it does not: “monosyllabic” has several syllables, so it is not monosyllabic.
 
-Now ask: is “heterological” heterological? If it is, then it describes itself, which makes it autological. If it is not, then it does not describe itself, which makes it heterological.
+Now ask whether “heterological” applies to itself. If it does, then by definition it does not; if it does not, then by definition it does. The contradiction follows if this definition is allowed to apply to the adjective itself and every adjective must receive a yes-or-no classification.
 
 ## 2. The Central Question
 
-How can a perfectly well-defined word lead to a contradiction, and what must be restricted to avoid it?
+What assumptions about self-application and classification make this definition paradoxical?
 
 ## 3. Why It Matters
 
-The paradox is a close cousin of Russell’s paradox, but it concerns predicates instead of sets. It shows that self-application of a predicate can produce contradictions in natural-language style definitions.
+The paradox is semantic, but it has a structure close to Russell’s set paradox: each asks whether an item belongs to a class defined in terms of not belonging to itself. The resemblance is structural; the paradoxes concern different kinds of things.
 
-It motivates distinctions between a language and its metalanguage and has been used in discussions of type theory and the limits of definability.
+One historical response, discussed by Ramsey, distinguishes the meaning relation used to define “heterological” from the relation that links the word “heterological” to its meaning. On this approach, the same unrestricted relation is not used to apply the predicate to itself. The Stanford Encyclopedia of Philosophy notes that this proposal anticipates Tarski’s later work on semantic hierarchies.
 
 ## 4. Major Interpretations
 
-**Hierarchical approaches** say “heterological” is defined at a higher level than the words it applies to, so it cannot apply to itself. **Restricting definitions** says the definition is ill-formed because it relies on all predicates, including itself. **Non-classical approaches** allow certain statements to be both true and false or neither. **Contextual views** say the meaning of “describes itself” shifts.
+The contradiction depends on treating “heterological” as a predicate that can apply to itself under the same definition used for other adjectives. The Ramsey-style response blocks that unrestricted self-application by distinguishing levels of meaning. This is one historically discussed response, not a settled proof that every version of the puzzle has the same solution.
 
 ## 5. Common Misunderstandings
 
-The paradox is not merely a trick of wording, and does not show that English is inconsistent in daily use. It shows that some definitions we can state cannot be treated as defining a predicate in a consistent language. Also, many words are neither clearly autological nor heterological, because their descriptions are vague.
+The puzzle does not show that ordinary English as a whole is inconsistent. It shows that a particular self-applying definition conflicts with the assumption that it must classify itself as either applying or not applying. Examples about adjectives illustrate the setup; the paradox turns on the definition and its self-application.
 
 ## 6. Think for Yourself
 
-1. Where exactly does the definition go wrong?
-2. Is “heterological” a word that can describe itself?
-3. How is this like and unlike the Liar?
-4. Would a hierarchy of languages solve the problem or only restate it?
+1. Which assumption does the Ramsey-style response change?
+2. Is “heterological” an adjective that can be classified by its own definition?
+3. How is the structure like Russell’s paradox, and how is the subject matter different?
+4. Would distinguishing levels of language solve the problem or only restate it?
 
 ## 7. Variations and Extensions
 
-Similar constructions include Berry’s and Richard’s paradoxes. All are cases where defining something by reference to all definitions leads to contradiction.
+Berry’s and Richard’s paradoxes are other puzzles involving self-reference or definability, but they use different constructions. They are comparisons, not identical versions of the Grelling–Nelson argument.
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +50,14 @@ Similar constructions include Berry’s and Richard’s paradoxes. All are cases
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Paradoxes and Contemporary Logic](https://plato.stanford.edu/entries/paradoxes-contemporary-logic/) — Grelling’s paradox among the semantic paradoxes and the strategies for avoiding them.
+- [Andrea Cantini and Riccardo Bruni, “Paradoxes and Contemporary Logic,” Stanford Encyclopedia of Philosophy, Summer 2025](https://plato.stanford.edu/archives/sum2025/entries/paradoxes-contemporary-logic/) — §3.3.2 gives a translated formulation and discusses Ramsey’s response.
+- [Thomas Bolander, “Self-Reference and Paradox,” Stanford Encyclopedia of Philosophy, Fall 2024](https://plato.stanford.edu/archives/fall2024/entries/self-reference/) — §§1.1 and 1.4 define the paradox and compare its structure with Russell’s.
+- [PhilPapers catalogue record for “Bemerkungen zu den Paradoxien von Russell und Burali-Forti”](https://philpapers.org/rec/GREBZD-2) — lists the 1907 publication and a 1908 reprint with different pagination.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on paradoxes and contemporary logic was consulted and discusses Grelling’s paradox. The original 1908 paper was not retrieved. The date is given as it appears in common citations of the literature.
+The SEP’s “Paradoxes and Contemporary Logic” entry (§3.3.2) gives a translated formulation, credits the paradox to Grelling within the paper by Grelling and Nelson, and discusses Ramsey’s approach. Its bibliography cites 1908. The PhilPapers catalogue lists a 1907 publication (pp. 300–334) and a 1908 reprint (pp. 301–334). The original paper and its publication volumes were not directly inspected, so the article reports both dates rather than claiming to settle the chronology. The “Self-Reference and Paradox” entry (§§1.1, 1.4) supports the standard self-application setup and its structural comparison with Russell’s paradox. This is an original educational explanation, not expert review or an exhaustive survey.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. The consulted sources and passage locations are recorded in the local evidence ledger. Examples are illustrations of the definition, not quotations from the original paper.
 
 [Return to collection](../../README.md)

@@ -1,0 +1,422 @@
+{
+  "batch_id": "source-review-batch11-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No push, merge, release, or remote-branch change.",
+  "reviewer_type": "Three AI-assisted claim-level audits with independent read-only post-edit reviews and a final targeted Thomson mathematics spot-check; no human expert review is claimed.",
+  "batch_scope": "Three remaining expansion-listed entries: Heraclitus’s River, Galileo’s Ship, and Thomson’s Lamp.",
+  "selection_method": "From the 22 expansion entries remaining after batch ten, prioritize material claims with elevated attribution or interpretive risk: transmission of disputed ancient fragments, scope of a primary physics thought experiment and its later terminology, and a supertask argument whose terminal-state inference is contested.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 38,
+    "expansion_inventory_entries_with_audit_records_before_batch": 35,
+    "entries_in_batch": 3,
+    "audit_records_after_batch_all_repository": 41,
+    "expansion_inventory_entries_with_audit_records_after_batch": 38,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 19,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "source_checked": 3,
+      "partially_source_checked": 0,
+      "needs_source_check": 0
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 40,
+      "partially_source_checked": 1,
+      "needs_source_check": 0
+    }
+  },
+  "status_summary": "All three entries are source_checked for their declared claim-traceability scopes after revision and independent read-only review. The remaining partial status is Nietzsche’s Eternal Recurrence, whose cited unpublished notebook fragment was not directly accessed. Source_checked is an editorial traceability label, not a claim of philosophical truth, consensus, exhaustive literature review, or expert review.",
+  "limits": [
+    "Heraclitus: the original book is lost; later ancient witnesses and two contrasting secondary interpretations were consulted. The Graham–Taran disagreement about B91 is recorded, not resolved, and no critical edition or exhaustive literature review was consulted.",
+    "Galileo: relevant passages were read in Stillman Drake’s English translation; the original Italian was not collated, and the whole work was not read systematically.",
+    "Thomson: relevant passages in Thomson’s and Benacerraf’s primary papers were read in hosted copies, not systematically in their entirety; Benacerraf’s selected text came from a third-party PDF because the publisher full text is gated. The relevant SEP discussion was also read.",
+    "No named human subject-matter expert reviewed this batch."
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; schema, article sections, metadata, references, README consistency, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests -v — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors after replacing changed metadata hard-break spaces with explicit Markdown line-break markers.",
+    "article_dataset_reference_alignment": "PASS: Further Reading URL lists exactly match the data/experiments.json references in order: Heraclitus 6/6, Galileo 3/3, Thomson 3/3; each date_verified is 2026-11-01.",
+    "item_ledgers": "PASS: all 23 item evidence files and all 11 consolidated batch ledgers parse as JSON; batch-eleven ledgers include source details, claim evidence, limits, and recommended status.",
+    "inventory_reconciliation": "PASS: 41 unique audit records; 38 of 57 expansion IDs have records (37 source_checked, 1 partially_source_checked), 19 expansion IDs remain, and 3 audited IDs are outside the inventory.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk, HEAD 0d26e66, no staged diff. Existing and new repository changes remain local and unstaged; no commit, push, merge, or remote-branch change was made."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "heraclitus-river",
+      "title": "Heraclitus’s River",
+      "article_path": "experiments/identity/heraclitus-river.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the date/attribution framing; B12 and the familiar cannot-step-twice report; their ancient transmission through Plato, Eusebius/Cleanthes, Aristotle/Cratylus and Plutarch; the competing scholarly readings of B12 and B91; and whether the modern comparisons are clearly marked as educational framing. The status records traceability, not a settled reconstruction of Heraclitus’s view, exhaustive fragment scholarship, or expert review.",
+      "summary": "The article now distinguishes the transmitted B12 wording from Plato’s Cratylus report and does not present the famous cannot-step-twice sentence as a secure verbatim translation of B12. It identifies the disagreement between Daniel W. Graham’s SEP account, which treats B12 as the likely genuine river fragment and B91 as a paraphrase, and Leonardo Taran’s argument that B91 may preserve a separate saying. Ancient witnesses and the two secondary readings were consulted; the article leaves authenticity and interpretation disputed rather than deciding them. Modern analogies are explicitly labeled as teaching comparisons.",
+      "sources": [
+        {
+          "title": "Heraclitus",
+          "author": "Daniel W. Graham",
+          "publication": "The Stanford Encyclopedia of Philosophy, Winter 2023 archive; §3.1, “Flux,” and note 2.",
+          "stable_url": "https://plato.stanford.edu/archives/win2023/entries/heraclitus/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections and note were read in the fixed archived entry; the entire article was not read.",
+          "exact_locations_read": "§3.1 compares Plato’s Cratylus 402a report (A6) with the alleged river fragments B12, B49a and B91[a], gives the B12 transmission, discusses the grammar and authenticity arguments, and contrasts the strong flux reading with the same-rivers/different-waters interpretation. Note 2 addresses a proposed continuation of B12 and its attribution.",
+          "limitations": "Secondary synthesis. Graham’s preferred reading is not treated as settled; Taran’s contrary analysis was also read. The ancient fragments are preserved through later witnesses, not an extant Heraclitus manuscript."
+        },
+        {
+          "title": "Cratylus",
+          "author": "Plato",
+          "publication": "Cratylus 402a; Fowler translation in the Perseus Digital Library.",
+          "stable_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+          "source_type": "Primary ancient testimony",
+          "access_level": "Selected passage at 402a was read directly in translation.",
+          "exact_locations_read": "402a: Socrates reports that Heraclitus says all things move and nothing remains, comparing things to a river and saying one cannot step twice into the same stream.",
+          "limitations": "Plato’s report is ancient testimony about Heraclitus, not a surviving manuscript or a secure verbatim text of B12."
+        },
+        {
+          "title": "Metaphysics",
+          "author": "Aristotle",
+          "publication": "Metaphysics IV.5, 1010a12–15; MIT Classics translation.",
+          "stable_url": "https://classics.mit.edu/Aristotle/metaphysics.4.iv.html",
+          "source_type": "Primary ancient testimony",
+          "access_level": "Selected passage was read directly in translation.",
+          "exact_locations_read": "IV.5, 1010a12–15: Aristotle discusses Cratylus’s criticism of the saying that one cannot enter the same river twice and Cratylus’s more radical claim that it cannot be done even once.",
+          "limitations": "Aristotle reports Cratylus and Heraclitean views; this does not establish that the radical formulation is Heraclitus’s own wording."
+        },
+        {
+          "title": "Praeparatio Evangelica",
+          "author": "Eusebius of Caesarea, preserving a report of Cleanthes through Arius Didymus",
+          "publication": "Book XV, chapter 20; Gifford translation.",
+          "stable_url": "https://www.tertullian.org/fathers/eusebius_pe_15_book15.htm",
+          "source_type": "Primary ancient testimony / later transmission of a Presocratic fragment",
+          "access_level": "The passage preserving the river wording was read directly in translation.",
+          "exact_locations_read": "Book XV.20: Cleanthes’s report includes the wording that different waters flow for those stepping into the same rivers, in a discussion transmitted by Eusebius.",
+          "limitations": "The quotation reaches us through later authors; the transmission context is part of the evidence and does not provide access to Heraclitus’s lost book."
+        },
+        {
+          "title": "On the E at Delphi",
+          "author": "Plutarch",
+          "publication": "392B–C, §18; University of Chicago Loeb-derived English translation.",
+          "stable_url": "http://penelope.uchicago.edu/misctracts/plutarche.html",
+          "source_type": "Primary ancient testimony",
+          "access_level": "Selected passage and corresponding Greek text were consulted; the English translation was used for the claim.",
+          "exact_locations_read": "392B–C, §18: Plutarch attributes a cannot-step-twice formulation to Heraclitus and uses it in an argument about change and persistence.",
+          "limitations": "A later report that requires interpretation alongside the other testimonia; it does not settle whether B91 preserves a distinct fragment."
+        },
+        {
+          "title": "Heraclitus: The River Fragments",
+          "author": "Leonardo Taran",
+          "publication": "Society for Ancient Greek Philosophy Newsletter (1989), especially pp. 5–7 and 12–19; Open Repository at Binghamton University.",
+          "stable_url": "https://orb.binghamton.edu/cgi/viewcontent.cgi?article=1252&context=sagp",
+          "source_type": "Scholarly secondary analysis",
+          "access_level": "Relevant passages of the article were read in the repository’s PDF text extraction.",
+          "exact_locations_read": "The article presents and compares B12, B49a and B91, discusses ancient transmission, argues that B91 may be distinct from B12, and surveys differing editorial judgments in its concluding notes.",
+          "limitations": "A contrasting scholarly interpretation, not a final determination of authenticity. The article does not replace a critical edition of the fragments."
+        },
+        {
+          "title": "Matching Heraclitus’s River data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id heraclitus-river; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "The date_verified value and all six Further Reading URLs and source descriptions were reconciled against the revised article.",
+          "limitations": "This record documents metadata alignment and does not establish historical or philosophical claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The familiar cannot-step-twice formulation is reported by Plato, while B12 is transmitted in a different same-rivers/different-waters form.",
+          "source_title": "Cratylus; Heraclitus; Praeparatio Evangelica",
+          "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+          "exact_location": "Plato, Cratylus 402a; compare SEP Heraclitus §3.1 and Eusebius, Praeparatio Evangelica XV.20.",
+          "relationship": "supports_with_qualification",
+          "finding": "The ancient sources support the distinction. The revised article identifies Plato’s formulation as a report and distinguishes it from the B12 wording preserved through later transmission.",
+          "limitation": "No extant Heraclitus manuscript survives; translation and attribution are mediated by later authors.",
+          "required_edit": "Made: separated the familiar report from B12 and avoided presenting it as a secure verbatim translation."
+        },
+        {
+          "material_claim": "The authenticity and interpretation of the river sayings are disputed; Graham’s SEP account and Taran differ over B91.",
+          "source_title": "Heraclitus; Heraclitus: The River Fragments",
+          "source_url": "https://plato.stanford.edu/archives/win2023/entries/heraclitus/",
+          "exact_location": "SEP §3.1 on B12/B49a/B91[a] and its authenticity; Taran, pp. 5–7 and 12–19, on the possibility that B91 is distinct and on divergent editorial decisions.",
+          "relationship": "supports_with_qualification",
+          "finding": "The two sources document a real disagreement. The revised article names the competing positions and leaves the question open rather than presenting one as consensus.",
+          "limitation": "The audit does not decide which fragments are authentic or provide an exhaustive history of scholarship.",
+          "required_edit": "Made: named the disagreement and represented both readings."
+        },
+        {
+          "material_claim": "Plato presents a strong flux reading, and Aristotle reports Cratylus’s more radical ‘not even once’ position.",
+          "source_title": "Cratylus; Metaphysics",
+          "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a",
+          "exact_location": "Plato, Cratylus 402a; Aristotle, Metaphysics IV.5, 1010a12–15; SEP Heraclitus §3.1.",
+          "relationship": "supports_with_qualification",
+          "finding": "The ancient passages support the attribution as reports by Plato and Aristotle. The article marks these as readings and reports, not as certain statements from Heraclitus’s own book.",
+          "limitation": "Ancient testimony is not equivalent to direct access to the lost original text.",
+          "required_edit": "Made: explicitly attributed the interpretations to Plato and Aristotle/Cratylus."
+        },
+        {
+          "material_claim": "The river, flame, body, nation, and later identity distinctions are educational comparisons, not examples or doctrines attributed to Heraclitus.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§3–4 and §7.",
+          "relationship": "context_only",
+          "finding": "The revised article labels these as modern or later teaching comparisons and does not attribute them to Heraclitus.",
+          "limitation": "These are editorial prompts rather than historical claims requiring source corroboration.",
+          "required_edit": "Made: labeled comparisons as teaching framing."
+        },
+        {
+          "material_claim": "The dataset record and article have matching review date and reference URLs.",
+          "source_title": "Matching Heraclitus’s River data record",
+          "source_url": null,
+          "exact_location": "data/experiments.json record heraclitus-river and article §9.",
+          "relationship": "supports",
+          "finding": "All six Further Reading URLs appear in the matching dataset record, in the same order; date_verified is 2026-11-01.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: updated dataset references and date."
+        }
+      ],
+      "unresolved_limits": [
+        "Heraclitus’s original book is lost; the audit uses ancient witnesses and modern scholarship.",
+        "A critical edition of all Heraclitean fragments and an exhaustive literature review were not consulted.",
+        "Graham and Taran disagree over B91; the revised article reports this disagreement without resolving it.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "galileos-ship",
+      "title": "Galileo’s Ship",
+      "article_path": "experiments/physics/galileos-ship.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset record. Checked the 1632 attribution; cabin scene and uniform-motion condition; relation to the tower-stone objection and Copernican debate; the limits of the listed cabin experiments; the retrospective label ‘Galilean relativity’; and the distinction from later broad inertial-frame formulations. The status records source traceability, not proof that Earth moves or exhaustive Galileo scholarship.",
+      "summary": "The article now distinguishes the ship-cabin passage (Day Two, pp. 186–187 in Stillman Drake’s translation) from the tower-stone objection (pp. 139–140). It limits the conclusion to the listed local experiments under uniform motion, identifies ‘Galilean relativity’ as retrospective scholarly terminology, and removes the unsupported claim that the passage is an ancestor of Einstein’s elevator or establishes a universal law covering electromagnetism. The source note records the full accessible translation and the selected passages read.",
+      "sources": [
+        {
+          "title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican",
+          "author": "Galileo Galilei; translated by Stillman Drake",
+          "publication": "Second revised edition, University of California Press, 1967; original work published in 1632.",
+          "stable_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+          "source_type": "Primary philosophical/scientific work (English translation)",
+          "access_level": "Full translated work was accessible; the relevant passages were read, not the entire work systematically.",
+          "exact_locations_read": "Day Two, pp. 186–187: Salviati’s ship-cabin scenario, uniform motion, and the listed experiences; Day Two, pp. 139–140: the tower-stone objection and its relation to Earth’s motion. The title page confirms the Drake translation and edition.",
+          "limitations": "Original Italian was not collated. The work is a dialogue; Salviati is a fictional interlocutor. The checked passages support the argument as presented, not its ultimate success."
+        },
+        {
+          "title": "Galileo Galilei",
+          "author": "David Marshall Miller",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2005, substantive revision 17 December 2025.",
+          "stable_url": "https://plato.stanford.edu/entries/galileo/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections of the entry were read, including the first-two-Days discussion and the cited ship/tower passages.",
+          "exact_locations_read": "Sections discussing the Dialogue’s negative arguments in Days One and Two, shared motion and the inertial principle, the tower stone, the ship analogy, and the separate positive arguments in Days Three and Four.",
+          "limitations": "Secondary context. The SEP’s retrospective use of ‘principle of Galilean Relativity’ does not make the ship passage a modern formal statement of all physical laws."
+        },
+        {
+          "title": "Thought Experiments and Inertial Motion: A Golden Thread in the Development of Mechanics",
+          "author": "Mark Shumelda and James Robert Brown",
+          "publication": "Rivista di estetica 42 (2009): 71–96; DOI 10.4000/estetica.1838.",
+          "stable_url": "https://doi.org/10.4000/estetica.1838",
+          "source_type": "Scholarly secondary analysis",
+          "access_level": "Accessible article text was read for the ship passage and its historical interpretation.",
+          "exact_locations_read": "The discussion quotes Galileo’s cabin passage, cites Dialogue p. 186, and cross-references the tower argument at pp. 139–140.",
+          "limitations": "A secondary historical interpretation used as corroboration, not as Galileo’s own formulation."
+        },
+        {
+          "title": "Matching Galileo’s Ship data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id galileos-ship; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "The date_verified value and all three Further Reading URLs and support descriptions were reconciled against the revised article.",
+          "limitations": "This record documents metadata alignment and does not establish Galileo’s claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Salviati’s cabin includes flies/butterflies, fish, dripping water, and tossing an object; when the ship moves uniformly, the listed effects do not reveal whether it is moving or at rest.",
+          "source_title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican",
+          "source_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+          "exact_location": "Day Two, pp. 186–187, especially Salviati’s cabin scenario and the condition that motion be uniform and not fluctuate back and forth.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary passage supports the described setup and its stated result. The revised article limits the result to the listed familiar cabin experiments and retains uniform motion as a necessary condition.",
+          "limitation": "The passage is a thought experiment in dialogue, not a report of a recorded experiment.",
+          "required_edit": "Made: tied the scene to Salviati, specified uniform motion, and limited the claim to listed cabin experiments."
+        },
+        {
+          "material_claim": "The ship argument is related to, but distinct from, the tower-stone objection; it challenges certain objections to Earth’s motion but does not prove that Earth moves.",
+          "source_title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican; Galileo Galilei",
+          "source_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+          "exact_location": "Dialogue, Day Two, pp. 139–140 for the tower-stone objection and pp. 186–187 for the ship cabin; SEP sections describing Days One and Two as negative arguments against objections to Earth’s motion.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary and secondary sources distinguish the arguments and place them in a broader negative defense. The revised article says they challenge objections, not that the ship scene establishes Copernicanism.",
+          "limitation": "Galileo’s later tidal argument is a separate, putative proof and is not audited as a claim in this article.",
+          "required_edit": "Made: separated the tower and ship arguments and narrowed the conclusion."
+        },
+        {
+          "material_claim": "‘Galilean relativity’ is a retrospective label for an early argument about shared uniform motion, not a modern derivation of a universal law for every physical process.",
+          "source_title": "Galileo Galilei; Thought Experiments and Inertial Motion: A Golden Thread in the Development of Mechanics",
+          "source_url": "https://plato.stanford.edu/entries/galileo/",
+          "exact_location": "SEP discussion of shared motion and the principle of Galilean Relativity; primary passage, Day Two pp. 186–187; Shumelda and Brown’s historical interpretation.",
+          "relationship": "supports_with_qualification",
+          "finding": "The secondary sources use the retrospective principle label, while the primary passage covers the listed mechanical observations. The revised text explicitly distinguishes that scholarly characterization from modern universal formulations.",
+          "limitation": "The audit does not trace a direct historical lineage to Einstein’s elevator or review the complete mathematical development of inertial-frame theory.",
+          "required_edit": "Made: removed the unsupported ‘ancestor of Einstein’s elevator’ and electromagnetism claims and labeled the principle name as retrospective."
+        },
+        {
+          "material_claim": "Acceleration and rotation are outside the ship-cabin scenario, which stipulates uniform motion without fluctuation.",
+          "source_title": "Dialogue Concerning the Two Chief World Systems—Ptolemaic & Copernican",
+          "source_url": "https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Galileo/Galileo1632%281967%29DialogueConcerningTheTwoChiefWorldSystemsPtolemaic+Copernican.Stillman%20Drake%28trans.%29.pdf",
+          "exact_location": "Day Two, pp. 186–187, ship’s motion explicitly uniform and not fluctuating back and forth.",
+          "relationship": "supports_with_qualification",
+          "finding": "The text supports the uniform-motion condition. The revised article treats acceleration and rotation as outside the scenario, not as results established by it.",
+          "limitation": "No separate Newton’s-bucket claim remains in the revised article.",
+          "required_edit": "Made: removed the unsourced bucket assertion and restricted the scope to the stated motion condition."
+        },
+        {
+          "material_claim": "The matching dataset references and review date correspond to the revised article.",
+          "source_title": "Matching Galileo’s Ship data record",
+          "source_url": null,
+          "exact_location": "data/experiments.json record galileos-ship and article §9.",
+          "relationship": "supports",
+          "finding": "All three Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: updated dataset references and date."
+        }
+      ],
+      "unresolved_limits": [
+        "Original Italian text was not collated; the relevant passages were checked in Stillman Drake’s English translation.",
+        "No exhaustive history of the principle of relativity or direct intellectual lineage to Einstein was undertaken.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "thomsons-lamp",
+      "title": "Thomson’s Lamp",
+      "article_path": "experiments/mathematics/thomsons-lamp.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the full article’s claims about the lamp setup, Thomson’s apparent dilemma and conclusion, Benacerraf’s reply, the binary state sequence and ordinary convergence, and its distinction from Zeno’s Dichotomy and the Ross–Littlewood urn. The status records traceability of those claims, not whether supertasks are logically or physically possible.",
+      "summary": "The article now begins with Thomson’s original initial state and button-press schedule, attributes the apparent contradiction to Thomson, and states Benacerraf’s reply narrowly: the switching instructions alone do not specify the terminal state, which does not prove that a physical supertask is possible. The SEP discussion and selected primary passages from both papers support the claims about ordinary nonconvergence, the non-binary Cesàro mean, Zeno’s convergent distance sequence, and the different Ross–Littlewood setup. The article no longer presents the terminal dilemma as an established contradiction or uses physical burnout as a resolution.",
+      "sources": [
+        {
+          "title": "Supertasks",
+          "author": "JB Manchak and Bryan W. Roberts",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 5 April 2016, substantive revision 31 May 2022.",
+          "stable_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections in the full online entry were read, including §1.1, §1.2 and §1.3.",
+          "exact_locations_read": "§1.2: the lamp setup, Thomson’s dilemma, 0/1 sequence and lack of ordinary convergence, Cesàro mean, Benacerraf’s endpoint qualification, and Earman–Norton completions. §§1.1 and 1.3: Zeno’s Dichotomy and the Littlewood–Ross example.",
+          "limitations": "Secondary synthesis. The full primary texts were not read systematically; the relevant primary passages were checked directly."
+        },
+        {
+          "title": "Tasks and Super-Tasks",
+          "author": "J. F. Thomson",
+          "publication": "Analysis 15, no. 1 (October 1954): 1–13. JSTOR stable record 3326643.",
+          "stable_url": "https://www.jstor.org/stable/3326643",
+          "text_access_url": "https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf",
+          "source_type": "Primary philosophical article",
+          "access_level": "Selected relevant pages of the complete article were text-extracted and read in a JSTOR scan hosted by the London School of Economics; not all pages were read systematically.",
+          "exact_locations_read": "pp. 5–6: toggle-lamp setup, sequence and apparent contradiction; pp. 6–8: lamp-state analysis, infinite sums and what the supertask notion specifies; pp. 12–13: conclusion distinguishing type-ω sequences from sequences with a final task.",
+          "limitations": "The access copy is hosted by a university course site and carries JSTOR scan notices; the whole article was not read systematically. The article establishes Thomson’s argument, not its success."
+        },
+        {
+          "title": "Tasks, Super-Tasks, and the Modern Eleatics",
+          "author": "Paul Benacerraf",
+          "publication": "The Journal of Philosophy 59, no. 24 (1962): 765–784. DOI 10.2307/2023500.",
+          "stable_url": "https://doi.org/10.2307/2023500",
+          "text_access_url": "https://joelvelasco.net/teaching/hum9/benacerraf62-supertasks.pdf",
+          "source_type": "Primary philosophical article",
+          "access_level": "Selected relevant passages were read in a third-party hosted PDF; the publisher record was separately checked for bibliographic metadata and gates full-text access.",
+          "exact_locations_read": "pp. 768–774: endpoint assignments, the instructions stopping at t₁, analogies and why partial sums do not by themselves give a terminal value. pp. 779–781: Benacerraf’s express qualification that he has not proved supertask possibility and the additional premise needed for Thomson’s contradiction.",
+          "limitations": "The full publisher text was not accessible; the selected primary passages come from a third-party copy. Benacerraf’s reply does not by itself establish physical realizability."
+        },
+        {
+          "title": "Matching Thomson’s Lamp data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id thomsons-lamp; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was inspected after the article revision.",
+          "exact_locations_read": "The date_verified value and all three Further Reading URLs and source descriptions were reconciled against the revised article.",
+          "limitations": "This record documents metadata alignment and does not establish philosophical or mathematical claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The idealized lamp begins off; its button is pressed after one minute, then after successively halved intervals, accumulating at two minutes with no last press.",
+          "source_title": "Tasks and Super-Tasks",
+          "source_url": "https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf",
+          "exact_location": "Thomson, pp. 5–6: the reading-lamp button toggles the lamp; it begins off; jabs occur after one minute, then one-half minute, and so on; the infinite sequence ends at two minutes without a last jab.",
+          "relationship": "supports",
+          "finding": "The revised scenario closely tracks Thomson’s setup and explicitly states the initial lamp state and no-last-press feature.",
+          "limitation": "This is an idealized description, not an empirical lamp experiment.",
+          "required_edit": "Made: replaced the potentially misleading ‘switched on for one minute’ phrasing with Thomson’s off-state and toggle-button schedule."
+        },
+        {
+          "material_claim": "Thomson presents the on/off reasoning as a contradiction and uses the case to challenge the intelligibility or possibility of completing a type-ω supertask.",
+          "source_title": "Tasks and Super-Tasks",
+          "source_url": "https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf",
+          "exact_location": "pp. 5–6: Thomson states the on/off dilemma and says it is a contradiction; pp. 6–8 on the concept of supertask; pp. 12–13 on impossibility of performing every task in a type-ω sequence.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text supports the attribution to Thomson. The revised article identifies it as Thomson’s argument, not a settled conclusion.",
+          "limitation": "The audit does not decide whether Thomson’s argument is sound.",
+          "required_edit": "Made: attributed the dilemma and conclusion explicitly to Thomson."
+        },
+        {
+          "material_claim": "Benacerraf argues that the switching instructions alone do not specify the lamp’s state at the terminal instant; either endpoint assignment does not create a contradiction from those instructions alone.",
+          "source_title": "Tasks, Super-Tasks, and the Modern Eleatics; Supertasks",
+          "source_url": "https://joelvelasco.net/teaching/hum9/benacerraf62-supertasks.pdf",
+          "exact_location": "Benacerraf, pp. 768–774 and 779–781; SEP Supertasks §1.2, paragraphs on the description before two minutes and the terminal state.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary and secondary passages support the endpoint qualification. The revised article does not claim that Benacerraf proves the sequence physically possible.",
+          "limitation": "Publisher full text was gated; selected primary pages were read in a third-party copy. The remaining scope limitation is disclosed in the source note.",
+          "required_edit": "Made: replaced ‘the lamp may be on or off’ with the narrower claim that the instructions leave the endpoint unspecified."
+        },
+        {
+          "material_claim": "The alternating 0/1 lamp-state sequence has no ordinary real-valued limit, and a Cesàro average of one-half is not a binary lamp state.",
+          "source_title": "Supertasks",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "exact_location": "SEP §1.2, discussion of the 0,1,0,1,… sequence, ordinary topology, and Cesàro convergence; the immediately following paragraph says the mean does little to answer whether the lamp is on or off.",
+          "relationship": "supports",
+          "finding": "The SEP explicitly says the 0,1,0,1,… sequence Cesàro converges to one-half and, in the immediately following paragraph, that the mean does little to answer whether the lamp is on or off. The revised article attributes the one-half mean to this discussion.",
+          "limitation": "The article does not identify an average as a physical lamp state.",
+          "required_edit": "Made: cited SEP §1.2 by attribution in the article and narrowed the statement to the binary sequence."
+        },
+        {
+          "material_claim": "The lamp’s abstract switching sequence is distinct from Zeno’s Dichotomy and the Ross–Littlewood urn, which use different task structures.",
+          "source_title": "Supertasks",
+          "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+          "exact_location": "SEP §§1.1–1.3: Zeno’s convergent geometric-distance sequence, Thomson’s nonconvergent alternating states, and the Littlewood–Ross operations.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source presents these as distinct supertasks. The revised article distinguishes their structures and does not claim that one result proves another.",
+          "limitation": "The article does not audit every variant of these separate thought experiments.",
+          "required_edit": "Made: clarified the difference and kept Ross–Littlewood as a separately scoped comparison."
+        },
+        {
+          "material_claim": "The matching dataset references and review date correspond to the revised article.",
+          "source_title": "Matching Thomson’s Lamp data record",
+          "source_url": null,
+          "exact_location": "data/experiments.json record thomsons-lamp and article §9.",
+          "relationship": "supports",
+          "finding": "All three Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: updated dataset references and date."
+        }
+      ],
+      "unresolved_limits": [
+        "The two primary papers were consulted at selected passages, not read systematically in their entirety; the SEP provided appropriate secondary coverage of the relevant claims.",
+        "Benacerraf’s selected text came from a third-party copy because the publisher full text is gated.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    }
+  ]
+}

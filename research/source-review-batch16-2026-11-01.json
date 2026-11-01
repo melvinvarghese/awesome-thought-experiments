@@ -1,0 +1,610 @@
+{
+  "batch_id": "source-review-batch16-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No commit, push, merge, release, or remote-branch change.",
+  "reviewer_type": "AI-assisted claim-level audits with item-level self-check after edits; no human expert review is claimed.",
+  "batch_scope": "3 remaining expansion entries: ravens-paradox, lottery-paradox, norman-the-clairvoyant.",
+  "selection_method": "Selected classic epistemological paradoxes and counterexamples whose force depends on background assumptions and on how far a proposed response generalizes.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 53,
+    "expansion_inventory_entries_with_audit_records_before_batch": 50,
+    "entries_in_batch": 3,
+    "audit_records_after_batch_all_repository": 56,
+    "expansion_inventory_entries_with_audit_records_after_batch": 53,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 4,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "source_checked": 3
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 54,
+      "partially_source_checked": 2,
+      "needs_source_check": 0,
+      "expert_reviewed": 0
+    }
+  },
+  "status_summary": "This batch has 3 source_checked and 0 partially_source_checked entries for their declared claim-traceability scopes. These labels do not state philosophical truth, consensus, exhaustive review, or human expertise.",
+  "limits": [
+    {
+      "id": "ravens-paradox",
+      "limitations": [
+        "Hempel’s complete 1945 paper was not read; only relevant passages from a university-hosted PDF text extraction were consulted.",
+        "Good’s original 1967 note was not read directly; the black-raven counterexample is reported through Sprenger’s scholarly manuscript.",
+        "Vranas’s full 2004 article was not accessed; the publisher abstract and Sprenger’s discussion were consulted, so his argument and proposed solution are not assessed in full.",
+        "The review is not an exhaustive survey of raven-paradox literature and does not determine which confirmation theory is correct or whether one response is generally accepted.",
+        "The ledger is AI-assisted; no human expert review is claimed."
+      ]
+    },
+    {
+      "id": "lottery-paradox",
+      "limitations": [
+        "The primary book's argument pages were not read because the Internet Archive item is access-restricted; the exact original wording and primary-text presentation remain unchecked.",
+        "The review consulted selected passages from two scholarly reference entries and one scholarly chapter, not an exhaustive literature review; competing theories and interpretations remain open.",
+        "Makinson's and Wilder's original texts were not consulted; their attribution and relation are reported from Sorensen's secondary account.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "id": "norman-the-clairvoyant",
+      "limitations": [
+        "The audit checks attribution and traceability; it does not decide whether BonJour's argument succeeds or which theory gives the correct verdict on Norman.",
+        "Relevant passages were read, not every cited work in full; in particular, the entire BonJour paper, SEP entries and IEP entry were not read.",
+        "The university-hosted primary PDF was consulted through text extraction that contains OCR artifacts; no publisher full text or physical edition was accessed, though the bibliographic details were checked against Wiley.",
+        "The reply categories are representative, not exhaustive, and no comprehensive literature review was undertaken.",
+        "Lehrer's original Theory of Knowledge was not consulted; Mr. Truetemp details rely on the IEP secondary account.",
+        "No human subject-matter expert reviewed the article; no expert-review claim is made."
+      ]
+    }
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; JSON schema, article sections, metadata, references, README, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests -v — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors.",
+    "article_dataset_reference_alignment": "PASS: all 3 Further Reading URL lists match the matching data references in order; all date_verified values are 2026-11-01.",
+    "item_ledgers": "PASS: item evidence ledgers and data patches parse as JSON; required claim/source fields and allowed relationships checked.",
+    "inventory_reconciliation": "PASS: 56 audit records; 53 of 57 expansion IDs covered; 4 remain; 3 records outside the inventory.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk at HEAD 0d26e66; no staged paths; all work remains local, unstaged, uncommitted, and unpushed."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "ravens-paradox",
+      "title": "Hempel’s Paradox of the Ravens",
+      "article_path": "experiments/epistemology/ravens-paradox.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked Hempel’s 1945 attribution and publication metadata; the equivalence between ‘all ravens are black’ and ‘all non-black things are non-ravens’; the instance-principle/equivalence-condition derivation; Hempel’s qualitative treatment and role of background knowledge; the distinction between qualitative confirmation and Bayesian degrees of support; assumptions underlying a standard Bayesian treatment and Vranas’s published objection; I. J. Good’s counterexample as reported in Sprenger; editorial teaching analogies; and metadata reconciliation. This is an editorial source-traceability status, not a judgment that any account is correct, an exhaustive literature review, or expert review.",
+      "summary": "The article now explains the paradox as a result within Hempel’s qualitative account, deriving the white-shoe result from the instance principle and equivalence condition rather than presenting a questionable three-principle summary. It distinguishes Hempel’s qualitative result from Bayesian comparisons of degree, specifies that Bayesian results depend on probability and background assumptions, and reports Vranas’s criticism as a challenge to one standard solution. Good’s artificial counterexample is attributed through Sprenger rather than presented as directly consulted primary testimony. The revised Further Reading list distinguishes the primary essay, SEP overview, scholarly manuscript, and a publisher abstract for Vranas. Relevant passages in appropriate primary and scholarly sources were read; whole works and some cited originals were not.",
+      "sources": [
+        {
+          "title": "Studies in the Logic of Confirmation (I.)",
+          "author": "Carl G. Hempel",
+          "publication": "Mind, New Series, vol. 54, no. 213 (January 1945), pp. 1–26; Oxford University Press on behalf of the Mind Association. DOI: 10.1093/mind/LIV.213.1.",
+          "stable_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Hempel%20-%20Studies%20Confirm%201.pdf",
+          "source_type": "Primary philosophical work",
+          "access_level": "Relevant passages of the full paper were read in an accessible PDF text extraction; the complete paper was not read.",
+          "exact_locations_read": "Printed pp. 11–13 (section 4, ‘The Equivalence Condition,’ and the start of ‘The “Paradoxes” of Confirmation’): Hempel states the equivalence condition and combines it with the instance-confirmation criterion to derive the raven result. Printed p. 22 (section 6, confirmation as a relation between sentences): selected passage consulted for his evidential framing. The original publisher record was also consulted for author, journal, issue, year, pages, and DOI.",
+          "limitations": "A university-hosted reproduction, not the publisher’s full-text platform. Only cited passages were read. The article’s plain-language explanation is not a reconstruction of Hempel’s complete formal theory."
+        },
+        {
+          "title": "Confirmation",
+          "author": "Vincenzo Crupi",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published May 30, 2013, substantive revision August 4, 2025; sections 1.1–1.2, 2.1–2.2, and 3.6.",
+          "stable_url": "https://plato.stanford.edu/entries/confirmation/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections of the current full entry were read; the entire entry was not read.",
+          "exact_locations_read": "§1.1 on Hempel’s theory and the instance-based account; §1.2 on the ravens paradox and the logical-equivalence derivation; §2.1–2.2 on the contrast between Hempelian and hypothetico-deductive confirmation; §3.6 on Bayesian relevance confirmation and the relative support of black-raven versus non-black-non-raven evidence under stated probability conditions. Author and revision metadata were read from the entry.",
+          "limitations": "Secondary synthesis, not Hempel’s own text. Its account presents particular formal approaches and conditions; it does not establish one universally accepted resolution or exhaustive coverage of current debate."
+        },
+        {
+          "title": "Hempel and the Paradoxes of Confirmation",
+          "author": "Jan Sprenger",
+          "publication": "Scholarly manuscript dated October 20, 2008; author-hosted PDF; relevant portions correspond to §§2–5, including the discussion of Good and Bayesian responses.",
+          "stable_url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+          "source_type": "Scholarly secondary analysis / working manuscript",
+          "access_level": "Selected passages from the full manuscript were read using PDF text extraction; the complete manuscript was not read.",
+          "exact_locations_read": "§2, ‘Adequacy Criteria,’ on the consequence and equivalence conditions; discussion of the raven paradox and background information in §§3–4, including the Good/crow illustration and Hempel’s background-information response (printed pp. 14–15); §5.1, ‘Bayesian confirmation theory and the Nicod Condition,’ including Good’s two-world counterexample (printed p. 17); §5.2 on comparative and quantitative Bayesian responses and assumptions about population proportions/independence (printed pp. 20–22).",
+          "limitations": "The consulted copy is a dated manuscript, not the cited original work by Good or a complete record of scholarly views. Good’s original 1967 note was not directly consulted. The manuscript itself characterizes some Bayesian assumptions and solutions as contested."
+        },
+        {
+          "title": "Hempel’s Raven Paradox: A Lacuna in the Standard Bayesian Solution",
+          "author": "Peter B. M. Vranas",
+          "publication": "The British Journal for the Philosophy of Science, vol. 55, no. 3 (September 2004), pp. 545–560. DOI: 10.1093/bjps/55.3.545.",
+          "stable_url": "https://doi.org/10.1093/bjps/55.3.545",
+          "source_type": "Peer-reviewed scholarly article",
+          "access_level": "Publisher bibliographic record and abstract only; full article not accessed.",
+          "exact_locations_read": "Publisher article page, abstract and bibliographic record: Vranas states that the standard Bayesian solution depends on an assumption that the probability of the hypothesis is unaffected by evidence that an object is non-black, argues that this assumption is implausible, and proposes a Bayesian alternative.",
+          "limitations": "The abstract establishes that Vranas advances this objection but does not establish his full argument, his proposed solution, or how the objection fares against subsequent responses. The article uses the abstract-level characterization only."
+        },
+        {
+          "title": "Confirmation and Induction",
+          "author": "Internet Encyclopedia of Philosophy entry; author not stated in the retrieved relevant passage",
+          "publication": "Internet Encyclopedia of Philosophy, section 2(a), ‘The Ravens Paradox,’ and section 2(b), ‘Confirmation Measures.’",
+          "stable_url": "https://iep.utm.edu/confirmation-and-induction/",
+          "source_type": "Scholarly reference work / secondary explanation",
+          "access_level": "Relevant passages of the full entry were read; the entire entry was not read.",
+          "exact_locations_read": "§2(a) explains the Nicod criterion, the equivalence condition, Hempel’s qualitative response to non-black non-ravens, and the relevance of background knowledge; §2(b) gives a probabilistic confirmation account and discusses the raven case relative to background assumptions.",
+          "limitations": "Secondary reference source. It corroborates the general explanation but is not relied on for a precise formal derivation or to establish consensus. The article’s Further Reading list does not cite it because the SEP and primary text are more directly relevant."
+        },
+        {
+          "title": "Matching ravens-paradox data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id ravens-paradox; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was read after article research and checked against the proposed local data patch.",
+          "exact_locations_read": "The current entry’s id, title, current date_verified value, and reference list were inspected. The four revised Further Reading URLs and their order were reconciled against the proposed references array; the patch changes date_verified from 2026-10-31 to 2026-11-01.",
+          "limitations": "Metadata reconciliation only. data/experiments.json is read-only and was not edited; the proposed patch remains a separate local JSON file."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Hempel’s primary publication relevant to this account is ‘Studies in the Logic of Confirmation (I.)’ in Mind in 1945.",
+          "source_title": "Studies in the Logic of Confirmation (I.); Oxford Academic article record",
+          "source_url": "https://doi.org/10.1093/mind/LIV.213.1",
+          "exact_location": "Primary article’s title/byline and printed page 12; publisher record gives Mind, vol. LIV, issue 213, January 1945, pp. 1–26.",
+          "relationship": "supports",
+          "finding": "The name, title, journal, year, and publication framing in the article match the primary text and publisher bibliographic record.",
+          "limitation": "The complete primary paper was not read; the publisher article record is bibliographic metadata, while the full-text excerpt came from a university-hosted reproduction.",
+          "required_edit": "No correction to title or date was needed; source information and access limits were made explicit in the article."
+        },
+        {
+          "material_claim": "A black raven is an instance of ‘All ravens are black’; its logically equivalent contrapositive is ‘All non-black things are non-ravens’; under Hempel’s instance criterion and equivalence condition, a non-black non-raven such as a white shoe counts as confirming evidence for the raven hypothesis.",
+          "source_title": "Studies in the Logic of Confirmation (I.); Confirmation",
+          "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Hempel%20-%20Studies%20Confirm%201.pdf",
+          "exact_location": "Hempel, printed pp. 11–13, section 4 and the opening discussion of ‘The “Paradoxes” of Confirmation’; SEP, §1.2, ‘The ravens paradox.’",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary passage states the equivalence condition and demonstrates the paradox generated when it is combined with Nicod’s instance criterion. The SEP gives the explicit raven/contrapositive derivation. The article now describes this as Hempel’s qualitative account rather than as a result imposed on every confirmation theory.",
+          "limitation": "The sources distinguish logical equivalence from equal degree of support. Hempel’s paper provides a formal account beyond the article’s short pedagogical sketch.",
+          "required_edit": "Made: replaced the inaccurate three-principle summary with the two commitments that generate this derivation and identified the result as account-relative."
+        },
+        {
+          "material_claim": "Hempel accepts that non-black non-ravens confirm the raven hypothesis in his formal account without additional empirical information, and he explains much of the intuitive resistance by tacit background knowledge.",
+          "source_title": "Hempel and the Paradoxes of Confirmation; Confirmation and Induction",
+          "source_url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+          "exact_location": "Sprenger, §§3–4, printed pp. 14–15, including Hempel’s response as discussed and the background-information diagnosis; IEP §2(a), ‘The Ravens Paradox.’",
+          "relationship": "supports_with_qualification",
+          "finding": "The secondary discussions report Hempel’s view that the qualitative confirmation result holds when the evidence is considered without further information; the apparent oddity involves background knowledge such as population proportions or knowing the object is a non-raven. The revised article separates that logical response from whether his formal account adequately handles background information.",
+          "limitation": "The account of Hempel’s explanatory response is mediated through scholarly secondary sources; not every detail of his full theory or later revisions was reviewed.",
+          "required_edit": "Made: corrected the conflation of Hempel’s qualitative acceptance with a claim that the support is quantitatively negligible, and stated that background sensitivity remains a limitation."
+        },
+        {
+          "material_claim": "Some Bayesian treatments distinguish the degree of support from Hempelian qualitative confirmation; conclusions about the comparative or very small support from a white shoe depend on background probabilities and assumptions.",
+          "source_title": "Confirmation; Hempel and the Paradoxes of Confirmation",
+          "source_url": "https://plato.stanford.edu/entries/confirmation/",
+          "exact_location": "SEP §§3.6 on probabilistic relevance confirmation and the ravens example; Sprenger §5.2, printed pp. 20–22, on the separate qualitative, comparative, and quantitative intuitions and assumptions including population proportions and independence.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support distinguishing whether evidence confirms from how strongly it confirms. Bayesian conclusions depend on probability assignments and background conditions; they do not follow from logical equivalence by itself. The article states this without treating one numerical result as settled.",
+          "limitation": "No Bayesian derivation or numerical estimate was reproduced. The considered accounts use particular formalizations, and the manuscript itself disputes some assumptions.",
+          "required_edit": "Made: qualified the Bayesian summary and identified background/probability assumptions rather than presenting ‘tiny confirmation’ as an unconditional result."
+        },
+        {
+          "material_claim": "Vranas challenges a key independence assumption in a standard Bayesian solution; this is a published objection, not a consensus verdict on Bayesian confirmation.",
+          "source_title": "Hempel’s Raven Paradox: A Lacuna in the Standard Bayesian Solution; Hempel and the Paradoxes of Confirmation",
+          "source_url": "https://doi.org/10.1093/bjps/55.3.545",
+          "exact_location": "Vranas’s publisher abstract and bibliographic record; Sprenger §5.2, printed pp. 21–22, discussion of Vranas’s objection to the independence assumption.",
+          "relationship": "supports_with_qualification",
+          "finding": "The abstract says the standard Bayesian solution relies on an assumption about the probability of the raven hypothesis being unaffected by evidence that an object is non-black, and that Vranas argues this assumption is implausible. Sprenger independently discusses the criticism. The article says Vranas argues this point and explicitly limits it to one standard solution.",
+          "limitation": "Only Vranas’s abstract was accessible; his full proof, proposed alternative, and later reception were not reviewed. No claim of consensus or general failure of Bayesian approaches is made.",
+          "required_edit": "Made: retained the criticism but qualified its target, author, and evidential basis."
+        },
+        {
+          "material_claim": "Good’s examples, as reported by Sprenger, include an artificial probability model in which observing a black raven favors a possibility where the universal hypothesis is false.",
+          "source_title": "Hempel and the Paradoxes of Confirmation",
+          "source_url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+          "exact_location": "Sprenger §5.1, ‘Bayesian confirmation theory and the Nicod Condition,’ printed p. 17; compare the crow/background-knowledge example in §§3–4, pp. 14–15.",
+          "relationship": "supports_with_qualification",
+          "finding": "Sprenger describes Good’s two-world construction, specifying 100 black ravens and no white ravens in one world versus 1,000 black ravens and one white raven in the other, with a million other birds in each. In that model, observing a black raven favors the world with the counterexample. The article calls this an artificial counterexample and attributes it through Sprenger.",
+          "limitation": "Good’s 1967 primary note was not accessed. The model is a constructed counterexample to a universal claim about every background probability assignment, not a claim about ordinary empirical sampling.",
+          "required_edit": "Made: stated the narrow scope of the example and disclosed that Good’s original was not consulted directly."
+        },
+        {
+          "material_claim": "The ‘indoor ornithology’ survey and reflection questions are explanatory teaching framing rather than historical quotations or claims attributed to Hempel.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§1, 6, and 7.",
+          "relationship": "context_only",
+          "finding": "The indoor survey is explicitly presented as an intuitive image; the prompts ask readers to consider assumptions; the connection to Goodman’s riddle is labeled a teaching connection.",
+          "limitation": "These are editorial analogies and questions, not independent historical or scholarly claims.",
+          "required_edit": "Made: clarified that the Goodman comparison is pedagogical and the indoor ornithology phrase names an intuitive worry."
+        },
+        {
+          "material_claim": "The revised article’s Further Reading links match the proposed data patch in exactly the same order; the patch’s verification date is 2026-11-01.",
+          "source_title": "Matching ravens-paradox data record",
+          "source_url": null,
+          "exact_location": "Current data/experiments.json object id ravens-paradox and revised article §9; compare local proposed data-patch JSON.",
+          "relationship": "supports",
+          "finding": "The current dataset has the matching id/title but date_verified 2026-10-31 and only the SEP reference. The article now lists four Further Reading URLs in order: Hempel PDF, SEP, Sprenger manuscript, and Vranas DOI. The proposed patch uses those exact URLs and order and changes date_verified to 2026-11-01. The read-only dataset file was not changed.",
+          "limitation": "This verifies local reference metadata only; it does not establish the linked sources’ claims. The proposed patch has not been merged into the dataset.",
+          "required_edit": "Made: created a separate data-patch JSON; no changes were made to data/experiments.json."
+        }
+      ],
+      "unresolved_limits": [
+        "Hempel’s complete 1945 paper was not read; only relevant passages from a university-hosted PDF text extraction were consulted.",
+        "Good’s original 1967 note was not read directly; the black-raven counterexample is reported through Sprenger’s scholarly manuscript.",
+        "Vranas’s full 2004 article was not accessed; the publisher abstract and Sprenger’s discussion were consulted, so his argument and proposed solution are not assessed in full.",
+        "The review is not an exhaustive survey of raven-paradox literature and does not determine which confirmation theory is correct or whether one response is generally accepted.",
+        "The ledger is AI-assisted; no human expert review is claimed."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "lottery-paradox",
+      "title": "The Lottery Paradox",
+      "article_path": "experiments/epistemology/lottery-paradox.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and proposed matching data patch. Checked the finite-lottery setup and high-probability inference; the role of threshold-based acceptance, conjunction (agglomeration) closure, and consistency; the distinction between a contradiction believed and jointly inconsistent beliefs; Kyburg's attributed response and other approaches without treating any as a consensus solution; the relation to knowledge; the preface paradox and its Makinson/Wilder attribution; the 1961 bibliographic claim and Wheeler's qualification about an earlier conference formulation and 1963 publication; editorial teaching prompts; and reconciliation of Further Reading URLs and order with the proposed patch. This status records traceability, not the truth or soundness of any philosophical position, an exhaustive literature review, or expert review.",
+      "summary": "The revised article conditions the lottery inference on a threshold below certainty and conjunction closure, and describes the resulting beliefs as jointly inconsistent rather than automatically saying the agent believes a contradiction. It replaces the unsupported threshold-to-certainty and credence-first/knowledge-first taxonomy with qualified, non-exhaustive response families, and treats the knowledge question as related rather than settled by the paradox. The preface-paradox attribution is tied to Sorensen's SEP discussion of Makinson and Wilder. Wheeler's review supports the 1961 published-account attribution while noting an earlier conference formulation and 1963 publication. The primary book's argument text was not accessible; relevant passages in two SEP entries and Wheeler's scholarly review were read. The article's four Further Reading URLs match the proposed local patch in order; the dataset itself was not modified.",
+      "sources": [
+        {
+          "title": "Formal Representations of Belief",
+          "author": "Konstantin Genin and Franz Huber",
+          "publication": "The Stanford Encyclopedia of Philosophy, Winter 2020 archive; §4.2.2, “The Lockean Threshold,” including the discussion of the Lottery paradox.",
+          "stable_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections and passages were read in the fixed archived entry; the entire entry was not read.",
+          "exact_locations_read": "§4.2.2 defines strong and weak Lockean thresholds; the paragraph beginning “The strong Lockean thesis gives rise to the well-known Lottery paradox” sets out a fair N-ticket lottery, the threshold-dependent inference to each ticket's loss, conjunction closure, and the conflict with the belief that some ticket wins. The following paragraphs describe Kyburg's response, authors who reject the strong Lockean thesis, and proposals that add defeating conditions. A later passage on odds-threshold acceptance explains one alternative formal strategy.",
+          "limitations": "Secondary synthesis, not the primary Kyburg text. It presents a number of formal approaches but does not settle the philosophical dispute or establish that its treatment is exhaustive. The article's use of an illustrative, very large lottery is not asserted as Kyburg's exact original ticket count."
+        },
+        {
+          "title": "Epistemic Paradoxes",
+          "author": "Roy Sorensen",
+          "publication": "The Stanford Encyclopedia of Philosophy, Fall 2024 archive; §§3, “Lotteries and the Lottery Paradox,” and 4, “Preface Paradox.”",
+          "stable_url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections and passages were read in the fixed archived entry; the entire entry was not read.",
+          "exact_locations_read": "§3 states the agglomeration principle, works through a 100-ticket threshold example, explains the route to contradiction, and distinguishes rejecting agglomeration from rejecting sub-certain acceptance rules; it explicitly characterizes Kyburg's response as permitting joint inconsistency without belief in a necessarily false proposition. §4 recounts Wilder's preface, attributes the paradox formulation to D. C. Makinson (1965), states that the preface paradox does not rely on a probabilistic acceptance rule, and discusses its relation to Kyburg's response. The bibliography entry gives Makinson's 1965 publication details.",
+          "limitations": "A later scholarly account, not direct consultation of Makinson's or Wilder's original texts. The summary's interpretation of the relation between the paradoxes is attributed to Sorensen rather than presented as the only analysis."
+        },
+        {
+          "title": "A Review of the Lottery Paradox",
+          "author": "Gregory Wheeler",
+          "publication": "In William Harper and Gregory Wheeler (eds.), Probability and Inference: Essays in Honour of Henry E. Kyburg, Jr., College Publications, 2007; accessed as the author's penultimate-draft PDF.",
+          "stable_url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+          "source_type": "Scholarly secondary analysis / book chapter; peer-review status not independently verified",
+          "access_level": "Selected passages in the PDF text extraction were read; the chapter was not read in full.",
+          "exact_locations_read": "Printed pp. 1–2: opening fair 1,000-ticket setup; three principles said to be jointly inconsistent; footnote 1 on the 1961 book as first published statement, earlier 1959/60 conference formulation, and 1963 publication; §1, “Rational Acceptance,” on disagreement over the diagnosis and differences from the preface paradox. Printed p. 19, §3.1, “Statistical evidence and rational belief,” on distinguishing statistical grounds for rational belief from statistical grounds for knowledge and on Dana Nelkin's contrary view.",
+          "limitations": "A single scholarly review with its own arguments; not evidence of consensus or an exhaustive account of the literature. The accessed PDF labels itself a penultimate draft."
+        },
+        {
+          "title": "A Review of the Lottery Paradox (bibliographic record)",
+          "author": "PhilPapers record; no independent author claim",
+          "publication": "PhilPapers bibliographic entry for Gregory Wheeler's chapter in William Harper and Gregory Wheeler (eds.), Probability and Inference: Essays in Honour of Henry E. Kyburg, Jr., College Publications, 2007.",
+          "stable_url": "https://philpapers.org/rec/WHEARO",
+          "source_type": "Philosophy bibliography / secondary publication metadata",
+          "access_level": "Bibliographic record and abstract were read; the full chapter was accessed separately via Wheeler's PDF.",
+          "exact_locations_read": "The record title and author; the line identifying the edited volume, editors, publisher, and 2007 date; and the displayed abstract summarizing the lottery setup.",
+          "limitations": "Bibliographic metadata and abstract only; the argument passages were checked in Wheeler's PDF, not established by this record."
+        },
+        {
+          "title": "Probability and the Logic of Rational Belief",
+          "author": "Henry E. Kyburg, Jr.",
+          "publication": "Middletown, Connecticut: Wesleyan University Press, 1961; Internet Archive item record for a restricted library scan.",
+          "stable_url": "https://archive.org/details/probabilitylogic0000unse",
+          "source_type": "Primary philosophical work (bibliographic/item record consulted; primary argument not accessed)",
+          "access_level": "URL/item metadata only; the record states that the scan is access-restricted. No text passage was available to read.",
+          "exact_locations_read": "The Internet Archive item page's title, publication-date entry (1961), collection/access metadata, and notice that access is restricted. No pages of the book were read. Kyburg's authorship and publisher were cross-checked against the Penn Online Books catalog record.",
+          "limitations": "Does not establish the wording or argument on the cited pages of Kyburg's book. The article therefore identifies the 1961 book as the commonly cited published presentation based on Wheeler and bibliographic sources, and does not quote the original."
+        },
+        {
+          "title": "Probability and the Logic of Rational Belief (catalog record)",
+          "author": "Penn Online Books Page; catalog record edited by John Mark Ockerbloom",
+          "publication": "The Online Books Page, University of Pennsylvania Libraries; bibliographic record inspected 2026-11-01.",
+          "stable_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp99549",
+          "source_type": "Library/curated bibliographic catalog, not the primary work",
+          "access_level": "Bibliographic record only.",
+          "exact_locations_read": "Record fields Title, Author (Henry Ely Kyburg), publication note (Middletown, CT: Wesleyan University Press, c1961), and link to HathiTrust page images.",
+          "limitations": "Catalog metadata only; it does not establish the content or argument of the book."
+        },
+        {
+          "title": "Matching Lottery Paradox data record and proposed patch",
+          "author": "Project data record and local review patch; no external author",
+          "publication": "Local data/experiments.json object with id lottery-paradox and proposed source-review-batch16-item-lottery-paradox-data-patch.json; inspected after article revision on 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record and proposed local patch, not an external source",
+          "access_level": "The matching dataset object was inspected read-only; the proposed patch and revised article were inspected locally.",
+          "exact_locations_read": "The current dataset record's id, date_verified, and existing reference; revised article §9's four Further Reading URLs; proposed patch's id, date_verified, and four reference URLs. Their URL order and spelling were compared programmatically.",
+          "limitations": "Metadata reconciliation only. The proposed patch is not applied to data/experiments.json and does not establish any philosophical claim."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "In a fair finite lottery with exactly one winner, each individual ticket-loss proposition can be assigned a probability above any fixed threshold below certainty by making the number of tickets large enough; under a simple Lockean rule, each such proposition then qualifies for full belief.",
+          "source_title": "Formal Representations of Belief; Epistemic Paradoxes; A Review of the Lottery Paradox",
+          "source_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+          "exact_location": "Genin and Huber, §4.2.2, paragraph beginning “The strong Lockean thesis gives rise to the well-known Lottery paradox”; Sorensen, §3, 100-ticket and .99 example; Wheeler, printed p. 1, fair 1,000-ticket and .99 example.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support the standard threshold setup. The revised article states the generalized finite-N form rather than implying that every merely high probability warrants belief in every theory.",
+          "limitation": "The probability inference presupposes a fair lottery with exactly one winner and a specified full-belief threshold rule; the ticket count is illustrative, not asserted to reproduce Kyburg's exact wording.",
+          "required_edit": "Made: replaced the unqualified claim that it simply seems rational to believe each ticket will lose with an explicit conditional on a fixed sub-certain probability threshold."
+        },
+        {
+          "material_claim": "Combining threshold-licensed beliefs in every ticket's loss with conjunction closure and belief that exactly one ticket wins generates a conflict; rational beliefs may be jointly inconsistent without the agent thereby believing an explicit contradiction, depending on which principles are retained.",
+          "source_title": "Epistemic Paradoxes; Formal Representations of Belief; A Review of the Lottery Paradox",
+          "source_url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+          "exact_location": "Sorensen, §3, numbered agglomeration derivation and paragraph distinguishing belief in a contradiction from joint inconsistency; Genin and Huber, §4.2.2, threshold/conjunction paragraph; Wheeler, printed pp. 1–2, setup and §1.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources establish the tension and show that the exact conclusion depends on the principles being combined. The article now says the beliefs are jointly inconsistent and avoids saying that the agent automatically believes a contradiction.",
+          "limitation": "The argument is a formal/philosophical pressure on a package of norms, not a proof that one particular norm must be rejected in all accounts of belief.",
+          "required_edit": "Made: explicitly named probability, conjunction closure, and consistency as the tension; corrected “led to believe a contradiction” to “beliefs are jointly inconsistent.”"
+        },
+        {
+          "material_claim": "Kyburg is associated with rejecting conjunction closure, while other approaches reject or qualify a simple high-probability-to-full-belief rule; the article should not present one response or taxonomy as standard or settled.",
+          "source_title": "Formal Representations of Belief; Epistemic Paradoxes; A Review of the Lottery Paradox",
+          "source_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+          "exact_location": "Genin and Huber, §4.2.2, paragraphs on Kyburg's response, those who find the strong Lockean thesis untenable, and proposals adding defeating conditions; Sorensen, §3, dilemma and characterization of Kyburg; Wheeler, printed pp. 1–2, §1, discussion of disagreement about rational acceptance and competing diagnoses.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources document distinct responses and continuing disagreement. The revised article gives examples as non-exhaustive families and does not call any one solution standard.",
+          "limitation": "The sources reviewed are not an exhaustive survey of every contemporary response; the article's “no single agreed resolution” is limited to the fact that the consulted accounts describe distinct positions and diagnoses.",
+          "required_edit": "Made: removed the unsupported threshold-to-certainty/credence-first/knowledge-first list and replaced it with a cautious, non-exhaustive summary grounded in the SEP and Wheeler."
+        },
+        {
+          "material_claim": "The lottery paradox raises a related question about whether statistical evidence can support knowledge, but the argument itself does not settle that question or establish that probabilistic reasoning generally is unreliable.",
+          "source_title": "A Review of the Lottery Paradox; Epistemic Paradoxes",
+          "source_url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+          "exact_location": "Wheeler, printed p. 19, §3.1, discussion distinguishing statistical evidence as a basis for rational belief from its sufficiency for knowledge and presenting Dana Nelkin's contrary view; Sorensen, §3, explanation of the lottery argument and its assumptions.",
+          "relationship": "supports_with_qualification",
+          "finding": "Wheeler explicitly distinguishes the knowledge question from rational belief and presents disagreement about statistical evidence. The article now marks knowledge as a related debate rather than an inference established by the paradox.",
+          "limitation": "Wheeler's account is one analysis of a contested issue; no psychological survey supports a claim about what “most people feel,” so that claim was removed.",
+          "required_edit": "Made: removed the generalization about what most people feel and the inference that the scenario by itself shows knowledge requires more than high probability."
+        },
+        {
+          "material_claim": "The preface paradox is associated with D. C. Makinson (1965), drawing on Raymond Wilder's preface; it parallels conjunction pressure but does not rely on a lottery or probabilistic acceptance rule.",
+          "source_title": "Epistemic Paradoxes; A Review of the Lottery Paradox",
+          "source_url": "https://plato.stanford.edu/archives/fall2024/entries/epistemic-paradoxes/",
+          "exact_location": "Sorensen, §4, opening paragraphs on Wilder's preface and Makinson (1965), and the paragraph stating that the preface paradox does not rely on a probabilistic acceptance rule; bibliography entry for Makinson 1965. Wheeler, printed p. 2, footnote 2, on the relation and differences between lottery and preface paradoxes.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP source directly supports the attribution and the distinction. The article describes the preface case as related but distinct rather than as a lottery variation.",
+          "limitation": "Makinson's and Wilder's original texts were not directly consulted; this is a secondary-source attribution.",
+          "required_edit": "Made: retained the attribution but made its evidential basis explicit and described the preface case as distinct from the lottery argument."
+        },
+        {
+          "material_claim": "Kyburg's book is bibliographically dated 1961 as the commonly cited first published statement, with an earlier conference formulation and a 1963 publication reported by Wheeler; the article does not claim direct verification of the primary passage.",
+          "source_title": "Probability and the Logic of Rational Belief; A Review of the Lottery Paradox; Formal Representations of Belief; Penn Online Books catalog record",
+          "source_url": "https://gregorywheeler.org/papers/LotteryReview.pdf",
+          "exact_location": "Wheeler, printed p. 1, footnote 1, on the 1961 book, earlier 1959/60 conference formulation, and 1963 publication; Genin and Huber, §4.2.2, attribution to Kyburg (1961); archive item metadata; Penn Online Books record Title, Author, and publication note.",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support the 1961 bibliographic identification while Wheeler's note adds a relevant earlier formulation/publication qualification. The primary book scan is access-restricted, so the article does not quote its argument pages or claim direct primary-text verification.",
+          "limitation": "The actual book passage was not accessed; the exact original wording and full publication history were not independently checked in the primary materials.",
+          "required_edit": "Made: the attribution section records the restricted primary access and Wheeler's qualification; added a clearly labeled access-restricted catalog link rather than presenting it as text consulted."
+        },
+        {
+          "material_claim": "Ticket-count scaling preserves the threshold tension for any fixed threshold below certainty if the other assumptions are retained; modern questions and comparisons are editorial framing, not attributed historical claims.",
+          "source_title": "Formal Representations of Belief; Revised article framing",
+          "source_url": "https://plato.stanford.edu/archives/win2020/entries/formal-belief/",
+          "exact_location": "Genin and Huber, §4.2.2, construction of N large enough that 1−1/N meets a sub-certain threshold; article §§6–7 for teaching questions and scaling statement.",
+          "relationship": "context_only",
+          "finding": "The scaling statement follows directly from the described finite-lottery construction and is explicitly conditional on a fixed threshold below certainty and the other premises. The prompts are editorial, not claims about what historical authors said.",
+          "limitation": "The prompts are not separately validated as empirical claims about ordinary people's judgments; the article asks questions rather than asserting those judgments as fact.",
+          "required_edit": "Made: qualified the ticket-count statement with the fixed sub-certain threshold and retained the questions as editorial prompts."
+        },
+        {
+          "material_claim": "The matching article and proposed data patch carry the same four Further Reading URLs in the same order, and the patch sets date_verified to 2026-11-01; no change to the dataset file is part of this audit.",
+          "source_title": "Matching Lottery Paradox data record and proposed patch",
+          "source_url": null,
+          "exact_location": "Revised article §9; local research/source-review-batch16-item-lottery-paradox-data-patch.json; current data/experiments.json object with id lottery-paradox inspected read-only.",
+          "relationship": "supports",
+          "finding": "The four URLs were compared programmatically and match in order. The current dataset record had date_verified 2026-10-31 and one SEP reference; the proposed local patch sets the date to 2026-11-01 and contains the revised article's four references. The data file was not edited.",
+          "limitation": "This verifies only local metadata consistency. The patch is proposed and must be applied separately if approved.",
+          "required_edit": "Made: created the permitted patch file; did not edit data/experiments.json."
+        }
+      ],
+      "unresolved_limits": [
+        "The primary book's argument pages were not read because the Internet Archive item is access-restricted; the exact original wording and primary-text presentation remain unchecked.",
+        "The review consulted selected passages from two scholarly reference entries and one scholarly chapter, not an exhaustive literature review; competing theories and interpretations remain open.",
+        "Makinson's and Wilder's original texts were not consulted; their attribution and relation are reported from Sorensen's secondary account.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "norman-the-clairvoyant",
+      "title": "Norman the Clairvoyant",
+      "article_path": "experiments/epistemology/norman-the-clairvoyant.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked BonJour attribution and publication metadata; the Norman Case IV setup; BonJour's argument and its framing as an objection to simple process reliabilism and broader externalist accounts; the distinction between simple process reliabilism and several later responses; qualifications about internalism, externalism, knowledge and justification; the Gettier comparison; the Mr. Truetemp relationship; explicitly editorial teaching framing; and article/dataset metadata reconciliation. This status records traceability of the revised article, not the truth or success of BonJour's argument, a consensus view, an exhaustive survey of reliabilist theories, or expert review.",
+      "summary": "The revised article preserves BonJour's stipulated Norman scenario and his perspective-based objection, but no longer presents the case as automatically decisive against every reliabilist or externalist theory. It distinguishes the challenge to the sufficiency of simple process reliability from different published replies, qualifies the internalism/externalism framing, and identifies Mr. Truetemp and the thermometer comparison as related-but-distinct case and editorial analogy. Relevant passages in BonJour's primary text, two SEP entries, the IEP reliabilism entry, and the SEP knowledge-analysis entry were read. The publisher's record verifies the article's publication details. The proposed data patch's five reference URLs and their order match the revised Further Reading section exactly; the dataset date is updated to 2026-11-01.",
+      "sources": [
+        {
+          "title": "Externalist Theories of Empirical Knowledge",
+          "author": "Laurence BonJour",
+          "publication": "Midwest Studies in Philosophy 5 (1980), 53–74; university-hosted PDF reproduction of the article.",
+          "stable_url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+          "source_type": "Primary philosophical article",
+          "access_level": "Selected passages in a university-hosted PDF text extraction; relevant passages on pp. 53–56 and 62–67 were read, not the full article.",
+          "exact_locations_read": "Opening framing and account of externalism, printed pp. 53–57; Case IV, printed p. 62; Norman's further specification and BonJour's argument from Norman's perspective, printed pp. 62–64; broader response and possible narrowing of externalist theories, printed pp. 65–67.",
+          "limitations": "The PDF is a hosted reproduction accessed through text extraction, which contains OCR artifacts; relevant argument passages were readable and bibliographic details were cross-checked against Wiley. The entire paper was not read. This primary text establishes BonJour's argument and attribution, not that his argument succeeds."
+        },
+        {
+          "title": "Externalist Theories of Empirical Knowledge (publisher record)",
+          "author": "Laurence BonJour",
+          "publication": "Wiley Online Library, Midwest Studies in Philosophy 5, issue 1, pp. 53–74; first published September 1980; DOI 10.1111/j.1475-4975.1980.tb00396.x.",
+          "stable_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1475-4975.1980.tb00396.x",
+          "source_type": "Publisher bibliographic record",
+          "access_level": "URL/metadata only; publisher full text was not accessed.",
+          "exact_locations_read": "Publisher page header, volume/issue and pages, first-publication date, DOI, and citation block.",
+          "limitations": "Metadata only; not used to establish the article's argument."
+        },
+        {
+          "title": "Reliabilist Epistemology",
+          "author": "Alvin Goldman and Bob Beddor",
+          "publication": "The Stanford Encyclopedia of Philosophy; entry first published 2008, substantive revision 2021; §§1.2, 2.1 and 4.2.",
+          "stable_url": "https://plato.stanford.edu/entries/reliabilism/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full online entry were read; the entire entry was not read.",
+          "exact_locations_read": "§1.2 on process reliabilism and intuitive justification; §2.1, “The Clairvoyance Problem,” on Norman and replies including approved-list reliabilism and primal systems; §4.2 on evidentialist–reliabilist hybrid approaches.",
+          "limitations": "Secondary synthesis. It surveys selected replies and does not establish that every reliabilist theory gives the same verdict or that there is a consensus."
+        },
+        {
+          "title": "Internalist vs. Externalist Conceptions of Epistemic Justification",
+          "author": "Clayton Littlejohn",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published December 4, 2025; §§1 and 2.1.",
+          "stable_url": "https://plato.stanford.edu/entries/justep-intext/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full online entry were read; the entire entry was not read.",
+          "exact_locations_read": "§1 on the distinct debates about knowledge and justification and characterizations of internal/external; §2.1, “Clairvoyance and Unusual Faculties,” on BonJour's Norman argument, externalist responses, mixed conditions, and the qualification that the intuition challenges pure externalism rather than a wide range of possible externalist views.",
+          "limitations": "Secondary synthesis; its discussion reports arguments and disagreement rather than adjudicating the Norman case."
+        },
+        {
+          "title": "Reliabilism",
+          "author": "Kelly Becker",
+          "publication": "Internet Encyclopedia of Philosophy; current online entry, consulted 2026-11-01; §3(a), “Reliably Formed True Belief Is Insufficient for Justification,” and relevant references.",
+          "stable_url": "https://iep.utm.edu/reliabilism/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full online entry were read; the entire entry was not read.",
+          "exact_locations_read": "§3(a) on the clairvoyance objection, Goldman's response and other reliabilist approaches, and Mr. Truetemp as a similar but separate example; §7 reference entry for BonJour (1980).",
+          "limitations": "Secondary overview; its summaries do not substitute for the primary works or establish that all reliabilists accept the same account."
+        },
+        {
+          "title": "The Analysis of Knowledge",
+          "author": "The Stanford Encyclopedia of Philosophy entry authors; the relevant source passage was consulted without relying on author-name metadata.",
+          "publication": "The Stanford Encyclopedia of Philosophy; §3, “Counterexamples to the Tripartite Analysis.”",
+          "stable_url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passage in the full online entry was read; the entire entry was not read.",
+          "exact_locations_read": "§3 on Gettier cases as justified true belief cases that appear not to constitute knowledge, the role of epistemic luck, and the insufficiency of the tripartite analysis.",
+          "limitations": "Used only to contextualize the article's brief teaching contrast; does not establish that Norman's case is a Gettier case."
+        },
+        {
+          "title": "Matching Norman the Clairvoyant data record",
+          "author": "Project data record; no external author.",
+          "publication": "Local read-only data/experiments.json object, id norman-the-clairvoyant; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was inspected directly after the article revision.",
+          "exact_locations_read": "Object fields id, title, associated_thinkers, original_publication, references, date_verified, related_experiments, file_path and summary were compared with the revised article and proposed data patch. The existing date_verified was 2026-10-31; the patch sets it to 2026-11-01. All five article Further Reading URLs and their order match the proposed references array.",
+          "limitations": "Metadata reconciliation only; it does not establish historical or philosophical claims. The source dataset was not edited."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Norman has, under normally obtaining conditions, a completely reliable clairvoyant faculty for certain subject matters; he has no reasons or evidence for or against the power or his possession of it; he forms a true belief that the President is in New York City through that faculty.",
+          "source_title": "Externalist Theories of Empirical Knowledge",
+          "source_url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+          "exact_location": "Case IV, printed p. 62; corroborated by Stanford Encyclopedia of Philosophy, “Reliabilist Epistemology,” §2.1.",
+          "relationship": "supports",
+          "finding": "The revised scenario closely tracks BonJour's stipulated Case IV and does not treat clairvoyance as an actual-world claim.",
+          "limitation": "This is a hypothetical stipulation in a philosophical argument, not testimony that clairvoyance exists.",
+          "required_edit": "Made: retained the case's key assumptions, and clarified that the scenario is stipulated rather than asserted as fact."
+        },
+        {
+          "material_claim": "BonJour argues that Norman's belief is epistemically irrational or unjustified from Norman's own perspective, despite the stipulated truth and reliability.",
+          "source_title": "Externalist Theories of Empirical Knowledge",
+          "source_url": "https://fphil.uniba.sk/fileadmin/fif/katedry_pracoviska/kfdf/Personal/Nuhlicek/Literatura/Teorie_zdovodnenia/BonJour__L._-_Externalist_Theories_of_Empirical_Knowledge__1980_.pdf",
+          "exact_location": "Printed pp. 62–64, especially BonJour's argument that Norman lacks a reason to treat the belief as having a reliable source and is epistemically irresponsible; see also pp. 65–67 for the broader argumentative framing and possible replies.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text supports the attribution to BonJour. The revised article marks this as BonJour's argument and uses perspective-based framing, rather than reporting it as a settled verdict.",
+          "limitation": "A primary philosophical argument establishes what BonJour argues, not that his conclusion is correct. The scanned PDF text has OCR artifacts.",
+          "required_edit": "Made: attributed the irrationality/irresponsibility judgment to BonJour and identified the conclusion as his argument."
+        },
+        {
+          "material_claim": "Norman is used to challenge the sufficiency of simple process reliability for justification, but the case does not automatically refute every theory that gives reliability a role.",
+          "source_title": "Reliabilist Epistemology; Internalist vs. Externalist Conceptions of Epistemic Justification",
+          "source_url": "https://plato.stanford.edu/entries/reliabilism/",
+          "exact_location": "Reliabilist Epistemology §2.1 frames Norman as the clairvoyance problem for process reliabilism and presents different responses; Internalist vs. Externalist Conceptions §§1 and 2.1 distinguishes justification and knowledge debates and states that BonJour's intuitions challenge pure externalism, not a wide range of possible externalist views.",
+          "relationship": "supports_with_qualification",
+          "finding": "The two reference works support distinguishing the standard process-reliabilist challenge from a blanket conclusion about all reliabilist or externalist theories. BonJour's own paper frames his conclusion more broadly as a challenge to externalist justification; the revised article notes this broader original framing separately.",
+          "limitation": "These are secondary syntheses and do not resolve whether a particular reliabilist variant succeeds.",
+          "required_edit": "Made: narrowed the article's claim about the case's reach and retained a sentence describing BonJour's broader original challenge."
+        },
+        {
+          "material_claim": "The article defines the simple process-reliabilist target as the claim that a belief is justified when produced by a sufficiently reliable process.",
+          "source_title": "Reliabilist Epistemology",
+          "source_url": "https://plato.stanford.edu/entries/reliabilism/",
+          "exact_location": "§1.2 on process reliability and justification, and §2.1 on the clairvoyance problem.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP discussion supports the simplified characterization as pedagogical shorthand for the simple process-reliabilist claim at issue.",
+          "limitation": "The article presents a concise teaching formulation, not a complete formal definition of every process-reliabilist theory.",
+          "required_edit": "Made: expressly labels the account 'simple process reliabilism' and avoids generalizing it to every reliabilist view."
+        },
+        {
+          "material_claim": "Published responses to Norman differ: some defend an externalist verdict, some deny that their theory entails justification in the case, and some introduce additional conditions; examples include approved-list, primal-system, and evidentialist–reliabilist approaches.",
+          "source_title": "Reliabilist Epistemology; Internalist vs. Externalist Conceptions of Epistemic Justification; Reliabilism",
+          "source_url": "https://plato.stanford.edu/entries/reliabilism/",
+          "exact_location": "Reliabilist Epistemology §2.1 (approved-list reliabilism and primal systems), §4.2 (evidentialist–reliabilist hybrids); Internalist vs. Externalist Conceptions §2.1 (defend Norman's justification, deny entailment, or combine internal/external conditions); IEP Reliabilism §3(a) (Goldman's and other approaches).",
+          "relationship": "supports_with_qualification",
+          "finding": "The sources support presenting the replies as distinct strategies rather than as a single reliabilist answer. The revised article uses illustrative categories and does not claim the list is exhaustive.",
+          "limitation": "The SEP and IEP sections survey selected responses; no exhaustive review of the literature or adjudication of each proposal was undertaken.",
+          "required_edit": "Made: replaced the compressed 'reliabilists reply' account with a non-exhaustive, differentiated summary."
+        },
+        {
+          "material_claim": "Internalism/externalism is a broad framing, with differing conceptions of accessibility and external dependence; some views combine internal and external conditions, and philosophers disagree about whether justification/rationality is required for knowledge.",
+          "source_title": "Internalist vs. Externalist Conceptions of Epistemic Justification",
+          "source_url": "https://plato.stanford.edu/entries/justep-intext/",
+          "exact_location": "§1 on internal/external and justification/knowledge distinctions; §2.1 on mixed internal and external conditions and lack of consensus about knowledge requiring rational belief or justification.",
+          "relationship": "supports",
+          "finding": "The SEP passage directly supports the qualifications added to the article's binary framing.",
+          "limitation": "The entry is a scholarly overview; the article's one-paragraph summary cannot represent the full range of positions.",
+          "required_edit": "Made: identified accessibilism specifically, acknowledged mixed theories, and stated that the justification/knowledge relationship is disputed."
+        },
+        {
+          "material_claim": "The Norman case differs from standard Gettier cases: Gettier cases are commonly presented as justified true beliefs that still appear not to be knowledge due to epistemic luck, whereas Norman challenges whether his belief is justified given lack of reason to trust its source.",
+          "source_title": "The Analysis of Knowledge; Externalist Theories of Empirical Knowledge",
+          "source_url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+          "exact_location": "SEP The Analysis of Knowledge §3 on Gettier cases, justified true belief and epistemic luck; BonJour, Case IV, pp. 62–64, on the Norman justification objection.",
+          "relationship": "supports_with_qualification",
+          "finding": "The comparison is supported as a contrast between the standard focus of Gettier cases and BonJour's stated Norman objection. The revised article expressly presents it as a teaching contrast and allows that related questions about knowledge may arise.",
+          "limitation": "The contrast is a simplification for readers; the article does not claim that all Gettier cases share one precise diagnosis or that the problems are unrelated.",
+          "required_edit": "Made: qualified the contrast and labeled it as teaching framing."
+        },
+        {
+          "material_claim": "Lehrer's Mr. Truetemp is a related but distinct example in which reliable temperature beliefs arise from an implanted thermometer-like device without the subject's knowledge of that source.",
+          "source_title": "Reliabilism",
+          "source_url": "https://iep.utm.edu/reliabilism/",
+          "exact_location": "IEP §3(a), account of Mr. Truetemp and the tempucomp, alongside the Norman discussion; the entry attributes the example to Keith Lehrer (1990).",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry describes the distinct device-and-temperature setup and explicitly calls it a similar case. The article now preserves that relationship without equating the cases.",
+          "limitation": "Lehrer's original book was not accessed; the attribution and scenario detail are supported here by a scholarly reference-work account.",
+          "required_edit": "Made: described Truetemp as related but distinct and noted that the original case differs in its details."
+        },
+        {
+          "material_claim": "BonJour's article was published in 1980 in Midwest Studies in Philosophy, volume 5, pages 53–74; the primary text is his original contribution rather than a later paraphrase.",
+          "source_title": "Externalist Theories of Empirical Knowledge (publisher record)",
+          "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1475-4975.1980.tb00396.x",
+          "exact_location": "Wiley volume/issue/page metadata, first-published date and DOI citation; compare the primary PDF title page and printed pagination.",
+          "relationship": "supports",
+          "finding": "The publisher record verifies author, title, journal, year, volume and page span. The article's bibliographic metadata is now explicit and consistent with the publisher record.",
+          "limitation": "The publisher record was used for metadata only; its full text was not accessed. The university-hosted PDF reproduction was used to read the primary passages.",
+          "required_edit": "Made: standardized the title, journal, volume, year and page range in the article."
+        },
+        {
+          "material_claim": "The thermometer question is an editorial teaching analogy, not a historical example attributed to BonJour; later reference treatments discuss the actual Mr. Truetemp case separately.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §6, question 3, explicitly introduced as a teaching comparison; §7 distinguishes Truetemp from Norman.",
+          "relationship": "context_only",
+          "finding": "The revised article labels the thermometer prompt as a teaching comparison and separates it from the sourced Truetemp scenario.",
+          "limitation": "Editorial framing, not a historical or philosophical claim attributed to a source.",
+          "required_edit": "Made: explicitly labeled the thermometer prompt as a teaching comparison and Truetemp as distinct."
+        },
+        {
+          "material_claim": "The article title and stable ID match the dataset record, associated thinker and related experiments are preserved, the review date is advanced, and the proposed reference metadata exactly follows the revised Further Reading links in order.",
+          "source_title": "Matching Norman the Clairvoyant data record",
+          "source_url": null,
+          "exact_location": "Read-only data/experiments.json object id norman-the-clairvoyant and revised article §9; proposed data patch references array.",
+          "relationship": "supports",
+          "finding": "The id and title match; the associated thinker is Laurence BonJour; the same three related experiments remain; date_verified is proposed as 2026-11-01. The five Further Reading URLs and order match the proposed references array exactly. Reference types are primary for BonJour's article and academic for scholarly reference works.",
+          "limitation": "Metadata reconciliation only. data/experiments.json remains unchanged; the patch is a separate local proposal.",
+          "required_edit": "Made: created a local data patch with the revised article's five reference links in identical order; did not modify the dataset."
+        }
+      ],
+      "unresolved_limits": [
+        "The audit checks attribution and traceability; it does not decide whether BonJour's argument succeeds or which theory gives the correct verdict on Norman.",
+        "Relevant passages were read, not every cited work in full; in particular, the entire BonJour paper, SEP entries and IEP entry were not read.",
+        "The university-hosted primary PDF was consulted through text extraction that contains OCR artifacts; no publisher full text or physical edition was accessed, though the bibliographic details were checked against Wiley.",
+        "The reply categories are representative, not exhaustive, and no comprehensive literature review was undertaken.",
+        "Lehrer's original Theory of Knowledge was not consulted; Mr. Truetemp details rely on the IEP secondary account.",
+        "No human subject-matter expert reviewed the article; no expert-review claim is made."
+      ]
+    }
+  ]
+}

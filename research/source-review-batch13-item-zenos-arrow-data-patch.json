@@ -1,0 +1,30 @@
+{
+  "id": "zenos-arrow",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Zeno’s Paradoxes",
+      "url": "https://plato.stanford.edu/entries/paradox-zeno/",
+      "kind": "academic",
+      "support": "Scholarly discussion of Aristotle’s mediated report of the Arrow argument and a modern at-at response; §3.3 (Arrow) and §3.4 (Stadium) consulted, not the full entry."
+    },
+    {
+      "title": "Aristotle, Physics, Book VI, chapter 9, trans. R. P. Hardie and R. K. Gaye",
+      "url": "http://www.logoslibrary.org/aristotle/physics/609.html",
+      "kind": "primary",
+      "support": "Primary ancient testimony: Physics VI.9 at 239b5–9 and 239b30–33 reports Zeno’s Arrow argument and Aristotle’s objection; the same chapter reports the Stadium. Relevant passages read in the Hardie–Gaye translation; the online page does not specify the edition date."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Zeno of Elea",
+      "url": "https://plato.stanford.edu/entries/zeno-elea/",
+      "kind": "academic",
+      "support": "Historical context for Zeno’s fifth-century BCE period and the indirect transmission and reconstruction of the Arrow from Aristotle’s testimony; §§1 and 2.2.3 consulted, not the full entry."
+    },
+    {
+      "title": "OpenStax, University Physics Volume 1, §3.2, “Instantaneous Velocity and Speed”",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed",
+      "kind": "academic",
+      "support": "Textbook support for defining instantaneous velocity as the limit of average velocity as elapsed time approaches zero; §3.2 read. This provides calculus context, not an interpretation of Zeno."
+    }
+  ]
+}

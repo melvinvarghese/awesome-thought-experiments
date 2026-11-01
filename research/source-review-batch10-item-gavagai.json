@@ -1,0 +1,185 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit and independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "gavagai",
+  "title": "Quine’s Gavagai",
+  "article_path": "experiments/logic/gavagai.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability audit of the Gavagai article and its matching data/experiments.json record. Checked the original radical-translation setup; publication/name/date attribution; the Gavagai/Rabbit stimulus-meaning example and alternatives for term reference; the distinction between inscrutability of reference and broader indeterminacy of translation; communication/translation qualifications; the named scholarly objection/reply; article framing; and reference alignment after parent-side dataset reconciliation. The status records source traceability, not that Quine’s argument succeeds, that an interpretation is consensus, or that the work received expert review.",
+  "summary": "The article was revised against directly read passages in Quine’s Word and Object, Chapter 2, §§7, 12, and 15–16, and relevant passages in Quine’s 1970 paper, especially pp. 181–82. These sources support the setup, tentative “Rabbit” translation, term-reference alternatives, analytical-hypothesis qualifications, and Quine’s later clarification that Gavagai is at best an example of inscrutability of terms—not by itself the indeterminacy of sentence translation. The Fall 2025 SEP Quine entry supports broader context, communication qualifications, and a named objection/reply; the archived SEP Reference entry directly discusses Gavagai and rabbit-part/stage alternatives. The article and dataset were reconciled: the record now links the primary passages and the archived Reference entry, and the SEP Quine citation is no longer described as containing the exact Gavagai example. Relevant Chapter 2 passages were read in a hosted reproduction; the complete book and title page were not consulted.",
+  "sources": [
+    {
+      "title": "Word and Object",
+      "author": "W. V. O. Quine",
+      "publication": "Cambridge, MA: The MIT Press, 1960; Chapter 2, “Translation and Meaning.” Bibliographic year and title corroborated by Hylton and Kemp, SEP Quine §1; the book’s title page was not consulted.",
+      "stable_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+      "source_type": "Primary philosophical work (selected chapter reproduction)",
+      "access_level": "Selected relevant passages in a university philosophy-department-hosted PDF reproduction were text-extracted and read; the complete book was not retrieved or read. This is passage-level access, not full-book access.",
+      "exact_locations_read": "Chapter 2, §7, printed pp. 29–31: radical translation setup, rabbit scurrying past, native utterance “Gavagai,” and linguist’s tentative “Rabbit”/“Lo, a rabbit” translation and further testing. §12, printed pp. 51–53: stimulus synonymy of occasion sentences; non-entailment of coextension of the terms; rabbit stages, undetached rabbit parts, fusion, and rabbithood alternatives; dependence on analytical choices about grammatical constructions such as identity. §§15–16, printed pp. 72–74: rival systems of analytical hypotheses, compatible speech dispositions, and incompatible translation of sentences not independently controlled by observation.",
+      "limitations": "The reproduction is hosted on a university department site, not the publisher’s site; the complete book and title page were not available in the consulted passage extraction. The primary passages establish what Quine argued, not that his philosophical conclusion is true or that an actual language community uses these concepts."
+    },
+    {
+      "title": "On the Reasons for Indeterminacy of Translation",
+      "author": "W. V. O. Quine",
+      "publication": "The Journal of Philosophy 67, no. 6 (March 1970): 178–183. DOI: 10.2307/2023887.",
+      "stable_url": "https://doi.org/10.2307/2023887",
+      "text_access_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Quine%20-%20On%20the%20Reasons%20for%20Indeterminacy%20of%20Translation.pdf",
+      "source_type": "Primary philosophical article",
+      "access_level": "Task-relevant passages on printed journal pp. 181–182 were extracted and read in a six-page reprint scan hosted on a course-reading site; the entire article was not read systematically. The DOI landing page at the Philosophy Documentation Center was separately read for metadata and gates the full text.",
+      "exact_locations_read": "Printed pp. 181–82: Quine distinguishes the Gavagai term-reference issue from sentence-level indeterminacy of translation; p. 182 states that Gavagai “was at best an example only of the inscrutability of terms, not of the indeterminacy of translation of sentences.” Printed p. 182 also explains that the issue is term reference after grammatical/analytical choices, and that once these are settled, interrogation can settle the issue relative to those choices. The scanned reprint’s internal pagination differs from the original journal pagination; citations here use the journal’s printed pp. 178–183.",
+      "limitations": "The text was read only in a third-party course-hosted reprint scan, not through the publisher platform; its reprint pagination differs from the original journal pagination, so citations use the journal’s printed pages. The relevant text clarifies Quine’s own position; it does not establish that his distinction or argument is philosophically successful."
+    },
+    {
+      "title": "Willard Van Orman Quine",
+      "author": "Peter Hylton and Gary Kemp",
+      "publication": "The Stanford Encyclopedia of Philosophy, Fall 2025 archive; first published 9 April 2010; substantive revision 6 July 2023; archive entry URL dated Fall 2025. Editors Edward N. Zalta and Uri Nodelman.",
+      "stable_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections in the archived entry were read in full in the returned extraction; the complete entry’s relevant subsection and cited references were consulted, but the primary texts cited by the SEP were not all separately read.",
+      "exact_locations_read": "§1 for Quine’s publication of Word and Object in 1960; §6.2, “Indeterminacy of Translation,” for the broad thesis, distinction between indeterminacy of reference and translation, communication qualification, and the Gavagai examples; §6.2’s paragraphs on Searle (1987) and Føllesdal (1990) for the named objection and reply. Exact online sections cited rather than page numbers.",
+      "limitations": "This is a secondary reference work. It establishes that the cited interpretations and debate are presented by the authors, not that these interpretations are exhaustive or agreed by all scholars. Searle’s and Føllesdal’s own papers were not read for this limited audit."
+    },
+    {
+      "title": "Reference",
+      "author": "Marga Reimer and Eliot Michaelson",
+      "publication": "The Stanford Encyclopedia of Philosophy, Spring 2018 archive; first published 20 January 2003; substantive revision 26 September 2014; editors Edward N. Zalta and Uri Nodelman.",
+      "stable_url": "https://plato.stanford.edu/archives/spr2018/entries/reference/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "The complete relevant §6 passage was read in the archived entry; the entire entry was not read.",
+      "exact_locations_read": "§6, “Negative Views of Reference,” Quine paragraph: Quine’s inscrutability thesis; the Gavagai/rabbit, undetached-rabbit-part, and rabbit-time-slice examples; and the article’s summary that competing reference theories fit the empirical evidence. Author, publication, and revision metadata were confirmed from the SEP’s archive citation-information page.",
+      "limitations": "This fixed Spring 2018 version is older than the later Reference entry and is used because it contains the specific Gavagai examples. It is a concise secondary summary, not primary evidence; its presentation should not be treated as a full account of all scholarly debate."
+    },
+    {
+      "title": "Matching Gavagai data record in data/experiments.json",
+      "author": "Project data record; no external author",
+      "publication": "Local project JSON dataset; record ID gavagai; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "The matching JSON object was read and updated after the article audit; its title, URL, kind, and support fields now correspond to the article’s four Further Reading sources.",
+      "exact_locations_read": "Object with id “gavagai”; its four references now include the selected primary chapter, Quine’s 1970 clarification, the Fall 2025 SEP Quine overview, and the Spring 2018 SEP Reference passage that explicitly discusses Gavagai and rabbit alternatives. The SEP Quine source is described as general context, not as containing the exact example.",
+      "limitations": "This project record documents reference metadata and source-support descriptions; it does not establish philosophical claims or the success of Quine’s argument."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Quine’s radical-translation setup has a linguist without an interpreter encountering an unfamiliar language; a rabbit passes, a native says “Gavagai,” and the linguist tentatively records “Rabbit” or “Lo, a rabbit” for further testing.",
+      "source_title": "Word and Object",
+      "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+      "exact_location": "Chapter 2, §7, printed pp. 29–31; the rabbit sentence and tentative translation are on p. 29, followed by the discussion of further testing on pp. 29–31.",
+      "relationship": "supports_with_qualification",
+      "finding": "The passage directly supports the setup and tentative translation. The revised article now says this is Quine’s constructed example rather than a documented field event and does not call “Rabbit” the uniquely best translation.",
+      "limitation": "Only the relevant Chapter 2 passages were read in a university-hosted reproduction; this is not evidence of an actual historical encounter.",
+      "required_edit": "Made: changed “guesses”/“best hypothesis given the evidence” to Quine’s tentative translation subject to testing and explicitly labels the situation constructed rather than ethnographic."
+    },
+    {
+      "material_claim": "Equal stimulus meaning for the occasion sentences “Gavagai” and “Rabbit” does not by itself establish that the terms gavagai and rabbit are coextensive; Quine gives rabbit stages and undetached rabbit parts as alternatives and discusses additional analyses.",
+      "source_title": "Word and Object",
+      "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+      "exact_location": "Chapter 2, §12, printed pp. 51–53; the non-entailment and rabbit-stage/part examples appear on pp. 51–52; fusion, rabbithood, and the distinction between occasion-sentence and term translation appear on pp. 52–53.",
+      "relationship": "supports",
+      "finding": "The primary text directly supports the term-reference alternatives. The revised article distinguishes the capitalized occasion sentence “Gavagai” from lowercase term gavagai and does not imply that the term alternatives are equivalent whole-sentence translations.",
+      "limitation": "Quine’s alternatives illustrate an analytical point; they are not an empirical report about actual speakers. The conclusion remains an argument by Quine, not an independently verified fact about meaning.",
+      "required_edit": "Made: narrowed the setup to the evidence supplied by stimulus equivalence and clarified that the alternatives concern term reference."
+    },
+    {
+      "material_claim": "Quine’s Gavagai case illustrates inscrutability/indeterminacy of reference; it is not by itself the argument for broader indeterminacy of sentence translation.",
+      "source_title": "On the Reasons for Indeterminacy of Translation",
+      "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Quine%20-%20On%20the%20Reasons%20for%20Indeterminacy%20of%20Translation.pdf",
+      "exact_location": "Quine, printed p. 182: “The gavagai example was at best an example only of the inscrutability of terms, not of the indeterminacy of translation of sentences.” Related context on pp. 181–82.",
+      "relationship": "supports",
+      "finding": "Quine’s direct clarification establishes the attribution. The revised article separates the narrower Gavagai term-reference point from Quine’s wider translation-manual thesis.",
+      "limitation": "Full article text was consulted in a non-publisher-hosted scan. The passage establishes Quine’s later statement, not the truth of his philosophical position.",
+      "required_edit": "Made: corrected the former conflation of the rabbit example with the whole translation-manual thesis and supplied the direct citation."
+    },
+    {
+      "material_claim": "Quine’s broader indeterminacy thesis concerns incompatible systems of analytical hypotheses/translation that can fit speech dispositions; this broader claim is distinct from the Gavagai term-reference example.",
+      "source_title": "Word and Object",
+      "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+      "exact_location": "Chapter 2, §§15–16, printed pp. 72–74; in particular, §15, pp. 72–73, on compensatory analytical hypotheses and incompatible sentence translations, and §16, pp. 73–74, on the indeterminacy thesis.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text supports the broader claim. The revised article states this as a separate argument and avoids inferring it from the Gavagai example alone.",
+      "limitation": "These passages establish what Quine argued, not that the alternative systems are philosophically equivalent in every respect or that his argument succeeds.",
+      "required_edit": "Made: revised §3 to distinguish the term-reference example from the broader thesis and cite the latter’s separate passages."
+    },
+    {
+      "material_claim": "Quine’s thesis does not imply that ordinary communication or practical translation is impossible; more than one translation can be successful by Quine’s practical criterion.",
+      "source_title": "Willard Van Orman Quine",
+      "source_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
+      "exact_location": "§6.2, paragraphs beginning “Some philosophers hold that the idea of indeterminacy is absurd” and “Such views, however, take for granted a view of communication,” including the cited Quine passage on judging communication by fluent interaction.",
+      "relationship": "supports_with_qualification",
+      "finding": "Hylton and Kemp explicitly distinguish indeterminacy from impossibility of successful communication/translation and describe Quine’s criterion. The article’s qualified summary tracks that account.",
+      "limitation": "Secondary exposition of Quine; it does not settle every philosophical account of communication or translation.",
+      "required_edit": "Made: retained the caution that Quine is not saying communication or practical translation fails, but added that more than one translation may fit."
+    },
+    {
+      "material_claim": "A scholarly objection and reply exist concerning whether indeterminacy makes communication or correct translation absurd/impossible; the revised text names Searle’s objection and Føllesdal’s reply without presenting either as consensus.",
+      "source_title": "Willard Van Orman Quine",
+      "source_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/",
+      "exact_location": "§6.2, paragraph beginning “Some philosophers hold that the idea of indeterminacy is absurd,” which cites Searle (1987) and Føllesdal (1990) as reply.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP directly documents this named objection/reply relation and thereby supports describing a debate, but not making broad claims about “critics,” consensus, or the total literature. The revised article removes the former unsupported generalizations about causal/externalist views and psychological constraints.",
+      "limitation": "The underlying Searle and Føllesdal texts were not accessed; the SEP overview was read. This record does not assess the strength or reception of either argument.",
+      "required_edit": "Made: replaced sweeping descriptions of critics, externalists, and pragmatic interpretations with a bounded statement of the named debate and an explicit non-consensus qualification."
+    },
+    {
+      "material_claim": "“Undetached rabbit part” is a theoretical alternative about term analysis, not an empirical claim about an actual speech community; follow-up inquiry may settle reference relative to adopted analytical hypotheses, but the initial stimulus evidence alone does not select those hypotheses.",
+      "source_title": "Word and Object; On the Reasons for Indeterminacy of Translation",
+      "source_url": "https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf; http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Quine%20-%20On%20the%20Reasons%20for%20Indeterminacy%20of%20Translation.pdf",
+      "exact_location": "Word and Object, ch. 2, §12, pp. 51–53; Quine 1970, printed pp. 181–82, including his discussion of screens, analytical hypotheses, and interrogation after choices are settled.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary texts support the theoretical status and qualification. The revised article removes the overstatement that no amount of pointing or further observation can ever rule out the alternatives; it explains that inquiry can resolve the issue relative to grammatical/analytical commitments.",
+      "limitation": "The passage concerns Quine’s account of translation and does not imply that all possible linguistic or psychological evidence is irrelevant under every theory.",
+      "required_edit": "Made: replaced the absolute “no amount of pointing or further observation” assertion with the more qualified distinction between inquiry and the background hypotheses used to interpret it."
+    },
+    {
+      "material_claim": "Quine’s book publication year is 1960; the Gavagai example belongs to that primary work, Chapter 2.",
+      "source_title": "Willard Van Orman Quine; Word and Object",
+      "source_url": "https://plato.stanford.edu/archives/fall2025/entries/quine/; https://cla.csulb.edu/departments/philosophy/wp-content/uploads/2025/05/Quine-1960-Word-and-Object-ch.-2.pdf",
+      "exact_location": "Hylton and Kemp, SEP Quine §1, chronology entry for 1960; Quine, Word and Object, Chapter 2, §7, printed pp. 29–31, for the Gavagai passage.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP chronology directly verifies the year and book title; the chapter reproduction verifies the Gavagai passage within that work. The book’s full publication page was not consulted.",
+      "limitation": "The entry’s year/title are corroborated by a scholarly chronology rather than the original title page in this session.",
+      "required_edit": "Made: retained the 1960 attribution and added exact chapter/section/page citations."
+    },
+    {
+      "material_claim": "The archived SEP Reference entry is appropriate further reading for Gavagai specifically, and the SEP Quine entry supplies broader Quine context rather than the exact term “Gavagai.”",
+      "source_title": "Reference; Willard Van Orman Quine",
+      "source_url": "https://plato.stanford.edu/archives/spr2018/entries/reference/; https://plato.stanford.edu/archives/fall2025/entries/quine/",
+      "exact_location": "SEP Reference, Spring 2018 archive, §6 Quine paragraph; SEP Quine, Fall 2025 archive, §6.2. The pre-audit cited live SEP Quine entry was read and its relevant extracted text did not contain “Gavagai”; its §6.2 discusses translation and reference generally.",
+      "relationship": "supports_with_qualification",
+      "finding": "The archived Reference entry directly discusses Gavagai and the rabbit alternatives; the SEP Quine entry provides broader doctrine and debate context. The article and dataset now distinguish these roles, and the inaccurate statement that the Quine entry includes the rabbit example has been removed.",
+      "limitation": "The SEP Reference source is a fixed Spring 2018 version used for its explicit example. The sources support traceability and context, not the truth of Quine’s thesis.",
+      "required_edit": "Made: synchronized the data record with the four article sources and corrected the support text for the SEP Quine reference."
+    },
+    {
+      "material_claim": "The article’s questions for reflection and comparisons to other philosophical topics are teaching prompts, not historical claims about Quine’s sources or established variations of Gavagai.",
+      "source_title": "Original editorial framing",
+      "source_url": null,
+      "exact_location": "Article §§6–8, especially the questions in §6 and the comparative note in §7.",
+      "relationship": "does_not_establish",
+      "finding": "The prompts are explicitly editorial and make no claim that these variations occur in Quine’s text. They are outside factual source verification except for confirming the text’s attribution and framing.",
+      "limitation": "The prompts raise open questions rather than assert answers. The comparative works are not surveyed in this audit.",
+      "required_edit": "Made: labeled the example as constructed teaching framing and described adjacent debates as separate comparisons, not parts of Quine’s original argument."
+    }
+  ],
+  "unresolved": [
+    "The complete Word and Object book was not retrieved or read. The relevant Chapter 2 passages at §§7, 12, and 15–16 were directly read in a hosted chapter reproduction; this limitation is disclosed in the article and source metadata.",
+    "The full text of Searle’s cited objection and Føllesdal’s reply was not read; the revised article reports only the existence and direction of the exchange as summarized in the Fall 2025 SEP Quine entry and does not claim consensus.",
+    "The revised article’s reflection questions and brief comparison to other debates are teaching framing, not a comprehensive survey of child language acquisition, rule-following, Davidsonian interpretation, causal theories, or externalism.",
+    "The article’s public citation uses the DOI, which resolves to a PDC landing page that gates the full text. The passage was read in a separate third-party course-hosted reprint scan (URL recorded as text_access_url); this scan is not publisher-hosted and its pagination differs from the original journal pagination."
+  ],
+  "required_edits": [
+    {
+      "target": "experiments/logic/gavagai.md",
+      "status": "made",
+      "edit": "Corrected the scenario to call “Rabbit” a tentative translation; separated occasion-sentence stimulus meaning from term reference; distinguished Gavagai’s term inscrutability from the broader translation-manual thesis; added exact Quine primary locations and Quine’s 1970 clarification; qualified follow-up evidence, communication, and the named scholarly debate; removed broad unsupported interpretive generalizations; added appropriate source links and disclosed access limits."
+    },
+    {
+      "target": "data/experiments.json, record id gavagai",
+      "status": "made",
+      "edit": "Parent reconciliation added the article’s four exact Further Reading URLs, updated date_verified, and corrected the former claim that the SEP Quine entry itself includes the rabbit example."
+    }
+  ],
+  "post_edit_review": "An independent read-only reviewer checked the revised article, matching dataset record, Quine, Word and Object ch. 2 §§7, 12, 15–16 in the university-hosted chapter reproduction, Quine’s 1970 paper pp. 181–82 in a course-hosted reprint scan, and the Fall 2025 SEP Quine §6.2 and Spring 2018 SEP Reference §6. No substantive philosophical-claim mismatch was found; all four Further Reading URLs match the dataset references. The reviewer found that the previous article/ledger note mislabeled the DOI landing page as JSTOR. The DOI resolves to a Philosophy Documentation Center (PDC) metadata page with gated full text; the article and this record now distinguish it from the course-hosted scan actually read. Only relevant passages were checked; no human expert review is claimed."
+}

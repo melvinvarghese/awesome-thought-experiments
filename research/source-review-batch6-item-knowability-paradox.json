@@ -4,7 +4,7 @@
   "protocol": "research/source-review-standard.md",
   "id": "knowability-paradox",
   "title": "Fitch’s Paradox of Knowability",
-  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/logic/knowability-paradox.md",
+  "article_path": "experiments/logic/knowability-paradox.md",
   "status": "source_checked",
   "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: Fitch’s knowability principle and proof structure; the meaning and scope of the unknown truth; epistemic and modal assumptions; implications for verificationism and anti-realism; proposed response families; publication details and historical attribution. This status records traceability, not that the argument is sound, that any response succeeds, or that a particular theory is refuted.",
   "summary": "Brogaard and Salerno’s SEP treatment supplies the full formal proof, defines knowledge as known by someone at some time, states the epistemic and modal principles, and surveys disputed replies. Fitch’s publisher page supplies bibliographic metadata and selected extract/footnotes, but the full 1963 article was not accessed. The article now makes the unrestricted-substitution and background-logic assumptions explicit, qualifies the scope of its philosophical implications, and distinguishes Fitch’s published theorem from the reported referee and earlier Parry attribution. Independent post-edit review is pending.",

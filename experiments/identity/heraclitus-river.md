@@ -3,16 +3,14 @@
 **Category:** identity  
 **Type:** argument  
 **Associated thinker(s):** Heraclitus  
-**Original publication or approximate period:** Fragments attributed to Heraclitus (about 500 BCE); wording and interpretation are disputed  
+**Original publication or approximate period:** Fragments attributed to Heraclitus (active around 500 BCE); wording and interpretation are disputed\
 **Difficulty:** Beginner  
 **Themes:** change, persistence, flux  
 **Related experiments:** [Ship of Theseus](ship-of-theseus.md); [Sorites: When Does a Heap Begin?](../logic/sorites.md); [Lumpl and Goliath: The Statue and the Clay](statue-and-clay.md)
 
 ## 1. The Scenario
 
-A river seems to be one thing: you can name it, visit it, and return to it. Yet the water that makes it up is always moving on. The saying associated with Heraclitus is that one cannot step into the same river twice, because other and still other waters flow on.
-
-The puzzle is general. If a thing is constantly changing in its parts, what makes it the same thing from one moment to the next?
+The familiar version says that one cannot step into the same river twice. Plato reports a version of this thought in *Cratylus* 402a. The fragment conventionally numbered B12, transmitted through later authors, instead describes different waters flowing for those stepping into the same rivers. How Plato’s report relates to B12—and whether other river sayings preserve Heraclitus’s own words—remains disputed. Here the river is a teaching example about identity through change, not a verbatim quotation or a settled reconstruction of Heraclitus’s view.
 
 ## 2. The Central Question
 
@@ -20,17 +18,15 @@ Can something remain the same thing while its constituents are continually repla
 
 ## 3. Why It Matters
 
-The river is an early model for questions about identity through change. A river, a candle flame, a living body and a nation all remain what they are while their material shifts. The saying forces a choice between denying real persistence, redefining sameness, or explaining how a pattern of change can itself be stable.
-
-It also shows the difficulty of reading ancient fragments. Different interpreters have taken Heraclitus to teach universal flux, the unity of opposites, or the idea that a thing’s stability depends on change.
+The river offers a useful way to ask how something can persist while its contents change. A flame, a living body, or a nation can serve as a modern comparison, but these are teaching examples, not examples attributed here to Heraclitus. The river raises the question of whether a continuing pattern can matter to identity; it does not settle the answer.
 
 ## 4. Major Interpretations
 
-**The flux reading**, partly passed down through Plato and Aristotle, says that everything is always changing and nothing persists. **The stability-through-change reading** holds that the river is the same precisely because its waters are replaced in an orderly way. **Metaphysical responses** from later philosophy distinguish identity of kind from identity of particular, or treat persisting things as processes. Scholars disagree about which fragments are authentic and what they mean.
+Plato reads Heraclitus as saying that all things pass and nothing stays. Aristotle reports an even more radical response through Cratylus, who thought one could not enter the same river even once. A different reading of B12 emphasizes its reference to the “same rivers” as different waters flow. The Stanford Encyclopedia of Philosophy treats B12 as the likely genuine river fragment and B91 as a paraphrase; Leonardo Taran argues that B91 may preserve a separate saying. Scholars therefore disagree about what the river testimony establishes. Process views and distinctions between kinds of identity are later philosophical comparisons, not doctrines attributed here to Heraclitus.
 
 ## 5. Common Misunderstandings
 
-The saying is not a scientific claim about hydrology, and the sentence usually quoted is a later paraphrase of fragments whose exact wording is uncertain. It also does not show that identity is an illusion; it poses a question that more careful theories try to answer.
+The “cannot step twice” wording is an ancient report, not a secure verbatim translation of B12. The fragment tradition does not by itself show that identity is an illusion. The river image poses a philosophical question; it is not a claim about hydrology.
 
 ## 6. Think for Yourself
 
@@ -41,7 +37,7 @@ The saying is not a scientific claim about hydrology, and the sentence usually q
 
 ## 7. Variations and Extensions
 
-Modern versions use the human body, whose atoms and cells turn over, to ask whether personal identity is like the river’s. Treat any claim about exactly how much of the body is replaced as an empirical question separate from the philosophical one.
+A modern extension asks whether a living body remains the same as its constituent matter changes. This is a teaching comparison, not an ancient example; specific claims about cell or atom turnover are empirical questions separate from the identity problem.
 
 ## 8. Related Thought Experiments
 
@@ -51,12 +47,17 @@ Modern versions use the human body, whose atoms and cells turn over, to ask whet
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Heraclitus](https://plato.stanford.edu/entries/heraclitus/) — The river fragments, how ancient and modern interpreters read them, and the question of universal flux.
+- [Heraclitus](https://plato.stanford.edu/archives/win2023/entries/heraclitus/) — Daniel W. Graham’s discussion of the river testimonia and competing readings.
+- [*Cratylus* 402a](https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Crat.+402a) — Plato’s report of the “cannot step twice” formulation.
+- [*Metaphysics* IV.5, 1010a12–15](https://classics.mit.edu/Aristotle/metaphysics.4.iv.html) — Aristotle’s account of Cratylus’s more radical position.
+- [*Praeparatio Evangelica* XV.20](https://www.tertullian.org/fathers/eusebius_pe_15_book15.htm) — Eusebius preserves the B12 wording through a report of Cleanthes.
+- [*On the E at Delphi* 392B–C](http://penelope.uchicago.edu/misctracts/plutarche.html) — Plutarch’s later river formulation.
+- [“Heraclitus: The River Fragments”](https://orb.binghamton.edu/cgi/viewcontent.cgi?article=1252&context=sagp) — Leonardo Taran’s contrasting discussion of the fragments and their transmission.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on Heraclitus was consulted. It discusses the river fragments and the variety of interpretations. The fragments themselves were not retrieved, so no direct quotation is given; the saying is paraphrased. The date is approximate.
+The relevant river-fragment discussion in the Winter 2023 *Stanford Encyclopedia of Philosophy* entry, Plato’s *Cratylus* 402a and 439c–440c, Aristotle’s *Metaphysics* IV.5 (1010a12–15), Eusebius’s *Praeparatio Evangelica* XV.20, Plutarch’s *On the E at Delphi* 392B–C, and Leonardo Taran’s 1989 article were consulted. Heraclitus’s book does not survive; the fragment wording reaches us through later witnesses. Graham’s SEP account and Taran disagree over whether B91 preserves a separate saying, so this entry reports the dispute rather than resolving it. No critical edition or complete survey of the Heraclitean fragments was consulted.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary sources or a claim that the interpretation is settled. The modern comparisons in this article are teaching prompts, not historical examples attributed to Heraclitus.
 
 [Return to collection](../../README.md)

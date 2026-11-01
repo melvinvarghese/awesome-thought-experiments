@@ -1,0 +1,669 @@
+{
+  "batch_id": "source-review-batch17-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved source-review standard for local audit work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; unstaged and uncommitted. No commit, push, merge, release, or remote-branch change.",
+  "reviewer_type": "AI-assisted claim-level audits with item-level self-check after edits; no human expert review is claimed.",
+  "batch_scope": "4 remaining expansion entries: problem-of-other-minds, mad-pain-martian-pain, disguised-mule, stag-hunt.",
+  "selection_method": "Completed the remaining entries after the higher-risk historical and formal cases; source claims, model assumptions, and the scope of conclusions were still checked against relevant passages.",
+  "counts": {
+    "audit_records_before_batch_all_repository": 56,
+    "expansion_inventory_entries_with_audit_records_before_batch": 53,
+    "entries_in_batch": 4,
+    "audit_records_after_batch_all_repository": 60,
+    "expansion_inventory_entries_with_audit_records_after_batch": 57,
+    "total_expansion_inventory_entries": 57,
+    "expansion_inventory_entries_without_audit_records_after_batch": 0,
+    "audited_entries_outside_expansion_inventory_after_batch": 3,
+    "batch_status_counts": {
+      "source_checked": 4
+    },
+    "all_repository_status_counts_after_batch": {
+      "source_checked": 58,
+      "partially_source_checked": 2,
+      "needs_source_check": 0,
+      "expert_reviewed": 0
+    }
+  },
+  "status_summary": "This batch has 4 source_checked and 0 partially_source_checked entries for their declared claim-traceability scopes. These labels do not state philosophical truth, consensus, exhaustive review, or human expertise.",
+  "limits": [
+    {
+      "id": "problem-of-other-minds",
+      "limitations": [
+        "Mill's primary passage was not independently consulted; the attribution and quoted argument were checked through Avramides's SEP quotation and citation, while the 1865 edition metadata was checked against the digitized title page/catalogue.",
+        "The audit does not decide whether analogy, inference to the best explanation, criteria, perception, or testimony offers the best account, and it is not an exhaustive literature review.",
+        "The history before Mill is summarized only enough to avoid an origin claim; no complete historical survey was undertaken.",
+        "Extensions to noncommunicating people and artificial systems remain editorial teaching prompts, not source-established conclusions.",
+        "The shared worktree showed unrelated edits in other data/experiments.json objects at final inspection; this audit did not write to that file and left those changes untouched.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "id": "mad-pain-martian-pain",
+      "limitations": [
+        "The thought experiments are stipulated possibilities, not empirically established cases; Lewis explicitly says he cannot prove their possibility.",
+        "Lewis's criteria for the appropriate population can conflict. Alward's mad-Martian objection is recorded, but the audit does not resolve it or survey every later response.",
+        "The broader debate about whether causal-role theories capture phenomenal character remains open; the sources establish Lewis's position and the existence of objections, not a final answer.",
+        "The SEP entry supplies conceptual background and separate discussion of Block's Chinese-nation/qualia arguments; it is not evidence for Lewis's specific cases.",
+        "A text reproduction of the primary essay and one published secondary critique were consulted; no exhaustive literature review, publisher's physical edition, or human subject-matter expert review was undertaken."
+      ]
+    },
+    {
+      "id": "disguised-mule",
+      "limitations": [
+        "The original Dretske article's full text was not directly accessible; the primary passage is traced through the SEP entry's quotation and discussion of pp. 1015–1016, while JSTOR access confirmed metadata only.",
+        "The example's success depends on disputed analyses of knowledge, closure, tracking, and relevant alternatives; this source review does not determine which analysis is correct.",
+        "The consulted sources do not establish that a cleverly disguised mule is actually possible, likely, or a relevant alternative in any real zoo; the article treats it as a stipulated case.",
+        "The SEP discussions are selected secondary reference passages; this was not an exhaustive literature review, and no human subject-matter expert reviewed the article.",
+        "The matching data object remains unchanged and therefore still has the prior single SEP reference and 2026-10-31 verification date; the requested patch is not applied by instruction."
+      ]
+    },
+    {
+      "id": "stag-hunt",
+      "limitations": [
+        "The original-language Rousseau text and a critical scholarly edition were not consulted; the relevant primary passage was read in Ian Johnston's English translation.",
+        "Britannica's entry includes an AI-generated summary and curated excerpt; it was used narrowly for the 1755 publication date, while the primary translated passage and other sources were used for substantive claims.",
+        "Only relevant portions of the SEP entry and Skyrms paper were read; this was not an exhaustive survey of game-theory or Rousseau scholarship.",
+        "The formal payoff table is illustrative. Alternative payoff structures can change risk-dominance and equilibrium selection; the audit does not decide which model best fits any real protest, institution, standard-adoption, investment, or social-contract case.",
+        "No named, qualified human subject-matter expert reviewed this entry."
+      ]
+    }
+  ],
+  "validation": {
+    "repository_validator": "PASS: python3 scripts/validate.py — 132 entries; JSON schema, article sections, metadata, references, README, and local links checked. External URLs checked for syntax only.",
+    "unit_tests": "PASS: python3 -m unittest discover -s tests -v — 18 tests, all OK.",
+    "git_diff_check": "PASS: git diff --check — no whitespace errors.",
+    "article_dataset_reference_alignment": "PASS: all 4 Further Reading URL lists match the matching data references in order; all date_verified values are 2026-11-01.",
+    "item_ledgers": "PASS: item evidence ledgers and data patches parse as JSON; required claim/source fields and allowed relationships checked.",
+    "inventory_reconciliation": "PASS: 60 audit records; 57 of 57 expansion IDs covered; 0 remain; 3 records outside the inventory.",
+    "git_state": "Confirmed: branch audit/source-review-high-risk at HEAD 0d26e66; no staged paths; all work remains local, unstaged, uncommitted, and unpushed."
+  },
+  "entries": [
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "problem-of-other-minds",
+      "title": "The Problem of Other Minds",
+      "article_path": "experiments/consciousness/problem-of-other-minds.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching data record. Checked the traditional epistemological setup; Mill's argument-from-analogy formulation and attribution/date; objections and replies concerning single-case generalization and checkability; best-explanation, criteria/Wittgensteinian, perceptual, and testimony-based approaches; skeptical, conceptual, and metaphysical distinctions; and extensions to animals, infants, noncommunicating people, and machines. The status records traceability to the consulted passages, not the truth of any disputed philosophical conclusion, an exhaustive history or literature review, or expert review.",
+      "summary": "The article now presents Mill's argument as an influential formulation rather than an origin claim; explains both the single-case objection and replies; distinguishes epistemological, conceptual, and metaphysical questions; and describes best-explanation, criteria-based, perceptual, and testimony-based alternatives without presenting them as settled. It separates uncertainty about knowledge from denial of other minds. Animal/infant applications are grounded in the SEP discussion; noncommunication and machine examples are explicitly labeled as editorial teaching extensions. Relevant passages of the SEP entry were read. Mill's own passage was verified through the SEP's quotation and citation, not by reading the primary text passage itself.",
+      "sources": [
+        {
+          "title": "Other Minds",
+          "author": "Anita Avramides",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2019, substantive revision 19 December 2023.",
+          "stable_url": "https://plato.stanford.edu/entries/other-minds/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Selected relevant passages in the full online entry were read; the entire entry was not read.",
+          "exact_locations_read": "Opening overview; §1, “The (Traditional) Epistemological Problem”; §1.1, “The Argument from Analogy” (including the Mill quotation and objections/replies); §1.2, “Best Explanation”; §1.3, “Criteria”; §1.4 and §1.4.1 on perceptual knowledge; and §4.1, “From Descartes to Mill.” The overview distinguishes epistemological, conceptual, and metaphysical questions and mentions testimony, perception, infants, and non-human animals. Sections 1 and 1.1 describe the setup, cite Mill's 1865 formulation, and discuss the single-case, logical-checkability, and first-premise objections alongside replies. Sections 1.2–1.4.1 describe best explanation, criteria/Wittgensteinian approaches, and disputed perceptual accounts. Section 4.1 situates Mill in earlier debates and discusses Reid and an arguably earlier formulation in Arnauld.",
+          "limitations": "Secondary synthesis, not a substitute for reading Mill's complete primary work or a comprehensive history. The entry explicitly reports disagreement about the problem and its solutions; its account is not treated as consensus or as establishing that any one argument succeeds. Perceptual knowledge is described as a debated view with limited scope, not an infallible or universal ability."
+        },
+        {
+          "title": "An examination of Sir William Hamilton's philosophy, and of the principal philosophical questions discussed in his writings",
+          "author": "John Stuart Mill",
+          "publication": "Second edition, London: Longmans, Green, and Co., 1865; Internet Archive digitized catalogue and scan record.",
+          "stable_url": "https://archive.org/details/examinationofsir00mill",
+          "source_type": "Primary philosophical work (bibliographic record and scan; not used as direct passage evidence)",
+          "access_level": "Catalogue metadata and title-page text were read; an OCR text endpoint was fetched, but the relevant passage was not located or consulted directly.",
+          "exact_locations_read": "Catalogue record publication date, author, title, and publisher; digitized text title page identifies the second edition and 1865. No argument-from-analogy passage from the body of the work is claimed as read from this item.",
+          "limitations": "Metadata/title page establishes bibliographic details only. The SEP entry supplies the consulted quotation and its citation to Mill (1865 [1872: 243]); this audit does not claim independent verification of that passage against the primary work."
+        },
+        {
+          "title": "Matching Problem of Other Minds data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id problem-of-other-minds; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching dataset object was inspected and compared with the revised article.",
+          "exact_locations_read": "The matching object lists the same article path and a single SEP Further Reading URL. Its existing date_verified value is 2026-10-31; the requested data patch records 2026-11-01 and retains that one reference in the article's order.",
+          "limitations": "Metadata comparison only; this audit made no writes to data/experiments.json. At final inspection the shared worktree showed unrelated changes to other records in that file; those changes were left untouched. The record does not establish philosophical or historical claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The traditional problem asks how one knows or justifies belief that others have thoughts and feelings; the scenario contrasts direct awareness of one's own case with evidence concerning others.",
+          "source_title": "Other Minds",
+          "source_url": "https://plato.stanford.edu/entries/other-minds/",
+          "exact_location": "Opening overview and §1, especially the discussion of epistemological asymmetry and indirect access through behavior.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP supports the traditional epistemological setup and describes the usual contrast between direct knowledge of one's own states and indirect knowledge of others. The article avoids treating indirect access as the only possible account: perception and testimony are also discussed.",
+          "limitation": "The SEP emphasizes that philosophers disagree about whether there is a problem and how it should be framed; the scenario is an introductory rendering of the traditional framing."
+        },
+        {
+          "material_claim": "Mill offers an influential argument-from-analogy formulation using bodily similarity and outward signs known in one's own case to be associated with feelings; the attribution is not a claim that he originated the argument.",
+          "source_title": "Other Minds",
+          "source_url": "https://plato.stanford.edu/entries/other-minds/",
+          "exact_location": "§1.1 quotes Mill's question and answer and cites 1865 [1872: 243]; §4.1 situates Mill in prior discussions, including Reid and Arnauld.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP explicitly identifies Mill's writing as a statement of the argument and quotes the body-and-outward-signs reasoning. Its historical discussion places the argument in an earlier context and says Arnauld arguably offers an earlier formulation. The article therefore identifies Mill as influential, not first.",
+          "limitation": "The primary passage was not independently read in Mill's work; the wording and attribution are checked through the SEP quotation and citation. The Internet Archive record confirms the 1865 edition/title metadata only."
+        },
+        {
+          "material_claim": "The single-case objection and doubts about checking the conclusion are debated, rather than a decisive refutation; defenders have offered replies and different ways to construe the evidence.",
+          "source_title": "Other Minds",
+          "source_url": "https://plato.stanford.edu/entries/other-minds/",
+          "exact_location": "§1.1, passages on the three objections, responses by Hyslop and Jackson, Mill's account of analogy as inductive evidence, and the differing view of single-case generalization.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP records logical uncheckability, generalization from one case, and the first-person premise as objections, while also presenting replies and alternative defenses. The article's revised wording preserves this disagreement rather than treating the objection as settled.",
+          "limitation": "The ledger does not evaluate which defense succeeds or survey the full literature."
+        },
+        {
+          "material_claim": "Best-explanation, criteria-based/Wittgensteinian, perceptual, and testimony-based accounts are alternatives or supplements; they differ in how they understand evidence and access to other minds.",
+          "source_title": "Other Minds",
+          "source_url": "https://plato.stanford.edu/entries/other-minds/",
+          "exact_location": "Opening overview; §§1.2, 1.3, 1.4, and 1.4.1.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP describes best explanation as a prominent alternative; criteria approaches as challenging a private-inner-object picture; perceptual approaches as defended by some philosophers in some cases; and testimony as a proposed basic source of knowledge. It also records objections, internal differences, and limits of perceptual accounts. The article presents these as competing views, not conclusions settled by the entry.",
+          "limitation": "No account is established as correct or exhaustive. The article's short summaries are introductory and intentionally do not reproduce the full debate."
+        },
+        {
+          "material_claim": "Epistemic uncertainty about how we know others have minds is distinct from asserting that they lack minds; conceptual and metaphysical questions are related but not identical.",
+          "source_title": "Other Minds",
+          "source_url": "https://plato.stanford.edu/entries/other-minds/",
+          "exact_location": "Opening overview; §1 on thin and thick skeptical problems and solipsism; §§1.3–1.4.1 on criteria and perceptual responses.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry distinguishes epistemological skepticism from conceptual questions and connects both with a broader metaphysical question. It discusses radical skeptical scenarios as challenges to knowledge and explains that approaches to them differ. The revised article does not infer nonexistence from lack of certainty and does not claim that philosophers generally accept solipsism.",
+          "limitation": "The SEP does not settle the metaphysical question or establish that any skeptical scenario is true."
+        },
+        {
+          "material_claim": "Applications to infants and non-human animals fit the SEP's discussion of the naturalist turn; applications to noncommunicating people and artificial systems are the article's extensions, not claims attributed to the SEP or Mill.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§3 and 7.",
+          "relationship": "context_only",
+          "finding": "The SEP overview mentions infants and non-human animals as cases in work on mental-state attribution. The article explicitly labels noncommunication and machine examples as its own teaching applications and does not attribute them to Mill or treat them as established conclusions.",
+          "limitation": "The machine and noncommunication prompts are editorial examples, not substantiated claims about the mental states of any particular people or systems."
+        },
+        {
+          "material_claim": "The article's Further Reading entry and the matching data record refer to the same SEP URL; the data record's extant verification date differs from the requested review date.",
+          "source_title": "Matching Problem of Other Minds data record",
+          "source_url": null,
+          "exact_location": "Revised article §9 and data/experiments.json object with id problem-of-other-minds.",
+          "relationship": "supports",
+          "finding": "The article retains one SEP Further Reading reference, matching the matching object’s one URL and order. That object’s existing date_verified is 2026-10-31; the separate requested data patch proposes 2026-11-01. No public review-status field was added and this audit made no writes to the data file.",
+          "limitation": "Metadata alignment only; the patch is an artifact for later application, not an edit to the data file. Other objects in data/experiments.json had unrelated shared-worktree changes at final inspection; they were preserved."
+        }
+      ],
+      "unresolved_limits": [
+        "Mill's primary passage was not independently consulted; the attribution and quoted argument were checked through Avramides's SEP quotation and citation, while the 1865 edition metadata was checked against the digitized title page/catalogue.",
+        "The audit does not decide whether analogy, inference to the best explanation, criteria, perception, or testimony offers the best account, and it is not an exhaustive literature review.",
+        "The history before Mill is summarized only enough to avoid an origin claim; no complete historical survey was undertaken.",
+        "Extensions to noncommunicating people and artificial systems remain editorial teaching prompts, not source-established conclusions.",
+        "The shared worktree showed unrelated edits in other data/experiments.json objects at final inspection; this audit did not write to that file and left those changes untouched.",
+        "No human subject-matter expert reviewed this entry."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "mad-pain-martian-pain",
+      "title": "Mad Pain and Martian Pain",
+      "article_path": "experiments/consciousness/mad-pain-martian-pain.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching data object. Checked the cases' author and publication framing; madman and Martian setup; Lewis's contrast between simple type-identity and role-only theories; his population-relative hybrid account and criteria; its relation to multiple realization; what the cases do and do not establish about possibility, pain, and phenomenal character; Alward's later objection concerning mad Martian pain; and whether modern comparisons are clearly labeled as editorial framing. This status records traceability, not the truth of Lewis's view, consensus, exhaustive scholarship, or expert review.",
+      "summary": "The revised article attributes the cases and proposal to David Lewis (Block edited the anthology), distinguishes Lewis's simple-theory contrast from his population-relative hybrid account, and explains the Martian case as illustrating a possibility of multiple realization rather than proving it. It records Lewis's explicit caution that he cannot prove the cases possible and his own argument that phenomenal feel is not being ignored. It also reports Peter Alward's published objection to the account's treatment of a mad Martian without presenting that objection as settled. The SEP entry and the relevant passages of Lewis's complete essay and Alward's full article were consulted; modern extensions are explicitly editorial.",
+      "sources": [
+        {
+          "title": "Mad Pain and Martian Pain",
+          "author": "David Lewis",
+          "publication": "In Ned Block (ed.), Readings in the Philosophy of Psychology, vol. I, 1980, pp. 216–222; the essay states it was presented at a Rice University conference in April 1978. Text reproduction hosted by Andrew M. Bailey.",
+          "stable_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+          "source_type": "Primary philosophical essay (reprint reproduction)",
+          "access_level": "Full text of the seven-page essay was read in the text extraction; relevant passages were checked against printed pages 216–222.",
+          "exact_locations_read": "Printed pp. 216–217, sections I–II: madman and Martian scenarios, Lewis's statement that he cannot prove their possibility, and the twofold test. Printed pp. 217–219, sections II–IV: simple identity and functionalist theories, Lewis's mixed proposal, causal-role account, and nonrigidity. Printed pp. 219–221, sections IV–VII: pain-for-a-population, madman/Martian/mad-Martian cases, four appropriate-population considerations, ambiguity and the unique mad/alien case. Printed pp. 221–222, final discussion: Lewis's claim that pain is a feeling and that his account addresses phenomenal character.",
+          "limitations": "Primary evidence for what Lewis argues, not proof that the thought cases are possible or that his account succeeds. The consulted file is a text reproduction rather than the publisher's volume; publication details are cross-checked against Alward's bibliographic citation."
+        },
+        {
+          "title": "Functionalism",
+          "author": "Janet Levin",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published August 24, 2004, substantive revision April 4, 2023.",
+          "stable_url": "https://plato.stanford.edu/entries/functionalism/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full entry were read; the entire entry was not read cover-to-cover.",
+          "exact_locations_read": "§1, 'What is Functionalism?': definition of causal-role functionalism, hypothetical Martian realizers, multiple realization, and the contrast with type-identity theory, including the qualification that identity theory may be more inclusive than assumed. §3.5, 'Role-functionalism and Realizer-functionalism,' on role/realizer distinctions. §5.5, 'Functionalism and the Problem of Qualia,' and §5.5.1, 'Inverted and Absent Qualia,' on the objection that causal descriptions may not capture phenomenal character and responses to absent-qualia cases. §6, 'The Future of Functionalism,' on arguments that type-identity theory may be more inclusive and qualifications to functionalism's comparative universality.",
+          "limitations": "Secondary synthesis of a broad debate. The entry supports the conceptual context, not Lewis's specific population-relative solution or the truth of either thought case. It treats hypothetical Martian realizers and Block's separate absent-qualia/Chinese-nation objection; those are not the same as Lewis's mad-pain and Martian-pain scenarios."
+        },
+        {
+          "title": "Mad, Martian, but not Mad Martian Pain",
+          "author": "Peter Alward",
+          "publication": "SORITES, issue 15 (December 2004), pp. 73–75.",
+          "stable_url": "http://lorenzopena.es/Sorites/Issue_15/alward.htm",
+          "source_type": "Scholarly secondary analysis / published criticism",
+          "access_level": "Full article and its footnotes and references were read.",
+          "exact_locations_read": "The opening discussion summarizes Lewis's hybrid view and cites Lewis 1980, pp. 113–114 in the Problems in Mind reprint pagination. The discussion of Lewis's four population criteria and the mad-Martian case (pp. 74–75) argues that the criteria do not clearly distinguish the human, Martian, and mad-Martian populations; the conclusion raises further difficulties for revisions of the weighting scheme.",
+          "limitations": "A specific published objection, not a consensus finding or final refutation. Its argument is conditional on Alward's interpretation of Lewis's population-selection criteria."
+        },
+        {
+          "title": "Matching Mad Pain and Martian Pain data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id mad-pain-martian-pain; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "The matching data object was inspected before and reconciled after the article revision.",
+          "exact_locations_read": "The id/title, original_publication, date_verified, summary, and the sole reference URL were compared with the revised article's Further Reading entries. The user-directed data patch records the revised date and the three Further Reading references; the data file itself was not modified.",
+          "limitations": "Metadata alignment only; it does not establish philosophical or historical claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The madman and hydraulic Martian are scenarios in David Lewis's essay; Block is the anthology editor, and Lewis dates the paper's presentation to 1978.",
+          "source_title": "Mad Pain and Martian Pain; Mad, Martian, but not Mad Martian Pain",
+          "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+          "exact_location": "Lewis, pp. 216–217 and opening conference note; Alward, pp. 73–75, bibliographic reference to Lewis's 1980 anthology printing, pp. 216–222.",
+          "relationship": "supports_with_qualification",
+          "finding": "Lewis's essay itself names him as author, sets out both scenarios, and says the paper was presented at Rice in April 1978. Alward identifies the 1980 Block-edited anthology printing. The article now explicitly distinguishes Lewis's authorship from Block's editorial role.",
+          "limitation": "The reproduction is not the publisher's volume; publication details were cross-checked against Alward's published citation."
+        },
+        {
+          "material_claim": "A simple human type-identity account handles mad pain but excludes the physically different Martian; a simple role-only functionalism handles Martian pain but excludes the madman.",
+          "source_title": "Mad Pain and Martian Pain",
+          "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+          "exact_location": "Lewis, pp. 217–218, section II: 'A simple identity theory' and 'A simple behaviorism or functionalism' fail opposite sides of the twofold test.",
+          "relationship": "supports_with_qualification",
+          "finding": "Lewis expressly contrasts the simple theories and immediately says they are too simple; the revised article limits the contrast to simple type-identity and role-only versions rather than generalizing it to all identity theories or functionalisms.",
+          "limitation": "Lewis's two cases challenge these simple formulations; they do not establish that all versions of either family fail."
+        },
+        {
+          "material_claim": "Lewis's account makes pain-for-a-population depend on a causal role while allowing exceptional members and different physical realizers across populations.",
+          "source_title": "Mad Pain and Martian Pain",
+          "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+          "exact_location": "Lewis, pp. 218–220, sections III–VI: state occupying a role for a population; Martian realization; madman as an exception; and the appropriate-population criteria.",
+          "relationship": "supports",
+          "finding": "The primary text supports the account stated in the revised article: human neural states and Martian hydraulic states can occupy the pain role for their respective populations, while the madman can be an exception within humanity.",
+          "limitation": "This reconstructs Lewis's proposal, not an endorsement of its success. Lewis acknowledges that some population choices remain ambiguous."
+        },
+        {
+          "material_claim": "The Martian case is relevant to multiple realization, but does not demonstrate actual Martians, actual nonhuman realizers, or the possibility of the stipulated cases.",
+          "source_title": "Mad Pain and Martian Pain; Functionalism",
+          "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+          "exact_location": "Lewis, pp. 216–217 on the stipulated Martian and the inability to prove possibility; SEP §1 on hypothetical Martian realizers and multiple realization.",
+          "relationship": "supports_with_qualification",
+          "finding": "The texts support presenting the Martian scenario as illustrating how different physical states might realize a pain role across populations. Lewis also allows that different population choices may yield different senses of 'pain'; he explicitly says he does not know how to prove the cases possible. The article treats this as a qualified conceptual connection, not empirical evidence or proof.",
+          "limitation": "The SEP's generic hypothetical-Mars example is conceptual context, not independent evidence for Lewis's specific hydraulic case; Lewis's population-relative ambiguity complicates any simple claim of one univocal multiply realized pain kind."
+        },
+        {
+          "material_claim": "The cases do not settle whether causal-role and physical-realizer accounts capture pain's phenomenal character; Lewis argues that his account does address how pain feels, while functionalist qualia objections remain in the literature.",
+          "source_title": "Mad Pain and Martian Pain; Functionalism",
+          "source_url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+          "exact_location": "Lewis, pp. 221–222, final section on pain as a feeling and phenomenal character; SEP §§5.5 and 5.5.1 on the qualitative-character objection and responses.",
+          "relationship": "supports_with_qualification",
+          "finding": "Lewis explicitly rejects the charge that he ignored phenomenal character and argues that a theory of pain must address how it feels. Levin records the broader objection that causal-role accounts may not capture qualitative character and notes responses and continuing debate. The article now attributes Lewis's position and marks the broader issue as disputed.",
+          "limitation": "The sources do not settle the philosophical dispute; the thought cases themselves do not provide independent evidence that the stipulated states have the asserted feel."
+        },
+        {
+          "material_claim": "Lewis allows the mad-Martian case under his account, while Alward argues that Lewis's criteria do not clearly select the appropriate population in that case.",
+          "source_title": "Mad Pain and Martian Pain; Mad, Martian, but not Mad Martian Pain",
+          "source_url": "http://lorenzopena.es/Sorites/Issue_15/alward.htm",
+          "exact_location": "Lewis, pp. 220–221 on mad Martian pain and appropriate-population criteria; Alward, pp. 74–75 on competing populations and his critique.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary essay says Lewis is inclined to count a mad Martian as in pain under his criteria. Alward's full article argues that the criteria do not yield that result unambiguously. The revised entry names this as Alward's objection, not a settled conclusion.",
+          "limitation": "One published critique was consulted; this audit does not survey all subsequent responses or decide whether Alward's objection succeeds."
+        },
+        {
+          "material_claim": "Robot applications and comparisons with China Brain or fading qualia are teaching extensions, not scenarios or historical claims attributed to Lewis.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§6–7; Sources and Attribution.",
+          "relationship": "context_only",
+          "finding": "The revised article explicitly labels these as editorial teaching prompts and says they are not additional Lewis cases or conclusions of his argument.",
+          "limitation": "Editorial framing rather than a historical or philosophical claim established by the sources."
+        },
+        {
+          "material_claim": "The revised article's title and Further Reading references correspond to the matching project record; the data patch specifies the revised verification date and ordered references without changing data/experiments.json.",
+          "source_title": "Matching Mad Pain and Martian Pain data record",
+          "source_url": null,
+          "exact_location": "Local matching object in data/experiments.json and revised article §9; user-directed patch at research/source-review-batch17-item-mad-pain-martian-pain-data-patch.json.",
+          "relationship": "supports",
+          "finding": "The existing data record's id/title match. The patch references match all three revised Further Reading URLs and titles in order, and the dataset file was left unchanged.",
+          "limitation": "Project metadata reconciliation only; it is not independent philosophical evidence."
+        }
+      ],
+      "unresolved_limits": [
+        "The thought experiments are stipulated possibilities, not empirically established cases; Lewis explicitly says he cannot prove their possibility.",
+        "Lewis's criteria for the appropriate population can conflict. Alward's mad-Martian objection is recorded, but the audit does not resolve it or survey every later response.",
+        "The broader debate about whether causal-role theories capture phenomenal character remains open; the sources establish Lewis's position and the existence of objections, not a final answer.",
+        "The SEP entry supplies conceptual background and separate discussion of Block's Chinese-nation/qualia arguments; it is not evidence for Lewis's specific cases.",
+        "A text reproduction of the primary essay and one published secondary critique were consulted; no exhaustive literature review, publisher's physical edition, or human subject-matter expert review was undertaken."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with post-edit self-verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "disguised-mule",
+      "title": "The Cleverly Disguised Mule",
+      "article_path": "experiments/epistemology/disguised-mule.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching data/experiments.json object. Checked Dretske's attribution/publication framing; the zoo zebra and disguised-mule setup; the qualified closure principle; the skeptical inference; what the example establishes and does not establish; Dretske's relevant-alternatives response; contextualist and Moorean-style responses; and the brain-in-a-vat comparison and epistemic-possibility qualification. The status indicates traceability to consulted relevant passages, not that any philosophical position succeeds, that the cited primary article was directly read, that the literature review is exhaustive, or that an expert reviewed the entry.",
+      "summary": "The revised article specifies the inferential form of closure, presents the mule case as Dretske's proposed counterexample rather than a proof, and makes the skeptical inference conditional on its premises. It distinguishes Dretske's relevant-alternatives response from contextualist and Moorean-style replies, labels the brain-in-a-vat comparison as structural teaching framing, and does not claim either skeptical scenario is actual, likely, or epistemically possible. The relevant zebra passage is quoted and analyzed at pp. 1015–1016 in the consulted Stanford Encyclopedia entry; Dretske's original JSTOR record was accessed only for metadata, not full text. The data object was inspected but not modified; the requested patch supplies the article's new Further Reading references and remains unapplied to data/experiments.json by instruction.",
+      "sources": [
+        {
+          "title": "Epistemic Operators",
+          "author": "Fred I. Dretske",
+          "publication": "The Journal of Philosophy, vol. 67, no. 24 (1970), pp. 1007–1023; JSTOR stable record.",
+          "stable_url": "https://www.jstor.org/stable/2024710",
+          "source_type": "Primary philosophical article",
+          "access_level": "Bibliographic record/metadata only; the article body was not accessible in the consulted reproduction.",
+          "exact_locations_read": "The JSTOR reproduction's bibliographic header: author, article title, journal, volume/issue, date, page range, and stable URL. The primary text itself was not read directly.",
+          "limitations": "Metadata access does not establish Dretske's argument. The exact zebra passage and page attribution were checked through the Stanford Encyclopedia entry, which quotes the passage and identifies Dretske 1970, pp. 1015–1016."
+        },
+        {
+          "title": "Epistemic Closure",
+          "author": "Steven Luper",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2001, substantive revision 2016; online entry.",
+          "stable_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full online entry were read via targeted extraction; the whole entry was not read.",
+          "exact_locations_read": "§1 defines closure and distinguishes qualified from straight formulations; §2.1 gives the zebra/mule counterexample in detail, states the knowledge-and-inference form of K, and quotes Dretske's passage with citation to 1970, pp. 1015–1016; §2.2 explains the relevant-alternatives treatment and how zebra and not-mule differ under Dretske's account; §5.1 presents the closure-based skeptical inference and Moorean antiskeptical response; §5.2 explains the tracking-based response and its scope limitation.",
+          "limitations": "Secondary synthesis. It presents and evaluates multiple views but does not establish that Dretske's counterexample succeeds, that closure is false, or that the skeptical conclusion is true. The entry notes objections and alternative accounts; this review is not an exhaustive survey."
+        },
+        {
+          "title": "Epistemic Contextualism",
+          "author": "Patrick Rysiew",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published 2007, substantive revision 2026; online entry.",
+          "stable_url": "https://plato.stanford.edu/entries/contextualism-epistemology/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full online entry were read via targeted extraction; the whole entry was not read.",
+          "exact_locations_read": "§2 clarifies that attributor contextualism concerns the context-sensitive truth conditions/propositions of knowledge attributions, rather than a direct claim that the subject's knowledge itself changes; §§3.1–3.3 formulate a closure-related skeptical puzzle and explain the contextualist response, including a shift to more demanding standards when skeptical doubts become salient.",
+          "limitations": "The entry describes contextualism as debated and discusses objections. The article represents it as one response, not consensus or a solution established by this audit; this entry does not establish that the mule scenario is actually or epistemically possible."
+        },
+        {
+          "title": "Matching The Cleverly Disguised Mule data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json object, id disguised-mule; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching object was inspected; it was not edited.",
+          "exact_locations_read": "The complete object for id disguised-mule, including original_publication, references, date_verified, file_path, and summary, was compared with the revised article. The object currently retains only the Epistemic Closure reference and date_verified 2026-10-31; the separate requested patch matches all three article Further Reading references and their order.",
+          "limitations": "Metadata inspection does not establish philosophical claims. The patch is deliberately not applied to data/experiments.json because modification of that file was prohibited."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Dretske is the associated thinker and the original publication is his 1970 article ‘Epistemic Operators’ in The Journal of Philosophy, volume 67, issue 24, pages 1007–1023.",
+          "source_title": "Epistemic Operators; Epistemic Closure",
+          "source_url": "https://www.jstor.org/stable/2024710",
+          "exact_location": "JSTOR bibliographic header (author, title, journal, volume/issue/date/pages); SEP Epistemic Closure bibliography entry for Dretske 1970.",
+          "relationship": "supports_with_qualification",
+          "finding": "Bibliographic attribution and publication details match the JSTOR metadata and the SEP bibliography. The article now states that the primary text was not directly accessed during this review.",
+          "limitation": "Bibliographic metadata is not evidence of the article's argument; the relevant argument is traced through the SEP quotation and analysis rather than direct primary-text reading.",
+          "required_edit": "Made: retained the citation, normalized journal/issue/page details, and clarified in Sources and Attribution that the original paper body was not accessed."
+        },
+        {
+          "material_claim": "The zebra case stipulates an ordinary zoo setting with a zebra in a marked pen; ‘zebra’ entails ‘not a cleverly disguised mule,’ while the perceptual evidence would persist in the specified mule alternative.",
+          "source_title": "Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "exact_location": "§2.1, ‘Closure Fails Due to the Tracking Condition on Knowledge,’ zebra example; §2.2, relevant-alternatives analysis. The SEP reproduces the zebra-in-a-cage percepts and the not-mule contrast, and quotes Dretske 1970, pp. 1015–1016.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the stipulated setup and the same-appearance counterfactual as part of Dretske's example. The article now expressly treats the mule as a stipulated epistemic alternative, not a claim about actual zoo practice or event likelihood.",
+          "limitation": "This is a philosophical case description, not empirical evidence about zoos. Whether the mule possibility is relevant to knowing the ordinary zebra claim is disputed within the theoretical account.",
+          "required_edit": "Made: clarified the counterfactual and marked empirical probability and relevance as unsettled rather than implied facts."
+        },
+        {
+          "material_claim": "The closure question concerns knowing p, recognizing that p entails q, and believing q by inference from p; Dretske's case is a proposed counterexample to closure, not a proof that closure fails.",
+          "source_title": "Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "exact_location": "§1, qualified closure formulations; §2.1, formulation of K and the zebra example's three claims; §2.2, relevant-alternatives analysis.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP explicitly presents a qualified principle involving knowledge of p, recognition of entailment, and belief in q by deduction, then frames Dretske's case as a proposed counterexample. The revised article avoids treating an unqualified closure slogan as the settled formal principle.",
+          "limitation": "Closure principles come in multiple formulations and require qualifications; the SEP's formulation and Dretske's analysis are not the only positions in epistemology.",
+          "required_edit": "Made: specified the inferential form and described the example as a proposed counterexample."
+        },
+        {
+          "material_claim": "The skeptical inference depends on closure, an entailment from an ordinary claim to the falsity of a skeptical alternative, and the premise that the alternative's falsity is not known.",
+          "source_title": "Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "exact_location": "§5.1, ‘Skepticism and Antiskepticism,’ formal argument from closure and a not-known-false brain-in-a-vat hypothesis; compare §2.1's zebra/not-mule case.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the conditional structure of the skeptical inference. The article now states that the conclusion follows only if the premises are granted and does not present the example itself as establishing skepticism.",
+          "limitation": "The SEP's formal presentation uses a brain-in-a-vat hypothesis; applying the same structure to the mule case is an explanatory comparison, not evidence that the skeptical premises are true.",
+          "required_edit": "Made: made the premise-dependence explicit and limited the conclusion to the argument's conditional structure."
+        },
+        {
+          "material_claim": "Dretske's relevant-alternatives/tracking response allows that the subject knows the zebra claim but does not know the mule alternative is false; the example does not settle whether closure or the skeptical premise should be rejected.",
+          "source_title": "Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "exact_location": "§2.1, tracking account and zebra counterexample; §2.2, relevant alternatives; §5.2, tracking response to Cartesian skepticism and its limitation to that kind of skepticism.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry attributes the nonclosure position to Dretske and explains it through tracking and relevance. It also identifies objections and scope limitations; the revised article presents the position as an argument rather than a settled result.",
+          "limitation": "The entry describes continuing disagreement and other approaches; this audit does not evaluate the truth of the tracking theory or review the full debate.",
+          "required_edit": "Made: distinguished Dretske's response from the bare scenario and added a non-resolution qualification."
+        },
+        {
+          "material_claim": "Contextualism offers a distinct response by treating knowledge-attribution standards as context-sensitive; making skeptical doubts salient may raise the standard, and this does not itself establish the skeptical scenario as likely or epistemically possible.",
+          "source_title": "Epistemic Contextualism",
+          "source_url": "https://plato.stanford.edu/entries/contextualism-epistemology/",
+          "exact_location": "§2 on attributor contextualism's semantic scope; §§3.1–3.3 on the skeptical puzzle and the contextualist response, including upward shift in standards when skeptical possibilities are introduced.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the contextualist explanation of shifting knowledge-attribution standards. The article labels it a debated response and separates that view from any claim about the real-world probability or epistemic possibility of the mule scenario.",
+          "limitation": "Contextualism is contested; the SEP discusses objections and alternatives. No surveyed source establishes the metaphysical or epistemic possibility of a disguised mule case.",
+          "required_edit": "Made: clarified that contextualism concerns attribution standards and does not prove the scenario's likelihood or epistemic possibility."
+        },
+        {
+          "material_claim": "A Moorean-style reply preserves closure by rejecting the premise that an ordinary claim is known while its skeptical consequence is not known; the closure argument alone does not decide that reply's success.",
+          "source_title": "Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "exact_location": "§5.1, where the entry reverses the skeptical argument using ordinary knowledge and closure, identifies the strategy with Moore, and distinguishes Moore's stronger PK principle from K.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the Moorean-style strategy and notes the stronger principle in Moore's famous argument. The article describes the reply narrowly as rejecting the skeptical premise, rather than claiming that it resolves the debate.",
+          "limitation": "The SEP's canonical example concerns hands and dreaming/brain-in-a-vat, not the zoo mule; its application to not-mule is an analogous inference from the zebra claim.",
+          "required_edit": "Made: framed the claim as a Moorean-style reply and labeled the application to the mule case as an inference rather than a settled result."
+        },
+        {
+          "material_claim": "The brain-in-a-vat comparison is a structurally similar teaching extension, not a historical variant established by the sources or a claim that either scenario is actual, likely, or epistemically possible.",
+          "source_title": "Revised article framing; Epistemic Closure",
+          "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+          "exact_location": "Article §§1, 4, 6–7, and 10 label the comparison and prompts as teaching framing; SEP §5.1 provides the BIV closure-based skeptical argument used for comparison.",
+          "relationship": "context_only",
+          "finding": "The analogy is marked as a structural comparison; the article explicitly disclaims actual, likely, or epistemic-possibility claims. These disclaimers are editorial scope controls, not source-derived metaphysical conclusions.",
+          "limitation": "No consulted source resolves the epistemic or metaphysical possibility of the skeptical hypotheses; the audit does not attempt to do so.",
+          "required_edit": "Made: labeled the BIV extension as structurally analogous teaching framing and explicitly withheld possibility claims."
+        },
+        {
+          "material_claim": "The revised article's Further Reading references comprise the Dretske JSTOR record, SEP Epistemic Closure, and SEP Epistemic Contextualism in that order; the matching dataset record has not yet been changed to match them.",
+          "source_title": "Matching The Cleverly Disguised Mule data record; revised article; data patch",
+          "source_url": null,
+          "exact_location": "Matching data/experiments.json object id disguised-mule and article §9; patch research/source-review-batch17-item-disguised-mule-data-patch.json.",
+          "relationship": "supports",
+          "finding": "The patch references match the revised article's three Further Reading URLs and order exactly. The existing data object still contains only the prior SEP Epistemic Closure reference and date_verified 2026-10-31; no data edit was made, as instructed.",
+          "limitation": "The patch is a separate requested artifact and has not been applied to the dataset; synchronization requires a later authorized application.",
+          "required_edit": "Prepared the requested data patch only; did not modify data/experiments.json."
+        }
+      ],
+      "unresolved_limits": [
+        "The original Dretske article's full text was not directly accessible; the primary passage is traced through the SEP entry's quotation and discussion of pp. 1015–1016, while JSTOR access confirmed metadata only.",
+        "The example's success depends on disputed analyses of knowledge, closure, tracking, and relevant alternatives; this source review does not determine which analysis is correct.",
+        "The consulted sources do not establish that a cleverly disguised mule is actually possible, likely, or a relevant alternative in any real zoo; the article treats it as a stipulated case.",
+        "The SEP discussions are selected secondary reference passages; this was not an exhaustive literature review, and no human subject-matter expert reviewed the article.",
+        "The matching data object remains unchanged and therefore still has the prior single SEP reference and 2026-10-31 verification date; the requested patch is not applied by instruction."
+      ]
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+      "id": "stag-hunt",
+      "title": "The Stag Hunt",
+      "article_path": "experiments/economics/stag-hunt.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the article and matching dataset entry. Checked the Rousseau attribution, 1755 publication date and deer/hare passage; the distinction between that verbal narrative and the later formal two-player game; the illustrative payoff table and assumptions; best responses, pure Nash equilibria, payoff-dominance and the risk-dominance condition; the contrast with the Prisoner's Dilemma; evolutionary and many-player extensions; and whether present-day applications and social-contract readings are identified as interpretive framing. The status records source traceability, not a judgment that a specific application is apt, a general prediction about institutions, an exhaustive literature review, or expert review.",
+      "summary": "The revised article distinguishes Rousseau's qualitative hunting narrative from the later formal game and explicitly identifies the payoff table as illustrative. It explains the two equilibria and why the stag outcome is payoff-dominant while the hare outcome is risk-dominant for these particular payoffs under the equal-likelihood criterion. It clarifies the strategic difference from the Prisoner's Dilemma, qualifies evolutionary and many-player extensions, and labels modern applications and social-contract readings as interpretations rather than implications of the matrix. The primary translated passage, relevant sections of the SEP entry, and relevant passages of Skyrms were read; a Britannica work entry was consulted for the publication date. Dataset metadata and the three revised Further Reading references were reconciled; the dataset itself was not edited.",
+      "sources": [
+        {
+          "title": "Discourse on the Origin and the Foundations of Inequality Among Men (Second Discourse)",
+          "author": "Jean-Jacques Rousseau; translated by Ian Johnston",
+          "publication": "Part II; Ian Johnston, Vancouver Island University online translation, revised and corrected 2013 version.",
+          "stable_url": "https://web.viu.ca/johnstoi/rousseau/seconddiscourse.htm",
+          "source_type": "Primary philosophical work in translation",
+          "access_level": "Selected passage in the translated primary text was read directly; the entire work was not read.",
+          "exact_locations_read": "Part II, passage beginning ‘If it was a matter of catching a deer’: the hunters understand that they must keep their positions to catch the deer, but one may pursue a passing hare and thereby frustrate the companions' hunt. Translator's note identifies Johnston as translator and the version as revised/corrected in 2013; it says Rousseau prepared the work for the Dijon competition in 1754.",
+          "limitations": "A modern English translation, not Rousseau's original-language text. The cited passage gives a qualitative example, not cardinal payoffs, an explicit strategic-form matrix, or Nash-equilibrium analysis. The translation note describes the competition year, not the publication year; the 1755 publication date was checked separately against Britannica."
+        },
+        {
+          "title": "Prisoner's Dilemma",
+          "author": "Steven Kuhn",
+          "publication": "The Stanford Encyclopedia of Philosophy; first published September 4, 1997; substantive revision October 24, 2025; §§1 and 8.",
+          "stable_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant sections of the current entry were read; the entire entry was not read.",
+          "exact_locations_read": "§1, ‘Symmetric 2×2 PD With Ordinal Payoffs,’ including the PD payoff matrix and T>R>P>S condition; §8, ‘The Stag Hunt and the PD,’ including the stag-hunt condition R>{T,P}>S, the typical matrix (4,4)/(0,3)/(3,0)/(3,3), the two equilibria and their ranking, the risk-dominance condition T+P>R+S and its equal-likelihood interpretation, the assurance/trust characterization, and the contrast with the PD; the concluding §8 discussion of many-player generalization and full-cooperation examples. Entry author and revision metadata were consulted.",
+          "limitations": "Secondary synthesis. The payoff matrix is explicitly presented in the entry as typical, not as a unique canonical numerical representation. The risk-dominance discussion is tied to a specified model and belief/selection criterion; it does not make every stag-hunt payoff table risk-dominant for hare. It does not establish that a particular real-world application fits the model."
+        },
+        {
+          "title": "The Stag Hunt",
+          "author": "Brian Skyrms",
+          "publication": "Presidential Address, Pacific Division of the American Philosophical Association, March 2001; author-hosted full-text PDF.",
+          "stable_url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+          "source_type": "Scholarly philosophical analysis",
+          "access_level": "Relevant passages of the full paper were read in PDF text extraction; the entire paper was not read.",
+          "exact_locations_read": "Printed pp. 1–4: Rousseau's brief story, questions left open by it, the abstract two-person game, payoff-independent hare success assumption in Skyrms's model, both equilibria, the risk/mutual-benefit tension, and trust; printed pp. 10–15: population dynamics, local interaction, strategy revision and interaction-structure examples showing that evolutionary outcomes depend on model dynamics and interaction structure; printed p. 19, notes 2–3 and 7: risk-dominance label, Assurance Game nomenclature, and a repeated-game qualification.",
+          "limitations": "A scholarly analysis, not a neutral universal definition of all stag-hunt variants. Its evolutionary conclusions are conditional on the population and update dynamics it specifies. Rousseau's original French text is not reproduced in full; only the relevant translated passage was independently checked here."
+        },
+        {
+          "title": "A Discourse Upon the Origin and Foundation of the Inequality Among Mankind",
+          "author": "Encyclopaedia Britannica editorial reference entry",
+          "publication": "Encyclopaedia Britannica, work entry; updated June 25, 2026.",
+          "stable_url": "https://www.britannica.com/topic/A-Discourse-Upon-the-Origin-and-Foundation-of-the-Inequality-Among-Mankind",
+          "source_type": "Reference work / bibliographic context",
+          "access_level": "Relevant work-entry summary and curated source item were read; no primary edition record was inspected there.",
+          "exact_locations_read": "Quick Summary identifies Rousseau's work as (1755); curated source item 1, ‘Jean-Jacques Rousseau - Major works of political philosophy of Jean-Jacques Rousseau,’ identifies the original title and the 1755 publication year.",
+          "limitations": "The entry includes an AI-generated summary and a curated excerpt; used only to check the publication date, not to establish the stag-hunt passage or interpret Rousseau's argument. The primary translated text consulted here reports the 1754 competition but does not itself give the 1755 publication date."
+        },
+        {
+          "title": "Matching The Stag Hunt data record",
+          "author": "Project data record; no external author",
+          "publication": "Local data/experiments.json record, id stag-hunt; inspected 2026-11-01.",
+          "stable_url": null,
+          "source_type": "Project metadata record, not an external source",
+          "access_level": "Matching dataset object was inspected read-only after the article revision.",
+          "exact_locations_read": "The record's id, title, existing date_verified value, file_path, and references were inspected. The revised article's three Further Reading URLs and order were reconciled against the proposed patch; the patch sets date_verified to 2026-11-01. The data file was not changed.",
+          "limitations": "Metadata reconciliation only; it does not establish philosophical or game-theoretic claims."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The deer-and-hare hunting story is in Rousseau's Discourse on Inequality, and the relevant passage describes hunters abandoning the collective deer hunt to pursue a passing hare.",
+          "source_title": "Discourse on the Origin and the Foundations of Inequality Among Men (Second Discourse)",
+          "source_url": "https://web.viu.ca/johnstoi/rousseau/seconddiscourse.htm",
+          "exact_location": "Part II, passage beginning ‘If it was a matter of catching a deer.’",
+          "relationship": "supports_with_qualification",
+          "finding": "The translated primary passage directly supports the narrative attribution and the contrast between staying at one's post for the deer and pursuing a passing hare. The article describes the familiar stag/hare model without treating Rousseau's wording as a formal game-theory statement.",
+          "limitation": "Modern English translation; this passage does not supply the matrix, cardinal utilities, or equilibrium concepts.",
+          "required_edit": "Made: identified Rousseau's passage as a verbal scenario and distinguished it from the formal model."
+        },
+        {
+          "material_claim": "The work's publication year is 1755.",
+          "source_title": "A Discourse Upon the Origin and Foundation of the Inequality Among Mankind",
+          "source_url": "https://www.britannica.com/topic/A-Discourse-Upon-the-Origin-and-Foundation-of-the-Inequality-Among-Mankind",
+          "exact_location": "Britannica work entry, Quick Summary and curated source item 1 on Rousseau's major works.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry identifies the work as published in 1755. The 1754 date in Johnston's translator's note is the competition/preparation context, not the publication year.",
+          "limitation": "Britannica page includes AI-generated summary and curated source excerpts; used narrowly for the publication date, not for the philosophical account.",
+          "required_edit": "No date correction needed; the revised attribution notes which source was used to check the publication year."
+        },
+        {
+          "material_claim": "The 2×2 payoff table is an illustrative formalization, rather than a payoff table supplied by Rousseau.",
+          "source_title": "Prisoner's Dilemma; The Stag Hunt; Discourse on the Origin and the Foundations of Inequality Among Men",
+          "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+          "exact_location": "SEP §8, which calls its (4,4)/(0,3)/(3,0)/(3,3) matrix a typical payoff matrix; Skyrms, printed pp. 1–2, says Rousseau's story leaves payoff values and success assumptions open before defining an abstract game; Rousseau, Part II, deer/hare passage.",
+          "relationship": "supports_with_qualification",
+          "finding": "The two game-theory sources treat payoffs and game structure as modeling choices; Rousseau's passage is narrative. The article now makes the illustrative status explicit.",
+          "limitation": "The consulted sources present a common formal version; variants can have different payoffs and assumptions.",
+          "required_edit": "Made: expressly labeled the table illustrative and separated Rousseau's story from the formal matrix."
+        },
+        {
+          "material_claim": "For the stated matrix, stag is a best response to stag, hare is a best response to hare, and both stag/stag and hare/hare are Nash equilibria; stag/stag gives both players a higher payoff.",
+          "source_title": "Prisoner's Dilemma; The Stag Hunt",
+          "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+          "exact_location": "SEP §8, ‘The Stag Hunt and the PD,’ typical payoff table and passage stating there are two equilibria, one unanimously preferred to the other; Skyrms, printed pp. 3–4, on each action being best when the other player chooses it and the mutual-benefit equilibrium.",
+          "relationship": "supports",
+          "finding": "The payoffs in the article match the typical table printed in SEP §8. Best-response comparison gives both listed pure equilibria, and (4,4) is strictly better for each player than (3,3). The article says there is no dominant strategy because each player's preferred action changes with the other player's choice.",
+          "limitation": "This is the equilibrium analysis for the stated two-player matrix, not a claim about mixed equilibria or every generalized stag-hunt game.",
+          "required_edit": "Made: stated the best-response reasoning and distinguished payoff-dominance from risk-dominance."
+        },
+        {
+          "material_claim": "Hare/hare is risk-dominant for the article's payoff table under the stated equal-likelihood criterion, while risk-dominance is payoff-dependent rather than universal to every stag hunt.",
+          "source_title": "Prisoner's Dilemma; The Stag Hunt",
+          "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+          "exact_location": "SEP §8, condition SHD, T+P>R+S, and discussion of equal-likelihood/indifference; the canonical table there is (4,4)/(0,3)/(3,0)/(3,3). Skyrms, printed pp. 3–4 and note 2, discusses the risk of stag and labels hare hunting risk-dominant in the example.",
+          "relationship": "supports_with_qualification",
+          "finding": "For the displayed matrix, (T,P,R,S)=(3,3,4,0), so the SEP condition is satisfied (3+3>4+0). With a 50–50 estimate of the other hunter's action, the expected stag payoff is 2 and hare yields 3. The article confines the claim to these payoffs and criterion.",
+          "limitation": "Risk-dominance is an equilibrium-selection concept with model and criterion assumptions; it does not alone predict actual choices or resolve coordination in all settings.",
+          "required_edit": "Made: specified the payoff table and equal-likelihood criterion instead of stating generally that the hare equilibrium is safer under uncertainty."
+        },
+        {
+          "material_claim": "The Stag Hunt differs from the Prisoner's Dilemma because its best response depends on the other player's action and mutual cooperation is an equilibrium; in a PD, defection is dominant and mutual cooperation is not a Nash equilibrium.",
+          "source_title": "Prisoner's Dilemma",
+          "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+          "exact_location": "SEP §1, PD1 conditions and dominant-strategy/Nash-equilibrium analysis; §8, comparison with the Stag Hunt and change from the PD payoff condition to the stag-hunt condition.",
+          "relationship": "supports",
+          "finding": "The SEP's formal comparison directly supports the distinction. The article frames the stag hunt's challenge as coordination under risk, not the PD's dominant incentive to defect.",
+          "limitation": "This contrast concerns the standard two-player strategic-form games, not every social situation informally labeled a dilemma.",
+          "required_edit": "Made: made the strategic distinction explicit and avoided describing the stag-hunt result as guaranteed cooperation."
+        },
+        {
+          "material_claim": "Evolutionary or population-level outcomes depend on additional assumptions and do not follow from the two-player payoff matrix alone.",
+          "source_title": "The Stag Hunt",
+          "source_url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+          "exact_location": "Skyrms, printed pp. 10–15, on random versus local interaction, chance variation, strategy revision and co-evolution of interaction structure; compare the article's §4.",
+          "relationship": "supports_with_qualification",
+          "finding": "Skyrms analyzes differing population and interaction dynamics and reports different conditional outcomes. The revised article accordingly says these approaches add assumptions and that the base matrix alone does not select an evolutionary outcome.",
+          "limitation": "One paper's models do not establish all evolutionary results or a universal population prediction.",
+          "required_edit": "Made: replaced the generic claim about which equilibrium populations settle into with a conditional statement about added dynamics and structure."
+        },
+        {
+          "material_claim": "Treating the Stag Hunt as a model for social-contract questions is an interpretation associated with Skyrms, not a theorem or implication of the payoff matrix.",
+          "source_title": "The Stag Hunt",
+          "source_url": "https://sites.socsci.uci.edu/~bskyrms/bio/papers/StagHunt.pdf",
+          "exact_location": "Skyrms, printed pp. 1 and 4, introduction of the game as a prototype/model of social contract and discussion of trust and mutual benefit; conclusion, printed p. 15, on social contracts and interaction structure.",
+          "relationship": "supports_with_qualification",
+          "finding": "Skyrms explicitly develops the social-contract interpretation. The revised article attributes it to him and marks it as a broader interpretation rather than a consequence of the matrix itself.",
+          "limitation": "This source establishes Skyrms's interpretive project, not that it is the sole or definitive political reading of Rousseau or the game.",
+          "required_edit": "Made: attributed the interpretation and separated it from the standard model result."
+        },
+        {
+          "material_claim": "Modern situations such as protests, standard adoption, and joint investment are teaching analogies, not predictions established by the two-player model; possible institutional or communicative effects are context-dependent.",
+          "source_title": "Revised article framing",
+          "source_url": null,
+          "exact_location": "Article §§3–4 and §6.",
+          "relationship": "context_only",
+          "finding": "The revised prose explicitly identifies the contemporary examples as analogies and states that the matrix does not predict their outcomes or guarantee that institutional measures solve coordination.",
+          "limitation": "These are editorial teaching applications and are not empirically evaluated in this review.",
+          "required_edit": "Made: labeled the examples as teaching analogies and qualified possible real-world mechanisms."
+        },
+        {
+          "material_claim": "Many-player extensions can preserve a coordination problem while requiring full cooperation or a threshold level, and may differ from the two-player model.",
+          "source_title": "Prisoner's Dilemma",
+          "source_url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+          "exact_location": "SEP §8, paragraph on generalizing the stag hunt to many players and activities requiring full cooperation; SEP §5 discussion of lumpy benefits and threshold cooperation; compare Figure 5c and the many-player stag-hunt description.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP discusses full-cooperation and many-player versions, and distinguishes many-player payoff structures. The revised article treats threshold/full cooperation as extensions, not as properties of the two-person game.",
+          "limitation": "The source's examples do not establish that all threshold public-goods or collective-action problems are Stag Hunts; model classification depends on payoffs and strategic structure.",
+          "required_edit": "Made: narrowed the generalization and clarified that larger-group dynamics can differ."
+        },
+        {
+          "material_claim": "The revised article's Further Reading entries and order align with the matching dataset references; the proposed local patch records the 2026-11-01 verification date without changing the dataset or adding public review status.",
+          "source_title": "Matching The Stag Hunt data record",
+          "source_url": null,
+          "exact_location": "Read-only id stag-hunt object in data/experiments.json; revised article §9; research/source-review-batch17-item-stag-hunt-data-patch.json.",
+          "relationship": "supports",
+          "finding": "The data record was inspected and the patch references array was created in exactly the revised article's Further Reading order. No data file change or public status field was made.",
+          "limitation": "Metadata reconciliation only.",
+          "required_edit": "Made: created a separate patch JSON; data/experiments.json remains unchanged."
+        }
+      ],
+      "unresolved_limits": [
+        "The original-language Rousseau text and a critical scholarly edition were not consulted; the relevant primary passage was read in Ian Johnston's English translation.",
+        "Britannica's entry includes an AI-generated summary and curated excerpt; it was used narrowly for the 1755 publication date, while the primary translated passage and other sources were used for substantive claims.",
+        "Only relevant portions of the SEP entry and Skyrms paper were read; this was not an exhaustive survey of game-theory or Rousseau scholarship.",
+        "The formal payoff table is illustrative. Alternative payoff structures can change risk-dominance and equilibrium selection; the audit does not decide which model best fits any real protest, institution, standard-adoption, investment, or social-contract case.",
+        "No named, qualified human subject-matter expert reviewed this entry."
+      ]
+    }
+  ]
+}

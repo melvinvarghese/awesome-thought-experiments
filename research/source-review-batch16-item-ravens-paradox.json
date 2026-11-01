@@ -1,0 +1,162 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with self-check after edits; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "ravens-paradox",
+  "title": "Hempel’s Paradox of the Ravens",
+  "article_path": "experiments/epistemology/ravens-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching dataset entry. Checked Hempel’s 1945 attribution and publication metadata; the equivalence between ‘all ravens are black’ and ‘all non-black things are non-ravens’; the instance-principle/equivalence-condition derivation; Hempel’s qualitative treatment and role of background knowledge; the distinction between qualitative confirmation and Bayesian degrees of support; assumptions underlying a standard Bayesian treatment and Vranas’s published objection; I. J. Good’s counterexample as reported in Sprenger; editorial teaching analogies; and metadata reconciliation. This is an editorial source-traceability status, not a judgment that any account is correct, an exhaustive literature review, or expert review.",
+  "summary": "The article now explains the paradox as a result within Hempel’s qualitative account, deriving the white-shoe result from the instance principle and equivalence condition rather than presenting a questionable three-principle summary. It distinguishes Hempel’s qualitative result from Bayesian comparisons of degree, specifies that Bayesian results depend on probability and background assumptions, and reports Vranas’s criticism as a challenge to one standard solution. Good’s artificial counterexample is attributed through Sprenger rather than presented as directly consulted primary testimony. The revised Further Reading list distinguishes the primary essay, SEP overview, scholarly manuscript, and a publisher abstract for Vranas. Relevant passages in appropriate primary and scholarly sources were read; whole works and some cited originals were not.",
+  "sources": [
+    {
+      "title": "Studies in the Logic of Confirmation (I.)",
+      "author": "Carl G. Hempel",
+      "publication": "Mind, New Series, vol. 54, no. 213 (January 1945), pp. 1–26; Oxford University Press on behalf of the Mind Association. DOI: 10.1093/mind/LIV.213.1.",
+      "stable_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Hempel%20-%20Studies%20Confirm%201.pdf",
+      "source_type": "Primary philosophical work",
+      "access_level": "Relevant passages of the full paper were read in an accessible PDF text extraction; the complete paper was not read.",
+      "exact_locations_read": "Printed pp. 11–13 (section 4, ‘The Equivalence Condition,’ and the start of ‘The “Paradoxes” of Confirmation’): Hempel states the equivalence condition and combines it with the instance-confirmation criterion to derive the raven result. Printed p. 22 (section 6, confirmation as a relation between sentences): selected passage consulted for his evidential framing. The original publisher record was also consulted for author, journal, issue, year, pages, and DOI.",
+      "limitations": "A university-hosted reproduction, not the publisher’s full-text platform. Only cited passages were read. The article’s plain-language explanation is not a reconstruction of Hempel’s complete formal theory."
+    },
+    {
+      "title": "Confirmation",
+      "author": "Vincenzo Crupi",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published May 30, 2013, substantive revision August 4, 2025; sections 1.1–1.2, 2.1–2.2, and 3.6.",
+      "stable_url": "https://plato.stanford.edu/entries/confirmation/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections of the current full entry were read; the entire entry was not read.",
+      "exact_locations_read": "§1.1 on Hempel’s theory and the instance-based account; §1.2 on the ravens paradox and the logical-equivalence derivation; §2.1–2.2 on the contrast between Hempelian and hypothetico-deductive confirmation; §3.6 on Bayesian relevance confirmation and the relative support of black-raven versus non-black-non-raven evidence under stated probability conditions. Author and revision metadata were read from the entry.",
+      "limitations": "Secondary synthesis, not Hempel’s own text. Its account presents particular formal approaches and conditions; it does not establish one universally accepted resolution or exhaustive coverage of current debate."
+    },
+    {
+      "title": "Hempel and the Paradoxes of Confirmation",
+      "author": "Jan Sprenger",
+      "publication": "Scholarly manuscript dated October 20, 2008; author-hosted PDF; relevant portions correspond to §§2–5, including the discussion of Good and Bayesian responses.",
+      "stable_url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+      "source_type": "Scholarly secondary analysis / working manuscript",
+      "access_level": "Selected passages from the full manuscript were read using PDF text extraction; the complete manuscript was not read.",
+      "exact_locations_read": "§2, ‘Adequacy Criteria,’ on the consequence and equivalence conditions; discussion of the raven paradox and background information in §§3–4, including the Good/crow illustration and Hempel’s background-information response (printed pp. 14–15); §5.1, ‘Bayesian confirmation theory and the Nicod Condition,’ including Good’s two-world counterexample (printed p. 17); §5.2 on comparative and quantitative Bayesian responses and assumptions about population proportions/independence (printed pp. 20–22).",
+      "limitations": "The consulted copy is a dated manuscript, not the cited original work by Good or a complete record of scholarly views. Good’s original 1967 note was not directly consulted. The manuscript itself characterizes some Bayesian assumptions and solutions as contested."
+    },
+    {
+      "title": "Hempel’s Raven Paradox: A Lacuna in the Standard Bayesian Solution",
+      "author": "Peter B. M. Vranas",
+      "publication": "The British Journal for the Philosophy of Science, vol. 55, no. 3 (September 2004), pp. 545–560. DOI: 10.1093/bjps/55.3.545.",
+      "stable_url": "https://doi.org/10.1093/bjps/55.3.545",
+      "source_type": "Peer-reviewed scholarly article",
+      "access_level": "Publisher bibliographic record and abstract only; full article not accessed.",
+      "exact_locations_read": "Publisher article page, abstract and bibliographic record: Vranas states that the standard Bayesian solution depends on an assumption that the probability of the hypothesis is unaffected by evidence that an object is non-black, argues that this assumption is implausible, and proposes a Bayesian alternative.",
+      "limitations": "The abstract establishes that Vranas advances this objection but does not establish his full argument, his proposed solution, or how the objection fares against subsequent responses. The article uses the abstract-level characterization only."
+    },
+    {
+      "title": "Confirmation and Induction",
+      "author": "Internet Encyclopedia of Philosophy entry; author not stated in the retrieved relevant passage",
+      "publication": "Internet Encyclopedia of Philosophy, section 2(a), ‘The Ravens Paradox,’ and section 2(b), ‘Confirmation Measures.’",
+      "stable_url": "https://iep.utm.edu/confirmation-and-induction/",
+      "source_type": "Scholarly reference work / secondary explanation",
+      "access_level": "Relevant passages of the full entry were read; the entire entry was not read.",
+      "exact_locations_read": "§2(a) explains the Nicod criterion, the equivalence condition, Hempel’s qualitative response to non-black non-ravens, and the relevance of background knowledge; §2(b) gives a probabilistic confirmation account and discusses the raven case relative to background assumptions.",
+      "limitations": "Secondary reference source. It corroborates the general explanation but is not relied on for a precise formal derivation or to establish consensus. The article’s Further Reading list does not cite it because the SEP and primary text are more directly relevant."
+    },
+    {
+      "title": "Matching ravens-paradox data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id ravens-paradox; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was read after article research and checked against the proposed local data patch.",
+      "exact_locations_read": "The current entry’s id, title, current date_verified value, and reference list were inspected. The four revised Further Reading URLs and their order were reconciled against the proposed references array; the patch changes date_verified from 2026-10-31 to 2026-11-01.",
+      "limitations": "Metadata reconciliation only. data/experiments.json is read-only and was not edited; the proposed patch remains a separate local JSON file."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Hempel’s primary publication relevant to this account is ‘Studies in the Logic of Confirmation (I.)’ in Mind in 1945.",
+      "source_title": "Studies in the Logic of Confirmation (I.); Oxford Academic article record",
+      "source_url": "https://doi.org/10.1093/mind/LIV.213.1",
+      "exact_location": "Primary article’s title/byline and printed page 12; publisher record gives Mind, vol. LIV, issue 213, January 1945, pp. 1–26.",
+      "relationship": "supports",
+      "finding": "The name, title, journal, year, and publication framing in the article match the primary text and publisher bibliographic record.",
+      "limitation": "The complete primary paper was not read; the publisher article record is bibliographic metadata, while the full-text excerpt came from a university-hosted reproduction.",
+      "required_edit": "No correction to title or date was needed; source information and access limits were made explicit in the article."
+    },
+    {
+      "material_claim": "A black raven is an instance of ‘All ravens are black’; its logically equivalent contrapositive is ‘All non-black things are non-ravens’; under Hempel’s instance criterion and equivalence condition, a non-black non-raven such as a white shoe counts as confirming evidence for the raven hypothesis.",
+      "source_title": "Studies in the Logic of Confirmation (I.); Confirmation",
+      "source_url": "http://www.thatmarcusfamily.org/philosophy/Course_Websites/Readings/Hempel%20-%20Studies%20Confirm%201.pdf",
+      "exact_location": "Hempel, printed pp. 11–13, section 4 and the opening discussion of ‘The “Paradoxes” of Confirmation’; SEP, §1.2, ‘The ravens paradox.’",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary passage states the equivalence condition and demonstrates the paradox generated when it is combined with Nicod’s instance criterion. The SEP gives the explicit raven/contrapositive derivation. The article now describes this as Hempel’s qualitative account rather than as a result imposed on every confirmation theory.",
+      "limitation": "The sources distinguish logical equivalence from equal degree of support. Hempel’s paper provides a formal account beyond the article’s short pedagogical sketch.",
+      "required_edit": "Made: replaced the inaccurate three-principle summary with the two commitments that generate this derivation and identified the result as account-relative."
+    },
+    {
+      "material_claim": "Hempel accepts that non-black non-ravens confirm the raven hypothesis in his formal account without additional empirical information, and he explains much of the intuitive resistance by tacit background knowledge.",
+      "source_title": "Hempel and the Paradoxes of Confirmation; Confirmation and Induction",
+      "source_url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+      "exact_location": "Sprenger, §§3–4, printed pp. 14–15, including Hempel’s response as discussed and the background-information diagnosis; IEP §2(a), ‘The Ravens Paradox.’",
+      "relationship": "supports_with_qualification",
+      "finding": "The secondary discussions report Hempel’s view that the qualitative confirmation result holds when the evidence is considered without further information; the apparent oddity involves background knowledge such as population proportions or knowing the object is a non-raven. The revised article separates that logical response from whether his formal account adequately handles background information.",
+      "limitation": "The account of Hempel’s explanatory response is mediated through scholarly secondary sources; not every detail of his full theory or later revisions was reviewed.",
+      "required_edit": "Made: corrected the conflation of Hempel’s qualitative acceptance with a claim that the support is quantitatively negligible, and stated that background sensitivity remains a limitation."
+    },
+    {
+      "material_claim": "Some Bayesian treatments distinguish the degree of support from Hempelian qualitative confirmation; conclusions about the comparative or very small support from a white shoe depend on background probabilities and assumptions.",
+      "source_title": "Confirmation; Hempel and the Paradoxes of Confirmation",
+      "source_url": "https://plato.stanford.edu/entries/confirmation/",
+      "exact_location": "SEP §§3.6 on probabilistic relevance confirmation and the ravens example; Sprenger §5.2, printed pp. 20–22, on the separate qualitative, comparative, and quantitative intuitions and assumptions including population proportions and independence.",
+      "relationship": "supports_with_qualification",
+      "finding": "The sources support distinguishing whether evidence confirms from how strongly it confirms. Bayesian conclusions depend on probability assignments and background conditions; they do not follow from logical equivalence by itself. The article states this without treating one numerical result as settled.",
+      "limitation": "No Bayesian derivation or numerical estimate was reproduced. The considered accounts use particular formalizations, and the manuscript itself disputes some assumptions.",
+      "required_edit": "Made: qualified the Bayesian summary and identified background/probability assumptions rather than presenting ‘tiny confirmation’ as an unconditional result."
+    },
+    {
+      "material_claim": "Vranas challenges a key independence assumption in a standard Bayesian solution; this is a published objection, not a consensus verdict on Bayesian confirmation.",
+      "source_title": "Hempel’s Raven Paradox: A Lacuna in the Standard Bayesian Solution; Hempel and the Paradoxes of Confirmation",
+      "source_url": "https://doi.org/10.1093/bjps/55.3.545",
+      "exact_location": "Vranas’s publisher abstract and bibliographic record; Sprenger §5.2, printed pp. 21–22, discussion of Vranas’s objection to the independence assumption.",
+      "relationship": "supports_with_qualification",
+      "finding": "The abstract says the standard Bayesian solution relies on an assumption about the probability of the raven hypothesis being unaffected by evidence that an object is non-black, and that Vranas argues this assumption is implausible. Sprenger independently discusses the criticism. The article says Vranas argues this point and explicitly limits it to one standard solution.",
+      "limitation": "Only Vranas’s abstract was accessible; his full proof, proposed alternative, and later reception were not reviewed. No claim of consensus or general failure of Bayesian approaches is made.",
+      "required_edit": "Made: retained the criticism but qualified its target, author, and evidential basis."
+    },
+    {
+      "material_claim": "Good’s examples, as reported by Sprenger, include an artificial probability model in which observing a black raven favors a possibility where the universal hypothesis is false.",
+      "source_title": "Hempel and the Paradoxes of Confirmation",
+      "source_url": "http://www.laeuferpaar.de/Papers/HHL.pdf",
+      "exact_location": "Sprenger §5.1, ‘Bayesian confirmation theory and the Nicod Condition,’ printed p. 17; compare the crow/background-knowledge example in §§3–4, pp. 14–15.",
+      "relationship": "supports_with_qualification",
+      "finding": "Sprenger describes Good’s two-world construction, specifying 100 black ravens and no white ravens in one world versus 1,000 black ravens and one white raven in the other, with a million other birds in each. In that model, observing a black raven favors the world with the counterexample. The article calls this an artificial counterexample and attributes it through Sprenger.",
+      "limitation": "Good’s 1967 primary note was not accessed. The model is a constructed counterexample to a universal claim about every background probability assignment, not a claim about ordinary empirical sampling.",
+      "required_edit": "Made: stated the narrow scope of the example and disclosed that Good’s original was not consulted directly."
+    },
+    {
+      "material_claim": "The ‘indoor ornithology’ survey and reflection questions are explanatory teaching framing rather than historical quotations or claims attributed to Hempel.",
+      "source_title": "Revised article framing",
+      "source_url": null,
+      "exact_location": "Article §§1, 6, and 7.",
+      "relationship": "context_only",
+      "finding": "The indoor survey is explicitly presented as an intuitive image; the prompts ask readers to consider assumptions; the connection to Goodman’s riddle is labeled a teaching connection.",
+      "limitation": "These are editorial analogies and questions, not independent historical or scholarly claims.",
+      "required_edit": "Made: clarified that the Goodman comparison is pedagogical and the indoor ornithology phrase names an intuitive worry."
+    },
+    {
+      "material_claim": "The revised article’s Further Reading links match the proposed data patch in exactly the same order; the patch’s verification date is 2026-11-01.",
+      "source_title": "Matching ravens-paradox data record",
+      "source_url": null,
+      "exact_location": "Current data/experiments.json object id ravens-paradox and revised article §9; compare local proposed data-patch JSON.",
+      "relationship": "supports",
+      "finding": "The current dataset has the matching id/title but date_verified 2026-10-31 and only the SEP reference. The article now lists four Further Reading URLs in order: Hempel PDF, SEP, Sprenger manuscript, and Vranas DOI. The proposed patch uses those exact URLs and order and changes date_verified to 2026-11-01. The read-only dataset file was not changed.",
+      "limitation": "This verifies local reference metadata only; it does not establish the linked sources’ claims. The proposed patch has not been merged into the dataset.",
+      "required_edit": "Made: created a separate data-patch JSON; no changes were made to data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "Hempel’s complete 1945 paper was not read; only relevant passages from a university-hosted PDF text extraction were consulted.",
+    "Good’s original 1967 note was not read directly; the black-raven counterexample is reported through Sprenger’s scholarly manuscript.",
+    "Vranas’s full 2004 article was not accessed; the publisher abstract and Sprenger’s discussion were consulted, so his argument and proposed solution are not assessed in full.",
+    "The review is not an exhaustive survey of raven-paradox literature and does not determine which confirmation theory is correct or whether one response is generally accepted.",
+    "The ledger is AI-assisted; no human expert review is claimed."
+  ]
+}

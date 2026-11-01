@@ -1,0 +1,36 @@
+{
+  "id": "allegory-of-the-cave",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Plato, Republic, Book VII (Internet Classics Archive)",
+      "url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+      "kind": "primary",
+      "support": "Benjamin Jowett's translation of Republic Book VII, including the Cave and Socrates' explanation of education, the Good, and the philosopher's return. Passage-level support for the article's primary-text paraphrase; relevant locations include 514a–517a, 518b–d, and 519c–521b. The complete Republic was not read."
+    },
+    {
+      "title": "Sean McAleer, “The Allegory of the Cave: Book VII,” Plato’s ‘Republic’: An Introduction",
+      "url": "https://books.openbookpublishers.com/10.11647/obp.0229/ch11.xhtml",
+      "kind": "academic",
+      "support": "Scholarly chapter relating the Cave to education and the divided line. Chapter 11 discusses the ascent, education, and political return; it also notes that divisions of the allegory's stages can be interpretively subjective. Relevant chapter passages were read; the full book was not."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Plato’s Myths",
+      "url": "https://plato.stanford.edu/entries/plato-myths/",
+      "kind": "academic",
+      "support": "Catalin Partenie's discussion of the Cave at Republic 514a–517a identifies it, strictly speaking, as an analogy rather than a myth. Context for the article's technical classification; it does not establish every detail of the Cave interpretation."
+    },
+    {
+      "title": "Eric Brown, “Plato’s Ethics and Politics in The Republic”",
+      "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+      "kind": "academic",
+      "support": "Section 2.3 discusses the philosophers' compulsion to rule and differing explanations of their motives; section 5 addresses controversy over the Republic's political implications. Scholarly context, not a claim of consensus or a replacement for Republic VII."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Plato",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "kind": "academic",
+      "support": "Richard Kraut's entry gives Plato's approximate lifespan and cautions that periodization as a composition chronology is disputed. Broad chronological context only; it does not establish the Republic's precise composition date."
+    }
+  ]
+}

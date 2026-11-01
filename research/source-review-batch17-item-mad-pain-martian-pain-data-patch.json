@@ -1,0 +1,24 @@
+{
+  "id": "mad-pain-martian-pain",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "David Lewis, “Mad Pain and Martian Pain” (1980), pp. 216–222, text reproduction",
+      "url": "https://andrewmbailey.com/dkl/Mad_Pain.pdf",
+      "kind": "primary",
+      "support": "Primary text for the scenarios, Lewis’s population-relative account, and his qualifications."
+    },
+    {
+      "title": "Janet Levin, “Functionalism,” Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/functionalism/",
+      "kind": "academic",
+      "support": "Functionalism, multiple realization, identity theory, and disputes about phenomenal character."
+    },
+    {
+      "title": "Peter Alward, “Mad, Martian, but not Mad Martian Pain” (2004)",
+      "url": "http://lorenzopena.es/Sorites/Issue_15/alward.htm",
+      "kind": "academic",
+      "support": "A critique of Lewis’s criteria for selecting the relevant population, focused on mad Martian pain."
+    }
+  ]
+}

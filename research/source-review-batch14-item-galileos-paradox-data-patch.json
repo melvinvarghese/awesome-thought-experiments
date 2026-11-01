@@ -1,0 +1,24 @@
+{
+  "id": "galileos-paradox",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Galileo Galilei, Dialogues Concerning Two New Sciences (1914 English translation)",
+      "url": "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences",
+      "kind": "primary",
+      "support": "Primary-text evidence: in the First Day, Salviati contrasts the declining proportion of squares in finite ranges with every number being a root of a square, then says equal/greater/less comparisons do not apply to infinite quantities. Consulted in the Crew and de Salvio 1914 translation; this does not establish that Galileo used later cardinality terminology."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Infinity",
+      "url": "https://plato.stanford.edu/archives/spr2022/entries/infinity/",
+      "kind": "academic",
+      "support": "Scholarly historical and philosophical reference supporting the account of Galileo’s paradox, the later Cantorian cardinality criterion and the distinct cardinalities of the positive integers and reals; also describes later numerosity approaches. Consulted relevant archived sections; secondary synthesis, not primary testimony."
+    },
+    {
+      "title": "Matthew W. Parker, “Philosophical Method and Galileo’s Paradox of Infinity”",
+      "url": "https://philarchive.org/rec/PARPMA-2",
+      "kind": "academic",
+      "support": "Scholarly philosophical-historical analysis offering one interpretation of the paradox as involving distinct concepts of number and size, and treating Cantorian cardinality as a useful but not uniquely correct extension. Relevant chapter passages were consulted; this is not presented as consensus."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "loschmidt-reversibility",
   "title": "Loschmidt’s Reversibility Objection",
-  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/physics/loschmidt-reversibility.md",
+  "article_path": "experiments/physics/loschmidt-reversibility.md",
   "status": "source_checked",
   "scope": "Claim-level source audit of the complete assigned article: setup and dynamical assumptions for velocity reversal; entropy interpretation and inference; Boltzmann’s immediate reply versus his later statistical account; low-entropy-past explanations; the H-theorem and qualifications; historical chronology; distinction between Loschmidt’s reversibility objection and the Poincaré/Zermelo recurrence argument; and editorial teaching framing. The matching dataset object and expansion-record entry were checked for alignment. No expert review is claimed.",
   "summary": "The article’s treatment of exact reversal, Boltzmann and Gibbs entropy, statistical typicality, Boltzmann’s separate 1877 arguments, low-entropy boundary conditions, the H-theorem assumption, and the Zermelo distinction is traceable to relevant passages. The independent review directly read p. 139 of the original Loschmidt scan; the article and ledger now state this limited access accurately. Dataset and article Further Reading URLs match.",
@@ -237,7 +237,7 @@
   ],
   "dataset_alignment": "After the audit, the matching dataset record’s identity, updated publication wording, verification date (2026-11-01), and all three references match the article. The article’s Further Reading URLs and dataset reference URLs are identical.",
   "further_reading_matches": true,
-  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-loschmidt-reversibility.json",
+  "ledger_path": "research/source-review-batch5-item-loschmidt-reversibility.json",
   "audit_metadata": {
     "review_date": "2026-11-01",
     "reviewer_type": "Agent source audit; no named human expert review",

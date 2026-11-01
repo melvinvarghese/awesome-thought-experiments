@@ -1,0 +1,165 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit reviews; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "four-case-argument",
+  "title": "Pereboom’s Four-Case Argument",
+  "article_path": "experiments/time-and-causality/four-case-argument.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and expansion entry. Focus: the four-case progression and like-cases inference; the specified cases and compatibilist-friendly capacities; under-description and disagreement; hard- and soft-line replies; the target of basic-desert responsibility; related manipulation arguments; publication metadata; and accurate disclosure of primary-text access. This status follows the approved standard’s allowance for another appropriate source when relevant passages are read; it does not claim direct verification against Pereboom’s 2001 Chapter 4 or expert review.",
+  "summary": "Full relevant passages in the archived SEP supplement, current SEP entry, Jeppsson’s peer-reviewed analysis, and Caruso’s précis support the article’s narrowed paraphrase of the cases, conditional inference, known disagreement, and basic-desert scope. The article no longer implies that the primary 2001 chapter was read: Google Books lists Chapter 4 but exposes selected image-only pages rather than its argument text; an online excerpt’s provenance remains unverified and is not treated as verified book text. A targeted independent post-edit reviewer passed the revised access disclosure. An earlier reviewer preferred a partial status because the primary chapter was inaccessible; this ledger adopts source_checked for the declared paraphrase/traceability scope because the appropriate full secondary passages were read and the access limit is explicit. No expert review is claimed.",
+  "sources": [
+    {
+      "title": "Compatibilism: State of the Art",
+      "author": "Michael McKenna and D. Justin Coates",
+      "publication": "Supplement to the Stanford Encyclopedia of Philosophy entry “Compatibilism,” Fall 2018 archive",
+      "stable_url": "https://plato.stanford.edu/archives/fall2018/entries/compatibilism/supplement.html",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Full relevant passages in the archived supplement were read.",
+      "exact_locations_read": "Introduction, “The argument,” for the four-case sequence and inference; “The distinction” for the reply strategies and hard-/soft-line distinction.",
+      "limitations": "The supplement is a secondary exposition and does not replace the unavailable text of Pereboom’s 2001 chapter; it presents the argument and replies rather than deciding whether it succeeds."
+    },
+    {
+      "title": "Arguments for Incompatibilism",
+      "author": "Kadri Vihvelin",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 14 October 2003; substantive revision 22 August 2022",
+      "stable_url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full section text was read.",
+      "exact_locations_read": "§3.2, “Manipulation and Design Arguments,” on under-description of the first three Plums, disagreement over verdicts, hard-line replies, and Mele’s related Ernie/Bert argument.",
+      "limitations": "This reference-work discussion maps an active debate; it does not establish a consensus verdict about responsibility or the soundness of Pereboom’s argument."
+    },
+    {
+      "title": "The Agential Perspective: A Hard-Line Reply to the Four-Case Manipulation Argument",
+      "author": "Sofia Jeppsson",
+      "publication": "Philosophical Studies 177 (2020): 1935–1951; DOI 10.1007/s11098-019-01292-2; published online 3 April 2019",
+      "stable_url": "https://www.diva-portal.org/smash/get/diva2:1303683/FULLTEXT03",
+      "source_type": "Peer-reviewed secondary philosophical analysis; published version",
+      "access_level": "Full relevant article text was accessed; §1 and its case-by-case analysis were read.",
+      "exact_locations_read": "§1, especially pp. 1935–1937, for the sequence, Cases 1–4, reasons-responsive stipulations, the Case 1 revision, and hard-/soft-line replies.",
+      "limitations": "Jeppsson develops a hard-line reply and does not represent all compatibilists; the article’s argument is reported as one scholarly position."
+    },
+    {
+      "title": "Précis of Derk Pereboom’s Free Will, Agency, and Meaning in Life",
+      "author": "Gregg D. Caruso",
+      "publication": "Science, Religion and Culture 1(3) (2014): 178–201; published 29 November 2014",
+      "stable_url": "https://researcherslinks.com/current-issues/Precis-of-Derk-Pereboom-Free-Will-Agency-and-Meaning-in-Life/9/13/51/html",
+      "source_type": "Peer-reviewed secondary précis / symposium contribution",
+      "access_level": "Full article text was accessed; relevant opening discussion and Chapter 6 discussion were read.",
+      "exact_locations_read": "Opening discussion defining basic-desert praise/blame; sections summarizing Chapter 4’s four-case argument and Chapter 6’s forward-looking account of moral responsibility.",
+      "limitations": "This is a précis of Pereboom’s 2014 book, not primary evidence for the wording of the 2001 chapter. It supports the distinction between basic-desert responsibility and other possible responses."
+    },
+    {
+      "title": "Living Without Free Will",
+      "author": "Derk Pereboom",
+      "publication": "Cambridge University Press, 2001; 231 pages; Chapter 4, “Problems for Compatibilism,” begins at p. 89",
+      "stable_url": "https://books.google.com/books/about/Living_without_Free_Will.html?id=9sKZ1rAO2BwC",
+      "source_type": "Primary-work bibliographic record and limited preview",
+      "access_level": "Bibliographic record and selected image-only page previews were accessible; readable Chapter 4 argument text was not exposed.",
+      "exact_locations_read": "Title and contents information; selected previews for the title/contents and later bibliography/index pages. Chapter 4 is listed at p. 89, but its argument text is not available in the preview.",
+      "limitations": "This source establishes book metadata and the preview boundary only; it does not establish the cases or argument. The article’s primary-text access caveat remains explicit."
+    },
+    {
+      "title": "Unverified publicly hosted text reproducing the Four-Case passage",
+      "author": "Attributed to Derk Pereboom in the consulted excerpt; authorship and edition identity not independently established",
+      "publication": "Publicly hosted online text; publication container and identity with the 2001 Cambridge University Press edition unverified",
+      "stable_url": "https://www.stafforini.com/docs/pereboom_-_living_without_free_will.pdf",
+      "source_type": "Unverified excerpt; excluded from evidence supporting the article’s material claims",
+      "access_level": "A passage reproducing case text was encountered, but the source’s container and edition were not verified; it is not treated as the verified primary text.",
+      "exact_locations_read": "The Four-Case passage was consulted; no page or edition location is relied on because the copy’s provenance was not established.",
+      "limitations": "No material claim in this ledger depends solely on this excerpt. The article explicitly says its publication container and 2001-edition identity could not be verified."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Pereboom’s four cases move from direct moment-to-moment manipulation, to birth programming, to upbringing, and then to an ordinary agent in a deterministic world; the inference appeals to treating relevantly like cases alike.",
+      "source_title": "Compatibilism: State of the Art",
+      "source_url": "https://plato.stanford.edu/archives/fall2018/entries/compatibilism/supplement.html",
+      "exact_location": "Introduction, “The argument,” including the sequence from electronic intervention to programming/upbringing and Case 4; corroborated by Jeppsson §1, pp. 1935–1937.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article describes the sequence and makes the inference conditional: a responsibility-relevant difference that blocks the transition to Case 4 would undermine the argument.",
+      "limitation": "The cases’ comparability and the like-cases principle are contested; no claim is made that the argument is proven sound.",
+      "required_edit": "Made: presented the transition as an argument with a conditional premise, not as an established equivalence."
+    },
+    {
+      "material_claim": "Case 1 uses radio-like technology to manipulate Plum’s decisions and actions moment by moment while stipulating compatibilist-friendly capacities, including reasons-responsive deliberation.",
+      "source_title": "The Agential Perspective: A Hard-Line Reply to the Four-Case Manipulation Argument",
+      "source_url": "https://www.diva-portal.org/smash/get/diva2:1303683/FULLTEXT03",
+      "exact_location": "Jeppsson §1, pp. 1935–1936; archived SEP supplement, “The argument,” describing direct electronic stimulation and moment-to-moment decisions/actions.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article now says that technology manipulates decisions and actions moment by moment, rather than implying a distinct alteration of reasoning ability; it separately states that reasons-responsive deliberation is stipulated.",
+      "limitation": "The article is a stylized thought experiment and compresses case details; no verbatim quotation from the inaccessible 2001 chapter is presented.",
+      "required_edit": "Made: changed “manipulate Plum’s reasoning” to “manipulate Plum’s decisions and actions” and kept reasons-responsiveness as a separate stipulation."
+    },
+    {
+      "material_claim": "The move from the first three cases to ordinary determinism is disputed because the first three cases are under-described and different completions may change whether a responsibility-relevant difference exists.",
+      "source_title": "Arguments for Incompatibilism",
+      "source_url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
+      "exact_location": "§3.2, “Manipulation and Design Arguments,” passages on the first three Plum cases’ under-description, the relevance of how details are filled in, and objections to the inference.",
+      "relationship": "supports",
+      "finding": "The article accurately reports that case details and reader verdicts are contested and does not state that the transition is universally accepted.",
+      "limitation": "The brief article does not catalog every response or each proposed detail that could matter.",
+      "required_edit": "Made: added the current SEP qualification that the first three cases are under-described and verdicts can vary with specification."
+    },
+    {
+      "material_claim": "Hard-line replies deny that manipulation undermines responsibility or press for the same verdict in ordinary deterministic cases; soft-line replies accept the manipulation verdict but claim an ethically relevant difference from ordinary histories.",
+      "source_title": "The Agential Perspective: A Hard-Line Reply to the Four-Case Manipulation Argument",
+      "source_url": "https://www.diva-portal.org/smash/get/diva2:1303683/FULLTEXT03",
+      "exact_location": "Jeppsson §1, pp. 1936–1937, where the hard-line and soft-line reply labels and strategies are explained; archived SEP supplement, “The distinction,” for the premise-level strategy distinction.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article describes both strategies as competing replies and explicitly says neither is settled.",
+      "limitation": "The categories simplify a literature with multiple variants and do not imply that every author uses the labels identically.",
+      "required_edit": "Made: attributed the taxonomy to Jeppsson and framed the responses as competing positions."
+    },
+    {
+      "material_claim": "The target is basic-desert responsibility; rejecting that kind of desert does not by itself decide whether protective, rehabilitative, or other forward-looking responses are justified.",
+      "source_title": "Précis of Derk Pereboom’s Free Will, Agency, and Meaning in Life",
+      "source_url": "https://researcherslinks.com/current-issues/Precis-of-Derk-Pereboom-Free-Will-Agency-and-Meaning-in-Life/9/13/51/html",
+      "exact_location": "Opening paragraphs defining basic-desert praise/blame and the discussion summarizing Chapter 6’s forward-looking account of moral responsibility.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article distinguishes basic-desert blame/praise from other possible responses and avoids claiming that skepticism entails abandoning all practical responses to wrongdoing.",
+      "limitation": "Caruso summarizes Pereboom’s 2014 book; this is secondary context, not primary evidence for the 2001 chapter wording.",
+      "required_edit": "Made: stated the basic-desert target and kept practical responses open."
+    },
+    {
+      "material_claim": "Mele’s Ernie/Bert case is related to, but not simply another name for, Pereboom’s four-case argument.",
+      "source_title": "Arguments for Incompatibilism",
+      "source_url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
+      "exact_location": "§3.2, “Manipulation and Design Arguments,” on Mele’s zygote argument and its structure relative to other manipulation arguments.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article identifies a family resemblance but notes that causal histories and replies differ.",
+      "limitation": "The entry gives only a brief comparison; the article does not claim to compare every manipulation argument.",
+      "required_edit": "Made: labelled Mele’s argument as a related but distinct comparison."
+    },
+    {
+      "material_claim": "Google Books confirms the book’s bibliographic record and lists Chapter 4, but its selected-page image previews do not expose readable Chapter 4 argument text.",
+      "source_title": "Living Without Free Will",
+      "source_url": "https://books.google.com/books/about/Living_without_Free_Will.html?id=9sKZ1rAO2BwC",
+      "exact_location": "Book record and contents list Chapter 4, “Problems for Compatibilism,” beginning at p. 89; selected image-only preview pages include title/contents and bibliography/index, not readable Chapter 4 text.",
+      "relationship": "supports",
+      "finding": "The article and data now say Chapter 4 is listed but its text is not exposed; an unsupported Internet Archive access statement was removed.",
+      "limitation": "The record does not provide the primary chapter passage needed to verify its exact text or edition-specific detail.",
+      "required_edit": "Made: corrected “title-page preview only” to describe selected pages accurately and removed the unverified Internet Archive claim."
+    }
+  ],
+  "edits_made": [
+    "Narrowed the case descriptions and made the inference to Case 4 explicitly conditional on the absence of a responsibility-relevant difference.",
+    "Changed Case 1 wording to match sources’ moment-to-moment manipulation of decisions and actions, while preserving the separate reasons-responsive stipulation.",
+    "Added current SEP support for under-description, disagreement, and related Mele comparison; bounded hard-/soft-line claims to cited analyses.",
+    "Clarified basic-desert scope and that protective or rehabilitative responses are not thereby ruled out.",
+    "Corrected the Google Books selected-page disclosure in article and data; removed the unsupported Internet Archive access assertion; retained the excerpt-provenance caveat."
+  ],
+  "unresolved": [
+    "Readable text of Pereboom’s 2001 Chapter 4 was not available in the Google Books preview; the article relies on full relevant secondary passages and does not claim direct primary-text verification.",
+    "A publicly hosted excerpt was consulted, but its publication container and identity with the 2001 edition remain unverified; it is excluded as evidence for the material claims.",
+    "Whether the cases are sufficiently specified and whether manipulation undermines responsibility remain disputed; no philosophical verdict is claimed.",
+    "No named human subject-matter expert reviewed the entry; it is not expert_reviewed."
+  ],
+  "dataset_alignment": "The four-case-argument data record uses the same five Further Reading URLs as the article in the same order, and its date_verified matches the article research-check date 2026-11-01. The Google Books support text now correctly describes selected pages and the unavailable Chapter 4 text. No public source-review status field was added.",
+  "further_reading_matches": "All five article Further Reading URLs match the dataset record in the same order.",
+  "ledger_path": "research/source-review-batch7-item-four-case-argument.json",
+  "selection_rank": 2,
+  "risk_reason": "The article explains a contested philosophical argument whose primary book chapter was not directly accessible; exact case details, attribution, and access disclosure therefore require careful separation of primary metadata from full secondary analyses.",
+  "audit_focus": "Check the four-case sequence and replies against appropriate full scholarly sources; preserve disagreement and under-description; verify the basic-desert scope; correct the Google Books preview disclosure; record the primary-text and excerpt provenance limits.",
+  "independent_review": "One independent reviewer supported the narrowed case content but conservatively preferred partially_source_checked because the 2001 chapter text was not accessible and the preview description was imprecise. After correction, a targeted independent reviewer passed the Google Books disclosure and recommended source_checked under the standard’s allowance for another appropriate source, while keeping the primary-text caveat explicit. The ledger adopts source_checked for the declared claim-traceability scope because relevant full passages in SEP and Jeppsson support the paraphrases; direct primary-text verification and excerpt provenance remain disclosed limits. No expert review."
+}

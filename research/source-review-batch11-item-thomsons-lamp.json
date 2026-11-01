@@ -1,0 +1,122 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "thomsons-lamp",
+  "title": "Thomson’s Lamp",
+  "article_path": "experiments/mathematics/thomsons-lamp.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the full article’s claims about the lamp setup, Thomson’s apparent dilemma and conclusion, Benacerraf’s reply, the binary state sequence and ordinary convergence, and its distinction from Zeno’s Dichotomy and the Ross–Littlewood urn. The status records traceability of those claims, not whether supertasks are logically or physically possible.",
+  "summary": "The article now begins with Thomson’s original initial state and button-press schedule, attributes the apparent contradiction to Thomson, and states Benacerraf’s reply narrowly: the switching instructions alone do not specify the terminal state, which does not prove that a physical supertask is possible. The SEP discussion and selected primary passages from both papers support the claims about ordinary nonconvergence, the non-binary Cesàro mean, Zeno’s convergent distance sequence, and the different Ross–Littlewood setup. The article no longer presents the terminal dilemma as an established contradiction or uses physical burnout as a resolution.",
+  "sources": [
+    {
+      "title": "Supertasks",
+      "author": "JB Manchak and Bryan W. Roberts",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 5 April 2016, substantive revision 31 May 2022.",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant sections in the full online entry were read, including §1.1, §1.2 and §1.3.",
+      "exact_locations_read": "§1.2: the lamp setup, Thomson’s dilemma, 0/1 sequence and lack of ordinary convergence, Cesàro mean, Benacerraf’s endpoint qualification, and Earman–Norton completions. §§1.1 and 1.3: Zeno’s Dichotomy and the Littlewood–Ross example.",
+      "limitations": "Secondary synthesis. The full primary texts were not read systematically; the relevant primary passages were checked directly."
+    },
+    {
+      "title": "Tasks and Super-Tasks",
+      "author": "J. F. Thomson",
+      "publication": "Analysis 15, no. 1 (October 1954): 1–13. JSTOR stable record 3326643.",
+      "stable_url": "https://www.jstor.org/stable/3326643",
+      "text_access_url": "https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf",
+      "source_type": "Primary philosophical article",
+      "access_level": "Selected relevant pages of the complete article were text-extracted and read in a JSTOR scan hosted by the London School of Economics; not all pages were read systematically.",
+      "exact_locations_read": "pp. 5–6: toggle-lamp setup, sequence and apparent contradiction; pp. 6–8: lamp-state analysis, infinite sums and what the supertask notion specifies; pp. 12–13: conclusion distinguishing type-ω sequences from sequences with a final task.",
+      "limitations": "The access copy is hosted by a university course site and carries JSTOR scan notices; the whole article was not read systematically. The article establishes Thomson’s argument, not its success."
+    },
+    {
+      "title": "Tasks, Super-Tasks, and the Modern Eleatics",
+      "author": "Paul Benacerraf",
+      "publication": "The Journal of Philosophy 59, no. 24 (1962): 765–784. DOI 10.2307/2023500.",
+      "stable_url": "https://doi.org/10.2307/2023500",
+      "text_access_url": "https://joelvelasco.net/teaching/hum9/benacerraf62-supertasks.pdf",
+      "source_type": "Primary philosophical article",
+      "access_level": "Selected relevant passages were read in a third-party hosted PDF; the publisher record was separately checked for bibliographic metadata and gates full-text access.",
+      "exact_locations_read": "pp. 768–774: endpoint assignments, the instructions stopping at t₁, analogies and why partial sums do not by themselves give a terminal value. pp. 779–781: Benacerraf’s express qualification that he has not proved supertask possibility and the additional premise needed for Thomson’s contradiction.",
+      "limitations": "The full publisher text was not accessible; the selected primary passages come from a third-party copy. Benacerraf’s reply does not by itself establish physical realizability."
+    },
+    {
+      "title": "Matching Thomson’s Lamp data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json record, id thomsons-lamp; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching dataset object was inspected after the article revision.",
+      "exact_locations_read": "The date_verified value and all three Further Reading URLs and source descriptions were reconciled against the revised article.",
+      "limitations": "This record documents metadata alignment and does not establish philosophical or mathematical claims."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The idealized lamp begins off; its button is pressed after one minute, then after successively halved intervals, accumulating at two minutes with no last press.",
+      "source_title": "Tasks and Super-Tasks",
+      "source_url": "https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf",
+      "exact_location": "Thomson, pp. 5–6: the reading-lamp button toggles the lamp; it begins off; jabs occur after one minute, then one-half minute, and so on; the infinite sequence ends at two minutes without a last jab.",
+      "relationship": "supports",
+      "finding": "The revised scenario closely tracks Thomson’s setup and explicitly states the initial lamp state and no-last-press feature.",
+      "limitation": "This is an idealized description, not an empirical lamp experiment.",
+      "required_edit": "Made: replaced the potentially misleading ‘switched on for one minute’ phrasing with Thomson’s off-state and toggle-button schedule."
+    },
+    {
+      "material_claim": "Thomson presents the on/off reasoning as a contradiction and uses the case to challenge the intelligibility or possibility of completing a type-ω supertask.",
+      "source_title": "Tasks and Super-Tasks",
+      "source_url": "https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf",
+      "exact_location": "pp. 5–6: Thomson states the on/off dilemma and says it is a contradiction; pp. 6–8 on the concept of supertask; pp. 12–13 on impossibility of performing every task in a type-ω sequence.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text supports the attribution to Thomson. The revised article identifies it as Thomson’s argument, not a settled conclusion.",
+      "limitation": "The audit does not decide whether Thomson’s argument is sound.",
+      "required_edit": "Made: attributed the dilemma and conclusion explicitly to Thomson."
+    },
+    {
+      "material_claim": "Benacerraf argues that the switching instructions alone do not specify the lamp’s state at the terminal instant; either endpoint assignment does not create a contradiction from those instructions alone.",
+      "source_title": "Tasks, Super-Tasks, and the Modern Eleatics; Supertasks",
+      "source_url": "https://joelvelasco.net/teaching/hum9/benacerraf62-supertasks.pdf",
+      "exact_location": "Benacerraf, pp. 768–774 and 779–781; SEP Supertasks §1.2, paragraphs on the description before two minutes and the terminal state.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary and secondary passages support the endpoint qualification. The revised article does not claim that Benacerraf proves the sequence physically possible.",
+      "limitation": "Publisher full text was gated; selected primary pages were read in a third-party copy. The remaining scope limitation is disclosed in the source note.",
+      "required_edit": "Made: replaced ‘the lamp may be on or off’ with the narrower claim that the instructions leave the endpoint unspecified."
+    },
+    {
+      "material_claim": "The alternating 0/1 lamp-state sequence has no ordinary real-valued limit, and a Cesàro average of one-half is not a binary lamp state.",
+      "source_title": "Supertasks",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "exact_location": "SEP §1.2, discussion of the 0,1,0,1,… sequence, ordinary topology, and Cesàro convergence; the immediately following paragraph says the mean does little to answer whether the lamp is on or off.",
+      "relationship": "supports",
+      "finding": "The SEP explicitly says the 0,1,0,1,… sequence Cesàro converges to one-half and, in the immediately following paragraph, that the mean does little to answer whether the lamp is on or off. The revised article attributes the one-half mean to this discussion.",
+      "limitation": "The article does not identify an average as a physical lamp state.",
+      "required_edit": "Made: cited SEP §1.2 by attribution in the article and narrowed the statement to the binary sequence."
+    },
+    {
+      "material_claim": "The lamp’s abstract switching sequence is distinct from Zeno’s Dichotomy and the Ross–Littlewood urn, which use different task structures.",
+      "source_title": "Supertasks",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-supertasks/",
+      "exact_location": "SEP §§1.1–1.3: Zeno’s convergent geometric-distance sequence, Thomson’s nonconvergent alternating states, and the Littlewood–Ross operations.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source presents these as distinct supertasks. The revised article distinguishes their structures and does not claim that one result proves another.",
+      "limitation": "The article does not audit every variant of these separate thought experiments.",
+      "required_edit": "Made: clarified the difference and kept Ross–Littlewood as a separately scoped comparison."
+    },
+    {
+      "material_claim": "The matching dataset references and review date correspond to the revised article.",
+      "source_title": "Matching Thomson’s Lamp data record",
+      "source_url": null,
+      "exact_location": "data/experiments.json record thomsons-lamp and article §9.",
+      "relationship": "supports",
+      "finding": "All three Further Reading URLs match the dataset references in order; date_verified is 2026-11-01.",
+      "limitation": "Metadata reconciliation only.",
+      "required_edit": "Made: updated dataset references and date."
+    }
+  ],
+  "unresolved_limits": [
+    "The two primary papers were consulted at selected passages, not read systematically in their entirety; the SEP provided appropriate secondary coverage of the relevant claims.",
+    "Benacerraf’s selected text came from a third-party copy because the publisher full text is gated.",
+    "No human subject-matter expert reviewed this entry."
+  ]
+}

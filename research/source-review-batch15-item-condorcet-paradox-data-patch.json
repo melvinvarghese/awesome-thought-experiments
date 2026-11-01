@@ -1,0 +1,42 @@
+{
+  "id": "condorcet-paradox",
+  "date_verified": "2026-11-01",
+  "references": [
+    {
+      "title": "Condorcet, Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix (1785), digitized French text",
+      "url": "https://archive.org/details/essaisurlapplica00cond",
+      "kind": "primary",
+      "support": "Primary French text; the Discours préliminaire passage on an election among three candidates and majority judgments was read in Archive.org OCR text. It supports historical attribution and Condorcet's treatment of preference propositions; the complete work was not read and the OCR may contain errors."
+    },
+    {
+      "title": "Christian List, “Social Choice Theory,” Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/social-choice/",
+      "kind": "academic",
+      "support": "Scholarly reference account; relevant passages in §§1.1, 3.1, and 3.3.1 were read for historical framing, pairwise majority cycles, model-dependent frequency, and the single-peaked domain result. Secondary analysis; the whole entry was not read."
+    },
+    {
+      "title": "Eric Pacuit, “Voting Methods,” Stanford Encyclopedia of Philosophy (Fall 2017 archive)",
+      "url": "https://plato.stanford.edu/archives/fall2017/entries/voting-methods/",
+      "kind": "academic",
+      "support": "Scholarly reference account; §3.1 and §3.1.1 and the later likelihood discussion were read for the three-voter cycle, Condorcet consistency, alternative voting methods, impartial-culture assumptions, and disagreement about empirical evidence. Archived entry; selected passages only."
+    },
+    {
+      "title": "Michael Morreau, “Arrow’s Theorem,” Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/arrows-theorem/",
+      "kind": "academic",
+      "support": "Scholarly reference account; §1 was read for the paradox-of-voting example, the distinction between Condorcet's particular voting method and Arrow's broader axiomatic approach, and contrasting normative interpretations. Selected passage only."
+    },
+    {
+      "title": "Nicholas R. Miller, “Complexities of Majority Voting” (revised 2018)",
+      "url": "https://userpages.umbc.edu/~nmiller/RESEARCH/MAJVOTING.REV2018.NRM.pdf",
+      "kind": "academic",
+      "support": "Scholarly research module; relevant PDF passages in §4.2 and §8.1 were read for cycle profiles and the conditional effect of agenda order in sequential pairwise voting. Selected PDF text extraction; the full document was not read."
+    },
+    {
+      "title": "Michel Regenwetter et al., “Behavioural social choice: a status report” (2009)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689718/",
+      "kind": "academic",
+      "support": "Peer-reviewed article; §2 was read for assumptions behind theoretical cycle-frequency estimates and the authors' argument that empirical support may be limited. This is one position in a debated literature, not a comprehensive prevalence estimate; selected section only."
+    }
+  ]
+}

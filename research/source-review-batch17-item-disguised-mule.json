@@ -1,0 +1,152 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with post-edit self-verification; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md (approved 2026-11-01)",
+  "id": "disguised-mule",
+  "title": "The Cleverly Disguised Mule",
+  "article_path": "experiments/epistemology/disguised-mule.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the article and matching data/experiments.json object. Checked Dretske's attribution/publication framing; the zoo zebra and disguised-mule setup; the qualified closure principle; the skeptical inference; what the example establishes and does not establish; Dretske's relevant-alternatives response; contextualist and Moorean-style responses; and the brain-in-a-vat comparison and epistemic-possibility qualification. The status indicates traceability to consulted relevant passages, not that any philosophical position succeeds, that the cited primary article was directly read, that the literature review is exhaustive, or that an expert reviewed the entry.",
+  "summary": "The revised article specifies the inferential form of closure, presents the mule case as Dretske's proposed counterexample rather than a proof, and makes the skeptical inference conditional on its premises. It distinguishes Dretske's relevant-alternatives response from contextualist and Moorean-style replies, labels the brain-in-a-vat comparison as structural teaching framing, and does not claim either skeptical scenario is actual, likely, or epistemically possible. The relevant zebra passage is quoted and analyzed at pp. 1015–1016 in the consulted Stanford Encyclopedia entry; Dretske's original JSTOR record was accessed only for metadata, not full text. The data object was inspected but not modified; the requested patch supplies the article's new Further Reading references and remains unapplied to data/experiments.json by instruction.",
+  "sources": [
+    {
+      "title": "Epistemic Operators",
+      "author": "Fred I. Dretske",
+      "publication": "The Journal of Philosophy, vol. 67, no. 24 (1970), pp. 1007–1023; JSTOR stable record.",
+      "stable_url": "https://www.jstor.org/stable/2024710",
+      "source_type": "Primary philosophical article",
+      "access_level": "Bibliographic record/metadata only; the article body was not accessible in the consulted reproduction.",
+      "exact_locations_read": "The JSTOR reproduction's bibliographic header: author, article title, journal, volume/issue, date, page range, and stable URL. The primary text itself was not read directly.",
+      "limitations": "Metadata access does not establish Dretske's argument. The exact zebra passage and page attribution were checked through the Stanford Encyclopedia entry, which quotes the passage and identifies Dretske 1970, pp. 1015–1016."
+    },
+    {
+      "title": "Epistemic Closure",
+      "author": "Steven Luper",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2001, substantive revision 2016; online entry.",
+      "stable_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full online entry were read via targeted extraction; the whole entry was not read.",
+      "exact_locations_read": "§1 defines closure and distinguishes qualified from straight formulations; §2.1 gives the zebra/mule counterexample in detail, states the knowledge-and-inference form of K, and quotes Dretske's passage with citation to 1970, pp. 1015–1016; §2.2 explains the relevant-alternatives treatment and how zebra and not-mule differ under Dretske's account; §5.1 presents the closure-based skeptical inference and Moorean antiskeptical response; §5.2 explains the tracking-based response and its scope limitation.",
+      "limitations": "Secondary synthesis. It presents and evaluates multiple views but does not establish that Dretske's counterexample succeeds, that closure is false, or that the skeptical conclusion is true. The entry notes objections and alternative accounts; this review is not an exhaustive survey."
+    },
+    {
+      "title": "Epistemic Contextualism",
+      "author": "Patrick Rysiew",
+      "publication": "The Stanford Encyclopedia of Philosophy; first published 2007, substantive revision 2026; online entry.",
+      "stable_url": "https://plato.stanford.edu/entries/contextualism-epistemology/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full online entry were read via targeted extraction; the whole entry was not read.",
+      "exact_locations_read": "§2 clarifies that attributor contextualism concerns the context-sensitive truth conditions/propositions of knowledge attributions, rather than a direct claim that the subject's knowledge itself changes; §§3.1–3.3 formulate a closure-related skeptical puzzle and explain the contextualist response, including a shift to more demanding standards when skeptical doubts become salient.",
+      "limitations": "The entry describes contextualism as debated and discusses objections. The article represents it as one response, not consensus or a solution established by this audit; this entry does not establish that the mule scenario is actually or epistemically possible."
+    },
+    {
+      "title": "Matching The Cleverly Disguised Mule data record",
+      "author": "Project data record; no external author",
+      "publication": "Local data/experiments.json object, id disguised-mule; inspected 2026-11-01.",
+      "stable_url": null,
+      "source_type": "Project metadata record, not an external source",
+      "access_level": "Matching object was inspected; it was not edited.",
+      "exact_locations_read": "The complete object for id disguised-mule, including original_publication, references, date_verified, file_path, and summary, was compared with the revised article. The object currently retains only the Epistemic Closure reference and date_verified 2026-10-31; the separate requested patch matches all three article Further Reading references and their order.",
+      "limitations": "Metadata inspection does not establish philosophical claims. The patch is deliberately not applied to data/experiments.json because modification of that file was prohibited."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Dretske is the associated thinker and the original publication is his 1970 article ‘Epistemic Operators’ in The Journal of Philosophy, volume 67, issue 24, pages 1007–1023.",
+      "source_title": "Epistemic Operators; Epistemic Closure",
+      "source_url": "https://www.jstor.org/stable/2024710",
+      "exact_location": "JSTOR bibliographic header (author, title, journal, volume/issue/date/pages); SEP Epistemic Closure bibliography entry for Dretske 1970.",
+      "relationship": "supports_with_qualification",
+      "finding": "Bibliographic attribution and publication details match the JSTOR metadata and the SEP bibliography. The article now states that the primary text was not directly accessed during this review.",
+      "limitation": "Bibliographic metadata is not evidence of the article's argument; the relevant argument is traced through the SEP quotation and analysis rather than direct primary-text reading.",
+      "required_edit": "Made: retained the citation, normalized journal/issue/page details, and clarified in Sources and Attribution that the original paper body was not accessed."
+    },
+    {
+      "material_claim": "The zebra case stipulates an ordinary zoo setting with a zebra in a marked pen; ‘zebra’ entails ‘not a cleverly disguised mule,’ while the perceptual evidence would persist in the specified mule alternative.",
+      "source_title": "Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "exact_location": "§2.1, ‘Closure Fails Due to the Tracking Condition on Knowledge,’ zebra example; §2.2, relevant-alternatives analysis. The SEP reproduces the zebra-in-a-cage percepts and the not-mule contrast, and quotes Dretske 1970, pp. 1015–1016.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the stipulated setup and the same-appearance counterfactual as part of Dretske's example. The article now expressly treats the mule as a stipulated epistemic alternative, not a claim about actual zoo practice or event likelihood.",
+      "limitation": "This is a philosophical case description, not empirical evidence about zoos. Whether the mule possibility is relevant to knowing the ordinary zebra claim is disputed within the theoretical account.",
+      "required_edit": "Made: clarified the counterfactual and marked empirical probability and relevance as unsettled rather than implied facts."
+    },
+    {
+      "material_claim": "The closure question concerns knowing p, recognizing that p entails q, and believing q by inference from p; Dretske's case is a proposed counterexample to closure, not a proof that closure fails.",
+      "source_title": "Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "exact_location": "§1, qualified closure formulations; §2.1, formulation of K and the zebra example's three claims; §2.2, relevant-alternatives analysis.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP explicitly presents a qualified principle involving knowledge of p, recognition of entailment, and belief in q by deduction, then frames Dretske's case as a proposed counterexample. The revised article avoids treating an unqualified closure slogan as the settled formal principle.",
+      "limitation": "Closure principles come in multiple formulations and require qualifications; the SEP's formulation and Dretske's analysis are not the only positions in epistemology.",
+      "required_edit": "Made: specified the inferential form and described the example as a proposed counterexample."
+    },
+    {
+      "material_claim": "The skeptical inference depends on closure, an entailment from an ordinary claim to the falsity of a skeptical alternative, and the premise that the alternative's falsity is not known.",
+      "source_title": "Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "exact_location": "§5.1, ‘Skepticism and Antiskepticism,’ formal argument from closure and a not-known-false brain-in-a-vat hypothesis; compare §2.1's zebra/not-mule case.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the conditional structure of the skeptical inference. The article now states that the conclusion follows only if the premises are granted and does not present the example itself as establishing skepticism.",
+      "limitation": "The SEP's formal presentation uses a brain-in-a-vat hypothesis; applying the same structure to the mule case is an explanatory comparison, not evidence that the skeptical premises are true.",
+      "required_edit": "Made: made the premise-dependence explicit and limited the conclusion to the argument's conditional structure."
+    },
+    {
+      "material_claim": "Dretske's relevant-alternatives/tracking response allows that the subject knows the zebra claim but does not know the mule alternative is false; the example does not settle whether closure or the skeptical premise should be rejected.",
+      "source_title": "Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "exact_location": "§2.1, tracking account and zebra counterexample; §2.2, relevant alternatives; §5.2, tracking response to Cartesian skepticism and its limitation to that kind of skepticism.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry attributes the nonclosure position to Dretske and explains it through tracking and relevance. It also identifies objections and scope limitations; the revised article presents the position as an argument rather than a settled result.",
+      "limitation": "The entry describes continuing disagreement and other approaches; this audit does not evaluate the truth of the tracking theory or review the full debate.",
+      "required_edit": "Made: distinguished Dretske's response from the bare scenario and added a non-resolution qualification."
+    },
+    {
+      "material_claim": "Contextualism offers a distinct response by treating knowledge-attribution standards as context-sensitive; making skeptical doubts salient may raise the standard, and this does not itself establish the skeptical scenario as likely or epistemically possible.",
+      "source_title": "Epistemic Contextualism",
+      "source_url": "https://plato.stanford.edu/entries/contextualism-epistemology/",
+      "exact_location": "§2 on attributor contextualism's semantic scope; §§3.1–3.3 on the skeptical puzzle and the contextualist response, including upward shift in standards when skeptical possibilities are introduced.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the contextualist explanation of shifting knowledge-attribution standards. The article labels it a debated response and separates that view from any claim about the real-world probability or epistemic possibility of the mule scenario.",
+      "limitation": "Contextualism is contested; the SEP discusses objections and alternatives. No surveyed source establishes the metaphysical or epistemic possibility of a disguised mule case.",
+      "required_edit": "Made: clarified that contextualism concerns attribution standards and does not prove the scenario's likelihood or epistemic possibility."
+    },
+    {
+      "material_claim": "A Moorean-style reply preserves closure by rejecting the premise that an ordinary claim is known while its skeptical consequence is not known; the closure argument alone does not decide that reply's success.",
+      "source_title": "Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "exact_location": "§5.1, where the entry reverses the skeptical argument using ordinary knowledge and closure, identifies the strategy with Moore, and distinguishes Moore's stronger PK principle from K.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the Moorean-style strategy and notes the stronger principle in Moore's famous argument. The article describes the reply narrowly as rejecting the skeptical premise, rather than claiming that it resolves the debate.",
+      "limitation": "The SEP's canonical example concerns hands and dreaming/brain-in-a-vat, not the zoo mule; its application to not-mule is an analogous inference from the zebra claim.",
+      "required_edit": "Made: framed the claim as a Moorean-style reply and labeled the application to the mule case as an inference rather than a settled result."
+    },
+    {
+      "material_claim": "The brain-in-a-vat comparison is a structurally similar teaching extension, not a historical variant established by the sources or a claim that either scenario is actual, likely, or epistemically possible.",
+      "source_title": "Revised article framing; Epistemic Closure",
+      "source_url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "exact_location": "Article §§1, 4, 6–7, and 10 label the comparison and prompts as teaching framing; SEP §5.1 provides the BIV closure-based skeptical argument used for comparison.",
+      "relationship": "context_only",
+      "finding": "The analogy is marked as a structural comparison; the article explicitly disclaims actual, likely, or epistemic-possibility claims. These disclaimers are editorial scope controls, not source-derived metaphysical conclusions.",
+      "limitation": "No consulted source resolves the epistemic or metaphysical possibility of the skeptical hypotheses; the audit does not attempt to do so.",
+      "required_edit": "Made: labeled the BIV extension as structurally analogous teaching framing and explicitly withheld possibility claims."
+    },
+    {
+      "material_claim": "The revised article's Further Reading references comprise the Dretske JSTOR record, SEP Epistemic Closure, and SEP Epistemic Contextualism in that order; the matching dataset record has not yet been changed to match them.",
+      "source_title": "Matching The Cleverly Disguised Mule data record; revised article; data patch",
+      "source_url": null,
+      "exact_location": "Matching data/experiments.json object id disguised-mule and article §9; patch research/source-review-batch17-item-disguised-mule-data-patch.json.",
+      "relationship": "supports",
+      "finding": "The patch references match the revised article's three Further Reading URLs and order exactly. The existing data object still contains only the prior SEP Epistemic Closure reference and date_verified 2026-10-31; no data edit was made, as instructed.",
+      "limitation": "The patch is a separate requested artifact and has not been applied to the dataset; synchronization requires a later authorized application.",
+      "required_edit": "Prepared the requested data patch only; did not modify data/experiments.json."
+    }
+  ],
+  "unresolved_limits": [
+    "The original Dretske article's full text was not directly accessible; the primary passage is traced through the SEP entry's quotation and discussion of pp. 1015–1016, while JSTOR access confirmed metadata only.",
+    "The example's success depends on disputed analyses of knowledge, closure, tracking, and relevant alternatives; this source review does not determine which analysis is correct.",
+    "The consulted sources do not establish that a cleverly disguised mule is actually possible, likely, or a relevant alternative in any real zoo; the article treats it as a stipulated case.",
+    "The SEP discussions are selected secondary reference passages; this was not an exhaustive literature review, and no human subject-matter expert reviewed the article.",
+    "The matching data object remains unchanged and therefore still has the prior single SEP reference and 2026-10-31 verification date; the requested patch is not applied by instruction."
+  ]
+}
