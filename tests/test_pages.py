@@ -108,6 +108,12 @@ class HomepageShellTests(unittest.TestCase):
         css = (ROOT / "assets/css/explorer.css").read_text(encoding="utf-8")
         self.assertRegex(css, r"grid-template-columns:\s*minmax\(18rem,\s*0\.35fr\)")
 
+    def test_source_review_note_explains_traceability_and_its_limits(self):
+        copy = self.source.lower()
+        for phrase in ("traced to sources", "philosophical truth", "scholarly consensus", "exhaustive coverage", "human expert review"):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, copy)
+
 
 if __name__ == "__main__":
     unittest.main()
