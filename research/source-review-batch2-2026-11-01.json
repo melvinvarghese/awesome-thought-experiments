@@ -1,0 +1,1065 @@
+{
+  "batch_id": "source-review-batch2-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Second batch remains local, uncommitted, and unpushed in the source-audit worktree. The first batch was separately pushed to its feature branch under prior approval; no merge to main or public release/deployment is part of this batch.",
+  "reviewer_type": "AI-assisted claim-level source checking by dedicated agents, followed by an independent post-edit check; no human expert review is claimed.",
+  "batch_scope": "Five normal-risk expansion entries selected for claim-level review: Hume’s Missing Shade of Blue; Descartes’s Piece of Wax; Twin Earth; Hesperus and Phosphorus; Arrow’s Impossibility Theorem.",
+  "entries": [
+    {
+      "article_edit_recommendations": [
+        "Correct the article and dataset publication attribution: place the missing-shade case in the 1748 Enquiry, Section II, §8; distinguish it from the 1739–40 Treatise formulation of the copy principle.",
+        "Replace broad ‘all content comes from sense experience’ language with Hume’s distinction between simple ideas and corresponding impressions, including inward impressions of reflection and the imagination’s combinatory role.",
+        "Keep Hume’s own assessment explicit: he says the case may show simple ideas are not in every instance derived from matching impressions, but calls it singular and not enough to alter the general maxim.",
+        "Remove or source the claim that defenders treat the shade as composed from similar ideas. If summarizing scholarship, name the authors and distinguish their arguments from Hume’s own text.",
+        "Identify the Mary’s Room and phenomenal-concept remarks as interpretive teaching comparisons unless direct scholarly evidence is added."
+      ],
+      "id": "humes-missing-shade-of-blue",
+      "issues": [
+        {
+          "article_claim": "Article line 6 and the dataset record’s original_publication attribute the missing-shade thought experiment to both A Treatise of Human Nature (1739–40) and An Enquiry concerning Human Understanding (1748).",
+          "evidence_basis": "Primary text EHU 2.8, SBN 20–21, contains the setup, argument, and qualification. The SEP §2.1 likewise cites the example as EHU 2.8, while distinguishing the copy principle’s Treatise and Enquiry locations. Treatise T 1.1.1.5–8 and T 1.1.2.1 were checked and concern the principle, not the shade case.",
+          "recommended_action": "Separate the origin of the general copy principle from the publication of this example: state that the missing-shade passage appears in An Enquiry concerning Human Understanding (1748), Section II, §8; the Treatise (1739–40) contains an earlier formulation of the copy principle. Correct the dataset metadata as well as the article when authorized.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "Article lines 13 and 23 describe Hume’s principle broadly as all content coming from sense experience and present the exception as undermining an absolute claim about content.",
+          "evidence_basis": "E 2.5, SBN 19, says materials derive from outward or inward sentiment and mental mixture/composition belongs to the mind; E 2.8, SBN 20–21, calls the shade a singular exception. T 1.1.2.1, SBN 7–8, distinguishes impressions of sensation and reflection. The SEP §2.1 also describes both types of impression.",
+          "recommended_action": "Use Hume’s terms more precisely: simple ideas in their first appearance derive from corresponding simple impressions; Hume’s impressions include both sensation and reflection, and the imagination can compound, transpose, augment, or diminish experienced materials. Explain that the missing shade is Hume’s stated exception to the correspondence rule, not evidence that every kind of content is sense-derived or not sense-derived.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "Article §4 presents unnamed ‘critics of empiricism’ and ‘defenders’ as established camps, including the claim that defenders say the missing shade is composed from similar ideas and therefore requires no new simple impression.",
+          "evidence_basis": "E 2.8, SBN 20–21, says the shade produces a distinct idea and concludes simple ideas are not invariably derived from corresponding impressions. SEP §2.1 calls it a counterexample and attributes a non-generalizability interpretation to Fogelin (1984), Garrett (1985), and Durland (1996). Neither source supports the article’s specific unnamed composition-based ‘defenders’ position. The cited secondary papers themselves were not read.",
+          "recommended_action": "Remove or qualify the ‘defenders’ claim unless it is tied to a named, directly consulted source. Do not attribute this explanation to Hume: he calls the absent shade a simple idea and concedes it as an exception. If presenting scholarship, name the authors and accurately distinguish their accounts; the SEP’s cited explanation for Hume’s lack of concern is that gradation is unusual and the case does not generalize, not that the missing shade is compositionally complex.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "Article §§3–4 say the example is an early case relevant to modern debates over Mary’s Room, phenomenal concepts, and whether experience is required for understanding, and summarize disagreement without identifying sources for those links.",
+          "evidence_basis": "The primary E 2.8 concerns Hume’s copy principle and a missing shade; the reviewed SEP §2.1 discusses gradation and named interpretations of Hume’s response but does not establish the article’s claims about Mary’s Room or phenomenal concepts.",
+          "recommended_action": "Label these connections as the article’s own teaching analogy or provide direct scholarly sources and accurately scoped descriptions. For disagreement, identify the cited authors and their specific arguments rather than implying a settled division into critics and defenders.",
+          "severity": "material"
+        }
+      ],
+      "review_date": "2026-11-01",
+      "scope": "Checked the article’s scenario, attribution, argument, conclusion and qualification; publication details; and claims about interpretive disagreement and contemporary relevance. Also checked the matching dataset record’s original_publication metadata. Primary passages and the cited SEP entry were read at the locations below. The article’s own teaching prompts and comparisons are identified as editorial framing where they exceed the sources. This is source checking, not expert review.",
+      "sources": [
+        {
+          "access_level": "Selected relevant passages read in the online entry; the entire entry was not read.",
+          "author": "Hsueh Qu and Elizabeth S. Radcliffe",
+          "claim_relationships": [
+            {
+              "claim": "The copy principle says simple ideas copy corresponding simple impressions; it occurs in both the Treatise and the first Enquiry.",
+              "evidence_location": "§2.1, paragraph beginning ‘With this theoretical apparatus’; cites T 1.1.2.1 and EHU 2.5.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The missing-shade scenario is Hume’s counterexample and concerns a person who can fill a gap in a gradation of blue shades by imagination.",
+              "evidence_location": "§2.1, paragraph beginning ‘Having just proposed the Copy Principle’ and quoted EHU 2.8 passage.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Hume treats the case as an unusual exception that does not require abandoning his general principle.",
+              "evidence_location": "§2.1, paragraph after the EHU 2.8 quotation: calls the example unusual because it involves gradation and says it does not generalize to the uses Hume intends; attributes this interpretive rationale to Fogelin 1984, Garrett 1985, and Durland 1996. This is the SEP authors’ interpretation, not Hume’s stated reason.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The missing-shade example is published in both the Treatise and the first Enquiry.",
+              "evidence_location": "§2.1 locates the copy principle in both works but identifies the quoted missing-shade passage as EHU 2.8; §1 dates the works separately. The entry does not place the shade example in the Treatise.",
+              "relationship": "contradicts"
+            },
+            {
+              "claim": "Critics and defenders hold the positions summarized in article §4, including the claim that defenders treat the shade as composed from similar ideas.",
+              "evidence_location": "§2.1 recognizes the example as a counterexample and cites named interpretations of Hume’s response, but does not support the article’s unnamed ‘defenders’ position that the missing simple idea is composed from similar ideas.",
+              "relationship": "does_not_establish"
+            },
+            {
+              "claim": "The example is linked to modern phenomenal-concept debates and Mary’s Room in the way article §§3–4 imply.",
+              "evidence_location": "The reviewed §2.1 passage discusses Hume’s copy principle, gradation, and cited interpretations; it does not establish the article’s claims about phenomenal concepts or Mary’s Room.",
+              "relationship": "does_not_establish"
+            }
+          ],
+          "limitations": "A selected passage from a reference entry is secondary evidence, not a substitute for Hume’s text. The entry’s account of why Hume is unperturbed is explicitly an interpretation attributed to named scholarship, not proof of consensus. The full referenced papers by Fogelin, Garrett, and Durland were not read, so their arguments cannot independently validate the article’s separate ‘critics’ and ‘defenders’ summary.",
+          "locations_reviewed": "Section 1, ‘Life and Works’ (Treatise publication in 1739 and 1740; first Enquiry in 1748); §2.1, ‘Philosophy of Mind,’ paragraphs beginning ‘With this theoretical apparatus’ and ‘Having just proposed the Copy Principle’; associated bibliography references to Fogelin (1984), Garrett (1985), and Durland (1996).",
+          "publication_details": "Stanford Encyclopedia of Philosophy; first published 16 June 2026. The entry identifies A Treatise of Human Nature (1739–40) and An Enquiry concerning Human Understanding (1748) in its bibliography and Life and Works section.",
+          "source_type": "Scholarly reference work (secondary source)",
+          "title": "David Hume",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        },
+        {
+          "access_level": "Selected relevant paragraphs in the complete online text read, including E 2.5–2.9; not the whole work.",
+          "author": "David Hume",
+          "claim_relationships": [
+            {
+              "claim": "Hume’s setup is a person acquainted with colours except one shade of blue, presented a gradual range with a blank, who may imagine the absent shade.",
+              "evidence_location": "E 2.8, SBN 20–21: Hume specifies a person with thirty years’ sight, one unencountered shade, shades arranged from deepest to lightest, and asks whether imagination can supply it; he says few will deny that it can.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Hume presents the case as an exception to the principle that simple ideas derive from corresponding impressions, but says it is too singular to change the general maxim.",
+              "evidence_location": "E 2.8, SBN 20–21: ‘simple ideas are not always, in every instance’ derived from matching impressions; the instance is ‘so singular’ it does not merit altering the maxim.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Hume says all simple ideas are copies of earlier simple impressions and all idea-content comes from sense experience alone.",
+              "evidence_location": "E 2.5, SBN 19, says materials of thinking derive from outward or inward sentiment and the mind mixes and composes them; E 2.6 states the challenge to produce an untraced idea; E 2.8 supplies the exception. ‘Sense experience alone’ omits inward sentiment and mental composition.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Hume gives the imagined shade as a composed idea that does not need a new simple impression.",
+              "evidence_location": "E 2.8, SBN 20–21 calls each shade a distinct idea and describes the absent particular shade as a simple idea not derived from its corresponding impression; Hume does not explain it away as a complex composition.",
+              "relationship": "contradicts"
+            },
+            {
+              "claim": "The Treatise contains the missing-shade example and Hume’s dismissal of it.",
+              "evidence_location": "The reviewed E 2.8 passage establishes the example in the first Enquiry. It says nothing about the Treatise; the separately reviewed Treatise sections below address that publication claim.",
+              "relationship": "does_not_establish"
+            }
+          ],
+          "limitations": "Primary evidence establishes what Hume wrote and how he framed his own qualification, not whether the thought experiment succeeds or how later scholarship should interpret it. The cited web edition’s selected paragraphs were read; the entire Enquiry was not.",
+          "locations_reviewed": "E 2.5, SBN 19 (materials of thought and copy principle); E 2.6–2.7, SBN 19–20 (copy principle and sensory examples); E 2.8, SBN 20–21 (full missing-shade setup, question, proposed answer, and qualification); E 2.9, SBN 21–22 (application of the principle).",
+          "publication_details": "First published in 1748 (initially titled Philosophical Essays concerning Human Understanding); online text presents EHU section/paragraph locators and SBN pagination. The missing-shade passage is EHU 2.8, SBN 20–21.",
+          "source_type": "Primary philosophical text (online scholarly text)",
+          "title": "An Enquiry concerning Human Understanding, Section II, ‘Of the Origin of Ideas’",
+          "url": "https://davidhume.org/texts/e/2"
+        },
+        {
+          "access_level": "Relevant selected passages in Sections 1–2 read in the online text; not the whole Treatise.",
+          "author": "David Hume",
+          "claim_relationships": [
+            {
+              "claim": "Hume’s Treatise contains an early formulation of the copy principle concerning simple ideas and impressions.",
+              "evidence_location": "T 1.1.1.5–8, SBN 3–5; especially T 1.1.1.7, which says simple ideas in their first appearance derive from corresponding simple impressions.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The missing shade of blue appears in the Treatise (1739–40).",
+              "evidence_location": "T 1.1.1.5–8 and T 1.1.2.1 were read; these passages discuss resemblance, the copy principle, and impressions of sensation/reflection but contain no missing-shade case. The SEP locates the quoted example at EHU 2.8.",
+              "relationship": "does_not_establish"
+            },
+            {
+              "claim": "The copy principle concerns only ideas derived from external sense impressions.",
+              "evidence_location": "T 1.1.2.1, SBN 7–8, distinguishes impressions of sensation from impressions of reflection; it says impressions of reflection are in great measure derived from ideas and are themselves copied into ideas.",
+              "relationship": "contradicts"
+            }
+          ],
+          "limitations": "The checked Treatise sections establish the earlier principle and relevant terminology, but do not prove the example is absent from every page of the Treatise. The SEP’s specific attribution of the example to EHU 2.8, together with direct inspection of the Treatise sections relevant to the principle, supports the publication correction; this review did not search the entire Treatise text exhaustively.",
+          "locations_reviewed": "T 1.1.1.5–8, SBN 3–5 (resemblance and origin of simple ideas); T 1.1.2.1, SBN 7–8 (impressions of sensation and reflection and their relation to ideas). Section 2 also checked at https://davidhume.org/texts/t/1/1/2.",
+          "publication_details": "Books 1 and 2 first published in 1739; Book 3 in 1740. Online text presents T book/part/section/paragraph locators and SBN pagination.",
+          "source_type": "Primary philosophical text (online scholarly text)",
+          "title": "A Treatise of Human Nature, Book 1, Part 1, Sections 1–2",
+          "url": "https://davidhume.org/texts/t/1/1/1"
+        }
+      ],
+      "status": "source_checked",
+      "title": "Hume’s Missing Shade of Blue",
+      "unresolved": "The primary text and cited SEP passage establish the central scenario and Hume’s qualification, but the article’s composition-based ‘defenders’ account, its broader contemporary-relevance assertions, and its generalized disagreement summary are not traceable to the cited passages; the full papers cited by the SEP were not read. Accordingly, the material claim scope is not fully source-traceable and the entry remains partially_source_checked, not source_checked. No expert review is claimed.",
+      "status_before_edit": "partially_source_checked",
+      "post_edit_status": "source_checked after independent read-only review and applicable follow-up correction",
+      "changes_made": [
+        "Correct the missing-shade attribution to An Enquiry concerning Human Understanding (1748), Section II, §8; distinguish the Treatise as an earlier source for the copy principle.",
+        "State the copy principle in terms of simple ideas and corresponding impressions, including reflection; retain Hume’s singular-exception qualification.",
+        "Remove the unsupported composition-based defenders account; attribute the gradation interpretation to the SEP and label Mary’s Room and sensory extensions as teaching comparisons."
+      ],
+      "post_edit_review": {
+        "first_recheck": {
+          "edit_coverage": "complete",
+          "recommended_status": "source_checked",
+          "alignment_at_first_check": "minor_mismatch",
+          "remaining_material_issues": [],
+          "confidence": "medium",
+          "evidence_basis": [
+            "The revised article corrects the Enquiry attribution, preserves Hume’s qualification, states the copy principle with reflection, removes the unsupported composition-based explanation, and labels Mary’s Room as a teaching comparison.",
+            "The cited SEP supports the qualified gradation interpretation as an interpretation associated with Fogelin, Garrett, and Durland, not as Hume’s stated reason.",
+            "The Enquiry attribution and Treatise distinction agree between article and dataset."
+          ]
+        },
+        "follow_up": {
+          "issue": "The Treatise reference title covered Sections 1–2 while the URL led to Section 1.",
+          "correction": "Split the article and dataset references into separate Treatise Section 1 and Section 2 entries, with section-specific titles, URLs, and claim support.",
+          "verification": "A post-edit script compared the Further Reading URL set against dataset references for all five entries; the Hume sets match exactly. The repository validator also passed after this correction.",
+          "final_status": "source_checked"
+        }
+      }
+    },
+    {
+      "article_edit_recommendations": [
+        "In section 4, either remove the unreferenced claims about ‘empiricist critics’ and scholarly disagreement or supply sources naming the critics, their arguments, and the specific disputed conclusion.",
+        "In section 3, distinguish the changing sensory qualities from the mind’s judgment that the body remains the same wax; avoid wording that implies Descartes takes sensory awareness itself to consist only of properties that change.",
+        "In section 5, distinguish ‘not an argument that wax is unreal’ from the passage’s function within the Meditations’ skeptical method and its conclusion about the mind being better known than body.",
+        "In section 1, use ‘just taken from the honeycomb’ rather than ‘fresh from the hive’; consider including the omitted coldness and size details for closer fidelity to the primary passage."
+      ],
+      "id": "wax-argument",
+      "issues": [
+        {
+          "article_claim": "‘Empiricist critics argue that the sameness of the wax can be understood through continuity of change and does not require a special faculty.’ (line 29)",
+          "evidence_basis": "The sole cited SEP reference’s reviewed passages (sections 1.4 and 9.1) describe Descartes’s argument and its epistemological role but do not establish this continuity-based objection or name its proponents. The primary Second Meditation presents Descartes’s own case, not this later criticism.",
+          "recommended_action": "Remove this as a reported scholarly position unless a source identifying the critics and their argument is added. Alternatively label it clearly as a possible reader’s objection or teaching prompt, not as a documented historical/scholarly view.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "‘Scholars debate how far the conclusion about the mind follows.’ (line 29)",
+          "evidence_basis": "The article and dataset cite only Newman’s SEP entry. The reviewed portions contextualize the mind-better-known-than-body thesis but do not substantiate this unspecified debate about how far the wax argument establishes it. A debate about a different mind doctrine should not be conflated with this claim.",
+          "recommended_action": "Specify which conclusion is contested and cite sources representing the competing interpretations; otherwise recast this as an open question for readers rather than a claim about scholarship.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The senses ‘report only the changing qualities’ and Descartes’s case is ‘not mainly a skeptical argument.’ (lines 23 and 33)",
+          "evidence_basis": "Second Meditation, paragraphs beginning ‘Let us consider…,’ ‘Perhaps what I now think about the wax…,’ and ‘As I reach this conclusion…’: Descartes distinguishes changing sensory properties from the mind’s grasp and judgment; the passage follows the earlier doubt and contributes to the argument about the mind. The article’s shorthand risks blurring those points.",
+          "recommended_action": "Clarify that the sensible properties Descartes initially enumerates change, while he argues that recognition of the wax as the same body and of its nature involves mental perception/judgment. State that it is not an argument that wax is unreal, while noting its place in the skeptical sequence and its mind-better-known-than-body function.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The wax is ‘fresh from the hive.’ (line 13)",
+          "evidence_basis": "Second Meditation, paragraph beginning ‘Let us consider…’: the reviewed translation says the wax has ‘just been taken from the honeycomb’ and includes coldness and size among its initial features.",
+          "recommended_action": "Change to ‘just taken from the honeycomb’ or similarly close wording; optionally restore the omitted initial coldness and size and the wax’s subsequent increase in size.",
+          "severity": "minor"
+        }
+      ],
+      "review_date": "2026-11-01",
+      "scope": "Audited the article’s material claims and attributions in lines 6, 13–15, 19, 23–25, 29, 33–34, 44, and 54–60: original work/date, wax setup and change, argument from sensation and imagination to mental apprehension/judgment, conclusion about the mind, the argument’s place in the Meditations, interpretive/disagreement claims, and the street-window extension. Compared the article and dataset reference with relevant passages in the cited SEP entry and the Second Meditation in an accessible English translation. This is a source-traceability review, not an assessment of philosophical soundness or expert review.",
+      "sources": [
+        {
+          "access_level": "Selected relevant passages retrieved and read; the full entry was not read cover to cover.",
+          "author": "Lex Newman",
+          "claim_relationships": [
+            {
+              "claim": "The wax passage occurs in the Second Meditation and illustrates mental scrutiny of the idea/nature of body.",
+              "evidence_location": "Section 1.4, paragraph beginning ‘The famous “wax” thought experiment…’; cites Med. 2, AT 7:30f, CSM 2:20f.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The passage contributes to Descartes’s claim that the mind is better known than bodies.",
+              "evidence_location": "Section 9.1, ‘That Mind is Better-Known than Body,’ discussion of the Second Meditation and Descartes’s mind-better-known-than-body doctrine.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Meditations on First Philosophy was first published in 1641.",
+              "evidence_location": "Entry introduction: six sets of objections and replies were published with the first edition of the Meditations (1641); a seventh set was added in 1642.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Empiricist critics argue that continuity through change explains wax identity without a special faculty, and scholars debate how far the mind conclusion follows.",
+              "evidence_location": "The reviewed passages in sections 1.4 and 9.1 explain Descartes’s position and the argument’s epistemological role; they do not establish the article’s stated continuity-based empiricist objection or identify scholars and competing positions on that specific conclusion.",
+              "relationship": "does_not_establish"
+            }
+          ],
+          "limitations": "The SEP is secondary and cannot substitute for the primary text for exact setup and argument wording. The passages reviewed support the argument’s role and broad interpretation, not every claim in the entry or a general account of scholarly disagreement.",
+          "locations_reviewed": "Section 1.4, ‘Innate Ideas,’ paragraph beginning ‘The famous “wax” thought experiment…’ (identifies the Second Meditation, mental scrutiny, and the innate idea of body); section 9.1, ‘That Mind is Better-Known than Body,’ including its discussion of Descartes’s mind-better-known-than-body doctrine and the Second Meditation context; entry introduction for publication history (first edition, 1641).",
+          "publication_details": "Stanford Encyclopedia of Philosophy; first published December 3, 1997; substantive revision November 27, 2023.",
+          "source_type": "Scholarly reference work / encyclopedia entry",
+          "title": "Descartes’ Epistemology",
+          "url": "https://plato.stanford.edu/entries/descartes-epistemology/"
+        },
+        {
+          "access_level": "Read the relevant Second Meditation passage in the online text, from the setup of the wax through the conclusion about the mind; not a full-work reading.",
+          "author": "René Descartes; English translation by Jonathan Bennett",
+          "claim_relationships": [
+            {
+              "claim": "Descartes presents a piece of wax taken from the honeycomb, lists its initial sensory properties, and describes its changes near a fire while asking whether it remains the same wax.",
+              "evidence_location": "Second Meditation, paragraph beginning ‘Let us consider the things that people ordinarily think they understand best of all…’: the translation says ‘just been taken from the honeycomb,’ lists taste, scent, colour, shape, size, hardness, coldness, and sound, then describes melting. It does not say ‘fresh from the hive’; the article also omits the initial coldness and size and the later increase in size.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The wax’s nature cannot be identified merely with its changing sensible qualities; Descartes concludes that it is perceived by the mind rather than by imagination alone.",
+              "evidence_location": "Second Meditation, paragraphs beginning ‘Let us consider…’ and ‘Perhaps what I now think about the wax…’: Descartes says the initially reported features have altered while it remains the same wax, and argues that its extension, flexibility, and changeability are perceived by the mind alone.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Imagination cannot survey all the possible changes of the wax; the mind grasps its capacity for indefinitely many changes.",
+              "evidence_location": "Second Meditation, paragraph beginning ‘Perhaps what I now think about the wax…’: the text contrasts a few pictured shape changes with ‘endlessly many’ changes and concludes imagination does not supply the grasp of changeability.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Descartes treats seeing the wax, and seeing men through a window, as involving judgment by the mind.",
+              "evidence_location": "Second Meditation, paragraph beginning ‘As I reach this conclusion…’: Descartes says one judges that the hats and coats are men; the passage says the wax is grasped by the mind’s faculty of judgment.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Descartes concludes that the mind is known more truly, certainly, distinctly, and evidently than the wax/body through the act of perceiving or judging it.",
+              "evidence_location": "Second Meditation, paragraph beginning ‘But what am I to say about this mind…’: Descartes compares awareness of self with awareness of the wax and says the mind is known more distinctly as wax perception is considered.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The wax passage is situated within the Meditations’ skeptical sequence, rather than being a claim that wax is unreal.",
+              "evidence_location": "Second Meditation heading and preceding paragraphs set out the earlier doubt and the mind’s existence; the wax passage concludes with a claim about how wax is perceived and how the mind is known, not that wax is unreal. This supports the distinction, while the article’s phrase ‘not mainly a skeptical argument’ compresses the passage’s role in the larger method of doubt.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Continuity of change is an empiricist alternative that does not require a special faculty, and scholars dispute how far the mind conclusion follows.",
+              "evidence_location": "The reviewed Second Meditation passage presents Descartes’s argument; it does not document later critics, name such an alternative, or establish the scope of scholarly disagreement.",
+              "relationship": "does_not_establish"
+            }
+          ],
+          "limitations": "The source is an unpaginated web transcription/translation, not a critical edition. Its header date ‘1639’ conflicts with the work’s established first-publication date, and the page’s Cambridge University Press attribution is not a full bibliographic citation for the specific translation edition. The review uses it for the passage’s argument, not for fine-grained textual or translation-critical claims.",
+          "locations_reviewed": "Second Meditation, heading ‘The nature of the human mind, and how it is better known than the body’: paragraph beginning ‘Let us consider the things that people ordinarily think they understand best of all…’ (wax’s initial sensible qualities and change by fire); following paragraph beginning ‘Perhaps what I now think about the wax…’ (extension, flexibility/changeability, imagination, and perception by mind); following paragraph beginning ‘As I reach this conclusion…’ (judgment and the window/men example); paragraph beginning ‘But what am I to say about this mind…’ (mind known more truly, certainly, distinctly, and evidently than wax). The page is unpaginated; locations are by section and paragraph opening words.",
+          "publication_details": "Primary philosophical work first published in Latin in 1641. The reviewed online page identifies Jonathan Bennett as translator, says the text was published by Cambridge University Press, and credits Andy Blunden with transcription. The page header says ‘Rene Descartes 1639,’ which conflicts with the 1641 publication date established by the SEP; this review identifies the work by its Second Meditation text, not that anomalous header.",
+          "source_type": "Primary philosophical text in a modern English translation",
+          "title": "Meditations on First Philosophy in which are demonstrated the existence of God and the distinction between the human soul and the body — Second Meditation",
+          "url": "https://www.marxists.org/reference/archive/descartes/1639/meditations.htm"
+        }
+      ],
+      "status": "source_checked",
+      "title": "Descartes’s Piece of Wax",
+      "unresolved": "The article’s asserted later/empiricist disagreement and the scope of scholarly debate remain unverified because no source read here establishes those positions. The entry therefore remains partially_source_checked. The primary passage and cited SEP support the central setup and argument, but the reported disagreement needs named, passage-level evidence before the claim scope can be considered fully traceable. No expert review was performed.",
+      "status_before_edit": "partially_source_checked",
+      "post_edit_status": "source_checked after independent read-only review and applicable follow-up correction",
+      "changes_made": [
+        "Clarify that the listed sensible qualities change while Descartes’s judgment identifies the continuing wax; include the mind’s judgment and window example.",
+        "Remove unsupported empiricist/scholarly-camp claims and frame the unresolved issue as a reader prompt.",
+        "Cite the Lancaster-hosted English translation used for the revised paraphrase and the SEP for context; translations may vary in wording."
+      ],
+      "additional_parent_source_check": {
+        "title": "Meditations on First Philosophy, Second Meditation (English translation, Lancaster University text)",
+        "author": "René Descartes; English translation hosted by Lancaster University",
+        "source_type": "Primary philosophical text (online English translation)",
+        "access_level": "The full page was fetched; the relevant Second Meditation paragraphs 11–15 were extracted and read.",
+        "url": "https://www.lancaster.ac.uk/users/philosophy/courses/211/meditationssinglefile.htm",
+        "locations_reviewed": "Second Meditation, paragraphs 11–15: wax setup and change, understanding/judgment, window example, and the conclusion about the mind.",
+        "claim_relationships": [
+          {
+            "claim": "Descartes describes wax recently taken from the beehive and lists its initial sensible qualities and changes near the fire.",
+            "relationship": "supports"
+          },
+          {
+            "claim": "Descartes says the mind understands the wax and judges that the people seen from a window are people.",
+            "relationship": "supports"
+          }
+        ],
+        "note": "The inspected Lancaster-hosted Veitch text supports the article’s neutral paraphrase “just taken from the hive.” Translation wording varies; an alternative English rendering uses “honeycomb.” The article does not quote either translation."
+      },
+      "post_edit_review": {
+        "first_recheck": {
+          "edit_coverage": "complete",
+          "recommended_status": "source_checked",
+          "source_and_metadata_alignment": "aligned",
+          "remaining_material_issues": [],
+          "confidence": "high",
+          "evidence_basis": [
+            "The revised account distinguishes changed sensible qualities from the mind’s understanding and judgment, and includes the window example.",
+            "The Lancaster-hosted Second Meditation translation supports the wax setup and judgment passages; wording varies by translation, and the article paraphrases rather than quotes.",
+            "Article and dataset titles and URLs align for Lancaster and the SEP; scholarly disagreement is framed as a reader question, not an asserted consensus."
+          ]
+        }
+      }
+    },
+    {
+      "article_edit_recommendations": [
+        "Revise the opening setup to distinguish matching psychological/intrinsic properties from a literal molecular duplicate; retain the latter only as a clearly marked idealization and mention the water-in-the-body objection.",
+        "In ‘Why It Matters,’ separate Putnam’s direct semantic conclusion about reference/extension and psychological state from later extensions to belief content; avoid equating meaning with extension or implying that content externalism entails an externally located or extended mind.",
+        "Revise ‘Major Interpretations’ to distinguish the varieties of internalism and to qualify that externalist content depends on relevant environmental relations/history, which may include acquisition and linguistic community, rather than the speaker’s current surroundings alone. Name representative critics if space permits.",
+        "Add a source and a sentence distinguishing the 1975 Twin Earth example from Putnam’s separate 1981 brain-in-a-vat argument; state that the latter is debated.",
+        "Replace the absolute chemistry wording with Putnam’s exact 1750 qualification and label the chemical-possibility statement as the article’s own gloss."
+      ],
+      "id": "twin-earth",
+      "issues": [
+        {
+          "article_claim": "Section 1 says Twin Earth is an ‘exact duplicate of Earth’ with one difference, and the inhabitants include an exact twin of the reader (lines 13–15).",
+          "evidence_basis": "Putnam, ‘Are meanings in the head?’: the Doppelgänger is introduced with ‘if he wishes’ and ‘my stories will not depend on this’; the 1750 comparison stipulates same psychological state. Brown, ‘Narrow Mental Content,’ §2.1, notes the body-water problem for exact duplicates.",
+          "recommended_action": "Describe the relevant sameness as sameness of psychological/intrinsic state for the thought experiment, and state that Putnam says an identical Doppelgänger is optional and the story does not depend on one. Flag that the literal molecule-for-molecule duplicate is physically problematic in the water/XYZ example because the human body contains water.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The article moves from different extensions of ‘water’ to ‘meanings are not simply in the head’ without distinguishing the use of ‘meaning’ from extension/reference (line 23).",
+          "evidence_basis": "Putnam’s ‘Are meanings in the head?’ passage says the word ‘water’ has different meanings in the two uses, but cautions that the nominal ‘meaning’ does not simply mean extension; he calls the intuitive preanalytical meaning, like extension, not a function of psychological state alone. Rowlands, Lau, and Deutsch, §3.1, frames the claim in terms of theories that treat meaning partly through reference/truth conditions.",
+          "recommended_action": "Clarify that the directly demonstrated difference is in extension/reference (and related truth conditions); explain that Putnam draws the broader slogan about intuitive meaning not being fixed by psychological state, while explicitly distinguishing ‘meaning’ from extension. Avoid presenting meaning as simply identical to extension.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The article says externalism makes an agent’s ‘mental life’ partly constituted by relations to the world (line 23).",
+          "evidence_basis": "Rowlands, Lau, and Deutsch, §§1, 3 and 4: content externalism concerns individuation/dependence of some contents; content externalism and extended mind are logically independent, and external individuation does not mean external location.",
+          "recommended_action": "Narrow this to the claim that at least some mental contents are partly individuated by relations to environmental circumstances. Explicitly distinguish content externalism from the stronger/different claim that mental processes or vehicles are extended beyond the person.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "Section 4 presents ‘the speaker’s environment’ as the determining environment and treats internalists as a unitary group positing shared narrow content (line 29).",
+          "evidence_basis": "Brown, ‘Narrow Mental Content,’ §§2.3 and 4.3: maps the range of response positions and notes that the environment where beliefs were acquired matters; moving twins does not immediately switch their thought contents. Rowlands et al., §3.3, treats two-dimensional semantics as a possible narrow-content approach.",
+          "recommended_action": "Qualify that environment of acquisition and causal/linguistic history may matter, not only current surroundings; distinguish extreme internalists, who reject the externalist inference, from moderate internalists, who accept broad content but also defend narrow content. Present two-dimensional semantics as one proposed approach, not a uniform internalist position.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The article says Putnam’s conclusion ‘led to externalism about content’ and that the brain-in-a-vat case is affected by Twin Earth (lines 23, 25), without clearly separating later extensions and arguments.",
+          "evidence_basis": "Rowlands et al., §3.1, says the move to propositional attitudes is an extension noted by McGinn (1977) and Burge (1979); Ebbs, ‘Content Externalism and Skepticism,’ §7.1, identifies Putnam’s BIV argument as a distinct 1981 argument and discusses objections.",
+          "recommended_action": "Retain the connection but mark it as a later extension: distinguish Putnam’s 1975 argument about natural-kind terms from later applications to propositional attitudes and from Putnam’s separate 1981 brain-in-a-vat argument. Add the relevant source and note that the BIV argument is disputed.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The text says that ‘before anyone on either planet knew any chemistry’ (line 15).",
+          "evidence_basis": "Putnam’s 1750 passage says chemistry ‘was not developed’ on either Earth and Twin Earth, then specifies what typical speakers did not know; it does not assert that nobody knew any chemistry.",
+          "recommended_action": "Use Putnam’s more precise formulation: chemistry was not developed on either planet and typical speakers did not know water’s composition.",
+          "severity": "minor"
+        },
+        {
+          "article_claim": "The article asserts that XYZ need not be chemically possible, only that the thought experiment be coherent (line 33).",
+          "evidence_basis": "Putnam’s setup stipulates a different, complex chemical formula and similarity at normal temperatures and pressures; the reviewed passage does not argue that the substance need not be chemically possible.",
+          "recommended_action": "Label this as the article’s own methodological gloss or remove it; Putnam stipulates XYZ and its observable properties but does not establish a general criterion that physical/chemical possibility is unnecessary.",
+          "severity": "minor"
+        }
+      ],
+      "review_date": "2026-11-01",
+      "scope": "Reviewed the article’s scenario and assumptions; Putnam attribution, publication metadata, argument about reference/meaning and psychological state, move to mental content, conclusions and limitations; summary of internalist/externalist alternatives and disagreement; historical setup; brain-in-a-vat connection; and related variations. Checked the dataset record and cited SEP entry, read relevant passages in Putnam’s full 1975 text and relevant passages in additional SEP entries. This is editorial source-checking, not expert review or a judgment that the philosophical argument succeeds.",
+      "sources": [
+        {
+          "access_level": "Full work accessed and text-extracted; relevant passages read (not every page reviewed).",
+          "author": "Hilary Putnam",
+          "claim_relationships": [
+            {
+              "claim": "Putnam’s thought experiment supposes Twin Earth liquid called ‘water’ is XYZ, indistinguishable from water at normal temperatures and pressures, and set before chemistry was developed; typical speakers can be in the same psychological state while the word’s extension differs.",
+              "evidence_location": "‘Are meanings in the head?’: Twin Earth setup and ‘Now let us roll the time back to about 1750’ passage, printed pp. approximately 139–141; the latter says chemistry was not developed on either Earth and typical speakers did not know the composition.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Putnam stipulates that the Earth person and counterpart must be exact molecular duplicates for the argument to work.",
+              "evidence_location": "Twin Earth setup, printed p. approximately 139: Putnam says the reader may suppose an identical Doppelgänger ‘if he wishes,’ but that his stories ‘will not depend on this’; the 1750 passage treats equal psychological state as sufficient to the comparison.",
+              "relationship": "contradicts"
+            },
+            {
+              "claim": "The extension of Earth ‘water’ is H2O and Twin Earth ‘water’ is XYZ, and Putnam’s example challenges the idea that extension is fixed by the speaker’s psychological state alone.",
+              "evidence_location": "Twin Earth 1750 passage, printed pp. approximately 140–141. Immediately before/after the example Putnam distinguishes extension from ‘meaning’: he says the word has two different meanings in the respective uses and cautions that the noun ‘meaning’ does not simply mean extension; he describes the intuitive preanalytical meaning as not a function of psychological state by itself.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Putnam’s original conclusion directly establishes externalism about all thought content, or that the mind itself is located partly outside the person.",
+              "evidence_location": "‘Are meanings in the head?’ focuses on natural-kind term extension and psychological state. The full essay discusses wide psychological states, but the later application of Twin Earth to propositional-attitude content is identified in the secondary sources as an extension of the argument, not a claim that cognitive processes or mental states are spatially outside the person.",
+              "relationship": "does_not_establish"
+            },
+            {
+              "claim": "The 1975 essay publication attribution and date are correct.",
+              "evidence_location": "University Digital Conservancy item record for The Meaning of ‘Meaning’: author Hilary Putnam, published date 1975, collection Minnesota Studies in the Philosophy of Science, volume 7, description pp. 131–193.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "The original essay’s argument is philosophical rather than empirical evidence for the truth of externalism. The listed page numbers refer to the deposited edition’s printed pagination and are approximate where the scan’s two-page layout makes individual page boundaries unclear.",
+          "locations_reviewed": "‘Are meanings in the head?’ section, especially the Twin Earth setup, the optional Doppelgänger stipulation, the 1750 comparison, and the conclusion about psychological state and extension (printed pp. approximately 138–142 in the deposited edition); later ‘Cut the pie any way you like …’ passage on meanings and the head (printed page approximately 143). Repository metadata lists the essay at pp. 131–193. The corresponding MIT-hosted excerpt was also read; its pagination is excerpt pagination, not the essay’s original pagination.",
+          "publication_details": "In Language, Mind, and Knowledge, Minnesota Studies in the Philosophy of Science, vol. 7 (1975), pp. 131–193; University of Minnesota Press, Minneapolis. University Digital Conservancy record identifies Putnam and 1975 publication date; full deposited PDF was downloaded and text-extracted.",
+          "source_type": "Primary philosophical work",
+          "title": "The Meaning of ‘Meaning’",
+          "url": "https://hdl.handle.net/11299/185225"
+        },
+        {
+          "access_level": "Relevant passages in the full online entry read; the whole entry was not reviewed line by line.",
+          "author": "Mark Rowlands, Joe Lau, and Max Deutsch",
+          "claim_relationships": [
+            {
+              "claim": "The standard setup concerns a near-duplicate Earth, H2O versus XYZ, superficial similarity, and 1750 speakers who lack knowledge of molecular composition; Putnam’s answer is that the word tokens differ in meaning/reference.",
+              "evidence_location": "§3.1: the Twin Earth setup and the passage beginning ‘Suppose you say, or write, the sentence, “Water is wet”’; the entry frames the conclusion in terms of reference, truth-makers and truth-conditions.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Putnam’s argument is commonly associated with content externalism and has been extended from word reference to propositional attitudes and thought content.",
+              "evidence_location": "§3.1, paragraph beginning ‘As McGinn (1977), and Burge (1979), have pointed out, this claim can be extended to the content of propositional attitudes’; it expressly distinguishes Putnam’s case from Burge’s explicit endorsement of that extension.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Criticism exists and there are narrower-content or internalist responses; there is no single unqualified interpretation of the argument’s reach.",
+              "evidence_location": "§3.2 describes objections by Boghossian, Segal, Crane and others, and replies; §3.3 surveys narrow-content responses and two-dimensional semantics. These are identified as positions in a debate, not a settled consensus.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Content externalism has implications for self-knowledge and theories of mind, but means some content is environmentally individuated rather than that mental processes are necessarily outside the person.",
+              "evidence_location": "§4, ‘Content Externalism and Self-Knowledge’ and ‘Externalism and Mind-Body Theories’; §1 distinguishes content externalism from vehicle externalism/extended mind and says they are logically independent.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The entry establishes that the Twin Earth conclusion covers every kind of meaning or all mental content.",
+              "evidence_location": "§3.1 limits the argument’s direct focus to word reference and presents its extension to propositional attitudes as an additional argument; §3.3 discusses narrow-content objections and limited scope.",
+              "relationship": "contradicts"
+            }
+          ],
+          "limitations": "This secondary reference work reports arguments and responses; it does not establish that any side is correct or that the cited positions exhaust the literature. The accessed live entry’s author/citation information directs readers to the fixed Winter 2020 edition.",
+          "locations_reviewed": "§3.1, ‘Putnam’s Twin Earth Thought Experiment’; §3.2, ‘Responses to Content Externalism’; §3.3, ‘Narrow Content’; §4, ‘The Significance of Content Externalism,’ including ‘Content Externalism and Self-Knowledge’ and ‘Externalism and Mind-Body Theories.’",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, Winter 2020 Edition, Edward N. Zalta (ed.), Metaphysics Research Lab, Stanford University; first published December 10, 2020. The SEP author/citation page identifies the archived edition and authors.",
+          "source_type": "Scholarly reference work",
+          "title": "Externalism About the Mind",
+          "url": "https://plato.stanford.edu/archives/win2020/entries/content-externalism/"
+        },
+        {
+          "access_level": "Relevant sections of the current online entry read; the entry itself notes that the Winter 2026 version was not yet archived.",
+          "author": "Curtis Brown",
+          "claim_relationships": [
+            {
+              "claim": "Twin Earth illustrates that identical intrinsic properties can accompany different natural-kind reference and broad content; the 1750 setting and H2O/XYZ distinction are central.",
+              "evidence_location": "§2.1, paragraphs on Oscar and Twin Oscar and the conclusion that intrinsic properties do not suffice to determine reference or broad content.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "A literal molecule-for-molecule duplicate is an unproblematic physical description of the water/XYZ scenario.",
+              "evidence_location": "§2.1 parenthetical qualification: because most of the human body consists of water, Twin Oscar cannot be an exact duplicate of Oscar in this example unless he too consists largely of water.",
+              "relationship": "contradicts"
+            },
+            {
+              "claim": "Internalist responses include shared narrow content, and two-dimensional semantics is one approach intended to capture an aspect shared across contexts.",
+              "evidence_location": "§2.3 distinguishes extreme externalism, extreme internalism, and moderate internalism; §4.3 describes mapping approaches and the shared narrow content proposal. The entry does not treat ‘internalism’ as one uniform response.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Reference is determined simply by the speaker’s current environment, and a move between environments immediately changes what the speaker means.",
+              "evidence_location": "§4.3, paragraph beginning ‘Some care is required in determining what the relevant environments are’: the environment where relevant beliefs were acquired matters; moving Oscar and Twin Oscar does not immediately change their thought contents.",
+              "relationship": "contradicts"
+            },
+            {
+              "claim": "Whether narrow content helps explain reasoning and behavior is a live issue, and critics challenge the externalist interpretation or significance of Putnam-style examples.",
+              "evidence_location": "§2.3 discusses extreme and moderate internalism, empty natural-kind concepts and behavioral explanation; these points qualify rather than simply negate externalism.",
+              "relationship": "supports_with_qualification"
+            }
+          ],
+          "limitations": "The current version had just been modified and SEP’s citation information says it is not yet archived as the Winter 2026 edition. It was consulted for relevant passages, not treated as an exhaustive account of the debate.",
+          "locations_reviewed": "§2.1, ‘Putnam’s Argument: Twin Earth and Natural Kinds’; §2.3, ‘Responses to the Arguments’; §4.3, ‘The Mapping Conception.’",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, current Winter 2026 entry, Edward N. Zalta and Uri Nodelman (eds.), Metaphysics Research Lab, Stanford University. SEP citation information says this edition is forthcoming/unarchived at the review date; the current entry was last modified October 29, 2026.",
+          "source_type": "Scholarly reference work",
+          "title": "Narrow Mental Content",
+          "url": "https://plato.stanford.edu/entries/content-narrow/"
+        },
+        {
+          "access_level": "Relevant passages of the full online entry read; the whole entry was not reviewed line by line.",
+          "author": "Gary Ebbs",
+          "claim_relationships": [
+            {
+              "claim": "Twin Earth/content externalism affects debate about whether a brain in a vat could think the same thoughts as an ordinary person.",
+              "evidence_location": "§7.1 explains how semantic externalism yields different reference and truth conditions for a BIV and ordinary counterpart, then presents a distinct thought-content argument. §7 identifies this as Putnam’s 1981 book, chapter 1, not the 1975 Twin Earth essay.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The brain-in-a-vat implication is a straightforward, uncontested conclusion of Twin Earth, or settles whether we are brains in vats.",
+              "evidence_location": "§7–7.1 labels Putnam’s result a separate 1981 argument whose reconstruction and evaluation generated further literature; §7.1 discusses objections and problems for some formulations.",
+              "relationship": "contradicts"
+            }
+          ],
+          "limitations": "The entry concerns skeptical arguments and their reconstructions, not a comprehensive treatment of the original 1975 Twin Earth argument.",
+          "locations_reviewed": "§7 and §7.1, on Putnam’s 1981 ‘Brains in a Vat’ argument and its first formulation; also relevant quoted passages and discussion of objections/reconstructions in §7.",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, Spring 2025 Edition, Edward N. Zalta and Uri Nodelman (eds.), Metaphysics Research Lab, Stanford University; rewritten entry published March 18, 2025. This SEP entry was formerly titled ‘Brains in a Vat.’",
+          "source_type": "Scholarly reference work",
+          "title": "Content Externalism and Skepticism",
+          "url": "https://plato.stanford.edu/archives/spr2025/entries/skepticism-content-externalism/"
+        }
+      ],
+      "status": "source_checked",
+      "title": "Twin Earth",
+      "unresolved": "The claim scope was substantially traceable, including the original essay and relevant secondary discussion, but the article currently contains material setup/interpretive overstatements and does not fairly distinguish several positions in the disagreement; therefore status remains partially_source_checked until those edits are made and rechecked. No expert review is claimed. The argument’s philosophical success and exhaustive state of scholarly consensus were outside scope.",
+      "status_before_edit": "partially_source_checked",
+      "post_edit_status": "source_checked after independent read-only review and applicable follow-up correction",
+      "changes_made": [
+        "Describe sameness as psychological state, not an exact molecular duplicate; distinguish reference/extension from broader meaning and content externalism from extended mind.",
+        "Separate Putnam’s 1975 Twin Earth case from his 1981 brain-in-a-vat argument and qualify the internalist alternatives and XYZ stipulation.",
+        "Add the original essay and relevant SEP references for externalism, narrow content, and skepticism."
+      ],
+      "post_edit_review": {
+        "first_recheck": {
+          "edit_coverage": "partial",
+          "recommended_status": "partially_source_checked",
+          "source_and_metadata_alignment": "aligned",
+          "remaining_material_issues": [
+            "The article separated the 1981 brain-in-a-vat (BIV) argument from Twin Earth but did not explicitly say that the BIV argument and the externalist scope needed to support it are disputed."
+          ],
+          "confidence": "high",
+          "evidence_basis": [
+            "The initial corrections to psychological-state sameness, reference/extension, content externalism, environmental history, and XYZ stipulation were present.",
+            "Article and dataset references aligned, but the explicit BIV-dispute qualification was missing."
+          ]
+        },
+        "follow_up_recheck": {
+          "reviewer_type": "Independent read-only agent review of the final revision against the initial claim review, source record, and approved standard.",
+          "correction": "Added: “That later argument and the scope of externalism needed to support it remain disputed.”",
+          "recommended_status": "source_checked",
+          "issue_resolved": true,
+          "reference_alignment": "aligned",
+          "remaining_material_issues": [],
+          "confidence": "medium",
+          "evidence_basis": [
+            "The cited SEP discussion distinguishes Putnam’s 1981 BIV argument from the 1975 Twin Earth case and discusses objections and problems for some BIV formulations, supporting the restrained dispute qualification.",
+            "The follow-up confirms the previously identified corrections remain present and article/dataset titles and URLs align."
+          ]
+        }
+      }
+    },
+    {
+      "article_edit_recommendations": [
+        "Replace the first scenario sentence’s asserted ancient-historical account with a clearly framed conventional example, or add a credible historical source that directly establishes who used the names and when the identity was recognized.",
+        "Expand or qualify §4’s short taxonomy: mention that descriptivist accounts include cluster theories and that direct-reference theories have multiple accounts of cognitive significance; avoid implying a single settled solution.",
+        "Qualify the Kripke sentence in §3 by distinguishing necessary truth of the interpreted sentence/statement from the controversial claim that the proposition it expresses is a posteriori; include the weak-necessity qualification where relevant.",
+        "Consider a brief line in §3 noting that Frege’s original essay addresses both identity statements and belief/attitude contexts, while this entry focuses on the identity puzzle."
+      ],
+      "id": "hesperus-and-phosphorus",
+      "issues": [
+        {
+          "article_claim": "‘Ancient astronomers named a bright body seen in the evening Hesperus and one seen in the morning Phosphorus. They later discovered that these are the same object, the planet Venus.’ (article §1, para. 1)",
+          "evidence_basis": "Frege’s 1892 text (translated pp. 209–210) uses morning/evening star as an astronomical example but does not mention Hesperus, Phosphorus, ancient astronomers, or the asserted chronology. Cumming, SEP Names §2.2, confirms Hesperus/Phosphorus as Evening/Morning Star and their common reference to Venus but does not establish that history. Kripke, Naming and Necessity, Lecture II p.29, explicitly frames the naming as a hypothetical ‘you see a star’ scenario.",
+          "recommended_action": "Recast as an illustrative or conventional scenario unless a source for the actual history is added. For example: ‘The evening star and morning star were eventually recognized as the same planet, Venus; Hesperus and Phosphorus are the traditional names used in this puzzle.’ Do not attribute the historical naming/discovery to ancient astronomers without historical evidence.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "The article’s §4 labels Fregean, Millian/direct-reference, descriptivist, and Kripkean positions in one-line summaries, including that Millian views explain informativeness by pragmatic or psychological differences and that descriptivism treats names as shorthand for descriptions.",
+          "evidence_basis": "Cumming, SEP Names §§2.1–2.2 and 2.6–2.7 distinguishes meaning, reference, and associated identifying information, describes cluster theory and reference without meaning, and says the cognitive-significance debate reaches a stalemate. Kripke, Naming and Necessity, Preface pp.20–21 explicitly denies that his view makes names interchangeable in all semantic/belief contexts and disclaims an official doctrine on the epistemic questions.",
+          "recommended_action": "Mark the taxonomy as schematic; distinguish single-description and cluster descriptivist accounts; avoid presenting ‘pragmatic or psychological’ as the uniform direct-reference solution. Cite competing accounts or describe the cognitive-significance debate as unsettled, noting associated identifying information may be treated as semantic meaning or as non-semantic information.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "‘Kripke later argued that “Hesperus is Phosphorus” is necessarily true yet known only through observation.’ (article §3, para. 2)",
+          "evidence_basis": "LaPorte, SEP Rigid Designators §§1.1 and 3.1 directly discusses this identity, distinguishes empirical discovery from necessity, characterizes the proposition reading as controversial though common, and notes the weak-necessity qualification. Kripke, Naming and Necessity, Preface pp.20–21, also cautions that epistemic/propositional issues are vexed and gives no official doctrine.",
+          "recommended_action": "Attribute this to Kripke’s rigid-designator account and qualify the claim: the interpreted statement is commonly treated as necessary though known a posteriori (at least weakly necessary); whether it expresses a necessarily true proposition that is itself a posteriori is controversial. Do not collapse sentence/statement and proposition readings.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "‘Frege proposed that each name has, in addition to its reference, a sense: a way in which the object is presented.’ (article §3, para. 1)",
+          "evidence_basis": "Frege, translated pp. 210–211, proposes sense as a mode of presentation; his footnote allows variation in the sense assigned to a proper name. Zalta, SEP Frege §3.2, explains the distinction and notes discussion of whether a name’s sense varies from person to person.",
+          "recommended_action": "Keep the summary but consider saying ‘Frege proposed’ explicitly as a theory rather than treating ‘sense’ as an uncontested equivalent of ordinary-language meaning; a short note can acknowledge that his remarks allow variation in judgments about a name’s sense.",
+          "severity": "minor"
+        }
+      ],
+      "review_date": "2026-11-01",
+      "scope": "Reviewed the article and matching dataset record for its astronomical setup and historical framing; Frege attribution, 1892 publication detail, identity-puzzle structure, sense/reference conclusion and qualifications; the article’s summaries of alternative theories and Kripke; and its treatment of scholarly disagreement. Relevant passages were read in both cited SEP entries, the full-text English translation of Frege’s essay, and selected relevant pages of Kripke’s Naming and Necessity. The evidence supports the central exposition, but does not establish the asserted historical ‘ancient astronomers’ setup, and the treatment of alternative theories and the modal qualification needs revision.",
+      "sources": [
+        {
+          "access_level": "Selected relevant passages in the retrieved full-text translation were parsed and read; not a complete reading of the essay.",
+          "author": "Gottlob Frege; translated by Max Black",
+          "claim_relationships": [
+            {
+              "claim": "Frege’s puzzle contrasts the apparently trivial a=a with informative identity statements a=b, and Frege responds using sense in addition to reference.",
+              "evidence_location": "Frege, translated pp. 209–211: opening paragraph states differing cognitive value and the astronomical discovery example; pp. 210–211 connect different modes of presentation with different senses despite a shared referent.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The evening-star/morning-star expressions are an instance of one referent presented in different ways.",
+              "evidence_location": "Frege, translated p. 210: explicitly says ‘evening star’ and ‘morning star’ have the same referent but not the same sense. He does not identify them by the proper names Hesperus and Phosphorus there, nor narrate the ancient-history account or identify the referent as Venus in the inspected passage.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Frege’s account means that a name’s meaning is not exhausted by its referent; sense is a mode of presentation.",
+              "evidence_location": "Frege, translated pp. 210–211. Translator’s note pp. 207–208 warns that Frege’s Sense and Reference distinction should not be simply identified with other meaning distinctions; Frege’s note on proper names allows variation in judgments about a name’s sense.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The article’s historical framing that ancient astronomers named Hesperus/Phosphorus and later discovered they were Venus is Frege’s original setup.",
+              "evidence_location": "Frege’s identity discussion, translated pp. 209–210, uses the astronomical discovery that the morning and evening star have one referent as illustration, but does not say ancient astronomers named the objects Hesperus and Phosphorus or give the article’s claimed historical chronology.",
+              "relationship": "does_not_establish"
+            }
+          ],
+          "limitations": "The PDF is a translation, not the original German; relevant excerpts, not the complete essay, were read. Its pages directly establish Frege’s argument and example, not the historical naming story or the truth of the philosophical theory.",
+          "locations_reviewed": "Black translation pp. 209–211 (original pagination approximately §§/pp. 25–27): opening identity puzzle; a=a versus a=b; astronomical discovery; names ‘evening star’ and ‘morning star’ share a referent but differ in sense; Frege’s proposed sense/mode-of-presentation explanation. Translator’s introductory note, printed pp. 207–208, for original publication and translation terminology. Frege’s footnote on variation in a proper name’s sense appears around translated pp. 210–211.",
+          "publication_details": "Original: ‘Über Sinn und Bedeutung,’ Zeitschrift für Philosophie und philosophische Kritik 100 (1892), 25–50. Translation: ‘Sense and Reference,’ The Philosophical Review 57(3) (May 1948), 209–230; Black’s translation is also titled ‘On Sense and Reference’ in later collections. The retrieved PDF includes the translation’s introductory note and text.",
+          "source_type": "Primary philosophical essay (English translation)",
+          "title": "On Sense and Reference (translation of ‘Über Sinn und Bedeutung’) ",
+          "url": "https://inters.org/files/frege1892-1948.pdf"
+        },
+        {
+          "access_level": "Relevant passages in the entry were directly retrieved and read; not a complete reading of the entry.",
+          "author": "Edward N. Zalta",
+          "claim_relationships": [
+            {
+              "claim": "The identity puzzle is Frege’s, and concerns why true identity statements can differ in cognitive significance despite their objects being identical.",
+              "evidence_location": "§3.1.1 directly contrasts a=a with a=b, describes learning an identity by inspection versus astronomical investigation, and frames the resulting problem.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The morning star and evening star are Venus and have distinct senses / modes of presentation; Frege’s sense/reference distinction addresses the identity puzzle.",
+              "evidence_location": "§3.2 explicitly says the morning-star and evening-star descriptions denote Venus but express different ways of conceiving Venus; it explains the different cognitive significance of a=a and a=b by different senses.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Frege published ‘On Sense and Reference’ in 1892.",
+              "evidence_location": "§3.1 identifies ‘Über Sinn und Bedeutung’ (‘On Sense and Reference’, 1892a); the introductory chronology dates it to 1892. Bibliography §A 1892a gives journal, volume, and pages.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The article’s short conclusion captures the only central argument and settled interpretation of Frege’s paper.",
+              "evidence_location": "§3.1 describes two puzzles in the paper—identity statements and propositional-attitude clauses—while the article emphasizes the identity puzzle. §3.2 supports its summary of the first puzzle but shows Frege’s paper’s broader scope.",
+              "relationship": "supports_with_qualification"
+            }
+          ],
+          "limitations": "A secondary overview rather than Frege’s own text; supports an account of what the paper argues, not the correctness of Frege’s theory or a full historical account of the Greek names.",
+          "locations_reviewed": "§3.1, including §3.1.1 ‘Frege’s Puzzle About Identity Statements’; §3.2 ‘Frege’s Theory of Sense and Denotation’; introductory historical paragraph on Frege’s 1891–1892 language papers; Bibliography, §A, primary sources, entry 1892a.",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, Fall 2026 Edition, eds. Edward N. Zalta and Uri Nodelman, Metaphysics Research Lab, Stanford University; latest version first published 1995, substantive revision August 1, 2026. Stable edition: https://plato.stanford.edu/archives/fall2026/entries/frege/.",
+          "source_type": "Scholarly reference-work entry (secondary)",
+          "title": "Gottlob Frege",
+          "url": "https://plato.stanford.edu/entries/frege/"
+        },
+        {
+          "access_level": "Relevant passages in the entry were directly retrieved and read; not a complete reading of the entry.",
+          "author": "Sam Cumming",
+          "claim_relationships": [
+            {
+              "claim": "Hesperus (Evening Star) and Phosphorus (Morning Star) both refer to Venus, and coreferential names can convey different information and matter in belief reports.",
+              "evidence_location": "§2.2 states that Hesperus and Phosphorus both refer to Venus; illustrates differing information and different truth values for belief reports when the believer is unaware of the identity.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "The names’ co-reference supports the article’s setup that Hesperus and Phosphorus are two names for the planet Venus.",
+              "evidence_location": "§2.2 directly establishes the associations with Evening Star/Morning Star and common reference to Venus, but does not establish the asserted ancient astronomers’ naming and discovery chronology.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Millian/direct-reference views simply contribute a referent and solve the informativeness problem by pragmatic or psychological differences; descriptivism treats names as shorthand for descriptions.",
+              "evidence_location": "§2.1–2.2 distinguish name meaning from reference and discuss accounts using identifying information associated with a name; §2.6 treats cluster theories rather than only a single-description shorthand. §2.2 calls the cognitive-significance debate a stalemate and says explanations may instead rely on associated information not treated as meaning. This cautions against presenting the article’s formulations as exhaustive or uncontested.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Kripke later connected the Hesperus/Phosphorus case with necessity and empirical knowledge.",
+              "evidence_location": "§2.4 discusses the distinction between necessity and a priori knowledge through Kripke’s empirical yet necessary gold example, not the specific Hesperus/Phosphorus identity. See the separate Rigid Designators entry for the Hesperus case.",
+              "relationship": "context_only"
+            }
+          ],
+          "limitations": "This entry is a detailed but selective survey of semantics of names. Its descriptions of live debates should not be converted into claims of consensus; it does not establish the historical naming chronology in the article.",
+          "locations_reviewed": "§2.1 ‘Meaning and Extension’; §2.2 ‘Cognitive Significance and Identification’; §2.4 ‘Meaning and Necessity’; §2.6 ‘The Cluster Theory’; §2.7 ‘Reference Without Meaning: the Use Theory’.",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, Winter 2023 Edition, eds. Edward N. Zalta and Uri Nodelman, Metaphysics Research Lab, Stanford University; first published 2008, substantive revision October 16, 2023. Stable edition: https://plato.stanford.edu/archives/win2023/entries/names/.",
+          "source_type": "Scholarly reference-work entry (secondary)",
+          "title": "Names",
+          "url": "https://plato.stanford.edu/entries/names/"
+        },
+        {
+          "access_level": "Selected passages in the retrieved full-text PDF were parsed and read; not a complete reading of the book.",
+          "author": "Saul A. Kripke",
+          "claim_relationships": [
+            {
+              "claim": "Hesperus and Phosphorus are presented as two names connected to evening and morning observations, with the empirical discovery that the observed body is Venus and the names co-refer.",
+              "evidence_location": "Lecture II, p. 29: Kripke frames this as a hypothetical ‘you see a star’ scenario, describes the evening and morning names, and says one discovers it is Venus and the same object; p. 30 discusses the example as discovery. This is not evidence that ancient astronomers historically named the body in that way.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Kripke’s view is that ‘Hesperus is Phosphorus’ is necessarily true yet known only through observation.",
+              "evidence_location": "Lecture II, pp. 29–30 supports empirical discovery of the identity; the Preface, pp. 20–21 says the identity may raise an empirical issue whereas Hesperus=Hesperus does not, but also states that the epistemic/propositional questions are vexing and he has no official doctrine. The precise modal claim and further qualification are given in LaPorte’s SEP entry, §3.1.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Direct-reference/Millian views make names fully interchangeable and thereby straightforwardly resolve Frege’s puzzle.",
+              "evidence_location": "Preface, pp. 20–21 rejects reading Kripke as committed to universal substitutivity or complete interchangeability of names; he says reference-fixing mode matters epistemically and disclaims a firm doctrine on propositions and belief contexts. Lecture II, pp. 29–30 presents the Hesperus case against Frege–Russell description accounts, not a settled pragmatic/psychological solution.",
+              "relationship": "contradicts"
+            }
+          ],
+          "limitations": "The book itself is a primary source for Kripke’s stated view, not a secondary survey of the later debate. Only selected passages were examined; the specific necessary-a-posteriori nuance is cross-checked against LaPorte’s SEP entry.",
+          "locations_reviewed": "Lecture II, pp. 29–30: Hesperus/Phosphorus example and Frege–Russell description view; Preface, pp. 20–21: Kripke’s clarification that the names are not interchangeable in all semantic or belief contexts and that he has no ‘official doctrine’ on the proposition/epistemic questions. The retrieved scan text was read at these page locations.",
+          "publication_details": "Cambridge, MA: Harvard University Press, 1980 (book of lectures originally published in 1972); retrieved scan identifies 1980 copyright and later printing. The consulted PDF reproduces the book text.",
+          "source_type": "Primary philosophical book / lectures",
+          "title": "Naming and Necessity",
+          "url": "https://neuroself.wordpress.com/wp-content/uploads/2020/11/naming-and-necessity-full-text.pdf"
+        },
+        {
+          "access_level": "Relevant passages in the entry were directly retrieved and read; not a complete reading of the entry.",
+          "author": "Joseph LaPorte",
+          "claim_relationships": [
+            {
+              "claim": "Kripke argued that the identity statement Hesperus=Phosphorus is necessary although discovered empirically.",
+              "evidence_location": "§1.1 explains the true identity as necessary on Kripke’s rigid-designator account and distinguishes metaphysical necessity from epistemic discovery; §3.1 explicitly characterizes it as necessary a posteriori.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The article’s unqualified phrase that the identity is ‘necessarily true yet known only through observation’ captures the whole modal debate.",
+              "evidence_location": "§3.1 calls the necessary-a-posteriori reading controversial though common, distinguishes statement/sentence from proposition readings, and cites objections by Soames, Salmon, and Fitch; §1.1 further qualifies necessity as at least weak necessity given the existence conditions of the designata.",
+              "relationship": "supports_with_qualification"
+            }
+          ],
+          "limitations": "A secondary reference article; it establishes that Kripke’s account is influential and that interpretations are contested, not that one position is consensus. Its analysis concerns rigidity and modality rather than the historical origin of the names.",
+          "locations_reviewed": "§1.1 ‘Standard Clarifications from Kripke’; §3.1 ‘The Necessary A Posteriori’.",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, Summer 2026 Edition, eds. Edward N. Zalta and Uri Nodelman, Metaphysics Research Lab, Stanford University; first published 2006, latest revision April 21, 2026. Stable edition: https://plato.stanford.edu/archives/sum2026/entries/rigid-designators/.",
+          "source_type": "Scholarly reference-work entry (secondary)",
+          "title": "Rigid Designators",
+          "url": "https://plato.stanford.edu/entries/rigid-designators/"
+        }
+      ],
+      "status": "source_checked",
+      "title": "Hesperus and Phosphorus",
+      "unresolved": "The claim that ancient astronomers actually named the evening and morning appearances Hesperus and Phosphorus and later discovered their identity with Venus remains unestablished by the cited sources reviewed here; the article should reframe it as a standard illustrative scenario or provide a historical source. The one-line mapping of live positions needs fuller attribution if it is intended as more than an introductory sketch. This is source checking, not expert review.",
+      "status_before_edit": "partially_source_checked",
+      "post_edit_status": "source_checked after independent read-only review and applicable follow-up correction",
+      "changes_made": [
+        "Recast the ancient-naming chronology as a standard illustrative scenario; distinguish Frege’s morning-star/evening-star example from the Hesperus/Phosphorus formulation.",
+        "Make theoretical positions schematic and qualify the Kripke modal claim, including the sentence/proposition distinction and weak-necessity caveat.",
+        "Align article references with the exact SEP pages and the Frege translation consulted."
+      ],
+      "post_edit_review": {
+        "first_recheck": {
+          "edit_coverage": "partial",
+          "recommended_status": "source_checked",
+          "source_and_metadata_alignment": "aligned",
+          "remaining_material_issues": [],
+          "confidence": "high",
+          "evidence_basis": [
+            "The setup is framed as a standard illustrative case and no unsupported ancient chronology is asserted; Frege’s morning-star/evening-star use is distinguished from the Hesperus/Phosphorus formulation.",
+            "The Fregean, descriptivist, direct-reference, and Kripkean accounts are schematic and qualified; the sentence/proposition distinction and modal caveat are included.",
+            "Article and dataset use the consulted Frege translation and exact SEP pages for Frege, Names, and Rigid Designators."
+          ]
+        }
+      }
+    },
+    {
+      "article_edit_recommendations": [
+        "Name all five formal conditions and make clear that the requested output is itself a social ordering; define independence and nondictatorship as technical constraints rather than informal guarantees of fairness.",
+        "State the result narrowly: no social welfare function over at least three alternatives can satisfy all five conditions under the theorem’s assumptions. Preserve the article’s useful point that this is not a direct verdict on one election or a proof that democracy is impossible.",
+        "Replace the generic claim about critics with a brief, attributed account of the disagreement over the theorem’s political significance and the defensibility of assumptions such as IIA.",
+        "Qualify claims about escaping the theorem through intensity/cardinal information: these approaches alter the information model and assumptions; they do not show that any rule using ratings automatically avoids all relevant impossibilities."
+      ],
+      "id": "arrows-impossibility-theorem",
+      "issues": [
+        {
+          "article_claim": "‘Arrow lists conditions’ followed by four conditions, then says no rule satisfies ‘all of these conditions.’",
+          "evidence_basis": "Morreau, SEP §3.1 defines five separate conditions, including Social Ordering; §3.2 states the theorem with U, SO, WP, D, and I. Article lines 13–15 list four conditions after describing the requested group-ranking output.",
+          "recommended_action": "Make the formal structure explicit: the theorem concerns a social welfare function that returns a weak/social ordering (Social Ordering) and satisfies Unrestricted Domain, Weak Pareto, Nondictatorship, and Independence of Irrelevant Alternatives. Explain that the article’s four listed requirements plus its desired-ranking output correspond to five formal conditions, and retain the technical scope of the input profiles.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "‘The theorem shows that … every method gives up something’ and the statement that it ‘does not apply directly to a single election.’",
+          "evidence_basis": "SEP §2 distinguishes fixed alternatives and people from the procedure’s required behavior across possible preference profiles; §2.2 explains the multiple-profile framework; §3.2 states the theorem’s exact scope.",
+          "recommended_action": "Narrow the claim to social welfare functions over the specified alternatives and people, defined across all admissible preference profiles: under the theorem’s assumptions no such function satisfies all five conditions. Clarify that an election rule can be analyzed as such a function, while a particular election outcome alone is not what the theorem evaluates; avoid suggesting the theorem establishes that every practical method necessarily sacrifices a fairness property in the same sense.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "‘Critics question whether the conditions are as innocent as they look.’",
+          "evidence_basis": "SEP §1 explicitly sets out the Riker (1982) interpretation and the opposing response; §§3.1 and 4.5 explain that the conditions are value judgments and discuss specific criticism of IIA, including Mackie (2003).",
+          "recommended_action": "Represent the disagreement more fairly by naming at least the competing interpretation: Morreau §1 reports Riker’s reading that the theorem makes democracy-as-government-by-the-will-of-the-people incoherent, contrasted with those who reject the requirement to satisfy all of Arrow’s conditions. State that the theorem proves incompatibility under assumptions, while its democratic significance and the acceptability of conditions such as IIA are contested; avoid a generic unnamed ‘Critics’ label.",
+          "severity": "material"
+        },
+        {
+          "article_claim": "‘Using richer information, such as intensities, escapes the theorem’; ‘if utilities can be compared, the situation changes.’",
+          "evidence_basis": "SEP §2.1 characterizes Arrow’s input as ordinal; §§5.3–5.4 distinguish graded inputs from cardinal utility extensions and identify these as changes to the framework.",
+          "recommended_action": "Describe scores/grades and cardinal utility information as alternative or extended frameworks that relax Arrow’s ordinal-input setup, not as an automatic solution simply from adding intensity or interpersonal utility comparisons. Keep the conditions and assumptions of each extension explicit.",
+          "severity": "minor"
+        }
+      ],
+      "review_date": "2026-11-01",
+      "scope": "Claim-level review of the article’s scenario and model, attribution to Kenneth Arrow and Social Choice and Individual Values (1951), informal conditions and impossibility conclusion, scope/qualifications, interpretations and disagreement, proposed escape routes, historical details, and the Gibbard–Satterthwaite distinction. The cited SEP entry was opened and relevant passages in sections 1–5 read; Arrow’s own work was searched for and a chapter excerpt and bibliographic records were inspected. No expert review was performed.",
+      "sources": [
+        {
+          "access_level": "Relevant passages in the entry’s full text read (selected sections, not the entire entry). The author/citation record and the theorem, conditions, interpretations, and alternatives passages were consulted.",
+          "author": "Michael Morreau",
+          "claim_relationships": [
+            {
+              "claim": "The scenario models a procedure that maps individual orderings over alternatives to a social ordering; the result is about a rule, not the outcome of one particular ballot alone.",
+              "evidence_location": "§1 introduces alternatives, people, and a social ordering; §2 says the alternatives and people are fixed and asks for a procedure that works no matter what their preferences turn out to be; §2.2 says the rule must reckon with multiple preference profiles. This supports a rule-level model, while electoral rules can be applications of it.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The informal requirements in the article capture unrestricted inputs, unanimity, independence of pairwise social comparisons, and non-dictatorship.",
+              "evidence_location": "§3.1 defines Unrestricted Domain (U), Social Ordering (SO), Weak Pareto (WP), Nondictatorship (D), and Independence of Irrelevant Alternatives (I). The article names four requirements but has already described a social-ranking output; the formal theorem states five separate conditions, including SO. §3.1 gives the technical meanings, including the strict-preference formulation of dictatorship.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "With at least three alternatives, no rule satisfies the stated requirements simultaneously.",
+              "evidence_location": "§3.2 states: if there are more than two alternatives, no social welfare function satisfies U, SO, WP, D, and I. The article’s ‘at least three’ is equivalent, but the conclusion must be understood under the full formal assumptions and for a social welfare function, not as a universal claim about all decision procedures.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The theorem concerns ordinal preference information; cardinal measurements or other richer inputs can change the analysis.",
+              "evidence_location": "§2.1 describes Arrow’s inputs as ordinal; §5.3 discusses scores or grades and §5.4 cardinal utility measurements. These are extensions or altered information assumptions, not an unqualified demonstration that merely comparing utilities makes every Arrow-type difficulty disappear.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The theorem does not by itself show that voting is useless or that democracy is impossible; the conditions and their interpretation are debated.",
+              "evidence_location": "§1 explicitly contrasts Riker’s (1982) interpretation that democracy as government by the people’s will is incoherent with the view that aggregation procedures cannot reasonably be required to meet all Arrow’s conditions. §3.1 calls the conditions value judgments rather than indubitable truths; §4.5 discusses arguments for and against IIA, including Mackie’s critique. The entry presents interpretation as disputed, not settled by the theorem alone.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Relaxing IIA, restricting preference domains, or using richer information are possible ways to work outside the impossibility result; Borda is vulnerable to manipulation when IIA is relaxed.",
+              "evidence_location": "§5 overview and §§5.1–5.4 distinguish domain restrictions, relaxing IIA, scores/grades, and cardinal measurements. §4.5 and §5.2 discuss Borda’s violation of IIA and strategic misrepresentation. These routes change or relax an assumption; the result does not say all such methods are equally fair or manipulation-proof.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The theorem’s result helped shape modern social choice and welfare economics.",
+              "evidence_location": "Entry opening (introductory paragraphs) says Arrow’s framework is widely used in welfare economics and the theorem set the agenda for contemporary social choice theory.",
+              "relationship": "supports"
+            },
+            {
+              "claim": "Gibbard–Satterthwaite is a related but distinct result involving strategic voting.",
+              "evidence_location": "§4.5 describes Gibbard (1973) and Satterthwaite (1975) results relating strategic-voting vulnerability to IIA; this supports the distinction but does not in the passage reviewed provide a full statement of that theorem.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "Arrow’s 1951 book is the original work associated with the theorem.",
+              "evidence_location": "§3.2 says Arrow (1951) has the original proof; the citation record identifies the SEP author and 2025 edition. This is secondary-source confirmation, not a reading of the 1951 edition itself.",
+              "relationship": "supports_with_qualification"
+            }
+          ],
+          "limitations": "The article is a secondary reference, not Arrow’s primary text. Relevant sections were selected and read; the whole SEP entry was not read cover to cover. The SEP supports what the theorem states and how its author presents the debate, not the theorem’s independent validity or a consensus position.",
+          "locations_reviewed": "§1 ‘The Will of the People?’ (opening model and contrasting interpretations); §2–2.2 (fixed alternatives, people, preferences, possible profiles, ordinal information); §3.1 (formal conditions); §3.2 (theorem); §4.1 and §4.5 (scope and critiques of conditions, especially IIA); §5.1–5.4 (domain restrictions, Borda, scores/grades, cardinal information).",
+          "publication_details": "The Stanford Encyclopedia of Philosophy, Winter 2025 Edition; first published 2014, substantively revised December 7, 2025. Stable citation: Winter 2025 archive. The page’s author-and-citation record identifies Morreau and the edition.",
+          "source_type": "Scholarly reference entry / secondary analysis",
+          "title": "Arrow’s Theorem",
+          "url": "https://plato.stanford.edu/entries/arrows-theorem/"
+        },
+        {
+          "access_level": "Selected excerpt and chapter metadata only. The JSTOR preview exposes the chapter title, page range, and an opening passage. A separate Cowles-hosted 1963 second-edition PDF was retrieved but is scanned and yielded no readable text; it is not treated as read or as full-text access.",
+          "author": "Kenneth J. Arrow",
+          "claim_relationships": [
+            {
+              "claim": "Arrow’s book contains a chapter titled ‘The General Possibility Theorem for Social Welfare Functions,’ and the theorem is associated with the 1951 work.",
+              "evidence_location": "JSTOR chapter V metadata, pp. 46–60, gives the chapter title; the previewed opening paragraph refers to Conditions 1–5 and the special two-alternative case. The excerpt does not expose the full theorem statement or proof.",
+              "relationship": "supports_with_qualification"
+            },
+            {
+              "claim": "The exact informal conditions and theorem stated in the article are Arrow’s original formulation.",
+              "evidence_location": "The inspected primary-text excerpt is limited to chapter metadata and the chapter’s opening preview; it does not expose the complete conditions or theorem. See also the unread scanned Cowles 1963 PDF noted in limitations.",
+              "relationship": "does_not_establish"
+            }
+          ],
+          "limitations": "The primary volume was not read in full. The 2012 JSTOR chapter page provides a selected text preview, not the whole chapter. The Cowles Foundation PDF (https://cowles.yale.edu/sites/default/files/2022-09/m12-2-all.pdf) was downloaded but its scanned pages could not be parsed into readable text; no claim here treats that PDF as full-text reading.",
+          "locations_reviewed": "Chapter V, pp. 46–60, especially the JSTOR-previewed opening passage on p. 46; chapter heading and page range in the table of contents. The preview states that constructing a social welfare function satisfying Conditions 1–5 is difficult and that two alternatives are a special case.",
+          "publication_details": "The work was first published in 1951; the inspected JSTOR record is for the Yale University Press third edition (2012). Chapter V is listed at pp. 46–60. Cowles Foundation also lists its second edition as a 1963 publication, chapter V pp. 46–60.",
+          "source_type": "Primary work (chapter excerpt from a later edition of Arrow’s book)",
+          "title": "Social Choice and Individual Values, Chapter V: ‘The General Possibility Theorem for Social Welfare Functions’",
+          "url": "https://www.jstor.org/stable/j.ctt1nqb90.7"
+        },
+        {
+          "access_level": "Catalogue page read; this establishes bibliographic and chapter-list metadata only, not the argument in the scanned book.",
+          "author": "Kenneth J. Arrow; John Wiley & Sons listed by Cowles Foundation",
+          "claim_relationships": [
+            {
+              "claim": "Arrow is the associated author; the second edition appeared in 1963 and the theorem chapter is listed at pp. 46–60.",
+              "evidence_location": "Cowles Foundation record heading and metadata (CFM 12.2, publication date January 1963), and chapter list, Chapter V pp. 46–60.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "This is an institutional bibliographic record, not a passage from the book. It does not independently establish the original 1951 publication date or the theorem’s proof.",
+          "locations_reviewed": "Page heading, publication date, author listing, and chapter list: Chapter V, ‘The General Possibility Theorem for Social Welfare Functions’ [46–60].",
+          "publication_details": "Cowles Foundation for Research in Economics, CFM 12.2, publication date January 1963. Its chapter list identifies Chapter V and pp. 46–60.",
+          "source_type": "Institutional publication/catalogue metadata",
+          "title": "Social Choice and Individual Values, 2nd ed. (catalogue record)",
+          "url": "https://cowles.yale.edu/research/cfm-122-social-choice-and-individual-values-2nd-ed"
+        },
+        {
+          "access_level": "Bibliographic record and table-of-contents previews read; not full-book access.",
+          "author": "Kenneth J. Arrow",
+          "claim_relationships": [
+            {
+              "claim": "The original publication or approximate period is Arrow, Social Choice and Individual Values (1951).",
+              "evidence_location": "JSTOR book record, Description: ‘Originally published in 1951’; author field identifies Kenneth J. Arrow. The current record concerns the 2012 Yale University Press third edition.",
+              "relationship": "supports"
+            }
+          ],
+          "limitations": "Catalogue metadata verifies edition and publication history but does not establish the content or proof of the theorem.",
+          "locations_reviewed": "Book Info/Description and Table of Contents; chapter V listed as ‘The General Possibility Theorem for Social Welfare Functions,’ pp. 46–60.",
+          "publication_details": "JSTOR record for the Yale University Press third edition, copyright 2012; record states that the work was originally published in 1951.",
+          "source_type": "Publisher/book catalogue metadata",
+          "title": "Social Choice and Individual Values (JSTOR book record)",
+          "url": "https://www.jstor.org/stable/j.ctt1nqb90"
+        }
+      ],
+      "status": "source_checked",
+      "title": "Arrow’s Impossibility Theorem",
+      "unresolved": "Status remains partially_source_checked because the article does not fairly specify the important interpretive disagreement and its informal theorem statement blurs the formal five-condition structure and scope. Arrow’s full primary text/proof was not read: the available Cowles PDF is scanned and unread, while the JSTOR chapter page exposes only a selected preview. The main mathematical and interpretive claims were checked against relevant passages of Morreau’s SEP entry; publication metadata was checked separately. This review is source checking, not expert review.",
+      "status_before_edit": "partially_source_checked",
+      "post_edit_status": "source_checked after independent read-only review and applicable follow-up correction",
+      "changes_made": [
+        "State all five conditions, including Social Ordering, and frame the theorem as a social-welfare-function result over all admissible profiles with at least three alternatives.",
+        "Attribute the democracy interpretation debate and clarify that adding cardinal/intensity information changes assumptions rather than automatically escaping impossibility.",
+        "Link the original book record while clearly disclosing that only metadata and a selected preview were available, not the full proof."
+      ],
+      "post_edit_review": {
+        "first_recheck": {
+          "edit_coverage": "complete",
+          "recommended_status": "source_checked",
+          "source_and_metadata_alignment": "aligned",
+          "remaining_material_issues": [],
+          "confidence": "high",
+          "evidence_basis": [
+            "All five conditions, including Social Ordering, are stated; the theorem’s social-welfare-function scope and three-alternative requirement are qualified.",
+            "Interpretive disagreement is attributed and alternatives are framed as changes in assumptions, not automatic escapes from the theorem.",
+            "The SEP supports the detailed statement; the article transparently says the original Arrow book was consulted only through bibliographic information and a selected preview, not the full proof."
+          ]
+        }
+      }
+    }
+  ],
+  "first_pass_synthesis": {
+    "batch_assessment": "The five reviews show the standard is workable for an ordinary batch: all five produced actionable claim-level findings with source relationships, locators, access/coverage limits, and a cautious status; the failure list is empty. The gate surfaced material errors and unsupported interpretations without treating source checking as expert review or permission to edit. This supports proceeding to another ordinary batch, not yet scaling without clarifying status rules and a few evidence requirements. The approved standard itself is not reproduced here, so exact field-by-field compliance cannot be independently confirmed.",
+    "cross_entry_findings": [
+      "All five entries are conservatively marked partially_source_checked; none overclaims full source checking or expert review. The repeated status is defensible, but its meaning is not applied consistently: Twin Earth explicitly ties it to pending article edits and rechecking, while the other reviews use it for unresolved claims or source coverage gaps.",
+      "The reports consistently distinguish source support from interpretation, and identify when a source does not establish a claim. Selected-passage access and limitations are usually recorded, including where primary works were not read in full.",
+      "Three recurring risk areas are visible: unsupported historical or scholarly claims (Hesperus, Wax, Hume); compressing a technical distinction into an overbroad summary (Hume, Descartes, Twin Earth, Arrow); and presenting disputed interpretation as settled or unnamed consensus (Hume, Wax, Twin Earth, Hesperus, Arrow).",
+      "The Arrow review transparently reports a primary-source coverage gap and relies on the SEP for the formal theorem statement; the Hume review similarly limits its claim about the Treatise to the sections checked and supporting secondary evidence. These are good limitation disclosures, but should not be mistaken for exhaustive primary-source verification.",
+      "The outputs include useful source metadata and evidence locations, but the batch alone cannot show whether the approved standard requires any additional fields or a common status rubric because that standard is not included in the supplied material."
+    ],
+    "recommended_next_step": "Proceed with one more ordinary batch under the same read-only gate, while clarifying status definitions and the minimum evidence needed for absence claims and primary-source support. Keep all entries in their current partially_source_checked state until corrections are made and rechecked; do not edit or publish from this gate.",
+    "required_edits": [
+      "Hume: correct the missing-shade attribution to Enquiry II.8 (1748), distinguish it from the earlier Treatise copy principle, and state the simple-idea/impression qualification and Hume’s singular-exception caveat. Remove or source the unnamed ‘defenders’ account and label Mary’s Room/phenomenal-concept connections as teaching analogies unless directly sourced. Update dataset attribution only when authorized.",
+      "Wax: remove or source the reported empiricist criticism and scholarly-debate claim; clarify changing sensible qualities versus the mind’s judgment of identity; retain the passage’s role in the skeptical sequence while distinguishing it from a claim that wax is unreal. Correct ‘fresh from the hive’ to the source’s wording.",
+      "Twin Earth: describe the relevant sameness as psychological/intrinsic rather than a literal molecular duplicate; distinguish reference/extension from meaning and content externalism from extended mind; qualify the environmental-history and internalist taxonomy; separate the 1975 example from the 1981 brain-in-a-vat argument; correct the chemistry wording and qualify the XYZ possibility gloss.",
+      "Hesperus and Phosphorus: present the ancient-naming chronology as an illustrative scenario unless historically sourced; make the theory taxonomy explicitly schematic and qualify the Kripke necessary-a-posteriori claim, including sentence/statement versus proposition and the weak-necessity caveat.",
+      "Arrow: name all five conditions, including Social Ordering, and state the theorem’s scope in terms of a social welfare function across admissible preference profiles and at least three alternatives. Replace generic criticism with attributed disagreement and qualify intensity/cardinal-information alternatives as changed frameworks, not automatic escapes."
+    ],
+    "review_gaps": [
+      "The approved standard’s text is absent, so exact conformance, mandatory fields, and the intended threshold for ‘partially_source_checked’ cannot be audited from this batch alone.",
+      "Hume’s reviewer did not exhaustively search the Treatise; the correction is supported by the directly reviewed Enquiry passage, relevant Treatise passages, and SEP attribution, but the review expressly does not prove absence from every page of the Treatise.",
+      "Arrow’s full primary work/proof was not read; the available primary excerpt is limited, and the scanned alternate copy was unreadable. The theorem’s detailed statement rests on selected SEP passages.",
+      "Most reviews rely on selected passages rather than complete readings of cited secondary works; some cited scholarship was not consulted directly. This is disclosed in the reports and limits claims about the breadth of debate.",
+      "A shared status rubric should specify whether status tracks the evidence audit alone, unresolved article claims, or edits/rechecks pending. Current statuses are cautious, but the conditions for moving to source_checked are not demonstrated consistently."
+    ],
+    "standard_workable": true
+  },
+  "cross_translation_verification": {
+    "title": "Meditations on First Philosophy, Second Meditation (English translation, Lancaster University text)",
+    "author": "René Descartes; English translation hosted by Lancaster University",
+    "source_type": "Primary philosophical text (online English translation)",
+    "access_level": "The full page was fetched; the relevant Second Meditation paragraphs 11–15 were extracted and read.",
+    "url": "https://www.lancaster.ac.uk/users/philosophy/courses/211/meditationssinglefile.htm",
+    "locations_reviewed": "Second Meditation, paragraphs 11–15: wax setup and change, understanding/judgment, window example, and the conclusion about the mind.",
+    "claim_relationships": [
+      {
+        "claim": "Descartes describes wax recently taken from the beehive and lists its initial sensible qualities and changes near the fire.",
+        "relationship": "supports"
+      },
+      {
+        "claim": "Descartes says the mind understands the wax and judges that the people seen from a window are people.",
+        "relationship": "supports"
+      }
+    ],
+    "note": "The inspected Lancaster-hosted Veitch text supports the article’s neutral paraphrase “just taken from the hive.” Translation wording varies; an alternative English rendering uses “honeycomb.” The article does not quote either translation."
+  },
+  "batch_decision": "Complete. The standard worked for this bounded normal-risk batch with caveats; all five entries are source_checked for the recorded claim scope after corrections and read-only rechecks. Continue with bounded batches, not an immediate audit/scale-up of all 49 remaining expansion entries.",
+  "independent_post_edit_synthesis": {
+    "batch_workability": "workable_with_caveats",
+    "scale_recommendation": "continue_bounded_batches",
+    "status_distribution_at_first_synthesis": {
+      "source_checked": 4,
+      "partially_source_checked": 1,
+      "needs_source_check": 0
+    },
+    "cross_entry_findings": [
+      "Claim-level source checks and post-edit status decisions were workable across this bounded normal-risk batch.",
+      "The initial post-edit pass correctly withheld source_checked for Twin Earth until an explicit qualification about the separate BIV argument was added and rechecked.",
+      "A minor Hume Treatise section-title/URL mismatch was corrected and exact article/dataset reference alignment was checked.",
+      "Status labels indicate traceability within the recorded claim scope, not truth, consensus, exhaustive literature review, proof verification, or human expert review."
+    ],
+    "summary": "The standard is workable for bounded batches. The independent synthesis recommended continuing bounded batches rather than scaling immediately; that recommendation remains appropriate after the two follow-up corrections."
+  },
+  "parent_protocol_check": {
+    "approved_standard_path": "research/source-review-standard.md",
+    "status": "Read and applied by the parent before batch selection and during final status decisions.",
+    "clarification": "An initial synthesizer note suggested that the standard text had not been supplied to the workflow; the parent had read the approved local standard, and the independent post-edit workflow also received it."
+  },
+  "final_batch_assessment": {
+    "status": "complete",
+    "final_status_distribution": {
+      "source_checked": 5,
+      "partially_source_checked": 0,
+      "needs_source_check": 0
+    },
+    "reviewability": "The approved claim-level standard proved workable for this five-entry normal-risk batch, with two follow-up corrections identified by independent review.",
+    "scale_decision": "Continue risk-ranked, bounded batches. Do not treat two batches (eight entries) as evidence that the whole remaining expansion can be processed or published at scale without further checkpoints.",
+    "limits": [
+      "No human expert review is claimed.",
+      "The Arrow primary proof was not read; the detailed theorem statement relies on the consulted SEP entry.",
+      "The Hume Treatise passages cited were section-specific, not an exhaustive reading of the Treatise.",
+      "External URL availability was not comprehensively rechecked; repository validation checks URL syntax only."
+    ]
+  },
+  "verification": {
+    "repository_validator": {
+      "command": "python3 scripts/validate.py",
+      "result": "PASS: 132 entries; JSON schema, article sections, metadata, references, README, and local links checked. External URLs checked for syntax only."
+    },
+    "unit_tests": {
+      "command": "python3 -m unittest discover -s tests -v",
+      "result": "PASS: 18 tests, 0 failures."
+    },
+    "article_dataset_references": {
+      "result": "PASS: Further Reading URL sets in all five revised articles exactly match the corresponding dataset references."
+    },
+    "whitespace": {
+      "command": "git diff --check",
+      "result": "PASS: no whitespace errors."
+    },
+    "worktree": {
+      "branch": "audit/source-review-high-risk",
+      "result": "Second-batch article/data/quality-report edits remain uncommitted; the batch report and ledger are untracked local files. No second-batch commit or push was made."
+    }
+  }
+}

@@ -2965,13 +2965,31 @@
     ],
     "references": [
       {
+        "title": "Hilary Putnam, “The Meaning of ‘Meaning’” (1975)",
+        "url": "https://hdl.handle.net/11299/185225",
+        "kind": "primary",
+        "support": "Original Twin Earth setup, the 1750 scenario, the twins’ psychological state, and the argument about reference and extension."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Externalism About the Mind",
-        "url": "https://plato.stanford.edu/entries/content-externalism/",
+        "url": "https://plato.stanford.edu/archives/win2020/entries/content-externalism/",
         "kind": "academic",
-        "support": "Twin Earth as the central argument for semantic and content externalism, with objections."
+        "support": "Twin Earth, the scope of content externalism, objections, and later applications."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Narrow Mental Content",
+        "url": "https://plato.stanford.edu/entries/content-narrow/",
+        "kind": "academic",
+        "support": "Internalist and narrow-content responses to externalism; relevant sections consulted."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Content Externalism and Skepticism",
+        "url": "https://plato.stanford.edu/archives/spr2025/entries/skepticism-content-externalism/",
+        "kind": "academic",
+        "support": "Putnam’s later brain-in-a-vat argument and its relation to content externalism; distinct from the 1975 Twin Earth example."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "swampman",
@@ -3128,7 +3146,7 @@
     "associated_thinkers": [
       "David Hume"
     ],
-    "original_publication": "Hume, A Treatise of Human Nature (1739–40) and An Enquiry concerning Human Understanding (1748)",
+    "original_publication": "An Enquiry concerning Human Understanding (1748), Section II, §8",
     "difficulty": "Intermediate",
     "themes": [
       "empiricism",
@@ -3137,13 +3155,31 @@
     ],
     "references": [
       {
+        "title": "David Hume, An Enquiry concerning Human Understanding, Section II",
+        "url": "https://davidhume.org/texts/e/2",
+        "kind": "primary",
+        "support": "The missing-shade scenario and Hume’s explicit qualification at Section II, §8; earlier copy-principle material at §§5–6."
+      },
+      {
+        "title": "David Hume, A Treatise of Human Nature, Book 1, Part 1, Section 1",
+        "url": "https://davidhume.org/texts/t/1/1/1",
+        "kind": "primary",
+        "support": "Earlier formulation of the copy principle; not the missing-shade example."
+      },
+      {
+        "title": "David Hume, A Treatise of Human Nature, Book 1, Part 1, Section 2",
+        "url": "https://davidhume.org/texts/t/1/1/2",
+        "kind": "primary",
+        "support": "Distinguishes impressions of sensation and reflection and discusses their relation to ideas."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: David Hume",
         "url": "https://plato.stanford.edu/entries/hume/",
         "kind": "academic",
-        "support": "Hume’s copy principle and his treatment of the missing shade of blue."
+        "support": "Copy principle, location of the missing-shade passage, and a qualified account of later interpretations attributed to Fogelin, Garrett, and Durland."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "marys-room",
@@ -3169,13 +3205,19 @@
     ],
     "references": [
       {
+        "title": "René Descartes, Meditations on First Philosophy, Second Meditation",
+        "url": "https://www.lancaster.ac.uk/users/philosophy/courses/211/meditationssinglefile.htm",
+        "kind": "primary",
+        "support": "The wax’s changing qualities, the mind’s understanding and judgment, and the following window example, in an online English translation."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Descartes’ Epistemology",
         "url": "https://plato.stanford.edu/entries/descartes-epistemology/",
         "kind": "academic",
-        "support": "The wax argument in the Second Meditation and its role in Descartes’s epistemology."
+        "support": "The wax argument’s role in Descartes’s epistemology and the mind/body sequence."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "evil-demon",
@@ -3510,7 +3552,7 @@
     "associated_thinkers": [
       "Gottlob Frege"
     ],
-    "original_publication": "Frege, “On Sense and Reference” (1892)",
+    "original_publication": "Frege, “On Sense and Reference” (1892), for the identity puzzle; Hesperus and Phosphorus are a standard illustrative case",
     "difficulty": "Intermediate",
     "themes": [
       "sense and reference",
@@ -3519,19 +3561,31 @@
     ],
     "references": [
       {
+        "title": "Gottlob Frege, “On Sense and Reference” (1892), English translation",
+        "url": "https://inters.org/files/frege1892-1948.pdf",
+        "kind": "primary",
+        "support": "Frege’s morning-star/evening-star identity example and distinction between sense and reference."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Gottlob Frege",
         "url": "https://plato.stanford.edu/entries/frege/",
         "kind": "academic",
-        "support": "Frege’s distinction between sense and reference and the Morning Star and Evening Star example."
+        "support": "Frege’s sense/reference distinction and the cognitive significance of identity statements."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy: Names",
         "url": "https://plato.stanford.edu/entries/names/",
         "kind": "academic",
-        "support": "Discussion of Hesperus and Phosphorus in the philosophy of names."
+        "support": "Hesperus and Phosphorus as an illustrative identity case and the theories of names discussed."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Rigid Designators",
+        "url": "https://plato.stanford.edu/entries/rigid-designators/",
+        "kind": "academic",
+        "support": "Kripke’s modal account of identity and qualifications about necessity and empirical discovery."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "twin-earth",
@@ -4277,10 +4331,16 @@
         "title": "Stanford Encyclopedia of Philosophy: Arrow’s Theorem",
         "url": "https://plato.stanford.edu/entries/arrows-theorem/",
         "kind": "academic",
-        "support": "The theorem, its conditions, proofs and interpretations."
+        "support": "The social-welfare-function framework, five conditions, impossibility result, interpretations, and alternative assumptions."
+      },
+      {
+        "title": "Kenneth J. Arrow, Social Choice and Individual Values (1951), JSTOR record and Chapter V preview",
+        "url": "https://www.jstor.org/stable/j.ctt1nqb90",
+        "kind": "primary",
+        "support": "Original work’s bibliographic record and chapter metadata; only a selected preview was available, and the full proof was not consulted."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "model",
     "related_experiments": [
       "condorcet-paradox",

@@ -10,27 +10,27 @@
 
 ## 1. The Scenario
 
-Imagine a planet, Twin Earth, that is an exact duplicate of Earth with one difference: the clear, drinkable liquid that fills its rivers and lakes is not H2O but a different chemical compound, which we may abbreviate XYZ. It looks, tastes and behaves like water. Its inhabitants, including a twin of you, call it “water.”
+Imagine a planet called Twin Earth. Around 1750, before chemistry had been developed on either planet, its rivers contain a clear liquid with a different chemical composition from Earth’s water. Putnam calls the Twin Earth liquid “XYZ”; it looks and behaves like water, and ordinary speakers do not know its composition.
 
-Go back to a time before anyone on either planet knew any chemistry. You and your twin are in exactly the same internal state. When you each say “water,” do you mean the same thing?
+Compare a person on Earth with a Twin Earth counterpart in the same psychological state. Both use the word “water,” but one liquid is H2O and the other is XYZ. Putnam says the story does not depend on assuming that the two people are exact molecular duplicates.
 
 ## 2. The Central Question
 
-Are the meanings of our words, and the contents of our thoughts, fixed entirely by what is in our heads, or do they depend on our environment?
+Are the references of our words, and the contents of our thoughts, fixed entirely by what is in our heads, or can they depend on our environment and history?
 
 ## 3. Why It Matters
 
-Putnam concluded that meanings are not simply in the head: the extension of “water” on Earth is H2O and on Twin Earth is XYZ, even though speakers’ psychological states are identical. This led to externalism about content, which affects how we think about knowledge, self-knowledge and the mind. If thought contents depend on the environment, then an agent’s mental life is partly constituted by relations to the world.
+Putnam argues that the extension—the kind of liquid picked out—by “water” differs between Earth and Twin Earth even when the speakers are in the same psychological state. The example challenges the idea that reference is fixed by that state alone. Putnam’s broader slogan that “meaning isn’t in the head” should not be read as saying that meaning simply is extension; the original example focuses on a natural-kind term and its reference.
 
-The case also affects debates about whether a brain in a vat could think the same thoughts as an ordinary person.
+The example became important to content externalism, the view that some mental contents are individuated partly by relations to the environment. This does not mean that mental processes are physically located outside the person. Putnam’s brain-in-a-vat argument is a distinct argument from 1981, though it draws on externalist ideas; it is not the same thought experiment as Twin Earth. That later argument and the scope of externalism needed to support it remain disputed.
 
 ## 4. Major Interpretations
 
-**Semantic externalists** say that the term refers to the actual kind in the speaker’s environment, so Earth and Twin Earth speakers refer to different things. **Internalists** argue for a notion of “narrow” content shared by the twins, with reference determined separately. **Two-dimensional views** try to capture both. Critics also ask whether the twins’ thoughts really differ in a way that matters for explaining behaviour, and whether the conclusion generalizes beyond natural-kind terms.
+Externalists argue that reference can depend on a term’s environment and relevant linguistic or causal history, not just on the speaker’s current psychological state. Internalist responses differ: some reject the externalist inference, while moderate views may accept broad content and also posit a narrower content shared by the twins. Two-dimensional semantics is one proposed approach, not a single agreed internalist solution. The significance of externalism for explanation, self-knowledge, and thought remains debated.
 
 ## 5. Common Misunderstandings
 
-The scenario does not require that XYZ is chemically possible, only that the thought experiment is coherent. Putnam’s conclusion is about the reference of terms and the contents of beliefs, not about whether twins feel different. The argument also does not show that all meaning is environmental; its force is clearest for natural-kind terms.
+Putnam stipulates the XYZ liquid and the historical setting; the example does not establish a general rule that any chemically impossible liquid will work. A literal molecule-for-molecule duplicate also raises a complication because human bodies contain water; Putnam says the argument does not depend on imagining an exact duplicate. The argument is clearest for natural-kind terms and does not show that all meaning is environmentally determined or that minds extend beyond the body.
 
 ## 6. Think for Yourself
 
@@ -41,7 +41,7 @@ The scenario does not require that XYZ is chemically possible, only that the tho
 
 ## 7. Variations and Extensions
 
-Variants substitute other natural kinds such as aluminum or elm, or change how long a subject has lived on Twin Earth. These raise questions about how long it takes for words to switch reference and are best treated as separate arguments.
+One can substitute other natural kinds, such as aluminum or elm, or vary how long a subject has lived in a new environment. These are useful extensions, but questions about the role of learning and history should be treated separately from Putnam’s original water example.
 
 ## 8. Related Thought Experiments
 
@@ -51,12 +51,15 @@ Variants substitute other natural kinds such as aluminum or elm, or change how l
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Externalism About the Mind](https://plato.stanford.edu/entries/content-externalism/) — Twin Earth as the central argument for semantic and content externalism, with objections.
+- [Hilary Putnam, “The Meaning of ‘Meaning’” (1975)](https://hdl.handle.net/11299/185225) — the original Twin Earth example and the discussion of psychological state and reference.
+- [Stanford Encyclopedia of Philosophy: Externalism About the Mind](https://plato.stanford.edu/archives/win2020/entries/content-externalism/) — Twin Earth, extensions of the argument, and objections.
+- [Stanford Encyclopedia of Philosophy: Narrow Mental Content](https://plato.stanford.edu/entries/content-narrow/) — internalist and narrow-content responses.
+- [Stanford Encyclopedia of Philosophy: Content Externalism and Skepticism](https://plato.stanford.edu/archives/spr2025/entries/skepticism-content-externalism/) — Putnam’s separate brain-in-a-vat argument.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on externalism about the mind was consulted for Twin Earth and its role in the debate. Putnam’s paper was not retrieved. The H2O and XYZ presentation follows the standard textbook form, which is simplified from the original.
+Putnam’s 1975 essay was consulted at the Twin Earth and 1750 passages. Relevant sections of the cited SEP entries were read for the scope of content externalism, narrow-content responses, and the separate brain-in-a-vat argument. The article distinguishes Putnam’s original example from later extensions; it does not claim that externalism or its implications are settled.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
 [Return to collection](../../README.md)

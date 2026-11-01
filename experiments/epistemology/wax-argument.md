@@ -3,34 +3,34 @@
 **Category:** epistemology  
 **Type:** thought experiment  
 **Associated thinker(s):** René Descartes  
-**Original publication or approximate period:** Descartes, Meditations on First Philosophy, Second Meditation (1641)  
+**Original publication or approximate period:** *Meditations on First Philosophy*, Second Meditation (1641)<br>
 **Difficulty:** Intermediate  
 **Themes:** perception, rationalism, knowledge of bodies  
 **Related experiments:** [Descartes’s Evil Demon](evil-demon.md); [Brain in a Vat](brain-in-a-vat.md); [Ship of Theseus](../identity/ship-of-theseus.md)
 
 ## 1. The Scenario
 
-Descartes takes a piece of beeswax fresh from the hive. It has a certain taste, smell, colour, shape and hardness, and it makes a sound when tapped. He then brings it near a fire. The taste and smell fade, the colour and shape change, it becomes liquid and hot, and it makes no sound.
+Descartes asks the meditator to consider a piece of beeswax just taken from the hive. It has a taste and smell, a colour and shape, is hard and cold, and makes a sound when tapped. Held near a fire, its taste and smell fade, its colour and shape change, it grows larger, melts and heats up, and no longer makes the same sound.
 
-Is it still the same wax? Descartes says yes. But none of the qualities that his senses reported before has remained.
+Is it still the same wax? Descartes says yes, even though the qualities he first listed have changed.
 
 ## 2. The Central Question
 
-If every sensible quality of the wax can change while it remains the same wax, what is it that we know when we know the wax?
+If the wax can remain the same while its sensible qualities change, what do we understand when we recognize it as that body?
 
 ## 3. Why It Matters
 
-Descartes draws two conclusions. First, our grasp of what the wax is cannot come from the senses alone, since the senses report only the changing qualities. Nor can it come from imagination, since we can understand that the wax could take on indefinitely many shapes that no act of imagining could survey. It is, he says, an act of the mind’s inspection or judgment.
+Descartes argues that recognizing the wax as the same body cannot rest on the changing qualities alone. Nor can imagination survey every shape the wax could take. He concludes that the mind perceives the wax through its understanding and judgment.
 
-Second, he concludes that the mind is known more easily and clearly than bodies, because even perceiving the wax reveals the mind that perceives. The argument thus supports his project of building knowledge from the inside out, after the doubts raised earlier in the Meditations.
+He then argues that the mind is known more clearly than bodies: when we judge that we see the wax, we are also aware of the mind doing the judging. The window example that follows makes the point: we say we see people, though what reaches the eye may be hats and coats and the judgment that they are people is made by the mind.
 
 ## 4. Major Interpretations
 
-**Rationalist readings** treat the case as showing that intellect, not sense, is the source of knowledge of bodies. **Empiricist critics** argue that the sameness of the wax can be understood through continuity of change and does not require a special faculty. **Metaphysical readings** connect it to Descartes’s account of substance. Scholars debate how far the conclusion about the mind follows.
+The passage states Descartes’s own argument about how the wax is perceived and how the mind is known. The sources checked for this entry do not establish the later “empiricist critics” or broad scholarly disagreement described in some summaries, so this entry does not present those as documented schools of interpretation. Readers can still ask whether Descartes has shown that judgment is distinct from ordinary perceptual recognition; that is posed here as a question, not as a report about scholarly consensus.
 
 ## 5. Common Misunderstandings
 
-The wax is not meant to show that the wax is unreal or an illusion. It is not mainly a skeptical argument but an argument about the proper source and clarity of our knowledge. It also should not be read as a modern claim about atoms or material composition.
+The passage does not claim that the wax is unreal. It occurs within the Meditations’ skeptical sequence and uses the wax to examine how we know bodies and why Descartes thinks the mind is better known. It is not a modern argument about atoms or material composition.
 
 ## 6. Think for Yourself
 
@@ -41,7 +41,7 @@ The wax is not meant to show that the wax is unreal or an illusion. It is not ma
 
 ## 7. Variations and Extensions
 
-Substituting other substances, such as water turning to steam, shows the same structure and raises the question of when a change is a change of substance and not of state. Descartes’s own follow-up about seeing men in the street through a window extends the point to judgments about persons.
+One can substitute another material that changes state, such as water becoming steam, as a teaching extension. Descartes’s own follow-up is the window example: he asks whether we see people passing below or judge that the hats and coats we see belong to people.
 
 ## 8. Related Thought Experiments
 
@@ -51,12 +51,13 @@ Substituting other substances, such as water turning to steam, shows the same st
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Descartes’ Epistemology](https://plato.stanford.edu/entries/descartes-epistemology/) — The wax argument in the Second Meditation and its role in Descartes’s epistemology.
+- [René Descartes, *Meditations on First Philosophy*, Second Meditation](https://www.lancaster.ac.uk/users/philosophy/courses/211/meditationssinglefile.htm) — the wax passage and the window example in an English translation.
+- [Stanford Encyclopedia of Philosophy: Descartes’ Epistemology](https://plato.stanford.edu/entries/descartes-epistemology/) — the wax argument and its place in Descartes’s account of the mind and body.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on Descartes’s epistemology was consulted for the wax argument. The Meditations themselves were not retrieved. The description of the passage follows the encyclopedia’s account and standard presentations, and no quotation is given.
+The relevant passage in the Second Meditation was checked against an online English translation, and the cited SEP entry was consulted for context. Translations differ in wording, so the article paraphrases rather than quoting. Its open question about the relation between perception and judgment is a teaching prompt, not a claim about an established scholarly camp.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
 [Return to collection](../../README.md)

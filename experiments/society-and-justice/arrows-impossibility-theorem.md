@@ -3,34 +3,40 @@
 **Category:** society-and-justice  
 **Type:** model  
 **Associated thinker(s):** Kenneth Arrow  
-**Original publication or approximate period:** Arrow, Social Choice and Individual Values (1951)  
+**Original publication or approximate period:** Arrow, *Social Choice and Individual Values* (1951)<br>
 **Difficulty:** Advanced  
 **Themes:** voting, social choice, fairness  
 **Related experiments:** [The Condorcet Paradox](condorcet-paradox.md); [The Veil of Ignorance and Original Position](veil-of-ignorance.md)
 
 ## 1. The Scenario
 
-A group of people must rank three or more options, such as candidates or policies, and each person has their own ranking. We want a rule that combines individual rankings into a single group ranking. Arrow lists conditions that seem reasonable for any such rule: it should work for every possible set of individual rankings; if everyone prefers one option to another, the group should too; the group’s ranking of two options should depend only on how individuals rank those two; and no single person should always decide.
+Suppose a group must turn each person’s ranking of three or more options into a social ranking. Arrow studies a social welfare function that must produce a coherent group ordering for every admissible profile of individual preferences. His theorem considers five conditions:
 
-Arrow proves that, when there are at least three options, no rule satisfies all of these conditions.
+1. **Unrestricted Domain:** the rule accepts every possible profile of individual rankings.
+2. **Social Ordering:** the rule returns a complete and transitive social ranking.
+3. **Weak Pareto:** if everyone strictly prefers one option to another, the social ranking does too.
+4. **Independence of Irrelevant Alternatives:** the social ranking of two options depends only on how individuals rank those two options.
+5. **Nondictatorship:** no single person’s strict preference over every pair always becomes the social ranking, whatever the others prefer.
 
 ## 2. The Central Question
 
-Is there any fair way to combine individual rankings into a collective ranking?
+Can one rule combine individual rankings into a social ordering while satisfying all five conditions?
 
 ## 3. Why It Matters
 
-The theorem shows that apparently modest requirements are jointly impossible. It does not say voting is useless but that every method gives up something: perhaps independence from irrelevant alternatives, or the ability to handle all preferences.
+Arrow’s theorem says that, with at least three alternatives, no social welfare function can satisfy all five conditions at once. The result is about a rule that must work across possible preference profiles, not just the outcome of one particular vote.
 
-It underlies the modern study of voting and welfare economics, and it raises questions about what a collective judgement is.
+The theorem shows that these requirements are jointly incompatible under its assumptions. It does not say voting is useless or that every practical method gives up the same thing; deciding which condition to relax depends on the purpose and design of the rule.
 
 ## 4. Major Interpretations
 
-**Relaxing independence** allows rules such as the Borda count at the cost of vulnerability to manipulation by adding options. **Restricting preferences** can avoid cycles if preferences are structured. **Using richer information**, such as intensities, escapes the theorem. **Critics** question whether the conditions are as innocent as they look. These are different diagnoses of the same result.
+One debate concerns what the theorem means for democracy. Morreau contrasts Riker’s interpretation—that the result undermines the idea of government by the people’s will—with the view that aggregation procedures need not satisfy every one of Arrow’s conditions. The conditions are not all value-neutral; the acceptability of requirements such as Independence of Irrelevant Alternatives remains debated.
+
+Some approaches restrict the allowed preference profiles; others relax a condition such as independence. Using scores or cardinal utility information changes the information available to the rule and therefore changes the model. It is not, by itself, a blanket escape from every social-choice impossibility.
 
 ## 5. Common Misunderstandings
 
-The theorem concerns ranking rules and does not apply directly to a single election. It does not claim that democracy is impossible. It assumes only ordinal rankings; if utilities can be compared, the situation changes. The conditions have specific technical meanings.
+The theorem is about a social welfare function across preference profiles. A practical voting rule can be modeled that way, but a single election outcome alone is not what the theorem evaluates. It does not prove democracy impossible. Arrow’s result assumes ordinal rankings; adding intensity or interpersonal comparisons changes the assumptions and requires a separate analysis.
 
 ## 6. Think for Yourself
 
@@ -41,7 +47,7 @@ The theorem concerns ranking rules and does not apply directly to a single elect
 
 ## 7. Variations and Extensions
 
-Gibbard–Satterthwaite is a related theorem about strategic voting. It states a different impossibility, and the two should not be merged.
+Gibbard–Satterthwaite is a related but distinct theorem about strategic voting. It concerns a different set of assumptions and should not be merged with Arrow’s result.
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +56,13 @@ Gibbard–Satterthwaite is a related theorem about strategic voting. It states a
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Arrow’s Theorem](https://plato.stanford.edu/entries/arrows-theorem/) — The theorem, its conditions, proofs and interpretations.
+- [Stanford Encyclopedia of Philosophy: Arrow’s Theorem](https://plato.stanford.edu/entries/arrows-theorem/) — the formal conditions, theorem, and debates about its interpretation.
+- [Kenneth J. Arrow, *Social Choice and Individual Values* (1951)](https://www.jstor.org/stable/j.ctt1nqb90) — the original work; this review consulted bibliographic information and a selected chapter preview, not the full proof.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on Arrow’s theorem was consulted. Arrow’s book was not retrieved. The conditions are described informally and this article does not reproduce the proof.
+Relevant sections of the cited SEP entry were read for the model, five conditions, theorem, interpretations, and alternative frameworks. Arrow’s book was checked through an excerpt and bibliographic records, but the full work and proof were not read. The article therefore relies on the SEP for the detailed formal statement and does not claim independent verification of the proof or expert review.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
 [Return to collection](../../README.md)

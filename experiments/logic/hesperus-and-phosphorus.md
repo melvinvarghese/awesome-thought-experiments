@@ -3,16 +3,16 @@
 **Category:** logic  
 **Type:** puzzle  
 **Associated thinker(s):** Gottlob Frege  
-**Original publication or approximate period:** Frege, “On Sense and Reference” (1892)  
+**Original publication or approximate period:** Frege, “On Sense and Reference” (1892), for the identity puzzle; Hesperus and Phosphorus are a standard illustrative case<br>
 **Difficulty:** Intermediate  
 **Themes:** sense and reference, identity statements, names  
 **Related experiments:** [Twin Earth](../consciousness/twin-earth.md); [Beetle in a Box](../consciousness/beetle-in-box.md)
 
 ## 1. The Scenario
 
-Ancient astronomers named a bright body seen in the evening Hesperus and one seen in the morning Phosphorus. They later discovered that these are the same object, the planet Venus.
+A familiar astronomical example calls the bright object seen in the evening Hesperus and the object seen in the morning Phosphorus. Both names refer to the planet Venus. This entry uses the case to illustrate an identity learned through observation; it does not claim to establish the historical story of who first used the names or when their identity was recognized.
 
-The sentence “Hesperus is Hesperus” is trivial: anyone who understands it knows it is true. The sentence “Hesperus is Phosphorus” was a discovery. Yet if the names pick out the same planet, it seems both sentences say the same thing, that Venus is Venus.
+“Hesperus is Hesperus” seems trivial, while “Hesperus is Phosphorus” can be informative. Yet if the names refer to the same planet, both statements concern Venus.
 
 ## 2. The Central Question
 
@@ -20,28 +20,28 @@ If two names refer to the same object, why can an identity statement using them 
 
 ## 3. Why It Matters
 
-This is Frege’s puzzle. It shows that the meaning of a name cannot be exhausted by the object it picks out. Frege proposed that each name has, in addition to its reference, a sense: a way in which the object is presented. “Hesperus” and “Phosphorus” present Venus in different ways, so the identity is informative.
+Frege’s 1892 essay uses the morning star and evening star to raise this puzzle. He proposes that an expression has both a reference and a sense—a way in which its referent is presented. The same object can therefore be presented in different ways, helping explain why an identity statement can teach us something.
 
-The puzzle shapes theories of meaning, belief reports, and necessity. Kripke later argued that “Hesperus is Phosphorus” is necessarily true yet known only through observation.
+Kripke’s rigid-designator account treats “Hesperus is Phosphorus” as an identity that can be discovered empirically and is commonly described as necessary. The modal claim needs qualification: at least weak necessity is relevant, and whether the proposition expressed is itself a posteriori is controversial. The distinction between a sentence or statement and the proposition it expresses matters here.
 
 ## 4. Major Interpretations
 
-**Fregean views** keep sense as part of meaning. **Millian or direct-reference views** say a name just contributes its referent and explain informativeness through pragmatic or psychological differences. **Descriptivist approaches** treat names as shorthand for descriptions. **Kripkean views** separate the necessity of identity from its epistemic status.
+Fregean views explain cognitive significance through sense as well as reference. Descriptivist views connect names with associated descriptions; some use a single description, while others use a cluster. Direct-reference or Millian views focus on the referent; explanations of informative identity statements differ among versions of the view. Kripke’s rigid-designator account separates the necessity of an identity from the empirical way it can be discovered. These are schematic summaries of a continuing debate, not a settled list of solutions.
 
 ## 5. Common Misunderstandings
 
-The puzzle is not a claim that Venus is two things, or that the ancients were foolish. It asks how language can describe the same object in ways that carry different information. It also should not be confused with a puzzle about the planet’s appearance; the issue concerns how words are understood.
+The puzzle is not a claim that Venus is two things or that anyone was foolish for not knowing the identity. It asks how language can refer to one object while presenting it in different ways. The example does not establish the historical chronology of the names.
 
 ## 6. Think for Yourself
 
 1. What does someone learn when they learn that Hesperus is Phosphorus?
-2. Can two names have the same meaning but different cognitive significance?
+2. Can two names have the same referent but different cognitive significance?
 3. Does someone who does not know the identity understand both names?
 4. How does this connect to whether “water” and “H2O” mean the same?
 
 ## 7. Variations and Extensions
 
-Parallel puzzles arise for “Superman is Clark Kent” and for belief reports such as “Lois believes Superman flies.” Each tests the same distinction, though the best analysis may differ.
+“Superman is Clark Kent” and belief reports such as “Lois believes Superman flies” are related examples. Their analyses may differ from the simple identity case, so they should not be treated as automatic solutions to the same puzzle.
 
 ## 8. Related Thought Experiments
 
@@ -50,13 +50,15 @@ Parallel puzzles arise for “Superman is Clark Kent” and for belief reports s
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Gottlob Frege](https://plato.stanford.edu/entries/frege/) — Frege’s distinction between sense and reference and the Morning Star and Evening Star example.
-- [Stanford Encyclopedia of Philosophy: Names](https://plato.stanford.edu/entries/names/) — Discussion of Hesperus and Phosphorus in the philosophy of names.
+- [Gottlob Frege, “On Sense and Reference” (1892)](https://inters.org/files/frege1892-1948.pdf) — the identity puzzle and the morning-star/evening-star example in English translation.
+- [Stanford Encyclopedia of Philosophy: Gottlob Frege](https://plato.stanford.edu/entries/frege/) — Frege’s sense/reference distinction and the identity puzzle.
+- [Stanford Encyclopedia of Philosophy: Names](https://plato.stanford.edu/entries/names/) — Hesperus and Phosphorus and theories of names.
+- [Stanford Encyclopedia of Philosophy: Rigid Designators](https://plato.stanford.edu/entries/rigid-designators/) — Kripke’s modal account and qualifications.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entries on Frege and on names were consulted. Frege’s essay was not retrieved. The summary of Kripke’s view is from general knowledge of the literature and is deliberately brief.
+Frege’s essay was consulted in English translation, along with SEP entries on Frege, names, and rigid designators. Frege’s text uses the morning-star/evening-star example; it does not establish the article’s former claim about ancient astronomers’ naming history. The account of Kripke is qualified to reflect the documented disagreement about necessity and a posteriori knowledge. This is a concise educational explanation, not an exhaustive survey of the debate.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
 [Return to collection](../../README.md)
