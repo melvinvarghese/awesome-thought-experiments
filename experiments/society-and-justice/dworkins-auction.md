@@ -62,4 +62,4 @@ The retrieved SEP equality entry specifically describes Dworkin’s 1981 auction
 
 Research check: 2026-10-30. References above were retrieved for the support described; this is an original educational explanation, not a substitute for the primary texts. Additional speculative comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -62,4 +62,4 @@ Gibbard’s original article was consulted for the scenario and argument (especi
 
 Research check: 2026-11-01. The sources above were checked at relevant passages; the full Gibbard article and scholarly entries were not read cover to cover. This source check is not expert review.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

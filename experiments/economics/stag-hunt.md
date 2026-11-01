@@ -68,4 +68,4 @@ Rousseau’s Part II hunting passage was consulted in Ian Johnston’s English t
 
 Research check: 2026-11-01. Relevant passages, source access levels, and limitations are recorded in [research/source-review-batch17-item-stag-hunt.json](../../research/source-review-batch17-item-stag-hunt.json). This is an original educational explanation, not a substitute for the primary text or technical game-theory analyses.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

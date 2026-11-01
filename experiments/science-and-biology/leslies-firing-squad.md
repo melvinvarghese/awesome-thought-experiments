@@ -61,4 +61,4 @@ The Stanford Encyclopedia of Philosophy entry and relevant passages from Elliott
 
 Research check: 2026-11-01. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

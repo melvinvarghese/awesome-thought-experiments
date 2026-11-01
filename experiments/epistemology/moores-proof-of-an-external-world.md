@@ -68,4 +68,4 @@ Moore’s primary lecture was consulted in a reprint in *G. E. Moore: Selected W
 
 Research check: 2026-11-01. This educational summary distinguishes Moore’s primary argument from later interpretation and does not claim that the proof succeeds as a refutation of skepticism or that the sources settle the philosophical dispute.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

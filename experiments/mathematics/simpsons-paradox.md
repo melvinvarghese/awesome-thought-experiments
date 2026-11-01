@@ -65,4 +65,4 @@ The table reproduces the open-surgery and PCNL groups in Charig et al. (1986), T
 
 Research check: 2026-11-01. This is an original educational explanation, not medical advice or a substitute for the cited research. The source review does not establish treatment recommendations or expert review. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

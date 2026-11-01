@@ -60,4 +60,4 @@ The relevant river-fragment discussion in the Winter 2023 *Stanford Encyclopedia
 
 Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary sources or a claim that the interpretation is settled. The modern comparisons in this article are teaching prompts, not historical examples attributed to Heraclitus.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

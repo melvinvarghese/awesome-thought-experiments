@@ -65,4 +65,4 @@ The cases and the population-relative proposal are David Lewis’s, not Ned Bloc
 
 Research check: 2026-11-01. This is an educational explanation, not an expert review or a substitute for the cited works.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

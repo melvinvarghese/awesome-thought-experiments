@@ -63,4 +63,4 @@ The published passages listed above were consulted for the formulations describe
 
 Research check: 2026-11-01. Source access and claim-level findings are recorded in [the local source-review evidence record](../../research/source-review-batch10-item-eternal-recurrence.json); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

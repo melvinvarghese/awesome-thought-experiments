@@ -61,4 +61,4 @@ The Jowett translation of *Euthyphro* was read at the opening and at 9e–11b. R
 
 Research check: 2026-11-01. Claim-level evidence, access limits, and unresolved issues are recorded in [the source-review ledger](../../research/source-review-batch3-2026-11-01.json).
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -77,4 +77,4 @@ The bibliographic record for Pereboom’s 2001 book was checked, but the relevan
 
 Research check: 2026-11-01. This is an educational explanation, not expert review or a substitute for Pereboom’s book. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

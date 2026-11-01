@@ -63,4 +63,4 @@ The complete 1973 volume PDF was accessed and parsed; its title, copyright, and 
 
 Research check: 2026-11-01. Claim-level evidence, access limits, and unresolved issues are recorded in [the source-review ledger](../../research/source-review-batch3-2026-11-01.json).
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

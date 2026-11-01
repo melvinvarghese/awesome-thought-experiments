@@ -60,4 +60,4 @@ Bostrom’s complete author-hosted PDF was retrieved and read. The dialogue spec
 
 Research check: 2026-11-01. This is an original educational explanation, not a substitute for the primary texts or expert review. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

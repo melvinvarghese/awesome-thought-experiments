@@ -61,4 +61,4 @@ The relevant passages in Hume’s *Enquiry* and *Treatise* were consulted direct
 
 Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

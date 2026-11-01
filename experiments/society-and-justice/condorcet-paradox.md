@@ -79,4 +79,4 @@ Condorcet's 1785 French essay was consulted at the passage in the *Discours pré
 
 The philosophical questions about fairness and legitimacy are prompts for discussion, not conclusions established by the mathematical result. Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary text or a comprehensive review of the social-choice literature. Sources were checked at the relevant passages listed in the local evidence ledger; the cited sources differ in type and scope.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -62,4 +62,4 @@ Galileo’s First Day passage was checked in the Henry Crew and Alfonso de Salvi
 
 Research check: 2026-11-01. The primary text and relevant passages of the two secondary sources were consulted; none of the works was read in full. This is an educational explanation, not a substitute for the primary texts or a comprehensive history of the mathematics of infinity.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

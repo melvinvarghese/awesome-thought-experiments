@@ -64,4 +64,4 @@ The Stanford Encyclopedia of Philosophy entry was consulted for argument classif
 
 Research check: 2026-11-01. Questions and comparisons are teaching prompts unless attributed above.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

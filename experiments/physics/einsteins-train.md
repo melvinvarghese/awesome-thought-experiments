@@ -64,4 +64,4 @@ Relevant passages of Einstein’s English translation of *Relativity: The Specia
 
 Research check: 2026-11-01. Access levels and exact passage locations for this claim-level audit are recorded in `research/source-review-batch10-item-einsteins-train.json`; this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -70,4 +70,4 @@ The SEP entry was consulted in its sections on the epistemological problem, the 
 
 Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary texts or an exhaustive account of the debate.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -62,4 +62,4 @@ The Stanford Encyclopedia of Philosophy entries on fatalism and ancient freedom/
 
 Research check: 2026-11-01. This is an educational explanation, not a substitute for the primary texts. The crops and exam comparisons above are teaching prompts, not established ancient variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

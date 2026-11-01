@@ -65,4 +65,4 @@ The Stanford Encyclopedia of Philosophy entry was consulted in §§1–5. McCart
 
 Research check: 2026-11-01. Further comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

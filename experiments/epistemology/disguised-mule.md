@@ -65,4 +65,4 @@ The Stanford Encyclopedia of Philosophy entry on epistemic closure quotes Dretsk
 
 Research check: 2026-11-01. This is an evidence-traceability review, not expert review or a judgment that any disputed epistemological position succeeds.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

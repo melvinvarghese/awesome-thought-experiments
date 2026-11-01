@@ -63,4 +63,4 @@ Block’s full 1981 article was read in a posted copy, especially §§1–2 and 
 
 Research check: 2026-11-01. Further comparisons and the chess example are teaching prompts, not established historical variants.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

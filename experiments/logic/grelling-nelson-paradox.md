@@ -60,4 +60,4 @@ The SEP’s “Paradoxes and Contemporary Logic” entry (§3.3.2) gives a trans
 
 Research check: 2026-11-01. The consulted sources and passage locations are recorded in the local evidence ledger. Examples are illustrations of the definition, not quotations from the original paper.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

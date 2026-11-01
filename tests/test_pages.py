@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+import json
 from pathlib import Path
 import re
 import unittest
@@ -113,6 +114,19 @@ class HomepageShellTests(unittest.TestCase):
         for phrase in ("traced to sources", "philosophical truth", "scholarly consensus", "exhaustive coverage", "human expert review"):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, copy)
+
+    def test_article_return_links_target_the_pages_homepage(self):
+        experiments = json.loads((ROOT / "data/experiments.json").read_text(encoding="utf-8"))
+        link_pattern = re.compile(r"\[Return to collection\]\(([^)]+)\)", re.IGNORECASE)
+        occurrences = 0
+        for experiment in experiments:
+            article = ROOT / experiment["file_path"]
+            targets = link_pattern.findall(article.read_text(encoding="utf-8"))
+            for target in targets:
+                occurrences += 1
+                with self.subTest(article=experiment["file_path"], target=target):
+                    self.assertEqual(target, "../../index.html")
+        self.assertGreater(occurrences, 0)
 
 
 if __name__ == "__main__":

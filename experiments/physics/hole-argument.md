@@ -64,4 +64,4 @@ Norton’s SEP entry was consulted for the distinctions between passive coordina
 
 Research check: 2026-11-01. This is an original educational explanation, not a substitute for the cited primary and scholarly sources. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -65,4 +65,4 @@ Hempel’s 1945 primary text was consulted for the equivalence condition and the
 
 Research check: 2026-11-01. This is an educational explanation, not a claim that the paradox has one settled resolution or that the entry has received expert review.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

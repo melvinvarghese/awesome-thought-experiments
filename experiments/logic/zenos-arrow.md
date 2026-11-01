@@ -59,4 +59,4 @@ Zeno’s book does not survive. The ancient argument here is presented as Aristo
 
 Research check: 2026-11-01. Relevant passages, rather than the cited works in full, were read; the exact passages and access limits are recorded in the local source-review ledger. The question in §3 and the prompts in §6 are teaching and discussion framing, not claims attributed to Zeno.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

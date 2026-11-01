@@ -59,4 +59,4 @@ The relevant passages in Stillman Drake’s translation of Galileo’s *Dialogue
 
 Research check: 2026-11-01. This is an educational summary, not a claim that Galileo’s argument proves the Earth’s motion or that it already states the modern theory of relativity.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

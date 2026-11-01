@@ -74,4 +74,4 @@ Kripke’s 1982 book was not accessed in full. A selected reprint excerpt of “
 
 Research check: 2026-11-01. This entry has been source-checked for traceability; that status does not mean the skeptical argument is sound, that the literature has reached consensus, or that the entry has received expert review.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

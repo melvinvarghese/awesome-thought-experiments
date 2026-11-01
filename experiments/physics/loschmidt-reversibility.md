@@ -69,4 +69,4 @@ The Poincaré recurrence theorem and Zermelo’s recurrence objection are relate
 
 The Stanford Encyclopedia of Philosophy entries listed above were checked in the relevant full-text sections. Darrigol’s published article page was inspected, and relevant translated primary passages and commentary were read in the openly available early draft; the draft itself says to cite the published version. The original Loschmidt scan was consulted directly at p. 139 during the independent follow-up review, alongside Darrigol’s translation and the SEP quotation. The rest of the original paper was not read. The article’s corner-gas example and reflection questions are editorial teaching devices. This entry is an educational explanation, not a substitute for the primary texts or a claim of expert review.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

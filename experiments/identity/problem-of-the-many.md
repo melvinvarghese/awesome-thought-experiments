@@ -76,4 +76,4 @@ The SEP entries by Weatherson and by Gallois and Kurtsal were read in the sectio
 
 Research check: 2026-11-01. The article’s sources were consulted at the access levels and locations recorded in the local evidence ledger; relevant passages were read, but the complete Unger article and Geach book were not read cover to cover.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -65,4 +65,4 @@ Relevant sections of the cited SEP entry were read for the model, five condition
 
 Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -61,4 +61,4 @@ Aristotle’s *On Interpretation*, chapter 9, was consulted in the Revised Oxfor
 
 Research check: 2026-11-01. The earlier expansion record documents topic-keyword checking of the SEP page only, not passage-level reading; this audit directly checked the sources above. This is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

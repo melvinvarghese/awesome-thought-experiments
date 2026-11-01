@@ -59,4 +59,4 @@ The SEP attributes the puzzle to Chrysippus and presents Theon as the part of Di
 
 Research check: 2026-11-01. The sources and passage locations consulted for this review are recorded in the local evidence ledger. Additional questions are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

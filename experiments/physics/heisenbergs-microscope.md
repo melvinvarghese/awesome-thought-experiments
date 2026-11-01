@@ -59,4 +59,4 @@ The primary source is Heisenberg’s 1927 paper, consulted in English translatio
 
 Research check: 2026-11-01. The microscope’s δqδp ∼ h estimate is qualitative/semi-quantitative; it is not the formal standard-deviation inequality. The dataset retains the SEP as its listed reference. This is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

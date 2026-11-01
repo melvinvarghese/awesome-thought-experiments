@@ -60,4 +60,4 @@ Zeno’s book is lost. The Dichotomy is known through ancient testimony, includi
 
 Research check: 2026-11-01. This is an educational summary, not a substitute for the primary text or specialist scholarship.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

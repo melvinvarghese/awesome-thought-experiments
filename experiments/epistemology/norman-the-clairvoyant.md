@@ -71,4 +71,4 @@ The scenario and BonJour’s objection are based on Case IV of “Externalist Th
 
 The Mr. Truetemp comparison is presented as a related case, not as an identical variation. The thermometer question in §6 is a teaching analogy. Research check: 2026-11-01. Relevant passages were consulted rather than every cited work being read in full; this educational overview is not a substitute for the primary text or a claim of expert review.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -69,4 +69,4 @@ The comparisons with brain-in-a-vat scenarios, contemporary media, and virtual r
 
 Research check: 2026-11-01. The references above provide primary text and interpretive context; the article remains an educational introduction, not a substitute for a critical edition or specialist scholarship.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

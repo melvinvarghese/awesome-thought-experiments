@@ -66,4 +66,4 @@ Newton’s primary text was checked in Andrew Motte’s English translation as r
 
 Research check: 2026-11-01. Access levels and passage-level limitations are recorded in the local source-review ledger; this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

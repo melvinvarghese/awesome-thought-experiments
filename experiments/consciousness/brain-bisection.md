@@ -73,4 +73,4 @@ Relevant passages of Nagel’s full paper, including its argument about conflict
 
 Research check: 2026-11-01. This is an educational explanation, not expert review or a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

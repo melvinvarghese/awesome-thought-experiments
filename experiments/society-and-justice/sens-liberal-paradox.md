@@ -62,4 +62,4 @@ Sen’s 1970 article was consulted in a full-text copy; its three rankings, deci
 
 Research check: 2026-11-01. The earlier expansion record documents topic-keyword checking of the SEP page only, not passage-level reading. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

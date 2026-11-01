@@ -61,4 +61,4 @@ Pascal’s Pensées was consulted in the English text reproduced by Project Gute
 
 Research check: 2026-11-01. The older [research/expansion.md](../../research/expansion.md) records the initial URL/topic check, not this passage-level audit. This is an original educational explanation, not a substitute for the primary text. The questions and modernized payoff descriptions are teaching framings, not claims about Pascal’s exact wording or established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

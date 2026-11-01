@@ -61,4 +61,4 @@ The relevant full-text sections of Harnad’s 1990 paper were consulted in its a
 
 Research check: 2026-11-01. Contemporary applications and camera examples above are teaching questions, not findings about present-day AI systems.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

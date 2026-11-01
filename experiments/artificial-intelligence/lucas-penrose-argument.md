@@ -64,4 +64,4 @@ This passage-level review consulted the Stanford Encyclopedia of Philosophy entr
 
 Research check: 2026-11-01. The listed sources and access limits describe this review. Further comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

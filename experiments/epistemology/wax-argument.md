@@ -60,4 +60,4 @@ The relevant passage in the Second Meditation was checked against an online Engl
 
 Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

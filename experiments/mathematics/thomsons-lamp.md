@@ -63,4 +63,4 @@ The relevant lamp discussion in the *Stanford Encyclopedia of Philosophy* entry 
 
 Research check: 2026-11-01. This is a summary of the published arguments, not a claim that a supertask is possible or impossible.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

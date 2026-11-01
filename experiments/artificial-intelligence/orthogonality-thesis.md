@@ -64,4 +64,4 @@ Bostrom’s author-hosted PDF was retrieved and relevant sections of the complet
 
 Research check: 2026-11-01. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

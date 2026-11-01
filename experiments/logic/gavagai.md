@@ -68,4 +68,4 @@ The scenario and questions for reflection are editorial teaching framing. They s
 
 Research check: 2026-11-01.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

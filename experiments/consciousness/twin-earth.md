@@ -62,4 +62,4 @@ Putnam’s 1975 essay was consulted at the Twin Earth and 1750 passages. Relevan
 
 Research check: 2026-11-01. Claim-level evidence and access limits are recorded in [the source-review ledger](../../research/source-review-batch2-2026-11-01.json).
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

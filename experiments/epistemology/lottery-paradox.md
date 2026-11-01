@@ -65,4 +65,4 @@ The alternatives in §4 summarize approaches discussed in the SEP formal-belief 
 
 Research check: 2026-11-01. This educational explanation is not a substitute for the primary text or for the broader scholarly debate.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

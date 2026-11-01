@@ -60,4 +60,4 @@ McTaggart’s original article was read in a full-text scan reproduction; releva
 
 Research check: 2026-11-01. The sources and passage locations consulted for this review are recorded in the local evidence ledger.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)

@@ -61,4 +61,4 @@ The proof, its formal assumptions, and the response literature were checked agai
 
 Research check: 2026-11-01. This is an original educational explanation, not a substitute for the cited sources. Additional comparisons are teaching prompts, not established historical variations.
 
-[Return to collection](../../README.md)
+[Return to collection](../../index.html)
