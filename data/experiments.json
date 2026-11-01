@@ -3205,10 +3205,28 @@
         "title": "Nick Bostrom, Are You Living in a Computer Simulation? (author’s PDF)",
         "url": "https://simulation-argument.com/simulation.pdf",
         "kind": "academic",
-        "support": "The original argument, stated as a trilemma."
+        "support": "The original paper states the three-way disjunction, its computational and consciousness assumptions, and the conditional first-person credence step."
+      },
+      {
+        "title": "Brian Weatherson, Are You a Sim? (PhilArchive record)",
+        "url": "https://philarchive.org/rec/WEAAYA",
+        "kind": "academic",
+        "support": "The abstract records a published challenge to the indifference-principle inference; the complete article was not accessible in this review."
+      },
+      {
+        "title": "Nick Bostrom, The Simulation Argument: Reply to Weatherson (PDF)",
+        "url": "https://pdf.stafforini.com/bostrom-2005-simulation-argument-reply.pdf",
+        "kind": "academic",
+        "support": "Bostrom clarifies that the original argument establishes a disjunction, not that the simulation horn is more likely, and responds to the first-person inference challenge."
+      },
+      {
+        "title": "Joe Carlsmith, Simulation Arguments (2022, author’s PDF)",
+        "url": "https://jc.gatspress.com/pdf/simulation_arguments_revised.pdf",
+        "kind": "academic",
+        "support": "A later analysis distinguishes empirical and observer-class versions and examines conditions for first-person simulation inferences; it is not presented as consensus."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "brain-in-a-vat",
@@ -4182,17 +4200,29 @@
         "title": "Nick Bostrom, Pascal’s Mugging (author’s PDF)",
         "url": "https://nickbostrom.com/papers/pascal.pdf",
         "kind": "academic",
-        "support": "The original short article presenting the puzzle."
+        "support": "The original dialogue specifies the finite offers, unbounded utility, linear happy-day utility, credence assumptions, and the footnote on the label’s origin."
+      },
+      {
+        "title": "Eliezer Yudkowsky, Pascal’s Mugging: Tiny Probabilities of Vast Utilities (2007)",
+        "url": "https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabilities-of-vast-utilities",
+        "kind": "primary",
+        "support": "Yudkowsky’s earlier post gives a distinct formulation and is the naming source cited by Bostrom."
+      },
+      {
+        "title": "Avram Hiller and Ali Hasan, How to Save Pascal (and Ourselves) From the Mugger",
+        "url": "https://doi.org/10.1017/S0012217323000392",
+        "kind": "academic",
+        "support": "Peer-reviewed later proposal of a many-muggers response based on symmetric, non-salient alternative rewards; also distinguishes the puzzle from St. Petersburg."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "pascals-wager",
       "st-petersburg-paradox"
     ],
     "file_path": "experiments/economics/pascals-mugging.md",
-    "summary": "Should a rational agent who maximizes expected value hand over the wallet, and if not, what must be changed in the theory?"
+    "summary": "Should a rational agent who maximizes expected utility hand over the wallet, and if not, how can the result be resisted?"
   },
   {
     "id": "stag-hunt",
@@ -4430,7 +4460,7 @@
     "associated_thinkers": [
       "Nick Bostrom"
     ],
-    "original_publication": "Bostrom, “The Superintelligent Will” (Minds and Machines, 2012)",
+    "original_publication": "Bostrom, “The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents” (Minds and Machines 22(2), 2012, 71–85)",
     "difficulty": "Intermediate",
     "themes": [
       "goals",
@@ -4439,13 +4469,25 @@
     ],
     "references": [
       {
-        "title": "Nick Bostrom, The Superintelligent Will (author’s PDF)",
+        "title": "Nick Bostrom, The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents (author’s PDF)",
         "url": "https://nickbostrom.com/superintelligentwill.pdf",
         "kind": "academic",
-        "support": "The paper in which the orthogonality thesis and the instrumental convergence thesis are stated."
+        "support": "The original paper defines instrumental intelligence and the qualified orthogonality thesis, distinguishes instrumental convergence, and discusses moral facts and goal change."
+      },
+      {
+        "title": "Vincent C. Müller and Michael Cannon, Existential risk from AI and orthogonality: Can we have it both ways?",
+        "url": "https://doi.org/10.1111/rati.12320",
+        "kind": "academic",
+        "support": "A peer-reviewed challenge to a common inference from orthogonality to existential risk; it preserves a qualified orthogonality thesis under an instrumental reading."
+      },
+      {
+        "title": "Nathaniel Sharadin, Promotionalism, orthogonality, and instrumental convergence",
+        "url": "https://doi.org/10.1007/s11098-024-02212-9",
+        "kind": "academic",
+        "support": "A peer-reviewed later argument that the probabilistic and fit-based accounts of goal promotion it examines do not establish dangerous instrumental convergence regardless of specific final goals."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "paperclip-maximizer",

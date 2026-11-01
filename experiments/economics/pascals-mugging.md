@@ -10,27 +10,27 @@
 
 ## 1. The Scenario
 
-A stranger approaches you on the street and demands your wallet. You refuse. The stranger then says that if you hand it over, they will use special powers outside the laws of physics to give you a vast reward later: not just a thousand times your money, but an unimaginably large amount of happiness.
+A stranger approaches Pascal in a dark alley and demands his wallet. Pascal refuses. The stranger then claims to have magical powers and offers an enormous but finite number of happy days in exchange.
 
-You think the claim is almost certainly false. But if you assign it any probability at all, however small, the stranger can name a reward big enough to make the expected value of paying exceed the cost.
+In Bostrom’s dialogue, Pascal gives the claim a small, nonzero probability. He also assumes that his utility is unbounded, counts happy days linearly, and is neither risk-averse nor temporally discounting. Under those assumptions, the stranger can name a sufficiently large finite reward to make handing over the wallet maximize expected utility. The result depends on that setup; it is not a general theorem that any improbable claim can force acceptance.
 
 ## 2. The Central Question
 
-Should a rational agent who maximizes expected value hand over the wallet, and if not, what must be changed in the theory?
+Given the assumptions in Bostrom’s story, should Pascal hand over his wallet—and what, if anything, should a decision-maker change to resist the result?
 
 ## 3. Why It Matters
 
-The puzzle shows how expected-value reasoning can be exploited by claims with tiny probabilities and huge stakes. If you cannot assign such claims a probability that falls as fast as the stakes rise, then anyone can steer your decisions with unverifiable promises.
-
-It matters for debates over decision-making about extreme risks, where calculations are dominated by small probabilities of enormous outcomes.
+The puzzle dramatizes how expected-utility calculations can be dominated by a very large payoff assigned a small but nonzero probability when utility is unbounded. It does not show that expected-utility theory is generally exploitable or that a real stranger’s promise deserves credence. The result depends on how probability and utility are represented, as well as on the story’s assumptions.
 
 ## 4. Major Interpretations
 
-**Bounded utility** views cap the value of any outcome. **Probability-penalty views** say credence in a claim of reward R falls faster than R grows. **Rejecting expected value** for tiny probabilities denies that the calculation applies. **Biting the bullet** accepts that the agent should pay. Each approach has costs when used in other cases.
+Bostrom’s short dialogue does not settle the puzzle or present a taxonomy of solutions; it ends with Pascal handing over his wallet. One later proposal, by Avram Hiller and Ali Hasan, asks Pascal to consider other, symmetric rewards that might be available if he declines. Their “many muggers” response says that a salient offer may lose its one-sided advantage when such non-salient alternatives are included. This is a specific proposal, not a general license to ignore small probabilities.
 
 ## 5. Common Misunderstandings
 
-The puzzle is not a robbery tip, and it does not show that taking small risks is irrational. It concerns the combination of unbounded payoffs and nonzero probabilities. The mugger’s story is a literary device to make the structure vivid.
+The story is not a robbery tip, and it does not show that taking small risks is irrational. Bostrom’s utility is unbounded, not an infinite payoff: the mugger offers a finite reward. In the dialogue, the result also relies on the assumed credibility of increasingly large promises, linear utility, and the absence of risk aversion or temporal discounting.
+
+Bostrom’s footnote credits Eliezer Yudkowsky with naming the problem. Yudkowsky’s 2007 post uses a related but different example and ends by saying he did not yet have a satisfactory resolution.
 
 ## 6. Think for Yourself
 
@@ -41,7 +41,7 @@ The puzzle is not a robbery tip, and it does not show that taking small risks is
 
 ## 7. Variations and Extensions
 
-The St. Petersburg paradox and Pascal’s wager have similar structure. Each uses an unbounded payoff to challenge expected-value maximization.
+The puzzle resembles Pascal’s Wager and the St. Petersburg paradox, but the cases are not identical. Hiller and Hasan argue that Pascal’s Mugging is deeper than the St. Petersburg case because the mugger asks Pascal to assign a probability to an extraordinary promise without first showing that he can deliver such an enormous reward. Their comparison is one later analysis, not part of Bostrom’s original argument.
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +50,14 @@ The St. Petersburg paradox and Pascal’s wager have similar structure. Each use
 
 ## 9. Further Reading
 
-- [Nick Bostrom, Pascal’s Mugging (author’s PDF)](https://nickbostrom.com/papers/pascal.pdf) — The original short article presenting the puzzle.
+- [Nick Bostrom, “Pascal’s Mugging” (author’s PDF)](https://nickbostrom.com/papers/pascal.pdf) — The original three-page dialogue.
+- [Eliezer Yudkowsky, “Pascal’s Mugging: Tiny Probabilities of Vast Utilities” (2007)](https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabilities-of-vast-utilities) — The earlier, distinct example that Bostrom credits with naming the problem.
+- [Avram Hiller and Ali Hasan, “How to Save Pascal (and Ourselves) From the Mugger”](https://doi.org/10.1017/S0012217323000392) — A later peer-reviewed “many muggers” response.
 
 ## 10. Sources and Attribution
 
-Bostrom’s article was retrieved from the author’s website as a PDF; its text was not machine-checked, and the scenario is a paraphrase and simplified from the commonly cited version. No claim is made about the origin of the label beyond the article’s title.
+Bostrom’s complete author-hosted PDF was retrieved and read. The dialogue specifies Pascal’s assumptions about unbounded utility, linear happy days, risk aversion, temporal discounting, and the mugger’s finite offers; its footnote credits Yudkowsky with the name. Yudkowsky’s 2007 post is a related but distinct original formulation. Hiller and Hasan’s peer-reviewed article was checked at the abstract, relevant response sections, and comparison with the St. Petersburg paradox; it proposes one later response and does not establish a consensus solution.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. This is an original educational explanation, not a substitute for the primary texts or expert review. Additional comparisons are teaching prompts, not established historical variations.
 
 [Return to collection](../../README.md)
