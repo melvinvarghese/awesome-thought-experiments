@@ -2,17 +2,17 @@
 
 **Category:** ethics  
 **Type:** thought experiment  
-**Associated thinker(s):** Bernard Williams, Thomas Nagel  
-**Original publication or approximate period:** Williams and Nagel, “Moral Luck” (Proceedings of the Aristotelian Society, Supplementary Volume, 1976)  
+**Associated thinker(s):** Bernard Williams, Thomas Nagel\
+**Original publication or approximate period:** Williams, “Moral Luck” (1976), *Proceedings of the Aristotelian Society*, Supplementary Volume L, 115–135; Nagel, “Moral Luck” (1979), in *Mortal Questions*\
 **Difficulty:** Intermediate  
 **Themes:** moral luck, responsibility, agent-regret  
 **Related experiments:** [Trolley Problem](trolley.md); [Frankfurt Cases](../time-and-causality/frankfurt-cases.md)
 
 ## 1. The Scenario
 
-A lorry driver is carefully obeying every rule when a child runs into the road and is killed. Suppose the driver was not negligent: nothing he could reasonably have done would have prevented the death. Now compare a second driver who drives equally carefully (or equally carelessly) and whose journey ends without incident.
+In Williams’s example, a lorry driver runs over a child through no fault of his own. For this retelling, assume that nothing he could reasonably have done would have prevented the death. We can compare him with an equally careful driver whose journey ends without an accident; that comparison is an editorial teaching prompt, not a verbatim paired scenario in Williams’s text.
 
-Williams uses the first driver to point at a feeling that survives the verdict “not at fault.” Bystanders may feel sorry for him, but his own reaction is different in kind: a distinctive regret about what he did. The case is a short test of whether our moral assessment of a person should depend on outcomes beyond their control.
+Williams uses the first driver to point to a feeling that remains even when the driver is not to blame. Bystanders may feel sorry for him, but his own response is different: a distinctive regret about his relation to what happened. The case tests whether moral assessment and first-person feeling can be affected by outcomes beyond an agent’s control.
 
 ## 2. The Central Question
 
@@ -20,17 +20,17 @@ Can what happens, partly by chance, change how an agent should be morally assess
 
 ## 3. Why It Matters
 
-Many ethical traditions say that moral responsibility should not depend on luck. Yet ordinary practice treats the careless driver who kills differently from the one who does not, and treats the driver in this example as someone who has something to answer for. The case asks whether that practice is confused or whether it reveals something about agency: that we act in a world we do not fully control, and that our deeds are more than our intentions.
+A prominent control-based principle says that moral assessment should depend only on what lies within the agent’s control. Yet some ordinary legal and moral practices distinguish between negligent conduct that causes death and similar conduct that narrowly avoids harm. That observation raises a question; it does not establish that outcomes alone determine blame.
 
-It also bears on law, medicine and engineering, where outcomes often determine accountability. A good account must explain which of those reactions are fitting and which are merely understandable.
+The case also raises questions about outcome-sensitive legal responsibility. Broader claims about medicine or engineering require further sources and are not asserted here.
 
 ## 4. Major Interpretations
 
-**Control-based views** hold that blame and praise track only what is in the agent’s control, so differences in outcome should not alter moral standing; the sense of special responsibility is explained as a psychological response. **Agent-regret views**, associated with Williams, accept a distinctive first-person reaction without necessarily saying the driver is blameworthy. **Skeptical views** (Nagel presses this side) accept that our concept of responsibility seems to be undermined by the pervasive role of luck, yet cannot easily be abandoned.
+Control-based replies hold that blame and praise should track what is within an agent’s control. Williams’s discussion of **agent-regret** allows for a distinctive first-person response without necessarily treating the driver as blameworthy. Nagel presses the skeptical challenge that the control principle conflicts with familiar practices of moral assessment. Other writers, including Andrew Latus, question inferences from agent-regret to retrospective justification. These are selected lines of debate, not exhaustive or mutually exclusive camps.
 
 ## 5. Common Misunderstandings
 
-The example does not say the driver is guilty, and Williams’s point is not simply that outcomes should always be blamed. Nor is “moral luck” a claim that morality is random. It names a tension between a principle about control and actual practices of assessment. Be careful to separate legal liability, blame, and the agent’s own regret, which can come apart.
+The example does not say the driver is guilty, and Williams’s point is not that outcomes should always determine blame. Nor is “moral luck” a claim that morality is random. It names a tension between control-based principles and practices of assessment. Legal liability, blame, and an agent’s own regret are distinct and can come apart.
 
 ## 6. Think for Yourself
 
@@ -41,7 +41,7 @@ The example does not say the driver is guilty, and Williams’s point is not sim
 
 ## 7. Variations and Extensions
 
-Nagel distinguishes several kinds of luck, including luck in circumstances, in constitution, and in how one’s actions turn out. Versions with a negligent driver show how fault and consequence interact. Because those variants change the premises, state them explicitly before comparing verdicts.
+Nagel distinguishes constitutive luck, circumstantial luck, luck in causal antecedents, and luck in how actions or projects turn out. He treats a blameless driver’s agent-regret as distinct from moral bad luck; resultant moral luck arises in the altered case where negligence contributes to the death. State those changed premises explicitly before comparing verdicts.
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +50,15 @@ Nagel distinguishes several kinds of luck, including luck in circumstances, in c
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Moral Luck](https://plato.stanford.edu/entries/moral-luck/) — Williams’s lorry-driver example, the Williams–Nagel symposium, and the main responses to moral luck.
+- [Bernard Williams, “Moral Luck” (1976; revised reprint in *Moral Luck: Philosophical Papers 1973–1980*)](https://bibliotecamathom.wordpress.com/wp-content/uploads/2012/10/williams_-_moral_luck.pdf) — the lorry-driver passage and Williams’s account of agent-regret; the consulted text is the 1981 revised reprint.
+- [Thomas Nagel, “Moral Luck” (1979)](https://rintintin.colorado.edu/~vancecd/phil1100/Nagel1.pdf) — the control problem and kinds of luck; this is a hosted reproduction of the essay in *Mortal Questions*.
+- [Stanford Encyclopedia of Philosophy: Moral Luck](https://plato.stanford.edu/entries/moral-luck/) — the control principle, driver examples, and replies.
+- [Internet Encyclopedia of Philosophy: Moral Luck](https://iep.utm.edu/moralluc/) — one challenge to an inference from agent-regret to retrospective justification.
 
 ## 10. Sources and Attribution
 
-Williams’s lorry-driver example and the 1976 symposium are described in the Stanford Encyclopedia of Philosophy entry, which was the source consulted; the original papers were not retrieved. The entry does not settle which response is correct, and neither does this article.
+Relevant passages in the complete SEP entry, Williams’s 1981 revised reprint, Nagel’s essay, and Latus’s discussion were read. Williams’s own acknowledgements and the SEP bibliography distinguish Williams’s 1976 paper from Nagel’s separate 1979 essay. The Nagel copy is a hosted reproduction with inconsistent page labels; the Williams text is a revised reprint rather than the original journal printing. The paired-driver comparison and broader applications are identified as this article’s framing, not as established historical variations. The review does not claim that the philosophical dispute is settled or that a human expert reviewed the entry.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Claim-level evidence, access limits, and unresolved issues are recorded in [the source-review ledger](../../research/source-review-batch3-2026-11-01.json).
 
 [Return to collection](../../README.md)

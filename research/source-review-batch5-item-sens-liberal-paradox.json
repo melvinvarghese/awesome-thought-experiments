@@ -1,0 +1,261 @@
+{
+  "id": "sens-liberal-paradox",
+  "title": "Sen’s Paradox of the Paretian Liberal",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/society-and-justice/sens-liberal-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level source audit of the setup, all preference rankings, the decisiveness/liberty and weak-Pareto conditions, each social comparison and the resulting cycle, the formal theorem and its assumptions, Sen's conclusion and qualifications, scholarly interpretations and objections, the generalization beyond the example, the related Gibbard attribution, publication details, and further-reading matches. Review date: 2026-11-01. Reviewer type: AI source audit; no expert review is claimed. Protocol: approved source-review-standard.md (approved 2026-11-01).",
+  "summary": "Sen’s complete six-page 1970 article was read at the conditions, proof, example, and conclusion. The rankings and resulting cycle are correct under the stated pairwise decisiveness and weak-Pareto assumptions. The article now specifies the general theorem’s conditions, narrows its conclusion, distinguishes later rights formulations, and removes an unsupported Gibbard attribution. Independent review found no remaining material claim issue; dataset references now match all Further Reading URLs.",
+  "sources": [
+    {
+      "title": "The Impossibility of a Paretian Liberal",
+      "author": "Amartya Sen",
+      "publication": "Journal of Political Economy 78(1) (1970): 152–157. Full-text copy hosted by North Carolina State University.",
+      "stable_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "source_type": "Primary scholarly article",
+      "access_level": "Relevant passages in the full work; the six-page article was accessed as extracted text, with relevant passages read across pp. 152–157.",
+      "exact_locations_read": "pp. 152–153: introduction and definitions of collective choice and social decision functions; p. 153: Conditions U (Unrestricted Domain) and P (Pareto), Condition L; pp. 154–155: Condition L* (Minimal Liberalism), Theorems I–II and proof; pp. 155–156: §III, 'An Example' (three alternatives, rankings and pairwise comparisons); pp. 156–157: §IV, 'Relevance' (scope, assumptions and conclusion).",
+      "limitations": "This is a university-hosted copy of the primary article, not the publisher platform. It directly establishes what Sen states, not whether his premises or normative conclusion are sound. The scan/extracted text has minor OCR/transcription artifacts, but the relevant wording and page locations were legible in the extracted passages."
+    },
+    {
+      "title": "Social Choice Theory",
+      "author": "Christian List",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 18 December 2013, substantive revision 14 October 2022.",
+      "stable_url": "https://plato.stanford.edu/entries/social-choice/",
+      "source_type": "Scholarly reference entry / secondary exposition",
+      "access_level": "Relevant passages in the full entry; §3.4 and its bibliography were retrieved and read, not the entire entry.",
+      "exact_locations_read": "§3.4, 'The liberal paradox': formal minimal-liberalism condition; the Lewd/Prude ranking and pairwise comparison; Sen's theorem; domain-restriction responses and 'meddlesome' preferences; objections by Gaertner, Pattanaik and Suzumura (1992) and Dowding and van Hees (2003). Bibliography entries for Sen 1970a, Sen 1983, Gaertner et al. 1992, and Dowding and van Hees 2003.",
+      "limitations": "A scholarly secondary account, not a substitute for Sen's article or the full later debate. Supports exposition and establishes that identified published responses exist; it does not show that any response is consensus or that one interpretation prevails."
+    },
+    {
+      "title": "Rights: Formulation and Consequences",
+      "author": "Amartya Sen",
+      "publication": "Analyse & Kritik 18 (1996): 153–170.",
+      "stable_url": "https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+      "source_type": "Primary scholarly rejoinder by Sen; a later first-person account of his position and the debate",
+      "access_level": "Selected relevant passages in the full article; pp. 153–157 were retrieved and read, not the entire article.",
+      "exact_locations_read": "Abstract and introduction, pp. 153–154; §2, 'Formulation of Rights, Nozick’s Proposal and Game Forms,' pp. 155–156; §3, 'Game Forms, Consequences and the Typology of Rights,' pp. 156–157. These passages distinguish social-choice rights from permission/power over actions or strategies and state that consequences remain relevant for outcome-oriented rights.",
+      "limitations": "This is Sen's later symposium rejoinder, not his 1970 theorem and not a survey of consensus. Only the relevant early pages were read; the article's full argument and further distinctions are outside this audit."
+    },
+    {
+      "title": "Publication: The Impossibility of a Paretian Liberal",
+      "author": "Amartya Sen (record author)",
+      "publication": "Harvard DASH repository publication record; record gives 1970 and the citation Journal of Political Economy 78(1): 152–157.",
+      "stable_url": "https://dash.harvard.edu/entities/publication/73120378-8203-6bd4-e053-0100007fdf3b",
+      "source_type": "University repository metadata/catalogue record",
+      "access_level": "Metadata and abstract page accessed; the linked PDF request was rate-limited, so the PDF text was verified through the separate university-hosted copy above.",
+      "exact_locations_read": "Record title, date, author, citation field and published-version field; abstract read only as metadata/context, not relied on to establish the argument.",
+      "limitations": "Metadata does not establish the paper's argument. The linked file request returned HTTP 429 during direct retrieval; no claim of full-text access through Harvard DASH is made."
+    },
+    {
+      "title": "A Pareto-consistent libertarian claim",
+      "author": "Allan Gibbard",
+      "publication": "Journal of Economic Theory 7(4) (1974): 388–410; bibliographic listing at IDEAS/RePEc.",
+      "stable_url": "https://ideas.repec.org/a/eee/jetheo/v7y1974i4p388-410.html",
+      "source_type": "Bibliographic database record for a scholarly article",
+      "access_level": "Metadata only; the record states that no abstract is available and the publisher full text is restricted.",
+      "exact_locations_read": "IDEAS/RePEc title, author, suggested citation and full-text-access notice. Also compared with Sen 1970, p. 156 n. 5, which describes a distinct then-unpublished Gibbard theorem, and Sen 1996, pp. 154–155, which lists Gibbard among early responses to the rights literature.",
+      "limitations": "The paper's argument was not accessed. The record establishes bibliographic existence only and cannot substantiate that Gibbard's 1974 result is itself a game-form account of rights. The article's former wording asserting this was removed."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The named original work is Sen’s ‘The Impossibility of a Paretian Liberal,’ published in 1970 in the Journal of Political Economy, volume 78, issue 1, pages 152–157.",
+      "source_title": "The Impossibility of a Paretian Liberal; Harvard DASH publication record",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://dash.harvard.edu/entities/publication/73120378-8203-6bd4-e053-0100007fdf3b",
+      "exact_location": "Primary text title/header and journal pagination pp. 152–157; DASH record title, author, date and citation field.",
+      "relationship": "supports",
+      "finding": "The article's identification and publication details match the primary article and Harvard repository record.",
+      "limitation": "The repository page is metadata; primary-text verification used the NCSU-hosted copy.",
+      "required_edit": "None; article already named the work and journal/year. Primary citation was added to Further Reading."
+    },
+    {
+      "material_claim": "The example has three alternatives: Prude reads (a), Lewd reads (b), or neither reads (c); Prude's ordering is c>a>b and Lewd's is a>b>c.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "§III, 'An Example,' p. 155; p. 156 continues the comparisons. Sen uses x for Prude reads, y for Lewd reads, z for neither; the article's a,b,c are a consistent relabeling x,y,z.",
+      "relationship": "supports",
+      "finding": "Sen explicitly gives Prude's decreasing ranking as neither, self, Lewd and Lewd's ranking as Prude, self, neither. The article's ranking reconstruction is correct under its own labels.",
+      "limitation": "Sen's original letters differ; the mapping is article editorial notation, not Sen's notation.",
+      "required_edit": "None to the rankings. Sources and Attribution now records that the original was checked."
+    },
+    {
+      "material_claim": "Minimal liberty is represented by individual decisiveness over designated pairs, not a blanket power to determine all social outcomes; in the example the prude is decisive on a/c and the lewd on b/c.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "Condition L, p. 153; Condition L* (Minimal Liberalism), p. 154; §III, pp. 155–156, pairs (x,z) and (y,z).",
+      "relationship": "supports_with_qualification",
+      "finding": "Sen defines each person's freedom in this model as decisiveness over at least one pair, with minimal liberalism requiring two individuals. The exact pair assignments in the example give the stated individual comparison, but ‘veto’ and ‘choose’ risk implying broader control than this social-preference condition.",
+      "limitation": "The formal pairwise decisiveness axiom is a modeling of liberty; whether it adequately captures rights is disputed, as the article's later-interpretations section now notes.",
+      "required_edit": "Replaced the casual ‘veto/choose’ gloss with the pairwise decisiveness explanation and explicitly limited its scope."
+    },
+    {
+      "material_claim": "The prude's decisiveness over a/c yields the social comparison c>a.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "§III, p. 156, paragraph beginning ‘Now if the choice is precisely between the pair (x, z)’; mapped to a=x and c=z.",
+      "relationship": "supports",
+      "finding": "Sen states that the prude's preference is decisive between his reading and nobody reading; because the prude prefers nobody reading, the social comparison is c>a.",
+      "limitation": "This comparison follows from the assumed decisiveness right, not from an unconstrained policy decision or from a social choice over every alternative simultaneously.",
+      "required_edit": "None beyond the clarifying wording added to the scenario."
+    },
+    {
+      "material_claim": "The lewd's decisiveness over b/c yields the social comparison b>c.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "§III, p. 156, paragraph beginning ‘Similarly, in the choice exactly between person 2 reading the book (y) and no one reading it (z)’; mapped to b=y and c=z.",
+      "relationship": "supports",
+      "finding": "Sen states that person 2's preference is decisive between reading himself and nobody reading; his ranking therefore yields b>c socially.",
+      "limitation": "As above, decisiveness is assumed for the specified pair and is not a general claim that he can compel an outcome.",
+      "required_edit": "None beyond the clarifying wording added to the scenario."
+    },
+    {
+      "material_claim": "Because both individuals prefer a to b, the weak Pareto principle requires a>b socially.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "Condition P, p. 153; §III, p. 156, paragraph stating alternative x is Pareto superior to y because both persons prefer it; mapped to a=x and b=y.",
+      "relationship": "supports",
+      "finding": "The article's Pareto comparison follows exactly from both strict individual rankings and Sen's weak Pareto condition.",
+      "limitation": "This is the weak Pareto axiom as Sen defines it, not a claim that every unanimous weak preference must be socially strict.",
+      "required_edit": "None."
+    },
+    {
+      "material_claim": "Together c>a, a>b, and b>c form a cycle.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "§III, p. 156, where Sen states y socially preferred to z, z to x, and x Pareto superior to y; map y=b, z=c, x=a.",
+      "relationship": "supports",
+      "finding": "The article's orientation c>a>b>c is the same directed three-cycle as Sen's b>c>a>b, merely starting at a different vertex.",
+      "limitation": "Sen presents an inconsistency of social choice and later proves no social decision function under his conditions; the example should not be generalized as a cycle under every aggregation rule or domain.",
+      "required_edit": "None to cycle; scope qualification added elsewhere."
+    },
+    {
+      "material_claim": "The general result requires unrestricted domain, weak Pareto, and minimal liberalism (two individuals each decisive over a pair) and rules out even a social decision function; it is not just a result for the three-outcome vignette.",
+      "source_title": "The Impossibility of a Paretian Liberal; Social Choice Theory",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://plato.stanford.edu/entries/social-choice/",
+      "exact_location": "Sen, Condition U and P, p. 153; L*, Theorem II and proof, pp. 154–155. List, §3.4, theorem statement (at least universal domain, acyclicity, weak Pareto and minimal liberalism).",
+      "relationship": "supports_with_qualification",
+      "finding": "The article correctly says the result generalizes beyond the example. Sen's own 1970 theorem is sharper in one respect than the SEP's compact theorem statement: it rules out a social decision function, requiring only a best element in each choice situation, not a complete/transitive social ordering. Sen's Conditions U, P and L* are explicit; the proof and footnote also discuss strengthened formulations.",
+      "limitation": "This is a mathematical impossibility conditional on those axioms. It is not an unconditional theorem that liberty and efficiency always conflict.",
+      "required_edit": "Replaced the vague claim that more people and complexity are needed with the precise minimal assumptions and clarified that the small example already displays a cycle."
+    },
+    {
+      "material_claim": "The paradox concerns interdependent or meddlesome preferences, and restricting the admissible preference domain is one proposed response; the result does not hold across all possible preference domains.",
+      "source_title": "The Impossibility of a Paretian Liberal; Social Choice Theory",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://plato.stanford.edu/entries/social-choice/",
+      "exact_location": "Sen, §IV, p. 156 (‘not necessarily disturbing for every conceivable society,’ particular preference configurations and unrestricted domain); List, §3.4, paragraph after theorem, domain restriction to tolerant/non-meddlesome profiles and characterization of the example as meddlesome.",
+      "relationship": "supports_with_qualification",
+      "finding": "Sen expressly limits the dilemma to particular preference configurations and uses unrestricted domain. The label ‘meddlesome’ and the named domain-restriction responses are List's exposition of later work, with Sen 1983 among its cited sources.",
+      "limitation": "‘Meddlesome’ is a secondary-source characterization; this does not imply that the formal theorem assumes only meddlesome profiles or that all interdependent preferences are inadmissible.",
+      "required_edit": "Qualified the article's claim about interconnected preferences and attributed the domain-restriction response as one later approach."
+    },
+    {
+      "material_claim": "Sen's own conclusion is that under these assumptions Pareto can have illiberal consequences, while the result is conditional and not an all-context incompatibility claim.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "§IV, pp. 156–157: particular configurations and unrestricted domain, lack of required transitivity/independence assumptions, weak Pareto, and final ‘moral’ about liberal values and Pareto.",
+      "relationship": "supports_with_qualification",
+      "finding": "Sen explicitly draws the moral that even weak liberal values can conflict with Pareto under unrestricted domain and that Pareto can have illiberal consequences. He also says the conflict is not necessarily relevant for every society because it arises only with particular preference configurations. The revised article reflects both parts.",
+      "limitation": "The paper's normative interpretation is Sen's argument, not a settled conclusion about welfare economics or a proof that Pareto always undermines liberty.",
+      "required_edit": "Narrowed the former broad statement about welfare-based approaches to Sen's conditional point and explicitly included the scope qualification."
+    },
+    {
+      "material_claim": "The article's possible responses include restricting admissible preferences, changing the rights formalization, and action/strategy-based game-form rights; these are not a single settled taxonomy or Sen's simple rejection of preference-based rights.",
+      "source_title": "Social Choice Theory; Rights: Formulation and Consequences",
+      "source_url": "https://plato.stanford.edu/entries/social-choice/ ; https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+      "exact_location": "List, §3.4, paragraphs on domain restriction and objections to Sen's minimal-liberalism condition; Sen, pp. 155–157, §§2–3, discussing Nozick's proposal, permissible actions/strategies, and the distinction between action-centered and outcome-oriented rights.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP supports domain restriction and published challenges to Sen's formalization. Sen's 1996 rejoinder describes the game-form approach as an alternative formulation and explicitly says some rights concern freedom of action while for outcome-oriented rights the consequences remain relevant. The article's revised wording treats these as distinct responses and no longer states a categorical ‘Sen's own view’ that rights should not function through preferences.",
+      "limitation": "The sources do not establish a complete taxonomy of every response or a settled scholarly verdict. Sen's 1996 essay is a first-person rejoinder, not neutral consensus evidence.",
+      "required_edit": "Rewrote the Major Interpretations section to correct the confusion between restricting a rights axiom and restricting the admissible preference domain, and to qualify the attribution to Sen."
+    },
+    {
+      "material_claim": "Sen's 1996 position is accurately summarized only if it acknowledges that game-form rights emphasize permissions or powers over actions/strategies, while consequences remain relevant for outcome-oriented rights.",
+      "source_title": "Rights: Formulation and Consequences",
+      "source_url": "https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+      "exact_location": "pp. 155–157, especially p. 155's account of rights as admissibility of actions/strategies and preference-independence in the game formulation; pp. 156–157 on consequence relevance and types of rights.",
+      "relationship": "supports",
+      "finding": "Sen distinguishes a rights formulation that grants control over permissible actions/strategies from his 1970 social-choice formulation, and accepts that game-form formulations can suit rights centered on freedom of action. He also says outcome-oriented rights need substantive attention to likely consequences. The revised article avoids presenting this as a single exclusive theory of rights.",
+      "limitation": "Only the relevant pages were read; this finding summarizes those passages and does not claim to exhaust Sen's later work on rights.",
+      "required_edit": "Added the relevant later Sen source to Further Reading and revised the attribution to reflect both kinds of rights."
+    },
+    {
+      "material_claim": "The former statement that Gibbard's related paradox concerns rights in a game-form framework.",
+      "source_title": "A Pareto-consistent libertarian claim; The Impossibility of a Paretian Liberal; Rights: Formulation and Consequences",
+      "source_url": "https://ideas.repec.org/a/eee/jetheo/v7y1974i4p388-410.html ; https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+      "exact_location": "IDEAS/RePEc bibliographic record for Gibbard 1974 (no abstract; full text restricted); Sen 1970, p. 156 n. 5 (a distinct then-unpublished Gibbard theorem); Sen 1996, pp. 154–155 (Gibbard listed among early responses, while game-form rights are discussed via Nozick and subsequent literature).",
+      "relationship": "does_not_establish",
+      "finding": "The sources accessed do not establish that Gibbard's 1974 paper itself is a game-form version of Sen's paradox. Sen 1970's footnote describes a different theorem, and the Gibbard 1974 record has no abstract. The affiliation was therefore removed rather than repeated as fact.",
+      "limitation": "Gibbard's paper was not retrieved or read; no stronger statement about its actual content is made.",
+      "required_edit": "Removed the Gibbard attribution and retained only the source-supported distinction that later game-form approaches reformulate rights as permissible actions or strategies."
+    },
+    {
+      "material_claim": "The article's teaching framing that the example does not prescribe book banning or endorse meddlesome preferences.",
+      "source_title": "The Impossibility of a Paretian Liberal",
+      "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+      "exact_location": "§III, pp. 155–156, framed as a formal example; §IV, pp. 156–157, relevance and moral; the example is an argument about social choice conditions, not a policy prescription about publishing.",
+      "relationship": "context_only",
+      "finding": "This is editorial explanatory framing rather than a quotation or historical claim attributed to Sen. Sen's text presents the novel story as an example of the formal conflict; the revised article labels its non-prescriptive interpretation accordingly.",
+      "limitation": "A primary text cannot establish every negative inference about what the author intended; the article avoids claiming Sen expressly disavowed each policy interpretation.",
+      "required_edit": "Reworded as the article's framing (‘formal argument, not a policy recommendation’) and did not attribute an endorsement or disavowal to Sen."
+    },
+    {
+      "material_claim": "The further-reading source on social choice discusses the liberal paradox and the newly cited primary/later Sen texts are appropriate sources for the article's claims.",
+      "source_title": "Social Choice Theory; The Impossibility of a Paretian Liberal; Rights: Formulation and Consequences",
+      "source_url": "https://plato.stanford.edu/entries/social-choice/ ; https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+      "exact_location": "List, §3.4; Sen 1970 §§II–IV, pp. 153–157; Sen 1996 §§2–3, pp. 155–157.",
+      "relationship": "supports",
+      "finding": "The SEP's §3.4 directly addresses the liberal paradox; Sen 1970 directly supplies the original formal argument and example; Sen 1996 directly discusses later rights formulations. Further-reading links now match the material described.",
+      "limitation": "The SEP entry is a secondary exposition, and Sen 1996 is not an exhaustive review of the literature.",
+      "required_edit": "Added direct links and accurate descriptions for the 1970 primary article and Sen's 1996 discussion."
+    }
+  ],
+  "edits_made": [
+    "Clarified that the liberty comparisons arise from pairwise decisiveness, not an unqualified power to veto or choose the final outcome.",
+    "Corrected the interpretation section's conflation of restricting liberal rights with restricting admissible preference profiles; distinguished later game-form approaches and qualified the attribution to Sen.",
+    "Qualified the scope of the result by stating that the general theorem assumes unrestricted domain, weak Pareto and minimal liberalism, and by noting Sen's limitation to particular preference configurations.",
+    "Specified the theorem's generalization beyond the two-person example and removed the unsupported attribution of a game-form framework to Gibbard's related work.",
+    "Updated the common-misunderstandings text to mark the non-prescriptive explanation as editorial framing.",
+    "Added the primary Sen 1970 article and Sen 1996 rejoinder to Further Reading; updated Sources and Attribution to document actual passage-level access and correct the previous statement that Sen's paper had not been retrieved."
+  ],
+  "unresolved": [
+    "Gibbard’s 1974 paper was not read; the unsupported attribution was removed.",
+    "No expert review or exhaustive literature review is claimed."
+  ],
+  "dataset_alignment": "After the audit, the matching dataset record’s identity, original publication, verification date (2026-11-01), and all three references match the article. The article’s Further Reading contains the SEP, Sen 1970 primary article, and Sen 1996 rejoinder; the URL sets are identical. The DASH PDF remains a metadata-only access point; full primary-text reading used the NCSU-hosted copy.",
+  "further_reading_matches": true,
+  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-sens-liberal-paradox.json",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+  "selection_rank": 1,
+  "risk_reason": "Central result depends on a reconstructed preference profile and several pairwise comparisons; the initial article relied on topic-level SEP checking and said Sen’s original was not retrieved.",
+  "audit_focus": "Verify the exact preference rankings, pairwise decisiveness, weak-Pareto comparison, general theorem conditions, and separation of Sen’s views from later interpretations.",
+  "independent_review": {
+    "initial_outcome": "issues_found",
+    "initial_summary": "The relevant Sen 1970 primary passages and List §3.4 and Sen 1996 passages support the revised claims. The first recheck noted that two relevant Sen sources in article Further Reading were absent from the dataset references; this was a cross-artifact alignment issue. It also confirmed that the DASH page was metadata-only and the full Sen paper was verified from the NCSU copy.",
+    "initial_findings": [
+      {
+        "severity": "minor",
+        "finding": "Article Further Reading initially included two Sen sources missing from dataset references.",
+        "resolution": "Added both source records to the matching dataset record; current URL sets match exactly."
+      },
+      {
+        "severity": "access_limit",
+        "finding": "Harvard DASH linked PDF had no extractable text.",
+        "resolution": "Retained the limitation; the complete primary article was read from the NCSU-hosted copy."
+      }
+    ],
+    "follow_up": "Current article and dataset URL lists were compared; all three URLs match exactly. The DASH limitation does not leave a claim unchecked because the full 1970 article was read from the NCSU copy.",
+    "final_outcome": "clear",
+    "final_status": "source_checked",
+    "sources_reopened": [
+      "Sen 1970, NCSU-hosted full text, pp. 153–157",
+      "List, Stanford Encyclopedia of Philosophy, §3.4",
+      "Sen 1996, selected relevant passages, pp. 155–157"
+    ],
+    "remaining_limitations": [
+      "Gibbard’s 1974 paper was not read; the unsupported attribution was removed.",
+      "No expert review or exhaustive literature review is claimed."
+    ]
+  }
+}

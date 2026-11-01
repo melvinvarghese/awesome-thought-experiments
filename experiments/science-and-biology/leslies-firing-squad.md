@@ -3,16 +3,16 @@
 **Category:** science-and-biology  
 **Type:** analogy  
 **Associated thinker(s):** John Leslie  
-**Original publication or approximate period:** Associated with Leslie’s work on fine-tuning, including Universes (1989)  
+**Original publication or approximate period:** Associated with Leslie’s work on fine-tuning, including *Universes* (the Stanford Encyclopedia and a university library catalogue cite 1989; the exact first-publication date is not independently established here)<br>
 **Difficulty:** Intermediate  
 **Themes:** fine-tuning, observation selection, explanation  
 **Related experiments:** [Paley’s Watch](paleys-watch.md); [Sleeping Beauty](../mathematics/sleeping-beauty.md)
 
 ## 1. The Scenario
 
-You are tied to a post before a firing squad of fifty marksmen. They fire, and every one of them misses. You are alive.
+You are tied to a post before a firing squad. The marksmen fire, and every shot misses. You are alive. This is a concise teaching version of the case, not a verified transcription of Leslie’s wording or numbers.
 
-You might say that this is not surprising, since you could not observe anything if you had been killed. Leslie replies that it is still very surprising, and calls out for an explanation: perhaps the shooters were not trying to hit you, or something was arranged.
+You might say that survival is no surprise to you, since you could not report being killed. Leslie’s analogy is used to challenge the claim that this observation-selection effect by itself removes the need for explanation or makes the survival evidentially irrelevant. Possible explanations include an extraordinary accident or intentional intervention; the analogy alone does not decide between them.
 
 ## 2. The Central Question
 
@@ -20,17 +20,17 @@ When our existence depends on a rare condition, does the fact that we could only
 
 ## 3. Why It Matters
 
-The analogy is used in debates about fine-tuning: the observation that some physical constants fall within narrow ranges that permit life. One response is that we could only observe a universe suitable for observers, so it is not surprising. Leslie argues that this does not remove the need to explain why such a universe exists.
+The analogy is used in debates about fine-tuning: the observation that some physical constants fall within narrow ranges that permit life. One response is that observers could only find themselves where observer-friendly conditions obtain. Leslie and other critics of the anthropic objection argue that this selection fact need not erase the evidential force of the observed conditions. That inference is disputed: philosophers disagree about what should be treated as background information and whether the relevant probabilities are well-defined.
 
-The case shows the difference between the fact that an observation is guaranteed given our existence, and the fact that our existence itself is improbable.
+The case distinguishes the certainty of being alive conditional on being able to report survival from the probability of the observed outcome under competing hypotheses. The first conditional is trivial; it does not by itself settle whether the whole observed outcome was likely under chance, intention, or another explanation. How observation-selection effects should enter that comparison remains contested.
 
 ## 4. Major Interpretations
 
-**Anthropic or observation-selection responses** say the survival is no surprise given that we are here. **Multiverse responses** say that many trials make the outcome likely somewhere. **Design responses** say that the outcome suggests purpose. **Brute-fact responses** say that no explanation is needed. Critics also dispute whether the probabilities in the fine-tuning case are meaningful.
+**Anthropic or observation-selection responses** emphasize that observers can only observe conditions compatible with their existence. **Multiverse responses** propose that a sufficiently varied ensemble could make life-permitting conditions occur somewhere, though the inference depends on how universes and observers are sampled. **Design responses** argue that life-friendly conditions may support a designer hypothesis; this is an evidential proposal, not a deduction of purpose from the analogy. **Brute-fact responses** treat the conditions as an unexplained given. These options are contested, including whether probabilities over possible physical constants are principled.
 
 ## 5. Common Misunderstandings
 
-The analogy does not prove design, and Leslie did not claim it did. It is also not an argument that the constants must be explained by a designer. It is an argument that selection effects alone do not answer the question. The mapping from the firing squad to physics depends on contested assumptions.
+The analogy does not prove design or settle the physics of fine-tuning. The Stanford Encyclopedia discussion presents it as a challenge to one version of the anthropic objection; whether the firing-squad case transfers to cosmology depends on disputed assumptions about evidence, observation selection, and probability.
 
 ## 6. Think for Yourself
 
@@ -41,7 +41,7 @@ The analogy does not prove design, and Leslie did not claim it did. It is also n
 
 ## 7. Variations and Extensions
 
-A well-known counter-analogy imagines many such firings with only survivors reporting. Whether that analogy fits depends on whether there are many universes.
+A counterargument discussed by Roger White notes that survival seems less surprising if many people face similar firing squads, but argues that this does not itself give a survivor reason to infer many squads or universes. In a related example, Sober imagines a reunion of survivors; Weisberg replies that a sample selected only from survivors cannot estimate the squads’ survival rate, whereas a randomly selected sample could provide evidence. These cases turn on the sampling process, not merely on whether many universes are posited.
 
 ## 8. Related Thought Experiments
 
@@ -50,12 +50,15 @@ A well-known counter-analogy imagines many such firings with only survivors repo
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Fine-Tuning](https://plato.stanford.edu/entries/fine-tuning/) — The firing squad analogy in the debate over whether cosmic fine-tuning needs explanation.
+- [Stanford Encyclopedia of Philosophy: Fine-Tuning](https://plato.stanford.edu/entries/fine-tuning/) — Scholarly overview of the firing-squad analogy, the anthropic objection, and competing fine-tuning arguments.
+- [Roger White, “Fine-Tuning and Multiple Universes”](https://web.mit.edu/rog/www/papers/fine_tuning.pdf) — A counterargument about observation selection, multiple universes, and the firing-squad analogy.
+- [Jonathan Weisberg, “Firing Squads and Fine-Tuning: Sober on the Design Argument”](https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf) — A published reply concerning the analogy and survivor-selected evidence.
+- [Elliott Sober, “The Design Argument”](https://anthropic-principle.com/preprints/sober2.pdf) — A chapter manuscript discussing Leslie’s analogy and observation-selection reasoning; the published chapter appears in *The Blackwell Guide to the Philosophy of Religion*.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on fine-tuning was consulted and discusses the firing squad analogy. Leslie’s book was not retrieved, and the publication reference is given in an approximate form. The reply that survivors alone report is a standard objection described generally.
+The Stanford Encyclopedia of Philosophy entry and relevant passages from Elliott Sober, Roger White, and Jonathan Weisberg were consulted. Leslie’s book itself was not retrieved; the setup and argument are therefore checked through scholarly accounts that cite or discuss it, not against Leslie’s own pages. The Stanford Encyclopedia and a university library catalogue cite *Universes* as 1989; the exact first-publication date is not independently established here. The survivor-only comparison is an attributed counterargument, not an established historical variation of Leslie’s scenario.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
 
 [Return to collection](../../README.md)

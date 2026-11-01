@@ -1,0 +1,1339 @@
+{
+  "batch_id": "source-review-batch5-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "protocol_approval": "Owner-approved for local source-review work on 2026-11-01.",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only work in the existing source-audit worktree; no new work committed or pushed. No merge or release.",
+  "reviewer_type": "Five AI-assisted claim-level audits, five independent read-only post-edit reviews, and targeted final checks for Leslie’s Firing Squad and Aristotle’s Sea Battle. No human expert review is claimed.",
+  "batch_scope": "Five risk-ranked unaudited entries selected from the 31 October 2026 expansion: Sen’s Paradox of the Paretian Liberal; Leslie’s Firing Squad; Loschmidt’s Reversibility Objection; Heisenberg’s Microscope; Aristotle’s Sea Battle.",
+  "selection_method": "Ranked by material formal/scientific or contested claims, historical/attribution risks, sparse or topic-only source checks, and explicit primary-source access gaps. The selection triage is recorded in each entry’s risk_reason and audit_focus.",
+  "counts": {
+    "audited_entries_before_batch": 18,
+    "entries_in_batch": 5,
+    "audited_entries_after_batch": 23,
+    "total_expansion_entries": 57,
+    "expansion_entries_remaining_outside_claim_level_audits": 34,
+    "final_status_counts": {
+      "source_checked": 5,
+      "partially_source_checked": 0,
+      "needs_source_check": 0
+    }
+  },
+  "status_summary": "All five entries are source_checked for their declared claim-traceability scope after edits and independent rechecks. Initial reviewers flagged one bibliographic wording claim, one Ockham precision issue, stale Loschmidt access wording, and article/dataset reference-list differences; these were corrected or transparently qualified. No material unresolved claim issue remains. None is expert_reviewed.",
+  "entries": [
+    {
+      "id": "sens-liberal-paradox",
+      "title": "Sen’s Paradox of the Paretian Liberal",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/society-and-justice/sens-liberal-paradox.md",
+      "status": "source_checked",
+      "scope": "Claim-level source audit of the setup, all preference rankings, the decisiveness/liberty and weak-Pareto conditions, each social comparison and the resulting cycle, the formal theorem and its assumptions, Sen's conclusion and qualifications, scholarly interpretations and objections, the generalization beyond the example, the related Gibbard attribution, publication details, and further-reading matches. Review date: 2026-11-01. Reviewer type: AI source audit; no expert review is claimed. Protocol: approved source-review-standard.md (approved 2026-11-01).",
+      "summary": "Sen’s complete six-page 1970 article was read at the conditions, proof, example, and conclusion. The rankings and resulting cycle are correct under the stated pairwise decisiveness and weak-Pareto assumptions. The article now specifies the general theorem’s conditions, narrows its conclusion, distinguishes later rights formulations, and removes an unsupported Gibbard attribution. Independent review found no remaining material claim issue; dataset references now match all Further Reading URLs.",
+      "sources": [
+        {
+          "title": "The Impossibility of a Paretian Liberal",
+          "author": "Amartya Sen",
+          "publication": "Journal of Political Economy 78(1) (1970): 152–157. Full-text copy hosted by North Carolina State University.",
+          "stable_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "source_type": "Primary scholarly article",
+          "access_level": "Relevant passages in the full work; the six-page article was accessed as extracted text, with relevant passages read across pp. 152–157.",
+          "exact_locations_read": "pp. 152–153: introduction and definitions of collective choice and social decision functions; p. 153: Conditions U (Unrestricted Domain) and P (Pareto), Condition L; pp. 154–155: Condition L* (Minimal Liberalism), Theorems I–II and proof; pp. 155–156: §III, 'An Example' (three alternatives, rankings and pairwise comparisons); pp. 156–157: §IV, 'Relevance' (scope, assumptions and conclusion).",
+          "limitations": "This is a university-hosted copy of the primary article, not the publisher platform. It directly establishes what Sen states, not whether his premises or normative conclusion are sound. The scan/extracted text has minor OCR/transcription artifacts, but the relevant wording and page locations were legible in the extracted passages."
+        },
+        {
+          "title": "Social Choice Theory",
+          "author": "Christian List",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 18 December 2013, substantive revision 14 October 2022.",
+          "stable_url": "https://plato.stanford.edu/entries/social-choice/",
+          "source_type": "Scholarly reference entry / secondary exposition",
+          "access_level": "Relevant passages in the full entry; §3.4 and its bibliography were retrieved and read, not the entire entry.",
+          "exact_locations_read": "§3.4, 'The liberal paradox': formal minimal-liberalism condition; the Lewd/Prude ranking and pairwise comparison; Sen's theorem; domain-restriction responses and 'meddlesome' preferences; objections by Gaertner, Pattanaik and Suzumura (1992) and Dowding and van Hees (2003). Bibliography entries for Sen 1970a, Sen 1983, Gaertner et al. 1992, and Dowding and van Hees 2003.",
+          "limitations": "A scholarly secondary account, not a substitute for Sen's article or the full later debate. Supports exposition and establishes that identified published responses exist; it does not show that any response is consensus or that one interpretation prevails."
+        },
+        {
+          "title": "Rights: Formulation and Consequences",
+          "author": "Amartya Sen",
+          "publication": "Analyse & Kritik 18 (1996): 153–170.",
+          "stable_url": "https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+          "source_type": "Primary scholarly rejoinder by Sen; a later first-person account of his position and the debate",
+          "access_level": "Selected relevant passages in the full article; pp. 153–157 were retrieved and read, not the entire article.",
+          "exact_locations_read": "Abstract and introduction, pp. 153–154; §2, 'Formulation of Rights, Nozick’s Proposal and Game Forms,' pp. 155–156; §3, 'Game Forms, Consequences and the Typology of Rights,' pp. 156–157. These passages distinguish social-choice rights from permission/power over actions or strategies and state that consequences remain relevant for outcome-oriented rights.",
+          "limitations": "This is Sen's later symposium rejoinder, not his 1970 theorem and not a survey of consensus. Only the relevant early pages were read; the article's full argument and further distinctions are outside this audit."
+        },
+        {
+          "title": "Publication: The Impossibility of a Paretian Liberal",
+          "author": "Amartya Sen (record author)",
+          "publication": "Harvard DASH repository publication record; record gives 1970 and the citation Journal of Political Economy 78(1): 152–157.",
+          "stable_url": "https://dash.harvard.edu/entities/publication/73120378-8203-6bd4-e053-0100007fdf3b",
+          "source_type": "University repository metadata/catalogue record",
+          "access_level": "Metadata and abstract page accessed; the linked PDF request was rate-limited, so the PDF text was verified through the separate university-hosted copy above.",
+          "exact_locations_read": "Record title, date, author, citation field and published-version field; abstract read only as metadata/context, not relied on to establish the argument.",
+          "limitations": "Metadata does not establish the paper's argument. The linked file request returned HTTP 429 during direct retrieval; no claim of full-text access through Harvard DASH is made."
+        },
+        {
+          "title": "A Pareto-consistent libertarian claim",
+          "author": "Allan Gibbard",
+          "publication": "Journal of Economic Theory 7(4) (1974): 388–410; bibliographic listing at IDEAS/RePEc.",
+          "stable_url": "https://ideas.repec.org/a/eee/jetheo/v7y1974i4p388-410.html",
+          "source_type": "Bibliographic database record for a scholarly article",
+          "access_level": "Metadata only; the record states that no abstract is available and the publisher full text is restricted.",
+          "exact_locations_read": "IDEAS/RePEc title, author, suggested citation and full-text-access notice. Also compared with Sen 1970, p. 156 n. 5, which describes a distinct then-unpublished Gibbard theorem, and Sen 1996, pp. 154–155, which lists Gibbard among early responses to the rights literature.",
+          "limitations": "The paper's argument was not accessed. The record establishes bibliographic existence only and cannot substantiate that Gibbard's 1974 result is itself a game-form account of rights. The article's former wording asserting this was removed."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The named original work is Sen’s ‘The Impossibility of a Paretian Liberal,’ published in 1970 in the Journal of Political Economy, volume 78, issue 1, pages 152–157.",
+          "source_title": "The Impossibility of a Paretian Liberal; Harvard DASH publication record",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://dash.harvard.edu/entities/publication/73120378-8203-6bd4-e053-0100007fdf3b",
+          "exact_location": "Primary text title/header and journal pagination pp. 152–157; DASH record title, author, date and citation field.",
+          "relationship": "supports",
+          "finding": "The article's identification and publication details match the primary article and Harvard repository record.",
+          "limitation": "The repository page is metadata; primary-text verification used the NCSU-hosted copy.",
+          "required_edit": "None; article already named the work and journal/year. Primary citation was added to Further Reading."
+        },
+        {
+          "material_claim": "The example has three alternatives: Prude reads (a), Lewd reads (b), or neither reads (c); Prude's ordering is c>a>b and Lewd's is a>b>c.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "§III, 'An Example,' p. 155; p. 156 continues the comparisons. Sen uses x for Prude reads, y for Lewd reads, z for neither; the article's a,b,c are a consistent relabeling x,y,z.",
+          "relationship": "supports",
+          "finding": "Sen explicitly gives Prude's decreasing ranking as neither, self, Lewd and Lewd's ranking as Prude, self, neither. The article's ranking reconstruction is correct under its own labels.",
+          "limitation": "Sen's original letters differ; the mapping is article editorial notation, not Sen's notation.",
+          "required_edit": "None to the rankings. Sources and Attribution now records that the original was checked."
+        },
+        {
+          "material_claim": "Minimal liberty is represented by individual decisiveness over designated pairs, not a blanket power to determine all social outcomes; in the example the prude is decisive on a/c and the lewd on b/c.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "Condition L, p. 153; Condition L* (Minimal Liberalism), p. 154; §III, pp. 155–156, pairs (x,z) and (y,z).",
+          "relationship": "supports_with_qualification",
+          "finding": "Sen defines each person's freedom in this model as decisiveness over at least one pair, with minimal liberalism requiring two individuals. The exact pair assignments in the example give the stated individual comparison, but ‘veto’ and ‘choose’ risk implying broader control than this social-preference condition.",
+          "limitation": "The formal pairwise decisiveness axiom is a modeling of liberty; whether it adequately captures rights is disputed, as the article's later-interpretations section now notes.",
+          "required_edit": "Replaced the casual ‘veto/choose’ gloss with the pairwise decisiveness explanation and explicitly limited its scope."
+        },
+        {
+          "material_claim": "The prude's decisiveness over a/c yields the social comparison c>a.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "§III, p. 156, paragraph beginning ‘Now if the choice is precisely between the pair (x, z)’; mapped to a=x and c=z.",
+          "relationship": "supports",
+          "finding": "Sen states that the prude's preference is decisive between his reading and nobody reading; because the prude prefers nobody reading, the social comparison is c>a.",
+          "limitation": "This comparison follows from the assumed decisiveness right, not from an unconstrained policy decision or from a social choice over every alternative simultaneously.",
+          "required_edit": "None beyond the clarifying wording added to the scenario."
+        },
+        {
+          "material_claim": "The lewd's decisiveness over b/c yields the social comparison b>c.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "§III, p. 156, paragraph beginning ‘Similarly, in the choice exactly between person 2 reading the book (y) and no one reading it (z)’; mapped to b=y and c=z.",
+          "relationship": "supports",
+          "finding": "Sen states that person 2's preference is decisive between reading himself and nobody reading; his ranking therefore yields b>c socially.",
+          "limitation": "As above, decisiveness is assumed for the specified pair and is not a general claim that he can compel an outcome.",
+          "required_edit": "None beyond the clarifying wording added to the scenario."
+        },
+        {
+          "material_claim": "Because both individuals prefer a to b, the weak Pareto principle requires a>b socially.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "Condition P, p. 153; §III, p. 156, paragraph stating alternative x is Pareto superior to y because both persons prefer it; mapped to a=x and b=y.",
+          "relationship": "supports",
+          "finding": "The article's Pareto comparison follows exactly from both strict individual rankings and Sen's weak Pareto condition.",
+          "limitation": "This is the weak Pareto axiom as Sen defines it, not a claim that every unanimous weak preference must be socially strict.",
+          "required_edit": "None."
+        },
+        {
+          "material_claim": "Together c>a, a>b, and b>c form a cycle.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "§III, p. 156, where Sen states y socially preferred to z, z to x, and x Pareto superior to y; map y=b, z=c, x=a.",
+          "relationship": "supports",
+          "finding": "The article's orientation c>a>b>c is the same directed three-cycle as Sen's b>c>a>b, merely starting at a different vertex.",
+          "limitation": "Sen presents an inconsistency of social choice and later proves no social decision function under his conditions; the example should not be generalized as a cycle under every aggregation rule or domain.",
+          "required_edit": "None to cycle; scope qualification added elsewhere."
+        },
+        {
+          "material_claim": "The general result requires unrestricted domain, weak Pareto, and minimal liberalism (two individuals each decisive over a pair) and rules out even a social decision function; it is not just a result for the three-outcome vignette.",
+          "source_title": "The Impossibility of a Paretian Liberal; Social Choice Theory",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://plato.stanford.edu/entries/social-choice/",
+          "exact_location": "Sen, Condition U and P, p. 153; L*, Theorem II and proof, pp. 154–155. List, §3.4, theorem statement (at least universal domain, acyclicity, weak Pareto and minimal liberalism).",
+          "relationship": "supports_with_qualification",
+          "finding": "The article correctly says the result generalizes beyond the example. Sen's own 1970 theorem is sharper in one respect than the SEP's compact theorem statement: it rules out a social decision function, requiring only a best element in each choice situation, not a complete/transitive social ordering. Sen's Conditions U, P and L* are explicit; the proof and footnote also discuss strengthened formulations.",
+          "limitation": "This is a mathematical impossibility conditional on those axioms. It is not an unconditional theorem that liberty and efficiency always conflict.",
+          "required_edit": "Replaced the vague claim that more people and complexity are needed with the precise minimal assumptions and clarified that the small example already displays a cycle."
+        },
+        {
+          "material_claim": "The paradox concerns interdependent or meddlesome preferences, and restricting the admissible preference domain is one proposed response; the result does not hold across all possible preference domains.",
+          "source_title": "The Impossibility of a Paretian Liberal; Social Choice Theory",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://plato.stanford.edu/entries/social-choice/",
+          "exact_location": "Sen, §IV, p. 156 (‘not necessarily disturbing for every conceivable society,’ particular preference configurations and unrestricted domain); List, §3.4, paragraph after theorem, domain restriction to tolerant/non-meddlesome profiles and characterization of the example as meddlesome.",
+          "relationship": "supports_with_qualification",
+          "finding": "Sen expressly limits the dilemma to particular preference configurations and uses unrestricted domain. The label ‘meddlesome’ and the named domain-restriction responses are List's exposition of later work, with Sen 1983 among its cited sources.",
+          "limitation": "‘Meddlesome’ is a secondary-source characterization; this does not imply that the formal theorem assumes only meddlesome profiles or that all interdependent preferences are inadmissible.",
+          "required_edit": "Qualified the article's claim about interconnected preferences and attributed the domain-restriction response as one later approach."
+        },
+        {
+          "material_claim": "Sen's own conclusion is that under these assumptions Pareto can have illiberal consequences, while the result is conditional and not an all-context incompatibility claim.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "§IV, pp. 156–157: particular configurations and unrestricted domain, lack of required transitivity/independence assumptions, weak Pareto, and final ‘moral’ about liberal values and Pareto.",
+          "relationship": "supports_with_qualification",
+          "finding": "Sen explicitly draws the moral that even weak liberal values can conflict with Pareto under unrestricted domain and that Pareto can have illiberal consequences. He also says the conflict is not necessarily relevant for every society because it arises only with particular preference configurations. The revised article reflects both parts.",
+          "limitation": "The paper's normative interpretation is Sen's argument, not a settled conclusion about welfare economics or a proof that Pareto always undermines liberty.",
+          "required_edit": "Narrowed the former broad statement about welfare-based approaches to Sen's conditional point and explicitly included the scope qualification."
+        },
+        {
+          "material_claim": "The article's possible responses include restricting admissible preferences, changing the rights formalization, and action/strategy-based game-form rights; these are not a single settled taxonomy or Sen's simple rejection of preference-based rights.",
+          "source_title": "Social Choice Theory; Rights: Formulation and Consequences",
+          "source_url": "https://plato.stanford.edu/entries/social-choice/ ; https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+          "exact_location": "List, §3.4, paragraphs on domain restriction and objections to Sen's minimal-liberalism condition; Sen, pp. 155–157, §§2–3, discussing Nozick's proposal, permissible actions/strategies, and the distinction between action-centered and outcome-oriented rights.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP supports domain restriction and published challenges to Sen's formalization. Sen's 1996 rejoinder describes the game-form approach as an alternative formulation and explicitly says some rights concern freedom of action while for outcome-oriented rights the consequences remain relevant. The article's revised wording treats these as distinct responses and no longer states a categorical ‘Sen's own view’ that rights should not function through preferences.",
+          "limitation": "The sources do not establish a complete taxonomy of every response or a settled scholarly verdict. Sen's 1996 essay is a first-person rejoinder, not neutral consensus evidence.",
+          "required_edit": "Rewrote the Major Interpretations section to correct the confusion between restricting a rights axiom and restricting the admissible preference domain, and to qualify the attribution to Sen."
+        },
+        {
+          "material_claim": "Sen's 1996 position is accurately summarized only if it acknowledges that game-form rights emphasize permissions or powers over actions/strategies, while consequences remain relevant for outcome-oriented rights.",
+          "source_title": "Rights: Formulation and Consequences",
+          "source_url": "https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+          "exact_location": "pp. 155–157, especially p. 155's account of rights as admissibility of actions/strategies and preference-independence in the game formulation; pp. 156–157 on consequence relevance and types of rights.",
+          "relationship": "supports",
+          "finding": "Sen distinguishes a rights formulation that grants control over permissible actions/strategies from his 1970 social-choice formulation, and accepts that game-form formulations can suit rights centered on freedom of action. He also says outcome-oriented rights need substantive attention to likely consequences. The revised article avoids presenting this as a single exclusive theory of rights.",
+          "limitation": "Only the relevant pages were read; this finding summarizes those passages and does not claim to exhaust Sen's later work on rights.",
+          "required_edit": "Added the relevant later Sen source to Further Reading and revised the attribution to reflect both kinds of rights."
+        },
+        {
+          "material_claim": "The former statement that Gibbard's related paradox concerns rights in a game-form framework.",
+          "source_title": "A Pareto-consistent libertarian claim; The Impossibility of a Paretian Liberal; Rights: Formulation and Consequences",
+          "source_url": "https://ideas.repec.org/a/eee/jetheo/v7y1974i4p388-410.html ; https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+          "exact_location": "IDEAS/RePEc bibliographic record for Gibbard 1974 (no abstract; full text restricted); Sen 1970, p. 156 n. 5 (a distinct then-unpublished Gibbard theorem); Sen 1996, pp. 154–155 (Gibbard listed among early responses, while game-form rights are discussed via Nozick and subsequent literature).",
+          "relationship": "does_not_establish",
+          "finding": "The sources accessed do not establish that Gibbard's 1974 paper itself is a game-form version of Sen's paradox. Sen 1970's footnote describes a different theorem, and the Gibbard 1974 record has no abstract. The affiliation was therefore removed rather than repeated as fact.",
+          "limitation": "Gibbard's paper was not retrieved or read; no stronger statement about its actual content is made.",
+          "required_edit": "Removed the Gibbard attribution and retained only the source-supported distinction that later game-form approaches reformulate rights as permissible actions or strategies."
+        },
+        {
+          "material_claim": "The article's teaching framing that the example does not prescribe book banning or endorse meddlesome preferences.",
+          "source_title": "The Impossibility of a Paretian Liberal",
+          "source_url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+          "exact_location": "§III, pp. 155–156, framed as a formal example; §IV, pp. 156–157, relevance and moral; the example is an argument about social choice conditions, not a policy prescription about publishing.",
+          "relationship": "context_only",
+          "finding": "This is editorial explanatory framing rather than a quotation or historical claim attributed to Sen. Sen's text presents the novel story as an example of the formal conflict; the revised article labels its non-prescriptive interpretation accordingly.",
+          "limitation": "A primary text cannot establish every negative inference about what the author intended; the article avoids claiming Sen expressly disavowed each policy interpretation.",
+          "required_edit": "Reworded as the article's framing (‘formal argument, not a policy recommendation’) and did not attribute an endorsement or disavowal to Sen."
+        },
+        {
+          "material_claim": "The further-reading source on social choice discusses the liberal paradox and the newly cited primary/later Sen texts are appropriate sources for the article's claims.",
+          "source_title": "Social Choice Theory; The Impossibility of a Paretian Liberal; Rights: Formulation and Consequences",
+          "source_url": "https://plato.stanford.edu/entries/social-choice/ ; https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf ; https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+          "exact_location": "List, §3.4; Sen 1970 §§II–IV, pp. 153–157; Sen 1996 §§2–3, pp. 155–157.",
+          "relationship": "supports",
+          "finding": "The SEP's §3.4 directly addresses the liberal paradox; Sen 1970 directly supplies the original formal argument and example; Sen 1996 directly discusses later rights formulations. Further-reading links now match the material described.",
+          "limitation": "The SEP entry is a secondary exposition, and Sen 1996 is not an exhaustive review of the literature.",
+          "required_edit": "Added direct links and accurate descriptions for the 1970 primary article and Sen's 1996 discussion."
+        }
+      ],
+      "edits_made": [
+        "Clarified that the liberty comparisons arise from pairwise decisiveness, not an unqualified power to veto or choose the final outcome.",
+        "Corrected the interpretation section's conflation of restricting liberal rights with restricting admissible preference profiles; distinguished later game-form approaches and qualified the attribution to Sen.",
+        "Qualified the scope of the result by stating that the general theorem assumes unrestricted domain, weak Pareto and minimal liberalism, and by noting Sen's limitation to particular preference configurations.",
+        "Specified the theorem's generalization beyond the two-person example and removed the unsupported attribution of a game-form framework to Gibbard's related work.",
+        "Updated the common-misunderstandings text to mark the non-prescriptive explanation as editorial framing.",
+        "Added the primary Sen 1970 article and Sen 1996 rejoinder to Further Reading; updated Sources and Attribution to document actual passage-level access and correct the previous statement that Sen's paper had not been retrieved."
+      ],
+      "unresolved": [
+        "Gibbard’s 1974 paper was not read; the unsupported attribution was removed.",
+        "No expert review or exhaustive literature review is claimed."
+      ],
+      "dataset_alignment": "After the audit, the matching dataset record’s identity, original publication, verification date (2026-11-01), and all three references match the article. The article’s Further Reading contains the SEP, Sen 1970 primary article, and Sen 1996 rejoinder; the URL sets are identical. The DASH PDF remains a metadata-only access point; full primary-text reading used the NCSU-hosted copy.",
+      "further_reading_matches": true,
+      "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-sens-liberal-paradox.json",
+      "review_date": "2026-11-01",
+      "protocol": "research/source-review-standard.md",
+      "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+      "selection_rank": 1,
+      "risk_reason": "Central result depends on a reconstructed preference profile and several pairwise comparisons; the initial article relied on topic-level SEP checking and said Sen’s original was not retrieved.",
+      "audit_focus": "Verify the exact preference rankings, pairwise decisiveness, weak-Pareto comparison, general theorem conditions, and separation of Sen’s views from later interpretations.",
+      "independent_review": {
+        "initial_outcome": "issues_found",
+        "initial_summary": "The relevant Sen 1970 primary passages and List §3.4 and Sen 1996 passages support the revised claims. The first recheck noted that two relevant Sen sources in article Further Reading were absent from the dataset references; this was a cross-artifact alignment issue. It also confirmed that the DASH page was metadata-only and the full Sen paper was verified from the NCSU copy.",
+        "initial_findings": [
+          {
+            "severity": "minor",
+            "finding": "Article Further Reading initially included two Sen sources missing from dataset references.",
+            "resolution": "Added both source records to the matching dataset record; current URL sets match exactly."
+          },
+          {
+            "severity": "access_limit",
+            "finding": "Harvard DASH linked PDF had no extractable text.",
+            "resolution": "Retained the limitation; the complete primary article was read from the NCSU-hosted copy."
+          }
+        ],
+        "follow_up": "Current article and dataset URL lists were compared; all three URLs match exactly. The DASH limitation does not leave a claim unchecked because the full 1970 article was read from the NCSU copy.",
+        "final_outcome": "clear",
+        "final_status": "source_checked",
+        "sources_reopened": [
+          "Sen 1970, NCSU-hosted full text, pp. 153–157",
+          "List, Stanford Encyclopedia of Philosophy, §3.4",
+          "Sen 1996, selected relevant passages, pp. 155–157"
+        ],
+        "remaining_limitations": [
+          "Gibbard’s 1974 paper was not read; the unsupported attribution was removed.",
+          "No expert review or exhaustive literature review is claimed."
+        ]
+      }
+    },
+    {
+      "id": "leslies-firing-squad",
+      "title": "Leslie’s Firing Squad",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/leslies-firing-squad.md",
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+      "protocol_version": "Approved local source-review standard dated 2026-11-01",
+      "status": "source_checked",
+      "scope": "Claim-level check of the firing-squad setup and attribution to John Leslie; the role and limits of observation-selection effects; conditional probability of reporting survival versus likelihood of the observed outcome under competing hypotheses; the fine-tuning analogy; summaries of anthropic, multiverse, design, and brute-fact responses; the survivor-only/many-squads counterarguments; publication details; and whether the Further Reading entries support the article. Editorial prompts and the simplified setup are identified as this article’s teaching framing. The primary Universes passage cited by secondary sources as pp. 13–14 was not retrievable, so the precise primary wording, exact count of marksmen, and complete scope of Leslie’s original argument remain outside verified primary-text access.",
+      "summary": "Relevant SEP, Sober, White, and Weisberg passages support the article’s qualified account of Leslie’s analogy and the competing observation-selection arguments. The article removes the unverified exact count and publisher first-publication claim, labels its setup as a teaching version, and discloses that Leslie’s pages were not accessed. Targeted independent review found the revised material claims traceable through appropriate secondary sources; the exact primary wording remains an access limitation, not an asserted fact.",
+      "sources": [
+        {
+          "title": "Universes",
+          "author": "John Leslie",
+          "publication": "Routledge publisher and University of Southern Indiana catalogue records; SEP cites Leslie 1989:13f.; exact first-publication date not independently established.",
+          "stable_url": "https://www.routledge.com/Universes/Leslie/p/book/9780415139557",
+          "source_type": "Primary philosophical monograph; publisher page used for bibliographic and contents metadata only",
+          "access_level": "URL/publisher metadata only; relevant book passage not accessed",
+          "exact_locations_read": "Publisher landing-page description, contents list, edition/page-count metadata; no substantive passage. SEP cites Leslie (1989: 13f.) for the firing-squad example; Sober cites Leslie (1989, pp. 13–14, 107–108), but those references are not a substitute for reading Leslie’s pages.",
+          "limitations": "Publisher-page metadata did not establish the first-publication date in this review. The original title page and Leslie’s cited argument pages were not accessed."
+        },
+        {
+          "title": "Universes / John Leslie (catalog record)",
+          "author": "University of Southern Indiana Libraries catalog record for John Leslie",
+          "publication": "Catalog record: London; New York: Routledge, 1989; ISBN 0415041449; vii, 228 pages.",
+          "stable_url": "https://library.usi.edu/record/129586?ln=en&p=%28+%28author%3A%22Leslie%2C+John%2C+1940-%22%29%29",
+          "source_type": "University library catalog metadata",
+          "access_level": "Full catalog record read; no book text",
+          "exact_locations_read": "Record title and Details fields (author, publication, ISBN, physical description, call number).",
+          "limitations": "Bibliographic evidence only; does not establish the argument or exact contents of pp. 13–14. It conflicts by one year with the Routledge e-book page’s first-publication date."
+        },
+        {
+          "title": "Fine-Tuning",
+          "author": "Simon Friederich",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 2017, substantive revision 2026-02-26.",
+          "stable_url": "https://plato.stanford.edu/entries/fine-tuning/",
+          "source_type": "Scholarly reference article",
+          "access_level": "Relevant passages in the full web entry read; full entry retrieved by page extraction",
+          "exact_locations_read": "Introduction; §2, especially §2.1 on senses and assignment of probability; §3.1 on the probabilistic design argument; §3.2, “The Anthropic Objection,” including the firing-squad discussion and the Sober/Weisberg/Kotzen dispute; §§4.3–4.4 on multiverse inference and its objections.",
+          "limitations": "A secondary reference account, not Leslie’s primary text; the firing-squad passage points to Leslie 1989:13f. and reports the debate rather than resolving it. The entry also says that the coherence of probability assignments is controversial."
+        },
+        {
+          "title": "The Design Argument",
+          "author": "Elliott Sober",
+          "publication": "Manuscript dated 2002-01-13 for the Blackwell Guide to Philosophy of Religion; the published chapter is listed by Wiley as chapter 6 (2005).",
+          "stable_url": "https://anthropic-principle.com/preprints/sober2.pdf",
+          "source_type": "Scholarly chapter manuscript; primary source for Sober’s own analysis, secondary account of Leslie",
+          "access_level": "PDF downloaded, parsed, and relevant full-text passages read",
+          "exact_locations_read": "Manuscript pp. 20–22: Sober introduces Swinburne’s rendition of a case Leslie presents (12 expert marksmen firing 12 rounds each; all 144 miss), distinguishes likelihood from conditionalization, discusses the prisoner and bystander, and presents a thousand-survivor estimation/reunion challenge. Manuscript pp. 20–21 explicitly frames the quoted scenario as Swinburne’s rendition, not a verbatim Leslie quotation.",
+          "limitations": "Not the primary book text and the quoted variant is attributed to Swinburne’s rendition. The manuscript supports the existence and structure of the debate but cannot verify the exact Leslie wording/count. Its own analysis is one position in the dispute."
+        },
+        {
+          "title": "Fine-Tuning and Multiple Universes",
+          "author": "Roger White",
+          "publication": "Noûs 34(2), 260–276 (2000); DOI 10.1111/0029-4624.00210.",
+          "stable_url": "https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+          "source_type": "Peer-reviewed philosophical analysis; secondary discussion of Leslie’s analogy and White’s own argument",
+          "access_level": "Full PDF downloaded and parsed; relevant sections and notes read",
+          "exact_locations_read": "§V, “The Observational Selection Effect,” pp. 265–268; §VIII, pp. 272–273; endnote 18, p. 274, which invokes Leslie’s 1989 firing-squad analogy and argues that survival does not support a “Multiple Firing Squad” hypothesis merely because many others may face similar squads.",
+          "limitations": "White’s objection is an argument, not a consensus result; it concerns confirmation and the multiverse inference. It is distinct from a sample of reports gathered only at a survivor reunion."
+        },
+        {
+          "title": "Firing Squads and Fine-Tuning: Sober on the Design Argument",
+          "author": "Jonathan Weisberg",
+          "publication": "British Journal for the Philosophy of Science 56(4), 809–821 (2005); DOI 10.1093/bjps/axi139.",
+          "stable_url": "https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+          "source_type": "Peer-reviewed philosophical analysis; secondary discussion of the analogy and response to Sober",
+          "access_level": "Author-hosted full PDF retrieved; relevant passages read",
+          "exact_locations_read": "Sections “Design and the Anthropic Objection,” “Variations: experimental squads and survivor reunions,” and “Why there is no OSE in firing squad cases,” including the discussion of randomly selected versus survivor-selected samples and the experimental-gun variant (author PDF pp. 1–7; published pagination 809–815 approximately).",
+          "limitations": "Weisberg argues against Sober’s treatment; it is not a neutral consensus statement or Leslie’s primary text. The article’s conclusion about the counterexample remains part of a philosophical disagreement."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The firing-squad setup has a condemned prisoner who survives after the marksmen fire; the article presents a concise version of this case.",
+          "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+          "exact_location": "SEP §3.2 describes a prisoner expecting execution who finds himself alive after all marksmen fire. Sober manuscript pp. 20–21 reproduces Swinburne’s rendition of Leslie’s case with twelve marksmen firing twelve rounds each.",
+          "relationship": "supports_with_qualification",
+          "finding": "The core structure is confirmed by scholarly accounts. The specific version in Sober differs in count and attribution detail from the article’s former ‘fifty marksmen’ wording. The revised article now presents an explicitly editorial, count-free teaching version.",
+          "limitation": "Neither source passage is Leslie’s own book text; SEP does not specify the number and Sober explicitly labels the quoted account Swinburne’s rendition.",
+          "required_edit": "Applied: removed the unsupported specific count and stated that this is a teaching version, not a verified transcription. Exact original setup remains unresolved pending pp. 13–14 of Universes."
+        },
+        {
+          "material_claim": "The original source’s exact setup used fifty marksmen and the particular ‘tied to a post’ description.",
+          "source_title": "Universes; Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+          "source_url": "https://www.routledge.com/Universes/Leslie/p/book/9780415139557 ; https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+          "exact_location": "No primary passage accessed. SEP §3.2 gives no count; Sober manuscript pp. 20–21 gives a different 12-by-12 rendition and cites Leslie 1989, pp. 13–14.",
+          "relationship": "does_not_establish",
+          "finding": "The accessed material does not establish the former specific number or wording against Leslie’s text.",
+          "limitation": "The primary source pages were unavailable; other secondary tellings vary in formulation.",
+          "required_edit": "Applied: removed the number and disclosed that the exact primary wording and count have not been verified."
+        },
+        {
+          "material_claim": "Leslie’s analogy is used to challenge the claim that observation selection alone removes the need for explanation or makes survival evidentially irrelevant.",
+          "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+          "exact_location": "SEP §3.2: the prisoner’s observation is selected because he cannot observe a post-execution state; it reports that Sober’s analysis would not make suspicion of intended misses rational and that this result seems implausible to Leslie, Weisberg, and Kotzen. Sober manuscript pp. 20–22 sets out Swinburne’s rendition and his own objection to the inference.",
+          "relationship": "supports_with_qualification",
+          "finding": "The broad attribution is supported as a reported role in the debate, but the argument’s force and implications are disputed. The accessible texts do not establish Leslie’s exact words or that he personally makes every simplified claim formerly placed in his mouth.",
+          "limitation": "SEP and Sober are secondary to Leslie; Sober’s text distinguishes the prisoner’s point of view and separates likelihood from conditional probability.",
+          "required_edit": "Applied: replaced ‘Leslie replies’/‘calls out for an explanation’ with a qualified account of how the analogy is used, and stated that the analogy does not decide among explanations."
+        },
+        {
+          "material_claim": "The probability of being alive conditional on being able to report survival is certain, but that conditional is not the same as the probability of the observed event under competing hypotheses.",
+          "source_title": "The Design Argument (Sober manuscript); Fine-Tuning (SEP); Firing Squads and Fine-Tuning (Weisberg)",
+          "source_url": "https://anthropic-principle.com/preprints/sober2.pdf ; https://plato.stanford.edu/entries/fine-tuning/ ; https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+          "exact_location": "Sober manuscript pp. 20–22 distinguishes likelihood claims such as Pr(survived | design) from conditioning on the fact of survival and compares the prisoner’s and bystander’s evidence. SEP §3.2 sets out Sober’s OSE formulation and Weisberg’s alternative; Weisberg, “Design and the Anthropic Objection” and following sections, distinguishes the likelihood and conditionalization arguments.",
+          "relationship": "supports_with_qualification",
+          "finding": "The distinction is well supported, but philosophical positions differ over which formulation and background evidence the prisoner should use. A trivial certainty after conditioning on being able to report is not itself a verdict about the unconditioned likelihood or the posterior comparison.",
+          "limitation": "The probabilities depend on hypotheses, background information, and a specified sampling/observation process; the papers do not establish a single uncontested numerical model for the firing-squad case or physical constants.",
+          "required_edit": "Applied: replaced the compressed ‘observation guaranteed versus existence improbable’ sentence with an explicit distinction and caveat about competing hypotheses and contested conditioning."
+        },
+        {
+          "material_claim": "Fine-tuning debates concern life-permitting ranges of physical constants and the analogy is deployed against an anthropic/observation-selection response.",
+          "source_title": "Fine-Tuning (SEP)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/",
+          "exact_location": "Introduction and §2.1 define fine-tuning as sensitive dependence on narrow parameter ranges and describe physical and logical probability difficulties; §3.2 describes observation selection and the firing-squad objection.",
+          "relationship": "supports_with_qualification",
+          "finding": "The general framing is supported. The SEP expressly cautions that the relevant probabilities are controversial and that fine-tuning’s alleged improbability is not straightforwardly established by parameter sensitivity alone.",
+          "limitation": "This is an overview of the debate, not an independent verification of each physical fine-tuning example or a determination that the constants are improbable.",
+          "required_edit": "Applied: added that the inference and probability assignment are disputed rather than stating that the analogy settles the explanation question."
+        },
+        {
+          "material_claim": "Anthropic or observation-selection responses emphasize that observers can only observe conditions compatible with their existence.",
+          "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+          "exact_location": "SEP §3.2, “The Anthropic Objection,” introduces Carter’s weak/strong anthropic principle and explains the observer bias; Sober manuscript pp. 20–22 formalizes an observation-selection effect for the prisoner.",
+          "relationship": "supports_with_qualification",
+          "finding": "The broad position is accurately represented, but the SEP distinguishes anthropic principles and competing formalizations of the observation-selection effect. The article no longer claims that this response by itself resolves the issue.",
+          "limitation": "The definition does not dictate how OSE should enter every likelihood or Bayesian comparison.",
+          "required_edit": "Applied: qualified this as a response and noted the dispute about background information and probability."
+        },
+        {
+          "material_claim": "Multiverse responses propose that a sufficiently varied ensemble can make life-permitting conditions occur somewhere, while inference from that fact is disputed and sampling matters.",
+          "source_title": "Fine-Tuning (SEP); Fine-Tuning and Multiple Universes (White)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+          "exact_location": "SEP §4.3 presents the inverse-gambler’s-fallacy dispute, including the difference between life in some universe and this universe; §4.4 notes the importance of independent evidence. White §VIII, pp. 272–273 and endnote 18, p. 274, argues that many universes do not by themselves raise the probability that this universe is life-permitting.",
+          "relationship": "supports_with_qualification",
+          "finding": "The article’s revised schematic summary is supported. A multiverse may be proposed as an explanation of some-universe life-friendliness, but whether it explains or confirms our observed universe depends on the hypothesis and observer-selection assumptions; White rejects the inference from survival alone.",
+          "limitation": "The SEP documents multiple opposing views; White’s argument is not a settled result. ‘Many trials’ is an oversimplification unless a relevant distribution and sampling rule are specified.",
+          "required_edit": "Applied: replaced ‘many trials make the outcome likely somewhere’ with a qualified ensemble description and explicit sampling dependence."
+        },
+        {
+          "material_claim": "Design responses treat fine-tuning as evidence that may support a designer hypothesis, not as a proof or a deduction of purpose from the analogy.",
+          "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+          "exact_location": "SEP §3.1 gives the Bayesian likelihood formulation P(R|D) > P(R|¬D), discusses its assumptions and priors; §3.2 details the anthropic objection. Sober manuscript pp. 20–22 analyzes the firing-squad inference under likelihood and conditionalization approaches.",
+          "relationship": "supports_with_qualification",
+          "finding": "The revised description correctly treats design as an evidential proposal rather than a conclusion forced by the analogy. SEP records disputes about both probabilities and the assumption that a designer would create life-friendly conditions.",
+          "limitation": "The source supports description of the argument, not the truth of design or the claim that all fine-tuning arguments have the same form.",
+          "required_edit": "Applied: removed the historical assertion that Leslie made no claim of design, which could not be checked against his own text; clarified that this analogy itself does not prove design."
+        },
+        {
+          "material_claim": "Brute-fact responses accept life-friendly conditions as a primitive or unexplained given.",
+          "source_title": "Fine-Tuning (SEP)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/",
+          "exact_location": "Introduction: one proposed reaction is that fine-tuning is a lucky coincidence accepted as a primitive given; §2 discusses whether fine-tuning requires a response.",
+          "relationship": "supports",
+          "finding": "The article’s short description accurately summarizes an option identified by the scholarly overview.",
+          "limitation": "This is a taxonomy of positions; it does not establish that a brute-fact response is correct or that all proponents use the same formulation.",
+          "required_edit": "Applied: phrased as one response and kept the summary explicitly schematic."
+        },
+        {
+          "material_claim": "Whether probability assignments over possible physical constants are principled is disputed.",
+          "source_title": "Fine-Tuning (SEP)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/",
+          "exact_location": "§2.1, “In Which Sense Are Life-Friendly Conditions Improbable?” discusses the difficulties with physical and logical probability, including critics’ objections to arbitrary measures and priors.",
+          "relationship": "supports",
+          "finding": "Directly supported by the overview, which calls the coherent probabilistic formulation controversial and presents arguments on both sides.",
+          "limitation": "The section surveys arguments; it does not resolve them or supply one agreed probability distribution.",
+          "required_edit": "No further edit required; article now labels this dispute expressly."
+        },
+        {
+          "material_claim": "Roger White’s many-squads comparison says that survival being less surprising among many people does not by itself support a multiple-firing-squad or multiverse hypothesis.",
+          "source_title": "Fine-Tuning and Multiple Universes (White)",
+          "source_url": "https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+          "exact_location": "§VIII, pp. 272–273, and endnote 18, p. 274: White says survival is astonishing if alone but less amazing if billions face similar squads, yet survival gives no reason to accept the Multiple Firing Squad hypothesis.",
+          "relationship": "supports",
+          "finding": "The article’s newly attributed account of White’s counterargument tracks the passage and keeps it distinct from the survivor-reunion sampling case.",
+          "limitation": "White argues against an inference; this passage is not proof that a multiverse is false, nor a direct treatment of every possible observer-sampling model.",
+          "required_edit": "Applied: named White and recast his point as a counterargument, not an established variation or conditional truth."
+        },
+        {
+          "material_claim": "Sober’s survivor reunion and Weisberg’s reply distinguish a sample selected only from survivors from a randomly selected sample that could inform a survival-rate estimate.",
+          "source_title": "The Design Argument (Sober manuscript); Firing Squads and Fine-Tuning (Weisberg)",
+          "source_url": "https://anthropic-principle.com/preprints/sober2.pdf ; https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+          "exact_location": "Sober manuscript pp. 21–22 describes a thousand survivors pooling observations and challenges the inference to a survival probability of unity. Weisberg, “Variations: experimental squads and survivor reunions,” especially the pages following the experimental-gun case (author PDF pp. 5–7), argues that evidence depends on whether survivors were randomly selected or gathered at a survivor reunion.",
+          "relationship": "supports_with_qualification",
+          "finding": "The revision accurately reports Sober’s hypothetical and Weisberg’s reply. The survivor-selected sample cannot estimate the rate in the same way as a random sample; the conclusion about what one individual may infer remains contested.",
+          "limitation": "Weisberg’s response is a philosophical argument; it does not settle the broader dispute about observer selection in cosmology.",
+          "required_edit": "Applied: separated the survivor-reunion example from White’s many-squads counterargument and attributed the response to Weisberg."
+        },
+        {
+          "material_claim": "The book’s publication year is associated with 1989, but publisher metadata gives 1990 for first publication.",
+          "source_title": "Universes / USI library catalog; Routledge Universes product page; Fine-Tuning (SEP)",
+          "source_url": "https://library.usi.edu/record/129586?ln=en&p=%28+%28author%3A%22Leslie%2C+John%2C+1940-%22%29%29 ; https://www.routledge.com/Universes/Leslie/p/book/9780415139557 ; https://plato.stanford.edu/entries/fine-tuning/",
+          "exact_location": "USI catalog Details field gives Routledge, 1989; Routledge/Taylor & Francis book record says first published 1990; SEP §3.2 cites Leslie 1989:13f.",
+          "relationship": "supports_with_qualification",
+          "finding": "The records do differ by a year. Retaining 1989 without qualification would conceal the discrepancy; it is appropriate to state the catalog and publisher metadata separately.",
+          "limitation": "The bibliographic records do not determine whether this reflects publication chronology, edition/copyright dating, or metadata convention; the original title page was not seen.",
+          "required_edit": "Applied: stated the discrepancy in the article’s publication line and source note."
+        },
+        {
+          "material_claim": "The Further Reading sources are relevant to the article’s substantive subject and counterarguments.",
+          "source_title": "Fine-Tuning (SEP); Fine-Tuning and Multiple Universes (White); Firing Squads and Fine-Tuning (Weisberg); The Design Argument (Sober manuscript)",
+          "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://web.mit.edu/rog/www/papers/fine_tuning.pdf ; https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf ; https://anthropic-principle.com/preprints/sober2.pdf",
+          "exact_location": "SEP §3.2 and §4.3; White §V and §VIII/endnote 18; Weisberg sections on the anthropic objection, survivor reunions, and OSE; Sober manuscript pp. 20–22.",
+          "relationship": "supports",
+          "finding": "Each listed further-reading item addresses the firing-squad analogy, the observation-selection debate, or the specific counterarguments now summarized.",
+          "limitation": "Sober’s linked copy is a chapter manuscript, and none of these secondary works substitutes for direct access to Leslie’s book.",
+          "required_edit": "Applied: retained SEP, added White, Weisberg, and the consulted Sober manuscript with descriptions of their roles."
+        },
+        {
+          "material_claim": "The central question and reflection prompts are original teaching framing rather than historical claims attributed to Leslie.",
+          "source_title": "Leslie’s Firing Squad (local article)",
+          "source_url": "file:///workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/leslies-firing-squad.md",
+          "exact_location": "§2, §6, and §7; article §10 states additional comparisons are teaching prompts, not established historical variations.",
+          "relationship": "context_only",
+          "finding": "Prompts about surprise, intention, and assigning probabilities are editorial questions. The revised setup explicitly identifies itself as a teaching version and avoids presenting those prompts as Leslie’s own wording.",
+          "limitation": "The local article cannot serve as external evidence for Leslie’s historical wording.",
+          "required_edit": "Applied: explicitly labeled the simplified setup and counterargument status; no change to the reflection questions was needed."
+        }
+      ],
+      "edits_made": [
+        "Removed the unverified specific claim of fifty marksmen; retained a simplified firing-squad setup and labeled it as a teaching version rather than a verified transcription.",
+        "Replaced direct-sounding attribution that Leslie ‘replies’ with a qualified description of how the analogy is used in the anthropic-objection debate.",
+        "Rewrote the probability explanation to distinguish certainty conditional on being able to report survival from the probability/likelihood of the observed outcome under competing hypotheses, and noted that conditioning remains disputed.",
+        "Qualified the summaries of anthropic, multiverse, design, and brute-fact responses and stated that the analogy does not prove design or settle fine-tuning probabilities.",
+        "Separated White’s many-squads counterargument from Sober’s survivor-reunion example and Weisberg’s sampling reply; attributed each to its author.",
+        "Qualified the publication year to report the 1989 library/SEP citation and 1990 publisher metadata discrepancy.",
+        "Added Sober, White, and Weisberg to Further Reading, revised the source-access disclosure, and updated the article’s research-check date to 2026-11-01.",
+        "Removed the unsupported claim that publisher metadata establishes 1990 as the first-publication year; now reports the 1989 citation found in SEP and the university catalogue and explicitly leaves the exact date unresolved.",
+        "Synchronized the dataset references and verification date with the article."
+      ],
+      "unresolved": [
+        "Leslie’s cited pages were not accessed; exact original wording and numbers remain unauthenticated, and the article labels its setup as a teaching version.",
+        "Exact first-publication date remains unresolved; SEP and the USI catalogue cite 1989.",
+        "Fine-tuning probability assignments and the philosophical dispute remain unsettled; no consensus or expert review is claimed."
+      ],
+      "dataset_alignment": "After the audit, the dataset record’s identity, publication wording, verification date (2026-11-01), and four references match the article. The SEP and USI catalogue cite 1989; the exact first-publication date is explicitly unresolved. The dataset and article URL sets are identical.",
+      "further_reading_matches": true,
+      "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-leslies-firing-squad.json",
+      "protocol": "research/source-review-standard.md",
+      "selection_rank": 2,
+      "risk_reason": "The article maps a contested observation-selection analogy to fine-tuning and attributes claims to Leslie while the primary pages were inaccessible; it also made an uncertain publication-date claim.",
+      "audit_focus": "Check the firing-squad setup, what Leslie’s analogy is used to argue, likelihood versus conditioning, named counterarguments, and the exact limits of bibliographic evidence.",
+      "independent_review": {
+        "initial_outcome": "issues_found",
+        "initial_summary": "The substantive summaries of the firing-squad debate and counterarguments were supported by reopened SEP, Sober, White, and Weisberg passages. The first recheck could not verify the statement that the publisher’s metadata established 1990 as the first-publication year, noted inaccessible Leslie primary pages, and found that three article Further Reading URLs were missing from the dataset.",
+        "initial_findings": [
+          {
+            "severity": "access_limit",
+            "finding": "The statement that the Routledge e-book metadata says “first published 1990” was not verifiable from the publisher page.",
+            "resolution": "Removed the unsupported 1990-first-publication assertion; the article now reports only that SEP and a university library catalogue cite 1989, and says the exact first-publication date is not established."
+          },
+          {
+            "severity": "minor",
+            "finding": "Three of four article Further Reading URLs were absent from dataset references.",
+            "resolution": "Added the three matching source records; final targeted reviewer confirmed exact URL equality."
+          },
+          {
+            "severity": "access_limit",
+            "finding": "Leslie’s cited primary pages were not accessed.",
+            "resolution": "The count-free scenario is explicitly labeled a teaching version, and the article discloses that Leslie’s wording/pages were not checked. Targeted final reviewer found the revised material claims traceable through appropriate secondary passages."
+          }
+        ],
+        "follow_up": "Targeted independent final review recommended source_checked. SEP §3.2 and the USI library catalogue support the article’s limited 1989 citation; Sober, White, and Weisberg support the qualified summaries. Exact details of Leslie’s own wording remain disclosed as unverified, not asserted as authenticated.",
+        "final_outcome": "clear",
+        "final_status": "source_checked",
+        "sources_reopened": [
+          "SEP Fine-Tuning, §3.2",
+          "USI library catalogue record for Universes",
+          "Sober, The Design Argument, pp. 20–22",
+          "White, Fine-Tuning and Multiple Universes, §§V and VIII",
+          "Weisberg, Firing Squads and Fine-Tuning, relevant sections"
+        ],
+        "remaining_limitations": [
+          "Leslie’s cited pages were not accessed; exact original wording and numbers remain unauthenticated, and the article labels its setup as a teaching version.",
+          "Exact first-publication date remains unresolved; SEP and the USI catalogue cite 1989.",
+          "Fine-tuning probability assignments and the philosophical dispute remain unsettled; no consensus or expert review is claimed."
+        ]
+      }
+    },
+    {
+      "id": "loschmidt-reversibility",
+      "title": "Loschmidt’s Reversibility Objection",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/physics/loschmidt-reversibility.md",
+      "status": "source_checked",
+      "scope": "Claim-level source audit of the complete assigned article: setup and dynamical assumptions for velocity reversal; entropy interpretation and inference; Boltzmann’s immediate reply versus his later statistical account; low-entropy-past explanations; the H-theorem and qualifications; historical chronology; distinction between Loschmidt’s reversibility objection and the Poincaré/Zermelo recurrence argument; and editorial teaching framing. The matching dataset object and expansion-record entry were checked for alignment. No expert review is claimed.",
+      "summary": "The article’s treatment of exact reversal, Boltzmann and Gibbs entropy, statistical typicality, Boltzmann’s separate 1877 arguments, low-entropy boundary conditions, the H-theorem assumption, and the Zermelo distinction is traceable to relevant passages. The independent review directly read p. 139 of the original Loschmidt scan; the article and ledger now state this limited access accurately. Dataset and article Further Reading URLs match.",
+      "sources": [
+        {
+          "title": "Thermodynamic Asymmetry in Time",
+          "author": "Craig Callender",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 2001, current online entry consulted",
+          "stable_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "source_type": "Scholarly reference work / secondary synthesis",
+          "access_level": "Relevant full-text sections and passages retrieved and read (including the discussion of the H-theorem, Loschmidt and Zermelo objections, and §3.1, ‘Past Hypothesis’); not every section of the entry was reviewed.",
+          "exact_locations_read": "Discussion beginning ‘Trouble looms over this explanation of time asymmetry’ in §3, including the paragraphs contrasting Loschmidt’s time-reversal objection with Zermelo’s recurrence objection; §3.1 ‘Past Hypothesis’, including Boltzmann’s fluctuation proposal and the modern naming attributed to Albert (2000). The entry also quotes Loschmidt (1876, p. 139).",
+          "limitations": "Secondary reference, not an original paper. The passage explains the objections at an overview level and does not supply a full derivation of the phase-space or kinetic assumptions. Its current copy includes material beyond the historical dates of the initial entry publication."
+        },
+        {
+          "title": "Boltzmann’s Work in Statistical Physics",
+          "author": "Jos Uffink",
+          "publication": "Stanford Encyclopedia of Philosophy, archived Summer 2013 edition; first published 2004",
+          "stable_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+          "source_type": "Scholarly reference work / secondary historical and philosophical analysis",
+          "access_level": "Relevant full-text sections retrieved and read: selected passages in §§1.2, 3.2–3.3, 4, and 5.2; not the entire article for unrelated topics.",
+          "exact_locations_read": "§1.2 distinguishes the reversibility objection (Loschmidt) from the recurrence objection (Zermelo) and dates Zermelo’s challenge to 1896; §3.2 discusses the assumptions and status of Boltzmann’s H-theorem, including the Stoßzahlansatz; §3.3 quotes Loschmidt (1876, p. 139), states the modern Hamiltonian time-reversal formulation, and discusses Boltzmann’s immediate 1877 response and its limitations; §4 treats the 1877b permutational argument; §5.2 includes Boltzmann’s 1895 formulation of the statistical H-theorem and further debate.",
+          "limitations": "A scholarly interpretation, not primary text. Uffink explicitly notes disagreement among historians/commentators about the content and status of Boltzmann’s early H-theorem and response; those disputes are reported rather than resolved by this audit."
+        },
+        {
+          "title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+          "author": "Olivier Darrigol",
+          "publication": "The European Physical Journal H, vol. 46, article 29 (2021), https://doi.org/10.1140/epjh/s13129-021-00029-2; the author’s openly accessible HAL item is an early draft and expressly directs readers to cite the published version",
+          "stable_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+          "source_type": "Peer-reviewed historical secondary analysis with translated primary passages; consulted full text was the author’s prepublication draft",
+          "access_level": "Relevant full-text passages read in the accessible early draft at https://hal.science/hal-03467467/document; the published Springer page was also inspected but exposed only its abstract, notes, and limited preview material rather than the full article.",
+          "exact_locations_read": "Early draft §1 ‘The Loschmidt paradox’ (translation of Loschmidt 1876 and historical context; especially the discussion of reversing all atomic velocities and the original example); §2 translation of Boltzmann’s 1877a response (Wiener Berichte, pp. 116–122; especially the construction of opposite initial conditions and reversal of the sign of the thermodynamic integral); §§3–4 commentary and clarified account of Boltzmann’s probability argument; §5 discussion of later qualifications. The draft’s opening states that it is an early version and says to cite the published EPJH article.",
+          "limitations": "The full text directly read is a prepublication draft, not the final published version. The final version’s full text was not accessible through the inspected Springer page. The translated primary passages are mediated by Darrigol; modern terms such as microstate and macrostate are explicitly the commentator’s explanatory vocabulary."
+        },
+        {
+          "title": "Poincare Recurrence Theorem (1890–1897)",
+          "author": "University of Maryland, Mathematics History page; individual author not stated on page",
+          "publication": "University of Maryland Department of Mathematics history resource; updated 24 August 2001",
+          "stable_url": "https://www.math.umd.edu/~lvrmr/History/Recurrence.html",
+          "source_type": "University-hosted historical/educational secondary account",
+          "access_level": "Full short webpage read.",
+          "exact_locations_read": "Opening two paragraphs: identifies Poincaré’s recurrence theorem (1890), describes recurrence for bounded fixed-energy mechanical systems, and states that Zermelo used it in 1896 as a separate objection to the Second Law; final paragraph summarizes Boltzmann’s statistical response to recurrences.",
+          "limitations": "Concise university-hosted explainer, not Poincaré’s or Zermelo’s original text and not a detailed mathematical proof. The distinction is also supported by Callender and Uffink."
+        },
+        {
+          "title": "Translation of Ludwig Boltzmann’s Paper ‘On the Relationship between the Second Fundamental Theorem of the Mechanical Theory of Heat and Probability Calculations Regarding the Conditions for Thermal Equilibrium’",
+          "author": "Ludwig Boltzmann; translated and commented by Kim Sharp and Franz Matschinsky",
+          "publication": "Entropy 17(4) (2015), pp. 1971–2009; English translation of Boltzmann’s 1877b paper, DOI 10.3390/e17041971",
+          "stable_url": "https://doi.org/10.3390/e17041971",
+          "source_type": "Primary text in modern English translation, with editorial scientific commentary",
+          "access_level": "Full HTML article was available; the relevant translated text in §V was read.",
+          "exact_locations_read": "Section V, ‘Relationship of the Entropy to That Quantity Which I Have Called the Probability Distribution’, including the discussion of multiplicity/‘permutability’ and the relationship of that measure to entropy (exact section heading in the HTML; journal page range not independently verified).",
+          "limitations": "This is Boltzmann’s separate 1877b combinatorial/statistical paper, not the immediate 1877a reply to Loschmidt. Translation and commentary are modern; the text’s terminology does not map one-to-one onto all contemporary probability interpretations."
+        },
+        {
+          "title": "Über den Zustand des Wärmegleichgewichtes eines Systems von Körpern mit Rücksicht auf die Schwerkraft. I",
+          "author": "Josef (Joseph) Loschmidt",
+          "publication": "Wiener Berichte 73 (1876), pp. 128–142; source scan hosted by the Loschmidt Laboratory biography site",
+          "stable_url": "https://loschmidt.chemi.muni.cz/biography/pdf/warmegleichgewichtes.pdf",
+          "source_type": "Primary source scan",
+          "access_level": "Original scan opened and p. 139 directly read during independent follow-up; the complete paper was not read.",
+          "exact_locations_read": "Page 139, describing reversal of all atomic velocities and the retrograde course of events; corroborated with Darrigol’s translation and the SEP quotation.",
+          "limitations": "Only p. 139 was read directly from the original scan. Other relevant historical passages were checked through Darrigol’s accessible early draft and scholarly reference works."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The exact-reversal construction requires fixed positions and simultaneous reversal of all relevant velocities/momenta, under time-reversal-invariant mechanical equations; it then retraces the prior trajectory.",
+          "source_title": "Boltzmann’s Work in Statistical Physics",
+          "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+          "exact_location": "§3.3, paragraphs beginning ‘Putting the point in more modern terms’; this states the Hamiltonian time-reversal transformation as reversing velocities and replacing t by −t. See also the embedded Loschmidt quotation at p. 139.",
+          "relationship": "supports",
+          "finding": "The source explicitly supports the trajectory-reversal claim and frames the objection as applying to Hamiltonian mechanics. Darrigol’s translated Loschmidt passage likewise says to reverse all atomic velocities and explains the resulting reversed course.",
+          "limitation": "The exact-reversal statement presumes a mechanically isolated/full relevant system and a time-reversal-invariant interaction law; the idealization is not a practical procedure for an ordinary gas.",
+          "required_edit": "Article now states the all-velocity reversal, fixed positions, time-reversal-invariant dynamics, complete relevant system, and exact-retracing conditions."
+        },
+        {
+          "material_claim": "The gas-spreading-from-a-corner scenario is an explanatory teaching variation rather than the literal setup in Loschmidt’s 1876 passage.",
+          "source_title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+          "source_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+          "exact_location": "Darrigol accessible early draft, §1 ‘The Loschmidt paradox’, especially its account of Loschmidt’s one-molecule/device example and translation of Loschmidt (1876, p. 139); the draft also notes that Loschmidt’s article’s primary concern was the gas-column temperature argument.",
+          "relationship": "supports_with_qualification",
+          "finding": "Loschmidt’s own example concerns a specially prepared state with one molecule carrying energy and the others initially at rest, evolving to a stationary state before all velocities are reversed. The article’s corner-gas image captures the general reversible construction but is not his exact case.",
+          "limitation": "The original scan itself was not readable; the historical comparison is based on Darrigol’s translation/commentary and Uffink’s quotation.",
+          "required_edit": "The revised article explicitly labels the corner-gas description a modern teaching illustration and summarizes the different historical example."
+        },
+        {
+          "material_claim": "The reversed trajectory exhibits a decrease of entropy as the gas returns to its earlier macrostate.",
+          "source_title": "Thermodynamic Asymmetry in Time",
+          "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "exact_location": "§3 discussion of the H-theorem and Loschmidt objection: time reversal gives a mirror entropy-decreasing solution for each entropy-increasing solution; compare the quoted Loschmidt passage at p. 139 in Uffink §3.3.",
+          "relationship": "supports_with_qualification",
+          "finding": "The claim is supported when ‘entropy’ means the thermodynamic/Boltzmann macrostate quantity used in the argument. It should not be read as a decrease of the fine-grained Gibbs entropy under ideal Hamiltonian flow.",
+          "limitation": "The cited SEP passage is schematic and does not elaborate the distinctions among entropy definitions; the fine-grained Gibbs-entropy qualification follows from the Hamiltonian setting, not from the historical wording of Loschmidt’s paper.",
+          "required_edit": "The article now specifies Boltzmann macro-entropy and distinguishes it from fine-grained Gibbs entropy."
+        },
+        {
+          "material_claim": "Loschmidt’s objection implies that reversible mechanics cannot entail a universal, exceptionless monotonic entropy increase for every mechanically allowed microstate.",
+          "source_title": "Thermodynamic Asymmetry in Time",
+          "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "exact_location": "§3, passage stating it is impossible to get a function of the classical state to monotonically increase from conservative dynamics alone and that Loschmidt’s time-reversal objection yields a mirror entropy-decreasing solution.",
+          "relationship": "supports_with_qualification",
+          "finding": "The objection blocks an unrestricted universal monotonicity theorem from reversible dynamics alone; it does not show that observed macroscopic entropy decreases are common or that statistical mechanics is false.",
+          "limitation": "The inference targets a proposed universal derivation, not every qualified statistical, kinetic, or coarse-grained account of the second law.",
+          "required_edit": "The article narrows its conclusion to the impossibility of deriving monotonic increase on every allowed trajectory from reversible mechanics alone."
+        },
+        {
+          "material_claim": "Boltzmann’s immediate 1877 reply treated exceptional H-increasing/reversed states as extremely improbable, but this reply is distinct from the later 1877b permutational argument and its adequacy is debated.",
+          "source_title": "Boltzmann’s Work in Statistical Physics",
+          "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+          "exact_location": "§3.3, ‘Boltzmann’s response (1877a)’: exceptional states, improbability, and critique of the reversal-invariant probability assignment; §4, ‘1877b: The permutational argument’, on the later macrostate/multiplicity argument.",
+          "relationship": "supports",
+          "finding": "The source explicitly separates Boltzmann’s immediate response from the later 1877b probability treatment and questions whether the former resolves the objection. Darrigol’s translated/commented 1877a text supplies the underlying passage and discusses its assumptions.",
+          "limitation": "Historians disagree over the meaning, assumptions, and success of Boltzmann’s response; the article appropriately reports it as a reply, not a settled solution.",
+          "required_edit": "The article now separates the 1877a reply from the 1877b multiplicity argument and states that interpretive/adequacy questions remain debated."
+        },
+        {
+          "material_claim": "Boltzmann’s later statistical explanation treats equilibrium as having far greater multiplicity/phase-space volume than non-equilibrium macrostates, making entropy increase typical under probability assumptions rather than necessary for every microstate.",
+          "source_title": "Translation of Ludwig Boltzmann’s Paper ‘On the Relationship between the Second Fundamental Theorem…’",
+          "source_url": "https://doi.org/10.3390/e17041971",
+          "exact_location": "§V, ‘Relationship of the Entropy to That Quantity Which I Have Called the Probability Distribution’; read with Uffink, SEP ‘Boltzmann’s Work in Statistical Physics’, §4, on the 1877b permutational argument and macrostate multiplicity.",
+          "relationship": "supports_with_qualification",
+          "finding": "The translated primary text connects the equilibrium distribution’s permutability measure with entropy; Uffink explains this in modern macrostate/phase-space terms. This supports a typicality/statistical account but does not alone justify treating probability as an unconditional dynamical tendency.",
+          "limitation": "The Sharp–Matschinsky text is Boltzmann’s separate 1877b paper, not his immediate 1877a reply; Boltzmann’s historical probability concepts and modern probability measures are not interchangeable without qualification.",
+          "required_edit": "The article now describes the later argument separately and qualifies probability as dependent on specified assumptions."
+        },
+        {
+          "material_claim": "The apparent statistical direction problem remains: a time-symmetric distribution over states at a non-equilibrium macrostate can make higher-entropy antecedents typical as well as higher-entropy successors.",
+          "source_title": "Thermodynamic Asymmetry in Time",
+          "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "exact_location": "§3 paragraphs following the reversibility objection, beginning ‘An objection in their spirit (specifically, Loschmidt’s) can also be advanced against Boltzmann’s later view’; paired statements (1) and (2) for typical future and past macrostates.",
+          "relationship": "supports",
+          "finding": "The source directly states the time-symmetric statistical dilemma. This is why the entropy-multiplicity reply does not, by itself, explain why the observed arrow points toward the future.",
+          "limitation": "This is a philosophical/statistical formulation; detailed resolution depends on a chosen measure, conditioning information, and cosmological boundary assumptions.",
+          "required_edit": "The article now notes that the statistical account alone does not select a temporal direction."
+        },
+        {
+          "material_claim": "The modern Past Hypothesis is a low-entropy-past boundary condition used with statistical mechanics; it is conceptually distinct from Loschmidt’s objection and from Boltzmann’s entire 1877 reply, while Boltzmann’s fluctuation cosmology is a related but different proposal.",
+          "source_title": "Thermodynamic Asymmetry in Time",
+          "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "exact_location": "§3.1 ‘Past Hypothesis’, including the paragraph naming Albert (2000), the statement that Boltzmann explained the observable universe as a fluctuation in a larger universe, and the discussion of the low-entropy past boundary condition.",
+          "relationship": "supports",
+          "finding": "The source directly supports the low-entropy-past distinction and identifies Boltzmann’s fluctuation account separately from the contemporary Past Hypothesis terminology.",
+          "limitation": "The Past Hypothesis is a current philosophical framing, not a label used by Loschmidt in 1876 or necessarily a complete description of Boltzmann’s evolving views.",
+          "required_edit": "The article now separates the modern boundary-condition approach from the historical objection and notes Boltzmann’s distinct fluctuation proposal."
+        },
+        {
+          "material_claim": "The Boltzmann H-theorem is not a conclusion of reversible mechanics without kinetic assumptions; the Stoßzahlansatz/molecular-chaos assumption contributes time asymmetry.",
+          "source_title": "Boltzmann’s Work in Statistical Physics",
+          "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+          "exact_location": "§3.2, discussion of the special assumptions in the H-theorem and the Stoßzahlansatz; §3.3, final paragraph on Burbury (1894a) and Bryan (1894) identifying its time-asymmetric role.",
+          "relationship": "supports_with_qualification",
+          "finding": "The source supports the article’s qualification that the H-theorem has assumptions beyond reversible microscopic mechanics. It presents the interpretation and historical identification of the Stoßzahlansatz as part of scholarly analysis, not as an uncontroversial exhaustive list of every assumption.",
+          "limitation": "This audit did not reproduce the kinetic derivation; ‘molecular chaos’ is a common explanatory label but does not mean random behavior in an unrestricted everyday sense.",
+          "required_edit": "The article now names the Stoßzahlansatz/molecular-chaos assumption and denies that the H-theorem follows from reversible mechanics alone."
+        },
+        {
+          "material_claim": "The Poincaré recurrence theorem and Zermelo’s 1896 recurrence objection are distinct from Loschmidt’s velocity-reversal objection.",
+          "source_title": "Poincare Recurrence Theorem (1890–1897)",
+          "source_url": "https://www.math.umd.edu/~lvrmr/History/Recurrence.html",
+          "exact_location": "Opening two paragraphs, which identify Poincaré’s theorem (1890), state its recurrence consequence for bounded fixed-energy systems, and describe Zermelo’s use of it in 1896; cross-check Uffink §1.2 and Callender §3 for the separate Loschmidt/reversibility versus Zermelo/recurrence labels.",
+          "relationship": "supports",
+          "finding": "The distinction and chronology are supported: Poincaré’s mathematical recurrence result is not itself Loschmidt’s reversal construction; Zermelo made a separate 1896 objection based on recurrence.",
+          "limitation": "The Maryland page is a concise educational account, not the primary mathematical publication or Zermelo’s paper. The article does not assert detailed theorem conditions beyond bounded mechanical systems.",
+          "required_edit": "The article now explicitly separates recurrence from velocity reversal and identifies Zermelo’s 1896 objection as distinct."
+        },
+        {
+          "material_claim": "Loschmidt’s objection is historically associated with a 1876 publication and Boltzmann’s immediate response with 1877; Boltzmann’s probability/multiplicity paper is a separate 1877 work.",
+          "source_title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+          "source_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+          "exact_location": "Darrigol early draft §1 and §2; footnote 1 identifies Loschmidt 1876 and Boltzmann 1877a, pp. 116–122. Uffink, SEP, §§3.3–4, distinguishes 1877a response from 1877b permutational argument; Callender’s SEP bibliography identifies Loschmidt 1876/1877 and Zermelo 1896.",
+          "relationship": "supports_with_qualification",
+          "finding": "The article’s formerly approximate ‘1870s’ dating was safe but uninformative. The revised chronology is precise about the core publication and reply while avoiding a claim that this was the first-ever anticipation of the general idea.",
+          "limitation": "William Thomson anticipated aspects of the paradox earlier (Darrigol note 4); the article focuses on Loschmidt’s historically named objection, not priority for every related insight.",
+          "required_edit": "The article now identifies Loschmidt’s 1876 publication and Boltzmann’s 1877 immediate reply, and lists Zermelo’s 1896 objection separately."
+        },
+        {
+          "material_claim": "The claims that velocity reversal of every molecule is practically infeasible and that the objection does not demonstrate routine entropy decreases are properly qualified as a practical point, not as a rebuttal to its mathematical possibility.",
+          "source_title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+          "source_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+          "exact_location": "Darrigol early draft §1 commentary after the translated Loschmidt passage (the reversal is a conceivable but not practically feasible undoing of history); footnote 6 notes concrete Loschmidt-return analogues in some systems, citing Hahn (1950) and Waugh, Rhim, and Pines (1972).",
+          "relationship": "supports_with_qualification",
+          "finding": "The full-system exact reversal is highly special and not a practical operation for an ordinary gas, but controlled Loschmidt-return/echo phenomena exist in some systems. The article’s revised wording avoids treating practical impossibility as nomological impossibility.",
+          "limitation": "The cited experiments are identified in Darrigol’s note but were not independently retrieved or assessed for experimental details; the article does not make a claim about any specific implementation.",
+          "required_edit": "The article now calls the reversal extraordinarily fine-tuned and impractical for a macroscopic gas rather than claiming that the reversed state is impossible."
+        },
+        {
+          "material_claim": "Boltzmann’s response and the interpretation of its probability assumptions remain disputed rather than constituting an uncontested consensus solution.",
+          "source_title": "Boltzmann’s Work in Statistical Physics",
+          "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+          "exact_location": "Introduction §§1.2–1.3 reports divided views on Boltzmann’s work; §3.3 states that Boltzmann’s response varied and is difficult to interpret, and explains criticisms of the immediate reply; §4 details the subsequent approach.",
+          "relationship": "supports",
+          "finding": "The source documents interpretive disagreement and limitations; the article now avoids claiming that the probabilistic reply simply resolves Loschmidt’s objection.",
+          "limitation": "The account is one scholar’s detailed interpretation; recording its existence does not establish a field-wide consensus or exhaustive review of scholarship.",
+          "required_edit": "The article now says the adequacy and historical relation of the replies remain subjects of discussion."
+        },
+        {
+          "material_claim": "The broken-egg and cosmology questions are editorial teaching prompts, not historical claims attributed to Loschmidt or Boltzmann.",
+          "source_title": "Assigned article; checked against cited source scope",
+          "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "exact_location": "Article §6, questions 1–4; source comparison with Callender §§3–3.1, which treats the thermodynamic arrow and Past Hypothesis but does not establish these questions as Loschmidt quotations or historical variants.",
+          "relationship": "context_only",
+          "finding": "These are educational prompts authored for the entry. Their subject matter overlaps the source, but no attribution to historical authors is made or warranted.",
+          "limitation": "This is an editorial classification, not a factual claim made by the cited physics sources.",
+          "required_edit": "The revised article labels the questions as teaching prompts rather than claims attributed to Loschmidt or Boltzmann."
+        },
+        {
+          "material_claim": "The article’s dataset record identifies the matching entry as physics, Loschmidt’s Reversibility Objection, and cites the same SEP page for reversibility, statistical reply, and low-entropy initial conditions.",
+          "source_title": "Project dataset record and expansion record",
+          "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+          "exact_location": "data/experiments.json object id loschmidt-reversibility (fields id, title, category, original_publication, references, file_path, summary); research/expansion.md lines 5–9 and 79 record that the SEP URL was requested and topic keyword-counted, not read in full during expansion.",
+          "relationship": "supports_with_qualification",
+          "finding": "The object matches the assigned article identity, category, and summary, and its sole reference is the entry’s original SEP citation. The expansion record correctly warns that the original source was only topic-checked at that stage. The article now lists additional consulted reading; those additions were not synchronized into the dataset because that file was outside authorization.",
+          "limitation": "The dataset’s original_publication field remains broad (‘1870s’) and is not a claim-level citation. No dataset or expansion file was changed.",
+          "required_edit": "No dataset edit made. Article citations and Sources and Attribution now record the more precise sources accessed; future dataset synchronization is outside this task."
+        }
+      ],
+      "edits_made": [
+        "Replaced the unqualified corner-gas account with a clearly labeled teaching illustration and stated the exact dynamical reversal conditions.",
+        "Specified that the entropy decrease concerns Boltzmann macro-entropy and distinguished it from fine-grained Gibbs entropy.",
+        "Narrowed the inference to the inability of reversible mechanics alone to yield universal monotonic entropy increase on every allowed trajectory.",
+        "Separated Boltzmann’s immediate 1877 reply from the later 1877b multiplicity argument; qualified probability assumptions and recorded the interpretive dispute.",
+        "Distinguished the modern Past Hypothesis from Loschmidt’s objection and from Boltzmann’s fluctuation cosmology.",
+        "Added the H-theorem’s kinetic-assumption qualification and differentiated Poincaré recurrence/Zermelo’s 1896 argument from Loschmidt’s reversal objection.",
+        "Updated the historical date line, further reading, and source-access note; labeled reflection questions as editorial teaching prompts.",
+        "Updated the source note to record that p. 139 of the original Loschmidt scan was directly read during independent follow-up; the rest of the paper was not read.",
+        "Synchronized the dataset references, publication wording, and verification date with the article."
+      ],
+      "unresolved": [
+        "Only p. 139 of the original Loschmidt paper was directly read; the rest of the paper was not.",
+        "Full published Darrigol text was unavailable; relevant passages were read in an openly accessible early draft.",
+        "Historical and foundational interpretations remain disputed; no exhaustive literature review or expert review is claimed."
+      ],
+      "dataset_alignment": "After the audit, the matching dataset record’s identity, updated publication wording, verification date (2026-11-01), and all three references match the article. The article’s Further Reading URLs and dataset reference URLs are identical.",
+      "further_reading_matches": true,
+      "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-loschmidt-reversibility.json",
+      "audit_metadata": {
+        "review_date": "2026-11-01",
+        "reviewer_type": "Agent source audit; no named human expert review",
+        "protocol_version": "Approved local Source-review standard dated 2026-11-01",
+        "preservation_and_scope": "Only the assigned article and the unique ledger file were written. data/experiments.json, the expansion record, other articles, and common files were not edited. No staging, commit, or push performed."
+      },
+      "review_date": "2026-11-01",
+      "protocol": "research/source-review-standard.md",
+      "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+      "selection_rank": 3,
+      "risk_reason": "The entry compresses technical statistical-mechanics and historical claims about exact velocity reversal, entropy, Boltzmann’s replies, and recurrence, initially using only a topic-checked secondary source.",
+      "audit_focus": "Check the dynamics and entropy claims, distinguish Boltzmann’s separate arguments and modern boundary-condition accounts, and verify chronology and the Poincaré/Zermelo distinction.",
+      "independent_review": {
+        "initial_outcome": "issues_found",
+        "initial_summary": "The first independent recheck found the substantive claims supported and identified that p. 139 of the original Loschmidt scan was directly readable, making the article’s prior statement that the scan could not be text-extracted stale. It also found two article Further Reading URLs missing from the dataset; full Darrigol text remained unavailable, but the article’s access qualification was accurate.",
+        "initial_findings": [
+          {
+            "severity": "minor",
+            "finding": "The original Loschmidt scan’s p. 139 was directly readable in the independent recheck, so the article’s access note was stale.",
+            "resolution": "Updated the article to state that p. 139 was read directly during follow-up and that the rest of the paper was not read; updated the ledger source access record."
+          },
+          {
+            "severity": "minor",
+            "finding": "Two article Further Reading URLs were missing from dataset references.",
+            "resolution": "Added both matching source records; final URL comparison confirms exact alignment."
+          },
+          {
+            "severity": "access_limit",
+            "finding": "The published Darrigol article’s full text was behind subscription access.",
+            "resolution": "Retained the limitation and attributed the relevant material to an accessible early draft and other sources."
+          }
+        ],
+        "follow_up": "Article source note and item ledger now accurately record direct reading of Loschmidt p. 139 only. Dataset references and article Further Reading lists now match exactly.",
+        "final_outcome": "clear",
+        "final_status": "source_checked",
+        "sources_reopened": [
+          "Loschmidt scan, p. 139",
+          "Darrigol accessible early draft, translated/commentary passages",
+          "Callender, Thermodynamic Asymmetry in Time, §3",
+          "Uffink, Boltzmann’s Work in Statistical Physics, §§3.2–3.3 and §4",
+          "Boltzmann 1877b English translation, §V"
+        ],
+        "remaining_limitations": [
+          "Only p. 139 of the original Loschmidt paper was directly read; the rest of the paper was not.",
+          "Full published Darrigol text was unavailable; relevant passages were read in an openly accessible early draft.",
+          "Historical and foundational interpretations remain disputed; no exhaustive literature review or expert review is claimed."
+        ]
+      }
+    },
+    {
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+      "protocol": "research/source-review-standard.md",
+      "id": "heisenbergs-microscope",
+      "title": "Heisenberg’s Microscope",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/physics/heisenbergs-microscope.md",
+      "status": "source_checked",
+      "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: the original gamma-ray microscope setup and assumptions; Heisenberg’s heuristic estimate versus Kennard’s formal state-preparation inequality; measurement disturbance versus state-preparation uncertainty; Heisenberg’s report of Bohr’s critique; and later measurement-disturbance work and experiment. Article prose revised only where necessary for source accuracy. This status records source traceability, not truth of disputed interpretations, consensus, exhaustive literature coverage, or expert approval.",
+      "summary": "Heisenberg’s relevant 1927 passages, the SEP treatment, and the cited experiment support the revised distinctions between the microscope’s approximate δqδp ∼ h estimate, the Kennard state-preparation inequality, and error–disturbance relations. The article qualifies aperture, recoil direction, Bohr’s reported objection, and the experiment’s scope. Independent review found no material issue.",
+      "sources": [
+        {
+          "title": "The Physical Content of Quantum Kinematics and Mechanics (translation of Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik)",
+          "author": "Werner Heisenberg",
+          "publication": "Zeitschrift für Physik 43 (1927), 172–198; English translation consulted in a reproduced PDF",
+          "stable_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "source_type": "Primary work, English translation",
+          "access_level": "Selected relevant excerpts from a parsed full-text PDF; the PDF was parsed, not merely downloaded, but the entire article was not read cover to cover",
+          "exact_locations_read": "§1, position/microscope discussion (translation page marked 65; SEP identifies the corresponding original discussion at journal pages 174–175): operational meaning of position, gamma-ray microscope, Compton scattering/recoil, approximate δpδq relation. “Addition in Proof” (translation excerpt page marked 83): Heisenberg reports Bohr’s objection that uncertainty is not exclusively due to discontinuity and that the necessary divergence of the ray bundle leaves the Compton recoil direction spread; the opening and conclusion around this passage were also extracted.",
+          "limitations": "This is a third-party reproduction of the English translation, not the original German journal copy. Only relevant passages were read. Bohr’s view is directly available here as Heisenberg’s contemporaneous report, not as Bohr’s own 1927 text. The original article’s δp and δq are not given a general standard-deviation definition, and the estimate is semi-quantitative rather than Kennard’s inequality."
+        },
+        {
+          "title": "The Uncertainty Principle",
+          "author": "Jan Hilgevoord and Jos Uffink",
+          "publication": "The Stanford Encyclopedia of Philosophy, Spring 2024 edition; Metaphysics Research Lab, Stanford University; originally published 2001, archived edition cited for stability",
+          "stable_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant passages in the full HTML entry were read; targeted extracts cover complete pertinent sections and passages, not only the abstract or metadata",
+          "exact_locations_read": "§2.2, “Heisenberg’s argument”: operational setup, microscope, δpδq ∼ h, and account of Bohr’s Addition in Proof; §2.5, “Mathematical elaboration”: Kennard’s 1927 ΔψPΔψQ ≥ ℏ/2 theorem, standard-deviation definitions, and distinction from Heisenberg’s semi-quantitative account; §4, “The Minimal Interpretation”: state spreads and whether interpretations assign definite values; §6 and §6.1, “The recent debate on error-disturbance relations”: distinction from preparation uncertainty, controversy, and Ozawa / Busch–Lahti–Werner proposals. The expanded §2.2 excerpt also gives the aperture/resolution and photon-direction uncertainty account in Heisenberg’s 1930 lectures.",
+          "limitations": "A secondary reference work, not a primary source; it interprets the historical texts. Its treatment supports traceability and conceptual distinctions, not a claim that one interpretation is uniquely correct. The archived 2024 page is used as stable citation; the article still links the current SEP entry."
+        },
+        {
+          "title": "Another look through Heisenberg’s microscope",
+          "author": "Stephen Boughn and Marcel Reginatto",
+          "publication": "arXiv:1712.08579v1 [quant-ph], 22 December 2017 (preprint version consulted)",
+          "stable_url": "https://arxiv.org/html/1712.08579v1",
+          "source_type": "Scholarly secondary analysis / preprint",
+          "access_level": "Relevant passages from the full HTML paper were read, including its abstract, introduction, and microscope discussion in §2",
+          "exact_locations_read": "Abstract; §1 Introduction: historical aim of Heisenberg’s paper, Heisenberg’s use of the microscope, and the authors’ characterization of the argument as heuristic in relation to the state inequality; §2, “Heisenberg’s Microscope and the Indeterminacy Relations”: microscope setup, the δqδp ∼ h estimate, aperture-based reconstruction, and comparison with Kennard’s relation.",
+          "limitations": "The consulted item is arXiv version 1, a preprint; it is not relied on as the sole authority for any claim. Its broad language about a ‘modern consensus’ is not repeated as a finding here. Its alternative reconstruction and interpretive thesis are not necessary to establish the article’s claims."
+        },
+        {
+          "title": "Experimental violation and reformulation of the Heisenberg's error-disturbance uncertainty relation",
+          "author": "So-Young Baek, Fumihiro Kaneda, Masanao Ozawa, and Keiichi Edamatsu",
+          "publication": "Scientific Reports 3, 2221 (2013), published 17 July 2013; DOI: 10.1038/srep02221",
+          "stable_url": "https://doi.org/10.1038/srep02221",
+          "source_type": "Primary experimental research article",
+          "access_level": "Relevant full-text passages in the PMC-hosted article were read (abstract, introduction, results, and discussion); not metadata or abstract alone",
+          "exact_locations_read": "Abstract and Introduction: single-photon polarization-qubit test of Ozawa’s relation, noting the tested Heisenberg product relation and scope. Results, “Experimental test of error-disturbance relation,” and Fig. 4 discussion: measured error/disturbance quantities and reported outcome across tested measurement strengths. Discussion: the authors’ qualified conclusion that Ozawa’s relation held while the tested Heisenberg relation failed in this model.",
+          "limitations": "This is one experiment using a photon-polarization qubit, an indirect/generalized measurement model, and the authors’ operational definitions. It does not test the gamma-ray microscope, refute the Kennard state-preparation inequality, or establish a universal result about all measurement-disturbance formulations."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The thought experiment is attributed to Werner Heisenberg’s 1927 paper; the English title is “The Physical Content of Quantum Kinematics and Mechanics.”",
+          "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+          "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "exact_location": "Title and opening of the translated paper; the paper’s microscope passage in §1. The SEP §2.2 and Boughn–Reginatto §1 identify the 1927 publication and English title. The original German title is Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.",
+          "relationship": "supports_with_qualification",
+          "finding": "Attribution and year are supported. The article now uses the German title and common English translation rather than treating ‘perceptual content’ as the sole English rendering.",
+          "limitation": "The translation of anschaulich varies; the translated paper is a reproduction, and this audit did not inspect the original German printing.",
+          "required_edit": "Made: corrected the metadata to give the German title and the English translation consulted."
+        },
+        {
+          "material_claim": "Heisenberg considers observing an electron with a microscope illuminated by very short-wavelength, in-principle gamma-ray light to define its position.",
+          "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+          "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "exact_location": "§1, position/microscope discussion, translation page marked 65; SEP §2.2, “Heisenberg’s argument.”",
+          "relationship": "supports",
+          "finding": "The primary text explicitly introduces illumination and observation through a microscope, including the possibility of a gamma-ray microscope, to give operational meaning to electron position.",
+          "limitation": "The microscope is idealized; the article correctly presents it as a thought experiment, not an existing device.",
+          "required_edit": "No separate edit required beyond the revised, source-matched setup description."
+        },
+        {
+          "material_claim": "Shorter wavelength can improve positional resolution, with the microscope aperture also affecting resolution.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§2.2, discussion of Heisenberg’s original microscope and corrected aperture-based account in Heisenberg’s 1930 lectures; equations (6)–(7) relate resolution and angular aperture.",
+          "relationship": "supports_with_qualification",
+          "finding": "Wavelength governs optical resolution, but a wavelength-only account omits the aperture. Article now expressly says aperture matters.",
+          "limitation": "The aperture-based formula is from the later, improved presentation in Heisenberg’s 1930 lectures; it should not be imputed verbatim to the 1927 article’s original rough description.",
+          "required_edit": "Made: added that aperture also matters."
+        },
+        {
+          "material_claim": "Photon scattering transfers momentum to the electron; in the microscope, uncertainty in the scattered photon’s direction produces uncertainty in the electron’s momentum change.",
+          "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+          "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "exact_location": "§1 microscope discussion and “Addition in Proof,” translation pages marked 65 and 83; corroborated by SEP §2.2, which explains Bohr’s point that the recoil change is not precisely determined in the same experiment and the finite-aperture account.",
+          "relationship": "supports_with_qualification",
+          "finding": "Scattering recoil is in the 1927 account, but the initial shorthand ‘uncertain kick’ could obscure Bohr’s correction. The passage in the Addition in Proof reports the necessary beam divergence and the spread in recoil direction. Revised article states the angular-range qualification.",
+          "limitation": "Bohr’s criticism is available in this source through Heisenberg’s report of it. The simple recoil account is heuristic and depends on the observation geometry and assumptions.",
+          "required_edit": "Made: replaced the generic ‘uncertain kick’ with the finite-angular-range/recoil-direction account and attributed the critique as reported by Heisenberg."
+        },
+        {
+          "material_claim": "Heisenberg’s microscope argument gives an order-of-magnitude relation δqδp ∼ h, rather than a general fixed measurement-error/disturbance inequality.",
+          "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+          "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "exact_location": "§1 microscope discussion, relation (1), translation page marked 65; SEP §2.2 labels the imprecisions as of order δpδq ∼ h; §2.5 says Heisenberg supplied a qualitative/semi-quantitative formulation without a general definition of δp and δq.",
+          "relationship": "supports_with_qualification",
+          "finding": "The paper’s microscope estimate is qualitative/semi-quantitative. The original article’s phrase that the product ‘cannot be made smaller than a fixed quantity’ risked presenting it as a precise inequality and confusing disturbance with general uncertainty.",
+          "limitation": "The exact meaning of Heisenberg’s δp and δq is contextual and not standardized as state standard deviations; the estimate is not directly interchangeable with modern error/disturbance definitions.",
+          "required_edit": "Made: replaced the fixed-bound wording with the approximate δqδp ∼ h estimate and stated it is not a general post-measurement bound."
+        },
+        {
+          "material_claim": "The formal standard-deviation relation ΔxΔp ≥ ℏ/2 is a state-preparation constraint, distinct from the microscope’s measurement-disturbance heuristic.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§2.5, “Mathematical elaboration”: Kennard’s 1927 theorem for normalized state vectors, equation (9), standard-deviation definitions (10), and discussion distinguishing this theorem from Heisenberg’s semi-quantitative relation; §4 and §6.1 distinguish state spreads from disturbance by a measurement.",
+          "relationship": "supports",
+          "finding": "The SEP identifies Kennard’s 1927 inequality as the mathematically exact standard-deviation relation and explains that it constrains spreads associated with a state; it is not itself a disturbance relation. The article now states this distinction explicitly.",
+          "limitation": "The exposition uses the conventional position–momentum notation and ℏ/2 form. The source notes that uncertainty relations can use other spread measures, which are not at issue in the article’s stated inequality.",
+          "required_edit": "Made: added the inequality with its standard-deviation/state-preparation meaning and contrasted it with measurement disturbance."
+        },
+        {
+          "material_claim": "The microscope is an intuitive/pedagogical illustration, but its disturbance-first picture does not establish that a particle had simultaneously sharp premeasurement position and momentum.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§2.2 on Heisenberg’s operational/epistemological argument; §4, “The Minimal Interpretation,” on state distributions and the fact that interpretations differ regarding definite values.",
+          "relationship": "supports_with_qualification",
+          "finding": "The microscope was offered as an intuitive account of the relation, but its disturbance narrative can be read as presupposing a prior momentum value. The formal state relation does not settle the ontology of individual values; the SEP describes interpretations that differ.",
+          "limitation": "‘Pedagogically offers an intuitive illustration’ is editorial framing, not a claim about quantified historical public impact. The source does not establish that the microscope alone made the principle historically accessible to a particular audience.",
+          "required_edit": "Made: removed the broader historical claim that the microscope ‘helped make’ the principle accessible and retained it as explicitly pedagogical framing; qualified the definite-values point."
+        },
+        {
+          "material_claim": "Measurement disturbance and the spread of outcomes associated with a prepared state are distinct questions.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§4, “The Minimal Interpretation,” defines uncertainty as spreads in outcomes associated with the same state and notes no measurement disturbance is needed; §6 and §6.1 explicitly contrast preparation uncertainty with error–disturbance questions.",
+          "relationship": "supports",
+          "finding": "This conceptual distinction is stated directly in the SEP and supports the article’s revised framing.",
+          "limitation": "Different authors use varied measures and formulations; the distinction does not imply that state preparation and measurement operations are unrelated in every operational context.",
+          "required_edit": "Made: stated these as distinct questions and avoided presenting them as alternate phrasings of one inequality."
+        },
+        {
+          "material_claim": "Modern error–disturbance relations formalize the measurement question separately, with results depending on definitions and assumptions.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§6 and §6.1: definition of the measurement-uncertainty question; discussion of the controversy and the Ozawa and Busch–Lahti–Werner proposals; §2.5 on why standard deviations are not the same as measurement inaccuracy.",
+          "relationship": "supports_with_qualification",
+          "finding": "The entry describes a separate, controversial literature on error/noise–disturbance inequalities and different proposals. The article’s revised statement avoids implying one universally accepted form.",
+          "limitation": "This entry is not an exhaustive literature review; the article does not name or compare every proposed inequality.",
+          "required_edit": "Made: qualified the distinction by noting dependence on definitions and assumptions."
+        },
+        {
+          "material_claim": "In the 1927 Addition in Proof, Heisenberg reports Bohr’s objection that uncertainty is not attributable solely to the discontinuous recoil; divergence of the ray bundle leaves recoil direction uncertain.",
+          "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+          "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "exact_location": "“Addition in Proof,” translation excerpt page marked 83: Heisenberg acknowledges Bohr’s comments, says uncertainty is not exclusively due to discontinuities, and notes that the necessary divergence of the ray bundle makes the Compton recoil direction uncertain. Corroborating analysis: SEP §2.2, “Heisenberg’s argument.”",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary text explicitly reports the point and frames it as Bohr’s criticism. The article now says ‘Heisenberg reports Bohr’s criticism’ rather than implying that the audit consulted Bohr’s separate text.",
+          "limitation": "This verifies the contemporaneous report and its substance, not every detail of the private exchange or a complete account of Bohr’s complementarity doctrine. The SEP also notes Bohr’s point that the momentum change’s uncertainty in the same experiment matters.",
+          "required_edit": "Made: named the relevant criticism and clearly attributed it as Heisenberg’s report."
+        },
+        {
+          "material_claim": "Later experimental work has tested specific error–disturbance relations; the 2013 Baek et al. photon-polarization experiment reported Ozawa’s relation held while the tested Heisenberg product relation failed across the studied measurement strengths.",
+          "source_title": "Experimental violation and reformulation of the Heisenberg's error-disturbance uncertainty relation",
+          "source_url": "https://doi.org/10.1038/srep02221",
+          "exact_location": "Abstract; Results, subsection “Experimental test of error-disturbance relation”; Fig. 4 description and Discussion. Full text is available at https://pmc.ncbi.nlm.nih.gov/articles/PMC3713528/.",
+          "relationship": "supports_with_qualification",
+          "finding": "The article reports an experimental test on a single-photon polarization qubit and concludes, within its specified model and measurement range, that Ozawa’s relation held while the tested Heisenberg error–disturbance product failed. This supports a qualified example, not an unbounded generalization.",
+          "limitation": "Specific photonic apparatus, operational definitions, and model; this is not an experiment on the gamma-ray microscope or a test of the Kennard state-preparation inequality. It is one result among multiple measurement-disturbance approaches.",
+          "required_edit": "Made: included the named example and confined the claim to the tested operational model and measurement strengths."
+        },
+        {
+          "material_claim": "Heisenberg’s microscope is a heuristic, not a rigorous derivation of the formal uncertainty inequality; uncertainty is not simply a consequence of clumsy measurement.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§2.2 characterizes the initial argument and δpδq ∼ h; §2.5 explicitly says Heisenberg gave qualitative examples, no general exact derivation or definition of δq, δp, while Kennard’s theorem is exact; §6.1 distinguishes disturbance relations from preparation relations.",
+          "relationship": "supports",
+          "finding": "The qualification already present in the article is warranted and has been strengthened by separating the heuristic and formal relation explicitly.",
+          "limitation": "‘Clumsy measurement’ is informal editorial wording; it should not be read as a technical classification of all measurement error.",
+          "required_edit": "No additional edit; the existing caveat was retained and now follows the more precise distinction."
+        },
+        {
+          "material_claim": "The thought experiment says nothing about consciousness or a conscious mind creating reality.",
+          "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+          "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+          "exact_location": "§1 microscope discussion describes physical scattering and detection (including photoelectric detection); the relevant passage contains no claim that consciousness causes collapse or creates reality.",
+          "relationship": "does_not_establish",
+          "finding": "This is a scope-limiting editorial clarification: the cited physical argument concerns an apparatus, scattering, and detection, not consciousness. The consulted passage’s silence does not prove a universal negative about every interpretation of quantum theory.",
+          "limitation": "The source cannot establish a comprehensive claim about consciousness in quantum mechanics; the audit only confirms that consciousness is not a premise of this microscope argument.",
+          "required_edit": "No edit required; retain as a clearly limited clarification about this thought experiment, not a general conclusion about quantum foundations."
+        },
+        {
+          "material_claim": "The SEP entry is suitable further reading on the microscope argument and distinction between disturbance and preparation uncertainty.",
+          "source_title": "The Uncertainty Principle",
+          "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+          "exact_location": "§2.2 covers the microscope; §2.5 and §4 cover formal state uncertainty; §6–6.1 cover inaccuracy and disturbance.",
+          "relationship": "supports",
+          "finding": "The listed further reading directly addresses both the microscope argument and the modern distinction. The article’s live SEP URL and this ledger’s stable archived URL resolve to the same reference work.",
+          "limitation": "The SEP is secondary scholarship, not the original 1927 source; article now separately cites the primary translation and one experimental paper in Sources and Attribution.",
+          "required_edit": "No change required to the Further Reading entry."
+        },
+        {
+          "material_claim": "The expansion-record entry and dataset reference support the article’s research provenance as previously recorded.",
+          "source_title": "Expansion batch: research record; matching experiments.json record",
+          "source_url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+          "exact_location": "expansion.md, lines 5–9 and table line 69: on 2026-10-31 the SEP URL was requested and keyword counts recorded; the method explicitly says pages were not read in full and keyword counts do not establish sentence support. experiments.json record id heisenbergs-microscope: reference title/URL/support, date_verified 2026-10-31, article file_path, and summary.",
+          "relationship": "supports_with_qualification",
+          "finding": "The single dataset reference matches the article’s SEP reference and the subject. The expansion record was a topic-coverage check only, not passage-level verification; this audit therefore independently read the relevant source passages and consulted the primary text and experiment report.",
+          "limitation": "The dataset and expansion record are project records, not independent evidence for the physics. They were not modified. The article now notes that the dataset still lists SEP as its reference.",
+          "required_edit": "No dataset change made, as instructed; article provenance was updated to reflect the current source consultation."
+        }
+      ],
+      "edits_made": [
+        "Updated article publication metadata with Heisenberg’s German title and the English translation title.",
+        "Rewrote the microscope scenario to include finite aperture and recoil-direction uncertainty, and replaced the fixed-product implication with the source’s δqδp ∼ h order-of-magnitude characterization.",
+        "Added and distinguished Kennard’s formal ΔxΔp ≥ ℏ/2 standard-deviation/state-preparation relation from measurement disturbance.",
+        "Reframed the microscope’s pedagogical role as editorial framing, qualified the interpretation about definite values, and stated the difference between prepared-state spreads and disturbance.",
+        "Specified the reported Bohr criticism and attributed it to Heisenberg’s Addition in Proof; added a bounded description of the 2013 Baek et al. experimental result.",
+        "Updated Sources and Attribution with the consulted primary translation, SEP entry, and experimental paper, and changed the research check date to 2026-11-01.",
+        "Updated the matching dataset publication wording and verification date to match the article."
+      ],
+      "unresolved": [
+        "The primary text was consulted in a third-party English translation, not the original German printing.",
+        "No expert review or exhaustive literature review is claimed."
+      ],
+      "dataset_alignment": "The matching dataset record’s identity, publication wording, and verification date (2026-11-01) now match the article. Its sole reference is the SEP Uncertainty Principle entry, exactly matching the article’s sole Further Reading URL.",
+      "further_reading_matches": true,
+      "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-heisenbergs-microscope.json",
+      "selection_rank": 4,
+      "risk_reason": "The article links a technical historical microscope model to quantitative uncertainty claims and originally had not directly consulted Heisenberg’s paper.",
+      "audit_focus": "Separate Heisenberg’s heuristic estimate from the formal state-preparation inequality; check aperture, recoil direction, Bohr’s reported criticism, and later experimental claims.",
+      "independent_review": {
+        "initial_outcome": "clear",
+        "initial_summary": "Independent read-only review found no evidence-backed material or minor source issue. The material claims and access descriptions were traceable to the reopened passages in Heisenberg’s translated 1927 paper, the SEP, and the cited experimental paper. Article and dataset Further Reading URLs matched.",
+        "initial_findings": [],
+        "follow_up": "Dataset publication metadata and verification date were synchronized with the article; the sole Further Reading URL remains an exact match.",
+        "final_outcome": "clear",
+        "final_status": "source_checked",
+        "sources_reopened": [
+          "Heisenberg 1927 paper in English translation, microscope passage and Addition in Proof",
+          "SEP The Uncertainty Principle, §§2.2, 2.5, 4, 6–6.1",
+          "Baek et al. 2013, relevant experiment and discussion"
+        ],
+        "remaining_limitations": [
+          "The primary text was consulted in a third-party English translation, not the original German printing.",
+          "No expert review or exhaustive literature review is claimed."
+        ]
+      }
+    },
+    {
+      "id": "sea-battle",
+      "title": "Aristotle’s Sea Battle",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/time-and-causality/sea-battle.md",
+      "status": "source_checked",
+      "review_date": "2026-11-01",
+      "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+      "protocol_version": "Approved source-review standard, 2026-11-01",
+      "scope": "Claim-level audit of article sections 1–10 and associated publication/source claims: scenario and fatalist inference; Aristotle’s response and contested attribution; bivalence, excluded middle, and the summaries of three-valued/truth-gap, branching-time, supervaluationist, Ockhamist, and Peircean approaches; contemporary extensions; editorial framing. Checked against the complete relevant passage of De Interpretatione 9, the cited SEP entry's relevant sections, and a full-text scholarly discussion of interpretive disagreement. This status concerns evidence traceability, not philosophical soundness, consensus, exhaustive literature coverage, or expert review.",
+      "summary": "The primary chapter, relevant SEP sections, and a scholarly analysis support the article’s account of Aristotle’s fatalist inference, response, and later semantic frameworks. The Ockham passage now specifies that future truth is unknowable to humans but known by God, as SEP §5.1 states. Targeted independent review found no remaining material issue; article and dataset Further Reading URLs match.",
+      "sources": [
+        {
+          "title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+          "author": "Aristotle; translation in The Complete Works of Aristotle, edited by Jonathan Barnes",
+          "publication": "The Complete Works of Aristotle, vol. 1, Revised Oxford Translation; chapter 9, Bekker 18a28–19b4 (primary text; translation hosted by University of St Andrews)",
+          "stable_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+          "source_type": "Primary philosophical work in translation",
+          "access_level": "Full text of chapter 9 read, including the opening bivalence discussion, fatalist argument, sea-battle example, reply on deliberation and potentiality, and concluding distinction about contradictories.",
+          "exact_locations_read": "De Interpretatione 9, Bekker 18a28–19b4; especially 18a28–18b16 (past/present contrast and fatalist argument), 18b17–19a22 (necessity, chance, deliberation, and potentiality), 19a23–39 (necessary disjunction but neither outcome necessary; truth-status conclusion). Cross-checked against MIT Classics' E. M. Edghill translation, Part 9, at https://classics.mit.edu/Aristotle/interpretation.1.1.html, including paragraphs from “In the case of that which is or which has taken place” through “not necessary that of an affirmation and a denial one should be true and the other false.”",
+          "limitations": "Translation evidence establishes what this text says, not which modern interpretation is correct or whether Aristotle's argument succeeds. Translation wording varies; the St Andrews page reproduces the Revised Oxford Translation and is a host rather than the edition publisher. The work is conventionally dated to the fourth century BCE; no precise composition date was checked."
+        },
+        {
+          "title": "Future Contingents",
+          "author": "Peter Øhrstrøm and Per Hasle",
+          "publication": "Stanford Encyclopedia of Philosophy; first published 2011, substantive revision 11 July 2024",
+          "stable_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "source_type": "Scholarly reference work / secondary analysis",
+          "access_level": "Relevant full sections read from the complete entry: Aristotle background, formalization of the classical argument, branching-time semantics, Łukasiewicz three-valued semantics, Peircean solution, Prior's Ockhamist solution, supervaluationism, and conclusion/classification.",
+          "exact_locations_read": "Sections 1 (discussion of Aristotle and the sea-battle, with reference to De Interpretatione 18b23 ff.), 2 (P1–P5 formalization and fatalist inference), 3 (branching time and histories/chronicles), 4.1 (Łukasiewicz), 4.2 (Peircean models), 5.1 (Prior's Ockhamist model and William of Ockham), 5.4 (supervaluationism), and 6 (classification/disagreement).",
+          "limitations": "Secondary overview, not a substitute for the primary text. It presents a structured taxonomy of positions rather than a consensus survey; classifications and terminology are the authors' chosen framework. It records disagreement but cannot establish that all scholars agree on any one Aristotle interpretation."
+        },
+        {
+          "title": "Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?",
+          "author": "M. A. Istvan Jr.",
+          "publication": "Ideas y Valores, vol. 63, no. 155 (May–August 2014); DOI: 10.15446/ideasyvalores.v63n155.33178",
+          "stable_url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+          "source_type": "Scholarly journal article / secondary philosophical analysis",
+          "access_level": "Full English-language article read from the accessible SciELO full-text page, including the abstract, argument about bivalence/LEM/RCP, quoted Aristotelian passages, interpretation, conclusion, and bibliography.",
+          "exact_locations_read": "Abstract; sections I–III, especially the discussion of alternative readings at article paragraphs 92–110; passages on De Interpretatione 18a28–33 and 18b27–30 at paragraphs 118–156; and conclusion at paragraphs 260–262. Full text: https://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00622014000200002",
+          "limitations": "This is one author's argued interpretation, not a consensus statement. It argues that Aristotle restricts bivalence while retaining excluded middle, and distinguishes this from rival accounts; its claims are used as evidence of a live interpretive position, not adopted as settled fact."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Aristotle's De Interpretatione chapter 9 is the original ancient text associated with the sea-battle puzzle, dated approximately to the fourth century BCE.",
+          "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+          "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+          "exact_location": "Chapter 9, Bekker 18a28–19b4; the SEP entry's section 1 also identifies Aristotle as 384–322 BCE and De Interpretatione IX as the relevant text.",
+          "relationship": "supports_with_qualification",
+          "finding": "The primary chapter is the relevant source and explicitly discusses statements about a sea-battle tomorrow. The fourth-century BCE period is consistent with Aristotle's lifetime and is an approximate historical dating, not an exact composition date.",
+          "limitation": "The primary passage itself does not date its composition; the period is a conventional historical estimate.",
+          "required_edit": "No edit required; retain approximate-period qualification."
+        },
+        {
+          "material_claim": "The article's setup—today's assertion that a sea-battle will occur tomorrow and its contradictory alternative—is the case Aristotle discusses.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Section 1, paragraph beginning “Central to the discussion…”; quotes both “Tomorrow there will be a sea-battle” and its negation. Primary text: De Interpretatione 9, 18a34–18b4 and 19a23–31.",
+          "relationship": "supports",
+          "finding": "The source directly identifies the paired sea-battle propositions and locates the issue in Aristotle's chapter. The article's “someone says today” is explanatory setup, not a quotation or claim that Aristotle gives that exact dialogue.",
+          "limitation": "The article is a modern paraphrase; its introductory wording is not presented as a verbatim translation.",
+          "required_edit": "No edit required; framing is editorial and is described as a supposition."
+        },
+        {
+          "material_claim": "If future affirmations and denials must already be true or false, the fatalist inference makes the event or its absence necessary and excludes chance/contingency.",
+          "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+          "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+          "exact_location": "18a34–18b16: Aristotle sets out the conditional bivalence/necessity reasoning and says it yields that nothing occurs by chance and all is necessary; compare SEP section 2, principles P1–P5 and steps (1)–(8).",
+          "relationship": "supports_with_qualification",
+          "finding": "The chapter explicitly lays out the fatalist consequence as a reductio and says a true future assertion cannot fail to happen. The article's concise “if true … cannot fail; if false … cannot occur” summarizes the result, but compresses the premises: the formal classical argument also requires assumptions about past truth/necessity and the future-excluded-middle principle, and not only a bare bivalence principle.",
+          "limitation": "The secondary literature disputes the best formal reconstruction of Aristotle's argument; Istvan distinguishes readings based on bivalence, excluded middle, or the rule that one of a contradictory pair must be true and the other false.",
+          "required_edit": "Clarified §§3 and 5 to distinguish bivalence from excluded middle and identify the additional assumptions; no change to the basic scenario needed."
+        },
+        {
+          "material_claim": "On the fatalist inference, deliberation and effort are pointless because a remote prediction would already fix the outcome.",
+          "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+          "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+          "exact_location": "18b27–19a7, especially the paragraph beginning “So there would be no need to deliberate…”; MIT Edghill translation, Part 9, paragraph beginning “These awkward results…”.",
+          "relationship": "supports",
+          "finding": "Aristotle explicitly presents the loss of deliberation and effort as one of the absurd consequences of the fatalist position, including a prediction made ten thousand years earlier.",
+          "limitation": "This is the consequence of the position under discussion, not a claim that Aristotle endorses the conclusion.",
+          "required_edit": "No edit required; article marks this as what “seems” to follow."
+        },
+        {
+          "material_claim": "Aristotle replies that deliberation/action can be causative, future possibilities can run in either direction, and the battle-or-no-battle disjunction is necessary without either disjunct being necessary.",
+          "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+          "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+          "exact_location": "18b17–19a39; especially 18b17–25 on deliberation and potentiality, and 19a23–39 on the necessary disjunction and non-necessity of either outcome. Cross-check: MIT Edghill translation, Part 9, paragraphs beginning “Yet this view leads…” and “Let me illustrate.”",
+          "relationship": "supports",
+          "finding": "The text says that deliberation and action are causative, that some future events have possibilities of being and not being, and that it is necessary that a sea-battle either occur or not while neither occurrence nor non-occurrence is necessary. The article's new §3 summary accurately states that distinction.",
+          "limitation": "The text's final wording about whether one member is “not already true or false” is itself interpretively difficult; translating that passage does not settle whether Aristotle endorses truth-value gaps.",
+          "required_edit": "Added the explicit distinction between the necessary disjunction and non-necessity of either outcome in §3."
+        },
+        {
+          "material_claim": "Whether bivalence applies to contingent future statements is distinct from whether excluded middle (p or not-p) holds; rejecting bivalence does not automatically require revising all ordinary logic.",
+          "source_title": "Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?",
+          "source_url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+          "exact_location": "Sections I–II, especially paragraphs 98–110 distinguishing PB (bivalence), LEM (excluded middle), and RCP (one contradictory true, the other false); Aristotle's statement at 19a27 is discussed in paragraph 106.",
+          "relationship": "supports_with_qualification",
+          "finding": "Istvan directly distinguishes these principles and argues that Aristotle restricts bivalence but retains LEM; he also describes rival readings. SEP section 2 separately formalizes future excluded middle as P5 and identifies multiple premises. This supports the distinction and shows why the old claim that logic “must be revised” was too blunt.",
+          "limitation": "Istvan's proposed interpretation is one contested scholarly argument, not a settled verdict. The entry's revised language presents it as one influential reconstruction rather than the only reading.",
+          "required_edit": "Rewrote §3 to distinguish bivalence from excluded middle, add the past-truth/necessity assumptions, and avoid claiming that ordinary logic as a whole must be revised."
+        },
+        {
+          "material_claim": "Three-valued/truth-value-gap accounts assign future contingents no present true/false value (or an undetermined value), and this is one reading associated with Aristotle rather than an uncontested attribution.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Section 4.1, paragraphs beginning “Łukasiewicz's interpretation…” and “This truth-value, ‘undetermined’…”; section 1 describes the interpretive problems as non-simple. Istvan, section I and paragraph 148, argues for restricting bivalence in Aristotle.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP explicitly attributes a three-valued interpretation of Aristotle to Łukasiewicz and says a contingent sea-battle proposition may be undetermined today. The secondary article argues Aristotle himself restricts bivalence, but also maps rival readings. Thus the article's hedge “often attributed … on one reading” is warranted.",
+          "limitation": "This is a disputed historical interpretation; truth-value-gap semantics and assigning a third truth-value are related but not identical formulations, and the sources do not establish a scholarly consensus.",
+          "required_edit": "Retained the qualification but clarified in §4 that these are later semantic frameworks, not labels Aristotle himself used."
+        },
+        {
+          "material_claim": "Branching-time semantics represents multiple possible histories branching from a moment and evaluates future statements against those histories.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Section 3, especially the description of a tree of possible futures, the definition of a model using histories/chronicles, and the explanation that truth values of formulas may vary with the chronicle; see also section 5.1 for branch-relative truth.",
+          "relationship": "supports",
+          "finding": "The SEP describes branching-time structures as sets of histories/chronicles and distinguishes truth relative to a chronicle from truth settled at a moment. The former article's shared gloss of branching-time and supervaluationist positions as “true or false only relative to how things go” conflated distinct treatments; the revised entry separates them.",
+          "limitation": "Branching-time is a family of semantic frameworks, not a single truth-value policy; the source describes multiple competing models.",
+          "required_edit": "Replaced the combined, overly broad claim in §4 with a concise separate description of branching-time semantics."
+        },
+        {
+          "material_claim": "Supervaluationism treats a contingent future statement as neither true nor false at a branching moment when histories disagree, while allowing future excluded middle to be true.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Section 5.4, definition of truth at a moment by supervaluating across every chronicle, the following passage on future contingents lacking truth-values, and the paragraph explaining that P5 is accepted while P3 is rejected.",
+          "relationship": "supports",
+          "finding": "This section directly supports the revised description: a proposition is true at a moment only if true on every chronicle and false only if false on every chronicle; a contingent proposition can therefore be neither, while its disjunction with its negation is true. This is not the same as saying the proposition is simply true or false relative to whichever outcome happens.",
+          "limitation": "The SEP presents Thomason's account as one modern theory; further debates about the adequacy of supervaluationism are outside this audit.",
+          "required_edit": "Separated supervaluationism from branching-time semantics and added its truth-gap / excluded-middle distinction in §4."
+        },
+        {
+          "material_claim": "Prior's Ockhamist model permits branch-relative future truth without settled truth and rejects the necessity-of-the-past premise; this model should not be conflated with William of Ockham's own doctrine.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Section 5.1, opening definition of Prior's Ockhamist system (accepts P5, rejects P3), the explanation of Ockham(t,c,p) as true at a moment in a chronicle, and the final paragraphs distinguishing Prior's model from William of Ockham's true-future doctrine.",
+          "relationship": "supports",
+          "finding": "The SEP directly supports the refined wording. It also shows the original blanket claim “Ockhamist views say the sentence is already true or false” was underspecified: Prior's model assesses plain truth relative to a chronicle, while Ockham's historical position involves a true/false future known by God. The claim that this is simply a truth “not a necessity” was not an adequate description of the semantics.",
+          "limitation": "The SEP notes that Prior's system may not fully represent William of Ockham's view; scholarship also uses “Ockhamism” in more than one sense.",
+          "required_edit": "Replaced the compressed Ockhamist gloss in §4 with a distinction between Prior's model and William of Ockham's doctrine."
+        },
+        {
+          "material_claim": "In Prior's Peircean model, genuinely contingent future p and future not-p claims are both false; this is a later semantic position, not Aristotle's stated solution.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Sections 4 and 4.2, particularly the paragraphs after the Peircean valuation clauses: a future statement is true in the Peircean sense only if it holds in all possible futures; if F(x)q is contingent then it and F(x)~q are false, so future excluded middle fails in that model.",
+          "relationship": "supports_with_qualification",
+          "finding": "The article's original short account is substantively correct for Prior's Peircean account of genuinely contingent future-tense claims, but it needed attribution and scope: the model defines “will p” with a strong across-histories condition, and the SEP notes that “will not p” is not equivalent to “not will p.” The revised text limits the claim to Prior's model and contingent claims.",
+          "limitation": "Natural-language paraphrases may obscure the model's distinction between F(not-p) and not-F(p); do not generalize the result to every proposition expressed with “will.”",
+          "required_edit": "Qualified the statement in §4 to name Prior's Peircean model and specify genuinely contingent p / not-p claims."
+        },
+        {
+          "material_claim": "Scholars disagree about whether Aristotle accepts truth-value gaps or instead preserves bivalence while restricting a related contradictory-pair rule.",
+          "source_title": "Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?",
+          "source_url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+          "exact_location": "Sections I–III, paragraphs 98–110 (alternative interpretations), 118–160 (Istvan's argument for bivalence restriction and reply to Whitaker), and footnotes 1–12; SEP sections 1 and 4.1 also describe interpretative problems and the Łukasiewicz reading.",
+          "relationship": "supports",
+          "finding": "The article explicitly develops competing readings and explains that authors disagree about whether Aristotle restricts bivalence, excluded middle, or the rule for contradictory pairs. This validates the entry's caution and justifies not asserting one interpretation as settled.",
+          "limitation": "One article and one reference-work entry establish that disagreement exists but do not measure its breadth or identify a consensus; no consensus claim is made here.",
+          "required_edit": "Kept the interpretive caveat and made it more precise in §5; no claim that the audit settles Aristotle's view."
+        },
+        {
+          "material_claim": "Contemporary extensions involving free decisions and divine foreknowledge are modern applications/variants rather than the literal scenario in Aristotle's chapter.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Section 1, paragraphs on the theological problem of divine foreknowledge and free choices, and the introduction describing the broader domains of theology, logic, and semantics.",
+          "relationship": "supports_with_qualification",
+          "finding": "The SEP directly discusses the theological foreknowledge/free-choice problem and distinguishes it from the basic future-contingent question. This supports the article's note that later versions bring theological premises, but the article's exact phrasing “modern versions” is editorial compression.",
+          "limitation": "The consulted section describes a broader debate, not an exhaustive inventory of all modern thought experiments.",
+          "required_edit": "No edit required; the existing note already labels these as modern versions and separates theological premises."
+        },
+        {
+          "material_claim": "The named SEP Further Reading reference is relevant to the entry's topic and semantic positions.",
+          "source_title": "Future Contingents",
+          "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+          "exact_location": "Entry sections 1–6, especially 1–2 (Aristotle and fatalist argument), 3–5 (logical/semantic responses), and 6 (classification).",
+          "relationship": "supports",
+          "finding": "The exact cited entry directly treats De Interpretatione 9, the sea-battle argument, and the main logical and metaphysical responses named in the article. Its fit is established from relevant full sections, not merely the expansion record's one occurrence of the phrase “sea battle.”",
+          "limitation": "A topical match does not alone support every individual article claim; those claims were separately checked above.",
+          "required_edit": "No edit required; keep the SEP as Further Reading and cite it as a secondary overview."
+        }
+      ],
+      "edits_made": [
+        "Section 3: separated bivalence from excluded middle, qualified the fatalist assumptions, avoided implying that rejection of bivalence requires revising ordinary logic wholesale, and stated Aristotle's necessary-disjunction / non-necessity distinction.",
+        "Section 4: labeled the semantic accounts as later frameworks; distinguished branching time from supervaluationism; clarified Prior's Ockhamist model versus William of Ockham; narrowed the Peircean claim to Prior's model and genuinely contingent statements.",
+        "Section 5: clarified that the inference from truth/falsity to necessity/impossibility is contested and that Aristotle's interpretation remains disputed across bivalence and contradictory-pair readings.",
+        "Corrected the Ockham qualification to distinguish human knowledge from divine knowledge, as described in SEP §5.1.",
+        "Added the consulted primary translation and Istvan analysis to Further Reading, updated the source note, and synchronized the dataset references and verification date."
+      ],
+      "unresolved": [
+        "Aristotle’s intended account of future-contingent truth remains disputed; the audit records but does not resolve competing readings.",
+        "No claim of philosophical soundness, consensus, exhaustive literature review, or expert review is made."
+      ],
+      "dataset_alignment": "After the audit, the matching dataset record’s identity, approximate publication date, verification date (2026-11-01), and all three references match the article. The article lists the SEP, Aristotle’s primary chapter in translation, and Istvan’s scholarly analysis; the dataset URLs are identical.",
+      "further_reading_matches": true,
+      "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-sea-battle.json",
+      "protocol": "research/source-review-standard.md",
+      "selection_rank": 5,
+      "risk_reason": "The entry combines Aristotle’s formal fatalist argument with contested later semantic frameworks, while the primary chapter had not initially been retrieved and the expansion keyword count for “sea battle” was one.",
+      "audit_focus": "Verify the primary chapter, distinguish bivalence from excluded middle, check Aristotle versus later interpreters, and verify the Ockhamist and Peircean summaries.",
+      "independent_review": {
+        "initial_outcome": "issues_found",
+        "initial_summary": "The first read-only review found the entry source-traceable but noted that “unknowable true future” could imply that future truth is unknowable to everyone; SEP §5.1 says humans cannot know it, while God does. It also noted article/dataset URL mismatch before the additional references were synchronized.",
+        "initial_findings": [
+          {
+            "severity": "minor",
+            "finding": "The phrase “William of Ockham’s own doctrine of an unknowable true future” was underspecified.",
+            "resolution": "Reworded to say the truth is unknowable to humans but known by God."
+          },
+          {
+            "severity": "minor",
+            "finding": "Only the SEP URL was initially in the dataset while the article had a single Further Reading entry.",
+            "resolution": "Added the primary translation and Istvan analysis as Further Reading, updated dataset references; exact URL equality verified."
+          }
+        ],
+        "follow_up": "Targeted independent final review verified the revised human/God distinction against SEP Future Contingents §5.1 and recommended source_checked; it found no remaining material issue. Article source note and Further Reading now record the texts actually consulted.",
+        "final_outcome": "clear",
+        "final_status": "source_checked",
+        "sources_reopened": [
+          "Aristotle, On Interpretation 9, Revised Oxford Translation, Bekker 18a28–19b4",
+          "SEP Future Contingents, §§1–6, especially §5.1",
+          "Istvan, Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?, relevant sections"
+        ],
+        "remaining_limitations": [
+          "Aristotle’s intended account of future-contingent truth remains disputed; the audit records but does not resolve competing readings.",
+          "No claim of philosophical soundness, consensus, exhaustive literature review, or expert review is made."
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Source_checked records traceability, not truth, philosophical or scientific soundness, consensus, exhaustive literature review, or human expert review.",
+    "Leslie’s primary pages remain unavailable; the revised article presents its count-free setup as teaching framing and does not authenticate exact original wording. Exact first-publication date is unresolved; SEP and the USI catalogue cite 1989.",
+    "Only p. 139 of Loschmidt’s original paper was read directly; the rest was not. Full published Darrigol text was unavailable, so relevant passages were checked in an accessible early draft and corroborating sources.",
+    "Sen’s Gibbard 1974 article was not accessed beyond its bibliographic record, and the unsupported game-form attribution was removed.",
+    "Aristotle’s intended account of future contingents remains disputed; no position is presented as settled."
+  ]
+}

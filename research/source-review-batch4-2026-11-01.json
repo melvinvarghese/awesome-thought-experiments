@@ -1,0 +1,890 @@
+{
+  "batch_id": "source-review-batch4-2026-11-01",
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "branch": "audit/source-review-high-risk",
+  "publication_state": "Local-only source-review batch. All new report and ledger files and associated source-audit work remain uncommitted and unpushed; no merge or public release/deployment is part of this work.",
+  "reviewer_type": "Five AI-assisted claim-level source audits, independent read-only post-edit review, and targeted follow-up checks for Frame Problem and Paley’s Watch. No human expert review is claimed.",
+  "batch_scope": "Five artificial-intelligence and science-and-biology entries: The Lucas–Penrose Argument; The Symbol Grounding Problem; The Frame Problem; Blockhead; Paley’s Watch.",
+  "status_summary": "All five entries are source_checked within their declared claim-traceability scope after the final text and relevant follow-up checks. No material unresolved findings remain. None is expert_reviewed.",
+  "counts": {
+    "audited_entries_before_batch": 13,
+    "entries_in_batch": 5,
+    "audited_entries_after_batch": 18,
+    "total_expansion_entries": 57,
+    "expansion_entries_remaining_outside_claim_level_audits": 39
+  },
+  "entries": [
+    {
+      "id": "lucas-penrose-argument",
+      "title": "The Lucas–Penrose Argument",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/lucas-penrose-argument.md",
+      "review_date": "2026-11-01",
+      "status": "source_checked",
+      "status_rationale": "The article’s material theorem statement, attribution to Lucas, stated objections and qualifications, Penrose extension, and publication details are traceable to relevant passages in appropriate sources. It does not present the anti-mechanist conclusion as established or imply consensus or expert review. The Further Reading URLs match the dataset record. The disclosed limits concerning Gödel’s 1931 paper and Penrose’s 1989 book are accurate and do not leave an unsupported material claim in the article’s declared scope.",
+      "declared_scope": "Material claims and attributions concerning Gödel’s theorem and stated hypotheses; Lucas’s argument and replies; objections and named critics; Penrose’s later proposal; publication metadata; qualifications and authorial teaching prompts, compared with the dataset record.",
+      "reviewer_type": "AI-assisted claim-level source audit followed by independent AI-assisted read-only post-edit review; targeted follow-up recorded where relevant. No human subject-matter expert review is claimed.",
+      "protocol_version": "Approved source-review standard, 2026-11-01 (research/source-review-standard.md)",
+      "sources": [
+        {
+          "author": "Not identified in supplied review record",
+          "publication": "Stanford Encyclopedia of Philosophy entry; publication/revision details not stated in supplied record",
+          "title": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+          "stable_url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+          "role": "Scholarly reference treatment for theorem hypotheses and the Lucas–Penrose debate.",
+          "source_type": "Scholarly reference work",
+          "access_level": "Relevant passages read in the full online entry",
+          "exact_locations_read": "§2.5 and §6.3, including the first incompleteness theorem’s conditions and the discussion of Gödelian arguments against mechanism",
+          "limitations": "A reference-work treatment, not the original 1931 paper; the entry itself characterizes philosophical applications as more controversial."
+        },
+        {
+          "author": "Not identified in supplied review record",
+          "publication": "Stanford Encyclopedia of Philosophy entry; publication/revision details not stated in supplied record",
+          "title": "Stanford Encyclopedia of Philosophy: The Computational Theory of Mind",
+          "stable_url": "https://plato.stanford.edu/entries/computational-mind/",
+          "role": "Brief context on Gödel’s theorem and computational theory of mind.",
+          "source_type": "Scholarly reference work",
+          "access_level": "Relevant passage read in the full online entry",
+          "exact_locations_read": "§7.2, Gödel’s incompleteness theorem",
+          "limitations": "Brief contextual account; not an exhaustive review of the Lucas–Penrose debate. Its statement that there is wide consensus is not repeated as a claim in the article."
+        },
+        {
+          "author": "J. R. Lucas",
+          "publication": "Philosophy, vol. 36, no. 137 (April 1961), pp. 112–127",
+          "title": "J. R. Lucas, ‘Minds, Machines and Gödel’",
+          "stable_url": "https://philomatica.org/wp-content/uploads/2021/12/lucas1961.pdf",
+          "role": "Primary argument and replies by Lucas; publisher record separately verifies citation metadata.",
+          "source_type": "Primary journal article",
+          "access_level": "Relevant passages read in the full text; full article text was accessible",
+          "exact_locations_read": "Printed pp. 112–114 on the Gödel argument and machine-model claim; pp. 116–120 on finite models, objections, consistency and human fallibility; concluding discussion of a fixed mechanical model",
+          "limitations": "The cited URL is a full-text mirror rather than the publisher’s platform. Cambridge’s publisher record confirms the article’s bibliographic details."
+        },
+        {
+          "author": "Solomon Feferman",
+          "publication": "Publication details not stated in supplied review record",
+          "title": "Solomon Feferman, ‘Penrose’s Gödelian Argument’",
+          "stable_url": "https://math.stanford.edu/~feferman/papers/penrose.pdf",
+          "role": "Selected critical analysis of Penrose’s reasoning.",
+          "source_type": "Secondary critical analysis",
+          "access_level": "Selected full-text PDF passages read",
+          "exact_locations_read": "PDF pp. 9–12, especially the discussion of consistency versus soundness, Penrose’s argument, alternative routes to recognizing a Gödel sentence, and its limitations",
+          "limitations": "Only the selected discussion relevant to the article was read; this source critiques Penrose’s reasoning and does not represent a comprehensive survey of all positions."
+        },
+        {
+          "author": "David J. Chalmers",
+          "publication": "1995 review article; publication venue/details not stated in supplied review record",
+          "title": "David J. Chalmers, ‘Minds, Machines, and Mathematics’",
+          "stable_url": "https://calculemus.org/MathUniversalis/NS/10/03chalmers.html",
+          "role": "Review and analysis of the argument and its assumptions.",
+          "source_type": "Scholarly review article",
+          "access_level": "Relevant full-text HTML passages read",
+          "exact_locations_read": "§§1–2, especially §§2.1–2.14 on the Lucas–Penrose argument, consistency/soundness, and the possibility of a formal model",
+          "limitations": "A 1995 review of Penrose’s book and a particular analysis of the argument, not evidence of scholarly consensus."
+        },
+        {
+          "author": "Roger Penrose",
+          "publication": "Oxford University Press, 1994",
+          "title": "Roger Penrose, Shadows of the Mind",
+          "stable_url": "https://altexploit.files.wordpress.com/2017/07/roger-penrose-shadows-of-the-mind_-a-search-for-the-missing-science-of-consciousness-oxford-university-press-1994.pdf",
+          "role": "Primary monograph passages for Penrose’s proposal; retrieved PDF is a mirror.",
+          "source_type": "Primary monograph",
+          "access_level": "Full PDF retrieved; selected relevant passages and contents read",
+          "exact_locations_read": "Contents listing Part II and Chapter 7; Chapter 7, including §7.1 (printed p. 348) and selected passages in §§7.4–7.7 (printed pp. 357–371), including the relation Penrose proposes among quantum theory, brain processes, and consciousness",
+          "limitations": "The full quantum/brain chapter was not read, as the article discloses. The PDF is a mirror; the article presents Penrose’s extension as a proposal, not an established scientific result."
+        },
+        {
+          "author": "Roger Penrose",
+          "publication": "The Emperor’s New Mind, Oxford University Press; publisher-stated publication date 5 October 1989",
+          "title": "Oxford University Press, The Emperor’s New Mind: Title Pages",
+          "stable_url": "https://academic.oup.com/book/40643/chapter/348309811",
+          "role": "Publisher metadata verifies title and publication date only.",
+          "source_type": "Publisher bibliographic record",
+          "access_level": "Title-page record and publication metadata read",
+          "exact_locations_read": "Book title/author metadata and publisher-stated publication date, 5 October 1989",
+          "limitations": "Verifies publication details only; the relevant chapter of the 1989 book was not read, consistent with the article’s disclosure."
+        },
+        {
+          "author": "J. R. Lucas",
+          "publication": "Philosophy, vol. 36, no. 137 (April 1961), pp. 112–127",
+          "title": "Cambridge University Press, J. R. Lucas, ‘Minds, Machines and Gödel’",
+          "stable_url": "https://www.cambridge.org/core/journals/philosophy/article/minds-machines-and-godel1/727219EDEB5DD3679E56CF3D335C90C1",
+          "role": "Publisher bibliographic record and extract; not the full article.",
+          "source_type": "Publisher bibliographic record",
+          "access_level": "Publisher record and article extract read",
+          "exact_locations_read": "Philosophy, vol. 36, issue 137, April 1961, pp. 112–127; DOI and publication record",
+          "limitations": "The publisher page provides bibliographic information and an extract, not the full article text; the full text was separately read at the mirror URL above."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "For a consistent, effectively axiomatized theory containing enough arithmetic, the standard Gödel construction yields a sentence the theory cannot prove; that Gödel sentence is true in the standard natural numbers if the theory is consistent.",
+          "exact_location": "§2.5, the construction and discussion of G_F; the entry states consistency suffices for non-provability, while stronger assumptions are needed for further unprovability results",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "supports_with_qualification",
+          "source_title": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+          "source_url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+          "limitations": "The article accurately limits its claim to non-provability and standard-model truth; it does not claim consistency alone proves the negation unprovable."
+        },
+        {
+          "material_claim": "Lucas argued that a machine construed as a consistent formal system capable of arithmetic would have a Gödel sentence that a human could recognize as true, thereby challenging mechanism.",
+          "exact_location": "Printed pp. 112–114; the opening states Lucas’s anti-mechanist conclusion and applies Gödel’s theorem to cybernetical machines",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "supports_with_qualification",
+          "source_title": "J. R. Lucas, ‘Minds, Machines and Gödel’",
+          "source_url": "https://philomatica.org/wp-content/uploads/2021/12/lucas1961.pdf",
+          "limitations": "The source establishes what Lucas argued, not that the argument succeeds; the article appropriately makes the human recognition conditional on justified knowledge of the model’s consistency."
+        },
+        {
+          "material_claim": "Objections include whether a human can justify the consistency judgment needed for the inference and whether mathematical reasoning can be represented by a single fixed formal system; Lucas addressed objections about consistency, fallibility, and fixed models.",
+          "exact_location": "§6.3 identifies the standard consistency objection, names Putnam, Boolos, Shapiro and Davis, and notes Lucas’s replies; Lucas, printed pp. 116–120, discusses consistency, human fallibility, and the demand for a definite model",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "supports_with_qualification",
+          "source_title": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+          "source_url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+          "limitations": "The objection is a criticism of the inference from the theorem to anti-mechanism, not a refutation of Gödel’s theorem. Lucas’s own replies are properly attributed as his position."
+        },
+        {
+          "material_claim": "Named critics including Putnam, Boolos, Davis, Feferman, and Shapiro challenge different assumptions or steps; this list is selected rather than a measure of scholarly opinion.",
+          "exact_location": "§6.3 names Putnam, Boolos, Shapiro and Davis in connection with the consistency objection and Boolos, Davis, Feferman and Shapiro among detailed Penrose criticisms",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
+          "source_url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+          "limitations": "The SEP supports the presence of these published objections but does not establish their relative prevalence; the article explicitly disclaims a count of scholarly opinion."
+        },
+        {
+          "material_claim": "Penrose later advances non-computability and proposes that a new physics of mind, including quantum theory and brain processes, is relevant; the article treats these hypotheses as distinct from Gödel’s theorem and as requiring separate scientific assessment.",
+          "exact_location": "Book contents, Part II and Chapter 7; Chapter 7 §7.1 (printed p. 348) and selected passages in §§7.4–7.7 (printed pp. 357–371) connect the proposed physics with brain function, microtubules, and consciousness",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "supports_with_qualification",
+          "source_title": "Roger Penrose, Shadows of the Mind",
+          "source_url": "https://altexploit.files.wordpress.com/2017/07/roger-penrose-shadows-of-the-mind_-a-search-for-the-missing-science-of-consciousness-oxford-university-press-1994.pdf",
+          "limitations": "The passages establish Penrose’s proposal, not its empirical success. The article explicitly says the full quantum/brain chapter was not read and does not present the proposal as established."
+        },
+        {
+          "material_claim": "Publication details identify Lucas’s article as a 1961 Philosophy publication and Penrose’s The Emperor’s New Mind as a 1989 book.",
+          "exact_location": "Cambridge publisher record gives Philosophy, vol. 36, no. 137, April 1961, pp. 112–127; OUP gives Penrose’s book publication date as 5 October 1989",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "Cambridge University Press, J. R. Lucas, ‘Minds, Machines and Gödel’; Oxford University Press, The Emperor’s New Mind: Title Pages",
+          "source_url": "https://www.cambridge.org/core/journals/philosophy/article/minds-machines-and-godel1/727219EDEB5DD3679E56CF3D335C90C1; https://academic.oup.com/book/40643/chapter/348309811",
+          "limitations": "The article’s approximate-period field is accurate. The relevant argument chapter of Penrose’s 1989 book was not directly read, which the article discloses."
+        },
+        {
+          "material_claim": "The annotations for Chalmers’s review and Feferman’s critique accurately characterize the listed works as discussing the argument/assumptions and criticizing Penrose’s reasoning, respectively.",
+          "exact_location": "Chalmers §§1–2 analyzes Penrose’s arguments and assumptions; Feferman PDF pp. 9–12 critiques the Gödelian reasoning and distinguishes mathematical implications from further philosophical conclusions",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "David J. Chalmers, ‘Minds, Machines, and Mathematics’; Solomon Feferman, ‘Penrose’s Gödelian Argument’",
+          "source_url": "https://calculemus.org/MathUniversalis/NS/10/03chalmers.html; https://math.stanford.edu/~feferman/papers/penrose.pdf",
+          "limitations": "Neither source is represented as a neutral or comprehensive consensus survey."
+        }
+      ],
+      "first_pass_edit_history": {
+        "documented_edit_history": "The supplied working notes do not itemize specific first-pass redlines for this entry. The first-pass work is recorded as a claim-level source review; the final article’s source note identifies passages consulted, explicitly discloses the unread works/sections, and labels further comparisons as teaching prompts. No unrecorded textual delta is asserted.",
+        "first_pass_findings_recorded": "No specific unresolved first-pass correction is listed in the supplied notes."
+      },
+      "independent_post_edit_review": {
+        "status_as_returned": "source_checked",
+        "summary": "The article’s material theorem statement, attribution to Lucas, stated objections and qualifications, Penrose extension, and publication details are traceable to relevant passages in appropriate sources. It does not present the anti-mechanist conclusion as established or imply consensus or expert review. The Further Reading URLs match the dataset record. The disclosed limits concerning Gödel’s 1931 paper and Penrose’s 1989 book are accurate and do not leave an unsupported material claim in the article’s declared scope.",
+        "access_note_assessment": "Accurate and suitably conservative. It distinguishes passages consulted from works not directly verified, identifies that the full Penrose quantum/brain chapter was not read, and explicitly disclaims expert review and a claim that the argument succeeds. The article does not imply consensus; it labels the critics as selected positions and marks the pedagogical comparisons as teaching prompts.",
+        "reference_alignment": "All six Further Reading URLs and their source titles correspond to the six references in the lucas-penrose-argument dataset record. The article’s added source-note disclosure does not conflict with those records. No URL mismatch found.",
+        "findings_as_returned": [],
+        "unresolved_as_returned": [
+          "The original 1931 Gödel paper and the relevant chapter of Penrose’s 1989 The Emperor’s New Mind were not directly consulted, as disclosed in the article. The theorem statement is independently traceable to the SEP entry, the 1989 date to OUP, and the article makes no detailed claim dependent only on the unread 1989 chapter.",
+          "The complete Penrose Shadows of the Mind quantum/brain chapter was not read. The article discloses this; the passages relevant to its limited claim that Penrose made a proposal were read, and no claim that the proposal is scientifically established is made."
+        ],
+        "confidence": "High"
+      },
+      "targeted_follow_up": {
+        "outcome": "No separate targeted follow-up reported.",
+        "result": "The independent post-edit reviewer reported no material finding or unresolved item for this entry."
+      },
+      "remaining_limitations": [
+        "The original 1931 Gödel paper and the relevant chapter of Penrose’s 1989 The Emperor’s New Mind were not directly consulted, as disclosed in the article. The theorem statement is independently traceable to the SEP entry, the 1989 date to OUP, and the article makes no detailed claim dependent only on the unread 1989 chapter.",
+        "The complete Penrose Shadows of the Mind quantum/brain chapter was not read. The article discloses this; the passages relevant to its limited claim that Penrose made a proposal were read, and no claim that the proposal is scientifically established is made."
+      ],
+      "dataset_comparison": {
+        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_id": "lucas-penrose-argument",
+        "date_verified": "2026-11-01",
+        "article_reference_alignment": "All six Further Reading URLs and their source titles correspond to the six references in the lucas-penrose-argument dataset record. The article’s added source-note disclosure does not conflict with those records. No URL mismatch found."
+      }
+    },
+    {
+      "id": "symbol-grounding",
+      "title": "The Symbol Grounding Problem",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/symbol-grounding.md",
+      "review_date": "2026-11-01",
+      "status": "source_checked",
+      "status_rationale": "The article’s material source-based claims and attributions are traceable to the cited passages. Harnad’s full 1990 text supports the two dictionary-go-round versions, their analogy to purely symbolic cognitive models, the proposed hybrid account, the stated limit concerning subjective meaning, and the distinction from AI in general. Taddeo and Floridi’s full review supports the article’s bounded attribution of their critique. This is an editorial traceability finding, not a judgment that either argument succeeds, a consensus claim, exhaustive literature review, or expert review.",
+      "declared_scope": "Material claims and attributions concerning Harnad’s dictionary example, symbolic models, proposed hybrid account and qualifications; the bounded Taddeo–Floridi critique; publication/deposit metadata; contemporary examples explicitly framed as editorial prompts; compared with the dataset record.",
+      "reviewer_type": "AI-assisted claim-level source audit followed by independent AI-assisted read-only post-edit review; targeted follow-up recorded where relevant. No human subject-matter expert review is claimed.",
+      "protocol_version": "Approved source-review standard, 2026-11-01 (research/source-review-standard.md)",
+      "sources": [
+        {
+          "author": "Stevan Harnad",
+          "publication": "Physica D 42 (1990), pp. 335–346; arXiv deposit 1 June 1999",
+          "title": "Stevan Harnad, The Symbol Grounding Problem (1990), arXiv-hosted full text",
+          "stable_url": "https://arxiv.org/html/cs/9906002",
+          "role": "Primary text for Harnad’s problem, example, proposal and qualifications.",
+          "source_type": "Primary work",
+          "access_level": "Relevant passages in the full work; full HTML text accessed",
+          "exact_locations_read": "§§1.2, 2.1–2.3, 3.2–3.3, 4–5, and relevant footnotes, including footnote 10",
+          "limitations": "This is the full text of the 1990 article hosted on arXiv; arXiv records its deposit as 1 June 1999. It establishes Harnad’s argument and qualifications, not their truth or success."
+        },
+        {
+          "author": "Stevan Harnad",
+          "publication": "ScienceDirect publisher record for Physica D, vol. 42, issues 1–3, June 1990, pp. 335–346",
+          "title": "Publisher record for The Symbol Grounding Problem",
+          "stable_url": "https://doi.org/10.1016/0167-2789(90)90087-6",
+          "role": "Publisher metadata and abstract, not full argument text.",
+          "source_type": "Publisher bibliographic record and abstract",
+          "access_level": "Metadata and abstract",
+          "exact_locations_read": "ScienceDirect record: title, author, journal, June 1990 date, volume 42, issues 1–3, pages 335–346, DOI, and abstract",
+          "limitations": "Publisher full article is access-controlled; this record was used for bibliographic metadata and abstract, not as the source for detailed argument passages."
+        },
+        {
+          "author": "Mariarosaria Taddeo and Luciano Floridi",
+          "publication": "Issue citation stated as 2005; volume 17, issue 4, pp. 419–445; journal title not stated in supplied record. Publisher record separately gives online publication 20 February 2007.",
+          "title": "Mariarosaria Taddeo and Luciano Floridi, Solving the Symbol Grounding Problem: A Critical Review of Fifteen Years of Research (2005), institutional-repository full text",
+          "stable_url": "https://uhra.herts.ac.uk/id/eprint/2228/1/901825.pdf",
+          "role": "Full-text secondary critique, including its stated evaluative condition.",
+          "source_type": "Peer-reviewed secondary analysis",
+          "access_level": "Relevant passages in full text accessed",
+          "exact_locations_read": "§4.1, ‘A Hybrid Model for the Solution of the SGP’ (printed pp. 6–8), the statement of the zero semantical commitment condition, and §7, ‘Conclusion’ (printed pp. 34–35)",
+          "limitations": "The review states its own evaluative framework and conclusion; it establishes that these authors made this critique, not that it is correct or representative of consensus."
+        },
+        {
+          "author": "Mariarosaria Taddeo and Luciano Floridi",
+          "publication": "Taylor & Francis record; volume 17, issue 4, pp. 419–445; online publication 20 February 2007",
+          "title": "Publisher record for Solving the Symbol Grounding Problem: A Critical Review of Fifteen Years of Research",
+          "stable_url": "https://doi.org/10.1080/09528130500284053",
+          "role": "Publisher metadata and abstract; full argument not accessed there.",
+          "source_type": "Publisher bibliographic record and abstract",
+          "access_level": "Metadata and abstract",
+          "exact_locations_read": "Taylor & Francis record: title, authors, journal, volume 17, issue 4, pages 419–445, abstract, and online-publication date",
+          "limitations": "Publisher page exposes the abstract and metadata but not the full argument without access. It reports online publication on 20 February 2007; the journal issue citation and institutional record identify 2005, the standard year used in the article and dataset."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Harnad presents two Chinese/Chinese-dictionary versions: learning Chinese as a second language and, in the more demanding version, as a first language from the dictionary alone; he calls the second more like the task facing a purely symbolic model of mind.",
+          "exact_location": "§2.2, ‘The Chinese/Chinese Dictionary-Go-Round’; §2.3, ‘Connecting to the World’",
+          "relationship": "supports",
+          "relationship_as_reported": "directly_supports",
+          "source_title": "Stevan Harnad, The Symbol Grounding Problem (1990)",
+          "source_url": "https://arxiv.org/html/cs/9906002",
+          "limitations": "The first-language version is Harnad’s analogy for the purely symbolic model, not a report about an actual language learner."
+        },
+        {
+          "material_claim": "Harnad’s dictionary exercise is his own example, distinct from the paper’s preceding discussion of Searle’s Chinese Room; it concerns grounding meaning beyond other symbols.",
+          "exact_location": "§2.1, ‘The Chinese Room’; §2.2, ‘The Chinese/Chinese Dictionary-Go-Round’; abstract",
+          "relationship": "supports",
+          "relationship_as_reported": "directly_supports",
+          "source_title": "Stevan Harnad, The Symbol Grounding Problem (1990)",
+          "source_url": "https://arxiv.org/html/cs/9906002",
+          "limitations": "The article reports Harnad’s framing and does not adjudicate the Chinese Room argument."
+        },
+        {
+          "material_claim": "Harnad sketches a candidate hybrid account in which elementary symbols are grounded in nonsymbolic iconic and categorical representations, with higher-order symbols composed from grounded elementary symbols.",
+          "exact_location": "Abstract; §§2.3, 3.2–3.3, and 4",
+          "relationship": "supports",
+          "relationship_as_reported": "directly_supports",
+          "source_title": "Stevan Harnad, The Symbol Grounding Problem (1990)",
+          "source_url": "https://arxiv.org/html/cs/9906002",
+          "limitations": "Harnad describes this as a proposed scheme and notes a gap concerning how categorical representations are learned (§4). The source supports attribution of the proposal, not its success."
+        },
+        {
+          "material_claim": "Harnad says the proposed account does not guarantee that the model captures subjective meaning.",
+          "exact_location": "§5, ‘Conclusions’",
+          "relationship": "supports",
+          "relationship_as_reported": "directly_supports",
+          "source_title": "Stevan Harnad, The Symbol Grounding Problem (1990)",
+          "source_url": "https://arxiv.org/html/cs/9906002",
+          "limitations": "This is Harnad’s stated qualification."
+        },
+        {
+          "material_claim": "Harnad’s discussion is not a claim about every computer or AI system; he distinguishes the grounding problem for cognitive modeling from AI performance goals and mentions possible gains in robotics and machine vision.",
+          "exact_location": "§2.2 for the symbolic-model analogy; footnote 10 for the distinction between cognitive modeling and AI in general; §5 and footnote 10 for robotics/machine vision",
+          "relationship": "supports",
+          "relationship_as_reported": "directly_supports",
+          "source_title": "Stevan Harnad, The Symbol Grounding Problem (1990)",
+          "source_url": "https://arxiv.org/html/cs/9906002",
+          "limitations": "Robotics and machine vision are presented as possible application areas, not demonstrated outcomes."
+        },
+        {
+          "material_claim": "Taddeo and Floridi argue that the strategies they review, including Harnad’s hybrid model, fail their zero-semantic-commitment condition; the article correctly identifies this as one published critique rather than consensus or a final verdict.",
+          "exact_location": "Statement of the Z condition preceding §4; §4.1, especially the assessment of Harnad’s hybrid model; §7, ‘Conclusion’",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "directly_supports_with_qualification",
+          "source_title": "Mariarosaria Taddeo and Luciano Floridi, Solving the Symbol Grounding Problem: A Critical Review of Fifteen Years of Research (2005)",
+          "source_url": "https://uhra.herts.ac.uk/id/eprint/2228/1/901825.pdf",
+          "limitations": "The authors conclude that all eight strategies they review fail their stated condition and leave the problem open. The article appropriately attributes that conclusion to them without presenting it as consensus."
+        },
+        {
+          "material_claim": "The contemporary language-model and camera/image-input passages are editorial questions or teaching prompts, not findings attributed to Harnad or claims that current systems are grounded.",
+          "exact_location": "Article §§3 and 7; compared with Harnad §§2–5 and footnote 10",
+          "relationship": "context_only",
+          "relationship_as_reported": "context_only",
+          "source_title": "Article’s own explicit framing, checked against Harnad’s 1990 paper",
+          "source_url": "https://arxiv.org/html/cs/9906002",
+          "limitations": "These are explicitly labeled as a contemporary question and teaching prompt; Harnad’s 1990 paper does not evaluate current language models or image-linked inputs."
+        },
+        {
+          "material_claim": "The source note accurately distinguishes the 1990 journal article from its 1999 arXiv deposit and accurately reports that the relevant Harnad and Taddeo–Floridi passages and publisher metadata were checked.",
+          "exact_location": "arXiv submission record (submitted 1 June 1999; journal reference Physica D 42:335–346); Harnad §§1.2, 2.1–2.3, 3.2–3.3, 4–5; Taddeo–Floridi §4.1 and §7; publisher metadata pages",
+          "relationship": "supports",
+          "relationship_as_reported": "directly_supports",
+          "source_title": "arXiv record; Harnad full text; publisher records; Taddeo–Floridi full text",
+          "source_url": "https://arxiv.org/abs/cs/9906002",
+          "limitations": "The article’s ‘2005’ citation for Taddeo and Floridi matches the volume/issue citation and institutional publication record; the publisher separately lists the online-first date as 20 February 2007."
+        }
+      ],
+      "first_pass_edit_history": {
+        "documented_edit_history": "The supplied working notes do not itemize specific first-pass redlines for this entry. The first-pass work is recorded as a claim-level source review; the final text distinguishes Harnad’s 1990 publication from the 1999 arXiv deposit, bounds the Taddeo–Floridi critique, and labels contemporary AI/camera passages as editorial. No unrecorded textual delta is asserted.",
+        "first_pass_findings_recorded": "No specific unresolved first-pass correction is listed in the supplied notes."
+      },
+      "independent_post_edit_review": {
+        "status_as_returned": "source_checked",
+        "summary": "The article’s material source-based claims and attributions are traceable to the cited passages. Harnad’s full 1990 text supports the two dictionary-go-round versions, their analogy to purely symbolic cognitive models, the proposed hybrid account, the stated limit concerning subjective meaning, and the distinction from AI in general. Taddeo and Floridi’s full review supports the article’s bounded attribution of their critique. This is an editorial traceability finding, not a judgment that either argument succeeds, a consensus claim, exhaustive literature review, or expert review.",
+        "access_note_assessment": "Accurate. The article identifies the arXiv-hosted text as the full-text version and says the publisher record was checked for metadata; it does not overstate publisher access. Its statement that relevant Taddeo–Floridi sections were read is verifiable from the accessible institutional-repository full text (not merely the publisher abstract). The explicit disclaimer that this is source checking, not expert review, is appropriate.",
+        "reference_alignment": "The article’s three Further Reading URLs align with the corresponding symbol-grounding dataset records: Harnad full text at arxiv.org/html/cs/9906002, the Harnad publisher DOI, and the Taddeo–Floridi DOI. Titles and descriptions are consistent with the records. The 1990 journal date versus 1999 arXiv deposit is clearly distinguished; Taddeo and Floridi’s 2005 issue-year citation is supported by the institutional record, while the publisher notes online publication in 2007.",
+        "findings_as_returned": [],
+        "unresolved_as_returned": [],
+        "confidence": "High"
+      },
+      "targeted_follow_up": {
+        "outcome": "No separate targeted follow-up reported.",
+        "result": "The independent post-edit reviewer reported no material finding or unresolved item for this entry."
+      },
+      "remaining_limitations": [
+        "Publisher full-article access is controlled; detailed claims were checked against the full arXiv-hosted text and the Taddeo–Floridi institutional-repository full text. The arXiv deposit date is 1999, distinct from Harnad’s 1990 publication; the publisher record for Taddeo–Floridi lists 2007 online-first while the issue citation is 2005."
+      ],
+      "dataset_comparison": {
+        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_id": "symbol-grounding",
+        "date_verified": "2026-11-01",
+        "article_reference_alignment": "The article’s three Further Reading URLs align with the corresponding symbol-grounding dataset records: Harnad full text at arxiv.org/html/cs/9906002, the Harnad publisher DOI, and the Taddeo–Floridi DOI. Titles and descriptions are consistent with the records. The 1990 journal date versus 1999 arXiv deposit is clearly distinguished; Taddeo and Floridi’s 2005 issue-year citation is supported by the institutional record, while the publisher notes online publication in 2007."
+      }
+    },
+    {
+      "id": "frame-problem",
+      "title": "The Frame Problem",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/frame-problem.md",
+      "review_date": "2026-11-01",
+      "status": "source_checked",
+      "status_rationale": "The final article wording identifies m fluents (properties of situations); targeted follow-up verified that McCarthy and Hayes §4.3 states n actions and m fluents may require mn non-effect conditions (printed p. 31), and §3.2 defines fluents (p. 19). The earlier precision finding is resolved. Remaining material claims are traceable to relevant passages; no material finding remains.",
+      "declared_scope": "Material claims and attributions concerning the technical non-effects problem, n-actions/m-fluents formulation, distinctions among technical/computational/epistemological versions, event calculus, named situated-robotics positions, Dennett’s illustration, publication/name/date metadata and editorial examples; compared with the dataset record.",
+      "reviewer_type": "AI-assisted claim-level source audit followed by independent AI-assisted read-only post-edit review; targeted follow-up recorded where relevant. No human subject-matter expert review is claimed.",
+      "protocol_version": "Approved source-review standard, 2026-11-01 (research/source-review-standard.md)",
+      "sources": [
+        {
+          "author": "Not identified in supplied review record",
+          "publication": "Stanford Encyclopedia of Philosophy entry; publication/revision details not stated in supplied record",
+          "title": "Stanford Encyclopedia of Philosophy: The Frame Problem",
+          "stable_url": "https://plato.stanford.edu/entries/frame-problem/",
+          "role": "Reference treatment for technical, computational and epistemological formulations and named responses.",
+          "source_type": "Reference work",
+          "access_level": "Relevant passages in full text",
+          "exact_locations_read": "Introduction; §§1–3 and 5, including the technical frame problem, epistemological and computational distinctions, relevance, situated robotics, and the Wheeler/Dreyfus discussion.",
+          "limitations": "Relevant sections were read; this was not an exhaustive literature review. The entry is a secondary reference work and does not establish that any philosophical argument succeeds."
+        },
+        {
+          "author": "John McCarthy and Patrick J. Hayes",
+          "publication": "1969 paper",
+          "title": "John McCarthy and Patrick J. Hayes, “Some Philosophical Problems from the Standpoint of Artificial Intelligence” (1969)",
+          "stable_url": "https://www-formal.stanford.edu/jmc/mcchay69.pdf",
+          "role": "Primary source for the formal frame problem and n-actions/m-fluents formulation.",
+          "source_type": "Primary paper",
+          "access_level": "Front matter and relevant passage in full text",
+          "exact_locations_read": "Title/authors/date in front matter; §3.2, fluents definition, printed p. 19; §4.3, “The Frame Problem,” including the n-actions/m-fluents and mn non-effect-conditions sentence, printed p. 31.",
+          "limitations": "The review read the relevant section, not the full paper. The paper establishes what its authors proposed; it does not establish that their approach succeeds."
+        },
+        {
+          "author": "Robert Kowalski and Marek Sergot",
+          "publication": "1986 paper",
+          "title": "Robert Kowalski and Marek Sergot, “A Logic-based Calculus of Events” (1986)",
+          "stable_url": "https://www.doc.ic.ac.uk/~rak/papers/event%20calculus.pdf",
+          "role": "Primary event-calculus account of events, time, persistence and default reasoning.",
+          "source_type": "Primary paper",
+          "access_level": "Relevant passages in full text",
+          "exact_locations_read": "Introduction and §2, “A Simplified Example”; publication details in the paper’s bibliographic matter.",
+          "limitations": "Only the cited relevant passages were read. The paper’s scope includes event/time representation, database updating, and narrative understanding; it is not evidence that the broader epistemological relevance problem is solved."
+        },
+        {
+          "author": "Daniel C. Dennett",
+          "publication": "Publication details not stated in supplied review record",
+          "title": "Daniel C. Dennett, “Cognitive Wheels: The Frame Problem of AI”",
+          "stable_url": "https://www.cs.sfu.ca/~vaughan/teaching/415/papers/dennett-cognitivewheels.html",
+          "role": "Primary essay for Dennett’s fictional robot stories and interpretation.",
+          "source_type": "Primary philosophical essay",
+          "access_level": "Relevant passages in full text",
+          "exact_locations_read": "Opening R1/R1D1/R2D1 robot stories; following discussion of frame axioms, side-effects, and relevance.",
+          "limitations": "The checked passages support the article’s account of Dennett’s story and interpretation, not a formal result or a settled view shared by all researchers. The article does not give a publication year for this reading."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "The technical frame problem concerns representing action effects without explicitly listing the many non-effects; a naïve action/property formalization can require a multiplicative number of frame conditions.",
+          "exact_location": "McCarthy and Hayes §4.3, printed p. 31: with n actions and m fluents, the authors say they might have to write mn conditions that actions do not change fluent values.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports the n×m point and technical issue.",
+          "source_title": "John McCarthy and Patrick J. Hayes, “Some Philosophical Problems from the Standpoint of Artificial Intelligence” (1969)",
+          "source_url": "https://www-formal.stanford.edu/jmc/mcchay69.pdf",
+          "limitations": "The source says fluents, not generic facts; replace the article’s “m facts about the world” with “m fluents (properties of situations)” for formal precision."
+        },
+        {
+          "material_claim": "The box-moving scenario is an accessible illustration written for this entry, not the original McCarthy–Hayes setup.",
+          "exact_location": "Article §1 labels it a simple illustration; article §10 identifies it as written for the entry. McCarthy and Hayes §4.3, printed p. 30, gives a telephone/telephone-book example and the general n-actions/m-fluents formulation.",
+          "relationship": "context_only",
+          "relationship_as_reported": "The article explicitly labels the scenario as editorial illustration; it does not attribute the box scenario to the original authors.",
+          "source_title": "Article’s own framing; attribution checked against McCarthy and Hayes §4.3",
+          "source_url": "https://www-formal.stanford.edu/jmc/mcchay69.pdf",
+          "limitations": "The primary paper supports the general formal point, not this particular box example."
+        },
+        {
+          "material_claim": "The narrow technical problem arose in logic-based AI; later philosophical discussions developed broader questions concerning belief updating, relevance, cognition, and their relation to the original formal problem.",
+          "exact_location": "Introduction and §§1–3: the entry describes the technical origin in logic-based AI, its philosophical reinterpretation, belief revision after action, and the epistemological question of relevance; it describes debate over the relationship.",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "Directly supports with qualification; the article fairly distinguishes the technical origin from broader interpretations.",
+          "source_title": "Stanford Encyclopedia of Philosophy: The Frame Problem",
+          "source_url": "https://plato.stanford.edu/entries/frame-problem/",
+          "limitations": "This is a reference-work account of a contested history, not an exhaustive survey of every interpretation."
+        },
+        {
+          "material_claim": "Non-monotonic reasoning has been among the approaches to the technical problem; the event calculus represents events, time, and persistence but does not by itself answer the broader relevance question.",
+          "exact_location": "SEP §2 discusses non-monotonic formalisms and workable technical solutions, while §§3 and 5 distinguish computational/epistemological issues. Kowalski and Sergot’s introduction and §2 describe event/time periods, additions and endings of periods, and default reasoning.",
+          "relationship": "supports",
+          "relationship_as_reported": "The non-monotonic claim is directly supported; the event-calculus description is supported by the primary paper. The limitation regarding the broader problem is a careful scope inference from the sources’ distinct subjects.",
+          "source_title": "Stanford Encyclopedia of Philosophy: The Frame Problem; Robert Kowalski and Marek Sergot, “A Logic-based Calculus of Events”",
+          "source_url": "https://plato.stanford.edu/entries/frame-problem/ ; https://www.doc.ic.ac.uk/~rak/papers/event%20calculus.pdf",
+          "limitations": "The primary event-calculus paper does not claim to solve the broad epistemological problem; absence of that claim is not proof that no relationship exists."
+        },
+        {
+          "material_claim": "Some philosophers treat the broader epistemological problem as significant or genuine, while other positions seek to avoid, overcome, or dissolve it; the article reports Wheeler’s favorable view of situated robotics and Dreyfus’s claim that Brooks’s early robots finesse rather than solve the problem.",
+          "exact_location": "SEP §§3 and 5: its discussion of philosophers’ relevance problem and competing positions; §5 specifically states that Wheeler regards situated robotics as exemplifying the right way, while Dreyfus says Brooks’s robots “finesse rather than solve” the problem.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports the named attributions and the article’s presentation of disagreement.",
+          "source_title": "Stanford Encyclopedia of Philosophy: The Frame Problem",
+          "source_url": "https://plato.stanford.edu/entries/frame-problem/",
+          "limitations": "These are named positions as reported by the SEP, not a claim of consensus or proof that any proposed approach succeeds."
+        },
+        {
+          "material_claim": "The technical non-effects problem, tractable limitation of inference, and broader question of determining relevance are distinct; the wider discussion also concerns human cognition, not only robots.",
+          "exact_location": "SEP §§1–3 distinguish the logical, computational, and epistemological dimensions and discuss human cognitive relevance and belief updating.",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "Directly supports the article’s distinctions and qualification.",
+          "source_title": "Stanford Encyclopedia of Philosophy: The Frame Problem",
+          "source_url": "https://plato.stanford.edu/entries/frame-problem/",
+          "limitations": "The article summarizes these as separate questions; their interrelations remain debated."
+        },
+        {
+          "material_claim": "Dennett’s “Cognitive Wheels” uses fictional robots to illustrate unnoticed side-effects and excessive deliberation; the article says this is his interpretation, not a formal result or settled account.",
+          "exact_location": "Opening R1, R1D1, and R2D1 stories; subsequent frame-axiom/relevance discussion. SEP §3 also contextualizes Dennett’s broader epistemological interpretation.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports the described fictional examples and attribution; the article appropriately limits their evidential force.",
+          "source_title": "Daniel C. Dennett, “Cognitive Wheels: The Frame Problem of AI”",
+          "source_url": "https://www.cs.sfu.ca/~vaughan/teaching/415/papers/dennett-cognitivewheels.html",
+          "limitations": "Dennett’s essay argues for his interpretation; it does not make the fictional stories formal results or establish universal agreement."
+        },
+        {
+          "material_claim": "The four Further Reading references correspond to the dataset’s four references; article attribution and source-note locations identify the relevant passages read.",
+          "exact_location": "Dataset entry id frame-problem: references array, titles and URLs; article §§9–10; checked source passages including McCarthy and Hayes §4.3 (printed p. 30), Kowalski and Sergot introduction/§2, and Dennett’s opening story and following relevance discussion.",
+          "relationship": "context_only",
+          "relationship_as_reported": "The article’s titles and URLs align with the dataset record, and its stated passage locations are consistent with the sources consulted.",
+          "source_title": "Frame-problem dataset record and the cited works",
+          "source_url": "",
+          "limitations": "This independent review can confirm that the listed locations contain relevant material; it cannot independently verify the article author’s prior consultation history."
+        }
+      ],
+      "first_pass_edit_history": {
+        "documented_edit_history": "First-pass precision finding: the technical multiplier was described as “m facts about the world.” The article was revised to “m fluents (properties of situations),” preserving the n×m point. The final targeted follow-up confirmed §4.3, printed p. 31, states n actions and m fluents may require mn non-effect conditions; §3.2, p. 19 defines fluents.",
+        "first_pass_findings_recorded": "One low-severity terminology finding, resolved by the final wording and targeted follow-up."
+      },
+      "independent_post_edit_review": {
+        "status_as_returned": "source_checked",
+        "summary": "The article’s material attributions and distinctions are traceable to the cited SEP entry and the relevant passages of the primary texts. Its qualifications about disagreement and the limits of Dennett’s fictional illustration are appropriate, and it makes no claim of expert review or consensus. One low-severity precision improvement is to replace “m facts about the world” with “m fluents (properties of situations)” when stating McCarthy and Hayes’s n×m point. The review covers relevant passages, not every page of each cited work.",
+        "access_note_assessment": "The article’s source note accurately names the relevant passages and expressly says this is source checking, not expert review. The present audit independently reopened relevant full-text passages, not every page of the listed works; no access gap prevented checking a material claim. The source note does not imply consensus or that any argument succeeds.",
+        "reference_alignment": "All four Further Reading titles and URLs match the dataset record for id frame-problem. Specifically, the SEP, McCarthy–Hayes PDF, Kowalski–Sergot event-calculus PDF, and Dennett essay URLs align exactly. Article metadata also matches the dataset title, category, associated thinkers, original publication, type, and related entries. The article does not give publication years for the Kowalski–Sergot and Dennett readings; it makes no contrary date claim, and the dataset does not require those years in its reference titles.",
+        "findings_as_returned": [
+          {
+            "article_location": "§1, line 13",
+            "problem": "The technical count is attributed to McCarthy and Hayes’s n-actions/m-fluents discussion, but the article calls the second factor “m facts about the world.” Facts and fluents are not interchangeable technical terms.",
+            "required_change": "Prefer “a formalization with n actions and m fluents (properties of situations) might require as many as n×m conditions stating what each action leaves unchanged.” This is a precision improvement; the underlying multiplicative claim is supported.",
+            "severity": "low"
+          }
+        ],
+        "unresolved_as_returned": [],
+        "confidence": "High (0.94)"
+      },
+      "targeted_follow_up": {
+        "outcome": "cleared",
+        "result": "§4.3 of McCarthy and Hayes states that with n actions and m fluents there may be mn non-effect conditions; the specific sentence is printed p. 31. The paper defines fluents in §3.2, p. 19. Final article wording is “m fluents (properties of situations).” The prior precision finding is resolved; no other material finding; article and dataset references align."
+      },
+      "remaining_limitations": [
+        "Relevant passages, not every page of each listed work, were read; the review is not an exhaustive literature survey. No access gap prevented checking a material claim."
+      ],
+      "dataset_comparison": {
+        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_id": "frame-problem",
+        "date_verified": "2026-11-01",
+        "article_reference_alignment": "All four Further Reading titles and URLs match the dataset record for id frame-problem. Specifically, the SEP, McCarthy–Hayes PDF, Kowalski–Sergot event-calculus PDF, and Dennett essay URLs align exactly. Article metadata also matches the dataset title, category, associated thinkers, original publication, type, and related entries. The article does not give publication years for the Kowalski–Sergot and Dennett readings; it makes no contrary date claim, and the dataset does not require those years in its reference titles."
+      }
+    },
+    {
+      "id": "blockhead",
+      "title": "Blockhead",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/artificial-intelligence/blockhead.md",
+      "review_date": "2026-11-01",
+      "status": "source_checked",
+      "status_rationale": "The material claims and attributions in the revised entry are traceable to the original 1981 argument, the relevant SEP section, or Schwaninger’s explicitly named later interpretation; editorial extensions are labeled as such. No material correction is required. This is an editorial traceability review, not an assessment that Block’s argument succeeds, a claim of consensus, or expert review.",
+      "declared_scope": "Material claims and attributions concerning Block’s lookup machine, psychologism, objections/replies, the SEP’s possible responses, Schwaninger’s named interpretation, feasibility qualifications, publication metadata and explicitly editorial extensions; compared with the dataset record.",
+      "reviewer_type": "AI-assisted claim-level source audit followed by independent AI-assisted read-only post-edit review; targeted follow-up recorded where relevant. No human subject-matter expert review is claimed.",
+      "protocol_version": "Approved source-review standard, 2026-11-01 (research/source-review-standard.md)",
+      "sources": [
+        {
+          "author": "Ned Block",
+          "publication": "The Philosophical Review, vol. 90, no. 1 (January 1981), pp. 5–43",
+          "title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF",
+          "stable_url": "https://rodsmith.nz/wp-content/uploads/Block-1981-Psychologism_and_Behaviorism.pdf",
+          "role": "Primary text for the lookup-machine argument, objections and replies.",
+          "source_type": "Primary philosophical article (posted copy)",
+          "access_level": "Full-text copy; relevant passages read",
+          "exact_locations_read": "Opening definition and framing; §2, including the lookup-machine setup, tree-search variant, conclusion, Objections 1–7 and replies, especially the physical-size and fixed-duration objections and replies; text corresponding to the cited discussion on pp. 17–21.",
+          "limitations": "The accessible copy is hosted outside the journal platform and includes a ResearchGate cover page; the journal DOI page itself did not expose the full article. The argument establishes what Block claims, not that his argument succeeds."
+        },
+        {
+          "author": "Not identified in supplied review record",
+          "publication": "Stanford Encyclopedia of Philosophy entry; publication/revision details not stated in supplied record",
+          "title": "The Turing Test, Stanford Encyclopedia of Philosophy",
+          "stable_url": "https://plato.stanford.edu/entries/turing-test/",
+          "role": "Secondary account of Blockhead, possible replies and the contested intelligence judgment.",
+          "source_type": "Scholarly reference work",
+          "access_level": "Relevant full-text section read",
+          "exact_locations_read": "§4.2, ‘Logically Sufficient Conditions,’ including the description of Blockhead, the two broad replies, and the discussion of whether it is intelligent; entry publication/revision information and relevant surrounding discussion.",
+          "limitations": "A secondary reference-work account, not the primary text; it describes a contested issue and does not establish consensus."
+        },
+        {
+          "author": "Arthur C. Schwaninger",
+          "publication": "2022 academic journal article; journal/volume/pages not stated in supplied review record",
+          "title": "Arthur C. Schwaninger, ‘The Philosophising Machine – a Specification of the Turing Test’ (2022)",
+          "stable_url": "https://doi.org/10.1007/s11406-022-00480-5",
+          "role": "Named later interpretation: physical infeasibility and the Turing Test as evidence rather than a necessary condition.",
+          "source_type": "Secondary academic journal article",
+          "access_level": "Open-access article; relevant full-text passages read",
+          "exact_locations_read": "§1 Introduction and §2, ‘NLP and its Reliance on Vast Amounts of Data,’ including Schwaninger’s discussion of Blockhead’s logical possibility and physical infeasibility, and his interpretation of the Turing Test as evidential rather than a necessary condition.",
+          "limitations": "This is Schwaninger’s named argument and interpretation, not a consensus statement. It makes additional claims about NLP that are not repeated in the reviewed article."
+        },
+        {
+          "author": "Ned Block",
+          "publication": "Crossref metadata for The Philosophical Review, vol. 90, no. 1 (1981); first page 5",
+          "title": "Crossref DOI metadata for ‘Psychologism and Behaviorism’",
+          "stable_url": "https://api.crossref.org/works/10.2307/2184371",
+          "role": "Bibliographic metadata; ending page not established by Crossref record.",
+          "source_type": "Bibliographic metadata record",
+          "access_level": "Metadata record read",
+          "exact_locations_read": "Title, author, journal, volume, issue, publication year, first-page metadata, and DOI.",
+          "limitations": "Metadata only; Crossref gives first page 5 but not the complete page range. The Springer article’s reference list independently gives The Philosophical Review 90(1), 5–43 (1981)."
+        },
+        {
+          "author": "Ned Block",
+          "publication": "JSTOR record for The Philosophical Review article (1981)",
+          "title": "JSTOR record for ‘Psychologism and Behaviorism’",
+          "stable_url": "https://www.jstor.org/stable/2184371",
+          "role": "Landing page only; bibliographic and full-text content were not exposed in the review access.",
+          "source_type": "Publisher/host record",
+          "access_level": "Landing page requested; bibliographic content not exposed in this access",
+          "exact_locations_read": "DOI target/landing page only.",
+          "limitations": "The page returned JSTOR navigation/access content rather than article text or usable citation metadata in this review; publication details were cross-checked against Crossref and Schwaninger’s bibliography."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Block’s scenario uses a finite catalogue of sensible typable conversational strings; the machine searches for strings matching the conversation so far and selects a continuation, with a tree-search alternative that shares branches rather than repeating full strings.",
+          "exact_location": "§2, passages beginning ‘Call a string of sentences…’ and ‘Imagine the set of sensible strings…’; tree-searcher comparison immediately following.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports, with a minor compression: Block says a matching continuation is selected at random; the article’s ‘chooses a continuation’ does not materially distort the setup.",
+          "source_title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF",
+          "source_url": "https://rodsmith.nz/wp-content/uploads/Block-1981-Psychologism_and_Behaviorism.pdf",
+          "limitations": "Block notes that programmers exercise judgment in determining what counts as sensible; the scenario is stipulated as a logical possibility, not a feasible machine design."
+        },
+        {
+          "material_claim": "Block’s psychologism makes the internal information processing that produces behavior relevant to whether the behavior is intelligent; he argues that the lookup machine’s demonstrated capacity alone is insufficient for intelligence.",
+          "exact_location": "Opening definition of psychologism; §2 setup and conclusion, especially ‘I conclude that the capacity to emit sensible responses is not sufficient for intelligence.’",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports the attribution to Block; the article presents his conclusion rather than asserting that the philosophical argument is sound.",
+          "source_title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF",
+          "source_url": "https://rodsmith.nz/wp-content/uploads/Block-1981-Psychologism_and_Behaviorism.pdf",
+          "limitations": "Block’s own conclusion; not an independently established fact about intelligence."
+        },
+        {
+          "material_claim": "Block presents the machine as a counterexample to the neo-Turing and related behaviorist conceptions he discusses, while not establishing that every behavioral test has no evidential value.",
+          "exact_location": "Block §2 and conclusion; SEP §4.2, which frames the objection as challenging logically sufficient conditions for intelligence attribution.",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "Supports with qualification. The article carefully limits the argument to the conceptions at issue; it does not attribute a blanket rejection of behavioral evidence to Block.",
+          "source_title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF; The Turing Test, Stanford Encyclopedia of Philosophy",
+          "source_url": "https://plato.stanford.edu/entries/turing-test/",
+          "limitations": "The SEP’s account is secondary; distinguish logical sufficiency from evidential usefulness, as the article does."
+        },
+        {
+          "material_claim": "Block connects his psychologism argument to a homunculi-head challenge to functionalism and describes a possible ‘bite the bullet’ reply.",
+          "exact_location": "Opening discussion of functionalism and homunculi-heads, before the Turing Test discussion.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports the attribution and the article’s cautious description as a possible reply.",
+          "source_title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF",
+          "source_url": "https://rodsmith.nz/wp-content/uploads/Block-1981-Psychologism_and_Behaviorism.pdf",
+          "limitations": "The article states Block’s connection and presents it as one line of argument; it does not imply that this settles the functionalism debate."
+        },
+        {
+          "material_claim": "The SEP presents denial of Blockhead’s logical possibility and acceptance that it is intelligent as broad possible replies, and notes that the judgment about its intelligence is not obvious or uncontested.",
+          "exact_location": "§4.2, paragraphs beginning ‘There are perhaps only two ways…’ and ‘The question of whether Blockhead is intelligent…’",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports. The entry names two responses and critical discussion; the revised article correctly avoids presenting a consensus.",
+          "source_title": "The Turing Test, Stanford Encyclopedia of Philosophy",
+          "source_url": "https://plato.stanford.edu/entries/turing-test/",
+          "limitations": "SEP summarizes selected debate and cites further critics; it is not an exhaustive literature review."
+        },
+        {
+          "material_claim": "Schwaninger (2022) describes Blockhead as physically infeasible and argues that passing the Turing Test is evidential rather than a necessary condition of intelligence.",
+          "exact_location": "§1 Introduction, where Schwaninger says passing supplies evidence and is not necessary; §2, where he calls Blockhead physically infeasible while logically possible.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports as Schwaninger’s own interpretation; the entry explicitly labels it a named position rather than consensus.",
+          "source_title": "Arthur C. Schwaninger, ‘The Philosophising Machine – a Specification of the Turing Test’ (2022)",
+          "source_url": "https://doi.org/10.1007/s11406-022-00480-5",
+          "limitations": "A single later author’s argument; it does not settle the broader Turing-test debate."
+        },
+        {
+          "material_claim": "Block discusses a fixed-duration objection, Basic English and a tree-search version; the article’s shorter tests, restricted topics and chess lookup strategy are labeled teaching extensions rather than historical variants attributed to Block.",
+          "exact_location": "§2 tree-search description; Objection 6 and reply on logical versus physical feasibility and Basic English; Objection 7 and reply on test duration. Compare §2’s separate chess analogy in the reply to Objection 3.",
+          "relationship": "supports",
+          "relationship_as_reported": "Directly supports the historical items; the additional examples are explicitly marked as the article’s teaching extensions, not attributed variants.",
+          "source_title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF",
+          "source_url": "https://rodsmith.nz/wp-content/uploads/Block-1981-Psychologism_and_Behaviorism.pdf",
+          "limitations": "Block’s chess analogy concerns a player echoing another player’s moves; it is not itself a chess lookup-table variant. The article’s careful framing prevents that distinction from being blurred."
+        },
+        {
+          "material_claim": "The size comparison is presented as part of an objection and stipulated illustration, not as a verified physical estimate; Block replies that logical possibility suffices and discusses storage-reduction ideas.",
+          "exact_location": "§2, Objection 6 and reply; subsequent discussion of Basic English, tree search, memory reduction and physical feasibility.",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "Supports with qualification. Block presents the particle-count comparison within an objection’s estimate and responds by distinguishing logical from practical/nomological feasibility.",
+          "source_title": "Ned Block, ‘Psychologism and Behaviorism’ (1981), posted full-text PDF",
+          "source_url": "https://rodsmith.nz/wp-content/uploads/Block-1981-Psychologism_and_Behaviorism.pdf",
+          "limitations": "The source does not establish the comparison as an independently verified physical estimate; the article explicitly says it is not one."
+        },
+        {
+          "material_claim": "The 1981 title, author, journal, volume, issue and year are accurate; Schwaninger’s bibliographic reference gives the 5–43 page range, and the article’s three Further Reading titles and URLs match the dataset’s Blockhead references.",
+          "exact_location": "Crossref record gives Ned Block, ‘Psychologism and Behaviorism,’ The Philosophical Review, vol. 90, no. 1 (January 1981), first page 5; Schwaninger’s reference gives 5–43. Direct comparison of article Further Reading items with the Blockhead dataset references shows matching titles and URLs.",
+          "relationship": "supports",
+          "relationship_as_reported": "Supports the bibliographic claims and confirms reference alignment; DOI access to JSTOR’s landing page did not expose the article.",
+          "source_title": "Crossref DOI metadata; Arthur C. Schwaninger (2022), bibliography; dataset record for blockhead",
+          "source_url": "https://api.crossref.org/works/10.2307/2184371",
+          "limitations": "Crossref’s page-range metadata is incomplete; the ending page is corroborated by Schwaninger’s citation rather than Crossref."
+        }
+      ],
+      "first_pass_edit_history": {
+        "documented_edit_history": "The supplied notes do not itemize specific first-pass textual redlines. The final article records the source passages and says the prior expansion record contained page requests and keyword counts, not passage-level checks; it labels the short/restricted/chess cases as teaching extensions and the size comparison as an objection rather than a verified physical estimate. No unrecorded textual delta is asserted.",
+        "first_pass_findings_recorded": "No material first-pass correction is specified in the supplied notes."
+      },
+      "independent_post_edit_review": {
+        "status_as_returned": "source_checked",
+        "summary": "The material claims and attributions in the revised entry are traceable to the original 1981 argument, the relevant SEP section, or Schwaninger’s explicitly named later interpretation; editorial extensions are labeled as such. No material correction is required. This is an editorial traceability review, not an assessment that Block’s argument succeeds, a claim of consensus, or expert review.",
+        "access_note_assessment": "Adequate and appropriately cautious. The article discloses that Block’s full article was consulted in a posted copy, identifies relevant sections/pages, notes the SEP section and Schwaninger passages, distinguishes this editorial check from expert review, and flags that the earlier expansion record logged requests and keyword counts rather than passage-level review. I independently confirmed the expansion record’s stated method. In this review the publisher DOI target did not expose full text; the posted Block copy’s relevant full-text passages were readable, and publication metadata was cross-checked against Crossref and Schwaninger’s full citation. No expert review or consensus is implied.",
+        "reference_alignment": "All three Further Reading titles and URLs match the corresponding Blockhead dataset reference records. The dataset’s short support descriptions are consistent with the uses made in the entry; Schwaninger is appropriately characterized as a named position, not consensus.",
+        "findings_as_returned": [],
+        "unresolved_as_returned": [],
+        "confidence": "High for traceability, attribution, publication metadata and link alignment; philosophical assessments remain attributed positions, not adjudicated conclusions."
+      },
+      "targeted_follow_up": {
+        "outcome": "No separate targeted follow-up reported.",
+        "result": "The independent post-edit reviewer reported no material finding or unresolved item for this entry."
+      },
+      "remaining_limitations": [
+        "The journal DOI/JSTOR landing page did not expose the article text; the relevant full-text passages were read in a third-party posted PDF. Crossref page-range metadata is incomplete; the ending page is corroborated by Schwaninger’s bibliography."
+      ],
+      "dataset_comparison": {
+        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_id": "blockhead",
+        "date_verified": "2026-11-01",
+        "article_reference_alignment": "All three Further Reading titles and URLs match the corresponding Blockhead dataset reference records. The dataset’s short support descriptions are consistent with the uses made in the entry; Schwaninger is appropriately characterized as a named position, not consensus."
+      }
+    },
+    {
+      "id": "paleys-watch",
+      "title": "Paley’s Watch",
+      "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/paleys-watch.md",
+      "review_date": "2026-11-01",
+      "status": "source_checked",
+      "status_rationale": "The final corrected text and targeted independent recheck establish the 1802 table-of-contents mapping: Chapter IV begins at printed p. 36; Chapter VI begins at p. 55, where the eye passage starts and continues on p. 56. The final article lists Chapter IV pp. 36–38 and Chapter VI pp. 55–56 and distinguishes the OCR Paley/Darwin texts from the keyboarded/encoded Hume edition. All five article URLs match the dataset references; no material finding remains.",
+      "declared_scope": "Material claims and attributions concerning Paley’s watch argument and application, SEP classification, Hume’s earlier critique, Darwin’s natural-selection account and historical responses, reproduction variation, current argument categories, publication metadata, OCR/transcription qualifications and editorial prompts; compared with the dataset record.",
+      "reviewer_type": "AI-assisted claim-level source audit followed by independent AI-assisted read-only post-edit review; targeted follow-up recorded where relevant. No human subject-matter expert review is claimed.",
+      "protocol_version": "Approved source-review standard, 2026-11-01 (research/source-review-standard.md)",
+      "sources": [
+        {
+          "author": "Del Ratzsch and Jeffrey Koperski",
+          "publication": "Stanford Encyclopedia of Philosophy entry; first published 2005, substantively revised 2023",
+          "title": "Stanford Encyclopedia of Philosophy: Teleological Arguments for God’s Existence",
+          "stable_url": "https://plato.stanford.edu/entries/teleological-arguments/",
+          "role": "Secondary treatment of Paley, argument classifications and objections.",
+          "source_type": "Scholarly reference work; entry by Del Ratzsch and Jeffrey Koperski",
+          "access_level": "Relevant sections read; not the entire entry",
+          "exact_locations_read": "Sections 2.1–2.2, especially the passages on Humean objections, Paley, and the distinction between analogical and design-like inferences; introduction and section headings on contemporary fine-tuning and biological design arguments.",
+          "limitations": "Secondary reference treatment; its analysis supports what it says about Paley’s argument and classifications, not the truth or success of Paley’s conclusion. Entry states first published 2005 and substantively revised in 2023."
+        },
+        {
+          "author": "William Paley",
+          "publication": "Natural Theology (1802), digitized edition hosted by Archive.org",
+          "title": "William Paley, Natural Theology (1802), digitized text",
+          "stable_url": "https://archive.org/stream/naturaltheologyo1802pale/naturaltheologyo1802pale_djvu.txt",
+          "role": "Primary text for the watch argument and Paley’s application to living things.",
+          "source_type": "Primary philosophical work",
+          "access_level": "Relevant passages in the digitized text read; not the full book",
+          "exact_locations_read": "Chapter I, printed pp. 1–2; Chapter II, pp. 7–8 and continuation; Chapter III, p. 14; Chapter IV, pp. 36–38; Chapter VI, pp. 55–56. The 1802 table of contents places Chapter IV at p. 36 and Chapter VI at p. 55; the eye passage begins under the printed Chapter VI heading on p. 55 and continues on p. 56.",
+          "limitations": "Archive.org text is OCR and may contain transcription errors. The initial reviewer’s Chapter IV mapping for pp. 55–56 was resolved against the original table of contents and printed heading; the primary text establishes Paley’s argument, not its validity."
+        },
+        {
+          "author": "David Hume",
+          "publication": "Dialogues Concerning Natural Religion (1779), Part VII; University of Michigan Text Creation Partnership edition",
+          "title": "David Hume, Dialogues Concerning Natural Religion (1779), Part VII",
+          "stable_url": "https://quod.lib.umich.edu/e/ecco/004895521.0001.000/1:2.8?rgn=div2;view=fulltext",
+          "role": "Primary text for Philo’s earlier challenge to the machine comparison.",
+          "source_type": "Primary philosophical work",
+          "access_level": "Part VII read in the linked digitized edition",
+          "exact_locations_read": "Item metadata and Part VII, description pp. 73–78; especially Philo’s argument on pp. 73–77 that the world may resemble animals or vegetables more than human machines, and the continuation on p. 78.",
+          "limitations": "The University of Michigan identifies this as a keyboarded and encoded Text Creation Partnership edition, rather than an OCR transcription. This is Hume’s dialogue character Philo’s argument, not evidence of consensus or a direct response to Paley."
+        },
+        {
+          "author": "Charles Darwin",
+          "publication": "On the Origin of Species, first edition (1859), Chapter IV",
+          "title": "Charles Darwin, On the Origin of Species (1859), Chapter IV",
+          "stable_url": "https://archive.org/stream/darwin-online_1859_Origin_F373/1859_Origin_F373_djvu.txt",
+          "role": "Primary scientific text for natural selection as an account of adaptation.",
+          "source_type": "Primary scientific work",
+          "access_level": "Relevant Chapter IV passages read; not the full chapter or book",
+          "exact_locations_read": "First-edition title/publication metadata; Chapter IV, ‘Natural Selection,’ printed pp. 80–81, including Darwin’s explanation of preservation of favorable variations and rejection of injurious variations.",
+          "limitations": "Archive.org text is OCR and contains transcription errors. These passages support Darwin’s proposed natural-selection mechanism; the article’s historical characterization of its relation to Paley is also supported by the Darwin Correspondence Project page."
+        },
+        {
+          "author": "Byline not identified in supplied review record",
+          "publication": "Darwin Correspondence Project historical commentary; publication date not stated in supplied record",
+          "title": "Darwin Correspondence Project, ‘Darwin and Design’",
+          "stable_url": "https://www.darwinproject.ac.uk/commentary/religion/darwin-and-design",
+          "role": "Secondary historical overview of Paley/Darwin context and varied responses.",
+          "source_type": "Historical commentary drawing on correspondence and published works",
+          "access_level": "Relevant sections of the page read; not a separate examination of all correspondence cited there",
+          "exact_locations_read": "Sections on Darwin’s account of natural selection and design, varied responses to Origin, Charles Kingsley’s accommodation of evolution and design, and Asa Gray’s view that natural selection was compatible with natural theology.",
+          "limitations": "The page is a secondary historical overview, not an exhaustive reception study; the accessed page does not identify a byline or publication date in the extracted text."
+        }
+      ],
+      "claim_evidence": [
+        {
+          "material_claim": "Paley’s scenario begins with a person crossing a heath, encountering a stone and then a watch; the watch’s fitted parts produce regulated motion that tells the time, which Paley treats as evidence of a maker/design.",
+          "exact_location": "Chapter I, printed pp. 1–2: the heath/stone/watch contrast, the arrangement of parts for a purpose, and the inference to a maker.",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "William Paley, Natural Theology (1802), digitized text",
+          "source_url": "https://archive.org/stream/naturaltheologyo1802pale/naturaltheologyo1802pale_djvu.txt",
+          "limitations": "This verifies Paley’s argument as stated, not whether the inference is sound."
+        },
+        {
+          "material_claim": "Paley applies the argument to the eye and other organized parts of living things, drawing a conclusion about an intelligent Creator.",
+          "exact_location": "Paley, Chapter III, ‘Application of the Argument’; SEP section 2.2 quotes Paley’s application to the eye and organized parts of nature and describes the inference type.",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "William Paley, Natural Theology (1802), digitized text; Stanford Encyclopedia of Philosophy, ‘Teleological Arguments for God’s Existence’",
+          "source_url": "https://archive.org/stream/naturaltheologyo1802pale/naturaltheologyo1802pale_djvu.txt; https://plato.stanford.edu/entries/teleological-arguments/",
+          "limitations": "These passages establish Paley’s stated position, not the conclusion’s truth."
+        },
+        {
+          "material_claim": "Paley is often classified as making an analogical argument, while the SEP interprets his own reasoning as an inference from design-like features rather than a straightforward comparison of artifact and organism.",
+          "exact_location": "Section 2.2, passage beginning ‘Although Paley’s argument is routinely construed as analogical’; its explanation of Paley’s watch as a paradigmatic instance and Chapter 3 as a separate application of the same inferential move.",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "Stanford Encyclopedia of Philosophy: Teleological Arguments for God’s Existence",
+          "source_url": "https://plato.stanford.edu/entries/teleological-arguments/",
+          "limitations": "This is the SEP authors’ interpretation, correctly attributed as such in the article; it does not settle the philosophical classification."
+        },
+        {
+          "material_claim": "Hume’s Philo challenges Cleanthes’ machine comparison by suggesting the universe may more closely resemble living things and that generation or vegetation could be alternative analogies; this predates and is not a direct reply to Paley’s 1802 book.",
+          "exact_location": "Part VII, printed pp. 73–78, especially pp. 73–77; item metadata gives publication date 1779. Paley’s 1802 publication is established by his linked title and edition metadata and the SEP’s citation to Paley 1802.",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "David Hume, Dialogues Concerning Natural Religion (1779), Part VII",
+          "source_url": "https://quod.lib.umich.edu/e/ecco/004895521.0001.000/1:2.8?rgn=div2;view=fulltext",
+          "limitations": "Philo is a character in the dialogue. The chronology supports the article’s qualification that this is an earlier critique, not a direct reply to Paley."
+        },
+        {
+          "material_claim": "Darwin’s 1859 account of natural selection supplies a process by which functional adaptations could accumulate and challenged Paley’s design account, while contemporary responses did not uniformly treat evolution and belief in design as incompatible.",
+          "exact_location": "Darwin, Chapter IV, printed pp. 80–81, on natural selection preserving favorable variations; Darwin Correspondence Project sections on Darwin’s criticism of Paley, varied reception, and Kingsley and Gray’s accommodation of design and evolution.",
+          "relationship": "supports_with_qualification",
+          "relationship_as_reported": "supports_with_qualification",
+          "source_title": "Charles Darwin, On the Origin of Species (1859), Chapter IV; Darwin Correspondence Project, ‘Darwin and Design’",
+          "source_url": "https://archive.org/stream/darwin-online_1859_Origin_F373/1859_Origin_F373_djvu.txt; https://www.darwinproject.ac.uk/commentary/religion/darwin-and-design",
+          "limitations": "Darwin’s cited passage explains selection but does not name Paley; the correspondence project provides the historical link and examples. ‘Responses varied’ is supported by examples and the project’s summary, not an exhaustive survey."
+        },
+        {
+          "material_claim": "Paley’s watch-reproduction variation argues that reproduction does not explain the organization/design of the watch’s parts; he later extends the reasoning to plant and animal generation.",
+          "exact_location": "Chapter II, printed pp. 7–8 and continuation, on the watch producing another watch; Chapter VI, “The Argument Cumulative,” printed pp. 55–56, where the eye passage begins at p. 55 and continues at p. 56.",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "William Paley, Natural Theology (1802), digitized text",
+          "source_url": "https://archive.org/stream/naturaltheologyo1802pale/naturaltheologyo1802pale_djvu.txt",
+          "limitations": "The claim is expressly attributed to Paley; it should not be read as endorsing his analogy."
+        },
+        {
+          "material_claim": "Some present-day design arguments concern cosmic fine-tuning, while others concern biological design or other features.",
+          "exact_location": "Introduction and section 4 headings and discussion: ‘Cosmological: Fine-Tuning’ and ‘Biological: The “Intelligent Design” Movement.’",
+          "relationship": "supports",
+          "relationship_as_reported": "supports",
+          "source_title": "Stanford Encyclopedia of Philosophy: Teleological Arguments for God’s Existence",
+          "source_url": "https://plato.stanford.edu/entries/teleological-arguments/",
+          "limitations": "The article’s ‘some’ formulation is appropriately limited and does not suggest that these positions are consensual."
+        }
+      ],
+      "first_pass_edit_history": {
+        "documented_edit_history": "The first post-edit reviewer raised two points: a disputed Chapter IV/VI page mapping and an overbroad OCR note. Direct checking of the 1802 table of contents and printed heading resolved the chapter dispute in favor of Chapter VI for pp. 55–56. The article now lists Chapter IV pp. 36–38 and Chapter VI pp. 55–56, notes the TOC placement of Chapter VI at p. 55, scopes OCR to the Archive.org Paley/Darwin texts, and identifies the University of Michigan Hume edition as keyboarded/encoded.",
+        "first_pass_findings_recorded": "Earlier reviewer’s chapter attribution was mistaken; parent’s direct check retained the correct Chapter VI assignment and corrected the Chapter IV range. The OCR/access distinction was clarified; final targeted recheck cleared both."
+      },
+      "independent_post_edit_review": {
+        "status_as_returned": "partially_source_checked",
+        "summary": "The substantive historical and attribution claims checked are supported by the linked primary texts and relevant SEP and Darwin Correspondence Project passages; the article does not claim that Paley’s argument succeeds or represents consensus. Recommend partially_source_checked pending correction of an inaccurate Paley chapter/page note and a too-broad OCR description. No expert review is implied.",
+        "access_note_assessment": "The note appropriately says that relevant passages—not necessarily whole works—were consulted, disclaims expert review, and notes OCR risk for the Archive.org historical texts. The OCR statement should be scoped to the OCR texts; the Hume link is a keyboarded/encoded text. No expert review or consensus is implied elsewhere in the article.",
+        "reference_alignment": "All five Further Reading URLs match the corresponding Paley’s Watch dataset reference URLs. Titles and linked works are substantively aligned; the article’s Paley display title omits the dataset’s descriptive words ‘digitized text,’ which is not a URL or source mismatch. No additional Further Reading URL discrepancy found.",
+        "findings_as_returned": [
+          {
+            "article_location": "Line 63, Sources and Attribution: ‘Chapters I–III, IV, and VI (printed pp. 1–14, 35–38, and 55–56)’",
+            "problem": "The printed pp. 55–56 passage is in Chapter IV, ‘Of the Succession of Plants and Animals,’ not Chapter VI. The note lists Chapter VI but provides no location for it, so the stated chapter/page mapping is inaccurate or incomplete.",
+            "required_change": "Correct the chapter mapping to identify pp. 55–56 as Chapter IV and remove ‘VI’ unless a Chapter VI passage was actually consulted; if retained, give its relevant printed page(s). For example: ‘Chapters I–III (printed pp. 1–14 and 35–38) and Chapter IV (pp. 55–56).’",
+            "severity": "moderate"
+          },
+          {
+            "article_location": "Line 63, Sources and Attribution: ‘The digitized historical texts use OCR, which may contain transcription errors.’",
+            "problem": "The blanket phrasing can imply that every digitized historical text cited is OCR. The linked Hume page identifies its text as a keyboarded and encoded Text Creation Partnership edition; the Paley and Darwin Archive.org texts are OCR transcriptions.",
+            "required_change": "Narrow the caveat to the sources that use OCR (Paley and Darwin), and distinguish the Hume edition as a keyboarded/encoded text that may still have transcription errors.",
+            "severity": "low"
+          }
+        ],
+        "unresolved_as_returned": [
+          "The attribution note does not establish whether the writer actually consulted any Chapter VI passage. If so, add its printed page/location; if not, remove Chapter VI.",
+          "The OCR note does not identify which digitized editions it covers; revise it as specified in findings."
+        ],
+        "confidence": "High for the checked claim-to-source relationships and reference alignment; moderate for the source-note chapter mapping pending clarification about whether Chapter VI was also consulted."
+      },
+      "targeted_follow_up": {
+        "outcome": "cleared",
+        "result": "Final independent reviewer confirms the 1802 table of contents lists Chapter IV at printed p. 36 and Chapter VI at p. 55; Chapter VI begins at p. 55 and the eye passage continues on p. 56. Final article lists Chapter IV pp. 36–38 and Chapter VI pp. 55–56, explicitly notes the TOC placement, and distinguishes Archive.org Paley/Darwin OCR from the University of Michigan Hume edition identified as keyboarded and encoded. All five article URLs match the five dataset references. No material findings remain. An earlier reviewer incorrectly called the eye passage Chapter IV but correctly noticed p. 35 is outside Chapter IV; direct parent check of the 1802 TOC and printed heading retained Chapter VI, changed Chapter IV range to pp. 36–38, and final recheck cleared it."
+      },
+      "remaining_limitations": [
+        "The attribution note does not establish whether the writer actually consulted any Chapter VI passage. If so, add its printed page/location; if not, remove Chapter VI.",
+        "The OCR note does not identify which digitized editions it covers; revise it as specified in findings.",
+        "Paley and Darwin Archive.org texts are OCR and may contain errors. The University of Michigan Hume edition is keyboarded/encoded rather than OCR and may still contain transcription errors. The SEP and historical commentary are secondary sources; the review is not exhaustive."
+      ],
+      "dataset_comparison": {
+        "dataset_record_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/data/experiments.json",
+        "dataset_record_id": "paleys-watch",
+        "date_verified": "2026-11-01",
+        "article_reference_alignment": "All five Further Reading URLs match the corresponding Paley’s Watch dataset reference URLs. Titles and linked works are substantively aligned; the article’s Paley display title omits the dataset’s descriptive words ‘digitized text,’ which is not a URL or source mismatch. No additional Further Reading URL discrepancy found."
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "knowability-paradox",
+  "title": "Fitch’s Paradox of Knowability",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/logic/knowability-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: Fitch’s knowability principle and proof structure; the meaning and scope of the unknown truth; epistemic and modal assumptions; implications for verificationism and anti-realism; proposed response families; publication details and historical attribution. This status records traceability, not that the argument is sound, that any response succeeds, or that a particular theory is refuted.",
+  "summary": "Brogaard and Salerno’s SEP treatment supplies the full formal proof, defines knowledge as known by someone at some time, states the epistemic and modal principles, and surveys disputed replies. Fitch’s publisher page supplies bibliographic metadata and selected extract/footnotes, but the full 1963 article was not accessed. The article now makes the unrestricted-substitution and background-logic assumptions explicit, qualifies the scope of its philosophical implications, and distinguishes Fitch’s published theorem from the reported referee and earlier Parry attribution. Independent post-edit review is pending.",
+  "sources": [
+    {
+      "title": "A Logical Analysis of Some Value Concepts",
+      "author": "Frederic B. Fitch",
+      "publication": "The Journal of Symbolic Logic 28(2) (June 1963): 135–142; Theorem 5",
+      "stable_url": "https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/a-logical-analysis-of-some-value-concepts1/D4D2E7E37CE8F699BB8CAF52CA74BFD3",
+      "source_type": "Primary scholarly article",
+      "access_level": "Publisher metadata and selected article extract/footnotes were read; the complete article was not accessed.",
+      "exact_locations_read": "Publisher bibliographic record for title, journal, volume/issue, date, and pages; selected extract and footnotes 5–6 on the 1945 anonymous referee and an earlier result attributed by Anderson to Parry.",
+      "limitations": "The full Fitch paper and its complete proof were not read. The proof audit relies on the appropriate full scholarly treatment in the SEP. The selected publisher extract does not settle priority among Fitch, the referee, and the earlier attributed result."
+    },
+    {
+      "title": "Fitch’s Paradox of Knowability",
+      "author": "Berit Brogaard and Joe Salerno",
+      "publication": "Stanford Encyclopedia of Philosophy; substantive revision 7 May 2025",
+      "stable_url": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full entry were read, including targeted complete sections, not only the abstract or metadata.",
+      "exact_locations_read": "§1, history and significance; §2, formal knowability paradox, definition of K, proof, and principles A–D; §§3.1–3.5, logical revisions; §§4.1–4.4, semantic restrictions; §§5.1–5.3, syntactic restrictions and objections.",
+      "limitations": "A secondary reference entry that maps the literature; it does not establish that every verificationist or anti-realist accepts the formal principle, nor does it identify a universally accepted solution."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The unrestricted knowability principle says that every truth is possibly known by someone at some time, and Fitch’s standard conclusion is that every truth is actually known by someone at some time.",
+      "source_title": "Fitch’s Paradox of Knowability",
+      "source_url": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "exact_location": "§2, equations for KP and the K Paradox; the entry defines K as known by someone at some time and Diamond as possibility.",
+      "relationship": "supports",
+      "finding": "The article states the informal principle and conclusion with the temporal/agent scope made explicit.",
+      "limitation": "The conclusion follows in the formal system under the associated proof assumptions; it is not a claim about measured human knowledge.",
+      "required_edit": "Made: clarified Kp as someone knowing p at some time and framed the result as conditional on the logic."
+    },
+    {
+      "material_claim": "The proof assumes an unknown true proposition, applies the knowability principle to the compound proposition that it is true and unknown, and derives a contradiction from the possibility of knowing that conjunction.",
+      "source_title": "Fitch’s Paradox of Knowability",
+      "source_url": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "exact_location": "§2, NonO, steps (1)–(9): substitution of p ∧ ¬Kp into KP and the reductio showing the conjunction cannot be known.",
+      "relationship": "supports",
+      "finding": "The article separates the initial unknown truth from the compound proposition to which the principle is then applied.",
+      "limitation": "An informal paraphrase can obscure that the compound—not merely p—is the proposition whose knowability produces the contradiction.",
+      "required_edit": "Made: named the compound and stated that the unrestricted principle applies to it."
+    },
+    {
+      "material_claim": "The proof uses factivity, knowledge distribution over conjunction in the sketched derivation, classical reductio, necessitation, and modal duality; conjunction distribution is not indispensable to every variant.",
+      "source_title": "Fitch’s Paradox of Knowability",
+      "source_url": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "exact_location": "§2, principles A–D and lines (4)–(9); §3.1 notes versions that do not require distribution of knowledge over conjunction.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised article identifies the assumptions without implying that conjunction distribution is beyond dispute or needed in every formulation.",
+      "limitation": "Different formalizations of knowledge, possibility, time, and admissible proposition substitution can change which assumptions are used.",
+      "required_edit": "Made: explicitly labeled the assumptions of the informal proof and directed readers to the formal derivation."
+    },
+    {
+      "material_claim": "The proof challenges some verificationist or anti-realist theories but does not refute every view under those labels.",
+      "source_title": "Fitch’s Paradox of Knowability",
+      "source_url": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "exact_location": "Opening overview and §1: the entry describes arguable anti-realist applications, the historical verificationist reading, and says there is no consensus about whether or where the proof goes wrong.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article now ties the consequence to theories that accept unrestricted knowability plus the relevant logic and notes that application to particular theories is disputed.",
+      "limitation": "Verifiability, possible knowability, and admissible propositions are not identical across theories.",
+      "required_edit": "Made: narrowed the philosophical consequence and removed any implication that anti-realism as a whole is disproved."
+    },
+    {
+      "material_claim": "Responses include logical revisions, semantic restrictions, and syntactic restrictions, and these are contested rather than established solutions.",
+      "source_title": "Fitch’s Paradox of Knowability",
+      "source_url": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "exact_location": "§§3–5: intuitionistic and paraconsistent revisions; situation-based, rigid/non-rigid semantic restrictions; Cartesian and basic-statement syntactic restrictions; §5.3 objections and further Fitch-style challenges.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised summary names the broad families and presents them as proposals with challenges, not settled solutions.",
+      "limitation": "A short educational summary cannot reproduce the technical distinctions or all objections in the literature.",
+      "required_edit": "Made: distinguished response families and qualified their status."
+    },
+    {
+      "material_claim": "Fitch published Theorem 5 in 1963 and credited its essential form to an anonymous referee; the SEP reports that the referee was later identified as Alonzo Church, while Fitch’s note records an earlier result attributed by Anderson to W. T. Parry.",
+      "source_title": "A Logical Analysis of Some Value Concepts",
+      "source_url": "https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/a-logical-analysis-of-some-value-concepts1/D4D2E7E37CE8F699BB8CAF52CA74BFD3",
+      "exact_location": "Cambridge publisher metadata and selected footnotes 5–6; corroborating historical discussion in Brogaard and Salerno, SEP §1.",
+      "relationship": "supports_with_qualification",
+      "finding": "Publication details and Fitch’s stated attributions are supported. The article distinguishes the published theorem, referee report, later Church identification, and differently formulated Parry result.",
+      "limitation": "The complete primary paper was not accessed and the article does not adjudicate priority.",
+      "required_edit": "Made: clarified the distinct historical attributions and disclosed the limited primary-text access."
+    }
+  ],
+  "edits_made": [
+    "Rewrote the proof sketch to distinguish the unknown proposition from the compound proposition and to state its main epistemic/modal assumptions.",
+    "Qualified the implication for verificationist and anti-realist theories and noted that application to particular theories is disputed.",
+    "Summarized the logical, semantic, and syntactic response families without implying that they are settled solutions.",
+    "Clarified the publication and priority history and added the original Fitch article and SEP to Further Reading and the dataset record."
+  ],
+  "unresolved": [
+    "Whether a particular verificationist or anti-realist theory accepts unrestricted knowability under the proof’s exact formalization remains theory-dependent.",
+    "The full 1963 article was not accessed; proof details are checked against the full SEP treatment, while publication and footnote details rely on the publisher record and selected extract.",
+    "The historical priority relationship among the 1945 referee, Fitch’s publication, and the earlier Parry-attributed result is not adjudicated here."
+  ],
+  "dataset_alignment": "The data/experiments.json record for knowability-paradox now lists the Fitch publisher page and SEP URLs used in the article, with date_verified 2026-11-01; no public source-review status field was added.",
+  "further_reading_matches": "Both article Further Reading URLs match the dataset record.",
+  "ledger_path": "research/source-review-batch6-item-knowability-paradox.json",
+  "selection_rank": 2,
+  "risk_reason": "A short logical proof can hide substantive epistemic and modal premises; compressed claims about verificationism, anti-realism, and historical priority risk overstating what the argument establishes.",
+  "audit_focus": "Trace the proof line by line to an appropriate scholarly account, state the relevant assumptions and scope, verify response taxonomy, and separate original publication from priority claims.",
+  "independent_review": "Pass. Independent read-only post-edit review confirmed the proof sketch and stated assumptions, the distinction between the SEP proof and limited Cambridge primary extract, qualified response taxonomy, historical attributions, and exact article/dataset URL equality. No correction; source_checked is justified for the declared scope. No expert review."
+}

@@ -1,0 +1,289 @@
+{
+  "id": "loschmidt-reversibility",
+  "title": "Loschmidt’s Reversibility Objection",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/physics/loschmidt-reversibility.md",
+  "status": "source_checked",
+  "scope": "Claim-level source audit of the complete assigned article: setup and dynamical assumptions for velocity reversal; entropy interpretation and inference; Boltzmann’s immediate reply versus his later statistical account; low-entropy-past explanations; the H-theorem and qualifications; historical chronology; distinction between Loschmidt’s reversibility objection and the Poincaré/Zermelo recurrence argument; and editorial teaching framing. The matching dataset object and expansion-record entry were checked for alignment. No expert review is claimed.",
+  "summary": "The article’s treatment of exact reversal, Boltzmann and Gibbs entropy, statistical typicality, Boltzmann’s separate 1877 arguments, low-entropy boundary conditions, the H-theorem assumption, and the Zermelo distinction is traceable to relevant passages. The independent review directly read p. 139 of the original Loschmidt scan; the article and ledger now state this limited access accurately. Dataset and article Further Reading URLs match.",
+  "sources": [
+    {
+      "title": "Thermodynamic Asymmetry in Time",
+      "author": "Craig Callender",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 2001, current online entry consulted",
+      "stable_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "source_type": "Scholarly reference work / secondary synthesis",
+      "access_level": "Relevant full-text sections and passages retrieved and read (including the discussion of the H-theorem, Loschmidt and Zermelo objections, and §3.1, ‘Past Hypothesis’); not every section of the entry was reviewed.",
+      "exact_locations_read": "Discussion beginning ‘Trouble looms over this explanation of time asymmetry’ in §3, including the paragraphs contrasting Loschmidt’s time-reversal objection with Zermelo’s recurrence objection; §3.1 ‘Past Hypothesis’, including Boltzmann’s fluctuation proposal and the modern naming attributed to Albert (2000). The entry also quotes Loschmidt (1876, p. 139).",
+      "limitations": "Secondary reference, not an original paper. The passage explains the objections at an overview level and does not supply a full derivation of the phase-space or kinetic assumptions. Its current copy includes material beyond the historical dates of the initial entry publication."
+    },
+    {
+      "title": "Boltzmann’s Work in Statistical Physics",
+      "author": "Jos Uffink",
+      "publication": "Stanford Encyclopedia of Philosophy, archived Summer 2013 edition; first published 2004",
+      "stable_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+      "source_type": "Scholarly reference work / secondary historical and philosophical analysis",
+      "access_level": "Relevant full-text sections retrieved and read: selected passages in §§1.2, 3.2–3.3, 4, and 5.2; not the entire article for unrelated topics.",
+      "exact_locations_read": "§1.2 distinguishes the reversibility objection (Loschmidt) from the recurrence objection (Zermelo) and dates Zermelo’s challenge to 1896; §3.2 discusses the assumptions and status of Boltzmann’s H-theorem, including the Stoßzahlansatz; §3.3 quotes Loschmidt (1876, p. 139), states the modern Hamiltonian time-reversal formulation, and discusses Boltzmann’s immediate 1877 response and its limitations; §4 treats the 1877b permutational argument; §5.2 includes Boltzmann’s 1895 formulation of the statistical H-theorem and further debate.",
+      "limitations": "A scholarly interpretation, not primary text. Uffink explicitly notes disagreement among historians/commentators about the content and status of Boltzmann’s early H-theorem and response; those disputes are reported rather than resolved by this audit."
+    },
+    {
+      "title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+      "author": "Olivier Darrigol",
+      "publication": "The European Physical Journal H, vol. 46, article 29 (2021), https://doi.org/10.1140/epjh/s13129-021-00029-2; the author’s openly accessible HAL item is an early draft and expressly directs readers to cite the published version",
+      "stable_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+      "source_type": "Peer-reviewed historical secondary analysis with translated primary passages; consulted full text was the author’s prepublication draft",
+      "access_level": "Relevant full-text passages read in the accessible early draft at https://hal.science/hal-03467467/document; the published Springer page was also inspected but exposed only its abstract, notes, and limited preview material rather than the full article.",
+      "exact_locations_read": "Early draft §1 ‘The Loschmidt paradox’ (translation of Loschmidt 1876 and historical context; especially the discussion of reversing all atomic velocities and the original example); §2 translation of Boltzmann’s 1877a response (Wiener Berichte, pp. 116–122; especially the construction of opposite initial conditions and reversal of the sign of the thermodynamic integral); §§3–4 commentary and clarified account of Boltzmann’s probability argument; §5 discussion of later qualifications. The draft’s opening states that it is an early version and says to cite the published EPJH article.",
+      "limitations": "The full text directly read is a prepublication draft, not the final published version. The final version’s full text was not accessible through the inspected Springer page. The translated primary passages are mediated by Darrigol; modern terms such as microstate and macrostate are explicitly the commentator’s explanatory vocabulary."
+    },
+    {
+      "title": "Poincare Recurrence Theorem (1890–1897)",
+      "author": "University of Maryland, Mathematics History page; individual author not stated on page",
+      "publication": "University of Maryland Department of Mathematics history resource; updated 24 August 2001",
+      "stable_url": "https://www.math.umd.edu/~lvrmr/History/Recurrence.html",
+      "source_type": "University-hosted historical/educational secondary account",
+      "access_level": "Full short webpage read.",
+      "exact_locations_read": "Opening two paragraphs: identifies Poincaré’s recurrence theorem (1890), describes recurrence for bounded fixed-energy mechanical systems, and states that Zermelo used it in 1896 as a separate objection to the Second Law; final paragraph summarizes Boltzmann’s statistical response to recurrences.",
+      "limitations": "Concise university-hosted explainer, not Poincaré’s or Zermelo’s original text and not a detailed mathematical proof. The distinction is also supported by Callender and Uffink."
+    },
+    {
+      "title": "Translation of Ludwig Boltzmann’s Paper ‘On the Relationship between the Second Fundamental Theorem of the Mechanical Theory of Heat and Probability Calculations Regarding the Conditions for Thermal Equilibrium’",
+      "author": "Ludwig Boltzmann; translated and commented by Kim Sharp and Franz Matschinsky",
+      "publication": "Entropy 17(4) (2015), pp. 1971–2009; English translation of Boltzmann’s 1877b paper, DOI 10.3390/e17041971",
+      "stable_url": "https://doi.org/10.3390/e17041971",
+      "source_type": "Primary text in modern English translation, with editorial scientific commentary",
+      "access_level": "Full HTML article was available; the relevant translated text in §V was read.",
+      "exact_locations_read": "Section V, ‘Relationship of the Entropy to That Quantity Which I Have Called the Probability Distribution’, including the discussion of multiplicity/‘permutability’ and the relationship of that measure to entropy (exact section heading in the HTML; journal page range not independently verified).",
+      "limitations": "This is Boltzmann’s separate 1877b combinatorial/statistical paper, not the immediate 1877a reply to Loschmidt. Translation and commentary are modern; the text’s terminology does not map one-to-one onto all contemporary probability interpretations."
+    },
+    {
+      "title": "Über den Zustand des Wärmegleichgewichtes eines Systems von Körpern mit Rücksicht auf die Schwerkraft. I",
+      "author": "Josef (Joseph) Loschmidt",
+      "publication": "Wiener Berichte 73 (1876), pp. 128–142; source scan hosted by the Loschmidt Laboratory biography site",
+      "stable_url": "https://loschmidt.chemi.muni.cz/biography/pdf/warmegleichgewichtes.pdf",
+      "source_type": "Primary source scan",
+      "access_level": "Original scan opened and p. 139 directly read during independent follow-up; the complete paper was not read.",
+      "exact_locations_read": "Page 139, describing reversal of all atomic velocities and the retrograde course of events; corroborated with Darrigol’s translation and the SEP quotation.",
+      "limitations": "Only p. 139 was read directly from the original scan. Other relevant historical passages were checked through Darrigol’s accessible early draft and scholarly reference works."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The exact-reversal construction requires fixed positions and simultaneous reversal of all relevant velocities/momenta, under time-reversal-invariant mechanical equations; it then retraces the prior trajectory.",
+      "source_title": "Boltzmann’s Work in Statistical Physics",
+      "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+      "exact_location": "§3.3, paragraphs beginning ‘Putting the point in more modern terms’; this states the Hamiltonian time-reversal transformation as reversing velocities and replacing t by −t. See also the embedded Loschmidt quotation at p. 139.",
+      "relationship": "supports",
+      "finding": "The source explicitly supports the trajectory-reversal claim and frames the objection as applying to Hamiltonian mechanics. Darrigol’s translated Loschmidt passage likewise says to reverse all atomic velocities and explains the resulting reversed course.",
+      "limitation": "The exact-reversal statement presumes a mechanically isolated/full relevant system and a time-reversal-invariant interaction law; the idealization is not a practical procedure for an ordinary gas.",
+      "required_edit": "Article now states the all-velocity reversal, fixed positions, time-reversal-invariant dynamics, complete relevant system, and exact-retracing conditions."
+    },
+    {
+      "material_claim": "The gas-spreading-from-a-corner scenario is an explanatory teaching variation rather than the literal setup in Loschmidt’s 1876 passage.",
+      "source_title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+      "source_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+      "exact_location": "Darrigol accessible early draft, §1 ‘The Loschmidt paradox’, especially its account of Loschmidt’s one-molecule/device example and translation of Loschmidt (1876, p. 139); the draft also notes that Loschmidt’s article’s primary concern was the gas-column temperature argument.",
+      "relationship": "supports_with_qualification",
+      "finding": "Loschmidt’s own example concerns a specially prepared state with one molecule carrying energy and the others initially at rest, evolving to a stationary state before all velocities are reversed. The article’s corner-gas image captures the general reversible construction but is not his exact case.",
+      "limitation": "The original scan itself was not readable; the historical comparison is based on Darrigol’s translation/commentary and Uffink’s quotation.",
+      "required_edit": "The revised article explicitly labels the corner-gas description a modern teaching illustration and summarizes the different historical example."
+    },
+    {
+      "material_claim": "The reversed trajectory exhibits a decrease of entropy as the gas returns to its earlier macrostate.",
+      "source_title": "Thermodynamic Asymmetry in Time",
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "exact_location": "§3 discussion of the H-theorem and Loschmidt objection: time reversal gives a mirror entropy-decreasing solution for each entropy-increasing solution; compare the quoted Loschmidt passage at p. 139 in Uffink §3.3.",
+      "relationship": "supports_with_qualification",
+      "finding": "The claim is supported when ‘entropy’ means the thermodynamic/Boltzmann macrostate quantity used in the argument. It should not be read as a decrease of the fine-grained Gibbs entropy under ideal Hamiltonian flow.",
+      "limitation": "The cited SEP passage is schematic and does not elaborate the distinctions among entropy definitions; the fine-grained Gibbs-entropy qualification follows from the Hamiltonian setting, not from the historical wording of Loschmidt’s paper.",
+      "required_edit": "The article now specifies Boltzmann macro-entropy and distinguishes it from fine-grained Gibbs entropy."
+    },
+    {
+      "material_claim": "Loschmidt’s objection implies that reversible mechanics cannot entail a universal, exceptionless monotonic entropy increase for every mechanically allowed microstate.",
+      "source_title": "Thermodynamic Asymmetry in Time",
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "exact_location": "§3, passage stating it is impossible to get a function of the classical state to monotonically increase from conservative dynamics alone and that Loschmidt’s time-reversal objection yields a mirror entropy-decreasing solution.",
+      "relationship": "supports_with_qualification",
+      "finding": "The objection blocks an unrestricted universal monotonicity theorem from reversible dynamics alone; it does not show that observed macroscopic entropy decreases are common or that statistical mechanics is false.",
+      "limitation": "The inference targets a proposed universal derivation, not every qualified statistical, kinetic, or coarse-grained account of the second law.",
+      "required_edit": "The article narrows its conclusion to the impossibility of deriving monotonic increase on every allowed trajectory from reversible mechanics alone."
+    },
+    {
+      "material_claim": "Boltzmann’s immediate 1877 reply treated exceptional H-increasing/reversed states as extremely improbable, but this reply is distinct from the later 1877b permutational argument and its adequacy is debated.",
+      "source_title": "Boltzmann’s Work in Statistical Physics",
+      "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+      "exact_location": "§3.3, ‘Boltzmann’s response (1877a)’: exceptional states, improbability, and critique of the reversal-invariant probability assignment; §4, ‘1877b: The permutational argument’, on the later macrostate/multiplicity argument.",
+      "relationship": "supports",
+      "finding": "The source explicitly separates Boltzmann’s immediate response from the later 1877b probability treatment and questions whether the former resolves the objection. Darrigol’s translated/commented 1877a text supplies the underlying passage and discusses its assumptions.",
+      "limitation": "Historians disagree over the meaning, assumptions, and success of Boltzmann’s response; the article appropriately reports it as a reply, not a settled solution.",
+      "required_edit": "The article now separates the 1877a reply from the 1877b multiplicity argument and states that interpretive/adequacy questions remain debated."
+    },
+    {
+      "material_claim": "Boltzmann’s later statistical explanation treats equilibrium as having far greater multiplicity/phase-space volume than non-equilibrium macrostates, making entropy increase typical under probability assumptions rather than necessary for every microstate.",
+      "source_title": "Translation of Ludwig Boltzmann’s Paper ‘On the Relationship between the Second Fundamental Theorem…’",
+      "source_url": "https://doi.org/10.3390/e17041971",
+      "exact_location": "§V, ‘Relationship of the Entropy to That Quantity Which I Have Called the Probability Distribution’; read with Uffink, SEP ‘Boltzmann’s Work in Statistical Physics’, §4, on the 1877b permutational argument and macrostate multiplicity.",
+      "relationship": "supports_with_qualification",
+      "finding": "The translated primary text connects the equilibrium distribution’s permutability measure with entropy; Uffink explains this in modern macrostate/phase-space terms. This supports a typicality/statistical account but does not alone justify treating probability as an unconditional dynamical tendency.",
+      "limitation": "The Sharp–Matschinsky text is Boltzmann’s separate 1877b paper, not his immediate 1877a reply; Boltzmann’s historical probability concepts and modern probability measures are not interchangeable without qualification.",
+      "required_edit": "The article now describes the later argument separately and qualifies probability as dependent on specified assumptions."
+    },
+    {
+      "material_claim": "The apparent statistical direction problem remains: a time-symmetric distribution over states at a non-equilibrium macrostate can make higher-entropy antecedents typical as well as higher-entropy successors.",
+      "source_title": "Thermodynamic Asymmetry in Time",
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "exact_location": "§3 paragraphs following the reversibility objection, beginning ‘An objection in their spirit (specifically, Loschmidt’s) can also be advanced against Boltzmann’s later view’; paired statements (1) and (2) for typical future and past macrostates.",
+      "relationship": "supports",
+      "finding": "The source directly states the time-symmetric statistical dilemma. This is why the entropy-multiplicity reply does not, by itself, explain why the observed arrow points toward the future.",
+      "limitation": "This is a philosophical/statistical formulation; detailed resolution depends on a chosen measure, conditioning information, and cosmological boundary assumptions.",
+      "required_edit": "The article now notes that the statistical account alone does not select a temporal direction."
+    },
+    {
+      "material_claim": "The modern Past Hypothesis is a low-entropy-past boundary condition used with statistical mechanics; it is conceptually distinct from Loschmidt’s objection and from Boltzmann’s entire 1877 reply, while Boltzmann’s fluctuation cosmology is a related but different proposal.",
+      "source_title": "Thermodynamic Asymmetry in Time",
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "exact_location": "§3.1 ‘Past Hypothesis’, including the paragraph naming Albert (2000), the statement that Boltzmann explained the observable universe as a fluctuation in a larger universe, and the discussion of the low-entropy past boundary condition.",
+      "relationship": "supports",
+      "finding": "The source directly supports the low-entropy-past distinction and identifies Boltzmann’s fluctuation account separately from the contemporary Past Hypothesis terminology.",
+      "limitation": "The Past Hypothesis is a current philosophical framing, not a label used by Loschmidt in 1876 or necessarily a complete description of Boltzmann’s evolving views.",
+      "required_edit": "The article now separates the modern boundary-condition approach from the historical objection and notes Boltzmann’s distinct fluctuation proposal."
+    },
+    {
+      "material_claim": "The Boltzmann H-theorem is not a conclusion of reversible mechanics without kinetic assumptions; the Stoßzahlansatz/molecular-chaos assumption contributes time asymmetry.",
+      "source_title": "Boltzmann’s Work in Statistical Physics",
+      "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+      "exact_location": "§3.2, discussion of the special assumptions in the H-theorem and the Stoßzahlansatz; §3.3, final paragraph on Burbury (1894a) and Bryan (1894) identifying its time-asymmetric role.",
+      "relationship": "supports_with_qualification",
+      "finding": "The source supports the article’s qualification that the H-theorem has assumptions beyond reversible microscopic mechanics. It presents the interpretation and historical identification of the Stoßzahlansatz as part of scholarly analysis, not as an uncontroversial exhaustive list of every assumption.",
+      "limitation": "This audit did not reproduce the kinetic derivation; ‘molecular chaos’ is a common explanatory label but does not mean random behavior in an unrestricted everyday sense.",
+      "required_edit": "The article now names the Stoßzahlansatz/molecular-chaos assumption and denies that the H-theorem follows from reversible mechanics alone."
+    },
+    {
+      "material_claim": "The Poincaré recurrence theorem and Zermelo’s 1896 recurrence objection are distinct from Loschmidt’s velocity-reversal objection.",
+      "source_title": "Poincare Recurrence Theorem (1890–1897)",
+      "source_url": "https://www.math.umd.edu/~lvrmr/History/Recurrence.html",
+      "exact_location": "Opening two paragraphs, which identify Poincaré’s theorem (1890), state its recurrence consequence for bounded fixed-energy systems, and describe Zermelo’s use of it in 1896; cross-check Uffink §1.2 and Callender §3 for the separate Loschmidt/reversibility versus Zermelo/recurrence labels.",
+      "relationship": "supports",
+      "finding": "The distinction and chronology are supported: Poincaré’s mathematical recurrence result is not itself Loschmidt’s reversal construction; Zermelo made a separate 1896 objection based on recurrence.",
+      "limitation": "The Maryland page is a concise educational account, not the primary mathematical publication or Zermelo’s paper. The article does not assert detailed theorem conditions beyond bounded mechanical systems.",
+      "required_edit": "The article now explicitly separates recurrence from velocity reversal and identifies Zermelo’s 1896 objection as distinct."
+    },
+    {
+      "material_claim": "Loschmidt’s objection is historically associated with a 1876 publication and Boltzmann’s immediate response with 1877; Boltzmann’s probability/multiplicity paper is a separate 1877 work.",
+      "source_title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+      "source_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+      "exact_location": "Darrigol early draft §1 and §2; footnote 1 identifies Loschmidt 1876 and Boltzmann 1877a, pp. 116–122. Uffink, SEP, §§3.3–4, distinguishes 1877a response from 1877b permutational argument; Callender’s SEP bibliography identifies Loschmidt 1876/1877 and Zermelo 1896.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article’s formerly approximate ‘1870s’ dating was safe but uninformative. The revised chronology is precise about the core publication and reply while avoiding a claim that this was the first-ever anticipation of the general idea.",
+      "limitation": "William Thomson anticipated aspects of the paradox earlier (Darrigol note 4); the article focuses on Loschmidt’s historically named objection, not priority for every related insight.",
+      "required_edit": "The article now identifies Loschmidt’s 1876 publication and Boltzmann’s 1877 immediate reply, and lists Zermelo’s 1896 objection separately."
+    },
+    {
+      "material_claim": "The claims that velocity reversal of every molecule is practically infeasible and that the objection does not demonstrate routine entropy decreases are properly qualified as a practical point, not as a rebuttal to its mathematical possibility.",
+      "source_title": "Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation",
+      "source_url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+      "exact_location": "Darrigol early draft §1 commentary after the translated Loschmidt passage (the reversal is a conceivable but not practically feasible undoing of history); footnote 6 notes concrete Loschmidt-return analogues in some systems, citing Hahn (1950) and Waugh, Rhim, and Pines (1972).",
+      "relationship": "supports_with_qualification",
+      "finding": "The full-system exact reversal is highly special and not a practical operation for an ordinary gas, but controlled Loschmidt-return/echo phenomena exist in some systems. The article’s revised wording avoids treating practical impossibility as nomological impossibility.",
+      "limitation": "The cited experiments are identified in Darrigol’s note but were not independently retrieved or assessed for experimental details; the article does not make a claim about any specific implementation.",
+      "required_edit": "The article now calls the reversal extraordinarily fine-tuned and impractical for a macroscopic gas rather than claiming that the reversed state is impossible."
+    },
+    {
+      "material_claim": "Boltzmann’s response and the interpretation of its probability assumptions remain disputed rather than constituting an uncontested consensus solution.",
+      "source_title": "Boltzmann’s Work in Statistical Physics",
+      "source_url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+      "exact_location": "Introduction §§1.2–1.3 reports divided views on Boltzmann’s work; §3.3 states that Boltzmann’s response varied and is difficult to interpret, and explains criticisms of the immediate reply; §4 details the subsequent approach.",
+      "relationship": "supports",
+      "finding": "The source documents interpretive disagreement and limitations; the article now avoids claiming that the probabilistic reply simply resolves Loschmidt’s objection.",
+      "limitation": "The account is one scholar’s detailed interpretation; recording its existence does not establish a field-wide consensus or exhaustive review of scholarship.",
+      "required_edit": "The article now says the adequacy and historical relation of the replies remain subjects of discussion."
+    },
+    {
+      "material_claim": "The broken-egg and cosmology questions are editorial teaching prompts, not historical claims attributed to Loschmidt or Boltzmann.",
+      "source_title": "Assigned article; checked against cited source scope",
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "exact_location": "Article §6, questions 1–4; source comparison with Callender §§3–3.1, which treats the thermodynamic arrow and Past Hypothesis but does not establish these questions as Loschmidt quotations or historical variants.",
+      "relationship": "context_only",
+      "finding": "These are educational prompts authored for the entry. Their subject matter overlaps the source, but no attribution to historical authors is made or warranted.",
+      "limitation": "This is an editorial classification, not a factual claim made by the cited physics sources.",
+      "required_edit": "The revised article labels the questions as teaching prompts rather than claims attributed to Loschmidt or Boltzmann."
+    },
+    {
+      "material_claim": "The article’s dataset record identifies the matching entry as physics, Loschmidt’s Reversibility Objection, and cites the same SEP page for reversibility, statistical reply, and low-entropy initial conditions.",
+      "source_title": "Project dataset record and expansion record",
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/",
+      "exact_location": "data/experiments.json object id loschmidt-reversibility (fields id, title, category, original_publication, references, file_path, summary); research/expansion.md lines 5–9 and 79 record that the SEP URL was requested and topic keyword-counted, not read in full during expansion.",
+      "relationship": "supports_with_qualification",
+      "finding": "The object matches the assigned article identity, category, and summary, and its sole reference is the entry’s original SEP citation. The expansion record correctly warns that the original source was only topic-checked at that stage. The article now lists additional consulted reading; those additions were not synchronized into the dataset because that file was outside authorization.",
+      "limitation": "The dataset’s original_publication field remains broad (‘1870s’) and is not a claim-level citation. No dataset or expansion file was changed.",
+      "required_edit": "No dataset edit made. Article citations and Sources and Attribution now record the more precise sources accessed; future dataset synchronization is outside this task."
+    }
+  ],
+  "edits_made": [
+    "Replaced the unqualified corner-gas account with a clearly labeled teaching illustration and stated the exact dynamical reversal conditions.",
+    "Specified that the entropy decrease concerns Boltzmann macro-entropy and distinguished it from fine-grained Gibbs entropy.",
+    "Narrowed the inference to the inability of reversible mechanics alone to yield universal monotonic entropy increase on every allowed trajectory.",
+    "Separated Boltzmann’s immediate 1877 reply from the later 1877b multiplicity argument; qualified probability assumptions and recorded the interpretive dispute.",
+    "Distinguished the modern Past Hypothesis from Loschmidt’s objection and from Boltzmann’s fluctuation cosmology.",
+    "Added the H-theorem’s kinetic-assumption qualification and differentiated Poincaré recurrence/Zermelo’s 1896 argument from Loschmidt’s reversal objection.",
+    "Updated the historical date line, further reading, and source-access note; labeled reflection questions as editorial teaching prompts.",
+    "Updated the source note to record that p. 139 of the original Loschmidt scan was directly read during independent follow-up; the rest of the paper was not read.",
+    "Synchronized the dataset references, publication wording, and verification date with the article."
+  ],
+  "unresolved": [
+    "Only p. 139 of the original Loschmidt paper was directly read; the rest of the paper was not.",
+    "Full published Darrigol text was unavailable; relevant passages were read in an openly accessible early draft.",
+    "Historical and foundational interpretations remain disputed; no exhaustive literature review or expert review is claimed."
+  ],
+  "dataset_alignment": "After the audit, the matching dataset record’s identity, updated publication wording, verification date (2026-11-01), and all three references match the article. The article’s Further Reading URLs and dataset reference URLs are identical.",
+  "further_reading_matches": true,
+  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-loschmidt-reversibility.json",
+  "audit_metadata": {
+    "review_date": "2026-11-01",
+    "reviewer_type": "Agent source audit; no named human expert review",
+    "protocol_version": "Approved local Source-review standard dated 2026-11-01",
+    "preservation_and_scope": "Only the assigned article and the unique ledger file were written. data/experiments.json, the expansion record, other articles, and common files were not edited. No staging, commit, or push performed."
+  },
+  "review_date": "2026-11-01",
+  "protocol": "research/source-review-standard.md",
+  "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+  "selection_rank": 3,
+  "risk_reason": "The entry compresses technical statistical-mechanics and historical claims about exact velocity reversal, entropy, Boltzmann’s replies, and recurrence, initially using only a topic-checked secondary source.",
+  "audit_focus": "Check the dynamics and entropy claims, distinguish Boltzmann’s separate arguments and modern boundary-condition accounts, and verify chronology and the Poincaré/Zermelo distinction.",
+  "independent_review": {
+    "initial_outcome": "issues_found",
+    "initial_summary": "The first independent recheck found the substantive claims supported and identified that p. 139 of the original Loschmidt scan was directly readable, making the article’s prior statement that the scan could not be text-extracted stale. It also found two article Further Reading URLs missing from the dataset; full Darrigol text remained unavailable, but the article’s access qualification was accurate.",
+    "initial_findings": [
+      {
+        "severity": "minor",
+        "finding": "The original Loschmidt scan’s p. 139 was directly readable in the independent recheck, so the article’s access note was stale.",
+        "resolution": "Updated the article to state that p. 139 was read directly during follow-up and that the rest of the paper was not read; updated the ledger source access record."
+      },
+      {
+        "severity": "minor",
+        "finding": "Two article Further Reading URLs were missing from dataset references.",
+        "resolution": "Added both matching source records; final URL comparison confirms exact alignment."
+      },
+      {
+        "severity": "access_limit",
+        "finding": "The published Darrigol article’s full text was behind subscription access.",
+        "resolution": "Retained the limitation and attributed the relevant material to an accessible early draft and other sources."
+      }
+    ],
+    "follow_up": "Article source note and item ledger now accurately record direct reading of Loschmidt p. 139 only. Dataset references and article Further Reading lists now match exactly.",
+    "final_outcome": "clear",
+    "final_status": "source_checked",
+    "sources_reopened": [
+      "Loschmidt scan, p. 139",
+      "Darrigol accessible early draft, translated/commentary passages",
+      "Callender, Thermodynamic Asymmetry in Time, §3",
+      "Uffink, Boltzmann’s Work in Statistical Physics, §§3.2–3.3 and §4",
+      "Boltzmann 1877b English translation, §V"
+    ],
+    "remaining_limitations": [
+      "Only p. 139 of the original Loschmidt paper was directly read; the rest of the paper was not.",
+      "Full published Darrigol text was unavailable; relevant passages were read in an openly accessible early draft.",
+      "Historical and foundational interpretations remain disputed; no exhaustive literature review or expert review is claimed."
+    ]
+  }
+}

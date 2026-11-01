@@ -1,0 +1,231 @@
+{
+  "id": "sea-battle",
+  "title": "Aristotle’s Sea Battle",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/time-and-causality/sea-battle.md",
+  "status": "source_checked",
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+  "protocol_version": "Approved source-review standard, 2026-11-01",
+  "scope": "Claim-level audit of article sections 1–10 and associated publication/source claims: scenario and fatalist inference; Aristotle’s response and contested attribution; bivalence, excluded middle, and the summaries of three-valued/truth-gap, branching-time, supervaluationist, Ockhamist, and Peircean approaches; contemporary extensions; editorial framing. Checked against the complete relevant passage of De Interpretatione 9, the cited SEP entry's relevant sections, and a full-text scholarly discussion of interpretive disagreement. This status concerns evidence traceability, not philosophical soundness, consensus, exhaustive literature coverage, or expert review.",
+  "summary": "The primary chapter, relevant SEP sections, and a scholarly analysis support the article’s account of Aristotle’s fatalist inference, response, and later semantic frameworks. The Ockham passage now specifies that future truth is unknowable to humans but known by God, as SEP §5.1 states. Targeted independent review found no remaining material issue; article and dataset Further Reading URLs match.",
+  "sources": [
+    {
+      "title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+      "author": "Aristotle; translation in The Complete Works of Aristotle, edited by Jonathan Barnes",
+      "publication": "The Complete Works of Aristotle, vol. 1, Revised Oxford Translation; chapter 9, Bekker 18a28–19b4 (primary text; translation hosted by University of St Andrews)",
+      "stable_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+      "source_type": "Primary philosophical work in translation",
+      "access_level": "Full text of chapter 9 read, including the opening bivalence discussion, fatalist argument, sea-battle example, reply on deliberation and potentiality, and concluding distinction about contradictories.",
+      "exact_locations_read": "De Interpretatione 9, Bekker 18a28–19b4; especially 18a28–18b16 (past/present contrast and fatalist argument), 18b17–19a22 (necessity, chance, deliberation, and potentiality), 19a23–39 (necessary disjunction but neither outcome necessary; truth-status conclusion). Cross-checked against MIT Classics' E. M. Edghill translation, Part 9, at https://classics.mit.edu/Aristotle/interpretation.1.1.html, including paragraphs from “In the case of that which is or which has taken place” through “not necessary that of an affirmation and a denial one should be true and the other false.”",
+      "limitations": "Translation evidence establishes what this text says, not which modern interpretation is correct or whether Aristotle's argument succeeds. Translation wording varies; the St Andrews page reproduces the Revised Oxford Translation and is a host rather than the edition publisher. The work is conventionally dated to the fourth century BCE; no precise composition date was checked."
+    },
+    {
+      "title": "Future Contingents",
+      "author": "Peter Øhrstrøm and Per Hasle",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 2011, substantive revision 11 July 2024",
+      "stable_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full sections read from the complete entry: Aristotle background, formalization of the classical argument, branching-time semantics, Łukasiewicz three-valued semantics, Peircean solution, Prior's Ockhamist solution, supervaluationism, and conclusion/classification.",
+      "exact_locations_read": "Sections 1 (discussion of Aristotle and the sea-battle, with reference to De Interpretatione 18b23 ff.), 2 (P1–P5 formalization and fatalist inference), 3 (branching time and histories/chronicles), 4.1 (Łukasiewicz), 4.2 (Peircean models), 5.1 (Prior's Ockhamist model and William of Ockham), 5.4 (supervaluationism), and 6 (classification/disagreement).",
+      "limitations": "Secondary overview, not a substitute for the primary text. It presents a structured taxonomy of positions rather than a consensus survey; classifications and terminology are the authors' chosen framework. It records disagreement but cannot establish that all scholars agree on any one Aristotle interpretation."
+    },
+    {
+      "title": "Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?",
+      "author": "M. A. Istvan Jr.",
+      "publication": "Ideas y Valores, vol. 63, no. 155 (May–August 2014); DOI: 10.15446/ideasyvalores.v63n155.33178",
+      "stable_url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+      "source_type": "Scholarly journal article / secondary philosophical analysis",
+      "access_level": "Full English-language article read from the accessible SciELO full-text page, including the abstract, argument about bivalence/LEM/RCP, quoted Aristotelian passages, interpretation, conclusion, and bibliography.",
+      "exact_locations_read": "Abstract; sections I–III, especially the discussion of alternative readings at article paragraphs 92–110; passages on De Interpretatione 18a28–33 and 18b27–30 at paragraphs 118–156; and conclusion at paragraphs 260–262. Full text: https://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00622014000200002",
+      "limitations": "This is one author's argued interpretation, not a consensus statement. It argues that Aristotle restricts bivalence while retaining excluded middle, and distinguishes this from rival accounts; its claims are used as evidence of a live interpretive position, not adopted as settled fact."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "Aristotle's De Interpretatione chapter 9 is the original ancient text associated with the sea-battle puzzle, dated approximately to the fourth century BCE.",
+      "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+      "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+      "exact_location": "Chapter 9, Bekker 18a28–19b4; the SEP entry's section 1 also identifies Aristotle as 384–322 BCE and De Interpretatione IX as the relevant text.",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary chapter is the relevant source and explicitly discusses statements about a sea-battle tomorrow. The fourth-century BCE period is consistent with Aristotle's lifetime and is an approximate historical dating, not an exact composition date.",
+      "limitation": "The primary passage itself does not date its composition; the period is a conventional historical estimate.",
+      "required_edit": "No edit required; retain approximate-period qualification."
+    },
+    {
+      "material_claim": "The article's setup—today's assertion that a sea-battle will occur tomorrow and its contradictory alternative—is the case Aristotle discusses.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Section 1, paragraph beginning “Central to the discussion…”; quotes both “Tomorrow there will be a sea-battle” and its negation. Primary text: De Interpretatione 9, 18a34–18b4 and 19a23–31.",
+      "relationship": "supports",
+      "finding": "The source directly identifies the paired sea-battle propositions and locates the issue in Aristotle's chapter. The article's “someone says today” is explanatory setup, not a quotation or claim that Aristotle gives that exact dialogue.",
+      "limitation": "The article is a modern paraphrase; its introductory wording is not presented as a verbatim translation.",
+      "required_edit": "No edit required; framing is editorial and is described as a supposition."
+    },
+    {
+      "material_claim": "If future affirmations and denials must already be true or false, the fatalist inference makes the event or its absence necessary and excludes chance/contingency.",
+      "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+      "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+      "exact_location": "18a34–18b16: Aristotle sets out the conditional bivalence/necessity reasoning and says it yields that nothing occurs by chance and all is necessary; compare SEP section 2, principles P1–P5 and steps (1)–(8).",
+      "relationship": "supports_with_qualification",
+      "finding": "The chapter explicitly lays out the fatalist consequence as a reductio and says a true future assertion cannot fail to happen. The article's concise “if true … cannot fail; if false … cannot occur” summarizes the result, but compresses the premises: the formal classical argument also requires assumptions about past truth/necessity and the future-excluded-middle principle, and not only a bare bivalence principle.",
+      "limitation": "The secondary literature disputes the best formal reconstruction of Aristotle's argument; Istvan distinguishes readings based on bivalence, excluded middle, or the rule that one of a contradictory pair must be true and the other false.",
+      "required_edit": "Clarified §§3 and 5 to distinguish bivalence from excluded middle and identify the additional assumptions; no change to the basic scenario needed."
+    },
+    {
+      "material_claim": "On the fatalist inference, deliberation and effort are pointless because a remote prediction would already fix the outcome.",
+      "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+      "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+      "exact_location": "18b27–19a7, especially the paragraph beginning “So there would be no need to deliberate…”; MIT Edghill translation, Part 9, paragraph beginning “These awkward results…”.",
+      "relationship": "supports",
+      "finding": "Aristotle explicitly presents the loss of deliberation and effort as one of the absurd consequences of the fatalist position, including a prediction made ten thousand years earlier.",
+      "limitation": "This is the consequence of the position under discussion, not a claim that Aristotle endorses the conclusion.",
+      "required_edit": "No edit required; article marks this as what “seems” to follow."
+    },
+    {
+      "material_claim": "Aristotle replies that deliberation/action can be causative, future possibilities can run in either direction, and the battle-or-no-battle disjunction is necessary without either disjunct being necessary.",
+      "source_title": "On Interpretation, chapter 9 (Revised Oxford Translation)",
+      "source_url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+      "exact_location": "18b17–19a39; especially 18b17–25 on deliberation and potentiality, and 19a23–39 on the necessary disjunction and non-necessity of either outcome. Cross-check: MIT Edghill translation, Part 9, paragraphs beginning “Yet this view leads…” and “Let me illustrate.”",
+      "relationship": "supports",
+      "finding": "The text says that deliberation and action are causative, that some future events have possibilities of being and not being, and that it is necessary that a sea-battle either occur or not while neither occurrence nor non-occurrence is necessary. The article's new §3 summary accurately states that distinction.",
+      "limitation": "The text's final wording about whether one member is “not already true or false” is itself interpretively difficult; translating that passage does not settle whether Aristotle endorses truth-value gaps.",
+      "required_edit": "Added the explicit distinction between the necessary disjunction and non-necessity of either outcome in §3."
+    },
+    {
+      "material_claim": "Whether bivalence applies to contingent future statements is distinct from whether excluded middle (p or not-p) holds; rejecting bivalence does not automatically require revising all ordinary logic.",
+      "source_title": "Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?",
+      "source_url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+      "exact_location": "Sections I–II, especially paragraphs 98–110 distinguishing PB (bivalence), LEM (excluded middle), and RCP (one contradictory true, the other false); Aristotle's statement at 19a27 is discussed in paragraph 106.",
+      "relationship": "supports_with_qualification",
+      "finding": "Istvan directly distinguishes these principles and argues that Aristotle restricts bivalence but retains LEM; he also describes rival readings. SEP section 2 separately formalizes future excluded middle as P5 and identifies multiple premises. This supports the distinction and shows why the old claim that logic “must be revised” was too blunt.",
+      "limitation": "Istvan's proposed interpretation is one contested scholarly argument, not a settled verdict. The entry's revised language presents it as one influential reconstruction rather than the only reading.",
+      "required_edit": "Rewrote §3 to distinguish bivalence from excluded middle, add the past-truth/necessity assumptions, and avoid claiming that ordinary logic as a whole must be revised."
+    },
+    {
+      "material_claim": "Three-valued/truth-value-gap accounts assign future contingents no present true/false value (or an undetermined value), and this is one reading associated with Aristotle rather than an uncontested attribution.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Section 4.1, paragraphs beginning “Łukasiewicz's interpretation…” and “This truth-value, ‘undetermined’…”; section 1 describes the interpretive problems as non-simple. Istvan, section I and paragraph 148, argues for restricting bivalence in Aristotle.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP explicitly attributes a three-valued interpretation of Aristotle to Łukasiewicz and says a contingent sea-battle proposition may be undetermined today. The secondary article argues Aristotle himself restricts bivalence, but also maps rival readings. Thus the article's hedge “often attributed … on one reading” is warranted.",
+      "limitation": "This is a disputed historical interpretation; truth-value-gap semantics and assigning a third truth-value are related but not identical formulations, and the sources do not establish a scholarly consensus.",
+      "required_edit": "Retained the qualification but clarified in §4 that these are later semantic frameworks, not labels Aristotle himself used."
+    },
+    {
+      "material_claim": "Branching-time semantics represents multiple possible histories branching from a moment and evaluates future statements against those histories.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Section 3, especially the description of a tree of possible futures, the definition of a model using histories/chronicles, and the explanation that truth values of formulas may vary with the chronicle; see also section 5.1 for branch-relative truth.",
+      "relationship": "supports",
+      "finding": "The SEP describes branching-time structures as sets of histories/chronicles and distinguishes truth relative to a chronicle from truth settled at a moment. The former article's shared gloss of branching-time and supervaluationist positions as “true or false only relative to how things go” conflated distinct treatments; the revised entry separates them.",
+      "limitation": "Branching-time is a family of semantic frameworks, not a single truth-value policy; the source describes multiple competing models.",
+      "required_edit": "Replaced the combined, overly broad claim in §4 with a concise separate description of branching-time semantics."
+    },
+    {
+      "material_claim": "Supervaluationism treats a contingent future statement as neither true nor false at a branching moment when histories disagree, while allowing future excluded middle to be true.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Section 5.4, definition of truth at a moment by supervaluating across every chronicle, the following passage on future contingents lacking truth-values, and the paragraph explaining that P5 is accepted while P3 is rejected.",
+      "relationship": "supports",
+      "finding": "This section directly supports the revised description: a proposition is true at a moment only if true on every chronicle and false only if false on every chronicle; a contingent proposition can therefore be neither, while its disjunction with its negation is true. This is not the same as saying the proposition is simply true or false relative to whichever outcome happens.",
+      "limitation": "The SEP presents Thomason's account as one modern theory; further debates about the adequacy of supervaluationism are outside this audit.",
+      "required_edit": "Separated supervaluationism from branching-time semantics and added its truth-gap / excluded-middle distinction in §4."
+    },
+    {
+      "material_claim": "Prior's Ockhamist model permits branch-relative future truth without settled truth and rejects the necessity-of-the-past premise; this model should not be conflated with William of Ockham's own doctrine.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Section 5.1, opening definition of Prior's Ockhamist system (accepts P5, rejects P3), the explanation of Ockham(t,c,p) as true at a moment in a chronicle, and the final paragraphs distinguishing Prior's model from William of Ockham's true-future doctrine.",
+      "relationship": "supports",
+      "finding": "The SEP directly supports the refined wording. It also shows the original blanket claim “Ockhamist views say the sentence is already true or false” was underspecified: Prior's model assesses plain truth relative to a chronicle, while Ockham's historical position involves a true/false future known by God. The claim that this is simply a truth “not a necessity” was not an adequate description of the semantics.",
+      "limitation": "The SEP notes that Prior's system may not fully represent William of Ockham's view; scholarship also uses “Ockhamism” in more than one sense.",
+      "required_edit": "Replaced the compressed Ockhamist gloss in §4 with a distinction between Prior's model and William of Ockham's doctrine."
+    },
+    {
+      "material_claim": "In Prior's Peircean model, genuinely contingent future p and future not-p claims are both false; this is a later semantic position, not Aristotle's stated solution.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Sections 4 and 4.2, particularly the paragraphs after the Peircean valuation clauses: a future statement is true in the Peircean sense only if it holds in all possible futures; if F(x)q is contingent then it and F(x)~q are false, so future excluded middle fails in that model.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article's original short account is substantively correct for Prior's Peircean account of genuinely contingent future-tense claims, but it needed attribution and scope: the model defines “will p” with a strong across-histories condition, and the SEP notes that “will not p” is not equivalent to “not will p.” The revised text limits the claim to Prior's model and contingent claims.",
+      "limitation": "Natural-language paraphrases may obscure the model's distinction between F(not-p) and not-F(p); do not generalize the result to every proposition expressed with “will.”",
+      "required_edit": "Qualified the statement in §4 to name Prior's Peircean model and specify genuinely contingent p / not-p claims."
+    },
+    {
+      "material_claim": "Scholars disagree about whether Aristotle accepts truth-value gaps or instead preserves bivalence while restricting a related contradictory-pair rule.",
+      "source_title": "Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?",
+      "source_url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+      "exact_location": "Sections I–III, paragraphs 98–110 (alternative interpretations), 118–160 (Istvan's argument for bivalence restriction and reply to Whitaker), and footnotes 1–12; SEP sections 1 and 4.1 also describe interpretative problems and the Łukasiewicz reading.",
+      "relationship": "supports",
+      "finding": "The article explicitly develops competing readings and explains that authors disagree about whether Aristotle restricts bivalence, excluded middle, or the rule for contradictory pairs. This validates the entry's caution and justifies not asserting one interpretation as settled.",
+      "limitation": "One article and one reference-work entry establish that disagreement exists but do not measure its breadth or identify a consensus; no consensus claim is made here.",
+      "required_edit": "Kept the interpretive caveat and made it more precise in §5; no claim that the audit settles Aristotle's view."
+    },
+    {
+      "material_claim": "Contemporary extensions involving free decisions and divine foreknowledge are modern applications/variants rather than the literal scenario in Aristotle's chapter.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Section 1, paragraphs on the theological problem of divine foreknowledge and free choices, and the introduction describing the broader domains of theology, logic, and semantics.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP directly discusses the theological foreknowledge/free-choice problem and distinguishes it from the basic future-contingent question. This supports the article's note that later versions bring theological premises, but the article's exact phrasing “modern versions” is editorial compression.",
+      "limitation": "The consulted section describes a broader debate, not an exhaustive inventory of all modern thought experiments.",
+      "required_edit": "No edit required; the existing note already labels these as modern versions and separates theological premises."
+    },
+    {
+      "material_claim": "The named SEP Further Reading reference is relevant to the entry's topic and semantic positions.",
+      "source_title": "Future Contingents",
+      "source_url": "https://plato.stanford.edu/entries/future-contingents/",
+      "exact_location": "Entry sections 1–6, especially 1–2 (Aristotle and fatalist argument), 3–5 (logical/semantic responses), and 6 (classification).",
+      "relationship": "supports",
+      "finding": "The exact cited entry directly treats De Interpretatione 9, the sea-battle argument, and the main logical and metaphysical responses named in the article. Its fit is established from relevant full sections, not merely the expansion record's one occurrence of the phrase “sea battle.”",
+      "limitation": "A topical match does not alone support every individual article claim; those claims were separately checked above.",
+      "required_edit": "No edit required; keep the SEP as Further Reading and cite it as a secondary overview."
+    }
+  ],
+  "edits_made": [
+    "Section 3: separated bivalence from excluded middle, qualified the fatalist assumptions, avoided implying that rejection of bivalence requires revising ordinary logic wholesale, and stated Aristotle's necessary-disjunction / non-necessity distinction.",
+    "Section 4: labeled the semantic accounts as later frameworks; distinguished branching time from supervaluationism; clarified Prior's Ockhamist model versus William of Ockham; narrowed the Peircean claim to Prior's model and genuinely contingent statements.",
+    "Section 5: clarified that the inference from truth/falsity to necessity/impossibility is contested and that Aristotle's interpretation remains disputed across bivalence and contradictory-pair readings.",
+    "Corrected the Ockham qualification to distinguish human knowledge from divine knowledge, as described in SEP §5.1.",
+    "Added the consulted primary translation and Istvan analysis to Further Reading, updated the source note, and synchronized the dataset references and verification date."
+  ],
+  "unresolved": [
+    "Aristotle’s intended account of future-contingent truth remains disputed; the audit records but does not resolve competing readings.",
+    "No claim of philosophical soundness, consensus, exhaustive literature review, or expert review is made."
+  ],
+  "dataset_alignment": "After the audit, the matching dataset record’s identity, approximate publication date, verification date (2026-11-01), and all three references match the article. The article lists the SEP, Aristotle’s primary chapter in translation, and Istvan’s scholarly analysis; the dataset URLs are identical.",
+  "further_reading_matches": true,
+  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-sea-battle.json",
+  "protocol": "research/source-review-standard.md",
+  "selection_rank": 5,
+  "risk_reason": "The entry combines Aristotle’s formal fatalist argument with contested later semantic frameworks, while the primary chapter had not initially been retrieved and the expansion keyword count for “sea battle” was one.",
+  "audit_focus": "Verify the primary chapter, distinguish bivalence from excluded middle, check Aristotle versus later interpreters, and verify the Ockhamist and Peircean summaries.",
+  "independent_review": {
+    "initial_outcome": "issues_found",
+    "initial_summary": "The first read-only review found the entry source-traceable but noted that “unknowable true future” could imply that future truth is unknowable to everyone; SEP §5.1 says humans cannot know it, while God does. It also noted article/dataset URL mismatch before the additional references were synchronized.",
+    "initial_findings": [
+      {
+        "severity": "minor",
+        "finding": "The phrase “William of Ockham’s own doctrine of an unknowable true future” was underspecified.",
+        "resolution": "Reworded to say the truth is unknowable to humans but known by God."
+      },
+      {
+        "severity": "minor",
+        "finding": "Only the SEP URL was initially in the dataset while the article had a single Further Reading entry.",
+        "resolution": "Added the primary translation and Istvan analysis as Further Reading, updated dataset references; exact URL equality verified."
+      }
+    ],
+    "follow_up": "Targeted independent final review verified the revised human/God distinction against SEP Future Contingents §5.1 and recommended source_checked; it found no remaining material issue. Article source note and Further Reading now record the texts actually consulted.",
+    "final_outcome": "clear",
+    "final_status": "source_checked",
+    "sources_reopened": [
+      "Aristotle, On Interpretation 9, Revised Oxford Translation, Bekker 18a28–19b4",
+      "SEP Future Contingents, §§1–6, especially §5.1",
+      "Istvan, Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?, relevant sections"
+    ],
+    "remaining_limitations": [
+      "Aristotle’s intended account of future-contingent truth remains disputed; the audit records but does not resolve competing readings.",
+      "No claim of philosophical soundness, consensus, exhaustive literature review, or expert review is made."
+    ]
+  }
+}

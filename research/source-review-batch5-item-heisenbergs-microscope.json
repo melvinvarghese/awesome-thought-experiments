@@ -1,0 +1,241 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "heisenbergs-microscope",
+  "title": "Heisenberg’s Microscope",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/physics/heisenbergs-microscope.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: the original gamma-ray microscope setup and assumptions; Heisenberg’s heuristic estimate versus Kennard’s formal state-preparation inequality; measurement disturbance versus state-preparation uncertainty; Heisenberg’s report of Bohr’s critique; and later measurement-disturbance work and experiment. Article prose revised only where necessary for source accuracy. This status records source traceability, not truth of disputed interpretations, consensus, exhaustive literature coverage, or expert approval.",
+  "summary": "Heisenberg’s relevant 1927 passages, the SEP treatment, and the cited experiment support the revised distinctions between the microscope’s approximate δqδp ∼ h estimate, the Kennard state-preparation inequality, and error–disturbance relations. The article qualifies aperture, recoil direction, Bohr’s reported objection, and the experiment’s scope. Independent review found no material issue.",
+  "sources": [
+    {
+      "title": "The Physical Content of Quantum Kinematics and Mechanics (translation of Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik)",
+      "author": "Werner Heisenberg",
+      "publication": "Zeitschrift für Physik 43 (1927), 172–198; English translation consulted in a reproduced PDF",
+      "stable_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "source_type": "Primary work, English translation",
+      "access_level": "Selected relevant excerpts from a parsed full-text PDF; the PDF was parsed, not merely downloaded, but the entire article was not read cover to cover",
+      "exact_locations_read": "§1, position/microscope discussion (translation page marked 65; SEP identifies the corresponding original discussion at journal pages 174–175): operational meaning of position, gamma-ray microscope, Compton scattering/recoil, approximate δpδq relation. “Addition in Proof” (translation excerpt page marked 83): Heisenberg reports Bohr’s objection that uncertainty is not exclusively due to discontinuity and that the necessary divergence of the ray bundle leaves the Compton recoil direction spread; the opening and conclusion around this passage were also extracted.",
+      "limitations": "This is a third-party reproduction of the English translation, not the original German journal copy. Only relevant passages were read. Bohr’s view is directly available here as Heisenberg’s contemporaneous report, not as Bohr’s own 1927 text. The original article’s δp and δq are not given a general standard-deviation definition, and the estimate is semi-quantitative rather than Kennard’s inequality."
+    },
+    {
+      "title": "The Uncertainty Principle",
+      "author": "Jan Hilgevoord and Jos Uffink",
+      "publication": "The Stanford Encyclopedia of Philosophy, Spring 2024 edition; Metaphysics Research Lab, Stanford University; originally published 2001, archived edition cited for stability",
+      "stable_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full HTML entry were read; targeted extracts cover complete pertinent sections and passages, not only the abstract or metadata",
+      "exact_locations_read": "§2.2, “Heisenberg’s argument”: operational setup, microscope, δpδq ∼ h, and account of Bohr’s Addition in Proof; §2.5, “Mathematical elaboration”: Kennard’s 1927 ΔψPΔψQ ≥ ℏ/2 theorem, standard-deviation definitions, and distinction from Heisenberg’s semi-quantitative account; §4, “The Minimal Interpretation”: state spreads and whether interpretations assign definite values; §6 and §6.1, “The recent debate on error-disturbance relations”: distinction from preparation uncertainty, controversy, and Ozawa / Busch–Lahti–Werner proposals. The expanded §2.2 excerpt also gives the aperture/resolution and photon-direction uncertainty account in Heisenberg’s 1930 lectures.",
+      "limitations": "A secondary reference work, not a primary source; it interprets the historical texts. Its treatment supports traceability and conceptual distinctions, not a claim that one interpretation is uniquely correct. The archived 2024 page is used as stable citation; the article still links the current SEP entry."
+    },
+    {
+      "title": "Another look through Heisenberg’s microscope",
+      "author": "Stephen Boughn and Marcel Reginatto",
+      "publication": "arXiv:1712.08579v1 [quant-ph], 22 December 2017 (preprint version consulted)",
+      "stable_url": "https://arxiv.org/html/1712.08579v1",
+      "source_type": "Scholarly secondary analysis / preprint",
+      "access_level": "Relevant passages from the full HTML paper were read, including its abstract, introduction, and microscope discussion in §2",
+      "exact_locations_read": "Abstract; §1 Introduction: historical aim of Heisenberg’s paper, Heisenberg’s use of the microscope, and the authors’ characterization of the argument as heuristic in relation to the state inequality; §2, “Heisenberg’s Microscope and the Indeterminacy Relations”: microscope setup, the δqδp ∼ h estimate, aperture-based reconstruction, and comparison with Kennard’s relation.",
+      "limitations": "The consulted item is arXiv version 1, a preprint; it is not relied on as the sole authority for any claim. Its broad language about a ‘modern consensus’ is not repeated as a finding here. Its alternative reconstruction and interpretive thesis are not necessary to establish the article’s claims."
+    },
+    {
+      "title": "Experimental violation and reformulation of the Heisenberg's error-disturbance uncertainty relation",
+      "author": "So-Young Baek, Fumihiro Kaneda, Masanao Ozawa, and Keiichi Edamatsu",
+      "publication": "Scientific Reports 3, 2221 (2013), published 17 July 2013; DOI: 10.1038/srep02221",
+      "stable_url": "https://doi.org/10.1038/srep02221",
+      "source_type": "Primary experimental research article",
+      "access_level": "Relevant full-text passages in the PMC-hosted article were read (abstract, introduction, results, and discussion); not metadata or abstract alone",
+      "exact_locations_read": "Abstract and Introduction: single-photon polarization-qubit test of Ozawa’s relation, noting the tested Heisenberg product relation and scope. Results, “Experimental test of error-disturbance relation,” and Fig. 4 discussion: measured error/disturbance quantities and reported outcome across tested measurement strengths. Discussion: the authors’ qualified conclusion that Ozawa’s relation held while the tested Heisenberg relation failed in this model.",
+      "limitations": "This is one experiment using a photon-polarization qubit, an indirect/generalized measurement model, and the authors’ operational definitions. It does not test the gamma-ray microscope, refute the Kennard state-preparation inequality, or establish a universal result about all measurement-disturbance formulations."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The thought experiment is attributed to Werner Heisenberg’s 1927 paper; the English title is “The Physical Content of Quantum Kinematics and Mechanics.”",
+      "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+      "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "exact_location": "Title and opening of the translated paper; the paper’s microscope passage in §1. The SEP §2.2 and Boughn–Reginatto §1 identify the 1927 publication and English title. The original German title is Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.",
+      "relationship": "supports_with_qualification",
+      "finding": "Attribution and year are supported. The article now uses the German title and common English translation rather than treating ‘perceptual content’ as the sole English rendering.",
+      "limitation": "The translation of anschaulich varies; the translated paper is a reproduction, and this audit did not inspect the original German printing.",
+      "required_edit": "Made: corrected the metadata to give the German title and the English translation consulted."
+    },
+    {
+      "material_claim": "Heisenberg considers observing an electron with a microscope illuminated by very short-wavelength, in-principle gamma-ray light to define its position.",
+      "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+      "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "exact_location": "§1, position/microscope discussion, translation page marked 65; SEP §2.2, “Heisenberg’s argument.”",
+      "relationship": "supports",
+      "finding": "The primary text explicitly introduces illumination and observation through a microscope, including the possibility of a gamma-ray microscope, to give operational meaning to electron position.",
+      "limitation": "The microscope is idealized; the article correctly presents it as a thought experiment, not an existing device.",
+      "required_edit": "No separate edit required beyond the revised, source-matched setup description."
+    },
+    {
+      "material_claim": "Shorter wavelength can improve positional resolution, with the microscope aperture also affecting resolution.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§2.2, discussion of Heisenberg’s original microscope and corrected aperture-based account in Heisenberg’s 1930 lectures; equations (6)–(7) relate resolution and angular aperture.",
+      "relationship": "supports_with_qualification",
+      "finding": "Wavelength governs optical resolution, but a wavelength-only account omits the aperture. Article now expressly says aperture matters.",
+      "limitation": "The aperture-based formula is from the later, improved presentation in Heisenberg’s 1930 lectures; it should not be imputed verbatim to the 1927 article’s original rough description.",
+      "required_edit": "Made: added that aperture also matters."
+    },
+    {
+      "material_claim": "Photon scattering transfers momentum to the electron; in the microscope, uncertainty in the scattered photon’s direction produces uncertainty in the electron’s momentum change.",
+      "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+      "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "exact_location": "§1 microscope discussion and “Addition in Proof,” translation pages marked 65 and 83; corroborated by SEP §2.2, which explains Bohr’s point that the recoil change is not precisely determined in the same experiment and the finite-aperture account.",
+      "relationship": "supports_with_qualification",
+      "finding": "Scattering recoil is in the 1927 account, but the initial shorthand ‘uncertain kick’ could obscure Bohr’s correction. The passage in the Addition in Proof reports the necessary beam divergence and the spread in recoil direction. Revised article states the angular-range qualification.",
+      "limitation": "Bohr’s criticism is available in this source through Heisenberg’s report of it. The simple recoil account is heuristic and depends on the observation geometry and assumptions.",
+      "required_edit": "Made: replaced the generic ‘uncertain kick’ with the finite-angular-range/recoil-direction account and attributed the critique as reported by Heisenberg."
+    },
+    {
+      "material_claim": "Heisenberg’s microscope argument gives an order-of-magnitude relation δqδp ∼ h, rather than a general fixed measurement-error/disturbance inequality.",
+      "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+      "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "exact_location": "§1 microscope discussion, relation (1), translation page marked 65; SEP §2.2 labels the imprecisions as of order δpδq ∼ h; §2.5 says Heisenberg supplied a qualitative/semi-quantitative formulation without a general definition of δp and δq.",
+      "relationship": "supports_with_qualification",
+      "finding": "The paper’s microscope estimate is qualitative/semi-quantitative. The original article’s phrase that the product ‘cannot be made smaller than a fixed quantity’ risked presenting it as a precise inequality and confusing disturbance with general uncertainty.",
+      "limitation": "The exact meaning of Heisenberg’s δp and δq is contextual and not standardized as state standard deviations; the estimate is not directly interchangeable with modern error/disturbance definitions.",
+      "required_edit": "Made: replaced the fixed-bound wording with the approximate δqδp ∼ h estimate and stated it is not a general post-measurement bound."
+    },
+    {
+      "material_claim": "The formal standard-deviation relation ΔxΔp ≥ ℏ/2 is a state-preparation constraint, distinct from the microscope’s measurement-disturbance heuristic.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§2.5, “Mathematical elaboration”: Kennard’s 1927 theorem for normalized state vectors, equation (9), standard-deviation definitions (10), and discussion distinguishing this theorem from Heisenberg’s semi-quantitative relation; §4 and §6.1 distinguish state spreads from disturbance by a measurement.",
+      "relationship": "supports",
+      "finding": "The SEP identifies Kennard’s 1927 inequality as the mathematically exact standard-deviation relation and explains that it constrains spreads associated with a state; it is not itself a disturbance relation. The article now states this distinction explicitly.",
+      "limitation": "The exposition uses the conventional position–momentum notation and ℏ/2 form. The source notes that uncertainty relations can use other spread measures, which are not at issue in the article’s stated inequality.",
+      "required_edit": "Made: added the inequality with its standard-deviation/state-preparation meaning and contrasted it with measurement disturbance."
+    },
+    {
+      "material_claim": "The microscope is an intuitive/pedagogical illustration, but its disturbance-first picture does not establish that a particle had simultaneously sharp premeasurement position and momentum.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§2.2 on Heisenberg’s operational/epistemological argument; §4, “The Minimal Interpretation,” on state distributions and the fact that interpretations differ regarding definite values.",
+      "relationship": "supports_with_qualification",
+      "finding": "The microscope was offered as an intuitive account of the relation, but its disturbance narrative can be read as presupposing a prior momentum value. The formal state relation does not settle the ontology of individual values; the SEP describes interpretations that differ.",
+      "limitation": "‘Pedagogically offers an intuitive illustration’ is editorial framing, not a claim about quantified historical public impact. The source does not establish that the microscope alone made the principle historically accessible to a particular audience.",
+      "required_edit": "Made: removed the broader historical claim that the microscope ‘helped make’ the principle accessible and retained it as explicitly pedagogical framing; qualified the definite-values point."
+    },
+    {
+      "material_claim": "Measurement disturbance and the spread of outcomes associated with a prepared state are distinct questions.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§4, “The Minimal Interpretation,” defines uncertainty as spreads in outcomes associated with the same state and notes no measurement disturbance is needed; §6 and §6.1 explicitly contrast preparation uncertainty with error–disturbance questions.",
+      "relationship": "supports",
+      "finding": "This conceptual distinction is stated directly in the SEP and supports the article’s revised framing.",
+      "limitation": "Different authors use varied measures and formulations; the distinction does not imply that state preparation and measurement operations are unrelated in every operational context.",
+      "required_edit": "Made: stated these as distinct questions and avoided presenting them as alternate phrasings of one inequality."
+    },
+    {
+      "material_claim": "Modern error–disturbance relations formalize the measurement question separately, with results depending on definitions and assumptions.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§6 and §6.1: definition of the measurement-uncertainty question; discussion of the controversy and the Ozawa and Busch–Lahti–Werner proposals; §2.5 on why standard deviations are not the same as measurement inaccuracy.",
+      "relationship": "supports_with_qualification",
+      "finding": "The entry describes a separate, controversial literature on error/noise–disturbance inequalities and different proposals. The article’s revised statement avoids implying one universally accepted form.",
+      "limitation": "This entry is not an exhaustive literature review; the article does not name or compare every proposed inequality.",
+      "required_edit": "Made: qualified the distinction by noting dependence on definitions and assumptions."
+    },
+    {
+      "material_claim": "In the 1927 Addition in Proof, Heisenberg reports Bohr’s objection that uncertainty is not attributable solely to the discontinuous recoil; divergence of the ray bundle leaves recoil direction uncertain.",
+      "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+      "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "exact_location": "“Addition in Proof,” translation excerpt page marked 83: Heisenberg acknowledges Bohr’s comments, says uncertainty is not exclusively due to discontinuities, and notes that the necessary divergence of the ray bundle makes the Compton recoil direction uncertain. Corroborating analysis: SEP §2.2, “Heisenberg’s argument.”",
+      "relationship": "supports_with_qualification",
+      "finding": "The primary text explicitly reports the point and frames it as Bohr’s criticism. The article now says ‘Heisenberg reports Bohr’s criticism’ rather than implying that the audit consulted Bohr’s separate text.",
+      "limitation": "This verifies the contemporaneous report and its substance, not every detail of the private exchange or a complete account of Bohr’s complementarity doctrine. The SEP also notes Bohr’s point that the momentum change’s uncertainty in the same experiment matters.",
+      "required_edit": "Made: named the relevant criticism and clearly attributed it as Heisenberg’s report."
+    },
+    {
+      "material_claim": "Later experimental work has tested specific error–disturbance relations; the 2013 Baek et al. photon-polarization experiment reported Ozawa’s relation held while the tested Heisenberg product relation failed across the studied measurement strengths.",
+      "source_title": "Experimental violation and reformulation of the Heisenberg's error-disturbance uncertainty relation",
+      "source_url": "https://doi.org/10.1038/srep02221",
+      "exact_location": "Abstract; Results, subsection “Experimental test of error-disturbance relation”; Fig. 4 description and Discussion. Full text is available at https://pmc.ncbi.nlm.nih.gov/articles/PMC3713528/.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article reports an experimental test on a single-photon polarization qubit and concludes, within its specified model and measurement range, that Ozawa’s relation held while the tested Heisenberg error–disturbance product failed. This supports a qualified example, not an unbounded generalization.",
+      "limitation": "Specific photonic apparatus, operational definitions, and model; this is not an experiment on the gamma-ray microscope or a test of the Kennard state-preparation inequality. It is one result among multiple measurement-disturbance approaches.",
+      "required_edit": "Made: included the named example and confined the claim to the tested operational model and measurement strengths."
+    },
+    {
+      "material_claim": "Heisenberg’s microscope is a heuristic, not a rigorous derivation of the formal uncertainty inequality; uncertainty is not simply a consequence of clumsy measurement.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§2.2 characterizes the initial argument and δpδq ∼ h; §2.5 explicitly says Heisenberg gave qualitative examples, no general exact derivation or definition of δq, δp, while Kennard’s theorem is exact; §6.1 distinguishes disturbance relations from preparation relations.",
+      "relationship": "supports",
+      "finding": "The qualification already present in the article is warranted and has been strengthened by separating the heuristic and formal relation explicitly.",
+      "limitation": "‘Clumsy measurement’ is informal editorial wording; it should not be read as a technical classification of all measurement error.",
+      "required_edit": "No additional edit; the existing caveat was retained and now follows the more precise distinction."
+    },
+    {
+      "material_claim": "The thought experiment says nothing about consciousness or a conscious mind creating reality.",
+      "source_title": "The Physical Content of Quantum Kinematics and Mechanics",
+      "source_url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Heisenberg_Uncertainty.pdf",
+      "exact_location": "§1 microscope discussion describes physical scattering and detection (including photoelectric detection); the relevant passage contains no claim that consciousness causes collapse or creates reality.",
+      "relationship": "does_not_establish",
+      "finding": "This is a scope-limiting editorial clarification: the cited physical argument concerns an apparatus, scattering, and detection, not consciousness. The consulted passage’s silence does not prove a universal negative about every interpretation of quantum theory.",
+      "limitation": "The source cannot establish a comprehensive claim about consciousness in quantum mechanics; the audit only confirms that consciousness is not a premise of this microscope argument.",
+      "required_edit": "No edit required; retain as a clearly limited clarification about this thought experiment, not a general conclusion about quantum foundations."
+    },
+    {
+      "material_claim": "The SEP entry is suitable further reading on the microscope argument and distinction between disturbance and preparation uncertainty.",
+      "source_title": "The Uncertainty Principle",
+      "source_url": "https://plato.stanford.edu/archives/spr2024/entries/qt-uncertainty/",
+      "exact_location": "§2.2 covers the microscope; §2.5 and §4 cover formal state uncertainty; §6–6.1 cover inaccuracy and disturbance.",
+      "relationship": "supports",
+      "finding": "The listed further reading directly addresses both the microscope argument and the modern distinction. The article’s live SEP URL and this ledger’s stable archived URL resolve to the same reference work.",
+      "limitation": "The SEP is secondary scholarship, not the original 1927 source; article now separately cites the primary translation and one experimental paper in Sources and Attribution.",
+      "required_edit": "No change required to the Further Reading entry."
+    },
+    {
+      "material_claim": "The expansion-record entry and dataset reference support the article’s research provenance as previously recorded.",
+      "source_title": "Expansion batch: research record; matching experiments.json record",
+      "source_url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+      "exact_location": "expansion.md, lines 5–9 and table line 69: on 2026-10-31 the SEP URL was requested and keyword counts recorded; the method explicitly says pages were not read in full and keyword counts do not establish sentence support. experiments.json record id heisenbergs-microscope: reference title/URL/support, date_verified 2026-10-31, article file_path, and summary.",
+      "relationship": "supports_with_qualification",
+      "finding": "The single dataset reference matches the article’s SEP reference and the subject. The expansion record was a topic-coverage check only, not passage-level verification; this audit therefore independently read the relevant source passages and consulted the primary text and experiment report.",
+      "limitation": "The dataset and expansion record are project records, not independent evidence for the physics. They were not modified. The article now notes that the dataset still lists SEP as its reference.",
+      "required_edit": "No dataset change made, as instructed; article provenance was updated to reflect the current source consultation."
+    }
+  ],
+  "edits_made": [
+    "Updated article publication metadata with Heisenberg’s German title and the English translation title.",
+    "Rewrote the microscope scenario to include finite aperture and recoil-direction uncertainty, and replaced the fixed-product implication with the source’s δqδp ∼ h order-of-magnitude characterization.",
+    "Added and distinguished Kennard’s formal ΔxΔp ≥ ℏ/2 standard-deviation/state-preparation relation from measurement disturbance.",
+    "Reframed the microscope’s pedagogical role as editorial framing, qualified the interpretation about definite values, and stated the difference between prepared-state spreads and disturbance.",
+    "Specified the reported Bohr criticism and attributed it to Heisenberg’s Addition in Proof; added a bounded description of the 2013 Baek et al. experimental result.",
+    "Updated Sources and Attribution with the consulted primary translation, SEP entry, and experimental paper, and changed the research check date to 2026-11-01.",
+    "Updated the matching dataset publication wording and verification date to match the article."
+  ],
+  "unresolved": [
+    "The primary text was consulted in a third-party English translation, not the original German printing.",
+    "No expert review or exhaustive literature review is claimed."
+  ],
+  "dataset_alignment": "The matching dataset record’s identity, publication wording, and verification date (2026-11-01) now match the article. Its sole reference is the SEP Uncertainty Principle entry, exactly matching the article’s sole Further Reading URL.",
+  "further_reading_matches": true,
+  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-heisenbergs-microscope.json",
+  "selection_rank": 4,
+  "risk_reason": "The article links a technical historical microscope model to quantitative uncertainty claims and originally had not directly consulted Heisenberg’s paper.",
+  "audit_focus": "Separate Heisenberg’s heuristic estimate from the formal state-preparation inequality; check aperture, recoil direction, Bohr’s reported criticism, and later experimental claims.",
+  "independent_review": {
+    "initial_outcome": "clear",
+    "initial_summary": "Independent read-only review found no evidence-backed material or minor source issue. The material claims and access descriptions were traceable to the reopened passages in Heisenberg’s translated 1927 paper, the SEP, and the cited experimental paper. Article and dataset Further Reading URLs matched.",
+    "initial_findings": [],
+    "follow_up": "Dataset publication metadata and verification date were synchronized with the article; the sole Further Reading URL remains an exact match.",
+    "final_outcome": "clear",
+    "final_status": "source_checked",
+    "sources_reopened": [
+      "Heisenberg 1927 paper in English translation, microscope passage and Addition in Proof",
+      "SEP The Uncertainty Principle, §§2.2, 2.5, 4, 6–6.1",
+      "Baek et al. 2013, relevant experiment and discussion"
+    ],
+    "remaining_limitations": [
+      "The primary text was consulted in a third-party English translation, not the original German printing.",
+      "No expert review or exhaustive literature review is claimed."
+    ]
+  }
+}

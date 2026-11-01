@@ -1,0 +1,132 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "simpsons-paradox",
+  "title": "Simpson’s Paradox",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/mathematics/simpsons-paradox.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: history/name attribution; the kidney-stone example’s provenance, category definitions, numerators, denominators, and arithmetic; differences in case mix; the distinction between observed association and causal treatment effect; and the scope of the article’s claims about applications. This status concerns source traceability, not clinical advice, causal identification, expert approval, or settled interpretation.",
+  "summary": "The figures in the article are not generic teaching numbers: Charig et al.’s primary 1986 BMJ paper gives the open-surgery and percutaneous-nephrolithotomy counts in Table II, with group definitions and case mix in Table I. The percentages recompute correctly. The study describes consecutive treatment series across different periods, so the article now presents the rates as observed comparisons, not proof of which treatment causes better outcomes. The SEP and a peer-reviewed clinical editorial support the qualified causal discussion and wider examples. Independent post-edit review is pending.",
+  "sources": [
+    {
+      "title": "Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy",
+      "author": "C. R. Charig, D. R. Webb, S. R. Payne, and J. E. Wickham",
+      "publication": "British Medical Journal (Clinical Research Ed.) 292 (1986): 879–882; DOI 10.1136/bmj.292.6524.879",
+      "stable_url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+      "source_type": "Primary peer-reviewed clinical study",
+      "access_level": "The full publisher-hosted PDF was extracted and relevant methods, tables, results, and discussion passages were read; not merely the abstract or metadata.",
+      "exact_locations_read": "Printed pp. 879–880: methods and treatment-series dates; printed p. 880, Table I, treatment-group distribution and size categories; printed p. 880, Table II, success counts by treatment and size group; abstract, overall study size and aggregate outcomes; discussion, treatment comparison and limits described by the authors.",
+      "limitations": "The study is an historical clinical comparison, not an estimate of modern treatment effectiveness. Its treatment groups were consecutive series from different eras, and the article does not by itself identify causal effects for a target population. The article uses the primary data only to illustrate the arithmetic reversal, not to recommend treatment."
+    },
+    {
+      "title": "Simpson’s Paradox in Clinical Research: A Cautionary Tale",
+      "author": "Stefanos Bonovas and Daniele Piovani",
+      "publication": "Journal of Clinical Medicine 12(4) (2023): 1633; DOI 10.3390/jcm12041633",
+      "stable_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960320/",
+      "source_type": "Peer-reviewed secondary editorial",
+      "access_level": "Full relevant text, Table 1, footnote, and the paragraph following the table were read.",
+      "exact_locations_read": "Opening discussion; Table 1 and its footnote attributing the data to Charig et al.; following paragraph on stone-size-dependent treatment assignment and confounding; references 5–6; closing caution on non-randomized research.",
+      "limitations": "This editorial reproduces and interprets the primary study; it is not a substitute for the original methods. The causal explanation is an interpretation of the observed treatment allocation and is not a randomized estimate."
+    },
+    {
+      "title": "Simpson’s Paradox",
+      "author": "Jan Sprenger and Naftali Weinberger",
+      "publication": "Stanford Encyclopedia of Philosophy, Summer 2026 edition; substantive revision 6 June 2026",
+      "stable_url": "https://plato.stanford.edu/archives/sum2026/entries/paradox-simpson/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant passages in the full entry were read, including targeted full-section extracts.",
+      "exact_locations_read": "§1, definition and history including Pearson, Yule, and Simpson; §2.2, aggregation and reversal; §§3.3–3.4, causal DAGs, identifiability, confounding, and conditioning versus intervention; §5.2 and relevant §5 applications on epidemiology/meta-analysis and decision-theoretic contexts.",
+      "limitations": "The SEP entry provides general statistical and causal context; its running example is not the Charig kidney-stone study. It does not support the table’s numerical values or the clinical study’s methods."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The displayed table is drawn from a real comparison of open surgery and percutaneous nephrolithotomy, rather than being generic invented teaching data.",
+      "source_title": "Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy",
+      "source_url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+      "exact_location": "Printed p. 880, Table II, rows for all open procedures and percutaneous nephrolithotomy; abstract confirms aggregate totals. Bonovas and Piovani Table 1 independently reproduce these figures and explicitly cite Charig et al.",
+      "relationship": "supports",
+      "finding": "The numerators and denominators match the primary study’s published results. The entry now attributes them to Charig et al. and names the two treatments.",
+      "limitation": "Only the two displayed treatment groups are shown; the primary study included other treatment groups too.",
+      "required_edit": "Made: replaced the generic/illustrative framing with explicit attribution to the 1986 study and treatment names."
+    },
+    {
+      "material_claim": "The table’s category definitions and six success fractions are accurately represented.",
+      "source_title": "Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy",
+      "source_url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+      "exact_location": "Printed p. 880, Methods and Tables I–II: group 1 has mean stone diameter below 2 cm; group 2 has mean diameter 2 cm or more or multiple stones; Table II gives 81/87, 192/263, 273/350, 234/270, 55/80, and 289/350.",
+      "relationship": "supports",
+      "finding": "The displayed whole-number percentages recompute as 93%, 73%, 78%, 87%, 69%, and 83%, respectively, using standard rounding. The article’s column labels now preserve the primary study’s multiple-stone qualification.",
+      "limitation": "The word “large” alone would omit patients assigned to group 2 because they had multiple stones; the article avoids that shorthand.",
+      "required_edit": "Made: added the ≥2 cm-or-multiple-stones definition and treatment labels."
+    },
+    {
+      "material_claim": "The “combined” comparison is only for the two displayed treatment groups, not for every patient in the 1,052-patient source study.",
+      "source_title": "Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy",
+      "source_url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+      "exact_location": "Abstract: 1,052 total patients, including 350 open surgery, 350 percutaneous nephrolithotomy, 328 ESWL, and 24 combined PCNL/ESWL; Table II reports the two displayed groups and other treatments separately.",
+      "relationship": "supports",
+      "finding": "The revised table header says “Both displayed treatment groups,” avoiding the implication that it aggregates all 1,052 participants.",
+      "limitation": "The paradox illustration intentionally uses only the open-surgery and PCNL rows.",
+      "required_edit": "Made: changed the aggregate column label and disclosed the other treatment groups."
+    },
+    {
+      "material_claim": "Different proportions of patients in the two stone-size categories explain the arithmetic reversal in the combined rates.",
+      "source_title": "Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy",
+      "source_url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+      "exact_location": "Printed p. 880, Table I: open procedures include 87 group-1 and 263 group-2 patients; PCNL includes 270 group-1 and 80 group-2 patients. Table II gives lower observed success in group 2 for both displayed treatments.",
+      "relationship": "supports",
+      "finding": "Open surgery has 263/350 group-2 cases versus 80/350 for PCNL, while the group-2 observed success fractions are lower than group-1 fractions. Weighted aggregation therefore reverses the within-group ordering.",
+      "limitation": "This arithmetic explanation does not determine why treatment was chosen or establish a treatment effect.",
+      "required_edit": "Made: described the case-mix imbalance and separated it from causal interpretation."
+    },
+    {
+      "material_claim": "Observed subgroup and aggregate rates do not alone identify which treatment caused better outcomes or decide which comparison answers a specific decision question.",
+      "source_title": "Simpson’s Paradox",
+      "source_url": "https://plato.stanford.edu/archives/sum2026/entries/paradox-simpson/",
+      "exact_location": "§§3.3–3.4, causal DAGs, ideal interventions, identifiability, confounding, and the difference between conditioning on treatment and intervening; §5.2 on treatment assignment and pooling in epidemiological contexts.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP explains that observational distributions need not equal interventional distributions and that adjustment identifies effects only under a specified causal model and assumptions. The article now says neither crude nor stratified rates are automatically decisive.",
+      "limitation": "The SEP’s causal example is not the Charig data; no causal graph or reanalysis is claimed for the 1986 study.",
+      "required_edit": "Made: removed the general rule that stratified comparisons are necessarily more informative and qualified the role of assumptions and target population."
+    },
+    {
+      "material_claim": "The source study describes consecutive treatment series across different time periods, which limits interpretation of crude outcome differences as causal.",
+      "source_title": "Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy",
+      "source_url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+      "exact_location": "Printed p. 879, Methods: patients were unselected and treated consecutively over 14 years; open surgery 1972–1980, PCNL 1980–1985, ESWL in 1985. Printed p. 880, treatment distributions by stone category.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised article identifies the numbers as observed historical comparison rates and states that they do not alone establish causal superiority.",
+      "limitation": "The article does not present a modern causal reanalysis; differences other than stone category and calendar period may matter.",
+      "required_edit": "Made: added the design and causal limitation to the source note."
+    },
+    {
+      "material_claim": "The name/history and wider examples are general context, not evidence for the kidney-stone table.",
+      "source_title": "Simpson’s Paradox",
+      "source_url": "https://plato.stanford.edu/archives/sum2026/entries/paradox-simpson/",
+      "exact_location": "§1 on Pearson (1899), Yule (1903), Simpson (1951); §§5.2 and 5.3 and decision-theoretic discussion for applications in epidemiology/meta-analysis and discrimination-related analyses.",
+      "relationship": "supports_with_qualification",
+      "finding": "The SEP supports the stated history and selected applications. The article now lists broad, SEP-covered contexts and does not assert that unrelated named datasets (such as batting averages) were checked.",
+      "limitation": "The SEP does not make every application equivalent or establish one universal interpretation of the reversal.",
+      "required_edit": "Made: removed unsupported examples and broad unanimity language; narrowed applications to domains documented in the SEP."
+    }
+  ],
+  "edits_made": [
+    "Attributed the numerical example to Charig et al. (1986), named the treatments, and corrected the category definition to include multiple stones in group 2.",
+    "Renamed the combined column to refer to the two displayed treatment groups and disclosed that the source study included additional treatments.",
+    "Replaced the unqualified stratification recommendation with a distinction between observed rates and causal treatment effects.",
+    "Removed unsupported named examples and the claim of general agreement among interpretive approaches; aligned the source note and further reading with the evidence."
+  ],
+  "unresolved": [
+    "The 1986 clinical comparison does not establish a causal treatment effect for a modern target population; the article deliberately makes no treatment recommendation.",
+    "The article does not independently establish all causal assumptions that would make adjustment for stone category sufficient."
+  ],
+  "dataset_alignment": "The data/experiments.json record for simpsons-paradox now lists the same three source URLs as the article and date_verified 2026-11-01; no public source-review status field was added.",
+  "further_reading_matches": "All three article Further Reading URLs match the dataset record.",
+  "ledger_path": "research/source-review-batch6-item-simpsons-paradox.json",
+  "selection_rank": 1,
+  "risk_reason": "The central example included clinical numerators, denominators, success rates, category labels, and an implied treatment-choice lesson; incorrect provenance or causal framing could mislead readers.",
+  "audit_focus": "Verify primary provenance and table values; define the subgroup cut; test all arithmetic; distinguish observed association from intervention effect; check application claims.",
+  "independent_review": "Pass. Independent read-only post-edit review confirmed the primary table attribution, category definition, all fractions/rounded percentages, the displayed-group aggregate label, causal qualification, and exact article/dataset URL equality. No material correction; source_checked is justified for the declared traceability scope. No expert review."
+}

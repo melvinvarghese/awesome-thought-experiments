@@ -10,27 +10,29 @@
 
 ## 1. The Scenario
 
-A robot is asked to move a box from one room to another. It must plan: pick up the box, carry it, put it down. To plan, it must know what its actions change. But it must also know what its actions do not change. Picking up the box does not change the colour of the walls, the date, the position of the sofa, or the number of doors.
+As a simple illustration, imagine a robot asked to move a box from one room to another. The intended changes are easy to describe; the challenge is also representing what stays the same. McCarthy and Hayes noted that a straightforward formalization with n actions and m fluents (properties of situations) might require as many as n×m conditions stating what each action leaves unchanged.
 
-Writing down every such non-change as a separate rule quickly becomes unmanageable. The problem is how to represent what stays the same without listing everything.
+The problem is how to represent relevant non-effects without separately listing every case.
 
 ## 2. The Central Question
 
-How can an agent with limited resources keep track of what is relevant to a change and ignore the rest?
+In the broader epistemological version, how can an agent decide which consequences and information are relevant to an action without considering everything?
 
 ## 3. Why It Matters
 
-In its original form, the frame problem is a technical difficulty in logic-based AI. Philosophers broadened it to a question about how any thinker, human or artificial, can decide what is relevant without checking everything. This links it to questions about common sense, attention and the nature of intelligence.
+The original problem was technical and arose in logic-based AI. Some philosophers later used it to frame broader questions about belief revision and relevance in human and artificial cognition. The relationship between these questions and the original formal problem is debated.
 
-It has been used both to criticize classical AI and to motivate alternative approaches to cognition.
+The wider discussion connects to common-sense reasoning and attention. Some philosophers have used it to challenge classical AI’s reliance on explicit symbolic representations; situated and other approaches have been proposed, though whether they solve or avoid the problem remains contested.
 
 ## 4. Major Interpretations
 
-**The narrow view** treats it as solved by logical techniques, such as default reasoning and event calculi. **The broad view** treats it as an unsolved problem about relevance. **Embodied and situated approaches** hold that the world itself can serve as a memory so that agents need not represent everything. **Skeptics** say the broad problem is not specific to AI.
+For the narrow formal problem, researchers developed workable logical approaches, including non-monotonic reasoning. Event calculus is one formalism for representing events, time, and persistence; it does not by itself resolve the broader relevance question.
+
+Some philosophers regard the broader problem as open, while others dispute its force or propose that it can be avoided or dissolved. Some situated-robotics approaches avoid explicit symbolic representations. Wheeler treats this approach as promising, while Dreyfus argues that Brooks’s early robots finesse rather than solve the problem.
 
 ## 5. Common Misunderstandings
 
-The frame problem is not the same as the problem of processing speed, and it is not only a problem for robots. The narrow and broad versions are distinct. The word “frame” here has no connection to picture frames or to frames in psychology.
+The frame problem is not merely a question of processor speed. Its technical form concerns representing action effects and non-effects; a related computational question concerns tractably limiting inference, while the broader epistemological question concerns how relevance is determined. The broader discussion also extends to human cognition, not only robots.
 
 ## 6. Think for Yourself
 
@@ -41,21 +43,26 @@ The frame problem is not the same as the problem of processing speed, and it is 
 
 ## 7. Variations and Extensions
 
-Dennett’s fictional robots, which fail by considering too many consequences of their actions, are a popular illustration of the broad version. Treat the story as an illustration rather than a technical result.
+In “Cognitive Wheels,” Daniel Dennett presents fictional robots that fail through unnoticed side effects or excessive deliberation. The story illustrates his interpretation of the frame problem; it is not a formal result or a settled account shared by all researchers.
 
 ## 8. Related Thought Experiments
 
 - [Chinese Room](../consciousness/chinese-room.md)
 - [Blockhead](blockhead.md)
 
+These are optional thematic comparisons, not historical variants of the frame problem.
+
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: The Frame Problem](https://plato.stanford.edu/entries/frame-problem/) — The original formal problem, its broader philosophical readings and proposed solutions.
+- [Stanford Encyclopedia of Philosophy: The Frame Problem](https://plato.stanford.edu/entries/frame-problem/) — Technical, computational, and epistemological formulations and the debate over responses.
+- [John McCarthy and Patrick Hayes, “Some Philosophical Problems from the Standpoint of Artificial Intelligence” (1969)](https://www-formal.stanford.edu/jmc/mcchay69.pdf) — The original formal problem, including §4.3.
+- [Robert Kowalski and Marek Sergot, “A Logic-based Calculus of Events”](https://www.doc.ic.ac.uk/~rak/papers/event%20calculus.pdf) — An event calculus for representing events, time, and persistence.
+- [Daniel Dennett, “Cognitive Wheels: The Frame Problem of AI”](https://www.cs.sfu.ca/~vaughan/teaching/415/papers/dennett-cognitivewheels.html) — Dennett’s fictional robot story and broader interpretation.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on the frame problem was consulted for the narrow and broad versions. The original 1969 paper was not retrieved. The page consulted does mention Dennett and a robot-and-bomb example, which was confirmed by a keyword check; the details of that story were not read.
+The Stanford Encyclopedia of Philosophy entry was consulted in §§1–5. McCarthy and Hayes’s 1969 paper was retrieved; its front matter and §4.3 (printed p. 30) were read. Kowalski and Sergot’s “A Logic-based Calculus of Events” was consulted in its introduction and §2. Dennett’s “Cognitive Wheels” was read at the opening robot story and the following discussion of frame axioms and relevance. The box scenario is an illustration written for this entry; the Chinese Room and Blockhead links are editorial thematic comparisons. The sources distinguish formal, computational, and epistemological issues; this is source checking, not expert review.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Further comparisons are teaching prompts, not established historical variations.
 
 [Return to collection](../../README.md)

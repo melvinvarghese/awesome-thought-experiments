@@ -14,7 +14,7 @@ Sen tells a story about two people and a single copy of a controversial novel. O
 
 There are three outcomes: the prude reads it (a), the lewd reads it (b), or nobody reads it (c). The prude ranks c over a over b. The lewd ranks a over b over c.
 
-Liberty seems to require that each person decide whether he himself reads. The prude can veto a, so society prefers c to a. The lewd can choose to read, so society prefers b to c. But both persons prefer a to b, so efficiency requires a over b. The result is a cycle: c over a, a over b, b over c.
+In Sen’s formalization, each of at least two people is decisive over a pair of alternatives. In this example, let the prude be decisive between a and c, and the lewd between b and c. Given their rankings, this requires c over a and b over c socially. Since both people rank a over b, the weak Pareto principle requires a over b. The result is a cycle: c over a, a over b, b over c. These are social preference requirements for the specified pairs, not a claim that either person controls every outcome involving the reading decision.
 
 ## 2. The Central Question
 
@@ -22,17 +22,17 @@ Can a society respect both a minimal right to personal liberty and the principle
 
 ## 3. Why It Matters
 
-The result seems to show that two attractive principles, a minimal liberal right and Pareto efficiency, conflict whenever people’s preferences are interconnected. Sen’s point was that preferences about other people’s private actions can undermine the respect for liberty which welfare-based approaches are supposed to support.
+The example shows a conflict between minimal individual decisiveness and weak Pareto for this profile of interdependent (or “meddlesome”) preferences. Sen’s general impossibility result also assumes an unrestricted domain of individual preference profiles. Sen’s own conclusion is that, under these conditions, Pareto comparisons can have illiberal consequences; the paper does not establish that liberty and efficiency conflict under every preference domain or every conception of rights.
 
 It continues to affect debates over whether rights should be treated as constraints independent of preferences.
 
 ## 4. Major Interpretations
 
-**Restricting the liberal right** says rights should apply only to preferences that are not meddlesome. **Restricting Pareto** says that preferences about others’ actions should not count. **Rights as constraints** takes rights out of the preference aggregation framework. **Sen’s own view** is that rights should be understood through the permissibility of choices and not as a function of preferences.
+Possible responses differ. One is to restrict the admissible preference profiles, for example by excluding meddlesome preferences; another is to revise Sen’s formalization of individual rights. A related proposal is to formulate some rights as permissions or powers over actions or strategies rather than as decisiveness over social rankings. Sen later discusses this game-form approach, but does not simply treat rights as preference-independent constraints: he distinguishes action-centered rights from outcome-oriented rights, for which consequences remain relevant. These are responses and interpretations, not a settled taxonomy or a single unqualified “Sen view.”
 
 ## 5. Common Misunderstandings
 
-Sen’s example is not a claim that books should be banned or that preferences about other people’s reading are legitimate. It is a formal point. The paradox is about aggregating preferences, and does not show that liberty is incompatible with efficiency in general.
+Sen’s example is a formal argument, not a policy recommendation to ban books or an endorsement of meddlesome preferences. The impossibility result depends on its stated conditions, including unrestricted domain; it does not show that liberty is incompatible with efficiency under every possible set of assumptions.
 
 ## 6. Think for Yourself
 
@@ -43,7 +43,7 @@ Sen’s example is not a claim that books should be banned or that preferences a
 
 ## 7. Variations and Extensions
 
-Versions with more people and more complex preferences generalize the result. Gibbard’s related paradox concerns rights in a game-form framework.
+Sen’s theorem generalizes beyond the two-person illustration: under unrestricted domain, two distinct individuals with decisiveness over at least one pair each are enough for the conflict with weak Pareto. The three-outcome example displays the cycle in a compact case; extra people or more complex preferences are not required for Sen’s result. Later game-form approaches reformulate rights in terms of permissible actions or strategies, rather than simply extending this same preference profile.
 
 ## 8. Related Thought Experiments
 
@@ -53,11 +53,13 @@ Versions with more people and more complex preferences generalize the result. Gi
 ## 9. Further Reading
 
 - [Stanford Encyclopedia of Philosophy: Social Choice Theory](https://plato.stanford.edu/entries/social-choice/) — Sen’s liberal paradox as an impossibility result about liberty and Pareto efficiency.
+- [Amartya Sen, “The Impossibility of a Paretian Liberal” (1970)](https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf) — original statement, example, conditions, and discussion.
+- [Amartya Sen, “Rights: Formulation and Consequences” (1996)](https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf) — Sen’s later discussion of outcome-based and game-form formulations of rights.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on social choice theory was consulted and discusses Sen’s result. Sen’s article was not retrieved. The ranking of preferences in the story is reconstructed from the standard presentation and should be checked against the original.
+Sen’s 1970 article was consulted in a full-text copy; its three rankings, decisiveness comparisons, Pareto comparison, general conditions, and qualifications were checked against the original. Christian List’s Stanford Encyclopedia of Philosophy entry was consulted at §3.4 for a scholarly exposition and later responses. Sen’s 1996 “Rights: Formulation and Consequences” was consulted for his discussion of game-form rights and the continuing relevance of outcomes. This is an original educational explanation, not a substitute for the primary texts.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. The earlier expansion record documents topic-keyword checking of the SEP page only, not passage-level reading. Additional comparisons are teaching prompts, not established historical variations.
 
 [Return to collection](../../README.md)

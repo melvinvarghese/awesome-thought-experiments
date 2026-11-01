@@ -2650,7 +2650,7 @@
       "Bernard Williams",
       "Thomas Nagel"
     ],
-    "original_publication": "Williams and Nagel, “Moral Luck” (Proceedings of the Aristotelian Society, Supplementary Volume, 1976)",
+    "original_publication": "Bernard Williams, “Moral Luck” (1976), Proceedings of the Aristotelian Society, Supplementary Volume L, 115–135; Thomas Nagel, “Moral Luck” (1979), in Mortal Questions",
     "difficulty": "Intermediate",
     "themes": [
       "moral luck",
@@ -2662,10 +2662,28 @@
         "title": "Stanford Encyclopedia of Philosophy: Moral Luck",
         "url": "https://plato.stanford.edu/entries/moral-luck/",
         "kind": "academic",
-        "support": "Williams’s lorry-driver example, the Williams–Nagel symposium, and the main responses to moral luck."
+        "support": "The control principle, Williams’s lorry-driver example and agent-regret, Nagel’s discussion, and selected responses."
+      },
+      {
+        "title": "Bernard Williams, “Moral Luck” (1981 revised reprint)",
+        "url": "https://bibliotecamathom.wordpress.com/wp-content/uploads/2012/10/williams_-_moral_luck.pdf",
+        "kind": "primary",
+        "support": "The lorry-driver passage and Williams’s account of agent-regret; the consulted text is a revised reprint, not the 1976 journal printing."
+      },
+      {
+        "title": "Thomas Nagel, “Moral Luck” (1979)",
+        "url": "https://rintintin.colorado.edu/~vancecd/phil1100/Nagel1.pdf",
+        "kind": "primary",
+        "support": "Nagel’s control problem and discussion of kinds of luck; the consulted copy is a hosted reproduction of the essay in Mortal Questions."
+      },
+      {
+        "title": "Internet Encyclopedia of Philosophy: Moral Luck",
+        "url": "https://iep.utm.edu/moralluc/",
+        "kind": "academic",
+        "support": "A later challenge to an inference from agent-regret to retrospective justification; one interpretation, not a consensus."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "trolley",
@@ -2683,7 +2701,7 @@
       "Bernard Williams",
       "J. J. C. Smart"
     ],
-    "original_publication": "Smart and Williams, Utilitarianism: For and Against (1973), Williams’s part",
+    "original_publication": "J. J. C. Smart and Bernard Williams, Utilitarianism: For and Against (1973); Williams wrote “A Critique of Utilitarianism,” which includes the Jim case",
     "difficulty": "Intermediate",
     "themes": [
       "integrity",
@@ -2692,19 +2710,37 @@
     ],
     "references": [
       {
+        "title": "J. J. C. Smart and Bernard Williams, Utilitarianism: For and Against (1973)",
+        "url": "https://www.utilitarianism.com/utilitarianism-for-and-against.pdf",
+        "kind": "primary",
+        "support": "Williams’s original Jim scenario, utilitarian recommendation, integrity argument, qualifications, and the volume’s publication/contribution details; complete PDF accessed and parsed, with the title/copyright/contents pages and relevant Williams passages read."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: Bernard Williams",
         "url": "https://plato.stanford.edu/entries/williams-bernard/",
         "kind": "academic",
-        "support": "Williams’s critique of utilitarianism, including the Jim case and the integrity objection."
+        "support": "Williams’s critique, Jim case, integrity objection, and its qualifications."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy: Consequentialism",
         "url": "https://plato.stanford.edu/entries/consequentialism/",
         "kind": "academic",
-        "support": "Background on consequentialist theories and Williams’s objections to them."
+        "support": "Distinctions among direct, indirect, virtue, and agent-relative consequentialist approaches."
+      },
+      {
+        "title": "Daniel D. Moseley, “Revisiting Williams on Integrity”",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3966523/",
+        "kind": "academic",
+        "support": "A named interpretation that limits its reconstruction to act utilitarianism and discusses responses."
+      },
+      {
+        "title": "Nikhil Venkatesh, “Williams’s Integrity Objection as a Psychological Problem”",
+        "url": "https://link.springer.com/article/10.1007/s11245-023-09966-7",
+        "kind": "academic",
+        "support": "A recent peer-reviewed interpretation documenting disagreement about the integrity objection."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "trolley",
@@ -2722,7 +2758,7 @@
     "associated_thinkers": [
       "Plato (Socrates in the dialogue Euthyphro)"
     ],
-    "original_publication": "Plato, Euthyphro (fourth century BCE)",
+    "original_publication": "Plato, Euthyphro (conventionally dated to the fourth century BCE; precise composition date uncertain)",
     "difficulty": "Beginner",
     "themes": [
       "divine command",
@@ -2731,13 +2767,31 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Religion and Morality",
-        "url": "https://plato.stanford.edu/entries/religion-morality/",
+        "title": "Plato, Euthyphro, translated by Benjamin Jowett",
+        "url": "https://classics.mit.edu/Plato/euthyfro.html",
+        "kind": "primary",
+        "support": "The dialogue setting, Euthyphro’s definition of piety, and Socrates’ question at Stephanus 9e–11b."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Religion and Morality in Western Philosophy (Winter 2024)",
+        "url": "https://plato.stanford.edu/archives/win2024/entries/religion-morality/",
         "kind": "academic",
-        "support": "The Euthyphro question as it bears on theological accounts of morality, with major replies."
+        "support": "The Euthyphro question as it bears on theological accounts of morality, including named differences among views."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Plato’s Shorter Ethical Works (Fall 2024)",
+        "url": "https://plato.stanford.edu/archives/fall2024/entries/plato-ethics-shorter/",
+        "kind": "academic",
+        "support": "The dialogue’s context and selected interpretations of its argument."
+      },
+      {
+        "title": "Internet Encyclopedia of Philosophy: Divine Command Theory",
+        "url": "https://iep.utm.edu/divine-command-theory/",
+        "kind": "academic",
+        "support": "The modern divine-command formulation of the dilemma and several distinct replies."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "ring-of-gyges",
@@ -2752,7 +2806,7 @@
     "title": "The Terror Bomber and the Tactical Bomber",
     "category": "ethics",
     "associated_thinkers": [],
-    "original_publication": "Developed in twentieth-century discussion of the doctrine of double effect, which has medieval roots",
+    "original_publication": "The cited source does not establish the bomber pair’s origin or first publication; the doctrine of double effect has medieval roots",
     "difficulty": "Intermediate",
     "themes": [
       "intention",
@@ -2764,17 +2818,17 @@
         "title": "Stanford Encyclopedia of Philosophy: Doctrine of Double Effect",
         "url": "https://plato.stanford.edu/entries/double-effect/",
         "kind": "academic",
-        "support": "The doctrine of double effect, its conditions, and the terror and tactical bomber contrast."
+        "support": "The bomber comparison, formulations and conditions of double effect, selected criticisms, civilian-harm precautions, and limits of the example; the entry does not establish the bomber pair’s origin."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "trolley",
       "transplant"
     ],
     "file_path": "experiments/ethics/terror-and-tactical-bomber.md",
-    "summary": "Does it matter morally whether harm is intended as a means or merely foreseen as a side effect, when the outcomes are otherwise the same?"
+    "summary": "Does it matter morally whether civilian harm is intended as a means or merely foreseen as a side effect, when both plans are stipulated to cause the same number of civilian deaths?"
   },
   {
     "id": "smith-and-jones-bathtub",
@@ -2784,7 +2838,7 @@
     "associated_thinkers": [
       "James Rachels"
     ],
-    "original_publication": "Rachels, “Active and Passive Euthanasia” (New England Journal of Medicine, 1975)",
+    "original_publication": "James Rachels, “Active and Passive Euthanasia,” New England Journal of Medicine 292(2) (1975), 78–80; DOI 10.1056/NEJM197501092920206",
     "difficulty": "Beginner",
     "themes": [
       "killing and letting die",
@@ -2793,13 +2847,31 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Doing vs. Allowing Harm",
-        "url": "https://plato.stanford.edu/entries/doing-allowing/",
+        "title": "James Rachels, “Active and Passive Euthanasia” (university-hosted reprint)",
+        "url": "https://sites.ualberta.ca/~bleier/Rachels_Euthanasia.pdf",
+        "kind": "primary",
+        "support": "The full argument, Smith and Jones cases, stated motives and outcomes, and Rachels’s qualifications; complete reprint text read."
+      },
+      {
+        "title": "NEJM publisher record: “Active and Passive Euthanasia”",
+        "url": "https://www.nejm.org/doi/10.1056/NEJM197501092920206",
         "kind": "academic",
-        "support": "Rachels’s Smith and Jones cases and the debate over whether the killing–letting die distinction matters."
+        "support": "Publisher bibliographic details and abstract; the publisher’s full article text is subscriber-only."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Doing vs. Allowing Harm (Fall 2025)",
+        "url": "https://plato.stanford.edu/archives/fall2025/entries/doing-allowing/",
+        "kind": "academic",
+        "support": "Rachels’s contrast and separate named challenges to the case and to the general inference."
+      },
+      {
+        "title": "Iain Brassington, “What passive euthanasia is”",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227198/",
+        "kind": "academic",
+        "support": "A peer-reviewed discussion of intention, motive, and limits on generalizing from Rachels’s examples."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "drowning-child",
@@ -3677,13 +3749,19 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Fitch’s Paradox of Knowability",
+        "title": "Frederic B. Fitch, “A Logical Analysis of Some Value Concepts”",
+        "url": "https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/a-logical-analysis-of-some-value-concepts1/D4D2E7E37CE8F699BB8CAF52CA74BFD3",
+        "kind": "primary",
+        "support": "Publication details, Theorem 5 attribution, and selected publisher extract/footnotes; the full article was not accessed."
+      },
+      {
+        "title": "Berit Brogaard and Joe Salerno, “Fitch’s Paradox of Knowability”",
         "url": "https://plato.stanford.edu/entries/fitch-paradox/",
         "kind": "academic",
-        "support": "The proof, its history and the major responses."
+        "support": "Formal proof and assumptions, history including the Church referee, and disputed logical, semantic, and syntactic responses."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "unexpected-hanging",
@@ -3746,9 +3824,21 @@
         "url": "https://plato.stanford.edu/entries/future-contingents/",
         "kind": "academic",
         "support": "Aristotle’s sea battle, the argument for fatalism and the main logical and metaphysical responses."
+      },
+      {
+        "title": "Aristotle, On Interpretation, chapter 9 (Revised Oxford Translation)",
+        "url": "https://www.st-andrews.ac.uk/~mnat/~ball0888/salamis/interpretatione.html",
+        "kind": "primary",
+        "support": "The primary passage on future contingents, the sea-battle example and Aristotle’s reply."
+      },
+      {
+        "title": "M. A. Istvan Jr., “Is Aristotle’s Response to the Argument for Fatalism in De Interpretatione 9 Successful?”",
+        "url": "https://doi.org/10.15446/ideasyvalores.v63n155.33178",
+        "kind": "academic",
+        "support": "One scholarly interpretation illustrating disagreement about Aristotle’s response."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "laplaces-demon",
@@ -3975,7 +4065,7 @@
       "John Earman",
       "John Norton"
     ],
-    "original_publication": "Einstein’s 1913–15 hole argument; revived by Earman and Norton (1987)",
+    "original_publication": "Einstein’s late-1913 argument (published in 1914); modern reconstruction by Earman and Norton (1987)",
     "difficulty": "Advanced",
     "themes": [
       "spacetime",
@@ -3984,13 +4074,31 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: The Hole Argument",
+        "title": "John Earman and John Norton, “What Price Spacetime Substantivalism? The Hole Story”",
+        "url": "https://sites.pitt.edu/~jdnorton/papers/BJPS1987_holearg.pdf",
+        "kind": "primary",
+        "support": "Modern hole construction, the substantivalism challenge, and the conditional distinction between representational underdetermination and physical indeterminism."
+      },
+      {
+        "title": "John D. Norton, “The Hole Argument” (Stanford Encyclopedia of Philosophy)",
         "url": "https://plato.stanford.edu/entries/spacetime-holearg/",
         "kind": "academic",
-        "support": "The argument, its history and responses from substantivalism and relationalism."
+        "support": "Active/passive covariance, modern construction, Einstein history, and the range of philosophical responses."
+      },
+      {
+        "title": "John Norton, “The Significance of the Hole Argument in General Relativity”",
+        "url": "https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/significance_GR_hole_argument/significance_GR_hole_argument.html",
+        "kind": "academic",
+        "support": "Einstein’s 1914 argument and 1916 point-coincidence response in translated/transcribed passages; not the complete original German papers."
+      },
+      {
+        "title": "John Stachel, “The Hole Argument and Some Physical and Philosophical Implications”",
+        "url": "https://link.springer.com/article/10.12942/lrr-2014-1",
+        "kind": "academic",
+        "support": "Specialist historical and philosophical review, including Einstein’s chronology and structuralist interpretation."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "newtons-bucket",
@@ -4009,7 +4117,7 @@
       "Josef Loschmidt",
       "Ludwig Boltzmann"
     ],
-    "original_publication": "Loschmidt’s objection (1870s) and Boltzmann’s replies",
+    "original_publication": "Loschmidt’s published objection (1876); Boltzmann’s immediate reply and separate statistical argument (1877); Zermelo’s distinct recurrence objection (1896)",
     "difficulty": "Advanced",
     "themes": [
       "entropy",
@@ -4022,9 +4130,21 @@
         "url": "https://plato.stanford.edu/entries/time-thermo/",
         "kind": "academic",
         "support": "The reversibility objection, the statistical reply and the role of low-entropy initial conditions."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Boltzmann’s Work in Statistical Physics",
+        "url": "https://plato.stanford.edu/archives/sum2013/entries/statphys-Boltzmann/",
+        "kind": "academic",
+        "support": "Historical account of the H-theorem, Loschmidt’s objection, Boltzmann’s 1877 responses, and the distinct recurrence debate."
+      },
+      {
+        "title": "Olivier Darrigol, “Boltzmann’s Reply to the Loschmidt Paradox: A Commented Translation”",
+        "url": "https://doi.org/10.1140/epjh/s13129-021-00029-2",
+        "kind": "academic",
+        "support": "Historical commentary with translated passages from Loschmidt and Boltzmann."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "maxwells-demon",
@@ -4041,7 +4161,7 @@
     "associated_thinkers": [
       "Werner Heisenberg"
     ],
-    "original_publication": "Heisenberg, paper on the perceptual content of quantum kinematics and mechanics (1927)",
+    "original_publication": "Heisenberg, “Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik” (1927), translated as “The Physical Content of Quantum Kinematics and Mechanics”",
     "difficulty": "Intermediate",
     "themes": [
       "uncertainty",
@@ -4056,7 +4176,7 @@
         "support": "Heisenberg’s microscope argument and the distinction between disturbance and preparation uncertainty."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "schrodingers-cat",
@@ -4155,13 +4275,25 @@
     ],
     "references": [
       {
-        "title": "Stanford Encyclopedia of Philosophy: Simpson’s Paradox",
-        "url": "https://plato.stanford.edu/entries/paradox-simpson/",
+        "title": "C. R. Charig et al., “Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy”",
+        "url": "https://www.bmj.com/content/292/6524/879.full.pdf",
+        "kind": "primary",
+        "support": "Primary comparison and Table II: observed results by stone-size category and treatment; methods describe consecutive treatment series in different periods."
+      },
+      {
+        "title": "Stefanos Bonovas and Daniele Piovani, “Simpson’s Paradox in Clinical Research: A Cautionary Tale”",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960320/",
         "kind": "academic",
-        "support": "The statistical reversal, its causal interpretation and examples."
+        "support": "Reproduces the kidney-stone table, attributes it to Charig, and discusses confounding and interpretation."
+      },
+      {
+        "title": "Jan Sprenger and Naftali Weinberger, “Simpson’s Paradox” (SEP Summer 2026)",
+        "url": "https://plato.stanford.edu/archives/sum2026/entries/paradox-simpson/",
+        "kind": "academic",
+        "support": "General statistical reversal, causal identification, confounding, and applications; does not source the Charig table."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "monty-hall",
@@ -4402,9 +4534,21 @@
         "url": "https://plato.stanford.edu/entries/social-choice/",
         "kind": "academic",
         "support": "Sen’s liberal paradox as an impossibility result about liberty and Pareto efficiency."
+      },
+      {
+        "title": "Amartya Sen, “The Impossibility of a Paretian Liberal” (1970)",
+        "url": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Amartya-Sen-Paretian-liberal-1970.pdf",
+        "kind": "primary",
+        "support": "Sen’s original statement of the theorem, preference example, conditions, proof, and qualifications."
+      },
+      {
+        "title": "Amartya Sen, “Rights: Formulation and Consequences” (1996)",
+        "url": "https://www.analyse-und-kritik.net/Dateien/56c2e9ba64bf9_ak_sen_1996.pdf",
+        "kind": "primary",
+        "support": "Sen’s later discussion of game-form rights and the continued relevance of outcomes."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "paradox",
     "related_experiments": [
       "condorcet-paradox",
@@ -4430,13 +4574,25 @@
     ],
     "references": [
       {
+        "title": "Ned Block, “Psychologism and Behaviorism” (1981)",
+        "url": "https://doi.org/10.2307/2184371",
+        "kind": "academic",
+        "support": "Block’s original argument, including the lookup machine, objections, and replies."
+      },
+      {
         "title": "Stanford Encyclopedia of Philosophy: The Turing Test",
         "url": "https://plato.stanford.edu/entries/turing-test/",
         "kind": "academic",
-        "support": "Blockhead as an objection to the sufficiency of behavioural tests for intelligence."
+        "support": "Blockhead and the debate about behavioral tests."
+      },
+      {
+        "title": "Arthur C. Schwaninger, “The Philosophising Machine – a Specification of the Turing Test” (2022)",
+        "url": "https://doi.org/10.1007/s11406-022-00480-5",
+        "kind": "academic",
+        "support": "A later interpretation of the Turing test and Blockhead; a named position, not consensus."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "thought experiment",
     "related_experiments": [
       "turing-test",
@@ -4467,10 +4623,28 @@
         "title": "Stanford Encyclopedia of Philosophy: The Frame Problem",
         "url": "https://plato.stanford.edu/entries/frame-problem/",
         "kind": "academic",
-        "support": "The original formal problem, its broader philosophical readings and proposed solutions."
+        "support": "Technical, computational, and epistemological formulations and the debate over responses."
+      },
+      {
+        "title": "John McCarthy and Patrick Hayes, “Some Philosophical Problems from the Standpoint of Artificial Intelligence” (1969)",
+        "url": "https://www-formal.stanford.edu/jmc/mcchay69.pdf",
+        "kind": "academic",
+        "support": "The original formal problem, including the n-actions/m-fluents discussion in §4.3."
+      },
+      {
+        "title": "Robert Kowalski and Marek Sergot, “A Logic-based Calculus of Events”",
+        "url": "https://www.doc.ic.ac.uk/~rak/papers/event%20calculus.pdf",
+        "kind": "academic",
+        "support": "An event calculus for representing events, time, and persistence."
+      },
+      {
+        "title": "Daniel Dennett, “Cognitive Wheels: The Frame Problem of AI”",
+        "url": "https://www.cs.sfu.ca/~vaughan/teaching/415/papers/dennett-cognitivewheels.html",
+        "kind": "academic",
+        "support": "Dennett’s fictional robot story and broader interpretation."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "chinese-room",
@@ -4496,13 +4670,25 @@
     ],
     "references": [
       {
-        "title": "Stevan Harnad, The Symbol Grounding Problem (arXiv version)",
-        "url": "https://arxiv.org/abs/cs/9906002",
+        "title": "Stevan Harnad, “The Symbol Grounding Problem” (1990), arXiv-hosted full text",
+        "url": "https://arxiv.org/html/cs/9906002",
         "kind": "academic",
-        "support": "The original statement of the problem and the proposed hybrid solution."
+        "support": "Harnad’s original problem, dictionary analogy, proposed hybrid account, and qualifications."
+      },
+      {
+        "title": "Publisher record for “The Symbol Grounding Problem”",
+        "url": "https://doi.org/10.1016/0167-2789(90)90087-6",
+        "kind": "academic",
+        "support": "Journal publication metadata and abstract for Harnad’s 1990 article."
+      },
+      {
+        "title": "Mariarosaria Taddeo and Luciano Floridi, “Solving the Symbol Grounding Problem: A Critical Review of Fifteen Years of Research” (2005)",
+        "url": "https://doi.org/10.1080/09528130500284053",
+        "kind": "academic",
+        "support": "One published critique, including its assessment of Harnad’s proposal; not a consensus claim."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "puzzle",
     "related_experiments": [
       "chinese-room",
@@ -4577,16 +4763,40 @@
         "title": "Stanford Encyclopedia of Philosophy: Gödel’s Incompleteness Theorems",
         "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
         "kind": "academic",
-        "support": "The incompleteness theorems and the Lucas–Penrose arguments that rely on them."
+        "support": "The theorem’s hypotheses and the Lucas–Penrose debate, including named objections and replies."
       },
       {
         "title": "Stanford Encyclopedia of Philosophy: The Computational Theory of Mind",
         "url": "https://plato.stanford.edu/entries/computational-mind/",
         "kind": "academic",
-        "support": "Context on the argument and objections within the computational theory of mind."
+        "support": "Context on the argument and objections to computationalism."
+      },
+      {
+        "title": "J. R. Lucas, “Minds, Machines and Gödel” (1961)",
+        "url": "https://philomatica.org/wp-content/uploads/2021/12/lucas1961.pdf",
+        "kind": "academic",
+        "support": "Lucas’s original argument and replies; relevant passages in the full article text."
+      },
+      {
+        "title": "Solomon Feferman, “Penrose’s Gödelian Argument”",
+        "url": "https://math.stanford.edu/~feferman/papers/penrose.pdf",
+        "kind": "academic",
+        "support": "A detailed critique of Penrose’s reasoning."
+      },
+      {
+        "title": "David J. Chalmers, “Minds, Machines, and Mathematics” (1995)",
+        "url": "https://calculemus.org/MathUniversalis/NS/10/03chalmers.html",
+        "kind": "academic",
+        "support": "A review discussing the argument and its assumptions."
+      },
+      {
+        "title": "Roger Penrose, Shadows of the Mind (1994)",
+        "url": "https://altexploit.files.wordpress.com/2017/07/roger-penrose-shadows-of-the-mind_-a-search-for-the-missing-science-of-consciousness-oxford-university-press-1994.pdf",
+        "kind": "academic",
+        "support": "Selected primary passages on Penrose’s non-computability and proposed physics extension."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "argument",
     "related_experiments": [
       "chinese-room",
@@ -4616,10 +4826,34 @@
         "title": "Stanford Encyclopedia of Philosophy: Teleological Arguments for God’s Existence",
         "url": "https://plato.stanford.edu/entries/teleological-arguments/",
         "kind": "academic",
-        "support": "Paley’s watchmaker analogy and the main objections to it."
+        "support": "Argument classifications, Paley’s reasoning, and objections."
+      },
+      {
+        "title": "William Paley, Natural Theology (1802), digitized text",
+        "url": "https://archive.org/stream/naturaltheologyo1802pale/naturaltheologyo1802pale_djvu.txt",
+        "kind": "academic",
+        "support": "The watch argument, reproducing watch, and application to living things."
+      },
+      {
+        "title": "David Hume, Dialogues Concerning Natural Religion (1779), Part VII",
+        "url": "https://quod.lib.umich.edu/e/ecco/004895521.0001.000/1:2.8?rgn=div2;view=fulltext",
+        "kind": "academic",
+        "support": "Philo’s earlier challenge to design reasoning and the world–machine comparison."
+      },
+      {
+        "title": "Charles Darwin, On the Origin of Species (1859), Chapter IV",
+        "url": "https://archive.org/stream/darwin-online_1859_Origin_F373/1859_Origin_F373_djvu.txt",
+        "kind": "academic",
+        "support": "Darwin’s account of natural selection as an explanation of adaptation."
+      },
+      {
+        "title": "Darwin Correspondence Project, “Darwin and Design”",
+        "url": "https://www.darwinproject.ac.uk/commentary/religion/darwin-and-design",
+        "kind": "academic",
+        "support": "Historical context and varied responses to Darwin’s account of design."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "analogy",
     "related_experiments": [
       "darwins-eye",
@@ -4636,7 +4870,7 @@
     "associated_thinkers": [
       "John Leslie"
     ],
-    "original_publication": "Associated with Leslie’s work on fine-tuning, including Universes (1989)",
+    "original_publication": "Associated with Leslie’s work on fine-tuning, including Universes (the Stanford Encyclopedia and a university library catalogue cite 1989; the exact first-publication date is not independently established here)",
     "difficulty": "Intermediate",
     "themes": [
       "fine-tuning",
@@ -4649,9 +4883,27 @@
         "url": "https://plato.stanford.edu/entries/fine-tuning/",
         "kind": "academic",
         "support": "The firing squad analogy in the debate over whether cosmic fine-tuning needs explanation."
+      },
+      {
+        "title": "Roger White, “Fine-Tuning and Multiple Universes”",
+        "url": "https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+        "kind": "academic",
+        "support": "A counterargument about observation selection, multiple universes, and the firing-squad analogy."
+      },
+      {
+        "title": "Jonathan Weisberg, “Firing Squads and Fine-Tuning: Sober on the Design Argument”",
+        "url": "https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+        "kind": "academic",
+        "support": "A published reply concerning the analogy and survivor-selected evidence."
+      },
+      {
+        "title": "Elliott Sober, “The Design Argument”",
+        "url": "https://anthropic-principle.com/preprints/sober2.pdf",
+        "kind": "academic",
+        "support": "A chapter manuscript discussing Leslie’s analogy and observation-selection reasoning."
       }
     ],
-    "date_verified": "2026-10-31",
+    "date_verified": "2026-11-01",
     "kind": "analogy",
     "related_experiments": [
       "paleys-watch",

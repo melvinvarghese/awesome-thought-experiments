@@ -2,8 +2,8 @@
 
 **Category:** ethics  
 **Type:** thought experiment  
-**Associated thinker(s):** James Rachels  
-**Original publication or approximate period:** Rachels, “Active and Passive Euthanasia” (New England Journal of Medicine, 1975)  
+**Associated thinker(s):** James Rachels\
+**Original publication or approximate period:** Rachels, “Active and Passive Euthanasia,” *New England Journal of Medicine* 292(2) (1975), 78–80; DOI: 10.1056/NEJM197501092920206\
 **Difficulty:** Beginner  
 **Themes:** killing and letting die, omissions, moral equivalence  
 **Related experiments:** [Drowning Child](drowning-child.md); [Trolley Problem](trolley.md); [Transplant Problem](transplant.md)
@@ -12,25 +12,25 @@
 
 Smith stands to inherit a large sum if his young cousin dies. He sneaks into the bathroom while the child is bathing and drowns him, making it look like an accident. Jones is in the same position, with the same motive. He too goes to the bathroom intending to drown the child, but as he enters, the child slips, hits his head and falls under the water. Jones stands by, prepared to do the deed himself if need be, but it proves unnecessary and the child drowns.
 
-Smith acts; Jones merely allows something to happen. The motives, knowledge and results are the same.
+Smith kills the child; Jones lets him die. They share the inheritance motive and intended end, and both children die, but they reach the outcome differently.
 
 ## 2. The Central Question
 
-Is there a moral difference between doing harm and allowing harm when everything else is held equal?
+Can a bare difference between killing and letting die explain a moral judgment when the agents share a motive and intended end, but the details of how the death occurs differ?
 
 ## 3. Why It Matters
 
-Many people, and many professional codes, assume that causing death is worse than failing to prevent it. The bathtub pair is meant to test whether that intuition survives when intentions and outcomes match. Rachels used it to argue that the distinction cannot carry the moral weight often placed on it, for example in debates about withdrawing treatment versus ending a life.
+Rachels describes a conventional medical doctrine that treats actively causing death as worse than allowing death, and quotes an American Medical Association policy statement. His pair tests whether the bare difference between killing and letting die carries moral weight when other features are held close. The example does not settle any particular clinical or policy decision.
 
-The case also bears on duties of aid. If letting die is not intrinsically better than killing, then the line between what we do and what we merely permit becomes harder to defend as a limit on our responsibilities.
+A further question is whether the argument affects duties of aid. That implication needs additional premises; it is not established by the Smith–Jones case alone.
 
 ## 4. Major Interpretations
 
-**Rachels’s argument** is that Smith and Jones are equally blameworthy, so the act/omission distinction has no intrinsic significance. **Critics** reply that the pair is stacked: both agents intend death, so intention swamps the difference, and the contrast should be tested in cases of ordinary rescue where nobody has a murderous aim. **Moderate views** say the distinction matters when it tracks different degrees of responsibility, causal involvement or rights. The case does not decide whether killing and letting die are always morally equal.
+Rachels argues that neither Smith nor Jones behaves better in the story and challenges the claim that killing is intrinsically worse than letting die. The SEP records distinct objections: some challenge whether the cases are properly matched, others dispute the apparent moral equivalence or the inference to a general principle. Iain Brassington, for example, discusses the role of intention and motive in further cases. Rights-based, causal, and responsibility accounts are different approaches, not a single “moderate” position. These disputes do not establish a consensus.
 
 ## 5. Common Misunderstandings
 
-It is not a claim that everyone has a duty to rescue everyone, nor that doctors should be indifferent between the two courses. Rachels is testing a particular inference, and what follows for practice depends on further premises. The scenario involves the death of a child; the discussion here keeps to the reasoning and not to graphic detail.
+The case does not show that everyone has a duty to rescue everyone, nor that doctors should be indifferent between two courses of treatment. Rachels tests a particular inference, and practical conclusions depend on further premises. The scenario involves the death of a child; the discussion here stays with the reasoning rather than graphic detail.
 
 ## 6. Think for Yourself
 
@@ -41,7 +41,7 @@ It is not a claim that everyone has a duty to rescue everyone, nor that doctors 
 
 ## 7. Variations and Extensions
 
-Versions in which the agent has no bad motive, or where preventing the death would be costly, test the distinction in its more plausible forms. A pair of cases that differs in more than one respect cannot isolate the effect of acting versus omitting.
+One can compare cases in which the agent has no bad motive or where preventing death would be costly. These are teaching comparisons, not a summary of a single view held by Rachels’s critics. A pair of cases that differs in more than one respect cannot isolate the effect of acting versus omitting.
 
 ## 8. Related Thought Experiments
 
@@ -51,12 +51,15 @@ Versions in which the agent has no bad motive, or where preventing the death wou
 
 ## 9. Further Reading
 
-- [Stanford Encyclopedia of Philosophy: Doing vs. Allowing Harm](https://plato.stanford.edu/entries/doing-allowing/) — Rachels’s Smith and Jones cases and the debate over whether the killing–letting die distinction matters.
+- [James Rachels, “Active and Passive Euthanasia” (1975)](https://sites.ualberta.ca/~bleier/Rachels_Euthanasia.pdf) — complete text read in a university-hosted reprint reproduced by permission.
+- [NEJM publisher record for “Active and Passive Euthanasia”](https://www.nejm.org/doi/10.1056/NEJM197501092920206) — bibliographic details and abstract; the publisher’s full text is subscriber-only.
+- [Stanford Encyclopedia of Philosophy: Doing vs. Allowing Harm (Fall 2025 edition)](https://plato.stanford.edu/archives/fall2025/entries/doing-allowing/) — Rachels’s cases and named challenges to the argument.
+- [Iain Brassington, “What passive euthanasia is”](https://pmc.ncbi.nlm.nih.gov/articles/PMC7227198/) — a later discussion of intention, motive, and the limits of the inference.
 
 ## 10. Sources and Attribution
 
-The Stanford Encyclopedia of Philosophy entry on doing versus allowing harm was consulted for Rachels’s cases and the critical literature. Rachels’s article itself was not retrieved; the publication details are those given in the sources consulted and should be checked against the original before citation.
+Rachels’s complete article was read in a university-hosted reprint that states it is reproduced by permission. The NEJM publisher record confirms the title, author, date, volume, issue, pages, and DOI, but its full text is subscriber-only. Relevant sections of the Fall 2025 SEP entry and Brassington’s peer-reviewed article were also read. The account attributes arguments to their authors and does not treat their disagreement as a consensus or as proof that any argument succeeds.
 
-Research check: 2026-10-31. Access levels for each reference are recorded in [research/expansion.md](../../research/expansion.md); this is an original educational explanation, not a substitute for the primary texts. Additional comparisons are teaching prompts, not established historical variations.
+Research check: 2026-11-01. Claim-level evidence, access limits, and unresolved issues are recorded in [the source-review ledger](../../research/source-review-batch3-2026-11-01.json).
 
 [Return to collection](../../README.md)

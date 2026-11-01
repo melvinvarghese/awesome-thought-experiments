@@ -1,0 +1,133 @@
+{
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent read-only post-edit review; no human expert review is claimed.",
+  "protocol": "research/source-review-standard.md",
+  "id": "hole-argument",
+  "title": "The Hole Argument",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/physics/hole-argument.md",
+  "status": "source_checked",
+  "scope": "Claim-level traceability review of the complete article, matching dataset record, and relevant expansion-record entry. Focus: passive coordinate covariance versus active diffeomorphisms; the modern hole construction; the conditional inference to physical indeterminism; Einstein’s chronology and point-coincidence response; philosophical responses; and the scope of extensions to local spacetime theories and gauge freedom. This status records traceability, not that a metaphysical interpretation is true or that the argument settles determinism.",
+  "summary": "The full relevant portions of Earman and Norton’s 1987 paper support the modern construction and make the physical-indeterminism inference conditional on treating diffeomorphic models as distinct. Norton’s SEP entry supports the active/passive distinction, history, and responses; selected Einstein 1914 and 1916 passages were consulted through Norton’s translation/transcription, not the complete German originals. Stachel’s specialist review provides additional historical context. The article now distinguishes coordinate relabeling from active transformation, avoids implying that relationism follows, and qualifies extensions to other theories. Independent post-edit review is pending.",
+  "sources": [
+    {
+      "title": "What Price Spacetime Substantivalism? The Hole Story",
+      "author": "John Earman and John Norton",
+      "publication": "The British Journal for the Philosophy of Science 38(4) (1987): 515–525",
+      "stable_url": "https://sites.pitt.edu/~jdnorton/papers/BJPS1987_holearg.pdf",
+      "source_type": "Primary peer-reviewed philosophical argument",
+      "access_level": "Relevant passages from the full article were read, including introduction and §§2–5; not merely its abstract or metadata.",
+      "exact_locations_read": "Introduction pp. 515–517; §§2–5, especially §3 pp. 521–523 on the hole construction and §§4–5 pp. 523–525 on Leibniz equivalence, indeterminism, and conclusions.",
+      "limitations": "This is the 1987 modern philosophical reconstruction, not Einstein’s 1914 paper. It argues against a particular form of spacetime substantivalism; its conclusion is conditional on assumptions about model identity and does not establish relationism."
+    },
+    {
+      "title": "The Hole Argument",
+      "author": "John D. Norton",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 1999, current entry consulted",
+      "stable_url": "https://plato.stanford.edu/entries/spacetime-holearg/",
+      "source_type": "Scholarly reference work / secondary analysis",
+      "access_level": "Relevant full sections and targeted extracts were read.",
+      "exact_locations_read": "§2 on passive and active covariance; §7 summary; §§8.1–8.2 on Einstein’s chronology and point-coincidence response; §§9.1–9.5 on response families; §10.3 on related scope and applications.",
+      "limitations": "A secondary reference work that organizes a disputed literature. It is used to map the technical and interpretive debate, not as the sole source for what Earman, Norton, or Einstein wrote."
+    },
+    {
+      "title": "The Significance of the Hole Argument in General Relativity",
+      "author": "John D. Norton",
+      "publication": "University of Pittsburgh scholarly teaching text; historical account with translated/transcribed source passages",
+      "stable_url": "https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/significance_GR_hole_argument/significance_GR_hole_argument.html",
+      "source_type": "Scholarly historical account containing primary-source translation/transcription",
+      "access_level": "Selected relevant Einstein passages and Norton’s contextual discussion were read; the complete German primary works were not directly consulted.",
+      "exact_locations_read": "Einstein’s 1914 paper, §12, p. 1067, in Norton’s English translation/transcription; Einstein’s 1916 point-coincidence passage (commonly cited at p. 117) and contextual discussion.",
+      "limitations": "The evidence is available through a scholar’s translation/transcription, not direct consultation of the complete original German papers. It supports Einstein’s original argument and later response, not the claim that he used Earman and Norton’s modern 1987 formulation verbatim."
+    },
+    {
+      "title": "The Hole Argument and Some Physical and Philosophical Implications",
+      "author": "John Stachel",
+      "publication": "Living Reviews in Relativity 17 (2014), article 1; DOI 10.12942/lrr-2014-1",
+      "stable_url": "https://link.springer.com/article/10.12942/lrr-2014-1",
+      "source_type": "Open-access specialist review",
+      "access_level": "Relevant full sections were read.",
+      "exact_locations_read": "§§1, 1.1, and 1.3 on Einstein’s chronology, the historical argument, and interpretive implications including dynamic structural realism.",
+      "limitations": "Stachel advances a particular interpretive position; it is not presented as consensus. The article uses it as specialist context for the existence of live interpretations."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The modern hole argument involves an active diffeomorphism of the metric and other fields; this is distinct from merely changing coordinate labels.",
+      "source_title": "The Hole Argument",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-holearg/",
+      "exact_location": "§2, “The Freedom of General Covariance,” on passive coordinate covariance versus active covariance; corroborating specialist supplement and related discussion in Earman and Norton (1987), §§2–3.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised article specifies an active transformation on a fixed manifold and states that the metric and other fields are transformed together; it no longer treats coordinate relabeling as the source of the argument.",
+      "limitation": "The physical interpretation of the resulting mathematical model is a separate disputed question.",
+      "required_edit": "Made: replaced the ambiguous “re-mapping points” shorthand with an active-diffeomorphism explanation."
+    },
+    {
+      "material_claim": "A smooth diffeomorphism that is identity outside a selected region and nontrivial inside yields a mathematically distinct solution matching outside the region.",
+      "source_title": "What Price Spacetime Substantivalism? The Hole Story",
+      "source_url": "https://sites.pitt.edu/~jdnorton/papers/BJPS1987_holearg.pdf",
+      "exact_location": "Introduction pp. 515–517 and §§2–3, especially the Hole Corollary and construction pp. 521–523; SEP §§3 and 7 corroborate the modern formulation.",
+      "relationship": "supports",
+      "finding": "The article now states the bounded transformation and field agreement/difference without implying a temporal “before and after” split.",
+      "limitation": "Einstein’s original form described a matter-free region; the modern construction is not simply an empty physical cavity.",
+      "required_edit": "Made: separated Einstein’s original matter-free setup from the modern region-based construction."
+    },
+    {
+      "material_claim": "The mathematical underdetermination implies physical indeterminism only if diffeomorphism-related models count as distinct physical possibilities; accepting Leibniz equivalence removes that inference.",
+      "source_title": "What Price Spacetime Substantivalism? The Hole Story",
+      "source_url": "https://sites.pitt.edu/~jdnorton/papers/BJPS1987_holearg.pdf",
+      "exact_location": "§3, pp. 521–523, hole corollary; §4, especially p. 524, where accepting Leibniz equivalence is distinguished from physical indeterminism; §5, p. 525.",
+      "relationship": "supports",
+      "finding": "The revised article explicitly states both branches: distinct physical models yield the indeterminism worry; equivalent models yield representational non-uniqueness instead.",
+      "limitation": "Whether model equivalence is correct is a metaphysical and theoretical commitment, not settled by the transformation alone.",
+      "required_edit": "Made: made the inference conditional and framed the central question around point identity and model equivalence."
+    },
+    {
+      "material_claim": "Einstein developed the argument in late 1913, published a version in 1914, later returned to general covariance, and used a point-coincidence response in 1916.",
+      "source_title": "The Significance of the Hole Argument in General Relativity",
+      "source_url": "https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/significance_GR_hole_argument/significance_GR_hole_argument.html",
+      "exact_location": "Translated/transcribed Einstein 1914 §12, p. 1067, and 1916 point-coincidence passage; Norton’s contextual history. Corroborated by SEP §§8.1–8.2 and Stachel §§1–1.3.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised metadata and historical note distinguish Einstein’s original history from Earman and Norton’s 1987 modern reconstruction.",
+      "limitation": "The complete original German primary papers were not directly read; historical passages were consulted via Norton’s translation/transcription and scholarly context.",
+      "required_edit": "Made: corrected the broad 1913–15 attribution and disclosed the translated/transcribed access."
+    },
+    {
+      "material_claim": "Accepting Leibniz equivalence does not by itself establish relationism; sophisticated substantivalism can retain spacetime while identifying diffeomorphism-related models.",
+      "source_title": "What Price Spacetime Substantivalism? The Hole Story",
+      "source_url": "https://sites.pitt.edu/~jdnorton/papers/BJPS1987_holearg.pdf",
+      "exact_location": "§5, p. 525, where Earman and Norton caution that the relationist/substantivalist dichotomy is too crude; SEP §§9.1–9.5, especially discussions of sophisticated substantivalism and distinct response types.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article no longer presents relationism as the argument’s necessary conclusion and describes sophisticated substantivalism as a distinct option.",
+      "limitation": "The literature contains several versions of substantivalism, metric essentialism, structuralism, and determinism; these are not interchangeable or settled by the article’s summary.",
+      "required_edit": "Made: qualified the response taxonomy and stated that the argument alone does not settle the metaphysics."
+    },
+    {
+      "material_claim": "Related versions apply to specified local spacetime theories and can serve as a template for gauge-freedom analysis, but applicability depends on theory and interpretation.",
+      "source_title": "The Hole Argument",
+      "source_url": "https://plato.stanford.edu/entries/spacetime-holearg/",
+      "exact_location": "§2 and §10.3 on local spacetime theories and related gauge applications; Earman and Norton (1987), §§2 and 5, on their theorem’s defined class of theories.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised article limits the extension to related analyses in specified theories and states that details depend on which transformations are treated as gauge-equivalent.",
+      "limitation": "The hole argument should not be generalized to every gauge theory without examining its formal and physical setup.",
+      "required_edit": "Made: qualified the broader extension claim."
+    }
+  ],
+  "edits_made": [
+    "Distinguished passive coordinate relabeling from active diffeomorphism and stated that all relevant fields transform together.",
+    "Separated Einstein’s original matter-free scenario from the modern hole construction and made the inference to physical indeterminism conditional on model identity.",
+    "Reframed response families so the argument does not appear to entail relationism or settle metaphysics.",
+    "Qualified extensions to other theories and gauge freedom; added primary and specialist sources with access limits."
+  ],
+  "unresolved": [
+    "Whether diffeomorphism-related models should be identified as one physical possibility remains a substantive interpretive dispute.",
+    "The complete original German Einstein papers were not directly consulted; selected passages were read in Norton’s translation/transcription.",
+    "The article’s brief treatment does not assess every response family or settle the status of indeterminism under a revised metaphysics."
+  ],
+  "dataset_alignment": "The data/experiments.json record for hole-argument lists the same four Further Reading URLs and has date_verified 2026-11-01. Its original_publication field was corrected after independent review to separate late-1913 development, 1914 publication, and Earman–Norton’s 1987 reconstruction. No public source-review status field was added.",
+  "further_reading_matches": "All four article Further Reading URLs match the dataset record.",
+  "ledger_path": "research/source-review-batch6-item-hole-argument.json",
+  "selection_rank": 3,
+  "risk_reason": "The entry compresses a technical symmetry argument into a metaphysical dilemma; conflating coordinate changes with active transformations or presenting indeterminism/relationism as an unconditional result could misstate the argument.",
+  "audit_focus": "Verify the mathematical construction and its interpretation against Earman–Norton; distinguish Einstein’s original history; check that the article reports responses and extensions without turning them into consensus.",
+  "independent_review": "Pass after one dataset metadata correction. Independent read-only post-edit review confirmed the active/passive distinction, modern construction, conditional indeterminism inference, historical qualification, response summary, access disclosure, and exact Further Reading URL equality. It flagged the dataset original_publication wording; corrected to “Einstein’s late-1913 argument (published in 1914); modern reconstruction by Earman and Norton (1987).” Source_checked is justified for the declared scope. No expert review."
+}

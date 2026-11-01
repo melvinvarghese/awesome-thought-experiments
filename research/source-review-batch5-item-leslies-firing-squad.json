@@ -1,0 +1,284 @@
+{
+  "id": "leslies-firing-squad",
+  "title": "Leslie’s Firing Squad",
+  "article_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/leslies-firing-squad.md",
+  "review_date": "2026-11-01",
+  "reviewer_type": "AI-assisted claim-level source audit with independent post-edit review; no human expert review is claimed.",
+  "protocol_version": "Approved local source-review standard dated 2026-11-01",
+  "status": "source_checked",
+  "scope": "Claim-level check of the firing-squad setup and attribution to John Leslie; the role and limits of observation-selection effects; conditional probability of reporting survival versus likelihood of the observed outcome under competing hypotheses; the fine-tuning analogy; summaries of anthropic, multiverse, design, and brute-fact responses; the survivor-only/many-squads counterarguments; publication details; and whether the Further Reading entries support the article. Editorial prompts and the simplified setup are identified as this article’s teaching framing. The primary Universes passage cited by secondary sources as pp. 13–14 was not retrievable, so the precise primary wording, exact count of marksmen, and complete scope of Leslie’s original argument remain outside verified primary-text access.",
+  "summary": "Relevant SEP, Sober, White, and Weisberg passages support the article’s qualified account of Leslie’s analogy and the competing observation-selection arguments. The article removes the unverified exact count and publisher first-publication claim, labels its setup as a teaching version, and discloses that Leslie’s pages were not accessed. Targeted independent review found the revised material claims traceable through appropriate secondary sources; the exact primary wording remains an access limitation, not an asserted fact.",
+  "sources": [
+    {
+      "title": "Universes",
+      "author": "John Leslie",
+      "publication": "Routledge publisher and University of Southern Indiana catalogue records; SEP cites Leslie 1989:13f.; exact first-publication date not independently established.",
+      "stable_url": "https://www.routledge.com/Universes/Leslie/p/book/9780415139557",
+      "source_type": "Primary philosophical monograph; publisher page used for bibliographic and contents metadata only",
+      "access_level": "URL/publisher metadata only; relevant book passage not accessed",
+      "exact_locations_read": "Publisher landing-page description, contents list, edition/page-count metadata; no substantive passage. SEP cites Leslie (1989: 13f.) for the firing-squad example; Sober cites Leslie (1989, pp. 13–14, 107–108), but those references are not a substitute for reading Leslie’s pages.",
+      "limitations": "Publisher-page metadata did not establish the first-publication date in this review. The original title page and Leslie’s cited argument pages were not accessed."
+    },
+    {
+      "title": "Universes / John Leslie (catalog record)",
+      "author": "University of Southern Indiana Libraries catalog record for John Leslie",
+      "publication": "Catalog record: London; New York: Routledge, 1989; ISBN 0415041449; vii, 228 pages.",
+      "stable_url": "https://library.usi.edu/record/129586?ln=en&p=%28+%28author%3A%22Leslie%2C+John%2C+1940-%22%29%29",
+      "source_type": "University library catalog metadata",
+      "access_level": "Full catalog record read; no book text",
+      "exact_locations_read": "Record title and Details fields (author, publication, ISBN, physical description, call number).",
+      "limitations": "Bibliographic evidence only; does not establish the argument or exact contents of pp. 13–14. It conflicts by one year with the Routledge e-book page’s first-publication date."
+    },
+    {
+      "title": "Fine-Tuning",
+      "author": "Simon Friederich",
+      "publication": "Stanford Encyclopedia of Philosophy; first published 2017, substantive revision 2026-02-26.",
+      "stable_url": "https://plato.stanford.edu/entries/fine-tuning/",
+      "source_type": "Scholarly reference article",
+      "access_level": "Relevant passages in the full web entry read; full entry retrieved by page extraction",
+      "exact_locations_read": "Introduction; §2, especially §2.1 on senses and assignment of probability; §3.1 on the probabilistic design argument; §3.2, “The Anthropic Objection,” including the firing-squad discussion and the Sober/Weisberg/Kotzen dispute; §§4.3–4.4 on multiverse inference and its objections.",
+      "limitations": "A secondary reference account, not Leslie’s primary text; the firing-squad passage points to Leslie 1989:13f. and reports the debate rather than resolving it. The entry also says that the coherence of probability assignments is controversial."
+    },
+    {
+      "title": "The Design Argument",
+      "author": "Elliott Sober",
+      "publication": "Manuscript dated 2002-01-13 for the Blackwell Guide to Philosophy of Religion; the published chapter is listed by Wiley as chapter 6 (2005).",
+      "stable_url": "https://anthropic-principle.com/preprints/sober2.pdf",
+      "source_type": "Scholarly chapter manuscript; primary source for Sober’s own analysis, secondary account of Leslie",
+      "access_level": "PDF downloaded, parsed, and relevant full-text passages read",
+      "exact_locations_read": "Manuscript pp. 20–22: Sober introduces Swinburne’s rendition of a case Leslie presents (12 expert marksmen firing 12 rounds each; all 144 miss), distinguishes likelihood from conditionalization, discusses the prisoner and bystander, and presents a thousand-survivor estimation/reunion challenge. Manuscript pp. 20–21 explicitly frames the quoted scenario as Swinburne’s rendition, not a verbatim Leslie quotation.",
+      "limitations": "Not the primary book text and the quoted variant is attributed to Swinburne’s rendition. The manuscript supports the existence and structure of the debate but cannot verify the exact Leslie wording/count. Its own analysis is one position in the dispute."
+    },
+    {
+      "title": "Fine-Tuning and Multiple Universes",
+      "author": "Roger White",
+      "publication": "Noûs 34(2), 260–276 (2000); DOI 10.1111/0029-4624.00210.",
+      "stable_url": "https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+      "source_type": "Peer-reviewed philosophical analysis; secondary discussion of Leslie’s analogy and White’s own argument",
+      "access_level": "Full PDF downloaded and parsed; relevant sections and notes read",
+      "exact_locations_read": "§V, “The Observational Selection Effect,” pp. 265–268; §VIII, pp. 272–273; endnote 18, p. 274, which invokes Leslie’s 1989 firing-squad analogy and argues that survival does not support a “Multiple Firing Squad” hypothesis merely because many others may face similar squads.",
+      "limitations": "White’s objection is an argument, not a consensus result; it concerns confirmation and the multiverse inference. It is distinct from a sample of reports gathered only at a survivor reunion."
+    },
+    {
+      "title": "Firing Squads and Fine-Tuning: Sober on the Design Argument",
+      "author": "Jonathan Weisberg",
+      "publication": "British Journal for the Philosophy of Science 56(4), 809–821 (2005); DOI 10.1093/bjps/axi139.",
+      "stable_url": "https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+      "source_type": "Peer-reviewed philosophical analysis; secondary discussion of the analogy and response to Sober",
+      "access_level": "Author-hosted full PDF retrieved; relevant passages read",
+      "exact_locations_read": "Sections “Design and the Anthropic Objection,” “Variations: experimental squads and survivor reunions,” and “Why there is no OSE in firing squad cases,” including the discussion of randomly selected versus survivor-selected samples and the experimental-gun variant (author PDF pp. 1–7; published pagination 809–815 approximately).",
+      "limitations": "Weisberg argues against Sober’s treatment; it is not a neutral consensus statement or Leslie’s primary text. The article’s conclusion about the counterexample remains part of a philosophical disagreement."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "material_claim": "The firing-squad setup has a condemned prisoner who survives after the marksmen fire; the article presents a concise version of this case.",
+      "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+      "exact_location": "SEP §3.2 describes a prisoner expecting execution who finds himself alive after all marksmen fire. Sober manuscript pp. 20–21 reproduces Swinburne’s rendition of Leslie’s case with twelve marksmen firing twelve rounds each.",
+      "relationship": "supports_with_qualification",
+      "finding": "The core structure is confirmed by scholarly accounts. The specific version in Sober differs in count and attribution detail from the article’s former ‘fifty marksmen’ wording. The revised article now presents an explicitly editorial, count-free teaching version.",
+      "limitation": "Neither source passage is Leslie’s own book text; SEP does not specify the number and Sober explicitly labels the quoted account Swinburne’s rendition.",
+      "required_edit": "Applied: removed the unsupported specific count and stated that this is a teaching version, not a verified transcription. Exact original setup remains unresolved pending pp. 13–14 of Universes."
+    },
+    {
+      "material_claim": "The original source’s exact setup used fifty marksmen and the particular ‘tied to a post’ description.",
+      "source_title": "Universes; Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+      "source_url": "https://www.routledge.com/Universes/Leslie/p/book/9780415139557 ; https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+      "exact_location": "No primary passage accessed. SEP §3.2 gives no count; Sober manuscript pp. 20–21 gives a different 12-by-12 rendition and cites Leslie 1989, pp. 13–14.",
+      "relationship": "does_not_establish",
+      "finding": "The accessed material does not establish the former specific number or wording against Leslie’s text.",
+      "limitation": "The primary source pages were unavailable; other secondary tellings vary in formulation.",
+      "required_edit": "Applied: removed the number and disclosed that the exact primary wording and count have not been verified."
+    },
+    {
+      "material_claim": "Leslie’s analogy is used to challenge the claim that observation selection alone removes the need for explanation or makes survival evidentially irrelevant.",
+      "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+      "exact_location": "SEP §3.2: the prisoner’s observation is selected because he cannot observe a post-execution state; it reports that Sober’s analysis would not make suspicion of intended misses rational and that this result seems implausible to Leslie, Weisberg, and Kotzen. Sober manuscript pp. 20–22 sets out Swinburne’s rendition and his own objection to the inference.",
+      "relationship": "supports_with_qualification",
+      "finding": "The broad attribution is supported as a reported role in the debate, but the argument’s force and implications are disputed. The accessible texts do not establish Leslie’s exact words or that he personally makes every simplified claim formerly placed in his mouth.",
+      "limitation": "SEP and Sober are secondary to Leslie; Sober’s text distinguishes the prisoner’s point of view and separates likelihood from conditional probability.",
+      "required_edit": "Applied: replaced ‘Leslie replies’/‘calls out for an explanation’ with a qualified account of how the analogy is used, and stated that the analogy does not decide among explanations."
+    },
+    {
+      "material_claim": "The probability of being alive conditional on being able to report survival is certain, but that conditional is not the same as the probability of the observed event under competing hypotheses.",
+      "source_title": "The Design Argument (Sober manuscript); Fine-Tuning (SEP); Firing Squads and Fine-Tuning (Weisberg)",
+      "source_url": "https://anthropic-principle.com/preprints/sober2.pdf ; https://plato.stanford.edu/entries/fine-tuning/ ; https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+      "exact_location": "Sober manuscript pp. 20–22 distinguishes likelihood claims such as Pr(survived | design) from conditioning on the fact of survival and compares the prisoner’s and bystander’s evidence. SEP §3.2 sets out Sober’s OSE formulation and Weisberg’s alternative; Weisberg, “Design and the Anthropic Objection” and following sections, distinguishes the likelihood and conditionalization arguments.",
+      "relationship": "supports_with_qualification",
+      "finding": "The distinction is well supported, but philosophical positions differ over which formulation and background evidence the prisoner should use. A trivial certainty after conditioning on being able to report is not itself a verdict about the unconditioned likelihood or the posterior comparison.",
+      "limitation": "The probabilities depend on hypotheses, background information, and a specified sampling/observation process; the papers do not establish a single uncontested numerical model for the firing-squad case or physical constants.",
+      "required_edit": "Applied: replaced the compressed ‘observation guaranteed versus existence improbable’ sentence with an explicit distinction and caveat about competing hypotheses and contested conditioning."
+    },
+    {
+      "material_claim": "Fine-tuning debates concern life-permitting ranges of physical constants and the analogy is deployed against an anthropic/observation-selection response.",
+      "source_title": "Fine-Tuning (SEP)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/",
+      "exact_location": "Introduction and §2.1 define fine-tuning as sensitive dependence on narrow parameter ranges and describe physical and logical probability difficulties; §3.2 describes observation selection and the firing-squad objection.",
+      "relationship": "supports_with_qualification",
+      "finding": "The general framing is supported. The SEP expressly cautions that the relevant probabilities are controversial and that fine-tuning’s alleged improbability is not straightforwardly established by parameter sensitivity alone.",
+      "limitation": "This is an overview of the debate, not an independent verification of each physical fine-tuning example or a determination that the constants are improbable.",
+      "required_edit": "Applied: added that the inference and probability assignment are disputed rather than stating that the analogy settles the explanation question."
+    },
+    {
+      "material_claim": "Anthropic or observation-selection responses emphasize that observers can only observe conditions compatible with their existence.",
+      "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+      "exact_location": "SEP §3.2, “The Anthropic Objection,” introduces Carter’s weak/strong anthropic principle and explains the observer bias; Sober manuscript pp. 20–22 formalizes an observation-selection effect for the prisoner.",
+      "relationship": "supports_with_qualification",
+      "finding": "The broad position is accurately represented, but the SEP distinguishes anthropic principles and competing formalizations of the observation-selection effect. The article no longer claims that this response by itself resolves the issue.",
+      "limitation": "The definition does not dictate how OSE should enter every likelihood or Bayesian comparison.",
+      "required_edit": "Applied: qualified this as a response and noted the dispute about background information and probability."
+    },
+    {
+      "material_claim": "Multiverse responses propose that a sufficiently varied ensemble can make life-permitting conditions occur somewhere, while inference from that fact is disputed and sampling matters.",
+      "source_title": "Fine-Tuning (SEP); Fine-Tuning and Multiple Universes (White)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+      "exact_location": "SEP §4.3 presents the inverse-gambler’s-fallacy dispute, including the difference between life in some universe and this universe; §4.4 notes the importance of independent evidence. White §VIII, pp. 272–273 and endnote 18, p. 274, argues that many universes do not by themselves raise the probability that this universe is life-permitting.",
+      "relationship": "supports_with_qualification",
+      "finding": "The article’s revised schematic summary is supported. A multiverse may be proposed as an explanation of some-universe life-friendliness, but whether it explains or confirms our observed universe depends on the hypothesis and observer-selection assumptions; White rejects the inference from survival alone.",
+      "limitation": "The SEP documents multiple opposing views; White’s argument is not a settled result. ‘Many trials’ is an oversimplification unless a relevant distribution and sampling rule are specified.",
+      "required_edit": "Applied: replaced ‘many trials make the outcome likely somewhere’ with a qualified ensemble description and explicit sampling dependence."
+    },
+    {
+      "material_claim": "Design responses treat fine-tuning as evidence that may support a designer hypothesis, not as a proof or a deduction of purpose from the analogy.",
+      "source_title": "Fine-Tuning (SEP); The Design Argument (Sober manuscript)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://anthropic-principle.com/preprints/sober2.pdf",
+      "exact_location": "SEP §3.1 gives the Bayesian likelihood formulation P(R|D) > P(R|¬D), discusses its assumptions and priors; §3.2 details the anthropic objection. Sober manuscript pp. 20–22 analyzes the firing-squad inference under likelihood and conditionalization approaches.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revised description correctly treats design as an evidential proposal rather than a conclusion forced by the analogy. SEP records disputes about both probabilities and the assumption that a designer would create life-friendly conditions.",
+      "limitation": "The source supports description of the argument, not the truth of design or the claim that all fine-tuning arguments have the same form.",
+      "required_edit": "Applied: removed the historical assertion that Leslie made no claim of design, which could not be checked against his own text; clarified that this analogy itself does not prove design."
+    },
+    {
+      "material_claim": "Brute-fact responses accept life-friendly conditions as a primitive or unexplained given.",
+      "source_title": "Fine-Tuning (SEP)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/",
+      "exact_location": "Introduction: one proposed reaction is that fine-tuning is a lucky coincidence accepted as a primitive given; §2 discusses whether fine-tuning requires a response.",
+      "relationship": "supports",
+      "finding": "The article’s short description accurately summarizes an option identified by the scholarly overview.",
+      "limitation": "This is a taxonomy of positions; it does not establish that a brute-fact response is correct or that all proponents use the same formulation.",
+      "required_edit": "Applied: phrased as one response and kept the summary explicitly schematic."
+    },
+    {
+      "material_claim": "Whether probability assignments over possible physical constants are principled is disputed.",
+      "source_title": "Fine-Tuning (SEP)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/",
+      "exact_location": "§2.1, “In Which Sense Are Life-Friendly Conditions Improbable?” discusses the difficulties with physical and logical probability, including critics’ objections to arbitrary measures and priors.",
+      "relationship": "supports",
+      "finding": "Directly supported by the overview, which calls the coherent probabilistic formulation controversial and presents arguments on both sides.",
+      "limitation": "The section surveys arguments; it does not resolve them or supply one agreed probability distribution.",
+      "required_edit": "No further edit required; article now labels this dispute expressly."
+    },
+    {
+      "material_claim": "Roger White’s many-squads comparison says that survival being less surprising among many people does not by itself support a multiple-firing-squad or multiverse hypothesis.",
+      "source_title": "Fine-Tuning and Multiple Universes (White)",
+      "source_url": "https://web.mit.edu/rog/www/papers/fine_tuning.pdf",
+      "exact_location": "§VIII, pp. 272–273, and endnote 18, p. 274: White says survival is astonishing if alone but less amazing if billions face similar squads, yet survival gives no reason to accept the Multiple Firing Squad hypothesis.",
+      "relationship": "supports",
+      "finding": "The article’s newly attributed account of White’s counterargument tracks the passage and keeps it distinct from the survivor-reunion sampling case.",
+      "limitation": "White argues against an inference; this passage is not proof that a multiverse is false, nor a direct treatment of every possible observer-sampling model.",
+      "required_edit": "Applied: named White and recast his point as a counterargument, not an established variation or conditional truth."
+    },
+    {
+      "material_claim": "Sober’s survivor reunion and Weisberg’s reply distinguish a sample selected only from survivors from a randomly selected sample that could inform a survival-rate estimate.",
+      "source_title": "The Design Argument (Sober manuscript); Firing Squads and Fine-Tuning (Weisberg)",
+      "source_url": "https://anthropic-principle.com/preprints/sober2.pdf ; https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf",
+      "exact_location": "Sober manuscript pp. 21–22 describes a thousand survivors pooling observations and challenges the inference to a survival probability of unity. Weisberg, “Variations: experimental squads and survivor reunions,” especially the pages following the experimental-gun case (author PDF pp. 5–7), argues that evidence depends on whether survivors were randomly selected or gathered at a survivor reunion.",
+      "relationship": "supports_with_qualification",
+      "finding": "The revision accurately reports Sober’s hypothetical and Weisberg’s reply. The survivor-selected sample cannot estimate the rate in the same way as a random sample; the conclusion about what one individual may infer remains contested.",
+      "limitation": "Weisberg’s response is a philosophical argument; it does not settle the broader dispute about observer selection in cosmology.",
+      "required_edit": "Applied: separated the survivor-reunion example from White’s many-squads counterargument and attributed the response to Weisberg."
+    },
+    {
+      "material_claim": "The book’s publication year is associated with 1989, but publisher metadata gives 1990 for first publication.",
+      "source_title": "Universes / USI library catalog; Routledge Universes product page; Fine-Tuning (SEP)",
+      "source_url": "https://library.usi.edu/record/129586?ln=en&p=%28+%28author%3A%22Leslie%2C+John%2C+1940-%22%29%29 ; https://www.routledge.com/Universes/Leslie/p/book/9780415139557 ; https://plato.stanford.edu/entries/fine-tuning/",
+      "exact_location": "USI catalog Details field gives Routledge, 1989; Routledge/Taylor & Francis book record says first published 1990; SEP §3.2 cites Leslie 1989:13f.",
+      "relationship": "supports_with_qualification",
+      "finding": "The records do differ by a year. Retaining 1989 without qualification would conceal the discrepancy; it is appropriate to state the catalog and publisher metadata separately.",
+      "limitation": "The bibliographic records do not determine whether this reflects publication chronology, edition/copyright dating, or metadata convention; the original title page was not seen.",
+      "required_edit": "Applied: stated the discrepancy in the article’s publication line and source note."
+    },
+    {
+      "material_claim": "The Further Reading sources are relevant to the article’s substantive subject and counterarguments.",
+      "source_title": "Fine-Tuning (SEP); Fine-Tuning and Multiple Universes (White); Firing Squads and Fine-Tuning (Weisberg); The Design Argument (Sober manuscript)",
+      "source_url": "https://plato.stanford.edu/entries/fine-tuning/ ; https://web.mit.edu/rog/www/papers/fine_tuning.pdf ; https://jonathanweisberg.org/pdf/SobervBJPS3.SP.pdf ; https://anthropic-principle.com/preprints/sober2.pdf",
+      "exact_location": "SEP §3.2 and §4.3; White §V and §VIII/endnote 18; Weisberg sections on the anthropic objection, survivor reunions, and OSE; Sober manuscript pp. 20–22.",
+      "relationship": "supports",
+      "finding": "Each listed further-reading item addresses the firing-squad analogy, the observation-selection debate, or the specific counterarguments now summarized.",
+      "limitation": "Sober’s linked copy is a chapter manuscript, and none of these secondary works substitutes for direct access to Leslie’s book.",
+      "required_edit": "Applied: retained SEP, added White, Weisberg, and the consulted Sober manuscript with descriptions of their roles."
+    },
+    {
+      "material_claim": "The central question and reflection prompts are original teaching framing rather than historical claims attributed to Leslie.",
+      "source_title": "Leslie’s Firing Squad (local article)",
+      "source_url": "file:///workspace/awesome-thought-experiments/.worktrees/source-audit/experiments/science-and-biology/leslies-firing-squad.md",
+      "exact_location": "§2, §6, and §7; article §10 states additional comparisons are teaching prompts, not established historical variations.",
+      "relationship": "context_only",
+      "finding": "Prompts about surprise, intention, and assigning probabilities are editorial questions. The revised setup explicitly identifies itself as a teaching version and avoids presenting those prompts as Leslie’s own wording.",
+      "limitation": "The local article cannot serve as external evidence for Leslie’s historical wording.",
+      "required_edit": "Applied: explicitly labeled the simplified setup and counterargument status; no change to the reflection questions was needed."
+    }
+  ],
+  "edits_made": [
+    "Removed the unverified specific claim of fifty marksmen; retained a simplified firing-squad setup and labeled it as a teaching version rather than a verified transcription.",
+    "Replaced direct-sounding attribution that Leslie ‘replies’ with a qualified description of how the analogy is used in the anthropic-objection debate.",
+    "Rewrote the probability explanation to distinguish certainty conditional on being able to report survival from the probability/likelihood of the observed outcome under competing hypotheses, and noted that conditioning remains disputed.",
+    "Qualified the summaries of anthropic, multiverse, design, and brute-fact responses and stated that the analogy does not prove design or settle fine-tuning probabilities.",
+    "Separated White’s many-squads counterargument from Sober’s survivor-reunion example and Weisberg’s sampling reply; attributed each to its author.",
+    "Qualified the publication year to report the 1989 library/SEP citation and 1990 publisher metadata discrepancy.",
+    "Added Sober, White, and Weisberg to Further Reading, revised the source-access disclosure, and updated the article’s research-check date to 2026-11-01.",
+    "Removed the unsupported claim that publisher metadata establishes 1990 as the first-publication year; now reports the 1989 citation found in SEP and the university catalogue and explicitly leaves the exact date unresolved.",
+    "Synchronized the dataset references and verification date with the article."
+  ],
+  "unresolved": [
+    "Leslie’s cited pages were not accessed; exact original wording and numbers remain unauthenticated, and the article labels its setup as a teaching version.",
+    "Exact first-publication date remains unresolved; SEP and the USI catalogue cite 1989.",
+    "Fine-tuning probability assignments and the philosophical dispute remain unsettled; no consensus or expert review is claimed."
+  ],
+  "dataset_alignment": "After the audit, the dataset record’s identity, publication wording, verification date (2026-11-01), and four references match the article. The SEP and USI catalogue cite 1989; the exact first-publication date is explicitly unresolved. The dataset and article URL sets are identical.",
+  "further_reading_matches": true,
+  "ledger_path": "/workspace/awesome-thought-experiments/.worktrees/source-audit/research/source-review-batch5-item-leslies-firing-squad.json",
+  "protocol": "research/source-review-standard.md",
+  "selection_rank": 2,
+  "risk_reason": "The article maps a contested observation-selection analogy to fine-tuning and attributes claims to Leslie while the primary pages were inaccessible; it also made an uncertain publication-date claim.",
+  "audit_focus": "Check the firing-squad setup, what Leslie’s analogy is used to argue, likelihood versus conditioning, named counterarguments, and the exact limits of bibliographic evidence.",
+  "independent_review": {
+    "initial_outcome": "issues_found",
+    "initial_summary": "The substantive summaries of the firing-squad debate and counterarguments were supported by reopened SEP, Sober, White, and Weisberg passages. The first recheck could not verify the statement that the publisher’s metadata established 1990 as the first-publication year, noted inaccessible Leslie primary pages, and found that three article Further Reading URLs were missing from the dataset.",
+    "initial_findings": [
+      {
+        "severity": "access_limit",
+        "finding": "The statement that the Routledge e-book metadata says “first published 1990” was not verifiable from the publisher page.",
+        "resolution": "Removed the unsupported 1990-first-publication assertion; the article now reports only that SEP and a university library catalogue cite 1989, and says the exact first-publication date is not established."
+      },
+      {
+        "severity": "minor",
+        "finding": "Three of four article Further Reading URLs were absent from dataset references.",
+        "resolution": "Added the three matching source records; final targeted reviewer confirmed exact URL equality."
+      },
+      {
+        "severity": "access_limit",
+        "finding": "Leslie’s cited primary pages were not accessed.",
+        "resolution": "The count-free scenario is explicitly labeled a teaching version, and the article discloses that Leslie’s wording/pages were not checked. Targeted final reviewer found the revised material claims traceable through appropriate secondary passages."
+      }
+    ],
+    "follow_up": "Targeted independent final review recommended source_checked. SEP §3.2 and the USI library catalogue support the article’s limited 1989 citation; Sober, White, and Weisberg support the qualified summaries. Exact details of Leslie’s own wording remain disclosed as unverified, not asserted as authenticated.",
+    "final_outcome": "clear",
+    "final_status": "source_checked",
+    "sources_reopened": [
+      "SEP Fine-Tuning, §3.2",
+      "USI library catalogue record for Universes",
+      "Sober, The Design Argument, pp. 20–22",
+      "White, Fine-Tuning and Multiple Universes, §§V and VIII",
+      "Weisberg, Firing Squads and Fine-Tuning, relevant sections"
+    ],
+    "remaining_limitations": [
+      "Leslie’s cited pages were not accessed; exact original wording and numbers remain unauthenticated, and the article labels its setup as a teaching version.",
+      "Exact first-publication date remains unresolved; SEP and the USI catalogue cite 1989.",
+      "Fine-tuning probability assignments and the philosophical dispute remain unsettled; no consensus or expert review is claimed."
+    ]
+  }
+}
