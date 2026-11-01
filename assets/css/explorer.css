@@ -379,7 +379,7 @@ select {
 
 .explorer-layout {
   display: grid;
-  grid-template-columns: minmax(13rem, 0.31fr) minmax(0, 1fr);
+  grid-template-columns: minmax(18rem, 0.35fr) minmax(0, 1fr);
   gap: clamp(1.5rem, 4vw, 3.5rem);
   margin-top: var(--space-8);
   align-items: start;

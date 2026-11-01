@@ -104,6 +104,10 @@ class HomepageShellTests(unittest.TestCase):
             if href.lower().endswith((".css", ".mjs", ".js")):
                 self.assertFalse(href.startswith(("http://", "https://", "//")), href)
 
+    def test_desktop_filter_rail_has_room_for_long_selected_labels(self):
+        css = (ROOT / "assets/css/explorer.css").read_text(encoding="utf-8")
+        self.assertRegex(css, r"grid-template-columns:\s*minmax\(18rem,\s*0\.35fr\)")
+
 
 if __name__ == "__main__":
     unittest.main()
